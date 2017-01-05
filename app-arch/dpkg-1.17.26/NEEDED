@@ -1,0 +1,8 @@
+/usr/bin/dpkg-statoverride libc.so.6
+/usr/bin/dpkg-deb libz.so.1,liblzma.so.5,libbz2.so.1,libc.so.6
+/usr/bin/dpkg-divert libc.so.6
+/usr/bin/dpkg-split libc.so.6
+/usr/bin/update-alternatives libc.so.6
+/usr/bin/dpkg-trigger libc.so.6
+/usr/bin/dpkg libc.so.6
+/usr/bin/dpkg-query libc.so.6

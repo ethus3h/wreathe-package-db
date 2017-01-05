@@ -1,0 +1,24 @@
+dir /usr
+dir /usr/lib64
+dir /usr/lib64/misc
+dir /usr/lib64/misc/utempter
+obj /usr/lib64/misc/utempter/utempter bd9fc836516432733423b74bed8129db 1465092772
+obj /usr/lib64/libutempter.so.1.1.6 3655b60cbfeaf16568008ed40994e161 1465092772
+dir /usr/include
+obj /usr/include/utempter.h b3b409d24e68f2933245cb8abe553d58 1288890893
+dir /usr/sbin
+sym /usr/sbin/utempter -> ../lib64/misc/utempter/utempter 1465092773
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libutempter-1.1.6-r1
+obj /usr/share/doc/libutempter-1.1.6-r1/README.bz2 e9b7d44ed4b4d57880a3e993157cb392 1465092771
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/utempter.3.bz2 8c27827963bc0ade738fae0f4c1290ac 1288890893
+sym /usr/share/man/man3/utempter_add_record.3.bz2 -> utempter.3.bz2 1465092773
+sym /usr/share/man/man3/utempter_remove_added_record.3.bz2 -> utempter.3.bz2 1465092773
+sym /usr/share/man/man3/utempter_set_helper.3.bz2 -> utempter.3.bz2 1465092773
+sym /usr/share/man/man3/utempter_remove_record.3.bz2 -> utempter.3.bz2 1465092773
+sym /usr/share/man/man3/libutempter.3.bz2 -> utempter.3.bz2 1465092773
+sym /usr/lib64/libutempter.so.0 -> libutempter.so.1.1.6 1465092773
+sym /usr/lib64/libutempter.so -> libutempter.so.0 1465092773

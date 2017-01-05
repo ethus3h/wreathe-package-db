@@ -1,0 +1,45 @@
+dir /opt
+dir /opt/brother
+dir /opt/brother/Printers
+dir /opt/brother/Printers/dcpj925dw
+dir /opt/brother/Printers/dcpj925dw/inf
+obj /opt/brother/Printers/dcpj925dw/inf/ImagingArea 498cd6cf88d5526915ca7b1fbca959bb 1469136338
+dir /opt/brother/Printers/dcpj925dw/inf/lut
+obj /opt/brother/Printers/dcpj925dw/inf/lut/BRPRI11AM.BCM e24e1b12b8d21e234850b05ee3f889ba 1469136338
+obj /opt/brother/Printers/dcpj925dw/inf/lut/BRPRI11AB.BCM 1e79e006826d28f10fc750ed588dc876 1469136338
+obj /opt/brother/Printers/dcpj925dw/inf/lut/BRPRI11AH.BCM fffec19767201fc187700fb8b2992211 1469136338
+obj /opt/brother/Printers/dcpj925dw/inf/lut/BRPRI11AK.BCM 3569441c4bb9657578bfe505e96e6753 1469136338
+obj /opt/brother/Printers/dcpj925dw/inf/lut/BRPRI11AC.BCM 6238ec56e3ad6f843cd3c0241c9734d6 1469136338
+obj /opt/brother/Printers/dcpj925dw/inf/lut/BRPRI11AF.BCM 9fad38432965776be2de2d758532a112 1469136338
+obj /opt/brother/Printers/dcpj925dw/inf/lut/BRPRI11AG.BCM 1b28a00056e9d08527c16669f4b832b0 1469136338
+obj /opt/brother/Printers/dcpj925dw/inf/lut/BRPRI11AI.BCM bb210e5759423162fe4fd7c7ab122eff 1469136338
+obj /opt/brother/Printers/dcpj925dw/inf/lut/BRPRI11AA.BCM 1bf6ec3fed0d36b9553e825f5fc5acc3 1469136338
+obj /opt/brother/Printers/dcpj925dw/inf/lut/BRPRI11AE.BCM 66965d01a95cebd7df6cd7897580490a 1469136338
+obj /opt/brother/Printers/dcpj925dw/inf/lut/BRPRI11AL.BCM 5c71e233370d031e9740ba245c2486ce 1469136338
+obj /opt/brother/Printers/dcpj925dw/inf/lut/BRPRI11AD.BCM c52fb3283b6f6347cfd12e5fd94eec30 1469136338
+obj /opt/brother/Printers/dcpj925dw/inf/paperinfij2 147b94bf3cb849d1ce11e94a73edbc6d 1469136338
+obj /opt/brother/Printers/dcpj925dw/inf/brdcpj925dwfunc e1fcb13b56c610ef2f5d51512f663bd2 1469136338
+dir /opt/brother/Printers/dcpj925dw/cupswrapper
+obj /opt/brother/Printers/dcpj925dw/cupswrapper/brother_dcpj925dw_printer_en.ppd d9fae38dcbf5abae37064df61f00c5ad 1469136338
+dir /opt/brother/Printers/dcpj925dw/lpd
+obj /opt/brother/Printers/dcpj925dw/lpd/brdcpj925dwfilter d125d5375a0bd5ce1be43d897f6cf763 1469136338
+obj /opt/brother/Printers/dcpj925dw/lpd/psconvertij2 2a9d6873110a31d61b1c1918fc7f5151 1469136338
+obj /opt/brother/Printers/dcpj925dw/lpd/filterdcpj925dw 9ed34198c85e5f520a1afd993e88bd55 1469136338
+dir /etc
+dir /etc/opt
+dir /etc/opt/brother
+dir /etc/opt/brother/Printers
+dir /etc/opt/brother/Printers/dcpj925dw
+dir /etc/opt/brother/Printers/dcpj925dw/inf
+obj /etc/opt/brother/Printers/dcpj925dw/inf/brdcpj925dwrc d309bd024950fbedd133805926735121 1469136338
+dir /usr
+dir /usr/libexec
+dir /usr/libexec/cups
+dir /usr/libexec/cups/filter
+sym /usr/libexec/cups/filter/brother_lpdwrapper_dcpj925dw -> /opt/brother/Printers/dcpj925dw/lpd/filterdcpj925dw 1469136343
+dir /usr/share
+dir /usr/share/cups
+dir /usr/share/cups/model
+dir /usr/share/cups/model/Brother
+sym /usr/share/cups/model/Brother/brother_dcpj925dw_printer_en.ppd -> /opt/brother/Printers/dcpj925dw/cupswrapper/brother_dcpj925dw_printer_en.ppd 1469136343
+sym /opt/brother/Printers/dcpj925dw/inf/brdcpj925dwrc -> /etc/opt/brother/Printers/dcpj925dw/inf/brdcpj925dwrc 1469136343

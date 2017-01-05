@@ -1,0 +1,144 @@
+dir /lib
+dir /lib/udev
+obj /lib/udev/udev-add-printer e9e1481d45d5f530624e92512b04b015 1467030404
+obj /lib/udev/udev-configure-printer 578a0912755ebad6da5f5abc141f3c8b 1467030405
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/70-printers.rules 929195aecec3a96e81f276c5c1c86f19 1467030402
+dir /etc
+dir /etc/xdg
+dir /etc/xdg/autostart
+obj /etc/xdg/autostart/Gentoo-print-applet.desktop fb20ab97295db6b3fa189632eded1cc0 1467030401
+dir /etc/cupshelpers
+obj /etc/cupshelpers/preferreddrivers.xml 0b19e50addd76f454133ab2039f5f1c8 1467030401
+dir /etc/dbus-1
+dir /etc/dbus-1/system.d
+obj /etc/dbus-1/system.d/com.redhat.NewPrinterNotification.conf 8df3896101328880517f530c11fff877 1467030401
+obj /etc/dbus-1/system.d/com.redhat.PrinterDriversInstaller.conf d81013f5bfeece9858706aed938e16bb 1467030401
+dir /usr
+dir /usr/lib
+dir /usr/lib/systemd
+dir /usr/lib/systemd/system
+obj /usr/lib/systemd/system/configure-printer@.service 5926c6284b6619d555d7c5b2ac1740c0 1467030401
+dir /usr/lib64
+dir /usr/lib64/python2.7
+dir /usr/lib64/python2.7/site-packages
+dir /usr/lib64/python2.7/site-packages/cupshelpers
+obj /usr/lib64/python2.7/site-packages/cupshelpers/installdriver.py bdac5a8b46b9722ce67bd299d3b039b1 1467030404
+obj /usr/lib64/python2.7/site-packages/cupshelpers/ppds.py 4b056ce5f9cf32ac25a9c6a1facaaf9c 1467030404
+obj /usr/lib64/python2.7/site-packages/cupshelpers/cupshelpers.py 7cb275e65c3177953723bb8b13f9ab2d 1426605303
+obj /usr/lib64/python2.7/site-packages/cupshelpers/__init__.py 3af512c8c1cc0e7241dbad21c2410a2f 1426605303
+obj /usr/lib64/python2.7/site-packages/cupshelpers/xmldriverprefs.py 3d7b863980ff6fa1e6cd5105dbed5fea 1467030404
+obj /usr/lib64/python2.7/site-packages/cupshelpers/openprinting.py 88e34ec4129407ad9b8fd263c66a3b08 1467030404
+obj /usr/lib64/python2.7/site-packages/cupshelpers/config.py 4a94933780b8a812d6ede126f5cf80f0 1467030400
+obj /usr/lib64/python2.7/site-packages/cupshelpers-1.0-py2.7.egg-info 02fdb7d793dd22ce4cd8e91158688bb2 1467030401
+dir /usr/bin
+obj /usr/bin/scp-dbus-service 62cb92e70c55e79cfeb29296ecbe8a48 1467030401
+obj /usr/bin/install-printerdriver 96721149e41a5dc21f43ac142632cc60 1467030401
+obj /usr/bin/system-config-printer-applet 6415fc767d53a0ebe1905cef920a7f53 1467030401
+obj /usr/bin/system-config-printer 56b2202746bd9e95a0355830bcb1982e 1467030401
+dir /usr/share
+dir /usr/share/appdata
+obj /usr/share/appdata/system-config-printer.appdata.xml 92fe0cb744942425ecb8724044066550 1467030401
+dir /usr/share/doc
+dir /usr/share/doc/system-config-printer-1.4.8
+obj /usr/share/doc/system-config-printer-1.4.8/README.bz2 98cda3d966d8987e9735fb676e71bc1d 1467030402
+obj /usr/share/doc/system-config-printer-1.4.8/AUTHORS 064e5594f11b0aae103b5476960f027d 1467030402
+obj /usr/share/doc/system-config-printer-1.4.8/ChangeLog.bz2 eb8fe4229ad18ea53c1716a70d841305 1467030402
+dir /usr/share/system-config-printer
+obj /usr/share/system-config-printer/installpackage.py 8e465a143d24073f6002101404b35e71 1467030404
+obj /usr/share/system-config-printer/timedops.py 8c29e97587725da3060b14712d9f1051 1467030404
+obj /usr/share/system-config-printer/asyncpk1.py 6eb03d0a51c402750cba6e7800e8c65f 1467030403
+obj /usr/share/system-config-printer/userdefault.py efd97e5b69be70b5a9abbab4afe3e664 1467030403
+obj /usr/share/system-config-printer/ppdcache.py 18b580cb3ae166ba6f5b0e268c5a6511 1467030403
+obj /usr/share/system-config-printer/dnssdresolve.py 5e889c37bd0ec03691aed66aed561c0c 1467030403
+obj /usr/share/system-config-printer/printerproperties.py cfd059baa3f06333bc784d0262b30317 1467030403
+obj /usr/share/system-config-printer/debug.py 7470cd4263a4c835e86315b50473224f 1467030403
+obj /usr/share/system-config-printer/scp-dbus-service.py ce21b8b2d52125e48b3c0c4cdd2ea743 1467030403
+obj /usr/share/system-config-printer/statereason.py 13308fc691ff2b9cf7e4dfbbde8e3e00 1467030403
+obj /usr/share/system-config-printer/SearchCriterion.py d7f8e832a29bd3c50988263239fc865c 1467030401
+obj /usr/share/system-config-printer/asyncipp.py 18ddfee18e665ea15791ba03db409061 1467030403
+dir /usr/share/system-config-printer/xml
+obj /usr/share/system-config-printer/xml/preferreddrivers.rng fe20ac4884f4557ee5bb0d1a117934da 1467030401
+obj /usr/share/system-config-printer/xml/validate.py 7314f53920e3a0ec861697a82ef36072 1467030403
+obj /usr/share/system-config-printer/HIG.py a34176b91ca64ff0bddb00f567b298ff 1467030401
+obj /usr/share/system-config-printer/probe_printer.py 45f42a84d2c1c3b7f8a44256e8512b8c 1467030401
+obj /usr/share/system-config-printer/gtkinklevel.py eb367b8617b7c874d0e4cfce4f2b9847 1467030403
+obj /usr/share/system-config-printer/pysmb.py 4d3743f8010b31374becde0a496279a5 1467030403
+obj /usr/share/system-config-printer/newprinter.py c6b67ccdf6ccf33e4a8765e774e564a7 1467030403
+obj /usr/share/system-config-printer/optionwidgets.py e45fbb0460d8998bfdfe564d972e078d 1467030401
+obj /usr/share/system-config-printer/gui.py bc900913706a4027ed72c68c9bbae591 1467030403
+obj /usr/share/system-config-printer/system-config-printer.py c80e03d090dadb616984c3436d646660 1467030403
+obj /usr/share/system-config-printer/options.py fb2da985a426a55d56a60340796bed2e 1467030401
+obj /usr/share/system-config-printer/ToolbarSearchEntry.py 1f1ed5e1d4c48114905dbeba5f6c11e5 1467030401
+obj /usr/share/system-config-printer/monitor.py 73fb68be910d32a74991cf0cea6fda63 1467030403
+dir /usr/share/system-config-printer/ui
+obj /usr/share/system-config-printer/ui/NewPrinterWindow.ui 13c9326f64665bb22725efbe87c24f0b 1467030401
+obj /usr/share/system-config-printer/ui/SMBBrowseDialog.ui db82d0f77acca5279b822ea94389f135 1467030401
+obj /usr/share/system-config-printer/ui/PrintersWindow.ui 3f69b39c0f93c1e08452fec47f698079 1467030401
+obj /usr/share/system-config-printer/ui/ConnectingDialog.ui 4f8e42e41cff25f235c71f71661e244b 1467030401
+obj /usr/share/system-config-printer/ui/AboutDialog.ui 051b0a4c300f12488339adedcfeab649 1467030401
+obj /usr/share/system-config-printer/ui/statusicon_popupmenu.ui f607f2981d674eb7cf542b55bb5b4faa 1467030401
+obj /usr/share/system-config-printer/ui/WaitWindow.ui 1aff97cffac66beeac2ed923176c9f6e 1467030401
+obj /usr/share/system-config-printer/ui/JobsWindow.ui 4a47c0bb650c08164564bdd0726435bd 1467030401
+obj /usr/share/system-config-printer/ui/ConnectDialog.ui 6e925aead387591b2660e3adc99e8528 1467030401
+obj /usr/share/system-config-printer/ui/ServerSettingsDialog.ui 1fab0630e54ca1e215383b26adff8a98 1467030401
+obj /usr/share/system-config-printer/ui/NewPrinterName.ui e10a804dad7e7d28becefcae21f57a0c 1467030401
+obj /usr/share/system-config-printer/ui/InstallDialog.ui 8630194ec43bb8547c4b13576963827c 1467030401
+obj /usr/share/system-config-printer/ui/PrinterPropertiesDialog.ui e6a6b23f0b6fc475ebfaeb4647624062 1467030401
+obj /usr/share/system-config-printer/applet.py a7f6643d56892fa50ae436c5e125fa1f 1467030403
+obj /usr/share/system-config-printer/errordialogs.py 9f193f3031fdb00032eefd9d59c000a9 1467030403
+obj /usr/share/system-config-printer/serversettings.py f7fa3a85b56cf197731bd457c1118a5c 1467030403
+obj /usr/share/system-config-printer/ppdsloader.py 526023015800eacae97c6d626aa19444 1467030403
+obj /usr/share/system-config-printer/cupspk.py ae13a9655c7f6ac0b067a4e94913d147 1467030401
+obj /usr/share/system-config-printer/authconn.py 37d9df65ea0a5354a92a810e1b87948f 1467030403
+obj /usr/share/system-config-printer/firewallsettings.py 6ae8a3115cb45f23f30ee794f4f0615a 1467030403
+obj /usr/share/system-config-printer/check-device-ids.py 4b53b726dca42a227ff94c35dc3da5bc 1467030403
+obj /usr/share/system-config-printer/ppdippstr.py de220eb1b832e1ce567d85ce240afdde 1467030403
+obj /usr/share/system-config-printer/install-printerdriver.py f8283fc04a470923f2e4ba554176df75 1467030403
+obj /usr/share/system-config-printer/smburi.py fc7904dc384986f08e38629e6b376ae1 1467030403
+obj /usr/share/system-config-printer/PhysicalDevice.py 1eb18a7217fc44dbcb89f1ab0d81c63c 1467030403
+dir /usr/share/system-config-printer/troubleshoot
+obj /usr/share/system-config-printer/troubleshoot/base.py 305e3f6fa5d56604502dbb452624acae 1467030403
+obj /usr/share/system-config-printer/troubleshoot/ServerFirewalled.py c25db8cb17a6cc4caca2ba2d9ce89f08 1467030403
+obj /usr/share/system-config-printer/troubleshoot/VerifyPackages.py 791da477d7d27f38773e6b7a2c0dc592 1467030403
+obj /usr/share/system-config-printer/troubleshoot/Shrug.py 5fcfe65cf41ac9a7b818b14694ff94dc 1467030403
+obj /usr/share/system-config-printer/troubleshoot/ErrorLogCheckpoint.py a8f3680da4e9d6fc42d003adcbf7518b 1467030403
+obj /usr/share/system-config-printer/troubleshoot/ChooseNetworkPrinter.py 54b183d035deba74d22c8f1e7c237331 1467030403
+obj /usr/share/system-config-printer/troubleshoot/NetworkCUPSPrinterShared.py 781bd90bf3bbc3acfa729e116c29b20f 1467030402
+obj /usr/share/system-config-printer/troubleshoot/CheckUSBPermissions.py 0806bbb0f7616c8418171ce68c50250f 1467030402
+obj /usr/share/system-config-printer/troubleshoot/PrintTestPage.py a4529fb85829483905c7ddf3b47f5aa1 1467030402
+obj /usr/share/system-config-printer/troubleshoot/PrinterStateReasons.py e7207aa3d34de9bf8b45a7637c2d5091 1467030402
+obj /usr/share/system-config-printer/troubleshoot/CheckPPDSanity.py e593babea43b4256c867d4711f849475 1467030402
+obj /usr/share/system-config-printer/troubleshoot/SchedulerNotRunning.py 887deafab6cc429f2afba3c61294f823 1467030402
+obj /usr/share/system-config-printer/troubleshoot/CheckSELinux.py 21f3bc1bbf24cfd13ad7ff14c5ff39b6 1467030402
+obj /usr/share/system-config-printer/troubleshoot/DeviceListed.py e198a5525aefb5b4ed08640e4f104855 1467030402
+obj /usr/share/system-config-printer/troubleshoot/__init__.py 8bd6e60f13babc0d5b94517a7d44714f 1467030402
+obj /usr/share/system-config-printer/troubleshoot/CheckNetworkServerSanity.py d68c3837bef7d76df6728607e3998af8 1467030402
+obj /usr/share/system-config-printer/troubleshoot/LocalOrRemote.py 19b3a042e3bd4799b85ed78e63e46c7d 1467030402
+obj /usr/share/system-config-printer/troubleshoot/CheckLocalServerPublishing.py fa19e2a7d1c5a5ed42242344fbd60b18 1467030402
+obj /usr/share/system-config-printer/troubleshoot/Welcome.py 5e36523cb8d22ea9073e7a58be77382f 1467030402
+obj /usr/share/system-config-printer/troubleshoot/ChoosePrinter.py 7744020bdfcc5e9c6f1cb7c99cd30891 1467030402
+obj /usr/share/system-config-printer/troubleshoot/QueueRejectingJobs.py 9837f38bec9ab3d56593d89817912f78 1467030402
+obj /usr/share/system-config-printer/troubleshoot/ErrorLogFetch.py 6fe3cbaddec7ffeed071f2b92c74ca19 1467030402
+obj /usr/share/system-config-printer/troubleshoot/CheckPrinterSanity.py 8a1c310a4470b74ebbd7bc0101462f7c 1467030402
+obj /usr/share/system-config-printer/troubleshoot/RemoteAddress.py 10e5757f8b5258af3f4ebfaa83e4b906 1467030402
+obj /usr/share/system-config-printer/troubleshoot/ErrorLogParse.py 7167fbdf8127589e5fa3aa2527906925 1467030402
+obj /usr/share/system-config-printer/troubleshoot/Locale.py 966f70883aaeed3b4e5b6099b96b1d78 1467030402
+obj /usr/share/system-config-printer/troubleshoot/QueueNotEnabled.py 3759f91b0c84770f95a0e631bf8bf556 1467030402
+dir /usr/share/system-config-printer/icons
+obj /usr/share/system-config-printer/icons/i-network-printer.png 2249107fa5ba618c4a9c5644886d2dce 1467030401
+obj /usr/share/system-config-printer/config.py ef117c3f7d33bee1146adb272d47f0bc 1467030401
+obj /usr/share/system-config-printer/jobviewer.py f5a78dbcce225d26e8bb3f4b7fb07ac2 1467030401
+obj /usr/share/system-config-printer/OpenPrintingRequest.py d9239a9d038e28f43df526f4e09befd8 1467030402
+obj /usr/share/system-config-printer/asyncconn.py 7ccddce05e68e98ea36062fed01c4079 1467030402
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/system-config-printer.1.bz2 e431e26555213ca080d781afdeac419d 1467030401
+obj /usr/share/man/man1/system-config-printer-applet.1.bz2 fe412e2ce41817acd6d22fa73f664e22 1467030401
+dir /usr/share/applications
+obj /usr/share/applications/Gentoo-system-config-printer.desktop 1b584b7ec114c2ddbde0933f95d80a8e 1467030401
+dir /usr/share/dbus-1
+dir /usr/share/dbus-1/services
+obj /usr/share/dbus-1/services/org.fedoraproject.Config.Printing.service 7e3eb51db84f5ee204dd7c43dc6ef32d 1467030401
+dir /usr/share/dbus-1/interfaces
+obj /usr/share/dbus-1/interfaces/org.fedoraproject.Config.Printing.xml 43d472e1abc48c353ff6a129cd2c6972 1467030401

@@ -1,0 +1,21 @@
+dir /usr
+dir /usr/lib64
+sym /usr/lib64/libass.so.5 -> libass.so.5.1.2 1465777059
+sym /usr/lib64/libass.so -> libass.so.5.1.2 1465777059
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libass.pc df61239ab3d179e9e9f573b53e0d786e 1465777055
+obj /usr/lib64/libass.so.5.1.2 9519a9401b2ba94a87c60fa1f49e301e 1465777057
+dir /usr/include
+dir /usr/include/ass
+obj /usr/include/ass/ass.h 9fa47581031b3d7b7438257b387e2e11 1465777055
+obj /usr/include/ass/ass_types.h 3c79a4c08d1ffdf212c5832ca7fe7c46 1465777055
+dir /usr/lib32
+dir /usr/lib32/pkgconfig
+obj /usr/lib32/pkgconfig/libass.pc 7a5b1e42ec913a0face15272190fafb5 1465777055
+obj /usr/lib32/libass.so.5.1.2 a39135e5f35dd540a82f395550a79db8 1465777057
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libass-0.12.3
+obj /usr/share/doc/libass-0.12.3/Changelog.bz2 c8312bfcefa669f467e50f90d4f2888c 1465777055
+sym /usr/lib32/libass.so -> libass.so.5.1.2 1465777059
+sym /usr/lib32/libass.so.5 -> libass.so.5.1.2 1465777059

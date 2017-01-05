@@ -1,0 +1,21 @@
+dir /etc
+dir /etc/xinetd.d
+obj /etc/xinetd.d/talk c2bea2eb9cd8008b29f499010a39c62e 1469241620
+dir /usr
+dir /usr/bin
+obj /usr/bin/talk 88ae54acdc819aafedd8c1e1259a38de 1469241623
+dir /usr/sbin
+obj /usr/sbin/talkd 7c81104801dd177e9e3225d282b02bca 1469241623
+sym /usr/sbin/in.talkd -> talkd 1469241630
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/netkit-talk-0.17-r5
+obj /usr/share/doc/netkit-talk-0.17-r5/README.bz2 183c786df6d5900f55e48f0f1bc324d3 1469241621
+obj /usr/share/doc/netkit-talk-0.17-r5/ChangeLog.bz2 fe32f081771178074c43cbef35acd618 1469241621
+obj /usr/share/doc/netkit-talk-0.17-r5/BUGS.bz2 15bbd2397328e1c213df513825a9e41b 1469241621
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/talkd.8.bz2 0de1d7932d497bf9af87bd567fc5d89a 1469241620
+dir /usr/share/man/man1
+obj /usr/share/man/man1/talk.1.bz2 a94865259ba88cf278cb18ee6c60dbdc 1469241620
+sym /usr/share/man/man8/in.talkd.8.bz2 -> talkd.8.bz2 1469241630
