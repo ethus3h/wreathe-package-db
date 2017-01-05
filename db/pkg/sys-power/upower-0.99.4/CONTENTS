@@ -1,0 +1,82 @@
+dir /var
+dir /var/lib
+dir /var/lib/upower
+obj /var/lib/upower/.keep_sys-power_upower-0 d41d8cd98f00b204e9800998ecf8427e 1475548048
+dir /lib
+dir /lib/udev
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/95-upower-csr.rules 7c4e223793436bb8511b6e1ea32953ca 1475548048
+obj /lib/udev/rules.d/95-upower-hid.rules 80c5e65b395e22115b2225c27fe1813a 1475548048
+obj /lib/udev/rules.d/95-upower-wup.rules 22f255b7301c945361203a629152b08f 1475548048
+dir /etc
+dir /etc/UPower
+obj /etc/UPower/UPower.conf eb556142a81614d894e56f38524a4f62 1475548048
+dir /etc/dbus-1
+dir /etc/dbus-1/system.d
+obj /etc/dbus-1/system.d/org.freedesktop.UPower.conf 430f5223b0dcb2b9a1bc60463b842818 1475548048
+dir /usr
+dir /usr/lib
+dir /usr/lib/systemd
+dir /usr/lib/systemd/system
+obj /usr/lib/systemd/system/upower.service 5a0b62382db91d6659227bbb5b89c9a9 1475548048
+dir /usr/lib/upower
+obj /usr/lib/upower/upowerd f75c104b06b2aa993af4a434cf4876a7 1475548049
+dir /usr/lib64
+obj /usr/lib64/libupower-glib.so.3.0.1 f8708c8091902659348093e4b7e5989e 1475548049
+dir /usr/lib64/girepository-1.0
+obj /usr/lib64/girepository-1.0/UPowerGlib-1.0.typelib e3cdfce38b123302ffeb8adc442570e8 1475548048
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/upower-glib.pc 2c9129f882e3277f98e6b37e9f6f687e 1475548048
+sym /usr/lib64/libupower-glib.so.3 -> libupower-glib.so.3.0.1 1475548050
+sym /usr/lib64/libupower-glib.so -> libupower-glib.so.3.0.1 1475548050
+dir /usr/include
+dir /usr/include/libupower-glib
+obj /usr/include/libupower-glib/up-autocleanups.h b20c76abd007c811c9a0b95b282fba7c 1475548048
+obj /usr/include/libupower-glib/upower.h fa70696df1bcebb33f5d6de4b63692ca 1475548048
+obj /usr/include/libupower-glib/up-types.h 466443ba9609044440888a213c919a1c 1475548048
+obj /usr/include/libupower-glib/up-wakeup-item.h 33c72b4a4b6a31e039a04760f68f58de 1475548048
+obj /usr/include/libupower-glib/up-device.h 8798f586e2b13de5fdcf56662146e6de 1475548048
+obj /usr/include/libupower-glib/up-version.h 4084c75054686be656577effe3820500 1475548048
+obj /usr/include/libupower-glib/up-client.h cba0d8548df857b36f3aaf60197417de 1475548048
+obj /usr/include/libupower-glib/up-wakeups.h 711e55fdbebca79bba6e974d979c94da 1475548048
+obj /usr/include/libupower-glib/up-history-item.h e83465621cc668065573419cfadfad73 1475548048
+obj /usr/include/libupower-glib/up-stats-item.h d01c8d9c485c62b5a61bd51d21349190 1475548048
+dir /usr/bin
+obj /usr/bin/upower febf83e7bdf5f4cc49cff8b0469892be 1475548049
+dir /usr/share
+dir /usr/share/gir-1.0
+obj /usr/share/gir-1.0/UPowerGlib-1.0.gir f92660c3686affafb4ea7dd802f12e9b 1475548048
+dir /usr/share/doc
+dir /usr/share/doc/upower-0.99.4
+obj /usr/share/doc/upower-0.99.4/NEWS.bz2 e7e4369bef3c3589c70ff94b8aef8387 1475548048
+obj /usr/share/doc/upower-0.99.4/README.bz2 4fc158cb8611b4e3ecb70b16400dc3c9 1475548048
+obj /usr/share/doc/upower-0.99.4/AUTHORS e663b67a45311673bfd13a33f5f1b052 1475548048
+obj /usr/share/doc/upower-0.99.4/HACKING.bz2 6836f05155fb780eeebcbd1449a98268 1475548048
+dir /usr/share/locale
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/upower.mo 76bf3745351bef5c15a6d3083cc659f6 1475548048
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/upower.mo ba0c1079f8d1710ba3313a76749f707e 1475548048
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/upower.mo 205466fc069e505b4dcc343d2cfe924a 1475548048
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/upower.mo df683d0ad38a893b76654b065ae69b7a 1475548048
+dir /usr/share/man
+dir /usr/share/man/man7
+obj /usr/share/man/man7/UPower.7.bz2 547dbb59181b354dec6eb76571cc827b 1475548048
+dir /usr/share/man/man8
+obj /usr/share/man/man8/upowerd.8.bz2 11a48566c376cf017d2938f5e2485610 1475548048
+dir /usr/share/man/man1
+obj /usr/share/man/man1/upower.1.bz2 ad55ae94ce77dea1cb412a7dd3532c9a 1475548048
+dir /usr/share/dbus-1
+dir /usr/share/dbus-1/system-services
+obj /usr/share/dbus-1/system-services/org.freedesktop.UPower.service c7be95f5e502e717cfd119ab494531be 1475548048
+dir /usr/share/dbus-1/interfaces
+obj /usr/share/dbus-1/interfaces/org.freedesktop.UPower.Wakeups.xml 641f09f150c588c2bde037179afe798f 1475548048
+obj /usr/share/dbus-1/interfaces/org.freedesktop.UPower.Device.xml 79e87efb70b549d1ca9dbf738fcdc475 1475548048
+obj /usr/share/dbus-1/interfaces/org.freedesktop.UPower.xml a62d739bf70c5100f4de25beee7908ab 1475548048
+obj /usr/share/dbus-1/interfaces/org.freedesktop.UPower.KbdBacklight.xml c8c72bdfae906b18904775aac00444b7 1475548048

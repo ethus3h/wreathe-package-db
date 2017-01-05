@@ -1,0 +1,106 @@
+dir /lib64
+obj /lib64/libxfs.so.0.0.0 a45c8e72df591a25c453fc0f0742b584 1466212032
+obj /lib64/libhandle.so.1.0.3 f76c3c477679cd44c15eacadb8ed7134 1466212032
+sym /lib64/libxlog.so.0 -> libxlog.so.0.0.0 1466212034
+sym /lib64/libhandle.so.1 -> libhandle.so.1.0.3 1466212034
+obj /lib64/libxlog.so.0.0.0 8360ad30ebb4eeb983533c08f46b7c16 1466212032
+sym /lib64/libxfs.so.0 -> libxfs.so.0.0.0 1466212034
+dir /sbin
+obj /sbin/fsck.xfs ec6b7035abc3ca6ca14ca836f2fb4161 1466212018
+obj /sbin/mkfs.xfs f03d47778f74cc83301cd4349baf3b12 1466212032
+obj /sbin/xfs_repair 26cbb93435dac5ac1472a9fbc3fbabf7 1466212032
+dir /usr
+dir /usr/lib64
+sym /usr/lib64/libxcmd.so.0 -> libxcmd.so.0.0.0 1466212034
+sym /usr/lib64/libxcmd.so -> libxcmd.so.0.0.0 1466212034
+sym /usr/lib64/libhandle.so -> libhandle.so.1.0.3 1466212034
+obj /usr/lib64/libhandle.so.1.0.3 f76c3c477679cd44c15eacadb8ed7134 1466212032
+obj /usr/lib64/libxcmd.so.0.0.0 e6301ef28624950fa1a3e28e01099685 1466212032
+sym /usr/lib64/libhandle.so.1 -> libhandle.so.1.0.3 1466212034
+obj /usr/lib64/libxfs.so e5be287587f03223b720b69696c0620e 1466212031
+obj /usr/lib64/libxlog.so 40193150c6c9f880eb915c2292e40484 1466212031
+dir /usr/include
+dir /usr/include/xfs
+obj /usr/include/xfs/xfs.h fcfaf2ee61e9f2746ae79e2dcf161368 1466212031
+obj /usr/include/xfs/handle.h 51c62fba086ef4c2342a7c4b54b00dca 1466212031
+obj /usr/include/xfs/jdm.h 329126f4afc6913d4f0b3565a86d1784 1466212031
+obj /usr/include/xfs/xfs_arch.h 9cbc8e00d0f62ac86e082b0ee49bcb86 1466212031
+obj /usr/include/xfs/xfs_fs.h 6f100da436736914470c73a3c0caa7b6 1466212024
+obj /usr/include/xfs/xfs_types.h 0032afec6f49dc94d6726f931f4da53f 1466212024
+obj /usr/include/xfs/linux.h c6c04e47dd74d26bf83dda7a09838ebb 1466212031
+obj /usr/include/xfs/xfs_format.h ada8afbd270317f0c8dae6d678b2e539 1466212024
+obj /usr/include/xfs/xqm.h 9575f8eb2f3c0ea966f6e5e01dab0e7f 1466212031
+obj /usr/include/xfs/xfs_da_format.h d9537835ad72c97f72211add35b13bfd 1466212024
+obj /usr/include/xfs/xfs_log_format.h 3690020a72705d2b6af42b80e1c6a5fa 1466212024
+dir /usr/sbin
+obj /usr/sbin/xfs_bmap 970cd7162ded01c7fe22665ba6a289fe 1466212020
+obj /usr/sbin/xfs_quota 44921f7a75fb9cd1c04b1c91bdffcdd0 1466212032
+obj /usr/sbin/xfs_mkfile 2ced3fd253ae7961f984516e642722cd 1466212020
+obj /usr/sbin/xfs_metadump b7c20202b26a4423c26cd4ea8f675372 1466212019
+obj /usr/sbin/xfs_estimate 93f81e04cbd6281a90e6eb010232dfbb 1466212032
+obj /usr/sbin/xfs_ncheck f5ad254acc34c4a4d9f431715737962d 1466212019
+obj /usr/sbin/xfs_info 3124fdadce8e80253a12d88999318ba4 1466212019
+obj /usr/sbin/xfs_logprint 75b2f96b8873b91fa837499828c8cae9 1466212032
+obj /usr/sbin/xfs_mdrestore 030a9c892fdbd8bb600ce2cc94a496da 1466212032
+obj /usr/sbin/xfs_db a5cf982f63b2d6d6e0fbf931a240155b 1466212032
+obj /usr/sbin/xfs_growfs 3036ef5ae17bbf0ddf11df6acefe3334 1466212032
+obj /usr/sbin/xfs_io df1f8c19814a272c6aafb77c1dca1b58 1466212032
+obj /usr/sbin/xfs_fsr 49b1b50b613a05d3acd7e162c9eff9b1 1466212032
+obj /usr/sbin/xfs_copy f45145e2eb6da55f04e52cb195a7a11b 1466212032
+obj /usr/sbin/xfs_admin 4bbefb45bf7d51fe1a2b6dd7d127df74 1466212019
+obj /usr/sbin/xfs_rtcp 471669800cbb74f85e80a882908a29bd 1466212032
+obj /usr/sbin/xfs_freeze 10149ccc5d07a52b272ab367f004a79b 1466212020
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xfsprogs-4.5.0
+obj /usr/share/doc/xfsprogs-4.5.0/CREDITS.bz2 7f5e3daeda8b311197365e5e7dc4b650 1466212022
+obj /usr/share/doc/xfsprogs-4.5.0/README.bz2 9d3cda40beb410f08e51b355d62b9dff 1466212022
+obj /usr/share/doc/xfsprogs-4.5.0/COPYING.bz2 27c1e1971f520ce69d40f8587bfad6a4 1466212022
+obj /usr/share/doc/xfsprogs-4.5.0/CHANGES.bz2 90e0a41fdf792cd8ffe1afc83cde46b5 1466212022
+dir /usr/share/locale
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/xfsprogs.mo ad0fde81eb5d895c418d7dccf2213ba3 1466212022
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/xfsprogs.mo 5e09b4d2619e3cea2a31a23fa221da33 1466212022
+dir /usr/share/man
+dir /usr/share/man/man3
+sym /usr/share/man/man3/getparentpaths_by_handle.3.bz2 -> path_to_handle.3.bz2 1466212034
+sym /usr/share/man/man3/getparents_by_handle.3.bz2 -> path_to_handle.3.bz2 1466212034
+sym /usr/share/man/man3/path_to_fshandle.3.bz2 -> path_to_handle.3.bz2 1466212034
+sym /usr/share/man/man3/free_handle.3.bz2 -> path_to_handle.3.bz2 1466212034
+sym /usr/share/man/man3/attr_list_by_handle.3.bz2 -> path_to_handle.3.bz2 1466212034
+sym /usr/share/man/man3/attr_multi_by_handle.3.bz2 -> path_to_handle.3.bz2 1466212034
+obj /usr/share/man/man3/path_to_handle.3.bz2 489feb537f31426a722866757266ecf6 1466212030
+obj /usr/share/man/man3/xfsctl.3.bz2 8496ea569d8325b6d603104b2e362f5f 1466212030
+sym /usr/share/man/man3/handle_to_fshandle.3.bz2 -> path_to_handle.3.bz2 1466212034
+sym /usr/share/man/man3/fd_to_handle.3.bz2 -> path_to_handle.3.bz2 1466212034
+sym /usr/share/man/man3/readlink_by_handle.3.bz2 -> path_to_handle.3.bz2 1466212034
+sym /usr/share/man/man3/fssetdm_by_handle.3.bz2 -> path_to_handle.3.bz2 1466212034
+sym /usr/share/man/man3/open_by_handle.3.bz2 -> path_to_handle.3.bz2 1466212034
+dir /usr/share/man/man8
+obj /usr/share/man/man8/xfs_logprint.8.bz2 d17950938b523b4393d919513ea7a5ec 1466212022
+obj /usr/share/man/man8/xfs_metadump.8.bz2 f216d6fe2f8eaae8740dcf182dcecfc9 1466212022
+obj /usr/share/man/man8/xfs_fsr.8.bz2 1d6b7e278e3630381517166a497abf8d 1466212021
+obj /usr/share/man/man8/xfs_bmap.8.bz2 23b60a1021c5f18328a63dfac06c8cf3 1466212021
+obj /usr/share/man/man8/xfs_rtcp.8.bz2 651625799f46af16d83318078488cfe5 1466212022
+obj /usr/share/man/man8/xfs_admin.8.bz2 93e967208ffc6e9727f340d038996224 1466212021
+sym /usr/share/man/man8/xfs_info.8.bz2 -> xfs_growfs.8.bz2 1466212034
+obj /usr/share/man/man8/xfs_estimate.8.bz2 aa854b114efe15ac92e1248468c903aa 1466212021
+obj /usr/share/man/man8/mkfs.xfs.8.bz2 80054c3994d3f9f42c32d3aebf79a5a0 1466212021
+obj /usr/share/man/man8/fsck.xfs.8.bz2 f7255473b8cb392977999b6da99b22b2 1466212021
+obj /usr/share/man/man8/xfs_quota.8.bz2 f2d37ebc1cc010648b38f52623c7c3f6 1466212022
+obj /usr/share/man/man8/xfs_growfs.8.bz2 06cd69236f81135e0aa36acb0f15ac5b 1466212022
+obj /usr/share/man/man8/xfs_freeze.8.bz2 d00b1c193c89d26a83094b7453684ef1 1466212021
+obj /usr/share/man/man8/xfs_mdrestore.8.bz2 d33eb67127ef171c02a508319849ed1b 1466212022
+obj /usr/share/man/man8/xfs_copy.8.bz2 f48ca53c4b32a1497535d8589593a32b 1466212021
+obj /usr/share/man/man8/xfs_ncheck.8.bz2 5d2bd701608d66f6791e23b31837f5b6 1466212022
+obj /usr/share/man/man8/xfs_db.8.bz2 a1cec03adee613d61ab0c4ffed047c56 1466212021
+obj /usr/share/man/man8/xfs_io.8.bz2 aaee23359491ed0f71789b4d32bacf6f 1466212022
+obj /usr/share/man/man8/xfs_repair.8.bz2 c9d5e5feb050a371acbef0917f9d8e21 1466212022
+obj /usr/share/man/man8/xfs_mkfile.8.bz2 8e1f0ac1a47f050e612413e9b0ecf487 1466212022
+dir /usr/share/man/man5
+obj /usr/share/man/man5/xfs.5.bz2 0b52f9182f107ae202301f3a4cc0b22a 1466212021
+obj /usr/share/man/man5/projid.5.bz2 64e9a372ecc835f9057d78f12fc66756 1466212021
+obj /usr/share/man/man5/projects.5.bz2 5cd4cf20248151321cef9bcafdb62374 1466212021

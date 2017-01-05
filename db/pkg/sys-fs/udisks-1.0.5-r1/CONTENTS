@@ -1,0 +1,82 @@
+dir /var
+dir /var/lib
+dir /var/lib/udisks
+obj /var/lib/udisks/.keep_sys-fs_udisks-0 d41d8cd98f00b204e9800998ecf8427e 1466388932
+dir /media
+obj /media/.keep_sys-fs_udisks-0 d41d8cd98f00b204e9800998ecf8427e 1466388931
+dir /lib
+dir /lib/udev
+obj /lib/udev/udisks-dm-export 222d82f7e0673d39ce8a61449dfcea4d 1466388933
+obj /lib/udev/udisks-probe-ata-smart 1a85f98dc6175ceb12747bde3a56c773 1466388933
+obj /lib/udev/udisks-part-id bfb1fc0919662c43185b36b1e819308e 1466388933
+obj /lib/udev/udisks-lvm-pv-export 9448486a62953114ed31b9fcf482cf1d 1466388933
+obj /lib/udev/udisks-probe-sas-expander c1ea436802571731764620d3e108b257 1466388933
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/80-udisks.rules 638a9a192426f510a7026d650abc2ae1 1466388930
+dir /etc
+dir /etc/profile.d
+dir /etc/dbus-1
+dir /etc/dbus-1/system.d
+obj /etc/dbus-1/system.d/org.freedesktop.UDisks.conf ed1fcf897e31049909a921f2b4cfd026 1466388930
+dir /usr
+dir /usr/lib
+dir /usr/lib/udisks
+obj /usr/lib/udisks/udisks-helper-modify-partition 6b35271437cc8dc069623ba2e8ef3e97 1466388933
+obj /usr/lib/udisks/udisks-helper-change-filesystem-label 2d144a94d87f46ec8432ff518d38aee8 1466388933
+obj /usr/lib/udisks/udisks-helper-ata-smart-collect ace05df530cbd639248ea5b3649adf88 1466388933
+obj /usr/lib/udisks/udisks-helper-create-partition 8908f5e97f11f8dda8ced92d580a68f9 1466388933
+obj /usr/lib/udisks/udisks-helper-change-luks-password e5b91003fbd0bd6339ed50ce94c2ad5d 1466388930
+obj /usr/lib/udisks/udisks-helper-drive-benchmark a1b789eaace16d5c942478d3a22b6624 1466388933
+obj /usr/lib/udisks/udisks-helper-linux-md-remove-component 216a204947eae45d83e845f71cfbdb1e 1466388933
+obj /usr/lib/udisks/udisks-helper-drive-poll ab3f4dc06d67031efd67343c97a1483d 1466388933
+obj /usr/lib/udisks/udisks-helper-fstab-mounter 1ee024e6480c606a1218819f40918f55 1466388933
+obj /usr/lib/udisks/udisks-helper-drive-detach eb6787cc4c9eee0d4e5aba307c8465e1 1466388933
+obj /usr/lib/udisks/udisks-helper-delete-partition 4d77d9c9a7acc08afd2dbfcc35264817 1466388933
+obj /usr/lib/udisks/udisks-helper-ata-smart-selftest 8af057f9f183ae9754c1825501c33b6d 1466388933
+obj /usr/lib/udisks/udisks-helper-linux-md-check 9b98a99375391e88d61ceac5b5ba0ceb 1466388933
+obj /usr/lib/udisks/udisks-helper-create-partition-table 8a8d239ec69450048a025fd2c9da694f 1466388933
+obj /usr/lib/udisks/udisks-helper-mdadm-expand 35c04ec268fe1a18894ae010d62b24ba 1466388930
+obj /usr/lib/udisks/udisks-helper-mkfs 2ea521db6a585c00d842dfa149c9e882 1466388933
+obj /usr/lib/udisks/udisks-daemon a26c7902a6ab6c36751e8756db93ce5e 1466388933
+dir /usr/lib/systemd
+dir /usr/lib/systemd/system
+obj /usr/lib/systemd/system/udisks.service 2fcf6b7cb05d1ed5f0b1d669e56a0ac8 1466388930
+dir /usr/bin
+obj /usr/bin/udisks f4efce603ebfab49db43b962d6926ca8 1466388933
+dir /usr/sbin
+obj /usr/sbin/umount.udisks fb2c8b0abdee11b7ed76683035a68618 1466388933
+dir /usr/share
+dir /usr/share/pkgconfig
+obj /usr/share/pkgconfig/udisks.pc 5f3e216ac792456ef0f5458b164a7941 1466388930
+dir /usr/share/doc
+dir /usr/share/doc/udisks-1.0.5-r1
+obj /usr/share/doc/udisks-1.0.5-r1/NEWS.bz2 ab31926957599744c1be3f2f6d76b1bc 1466388931
+obj /usr/share/doc/udisks-1.0.5-r1/README.bz2 c0dc292f3046ebbd214eab97315c7af7 1466388931
+obj /usr/share/doc/udisks-1.0.5-r1/AUTHORS 42e6e23c5e17b009dba1619b5c3c7634 1466388931
+obj /usr/share/doc/udisks-1.0.5-r1/HACKING.bz2 c08d7dc91203cbfc892f0d446bfeabe2 1466388931
+dir /usr/share/locale
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/udisks.mo 5881a34945f06fac6171240824fecdb0 1466388931
+dir /usr/share/polkit-1
+dir /usr/share/polkit-1/actions
+obj /usr/share/polkit-1/actions/org.freedesktop.udisks.policy 303806ae08f31f1e8a5e4a752e7f3d96 1466388931
+dir /usr/share/man
+dir /usr/share/man/man7
+obj /usr/share/man/man7/udisks.7.bz2 61e63a7d4862df46a2081b85dbb07a7b 1466388931
+dir /usr/share/man/man8
+obj /usr/share/man/man8/udisks-daemon.8.bz2 c19ef9e41d8ee9b5465108a74e9794f3 1466388931
+dir /usr/share/man/man1
+obj /usr/share/man/man1/udisks.1.bz2 e34d6e242f4b9832392dcf2a48e3d02b 1466388931
+dir /usr/share/dbus-1
+dir /usr/share/dbus-1/system-services
+obj /usr/share/dbus-1/system-services/org.freedesktop.UDisks.service 97c81eccd50504e9b37e64a464cf8e3c 1466388930
+dir /usr/share/dbus-1/interfaces
+obj /usr/share/dbus-1/interfaces/org.freedesktop.UDisks.Expander.xml 23c68e29a08847d4c6b610e1bed22135 1466388930
+obj /usr/share/dbus-1/interfaces/org.freedesktop.UDisks.xml b48fa609467fd1849ce5e25fec5aa400 1466388930
+obj /usr/share/dbus-1/interfaces/org.freedesktop.UDisks.Adapter.xml 07f9663ad6216a9b595043bc3eeb4138 1466388930
+obj /usr/share/dbus-1/interfaces/org.freedesktop.UDisks.Device.xml 96cdf29107624d508c68238b18f1c4a6 1466388930
+obj /usr/share/dbus-1/interfaces/org.freedesktop.UDisks.Port.xml 8df94bb9785631033d21dab4eeb9585e 1466388930
+dir /usr/share/bash-completion
+dir /usr/share/bash-completion/completions
+obj /usr/share/bash-completion/completions/udisks 085427e8fccf25aa6e4bb6a2fca73efa 1466388931

@@ -1,0 +1,64 @@
+dir /var
+dir /var/lib
+dir /var/lib/rarian
+dir /usr
+dir /usr/lib64
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/rarian.pc 2d0c25324e1db5c8f6ae1af942025740 1467024010
+obj /usr/lib64/librarian.so.0.0.0 593100d212b9096e145ce870077a5085 1467024012
+sym /usr/lib64/librarian.so.0 -> librarian.so.0.0.0 1467024014
+dir /usr/include
+dir /usr/include/rarian
+obj /usr/include/rarian/rarian-man.h bddac1812083a06ca1b6c5c72dc7163a 1467024009
+obj /usr/include/rarian/rarian.h 876201e9aecb390ce896a0c7349f4513 1467024009
+obj /usr/include/rarian/rarian-info.h 9a7af4e5aa8cf091aa84325f62034a3f 1467024009
+obj /usr/include/rarian/rarian-reg-utils.h 34a4fbe07629717e6e1ac296a9661468 1467024009
+obj /usr/include/rarian/rarian-main.h 4423d7cb854ab8e662e5494cf6c960fa 1467024009
+dir /usr/bin
+obj /usr/bin/rarian-sk-rebuild fd9e106bb7ad2d677811a99242afb8e1 1467024010
+obj /usr/bin/rarian-sk-extract 2667a6252ba9b71d6d354ca552ecca9f 1467024010
+obj /usr/bin/rarian-sk-update 1d6b5fb3e261e00291553df02d4bebdc 1467024010
+obj /usr/bin/rarian-sk-config 65cb353c23f3d64a6f97e90d60450db9 1467024010
+obj /usr/bin/rarian-sk-get-content-list 845d1e63a347f4c350b9cceb48078464 1467024010
+sym /usr/bin/scrollkeeper-update -> rarian-sk-update 1467024014
+obj /usr/bin/rarian-sk-get-extended-content-list 00f6c99b83e058b490e0f3773fc9f14b 1467024010
+obj /usr/bin/rarian-sk-gen-uuid d084364b19ad9aad2882e6ccddf10028 1467024012
+obj /usr/bin/rarian-sk-get-scripts 39ec5d9bab22c4ad70af71c4d26f0d3b 1467024010
+sym /usr/bin/scrollkeeper-rebuilddb -> rarian-sk-rebuild 1467024014
+sym /usr/bin/scrollkeeper-get-toc-from-docpath -> rarian-sk-get-scripts 1467024014
+sym /usr/bin/scrollkeeper-get-extended-content-list -> rarian-sk-get-extended-content-list 1467024014
+obj /usr/bin/rarian-example 5d1c2334b6098bd31e7e0ebaf72e3749 1467024012
+sym /usr/bin/scrollkeeper-get-index-from-docpath -> rarian-sk-get-scripts 1467024014
+sym /usr/bin/scrollkeeper-get-content-list -> rarian-sk-get-content-list 1467024014
+obj /usr/bin/rarian-sk-get-cl d3d371ac5810c8c706fe480f1413d69d 1467024012
+obj /usr/bin/rarian-sk-migrate b559f8ae90af6303be6666be5286152b 1467024012
+sym /usr/bin/scrollkeeper-config -> rarian-sk-config 1467024014
+sym /usr/bin/scrollkeeper-extract -> rarian-sk-extract 1467024014
+obj /usr/bin/rarian-sk-install 31f6f0746684910cda8168b6d733bce5 1467024010
+obj /usr/bin/rarian-sk-preinstall 542403ad5521980517d31f1992327660 1467024012
+dir /usr/share
+dir /usr/share/help
+obj /usr/share/help/rarian.document 9666ca8c6da47033a03fa0395b7be495 1467024010
+dir /usr/share/doc
+dir /usr/share/doc/rarian-0.8.1-r2
+obj /usr/share/doc/rarian-0.8.1-r2/NEWS.bz2 8508c7053042b6c77c22c566f5aa34ba 1467024010
+obj /usr/share/doc/rarian-0.8.1-r2/README.bz2 f749de3dd41aa1f1b4a571b5e0b31085 1467024010
+obj /usr/share/doc/rarian-0.8.1-r2/ChangeLog.bz2 5f6a15d4d2ba73204bf3fff987170a5b 1467024010
+dir /usr/share/librarian
+dir /usr/share/librarian/manual
+obj /usr/share/librarian/manual/help-spec-0.2.xml d962d21474ff43186d368eca07aaf9fd 1467024010
+obj /usr/share/librarian/manual/rar-lib.xhtml 8d44fd152e277c1aba9849cdc3eda219 1467024010
+obj /usr/share/librarian/manual/rar-mdf.xhtml 32f1c46ab8a9576802ea645c6c90545b 1467024010
+obj /usr/share/librarian/manual/index.xhtml af91e0d887ce37ab2f48420fb3f83c5e 1467024010
+obj /usr/share/librarian/manual/rar-skcompat.xhtml 1d42ca059b74bde8d2b8a9e8dcceeb76 1467024010
+dir /usr/share/librarian/Templates
+dir /usr/share/librarian/Templates/C
+obj /usr/share/librarian/Templates/C/scrollkeeper_cl.xml a252e3c1195dc15dac0593337967c2be 1467024010
+obj /usr/share/librarian/rarian-sk-cl.xml e9930740c1569738878609020d1634eb 1467024010
+sym /usr/bin/scrollkeeper-get-cl -> rarian-sk-get-cl 1467024014
+sym /usr/bin/scrollkeeper-uninstall -> rarian-sk-install 1467024014
+sym /usr/bin/scrollkeeper-gen-seriesid -> rarian-sk-gen-uuid 1467024014
+sym /usr/bin/scrollkeeper-install -> rarian-sk-install 1467024014
+sym /usr/bin/scrollkeeper-preinstall -> rarian-sk-preinstall 1467024014
+sym /usr/bin/scrollkeeper-get-toc-from-id -> rarian-sk-get-scripts 1467024014
+sym /usr/lib64/librarian.so -> librarian.so.0.0.0 1467024014

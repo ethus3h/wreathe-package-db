@@ -1,0 +1,142 @@
+dir /lib
+dir /lib/udev
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/dahdi.rules d0bb2651da6d6e7a29089810a6dcf0ee 1483072579
+obj /lib/udev/rules.d/xpp.rules b4c181bed6b2b0dce60c473d082e2c60 1483072578
+dir /etc
+dir /etc/modprobe.d
+obj /etc/modprobe.d/dahdi.blacklist.conf 037b03917d24921fca60ab3b8af129c0 1483072579
+obj /etc/modprobe.d/dahdi.conf 91855aa79e5dfd77469ffa66383e1552 1483072579
+dir /etc/hotplug
+dir /etc/hotplug/usb
+obj /etc/hotplug/usb/xpp_fxloader.usermap 0421b79815b689835aadddf96e28d3cd 1483072578
+sym /etc/hotplug/usb/xpp_fxloader -> /usr/share/dahdi/xpp_fxloader 1483072581
+dir /etc/bash_completion.d
+obj /etc/bash_completion.d/dahdi bd20e7b313d7901518ab870e127474fc 1483072579
+dir /etc/init.d
+obj /etc/init.d/dahdi-autoconf 9cc9b30083d25127a26de7da48bf70b8 1483072579
+obj /etc/init.d/dahdi 8a18a67550cd03848817f8d260282e94 1483072579
+dir /etc/conf.d
+obj /etc/conf.d/dahdi-autoconf dfff8608a485f1e27fd2e423de27c4e3 1483072579
+dir /etc/dahdi
+obj /etc/dahdi/init.conf 20c5f6305d0f36a9362448bc4c5453c7 1483072579
+obj /etc/dahdi/assigned-spans.conf.sample 07a2a0c27396af97a4657fa126c9ca03 1483072579
+obj /etc/dahdi/span-types.conf.sample 4c6dd2e2cb215ac42cfb871e9643cd55 1483072579
+obj /etc/dahdi/modules c3f1b896ab40093b3c55f46fbade950c 1483072579
+obj /etc/dahdi/genconf_parameters 5369b02205e29e2be889095f5cb30ce0 1483072579
+obj /etc/dahdi/system.conf e988f1988c5eec5419ba330deb9e1893 1483072579
+dir /usr
+dir /usr/lib64
+sym /usr/lib64/libtonezone.so.1.0 -> libtonezone.so.2.0 1483072581
+obj /usr/lib64/libtonezone.a f2e83e8579e519fc2805776b350c4466 1483072580
+sym /usr/lib64/libtonezone.so.1 -> libtonezone.so.2.0 1483072581
+sym /usr/lib64/libtonezone.so -> libtonezone.so.2.0 1483072581
+sym /usr/lib64/libtonezone.so.2 -> libtonezone.so.2.0 1483072581
+obj /usr/lib64/libtonezone.so.2.0 815cad54e8efd9e8d07bb19155979aa8 1483072580
+dir /usr/lib64/perl5
+dir /usr/lib64/perl5/vendor_perl
+dir /usr/lib64/perl5/vendor_perl/5.22.3
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi.pm 0ec3391a3df9658d1be52f29ff533168 1483072578
+dir /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Hardware.pm c1677fb33691fe69f671b2ade53fa90e 1483072578
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Span.pm 6c28a13b846420c32b4dca36de5a29a0 1483072578
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Utils.pm 2ec654d84dd5d4f264cf132cec7f365c 1483072578
+dir /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Config
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Config/Gen.pm a0ab48abbc0780b6da641648e9ecc1b1 1483072579
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Config/Params.pm 23d51571c91233e2a6c225db02e73f66 1483072579
+dir /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Config/Gen
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Config/Gen/Users.pm 7458562b72e919305d6df2e1cfff2538 1483072579
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Config/Gen/Unicall.pm 228cf5b85548a531f6f03bc671c1f976 1483072579
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Config/Gen/System.pm d0c51d67e73d2e8d0990b0d4e23db62e 1483072579
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Config/Gen/Xpporder.pm ac99b25e10e6db5c11ac767536bc169a 1483072579
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Config/Gen/Freepbxdb.pm ef4c8b5e94860e073b33fdd808ed41ee 1483072579
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Config/Gen/Modules.pm 85c6a680c37e7d8e14dc4de936c946f4 1483072579
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Config/Gen/Chandahdi.pm ffcc0856ad199b093273a5ef23a879aa 1483072579
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Config/Gen/Assignedspans.pm 3ff80da95112568fb583f3cf3b0c13bf 1483072579
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Config/Gen/Spantypes.pm c3a0e8c29875736028e02527e6230d3a 1483072579
+dir /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Hardware
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Hardware/USB.pm 0cc6eee6bea0cf68a135dbd9f8c496eb 1483072579
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Hardware/PCI.pm b014699db5efe7d11082fa86d8d32f4d 1483072579
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Xpp.pm 363122ee3cfd2940ad33514253ca4883 1483072578
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Chans.pm fe50b334b9b729001baa30351dd5b9d8 1483072578
+dir /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Xpp
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Xpp/Xbus.pm 0eaec6b16877331474a8bb04e535e875 1483072579
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Xpp/Xpd.pm cf39324e99d1da916605cb9d9101f1e7 1483072579
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Xpp/Line.pm 01484171a120e79511a6ffb981a00bfc 1483072578
+obj /usr/lib64/perl5/vendor_perl/5.22.3/Dahdi/Xpp/Mpp.pm bc6ba2b851481477a578811b70184122 1483072578
+dir /usr/lib64/pppd
+dir /usr/lib64/pppd/2.4.7
+obj /usr/lib64/pppd/2.4.7/dahdi.so f39d02b67395c5614d928c9010c2b295 1483072580
+dir /usr/include
+dir /usr/include/dahdi
+obj /usr/include/dahdi/tonezone.h eee65b9162bc16eb0ebe2eb752546554 1483072579
+dir /usr/sbin
+obj /usr/sbin/astribank_allow a1f4386c8dfe72d604b5206be8d32ce0 1483072580
+obj /usr/sbin/dahdi_speed 65e85a3875f0632620d6896b7f1c729f 1483072580
+obj /usr/sbin/dahdi_test 1f673016b6a765c5a802cdf35027ff50 1483072580
+obj /usr/sbin/dahdi_span_assignments 85f5c0be1dc6d2177a322242a4bb12fe 1483072579
+obj /usr/sbin/xpp_blink 4486a5a07e9c152030021b31ae302f26 1483072578
+obj /usr/sbin/dahdi_registration c4b67f2744b4430772c904b6d55bda77 1483072578
+obj /usr/sbin/hdlcstress f4147e753ec55b9ae066448e1a087bea 1483072580
+obj /usr/sbin/dahdi_monitor fce5abf18bb78008beec5e2bbb18af79 1483072580
+obj /usr/sbin/dahdi_waitfor_span_assignments 8a9c6357a153f47ec60a7d356b4800d7 1483072579
+obj /usr/sbin/dahdi_span_types f7ce961bbba6e7bb3b9494636a5e62fd 1483072579
+obj /usr/sbin/patlooptest 2b1e95c34d4272775a96d9c24ec444fd 1483072580
+obj /usr/sbin/dahdi_tool f6f04931cfde5b2525e467929256ac25 1483072580
+obj /usr/sbin/hdlcgen 4965211d3388ae8721aecf4d34a965df 1483072580
+obj /usr/sbin/timertest 2a51a8e75ff711d42a28ccb90dad2156 1483072580
+obj /usr/sbin/pattest 348d69c4f601f2076bbe75c5cbc8a2c5 1483072580
+obj /usr/sbin/dahdi_hardware 5f1f2357d2aeaa4f58ae936340c32477 1483072578
+obj /usr/sbin/dahdi_genconf e387d82c856e8d6e25c7d99c8f4ecb00 1483072578
+obj /usr/sbin/fxotune 3c9f230cfd7e06b9460fd7ebe1d25e3b 1483072580
+obj /usr/sbin/astribank_is_starting 51daaf74ced81cb21277826e1048b1c4 1483072580
+obj /usr/sbin/lsdahdi b11727aa9a2cc7497fcdfc7af7d73f71 1483072578
+obj /usr/sbin/dahdi_maint eeea2d1874bbc939be3086b6c93f0657 1483072580
+obj /usr/sbin/xpp_sync 28283d6fd35f7e177d1989d523cccae0 1483072578
+obj /usr/sbin/astribank_tool beccbdf07ece52975b7dc1ebce581add 1483072580
+obj /usr/sbin/twinstar ae3375d67f5bde3a99e9f991f05f3007 1483072578
+obj /usr/sbin/patgen bb7a64ca7e9e96d3faf1ba6ebd6b82ca 1483072580
+obj /usr/sbin/hdlcverify acc1d86eb825e9604d9a949f70a32192 1483072580
+obj /usr/sbin/astribank_hexload 3a6856ef58163dbcedaef065aa51c05d 1483072580
+obj /usr/sbin/sethdlc 4462b8e93eccc6dc2793cbb97e4afc03 1483072580
+obj /usr/sbin/hdlctest 05412290dbf02bf66d21e95ad5e32fd0 1483072580
+obj /usr/sbin/dahdi_cfg cbb1b3c594c5f63636e0075403de7742 1483072580
+obj /usr/sbin/dahdi_scan 47a7cb4a62ccd399d08dd6859b2867f8 1483072580
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/dahdi_waitfor_span_assignments.8.bz2 705e113cc273a12b602860cfd31c425a 1483072579
+obj /usr/share/man/man8/dahdi_hardware.8.bz2 269d46ee96a827d3efd8968989cf9152 1483072578
+obj /usr/share/man/man8/dahdi_scan.8.bz2 a7e64fc33e2be6b052bce530e68b8dca 1483072579
+obj /usr/share/man/man8/astribank_hexload.8.bz2 519fec2b7610fdbe258b6892c8398724 1483072578
+obj /usr/share/man/man8/astribank_is_starting.8.bz2 67e354404fc77df1d43aaf9342f236b0 1483072578
+obj /usr/share/man/man8/dahdi_tool.8.bz2 c12b4650a4fb1a9d4fc1e3c01a158746 1483072579
+obj /usr/share/man/man8/dahdi_registration.8.bz2 5b14d10652afb7ab7dac344951af9d88 1483072578
+obj /usr/share/man/man8/astribank_tool.8.bz2 96de16a2b2f68cfbe2549d26720ba564 1483072578
+obj /usr/share/man/man8/dahdi_span_assignments.8.bz2 3db4fe2700f7f18c3a3b98f21a45e48a 1483072579
+obj /usr/share/man/man8/dahdi_maint.8.bz2 ac5129acf8b1f3a671940d436aacc89f 1483072579
+obj /usr/share/man/man8/twinstar.8.bz2 099af9b6d8eede7a68c807fff19d3798 1483072578
+obj /usr/share/man/man8/dahdi_cfg.8.bz2 46afe3d7ad35a70d4b8e600489648346 1483072579
+obj /usr/share/man/man8/dahdi_monitor.8.bz2 b919a3a88f77d8df644fdc23ae5cc3c5 1483072579
+obj /usr/share/man/man8/xpp_sync.8.bz2 81a93312326170672e71ad50c4e21c53 1483072578
+obj /usr/share/man/man8/dahdi_test.8.bz2 2306c9c660a3dd1990ff2d871f1c320d 1483072579
+obj /usr/share/man/man8/dahdi_span_types.8.bz2 2a0d908cee0990f20e9da1f704fbe2cd 1483072579
+obj /usr/share/man/man8/fxotune.8.bz2 43c18342d4a19d07e0355063689f4619 1483072579
+obj /usr/share/man/man8/xpp_blink.8.bz2 c749cc4b571d67d2968cfe1bb21756cc 1483072578
+obj /usr/share/man/man8/lsdahdi.8.bz2 57cb446d2be73c7c91778c15435821a2 1483072578
+obj /usr/share/man/man8/astribank_allow.8.bz2 6e7b1ec9051f867b46c6621e333bbe84 1483072578
+obj /usr/share/man/man8/dahdi_genconf.8.bz2 d7d9141e8ad46261a40a9643b4f38b35 1483072578
+dir /usr/share/dahdi
+obj /usr/share/dahdi/waitfor_xpds 54ca7b898706c841bd02b1f1119c61af 1483072578
+obj /usr/share/dahdi/astribank_hook e785a4fb2e11b4c77a57df89f70556a2 1483072578
+dir /usr/share/dahdi/span_config.d
+obj /usr/share/dahdi/span_config.d/10-dahdi-cfg 1fef3acc29c54d6beadd1589979d461a 1423513174
+obj /usr/share/dahdi/span_config.d/20-fxotune 687097bda8856bcdf06863e1dc69ba51 1423513174
+obj /usr/share/dahdi/span_config.d/50-asterisk 5a482a693c418f38e3a2820315caab1e 1423513174
+obj /usr/share/dahdi/dahdi_auto_assign_compat a89a7d2bcca0532bf69bc7562cc6e0ed 1423513174
+obj /usr/share/dahdi/dahdi_span_config f721bf0387dcfa27856ba14b78719b60 1423513174
+obj /usr/share/dahdi/xpp_fxloader 29a72c4354ff2db1b001ccd7b58b46eb 1483072578
+dir /usr/share/dahdi/handle_device.d
+obj /usr/share/dahdi/handle_device.d/10-span-types 12701dcdab8cfcf6c72cc8c7d18d7ffd 1423513174
+obj /usr/share/dahdi/handle_device.d/20-span-assignments bf3e635ed44428bb9e25667c416ecab0 1423513174
+obj /usr/share/dahdi/dahdi_handle_device 095e7c9f06803c3056e97e1fb91edc3a 1423513174

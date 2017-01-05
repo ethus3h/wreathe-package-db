@@ -1,0 +1,18 @@
+dir /lib
+dir /lib/udev
+obj /lib/udev/pcmcia-check-broken-cis 058807a0729540f5c69526484554c7d0 1465190232
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/60-pcmcia.rules f74b0580cf122e8198fdb0d87d281b88 1465190231
+dir /usr
+dir /usr/bin
+obj /usr/bin/pccardctl 6e99c490472a15ba56ef612af930f47a 1465190232
+sym /usr/bin/lspcmcia -> pccardctl 1465190233
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/pcmciautils-018_p8
+obj /usr/share/doc/pcmciautils-018_p8/mini-howto.txt.bz2 2713cb805fcaef22423a3288e89779cb 1465190231
+obj /usr/share/doc/pcmciautils-018_p8/cardmgr-to-pcmciautils.txt.bz2 d73e47a5fd9f4271f9793b62827504d7 1465190231
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/pccardctl.8.bz2 9865bbca232ee284c8f838a15e783349 1465190231
+sym /usr/share/man/man8/lspcmcia.8.bz2 -> pccardctl.8.bz2 1465190233

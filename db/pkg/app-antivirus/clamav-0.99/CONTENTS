@@ -1,0 +1,78 @@
+dir /var
+dir /var/lib
+dir /var/lib/clamav
+obj /var/lib/clamav/.keep_app-antivirus_clamav-0 d41d8cd98f00b204e9800998ecf8427e 1483050821
+dir /var/log
+dir /var/log/clamav
+obj /var/log/clamav/.keep_app-antivirus_clamav-0 d41d8cd98f00b204e9800998ecf8427e 1483050821
+dir /etc
+obj /etc/freshclam.conf 06978525746ff4be9154ddc8670f87c9 1483050821
+dir /etc/init.d
+obj /etc/init.d/clamd b35e1451fff6b77cc6a009f77ddd53eb 1483050821
+dir /etc/logrotate.d
+obj /etc/logrotate.d/clamav 73670171015374e391e32a8ebe5adaea 1483050821
+obj /etc/clamd.conf 31ab82867c545c9e4e0e6931227b768f 1483050821
+dir /etc/conf.d
+obj /etc/conf.d/clamd af1226accc2fc562fbbb88101fc9f61e 1483050821
+dir /usr
+dir /usr/lib
+dir /usr/lib/systemd
+dir /usr/lib/systemd/system
+obj /usr/lib/systemd/system/freshclamd.service 9ea7c696979f3977120791bdb355acf9 1483050821
+obj /usr/lib/systemd/system/clamd.service 3f4b654916505c1bb3b8ee0a0ed3eaea 1483050821
+obj /usr/lib/systemd/system/clamd@.service 34a7ca374399ec3969aa72253bbee6ad 1483050821
+dir /usr/lib/tmpfiles.d
+obj /usr/lib/tmpfiles.d/clamav.conf 987b36ccdc3739ef1fe14955cd0d129c 1483050821
+dir /usr/lib64
+obj /usr/lib64/libclamunrar_iface.so.7.1.1 3cbeb8df952aa9b7b5367c3e86cf12d9 1483050822
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libclamav.pc 80c35a1b57da4fafa8efe767d5c15ec4 1483050821
+obj /usr/lib64/libclamunrar.so.7.1.1 553b0d57208757dde657bf83e02fea68 1483050822
+sym /usr/lib64/libclamunrar_iface.so -> libclamunrar_iface.so.7.1.1 1483050823
+obj /usr/lib64/libclamav.so.7.1.1 20526287d8eb8edfc8a0e16f321629c0 1483050822
+sym /usr/lib64/libclamunrar.so.7 -> libclamunrar.so.7.1.1 1483050823
+sym /usr/lib64/libclamunrar.so -> libclamunrar.so.7.1.1 1483050823
+sym /usr/lib64/libclamav.so -> libclamav.so.7.1.1 1483050823
+dir /usr/include
+obj /usr/include/clamav.h e84ab0133890175ccb51d6bbe286be28 1483050820
+dir /usr/bin
+obj /usr/bin/clambc 668ff29067d74926614e32f6e10c98d9 1483050822
+obj /usr/bin/clamav-config 995e2369196b4044fdc9119429bf6262 1483050821
+obj /usr/bin/freshclam 98e0d7c128f4b0bad887e10b53978e75 1483050822
+obj /usr/bin/clamsubmit 0d5b58aeba619ff7c63a4ff66181e0e8 1483050822
+obj /usr/bin/clamscan 20d05db5ad4c9f260198fed6695e2c51 1483050822
+obj /usr/bin/clamconf 2571c8d2e40bd3a9bdef0728c1b5416f 1483050822
+obj /usr/bin/sigtool 7adbfe9eb57e89023a94a5a037c2a3e1 1483050822
+obj /usr/bin/clamdscan b0a51b7677cadd2f023c6465ab3923f1 1483050822
+dir /usr/sbin
+obj /usr/sbin/clamd 949423315874f47e4ed76098c5ad7021 1483050822
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/clamav-0.99
+obj /usr/share/doc/clamav-0.99/BUGS 30493b1d0b6ef5daeb64242e7ca26e19 1483050821
+obj /usr/share/doc/clamav-0.99/FAQ 3766f31b0a6f4d5fe591728c826ecb9c 1483050821
+obj /usr/share/doc/clamav-0.99/NEWS.bz2 cd06cc7307e0ecfbe5314b24feceaaa1 1483050821
+obj /usr/share/doc/clamav-0.99/README.bz2 31d0a771b30b377ea62a401238679f93 1483050821
+obj /usr/share/doc/clamav-0.99/AUTHORS.bz2 f104dadd969cccb6b93de07a5ccbb387 1483050821
+obj /usr/share/doc/clamav-0.99/UPGRADE.bz2 044e8623c3b8d74199a0d87175b837fe 1483050821
+obj /usr/share/doc/clamav-0.99/ChangeLog.bz2 fa65228d082530100ccdea5ce15ca8a5 1483050821
+obj /usr/share/doc/clamav-0.99/INSTALL.bz2 cd2529051ef21ab42e43e35cb91829b7 1483050821
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/clamav-milter.8.bz2 5cbc5c26bd2dab9640582c7acbb847e6 1483050821
+obj /usr/share/man/man8/clamd.8.bz2 2dbb77131ff118070bceafa2e899f33d 1483050821
+dir /usr/share/man/man1
+obj /usr/share/man/man1/freshclam.1.bz2 c32d766292c9f3bea6397762cef4964b 1483050821
+obj /usr/share/man/man1/clamconf.1.bz2 81cd3b09b63fa8cda59df31ae2168589 1483050821
+obj /usr/share/man/man1/clamscan.1.bz2 663c283870e83b268c81a46fe459dd5c 1483050821
+obj /usr/share/man/man1/clambc.1.bz2 d3b0648b60af3f994c523335183a5815 1483050821
+obj /usr/share/man/man1/sigtool.1.bz2 941f6188da69d447d6eb5c9102efafe7 1483050821
+obj /usr/share/man/man1/clamdscan.1.bz2 0315bf588763e1d97c2d27dfb8e4be99 1483050821
+obj /usr/share/man/man1/clamsubmit.1.bz2 42db9fd7d45bf41ac8ee0bd116f347fe 1483050821
+obj /usr/share/man/man1/clamdtop.1.bz2 737ffda390fda076910b0d0019151cf6 1483050821
+dir /usr/share/man/man5
+obj /usr/share/man/man5/clamd.conf.5.bz2 218b0e560f38ff768ae579ddc6d4e11f 1483050821
+obj /usr/share/man/man5/freshclam.conf.5.bz2 392102358bf4495205a41207f9030617 1483050821
+obj /usr/share/man/man5/clamav-milter.conf.5.bz2 6cd8c868f29b5de4a826bd9c0cfbcc53 1483050821
+sym /usr/lib64/libclamav.so.7 -> libclamav.so.7.1.1 1483050823
+sym /usr/lib64/libclamunrar_iface.so.7 -> libclamunrar_iface.so.7.1.1 1483050823

@@ -1,0 +1,48 @@
+dir /opt
+dir /opt/brother
+dir /opt/brother/Printers
+dir /opt/brother/Printers/mfc9340cdw
+dir /opt/brother/Printers/mfc9340cdw/inf
+obj /opt/brother/Printers/mfc9340cdw/inf/brmfc9340cdwrc c5981f7e103e539cd3ee9cae91923eaa 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/brmfc9340cdwfunc 3c6b92a3e58ef0c2dc4b5d41034d0f12 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/setupPrintcapij 36d853888c4cba14c58bc12af9fe7c7a 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/ImagingArea 5bb4e48259371787dfae79e0459e8c03 1469136415
+dir /opt/brother/Printers/mfc9340cdw/inf/lut
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/capt-c_cache12.bin ca3ec9f6622adb338a1ed00ecc0a05f0 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/0600-k_cache12.bin 411404bac6c3df35a36c620022127970 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/0600-y_cache12.bin 1b904ad16d53fc25b61661f535299076 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/capt-m_cache12.bin ff6b98ab41f1d02a15f9733d427ad9b6 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/capt-k_cache12.bin cc2af9902c75029850e135f4bad7f7ff 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/0600-m_cache12.bin c05dd4ddc99859d0578d73dd0db7c82f 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/capt-m-TS_cache12.bin ba03f641a18df331ba92497d62a270b4 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/0600-y-TS_cache12.bin 573934270bba60433961a2055ca01e13 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/0600-k-TS_cache12.bin 62e6d03a7dd7568812148535111f63e1 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/capt-c-TS_cache12.bin 4d8bfca5bbc9f738e67d591ffb95acc2 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/capt-k-TS_cache12.bin 54d2acb02a7c9a268e49e5db8e503c46 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/0600-c_cache12.bin 8a8d5f51cd1c10ce2ff8f9e2b6bd0cc0 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/0600-m-TS_cache12.bin b32b119822bd9b0ffed76e71f72f2397 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/0600-c-TS_cache12.bin ad4b07fefe4567bbd1047c18f111e466 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/capt-y_cache12.bin d26a73ea53fcea5ba341f0289187b065 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/lut/capt-y-TS_cache12.bin d03e37eb90960207aa6f015bd3c9413f 1469136415
+obj /opt/brother/Printers/mfc9340cdw/inf/paperinfij2 bcd887a1beb261658fddce70824ed1e5 1469136415
+dir /opt/brother/Printers/mfc9340cdw/cupswrapper
+obj /opt/brother/Printers/mfc9340cdw/cupswrapper/brother_mfc9340cdw_printer_en.ppd d5e98e5f74ca7b7f1723620fb316a976 1469136415
+obj /opt/brother/Printers/mfc9340cdw/cupswrapper/brcupsconfpt1 0f0a9dbd537c30e3a62d9b2bbccb95cb 1469136415
+obj /opt/brother/Printers/mfc9340cdw/cupswrapper/cupswrappermfc9340cdw 8dc9f9e53314a9447c711dbbca7995a3 1469136415
+dir /opt/brother/Printers/mfc9340cdw/lpd
+obj /opt/brother/Printers/mfc9340cdw/lpd/psconvertij2 6d27f2184fd70592760db7c8ed8af2dc 1469136415
+obj /opt/brother/Printers/mfc9340cdw/lpd/brmfc9340cdwfilter 5b90d9b541ab7bc65bd75f6a677d990b 1469136415
+obj /opt/brother/Printers/mfc9340cdw/lpd/filtermfc9340cdw 4b325e4b2a8f95ba4f1c5cc23ee16ced 1469136415
+dir /usr
+dir /usr/libexec
+dir /usr/libexec/cups
+dir /usr/libexec/cups/filter
+sym /usr/libexec/cups/filter/brother_lpdwrapper_mfc9340cdw -> ../../../../opt/brother/Printers/mfc9340cdw/lpd/filtermfc9340cdw 1469136423
+dir /usr/bin
+obj /usr/bin/brprintconf_mfc9340cdw 40cd948e5d5ff0a0b17776da5d3eb85e 1469136415
+dir /usr/sbin
+obj /usr/sbin/brprintconf_mfc9340cdw 40cd948e5d5ff0a0b17776da5d3eb85e 1469136415
+dir /usr/share
+dir /usr/share/cups
+dir /usr/share/cups/model
+sym /usr/share/cups/model/brother_mfc9340cdw_printer_en.ppd -> ../../../../opt/brother/Printers/mfc9340cdw/cupswrapper/brother_mfc9340cdw_printer_en.ppd 1469136423

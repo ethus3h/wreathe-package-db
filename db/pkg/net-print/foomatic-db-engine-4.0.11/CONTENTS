@@ -1,0 +1,62 @@
+dir /usr
+dir /usr/lib64
+dir /usr/lib64/perl5
+dir /usr/lib64/perl5/vendor_perl
+dir /usr/lib64/perl5/vendor_perl/5.22.2
+dir /usr/lib64/perl5/vendor_perl/5.22.2/Foomatic
+obj /usr/lib64/perl5/vendor_perl/5.22.2/Foomatic/Defaults.pm b876c6b309e4470b002567d7dae6a541 1475545700
+obj /usr/lib64/perl5/vendor_perl/5.22.2/Foomatic/PPD.pm 00da3ad8d6226524c26d1593b9ea1489 1475545700
+obj /usr/lib64/perl5/vendor_perl/5.22.2/Foomatic/DB.pm 80c07e9e8061dd7de87b188da02e1b41 1475545700
+obj /usr/lib64/perl5/vendor_perl/5.22.2/Foomatic/UIElem.pm 53703bdecec5b3657a855eb200edc70f 1475545700
+dir /usr/libexec
+dir /usr/libexec/cups
+dir /usr/libexec/cups/driver
+sym /usr/libexec/cups/driver/foomatic -> /usr/bin/foomatic-ppdfile 1475545702
+dir /usr/bin
+obj /usr/bin/foomatic-perl-data fc257e023f46c2bf57c8a698bf053acb 1475545700
+sym /usr/bin/foomatic-datafile -> foomatic-ppdfile 1475545702
+obj /usr/bin/foomatic-ppdfile b745c7fe9f5f74bbddb59be26cbea8f1 1475545700
+obj /usr/bin/foomatic-ppd-options 58473611ffecb23484d2ad16f9a7a887 1475545700
+obj /usr/bin/foomatic-combo-xml ecc0a6842bc6964ee94796f3f881bf53 1475545700
+obj /usr/bin/foomatic-printjob e83d345da43de154bcca72839f24daa8 1475545700
+obj /usr/bin/foomatic-ppd-to-xml 27ea002322eaa752666e8c0083c58c03 1475545700
+obj /usr/bin/foomatic-compiledb 34fa9d641270cc3bcf57176903769afa 1475545700
+obj /usr/bin/foomatic-searchprinter 1c35de8588fe4110457819f8e26fceaf 1475545700
+obj /usr/bin/foomatic-configure 693c69cde91c8e75e9ed2615d8814283 1475545700
+dir /usr/sbin
+obj /usr/sbin/foomatic-cleanupdrivers 8137f961bc2599fce4b507214ac85cc6 1475545699
+obj /usr/sbin/foomatic-printermap-to-gutenprint-xml abb25634e0c73758f9af5be66d60a1e9 1475545699
+obj /usr/sbin/foomatic-preferred-driver 7a70edb06a73dca468047dc9b6f50ff2 1475545699
+obj /usr/sbin/foomatic-kitload b510cf6ae1c79d61c47692a2d7ee9d30 1475545699
+obj /usr/sbin/foomatic-addpjloptions e7ebd7776a30d33b66f6b149f5862afb 1475545699
+obj /usr/sbin/foomatic-replaceoldprinterids 67a2cdbffff88d1a50b82d3557bc4c13 1475545699
+obj /usr/sbin/foomatic-nonumericalids f98a49b8b5acf2467dc22cf05303e457 1475545699
+obj /usr/sbin/foomatic-extract-text 76aa6291f45ecc5c831c0fa1166a2eb7 1475545699
+obj /usr/sbin/foomatic-getpjloptions 43640d1e0734e172319cbf5dbd5662f9 1475545699
+obj /usr/sbin/foomatic-fix-xml d9c8215b43a616bf08394152a2aa7b5d 1475545699
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/foomatic-db-engine-4.0.11
+obj /usr/share/doc/foomatic-db-engine-4.0.11/USAGE.bz2 73a79dcc27ed1158a91819026c7c8711 1475545699
+obj /usr/share/doc/foomatic-db-engine-4.0.11/README.bz2 edc06b77a40c4f4b2e6bdf43142d9f1e 1475545699
+obj /usr/share/doc/foomatic-db-engine-4.0.11/ChangeLog.bz2 c0d1248f43fa2e0aa219493fddf18301 1475545699
+obj /usr/share/doc/foomatic-db-engine-4.0.11/TODO.bz2 ba74553895654c51447a0a89cd36eba9 1475545699
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/foomatic-kitload.8.bz2 383fe730fd1a2d8504ec1fc3432b0082 1475545699
+obj /usr/share/man/man8/foomatic-getpjloptions.8.bz2 a79955d9d0fbff393bdff66fb3dd0673 1475545699
+obj /usr/share/man/man8/foomatic-preferred-driver.8.bz2 f842472dbf9a3ecf59aa975a28db04fe 1475545699
+obj /usr/share/man/man8/foomatic-addpjloptions.8.bz2 a8862ffd01ca6a2e95309e979e9e4332 1475545699
+dir /usr/share/man/man1
+obj /usr/share/man/man1/foomatic-ppd-options.1.bz2 6017b3261b03a9b8e0e87b09510ddc58 1475545699
+obj /usr/share/man/man1/foomatic-configure.1.bz2 51763bce38d053ab064ca395b8d2f005 1475545699
+obj /usr/share/man/man1/foomatic-printjob.1.bz2 2dbb6938e24796774182f508b1974403 1475545699
+obj /usr/share/man/man1/foomatic-combo-xml.1.bz2 3bb5e22939c08e45e4a7e8c5a1e37ea4 1475545699
+obj /usr/share/man/man1/foomatic-ppdfile.1.bz2 a01525064cdc37e6e1da958f6cb8f04a 1475545699
+obj /usr/share/man/man1/foomatic-compiledb.1.bz2 1cb2f53079e48b400f89f7fcec9abe2a 1475545699
+obj /usr/share/man/man1/foomatic-perl-data.1.bz2 715931070add98011ebd85865b10f370 1475545699
+dir /usr/share/foomatic
+dir /usr/share/foomatic/templates
+obj /usr/share/foomatic/templates/pjl_enum_choice.xml 3fe1b4d02061c0956a159c49048c5712 1475545699
+obj /usr/share/foomatic/templates/pjl_num_option.xml bb592775a5aacb700cf3340ecc8e86fb 1475545699
+obj /usr/share/foomatic/templates/pjl_enum_option.xml 33c547f64abecc07566a969fe0f46c5c 1475545699

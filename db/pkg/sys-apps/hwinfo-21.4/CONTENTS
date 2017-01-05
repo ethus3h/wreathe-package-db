@@ -1,0 +1,35 @@
+dir /sbin
+dir /usr
+dir /usr/lib64
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/hwinfo.pc efdeb08754c21d7f6d747a3bdf3446cd 1468808549
+obj /usr/lib64/libhd.so.21.4 da8896a66a2962c3134f99c716353c4a 1468808551
+sym /usr/lib64/libhd.so.21 -> libhd.so.21.4 1468808553
+dir /usr/include
+obj /usr/include/hd.h 46b8c974e7fd9cb6f676b285381c628b 1468808549
+dir /usr/sbin
+obj /usr/sbin/check_hd 675168c5fe9861872496df9363068b18 1468808551
+obj /usr/sbin/convert_hd 591c054bb027410d030b64e6ea72733c 1468808549
+obj /usr/sbin/hwinfo ee733ec93f66d292ec93ef404eac8783 1468808551
+obj /usr/sbin/mk_isdnhwdb d1d8e4a1bf372327a430538c14407fcb 1468808551
+obj /usr/sbin/getsysinfo d170e5e95071b38b419e84be9c1c5818 1468808549
+dir /usr/share
+dir /usr/share/hwinfo
+obj /usr/share/hwinfo/ISDN.CDB.hwdb 876aee907a92a5cb2033927362b5e3d3 1468808549
+obj /usr/share/hwinfo/ISDN.CDB.txt 6f9db1671b97c78a8999a08bf7bfeb45 1468808549
+dir /usr/share/doc
+dir /usr/share/doc/hwinfo-21.4
+obj /usr/share/doc/hwinfo-21.4/changelog.bz2 3f80768d3afe10c45b5ba13f61e7bcec 1468808549
+obj /usr/share/doc/hwinfo-21.4/README.bz2 7e2851ee90a2208180f617c97b8ba8f0 1468808549
+dir /usr/share/doc/hwinfo-21.4/examples
+obj /usr/share/doc/hwinfo-21.4/examples/example1.c.bz2 47189ca00e914f5fca6f49b2acb9bcb4 1468808549
+obj /usr/share/doc/hwinfo-21.4/examples/example2.c.bz2 a36054787e7e7a22db7888d57bc1563d 1468808549
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/hwinfo.8.bz2 68c27d039c029bd16a595da8413f2b65 1468808549
+dir /usr/share/man/man1
+obj /usr/share/man/man1/getsysinfo.1.bz2 8249d9a0ce900918becc4e574c6d8741 1468808549
+obj /usr/share/man/man1/check_hd.1.bz2 73f067968137213b382a4acef5e3d4e9 1468808549
+obj /usr/share/man/man1/mk_isdnhwdb.1 d1e258212665958f817753dc9708ceae 1468808549
+obj /usr/share/man/man1/convert_hd.1.bz2 ed2aceab1fb5e36c1bfc3eccbdd23be9 1468808549
+sym /usr/lib64/libhd.so -> libhd.so.21 1468808553
