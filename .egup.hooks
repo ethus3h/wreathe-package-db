@@ -1,2 +1,0 @@
-#!/bin/bash
-sudo rsync -av --delete --no-i-r --exclude "README.md" --exclude ".git" --exclude ".egup.hooks" --exclude ".egup.tags" --progress --checksum /var/db/pkg/ ./
