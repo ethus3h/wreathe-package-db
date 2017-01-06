@@ -1,22 +1,25 @@
 dir /usr
 dir /usr/lib64
-obj /usr/lib64/libsopranoserver.so.1.2.0 5c8cf65b82e466b16d68ddcb8a17791b 1481766274
+sym /usr/lib64/libsoprano.so -> libsoprano.so.4 1483738024
+obj /usr/lib64/libsopranoserver.so.1.2.0 5c8cf65b82e466b16d68ddcb8a17791b 1483738021
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/soprano.pc 4be7879ae9db3dcb55a71a6e2f29fc93 1481766210
-obj /usr/lib64/pkgconfig/sopranoclient.pc 3e1f931a198ccae7521e395e082687ad 1481766210
-obj /usr/lib64/pkgconfig/sopranoserver.pc b5d9ec9da4525a018d77add62003223e 1481766210
-obj /usr/lib64/libsoprano.so.4.3.0 c27e43d3a12f0ba359ce441c728b5b98 1481766274
-sym /usr/lib64/libsoprano.so.4 -> libsoprano.so.4.3.0 1481766276
-sym /usr/lib64/libsopranoserver.so.1 -> libsopranoserver.so.1.2.0 1481766276
+obj /usr/lib64/pkgconfig/soprano.pc 4be7879ae9db3dcb55a71a6e2f29fc93 1483737964
+obj /usr/lib64/pkgconfig/sopranoclient.pc 3e1f931a198ccae7521e395e082687ad 1483737964
+obj /usr/lib64/pkgconfig/sopranoserver.pc b5d9ec9da4525a018d77add62003223e 1483737964
+obj /usr/lib64/libsoprano.so.4.3.0 c3d4a5061d88349532364cbbc5856fe6 1483738021
+sym /usr/lib64/libsoprano.so.4 -> libsoprano.so.4.3.0 1483738024
+sym /usr/lib64/libsopranoserver.so.1 -> libsopranoserver.so.1.2.0 1483738024
+sym /usr/lib64/libsopranoclient.so.1 -> libsopranoclient.so.1.2.0 1483738024
+sym /usr/lib64/libsopranoclient.so -> libsopranoclient.so.1 1483738024
 dir /usr/lib64/soprano
-obj /usr/lib64/soprano/libsoprano_raptorserializer.so 0fe27817d4619c1a2c5eda29cbd2625f 1481766274
-obj /usr/lib64/soprano/libsoprano_virtuosobackend.so 2b7ab565e5e3ed3cb479d5a165598d45 1481766274
-obj /usr/lib64/soprano/libsoprano_nquadserializer.so f755e1fe37d9cdd3b778adf0ce18f6ff 1481766274
-obj /usr/lib64/soprano/libsoprano_raptorparser.so b63bf7a7768cfe5ffb730961d72b6d4a 1481766274
-obj /usr/lib64/soprano/libsoprano_redlandbackend.so 4ffa7925e410931c75dde8fe45a102f4 1481766274
-obj /usr/lib64/soprano/libsoprano_nquadparser.so 6162aa201f81cdb150e93572837cd453 1481766274
-sym /usr/lib64/libsopranoserver.so -> libsopranoserver.so.1 1481766276
-obj /usr/lib64/libsopranoclient.so.1.2.0 73f02de12d77d3abd92d1064f194fd18 1481766274
+obj /usr/lib64/soprano/libsoprano_raptorserializer.so 0fe27817d4619c1a2c5eda29cbd2625f 1483738021
+obj /usr/lib64/soprano/libsoprano_virtuosobackend.so bc22458ad3c79d614cfb5a57ce0417a3 1483738021
+obj /usr/lib64/soprano/libsoprano_nquadserializer.so f755e1fe37d9cdd3b778adf0ce18f6ff 1483738021
+obj /usr/lib64/soprano/libsoprano_raptorparser.so b63bf7a7768cfe5ffb730961d72b6d4a 1483738021
+obj /usr/lib64/soprano/libsoprano_redlandbackend.so 4ffa7925e410931c75dde8fe45a102f4 1483738021
+obj /usr/lib64/soprano/libsoprano_nquadparser.so 6162aa201f81cdb150e93572837cd453 1483738021
+sym /usr/lib64/libsopranoserver.so -> libsopranoserver.so.1 1483738024
+obj /usr/lib64/libsopranoclient.so.1.2.0 f1157779c270383aefe01b30984f7df9 1483738021
 dir /usr/include
 dir /usr/include/Soprano
 dir /usr/include/Soprano/Inference
@@ -138,7 +141,7 @@ obj /usr/include/soprano/dbusexportiterator.h 81bd56083fc33e7f2fc077c2e314f26d 1
 obj /usr/include/soprano/owl.h cfb30744c5def919b476c69977bd33c6 1381339348
 obj /usr/include/soprano/plugin.h fe3f90469c134bef967272224c41582a 1381339348
 obj /usr/include/soprano/queryresultiteratorbackend.h 995d7eda3d5f68e304249f9204be87e0 1381339348
-obj /usr/include/soprano/version.h 6d9b300b907a263b62de78fff52578c8 1481766210
+obj /usr/include/soprano/version.h 6d9b300b907a263b62de78fff52578c8 1483737964
 obj /usr/include/soprano/signalcachemodel.h 6c399dccf6d53c15d8e5c1dcce98e68f 1381339348
 obj /usr/include/soprano/asyncresult.h eec2653039278b09a2ccbb6f2562b718 1381339348
 obj /usr/include/soprano/graph.h 0078e2a57ac559a4ac8cd8b048a87351 1381339348
@@ -165,26 +168,26 @@ obj /usr/include/soprano/model.h 64cc4022ccd0776c156b5f279f0980da 1381339348
 obj /usr/include/soprano/dbusstatementiterator.h e3d206f741f17f5ca15cf95b3b50e3f4 1381339348
 obj /usr/include/soprano/locator.h dd1d9abb3adc42ed6ba39d4b3ca16d4d 1381339348
 dir /usr/bin
-obj /usr/bin/sopranod 7bc2c1d4ffaa15fe207af8e37cf16af1 1481766274
-obj /usr/bin/sopranocmd 13bf63a9e0153c722df6fc548d016682 1481766274
-obj /usr/bin/onto2vocabularyclass d366e34b627ba20d00f0aa6ea110c82d 1481766274
+obj /usr/bin/sopranod 7bc2c1d4ffaa15fe207af8e37cf16af1 1483738021
+obj /usr/bin/sopranocmd da069888a5dfb5208bbea23c096cb818 1483738021
+obj /usr/bin/onto2vocabularyclass d366e34b627ba20d00f0aa6ea110c82d 1483738021
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/soprano-2.9.4
-obj /usr/share/doc/soprano-2.9.4/README.virtuoso.bz2 35ae8a798655308bea87f8de6bead8ba 1481766273
-obj /usr/share/doc/soprano-2.9.4/README.bz2 4b8a8d1e1aa9ec17cb802044956aa90f 1481766273
-obj /usr/share/doc/soprano-2.9.4/README.sesame2.bz2 8f05ad5105de381957e701d80f6d892b 1481766273
-obj /usr/share/doc/soprano-2.9.4/AUTHORS 366cd96407497531940c1df1336bc323 1481766273
-obj /usr/share/doc/soprano-2.9.4/ChangeLog.bz2 15c8b824de692575d408c971343a3f46 1481766273
-obj /usr/share/doc/soprano-2.9.4/TODO.bz2 40e2b40f64abd750e549452d83fa88b3 1481766273
+obj /usr/share/doc/soprano-2.9.4/README.virtuoso.bz2 35ae8a798655308bea87f8de6bead8ba 1483738020
+obj /usr/share/doc/soprano-2.9.4/README.bz2 4b8a8d1e1aa9ec17cb802044956aa90f 1483738020
+obj /usr/share/doc/soprano-2.9.4/README.sesame2.bz2 8f05ad5105de381957e701d80f6d892b 1483738020
+obj /usr/share/doc/soprano-2.9.4/AUTHORS 366cd96407497531940c1df1336bc323 1483738020
+obj /usr/share/doc/soprano-2.9.4/ChangeLog.bz2 15c8b824de692575d408c971343a3f46 1483738020
+obj /usr/share/doc/soprano-2.9.4/TODO.bz2 40e2b40f64abd750e549452d83fa88b3 1483738020
 dir /usr/share/soprano
 dir /usr/share/soprano/plugins
-obj /usr/share/soprano/plugins/raptorparser.desktop 2add4dc91cffcb32229d6646959d5fe9 1481766210
-obj /usr/share/soprano/plugins/nquadserializer.desktop fc92653dae997e86c5f645139d73e8e9 1481766210
-obj /usr/share/soprano/plugins/virtuosobackend.desktop a314f0d51da314b41da13d6f25b16480 1481766210
-obj /usr/share/soprano/plugins/raptorserializer.desktop a2c004312ceb5ae926a00b3e7b29980e 1481766210
-obj /usr/share/soprano/plugins/redlandbackend.desktop 3f62d5355a314587c0f9ce8343f622b2 1481766210
-obj /usr/share/soprano/plugins/nquadparser.desktop efdec8fbedc8e1fdc7f5e2e274d063b4 1481766210
+obj /usr/share/soprano/plugins/raptorparser.desktop 2add4dc91cffcb32229d6646959d5fe9 1483737964
+obj /usr/share/soprano/plugins/nquadserializer.desktop fc92653dae997e86c5f645139d73e8e9 1483737964
+obj /usr/share/soprano/plugins/virtuosobackend.desktop a314f0d51da314b41da13d6f25b16480 1483737964
+obj /usr/share/soprano/plugins/raptorserializer.desktop a2c004312ceb5ae926a00b3e7b29980e 1483737964
+obj /usr/share/soprano/plugins/redlandbackend.desktop 3f62d5355a314587c0f9ce8343f622b2 1483737964
+obj /usr/share/soprano/plugins/nquadparser.desktop efdec8fbedc8e1fdc7f5e2e274d063b4 1483737964
 dir /usr/share/soprano/cmake
 obj /usr/share/soprano/cmake/SopranoAddOntology.cmake d7ef566af9bf9886dd9557d435dc255b 1381339348
 dir /usr/share/soprano/rules
@@ -197,6 +200,3 @@ obj /usr/share/dbus-1/interfaces/org.soprano.Server.xml 49a491eade27a2d65cd05b52
 obj /usr/share/dbus-1/interfaces/org.soprano.NodeIterator.xml 06e8ae7f0879594383268ee7a8457e8c 1381339348
 obj /usr/share/dbus-1/interfaces/org.soprano.QueryResultIterator.xml f9e4ebbec221566ecfe41463c39a1f34 1381339348
 obj /usr/share/dbus-1/interfaces/org.soprano.Model.xml cb4fb8a32f27aa4fe6d5826e5994949c 1381339348
-sym /usr/lib64/libsopranoclient.so.1 -> libsopranoclient.so.1.2.0 1481766277
-sym /usr/lib64/libsoprano.so -> libsoprano.so.4 1481766277
-sym /usr/lib64/libsopranoclient.so -> libsopranoclient.so.1 1481766277
