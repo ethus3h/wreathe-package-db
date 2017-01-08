@@ -1,0 +1,19 @@
+dir /lib
+dir /lib/udev
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/42-infinipath-psm.rules 0ac5778b887caf53d6d7fefce166b9e7 1483911073
+dir /usr
+dir /usr/lib64
+obj /usr/lib64/libinfinipath.so.4.0 98e0444275d75590b796bd5a33bc0005 1483911075
+obj /usr/lib64/libpsm_infinipath.so.1.15 a180cb458974b9b05fa5cdf23fb76166 1483911075
+dir /usr/include
+obj /usr/include/psm_mq.h 7be363e41f81e95aaf912ec28fcd685b 1483911073
+obj /usr/include/psm.h adc2f564c135468044ff4a89db6a62db 1483911073
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/infinipath-psm-3.2
+obj /usr/share/doc/infinipath-psm-3.2/README.bz2 b29af819dd3cd2adf238186f2c0005e4 1483911073
+sym /usr/lib64/libinfinipath.so.4 -> libinfinipath.so.4.0 1483911078
+sym /usr/lib64/libinfinipath.so -> libinfinipath.so.4 1483911078
+sym /usr/lib64/libpsm_infinipath.so.1 -> libpsm_infinipath.so.1.15 1483911078
+sym /usr/lib64/libpsm_infinipath.so -> libpsm_infinipath.so.1 1483911078

@@ -1,57 +1,81 @@
 dir /usr
 dir /usr/lib64
+sym /usr/lib64/libverbiste-0.1.so -> libverbiste-0.1.so.0.0.0 1483911213
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/verbiste-0.1.pc 2b24b602f153de905726d30d384e82b1 1468148609
-obj /usr/lib64/libverbiste-0.1.so.0.0.0 4bc27474c168452a2803df2aab55d572 1468148610
+obj /usr/lib64/pkgconfig/verbiste-0.1.pc 2b24b602f153de905726d30d384e82b1 1483911210
+sym /usr/lib64/libverbiste-0.1.so.0 -> libverbiste-0.1.so.0.0.0 1483911213
+obj /usr/lib64/libverbiste-0.1.so.0.0.0 7e12201c172863ee9d45a3753a5dc01a 1483911211
 dir /usr/include
 dir /usr/include/verbiste-0.1
 dir /usr/include/verbiste-0.1/verbiste
-obj /usr/include/verbiste-0.1/verbiste/FrenchVerbDictionary.h 6cb65656abfd4c29dc754bdfdc3b6981 1468148608
-obj /usr/include/verbiste-0.1/verbiste/Trie.h 2ec173405b9a6adc019da0bcb382798c 1468148608
-obj /usr/include/verbiste-0.1/verbiste/c-api.h bccff6064a90689bf4acb8b7b8f74538 1468148608
-obj /usr/include/verbiste-0.1/verbiste/misc-types.h 5f194128b42f0d7c67e6c3117a43ff88 1468148608
-obj /usr/include/verbiste-0.1/verbiste/Trie.cpp d464a24c8bfc5d58a5432ea9a9f16c72 1468148608
+obj /usr/include/verbiste-0.1/verbiste/FrenchVerbDictionary.h 6cb65656abfd4c29dc754bdfdc3b6981 1483911209
+obj /usr/include/verbiste-0.1/verbiste/Trie.h 2ec173405b9a6adc019da0bcb382798c 1483911209
+obj /usr/include/verbiste-0.1/verbiste/c-api.h bccff6064a90689bf4acb8b7b8f74538 1483911209
+obj /usr/include/verbiste-0.1/verbiste/misc-types.h 5f194128b42f0d7c67e6c3117a43ff88 1483911209
+obj /usr/include/verbiste-0.1/verbiste/Trie.cpp d464a24c8bfc5d58a5432ea9a9f16c72 1483911209
 dir /usr/bin
-obj /usr/bin/french-conjugator df1bcb7ffb2e8c77f835d3d1ea1c98b0 1468148610
-obj /usr/bin/french-deconjugator 43864cea9bb5b93f384f5ba40157bbc8 1468148610
-obj /usr/bin/verbiste-console 4fe7c32b2a788fda09ab8cd923e2b1cd 1468148610
+obj /usr/bin/french-conjugator df1bcb7ffb2e8c77f835d3d1ea1c98b0 1483911211
+obj /usr/bin/french-deconjugator 43864cea9bb5b93f384f5ba40157bbc8 1483911211
+obj /usr/bin/verbiste-console 4fe7c32b2a788fda09ab8cd923e2b1cd 1483911211
+obj /usr/bin/verbiste-gtk de454fa6d8c4c4bb08b42b3754a2533b 1483911211
 dir /usr/share
+dir /usr/share/texmf
+dir /usr/share/texmf/tex
+dir /usr/share/texmf/tex/latex
+dir /usr/share/texmf/tex/latex/verbiste
+obj /usr/share/texmf/tex/latex/verbiste/verbiste.cfg 8fcb671d81d59e9cb666f03902aa1210 1483911210
+obj /usr/share/texmf/tex/latex/verbiste/verbiste.cls ab384486370e4efaf8184770a5339ccc 1483911210
 dir /usr/share/doc
 dir /usr/share/doc/verbiste-0.1.38
-obj /usr/share/doc/verbiste-0.1.38/NEWS.bz2 78611cab76a870003f83f3cc1c155f38 1468148609
-obj /usr/share/doc/verbiste-0.1.38/LISEZMOI.bz2 da77fd4a3f4188b87c491772080a1225 1468148609
-obj /usr/share/doc/verbiste-0.1.38/README.bz2 e8e1fdf9238442ef513a7808b2193e35 1468148609
-obj /usr/share/doc/verbiste-0.1.38/COPYING.bz2 b4a4ee27f39d9a0e1ee08085fe1ff818 1468148609
-obj /usr/share/doc/verbiste-0.1.38/AUTHORS 9dbdbf96b5ee6b08fd866be81d4ae01a 1468148609
-obj /usr/share/doc/verbiste-0.1.38/HACKING.bz2 33fb7fd4ccd4fe8c02183586aa0c4608 1468148609
-obj /usr/share/doc/verbiste-0.1.38/THANKS.bz2 b6d9176cde597ce360b55a05f0b4a872 1468148609
+obj /usr/share/doc/verbiste-0.1.38/NEWS.bz2 78611cab76a870003f83f3cc1c155f38 1483911210
+obj /usr/share/doc/verbiste-0.1.38/LISEZMOI.bz2 da77fd4a3f4188b87c491772080a1225 1483911210
+obj /usr/share/doc/verbiste-0.1.38/README.bz2 e8e1fdf9238442ef513a7808b2193e35 1483911210
+obj /usr/share/doc/verbiste-0.1.38/COPYING.bz2 b4a4ee27f39d9a0e1ee08085fe1ff818 1483911210
+obj /usr/share/doc/verbiste-0.1.38/AUTHORS 9dbdbf96b5ee6b08fd866be81d4ae01a 1483911210
+obj /usr/share/doc/verbiste-0.1.38/HACKING.bz2 33fb7fd4ccd4fe8c02183586aa0c4608 1483911210
+obj /usr/share/doc/verbiste-0.1.38/THANKS.bz2 b6d9176cde597ce360b55a05f0b4a872 1483911210
 dir /usr/share/doc/verbiste-0.1.38-r1
-obj /usr/share/doc/verbiste-0.1.38-r1/NEWS.bz2 78611cab76a870003f83f3cc1c155f38 1468148609
-obj /usr/share/doc/verbiste-0.1.38-r1/LISEZMOI.bz2 da77fd4a3f4188b87c491772080a1225 1468148609
-obj /usr/share/doc/verbiste-0.1.38-r1/README.bz2 e8e1fdf9238442ef513a7808b2193e35 1468148609
-obj /usr/share/doc/verbiste-0.1.38-r1/AUTHORS 9dbdbf96b5ee6b08fd866be81d4ae01a 1468148609
-obj /usr/share/doc/verbiste-0.1.38-r1/HACKING.bz2 33fb7fd4ccd4fe8c02183586aa0c4608 1468148609
-obj /usr/share/doc/verbiste-0.1.38-r1/ChangeLog.bz2 0bd33edc76b29679757791e40df62edb 1468148609
-obj /usr/share/doc/verbiste-0.1.38-r1/THANKS.bz2 b6d9176cde597ce360b55a05f0b4a872 1468148609
+obj /usr/share/doc/verbiste-0.1.38-r1/NEWS.bz2 78611cab76a870003f83f3cc1c155f38 1483911210
+obj /usr/share/doc/verbiste-0.1.38-r1/LISEZMOI.bz2 da77fd4a3f4188b87c491772080a1225 1483911210
+obj /usr/share/doc/verbiste-0.1.38-r1/README.bz2 e8e1fdf9238442ef513a7808b2193e35 1483911210
+obj /usr/share/doc/verbiste-0.1.38-r1/AUTHORS 9dbdbf96b5ee6b08fd866be81d4ae01a 1483911210
+obj /usr/share/doc/verbiste-0.1.38-r1/HACKING.bz2 33fb7fd4ccd4fe8c02183586aa0c4608 1483911210
+obj /usr/share/doc/verbiste-0.1.38-r1/ChangeLog.bz2 0bd33edc76b29679757791e40df62edb 1483911210
+obj /usr/share/doc/verbiste-0.1.38-r1/THANKS.bz2 b6d9176cde597ce360b55a05f0b4a872 1483911210
+dir /usr/share/locale
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/verbiste.mo b3697970d6b13a2765593ddf6a8a59dd 1483911210
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/verbiste.mo c10bc7c8328ff059655553921f45099b 1483911210
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/verbiste.mo 419d1610a1bd125d2aa571ce1b74d877 1483911210
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/verbiste.mo 044b9730644791e9d0a70c6b1800fef3 1483911210
+dir /usr/share/pixmaps
+obj /usr/share/pixmaps/verbiste.png a4c7317aadddd7ea11dd5cf337078937 1483911210
 dir /usr/share/man
 dir /usr/share/man/man3
-obj /usr/share/man/man3/verbiste.3.bz2 fcf28468d9fc498394fb4fff112a7219 1468148609
+obj /usr/share/man/man3/verbiste.3.bz2 fcf28468d9fc498394fb4fff112a7219 1483911210
 dir /usr/share/man/man1
-obj /usr/share/man/man1/french-conjugator.1.bz2 906a17f2acef91d3428380eeda83d5b8 1468148609
-obj /usr/share/man/man1/french-deconjugator.1.bz2 a473876b1508a878b51d26f189efeffa 1468148609
+obj /usr/share/man/man1/french-conjugator.1.bz2 906a17f2acef91d3428380eeda83d5b8 1483911210
+obj /usr/share/man/man1/french-deconjugator.1.bz2 a473876b1508a878b51d26f189efeffa 1483911210
 dir /usr/share/man/fr
 dir /usr/share/man/fr/man3
-obj /usr/share/man/fr/man3/verbiste.3.bz2 97a4d4430f98498a4d5f9374e239cecd 1468148609
+obj /usr/share/man/fr/man3/verbiste.3.bz2 97a4d4430f98498a4d5f9374e239cecd 1483911210
 dir /usr/share/man/fr/man1
-obj /usr/share/man/fr/man1/french-conjugator.1.bz2 8a12b515f6a3fe6bb4df7749d4bc8990 1468148609
-obj /usr/share/man/fr/man1/french-deconjugator.1.bz2 acbdefb3477026684b7de967f5db0b83 1468148609
+obj /usr/share/man/fr/man1/french-conjugator.1.bz2 8a12b515f6a3fe6bb4df7749d4bc8990 1483911210
+obj /usr/share/man/fr/man1/french-deconjugator.1.bz2 acbdefb3477026684b7de967f5db0b83 1483911210
+dir /usr/share/applications
+obj /usr/share/applications/verbiste.desktop c1f4d97a8fd8a1e36381b498c6f2fd96 1483911210
 dir /usr/share/verbiste-0.1
-obj /usr/share/verbiste-0.1/conjugation-el.xml fddea7f250af2a6965bbe363b85dcb24 1468148609
-obj /usr/share/verbiste-0.1/verbs-fr.xml 080520ecdf4531348c18ae49aba465f6 1468148609
-obj /usr/share/verbiste-0.1/verbs-el.xml d166d084624e93efa0fab9fe84c267c5 1468148609
-obj /usr/share/verbiste-0.1/COPYING 751419260aa954499f7abaabaa882bbe 1468148609
-obj /usr/share/verbiste-0.1/conjugation-it.xml 26677224ff1217b33c8f95977f05e55f 1468148609
-obj /usr/share/verbiste-0.1/conjugation-fr.xml 2bf8de611063d8f4eaa6d75102a3390a 1468148609
-obj /usr/share/verbiste-0.1/verbs-it.xml 47e08c8096452dc32047d3eaebb4cfe6 1468148609
-sym /usr/lib64/libverbiste-0.1.so.0 -> libverbiste-0.1.so.0.0.0 1468148612
-sym /usr/lib64/libverbiste-0.1.so -> libverbiste-0.1.so.0.0.0 1468148612
+obj /usr/share/verbiste-0.1/conjugation-el.xml fddea7f250af2a6965bbe363b85dcb24 1483911210
+obj /usr/share/verbiste-0.1/verbs-fr.xml 080520ecdf4531348c18ae49aba465f6 1483911210
+obj /usr/share/verbiste-0.1/verbs-el.xml d166d084624e93efa0fab9fe84c267c5 1483911210
+obj /usr/share/verbiste-0.1/COPYING 751419260aa954499f7abaabaa882bbe 1483911210
+obj /usr/share/verbiste-0.1/conjugation-it.xml 26677224ff1217b33c8f95977f05e55f 1483911210
+obj /usr/share/verbiste-0.1/conjugation-fr.xml 2bf8de611063d8f4eaa6d75102a3390a 1483911210
+obj /usr/share/verbiste-0.1/verbs-it.xml 47e08c8096452dc32047d3eaebb4cfe6 1483911210
