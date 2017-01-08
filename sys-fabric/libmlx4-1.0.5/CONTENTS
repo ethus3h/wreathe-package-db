@@ -1,0 +1,14 @@
+dir /etc
+dir /etc/libibverbs.d
+obj /etc/libibverbs.d/mlx4.driver 6bfeea2b2666f6ffd09ce5ffa6a94b12 1483907315
+dir /usr
+dir /usr/lib64
+obj /usr/lib64/libmlx4-rdmav2.so fbd33a616baa8b0e20291fb1fe88144b 1483907316
+sym /usr/lib64/libmlx4.so -> libmlx4-rdmav2.so 1483907318
+obj /usr/lib64/libmlx4.la 17b802eef110bb5136fb14d9eedb1582 1483907315
+obj /usr/lib64/libmlx4.a e1fb7fd44ae9c5341b24ff3fb25a0a2a 1483907316
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libmlx4-1.0.5
+obj /usr/share/doc/libmlx4-1.0.5/README.bz2 c4f3c67db7384070754e8a95606bbbe5 1483907315
+obj /usr/share/doc/libmlx4-1.0.5/AUTHORS 1984be2edb36d7e20cb2a2481764e823 1483907315
