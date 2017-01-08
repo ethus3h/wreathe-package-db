@@ -1,0 +1,24 @@
+dir /etc
+dir /etc/rsyslog.d
+obj /etc/rsyslog.d/srp_daemon.conf 605ace575f72680c37d7786db57a6104 1483910744
+dir /etc/init.d
+obj /etc/init.d/srpd 6570962545714445ba583ac8c84d0333 1483910745
+obj /etc/srp_daemon.conf 75f9f15dcf745923db89e041c820c08b 1483910744
+dir /etc/logrotate.d
+obj /etc/logrotate.d/srp_daemon 56c9a5c93235000656d0d82d439130ab 1483910744
+dir /usr
+dir /usr/sbin
+obj /usr/sbin/srp_daemon 03695727e3a38c25bcc0681b1a57bb8c 1483910745
+obj /usr/sbin/srp_daemon.sh 9f6698d5e0df44b1b062bd82304e210a 1483910744
+sym /usr/sbin/ibsrpdm -> srp_daemon 1483910748
+sym /usr/sbin/run_srp_daemon -> srp_daemon 1483910748
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/srptools-1.0.2
+obj /usr/share/doc/srptools-1.0.2/NEWS 7d62b8f1e3faca0610b1b706a4619a9a 1483910745
+obj /usr/share/doc/srptools-1.0.2/README.bz2 adde3f38ef43b727146508e0ae17435e 1483910744
+obj /usr/share/doc/srptools-1.0.2/ChangeLog.bz2 2a6dc5556008646077b4b38f8f35c9ec 1483910744
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/ibsrpdm.1.bz2 45651f25449a2ccc3b68c1bff14f9724 1483910744
+obj /usr/share/man/man1/srp_daemon.1.bz2 729552d2cb4f94fb1220fc4c2f887ca4 1483910744
