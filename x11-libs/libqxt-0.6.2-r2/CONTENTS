@@ -1,27 +1,30 @@
 dir /usr
 dir /usr/lib64
-obj /usr/lib64/libQxtNetwork.so.0.6.2 b959b370f04a0d3bdc3353744dea66dc 1480013255
+obj /usr/lib64/libQxtNetwork.so.0.6.2 62717146dac411bacc580bc1ba90d9a8 1483928174
+sym /usr/lib64/libQxtCore.so -> libQxtCore.so.0.6.2 1483928176
 dir /usr/lib64/qt4
 dir /usr/lib64/qt4/plugins
 dir /usr/lib64/qt4/plugins/designer
-obj /usr/lib64/qt4/plugins/designer/libQxtDesignerPlugins.so 79574055f20c91ecbd5d3b33c66543b6 1480013255
-obj /usr/lib64/libQxtZeroconf.so.0.6.2 e1925215c2416a384218ee180cf76621 1480013255
-sym /usr/lib64/libQxtNetwork.so.0.6 -> libQxtNetwork.so.0.6.2 1480013256
-sym /usr/lib64/libQxtZeroconf.so.0 -> libQxtZeroconf.so.0.6.2 1480013256
-sym /usr/lib64/libQxtZeroconf.so -> libQxtZeroconf.so.0.6.2 1480013256
-sym /usr/lib64/libQxtNetwork.so.0 -> libQxtNetwork.so.0.6.2 1480013256
-obj /usr/lib64/libQxtBerkeley.so.0.6.2 2652544ad6afbc963f5924ad8154ac1d 1480013255
-obj /usr/lib64/libQxtGui.so.0.6.2 aed565a76c95636f10e594ae902fab38 1480013255
-obj /usr/lib64/libQxtCore.so.0.6.2 9120dc37f30b137eba5276c0b1a02a0a 1480013255
-sym /usr/lib64/libQxtCore.so.0 -> libQxtCore.so.0.6.2 1480013256
-sym /usr/lib64/libQxtBerkeley.so.0 -> libQxtBerkeley.so.0.6.2 1480013256
-sym /usr/lib64/libQxtBerkeley.so.0.6 -> libQxtBerkeley.so.0.6.2 1480013256
-sym /usr/lib64/libQxtGui.so.0 -> libQxtGui.so.0.6.2 1480013256
-sym /usr/lib64/libQxtGui.so -> libQxtGui.so.0.6.2 1480013256
-sym /usr/lib64/libQxtGui.so.0.6 -> libQxtGui.so.0.6.2 1480013256
-sym /usr/lib64/libQxtZeroconf.so.0.6 -> libQxtZeroconf.so.0.6.2 1480013256
-sym /usr/lib64/libQxtNetwork.so -> libQxtNetwork.so.0.6.2 1480013256
-sym /usr/lib64/libQxtBerkeley.so -> libQxtBerkeley.so.0.6.2 1480013256
+obj /usr/lib64/qt4/plugins/designer/libQxtDesignerPlugins.so ff43092de6325949219b3c8fe6ea94fa 1483928174
+obj /usr/lib64/libQxtZeroconf.so.0.6.2 4308a3ec60df67d485dec75e7bc893f0 1483928174
+sym /usr/lib64/libQxtNetwork.so.0.6 -> libQxtNetwork.so.0.6.2 1483928176
+sym /usr/lib64/libQxtZeroconf.so.0 -> libQxtZeroconf.so.0.6.2 1483928176
+sym /usr/lib64/libQxtZeroconf.so -> libQxtZeroconf.so.0.6.2 1483928176
+sym /usr/lib64/libQxtNetwork.so.0 -> libQxtNetwork.so.0.6.2 1483928176
+obj /usr/lib64/libQxtBerkeley.so.0.6.2 cc315a53312fb2627dfc70da6fd3760d 1483928174
+sym /usr/lib64/libQxtCore.so.0.6 -> libQxtCore.so.0.6.2 1483928176
+obj /usr/lib64/libQxtGui.so.0.6.2 ce7f4ed4cfea7f6f4a15fe5f6fdad9d6 1483928174
+obj /usr/lib64/libQxtSql.so.0.6.2 a6ae987c8ab2471349c03ed17e2a4f2d 1483928174
+obj /usr/lib64/libQxtCore.so.0.6.2 aaa26d8859a18774b8ca178c56a3d3b8 1483928174
+sym /usr/lib64/libQxtCore.so.0 -> libQxtCore.so.0.6.2 1483928176
+sym /usr/lib64/libQxtBerkeley.so.0 -> libQxtBerkeley.so.0.6.2 1483928176
+sym /usr/lib64/libQxtBerkeley.so.0.6 -> libQxtBerkeley.so.0.6.2 1483928176
+sym /usr/lib64/libQxtGui.so.0 -> libQxtGui.so.0.6.2 1483928176
+sym /usr/lib64/libQxtGui.so -> libQxtGui.so.0.6.2 1483928176
+sym /usr/lib64/libQxtGui.so.0.6 -> libQxtGui.so.0.6.2 1483928176
+sym /usr/lib64/libQxtZeroconf.so.0.6 -> libQxtZeroconf.so.0.6.2 1483928176
+sym /usr/lib64/libQxtNetwork.so -> libQxtNetwork.so.0.6.2 1483928176
+sym /usr/lib64/libQxtBerkeley.so -> libQxtBerkeley.so.0.6.2 1483928176
 dir /usr/include
 dir /usr/include/QxtBerkeley
 obj /usr/include/QxtBerkeley/QxtBerkeley d952d9dc577bb6b8d67966af33bb313c 1322172632
@@ -285,6 +288,13 @@ obj /usr/include/QxtCore/qxtalgorithms.h 380e88155bf27364ba1962e8a0b6bd94 132217
 obj /usr/include/QxtCore/qxtmetatype.h 8eb145bb50412611f6bee070ebe5222f 1322172632
 obj /usr/include/QxtCore/QxtNull d7aa3d5b7cef3e05cda43335f7df45d7 1322172632
 obj /usr/include/QxtCore/qxterror.h b86081e28ce78ebfb3efe21950ed3c9c 1322172632
+dir /usr/include/QxtSql
+obj /usr/include/QxtSql/qxtsqlpackage.h c2865bd4e213df6388d0b0683287e11a 1322172632
+obj /usr/include/QxtSql/QxtSqlPackageModel 6f51765f2f6aae69b2116394b11401b4 1322172632
+obj /usr/include/QxtSql/QxtSqlPackage 50550a885d92c3af543015f540fc9315 1322172632
+obj /usr/include/QxtSql/qxtsqlpackagemodel.h 6612eb98c7957cb606abd14333ab7e85 1322172632
+obj /usr/include/QxtSql/QxtSql eed95ef803b777813858d6a58ea2393c 1322172632
+obj /usr/include/QxtSql/qxtsql.h e568638614435253c37dcbf8579045f3 1322172632
 dir /usr/include/QxtNetwork
 obj /usr/include/QxtNetwork/qxtxmlrpc_p.h c87edcf2be6d76d23d3c7e676c5800c9 1322172632
 obj /usr/include/QxtNetwork/qxtsmtp.h c9256dc117de282cabac1c8169185273 1322172632
@@ -312,11 +322,12 @@ dir /usr/share/qt4
 dir /usr/share/qt4/mkspecs
 dir /usr/share/qt4/mkspecs/features
 obj /usr/share/qt4/mkspecs/features/qxt.prf 54cf275a10be01cea9871770e8ea0539 1322172632
-obj /usr/share/qt4/mkspecs/features/qxtvars.prf e1c0e34995d542ce16af90915023033b 1480013188
+obj /usr/share/qt4/mkspecs/features/qxtvars.prf 507d366908b24f99468a4eddc6d8e64b 1483928107
 dir /usr/share/doc
 dir /usr/share/doc/libqxt-0.6.2-r2
-obj /usr/share/doc/libqxt-0.6.2-r2/README.bz2 3232af09f447e78f4e48e5c97378d5ad 1480013254
-obj /usr/share/doc/libqxt-0.6.2-r2/AUTHORS.bz2 3dd6143720c69e368c1471138c23f454 1480013254
-obj /usr/share/doc/libqxt-0.6.2-r2/CHANGES.bz2 00f438b7eef92e3d666bd5e3aaa7b476 1480013254
-sym /usr/lib64/libQxtCore.so.0.6 -> libQxtCore.so.0.6.2 1480013256
-sym /usr/lib64/libQxtCore.so -> libQxtCore.so.0.6.2 1480013256
+obj /usr/share/doc/libqxt-0.6.2-r2/README.bz2 3232af09f447e78f4e48e5c97378d5ad 1483928173
+obj /usr/share/doc/libqxt-0.6.2-r2/AUTHORS.bz2 3dd6143720c69e368c1471138c23f454 1483928173
+obj /usr/share/doc/libqxt-0.6.2-r2/CHANGES.bz2 00f438b7eef92e3d666bd5e3aaa7b476 1483928173
+sym /usr/lib64/libQxtSql.so -> libQxtSql.so.0.6.2 1483928176
+sym /usr/lib64/libQxtSql.so.0.6 -> libQxtSql.so.0.6.2 1483928176
+sym /usr/lib64/libQxtSql.so.0 -> libQxtSql.so.0.6.2 1483928176

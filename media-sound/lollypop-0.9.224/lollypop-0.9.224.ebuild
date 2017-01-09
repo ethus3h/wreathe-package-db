@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,7 +18,7 @@ if [[ ${PV} == *9999* ]];then
 	KEYWORDS=""
 else
 	SRC_URI="https://github.com/gnumdk/${PN}/releases/download/${PV}/${P}.tar.xz"
-	KEYWORDS="x86 amd64"
+	KEYWORDS="~x86 ~amd64"
 	RESTRICT="mirror"
 fi
 
@@ -46,6 +46,7 @@ RDEPEND="${DEPEND}
 src_prepare(){
 	eautoreconf
 	eapply_user
+
 }
 
 src_configure(){
@@ -57,7 +58,9 @@ src_compile(){
 }
 
 src_install(){
+	addpredict "/usr/share/${PN}/${PN}-sp"
 	emake DESTDIR="${D}" install
+	fperms +x "/usr/share/${PN}/${PN}-sp"
 }
 
 pkg_preinst(){
