@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -15,9 +15,9 @@ SRC_PATH="stable"
 [[ ${PV} = *_rc* ]] && SRC_PATH="rc"
 
 SRC_URI="mirror://samba/${SRC_PATH}/${MY_P}.tar.gz
-	https://dev.gentoo.org/~polynomial-c/samba-disable-python-patches-4.2.9.tar.xz"
-KEYWORDS="amd64 arm hppa ia64 ppc ppc64 sparc x86"
-[[ ${PV} = *_rc* ]] && KEYWORDS="arm hppa ppc64"
+	https://dev.gentoo.org/~polynomial-c/samba-disable-python-patches-4.2.12.tar.xz"
+[[ ${PV} = *_rc* ]] || \
+KEYWORDS="alpha amd64 arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86"
 
 DESCRIPTION="Samba Suite Version 4"
 HOMEPAGE="http://www.samba.org/"
@@ -58,7 +58,7 @@ CDEPEND="${PYTHON_DEPS}
 	>=sys-libs/ntdb-1.0[python,${PYTHON_USEDEP},${MULTILIB_USEDEP}]
 	>=sys-libs/talloc-2.1.2[python,${PYTHON_USEDEP},${MULTILIB_USEDEP}]
 	>=sys-libs/tdb-1.3.6[python,${PYTHON_USEDEP},${MULTILIB_USEDEP}]
-	>=sys-libs/tevent-0.9.25[${MULTILIB_USEDEP}]
+	>=sys-libs/tevent-0.9.28[${MULTILIB_USEDEP}]
 	>=sys-libs/uid_wrapper-1.0.1[${MULTILIB_USEDEP}]
 	sys-libs/zlib[${MULTILIB_USEDEP}]
 	acl? ( virtual/acl )
@@ -73,7 +73,6 @@ CDEPEND="${PYTHON_DEPS}
 	ldap? ( net-nds/openldap[${MULTILIB_USEDEP}] )
 	pam? ( virtual/pam )
 	system-mitkrb5? ( app-crypt/mit-krb5[${MULTILIB_USEDEP}] )
-	!system-mitkrb5? ( >=app-crypt/heimdal-1.5[-ssl,${MULTILIB_USEDEP}] )
 	systemd? ( sys-apps/systemd:0= )"
 DEPEND="${CDEPEND}
 	virtual/pkgconfig"
@@ -90,7 +89,6 @@ REQUIRED_USE="addc? ( gnutls !system-mitkrb5 )
 S="${WORKDIR}/${MY_P}"
 
 PATCHES=(
-	"${FILESDIR}/${PN}-4.2.3-heimdal_compilefix.patch"
 	"${FILESDIR}/${PN}-4.2.7-pam.patch"
 )
 
@@ -140,8 +138,7 @@ multilib_src_configure() {
 		--localstatedir=/var
 		--with-modulesdir=/usr/$(get_libdir)/samba
 		--with-piddir=/run/${PN}
-		--bundled-libraries=NONE
-		--builtin-libraries=NONE
+		--builtin-libraries=heimdal
 		--disable-rpath
 		--disable-rpath-install
 		--nopyc
