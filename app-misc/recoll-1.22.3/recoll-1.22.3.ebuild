@@ -1,11 +1,12 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI="4"
+EAPI="6"
 
-PYTHON_DEPEND="2"
-inherit toolchain-funcs qmake-utils qt4-r2 linux-info python
+PYTHON_COMPAT=( python2_7 )
+
+inherit toolchain-funcs qmake-utils linux-info python-r1
 
 DESCRIPTION="A personal full text search package"
 HOMEPAGE="http://www.lesbonscomptes.com/recoll/"

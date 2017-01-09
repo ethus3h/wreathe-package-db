@@ -1,34 +1,36 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
 EAPI=5
 
-PYTHON_COMPAT=( python2_7 )
+PYTHON_COMPAT=( python3_4 )
 inherit gnome2-utils python-any-r1 toolchain-funcs
 
 DESCRIPTION="A terminal emulator designed to integrate with the ROX environment"
 HOMEPAGE="http://roxterm.sourceforge.net/"
-SRC_URI="mirror://sourceforge/roxterm/${P}.tar.bz2"
+SRC_URI="mirror://sourceforge/roxterm/${P}.tar.xz"
 
 LICENSE="GPL-2 LGPL-3"
-SLOT="0"
+SLOT="1"
 KEYWORDS="amd64 x86"
 IUSE="nls"
 
 RDEPEND=">=dev-libs/dbus-glib-0.100
-	>=dev-libs/glib-2.28
-	x11-libs/gtk+:3
-	x11-libs/libICE
-	x11-libs/libSM
-	x11-libs/vte:2.90"
+		dev-libs/glib:2
+		x11-libs/gtk+:3
+		x11-libs/libICE
+		x11-libs/libSM
+		x11-libs/vte:2.91
+		!x11-terms/roxterm:0"
+# slotted versions of roxterm need block one another due to file collisions. #565288
 DEPEND="${RDEPEND}
-	${PYTHON_DEPS}
-	dev-libs/libxslt
-	dev-python/lockfile
-	virtual/pkgconfig
-	|| ( media-gfx/imagemagick media-gfx/graphicsmagick[imagemagick] )
-	nls? ( app-text/po4a sys-devel/gettext )"
+		${PYTHON_DEPS}
+		dev-libs/libxslt
+		dev-python/lockfile
+		virtual/pkgconfig
+		|| ( media-gfx/imagemagick media-gfx/graphicsmagick[imagemagick] )
+		nls? ( app-text/po4a sys-devel/gettext )"
 
 src_configure() {
 	local myconf=(
