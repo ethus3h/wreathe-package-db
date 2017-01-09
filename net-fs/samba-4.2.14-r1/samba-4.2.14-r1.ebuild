@@ -17,7 +17,7 @@ SRC_PATH="stable"
 SRC_URI="mirror://samba/${SRC_PATH}/${MY_P}.tar.gz
 	https://dev.gentoo.org/~polynomial-c/samba-disable-python-patches-4.2.12.tar.xz"
 [[ ${PV} = *_rc* ]] || \
-KEYWORDS="alpha amd64 arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86"
 
 DESCRIPTION="Samba Suite Version 4"
 HOMEPAGE="http://www.samba.org/"
@@ -25,7 +25,7 @@ LICENSE="GPL-3"
 
 SLOT="0"
 
-IUSE="acl addc addns ads aio avahi client cluster cups dmapi fam gnutls iprint
+IUSE="acl addc addns ads aio avahi +bundled-heimdal client cluster cups dmapi fam gnutls iprint
 ldap pam quota selinux syslog +system-mitkrb5 systemd test winbind"
 
 MULTILIB_WRAPPED_HEADERS=(
@@ -73,6 +73,11 @@ CDEPEND="${PYTHON_DEPS}
 	ldap? ( net-nds/openldap[${MULTILIB_USEDEP}] )
 	pam? ( virtual/pam )
 	system-mitkrb5? ( app-crypt/mit-krb5[${MULTILIB_USEDEP}] )
+	!system-mitkrb5? (
+		!bundled-heimdal? (
+			>=app-crypt/heimdal-1.5[-ssl,${MULTILIB_USEDEP}]
+		)
+	)
 	systemd? ( sys-apps/systemd:0= )"
 DEPEND="${CDEPEND}
 	virtual/pkgconfig"
@@ -82,15 +87,11 @@ RDEPEND="${CDEPEND}
 	!dev-perl/Parse-Yapp
 "
 
-REQUIRED_USE="addc? ( gnutls !system-mitkrb5 )
+REQUIRED_USE="addc? ( gnutls !system-mitkrb5 winbind )
 	ads? ( acl gnutls ldap )
 	${PYTHON_REQUIRED_USE}"
 
 S="${WORKDIR}/${MY_P}"
-
-PATCHES=(
-	"${FILESDIR}/${PN}-4.2.7-pam.patch"
-)
 
 CONFDIR="${FILESDIR}/$(get_version_component_range 1-2)"
 
@@ -118,7 +119,13 @@ pkg_setup() {
 }
 
 src_prepare() {
-	epatch ${PATCHES[@]}
+	PATCHES=(
+		"${FILESDIR}/${PN}-4.2.7-pam.patch"
+	)
+	if ! use bundled-heimdal ; then
+		PATCHES+="${FILESDIR}/${PN}-4.2.3-heimdal_compilefix.patch"
+	fi
+	epatch "${PATCHES[@]}"
 
 	# install the patches from tarball(s)
 	EPATCH_SUFFIX="patch" \
@@ -138,12 +145,21 @@ multilib_src_configure() {
 		--localstatedir=/var
 		--with-modulesdir=/usr/$(get_libdir)/samba
 		--with-piddir=/run/${PN}
-		--builtin-libraries=heimdal
 		--disable-rpath
 		--disable-rpath-install
 		--nopyc
 		--nopyo
 	)
+	if use bundled-heimdal ; then
+		myconf+=(
+			"--builtin-libraries=heimdal"
+		)
+	else
+		myconf+=(
+			"--bundled-libraries=NONE"
+			"--builtin-libraries=NONE"
+		)
+	fi
 	if multilib_is_native_abi ; then
 		myconf+=(
 			$(use_with acl acl-support)
@@ -198,7 +214,7 @@ multilib_src_configure() {
 	fi
 
 	CPPFLAGS="-I${SYSROOT}/usr/include/et ${CPPFLAGS}" \
-		waf-utils_src_configure ${myconf[@]}
+		waf-utils_src_configure "${myconf[@]}"
 }
 
 multilib_src_install() {
