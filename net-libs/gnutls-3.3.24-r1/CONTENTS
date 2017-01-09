@@ -1,120 +1,130 @@
 dir /usr
 dir /usr/lib64
-sym /usr/lib64/libgnutlsxx.so.28 -> libgnutlsxx.so.28.1.0 1475545915
-obj /usr/lib64/libgnutls-openssl.so.27.0.2 9b51f0b15685075f4d2bd4673515aeff 1475545912
-sym /usr/lib64/libgnutlsxx.so -> libgnutlsxx.so.28.1.0 1475545915
-obj /usr/lib64/libgnutlsxx.so.28.1.0 bc81fca72951a8ecd5e7cc2b8c0de5be 1475545912
-obj /usr/lib64/libgnutls.so.28.41.16 023a2a5b476c5560365a609038dc4277 1475545913
+dir /usr/lib64/guile
+dir /usr/lib64/guile/1.8
+obj /usr/lib64/guile/1.8/guile-gnutls-v-2.so.0.0.0 dd7cf8a32d38602df7faa714ea5dae12 1483928725
+sym /usr/lib64/guile/1.8/guile-gnutls-v-2.so.0 -> guile-gnutls-v-2.so.0.0.0 1483928730
+sym /usr/lib64/guile/1.8/guile-gnutls-v-2.so -> guile-gnutls-v-2.so.0.0.0 1483928730
+sym /usr/lib64/libgnutlsxx.so.28 -> libgnutlsxx.so.28.1.0 1483928730
+obj /usr/lib64/libgnutls-openssl.so.27.0.2 443098df89811fdc98f2fcd9c40ce66e 1483928725
+sym /usr/lib64/libgnutlsxx.so -> libgnutlsxx.so.28.1.0 1483928730
+obj /usr/lib64/libgnutlsxx.so.28.1.0 1b347bb20cb8387346daa66db6680204 1483928725
+obj /usr/lib64/libgnutls.so.28.41.16 6240433a5ade3c5aa954982726bd3608 1483928725
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/gnutls.pc 8d346bc763bb814a4ffa68241bf92f03 1475545909
-sym /usr/lib64/libgnutls.so.28 -> libgnutls.so.28.41.16 1475545915
-sym /usr/lib64/libgnutls-openssl.so -> libgnutls-openssl.so.27.0.2 1475545915
-sym /usr/lib64/libgnutls.so -> libgnutls.so.28.41.16 1475545915
-sym /usr/lib64/libgnutls-openssl.so.27 -> libgnutls-openssl.so.27.0.2 1475545915
+obj /usr/lib64/pkgconfig/gnutls.pc 8d346bc763bb814a4ffa68241bf92f03 1483928719
+sym /usr/lib64/libgnutls.so.28 -> libgnutls.so.28.41.16 1483928730
+sym /usr/lib64/libgnutls-openssl.so -> libgnutls-openssl.so.27.0.2 1483928730
+sym /usr/lib64/libgnutls.so -> libgnutls.so.28.41.16 1483928730
+sym /usr/lib64/libgnutls-openssl.so.27 -> libgnutls-openssl.so.27.0.2 1483928730
 dir /usr/include
 dir /usr/include/gnutls
-obj /usr/include/gnutls/gnutlsxx.h fbd05b0acec2d2d41c18db6692418d1f 1475545908
-obj /usr/include/gnutls/tpm.h c47d4c025b49b6f66a6f4e4f48f1b82d 1475545908
-obj /usr/include/gnutls/x509-ext.h 2fef225ab73b04f816124a77675b8781 1475545908
-obj /usr/include/gnutls/crypto.h bef2b922550290c72d934bae5c095efa 1475545908
-obj /usr/include/gnutls/pkcs12.h e96b67aefbc19c2170b87c15874bc741 1475545908
-obj /usr/include/gnutls/compat.h a755d079816ee00640ca7ff249f340c8 1475545908
-obj /usr/include/gnutls/openssl.h 4d3182a8f95e1f708d57e6fbb0172da9 1475545909
-obj /usr/include/gnutls/x509.h 28423b45ab69af4791621200f5dce038 1475545908
-obj /usr/include/gnutls/ocsp.h bac9327fadc6e75a8893cba250b3c179 1475545908
-obj /usr/include/gnutls/openpgp.h 864cca689c251e0ad45f9688bcf3b581 1475545908
-obj /usr/include/gnutls/dtls.h 7417565b6d5d041be9253c4f0ffde0bc 1475545908
-obj /usr/include/gnutls/abstract.h 44bde99e9cee550d13947c6463b70245 1475545908
-obj /usr/include/gnutls/pkcs11.h 4639f4392f82b0db0379a4ecf39133c4 1475545908
-obj /usr/include/gnutls/gnutls.h 8bde1c0354ab4a4b1ac789c0538ca7a2 1475545908
-obj /usr/include/gnutls/self-test.h baa38368cf3c3a20ab81c93365647b92 1475545908
+obj /usr/include/gnutls/gnutlsxx.h fbd05b0acec2d2d41c18db6692418d1f 1483928718
+obj /usr/include/gnutls/tpm.h c47d4c025b49b6f66a6f4e4f48f1b82d 1483928718
+obj /usr/include/gnutls/x509-ext.h 2fef225ab73b04f816124a77675b8781 1483928718
+obj /usr/include/gnutls/crypto.h bef2b922550290c72d934bae5c095efa 1483928718
+obj /usr/include/gnutls/pkcs12.h e96b67aefbc19c2170b87c15874bc741 1483928718
+obj /usr/include/gnutls/compat.h a755d079816ee00640ca7ff249f340c8 1483928718
+obj /usr/include/gnutls/openssl.h 4d3182a8f95e1f708d57e6fbb0172da9 1483928720
+obj /usr/include/gnutls/x509.h 28423b45ab69af4791621200f5dce038 1483928718
+obj /usr/include/gnutls/ocsp.h bac9327fadc6e75a8893cba250b3c179 1483928718
+obj /usr/include/gnutls/openpgp.h 864cca689c251e0ad45f9688bcf3b581 1483928718
+obj /usr/include/gnutls/dtls.h 7417565b6d5d041be9253c4f0ffde0bc 1483928718
+obj /usr/include/gnutls/abstract.h 44bde99e9cee550d13947c6463b70245 1483928718
+obj /usr/include/gnutls/pkcs11.h 4639f4392f82b0db0379a4ecf39133c4 1483928718
+obj /usr/include/gnutls/gnutls.h 8bde1c0354ab4a4b1ac789c0538ca7a2 1483928718
+obj /usr/include/gnutls/self-test.h baa38368cf3c3a20ab81c93365647b92 1483928718
 dir /usr/lib32
-sym /usr/lib32/libgnutlsxx.so.28 -> libgnutlsxx.so.28.1.0 1475545915
-obj /usr/lib32/libgnutls-openssl.so.27.0.2 e712609fd632719dd74606b13bd1db1c 1475545912
-sym /usr/lib32/libgnutlsxx.so -> libgnutlsxx.so.28.1.0 1475545915
-obj /usr/lib32/libgnutlsxx.so.28.1.0 74f4569edc6e9152e3813136188a568f 1475545912
-obj /usr/lib32/libgnutls.so.28.41.16 d8b0c00fe032296728bfd0fbd2860779 1475545912
+sym /usr/lib32/libgnutlsxx.so.28 -> libgnutlsxx.so.28.1.0 1483928730
+obj /usr/lib32/libgnutls-openssl.so.27.0.2 a0866371251454eb1e01cdc8953fa78d 1483928725
+sym /usr/lib32/libgnutlsxx.so -> libgnutlsxx.so.28.1.0 1483928730
+obj /usr/lib32/libgnutlsxx.so.28.1.0 74f4569edc6e9152e3813136188a568f 1483928725
+obj /usr/lib32/libgnutls.so.28.41.16 13b8622ca591ece5124722766c7a2bd5 1483928725
 dir /usr/lib32/pkgconfig
-obj /usr/lib32/pkgconfig/gnutls.pc 79a5a6b1a465f3759519f698a6e3e88a 1475545907
-sym /usr/lib32/libgnutls.so.28 -> libgnutls.so.28.41.16 1475545915
-sym /usr/lib32/libgnutls-openssl.so -> libgnutls-openssl.so.27.0.2 1475545915
-sym /usr/lib32/libgnutls.so -> libgnutls.so.28.41.16 1475545915
-sym /usr/lib32/libgnutls-openssl.so.27 -> libgnutls-openssl.so.27.0.2 1475545915
+obj /usr/lib32/pkgconfig/gnutls.pc 79a5a6b1a465f3759519f698a6e3e88a 1483928714
+sym /usr/lib32/libgnutls.so.28 -> libgnutls.so.28.41.16 1483928730
+sym /usr/lib32/libgnutls-openssl.so -> libgnutls-openssl.so.27.0.2 1483928730
+sym /usr/lib32/libgnutls.so -> libgnutls.so.28.41.16 1483928730
+sym /usr/lib32/libgnutls-openssl.so.27 -> libgnutls-openssl.so.27.0.2 1483928730
 dir /usr/bin
-obj /usr/bin/gnutls-serv 749852826f8d4fe1c8486686c9188732 1475545913
-obj /usr/bin/certtool 5453d230a39286bf4fedc18d57a27f18 1475545913
-obj /usr/bin/crywrap e4dae63202ccfd4fa0cc8117b02c983b 1475545913
-obj /usr/bin/gnutls-cli 7804bc6369fdcd6b8e79a6c8a9216d3c 1475545913
-obj /usr/bin/srptool 96f2e7282041526694d3c28f422200db 1475545913
-obj /usr/bin/gnutls-cli-debug 2d13fe27a7e2b2285d8e1f77531d3641 1475545913
-obj /usr/bin/psktool 411ba4efb661a6fb4f547b1076799a9c 1475545913
-obj /usr/bin/ocsptool c461380aad0377dfe5cb5394563b9c68 1475545913
-obj /usr/bin/p11tool 15f5c27841cf905be3f795921e96d537 1475545913
+obj /usr/bin/gnutls-serv e6fcb587689501b756aa28bc9899c295 1483928725
+obj /usr/bin/certtool 35233ce83ba1429a44b7e33db0c68156 1483928725
+obj /usr/bin/crywrap 688abd8751067aa4798f95af3a3ecef7 1483928725
+obj /usr/bin/gnutls-cli 38491727c0c25397de960dcececdc9d5 1483928725
+obj /usr/bin/srptool dc1ac3e56b8efa470c38aff8f4f99d6c 1483928725
+obj /usr/bin/gnutls-cli-debug 92c189a2d637a53365948462e042938a 1483928725
+obj /usr/bin/psktool 85c81f64f13314096535e284e1a1cb1d 1483928725
+obj /usr/bin/ocsptool 6790e386cd924948e2a14b58acff482f 1483928725
+obj /usr/bin/p11tool 93ace85b2c1fda9d79d06cee6c7f24d5 1483928725
 dir /usr/share
+dir /usr/share/guile
+dir /usr/share/guile/site
+obj /usr/share/guile/site/gnutls.scm 8cc12b40d718c0f846698b1f0f4b92fe 1483928723
+dir /usr/share/guile/site/gnutls
+obj /usr/share/guile/site/gnutls/extra.scm f1916ec91e11e4499dfef46f33d4f339 1483928723
 dir /usr/share/doc
 dir /usr/share/doc/gnutls-3.3.24-r1
-obj /usr/share/doc/gnutls-3.3.24-r1/certtool.cfg.bz2 4f94577484b4ba154c81a9008661b7b3 1475545911
-obj /usr/share/doc/gnutls-3.3.24-r1/NEWS.bz2 32c92574e79573fc8f986878735002b8 1475545911
-obj /usr/share/doc/gnutls-3.3.24-r1/README.bz2 a76f9540c9cf73961c5618367c01b5d7 1475545911
-obj /usr/share/doc/gnutls-3.3.24-r1/AUTHORS.bz2 4083af1053520277c5fbd58df21a2d5f 1475545911
-obj /usr/share/doc/gnutls-3.3.24-r1/ChangeLog.bz2 304c4b13bfb530d02a20588233041b97 1475545911
-obj /usr/share/doc/gnutls-3.3.24-r1/TODO.bz2 880bce93e87d898b03a6610b8c66fdec 1475545911
-obj /usr/share/doc/gnutls-3.3.24-r1/THANKS.bz2 e27fc69657ec7e9d5d5be979bc51b946 1475545911
+obj /usr/share/doc/gnutls-3.3.24-r1/certtool.cfg.bz2 4f94577484b4ba154c81a9008661b7b3 1483928724
+obj /usr/share/doc/gnutls-3.3.24-r1/NEWS.bz2 32c92574e79573fc8f986878735002b8 1483928724
+obj /usr/share/doc/gnutls-3.3.24-r1/README.bz2 a76f9540c9cf73961c5618367c01b5d7 1483928724
+obj /usr/share/doc/gnutls-3.3.24-r1/AUTHORS.bz2 4083af1053520277c5fbd58df21a2d5f 1483928724
+obj /usr/share/doc/gnutls-3.3.24-r1/ChangeLog.bz2 304c4b13bfb530d02a20588233041b97 1483928724
+obj /usr/share/doc/gnutls-3.3.24-r1/TODO.bz2 880bce93e87d898b03a6610b8c66fdec 1483928724
+obj /usr/share/doc/gnutls-3.3.24-r1/THANKS.bz2 e27fc69657ec7e9d5d5be979bc51b946 1483928724
 dir /usr/share/locale
 dir /usr/share/locale/uk
 dir /usr/share/locale/uk/LC_MESSAGES
-obj /usr/share/locale/uk/LC_MESSAGES/gnutls.mo ac2f925e9720fc05c9a3c6779ed4508f 1475545910
+obj /usr/share/locale/uk/LC_MESSAGES/gnutls.mo ac2f925e9720fc05c9a3c6779ed4508f 1483928720
 dir /usr/share/locale/nl
 dir /usr/share/locale/nl/LC_MESSAGES
-obj /usr/share/locale/nl/LC_MESSAGES/gnutls.mo 660fcd9798d78bbcfd36459a825db84f 1475545910
+obj /usr/share/locale/nl/LC_MESSAGES/gnutls.mo 660fcd9798d78bbcfd36459a825db84f 1483928720
 dir /usr/share/locale/it
 dir /usr/share/locale/it/LC_MESSAGES
-obj /usr/share/locale/it/LC_MESSAGES/gnutls.mo 1bd69216d1ebfebd3c2b68b2e9460738 1475545910
+obj /usr/share/locale/it/LC_MESSAGES/gnutls.mo 1bd69216d1ebfebd3c2b68b2e9460738 1483928720
 dir /usr/share/locale/ms
 dir /usr/share/locale/ms/LC_MESSAGES
-obj /usr/share/locale/ms/LC_MESSAGES/gnutls.mo 099e3085e554d56c52983f586afc8837 1475545910
+obj /usr/share/locale/ms/LC_MESSAGES/gnutls.mo 099e3085e554d56c52983f586afc8837 1483928720
 dir /usr/share/locale/de
 dir /usr/share/locale/de/LC_MESSAGES
-obj /usr/share/locale/de/LC_MESSAGES/gnutls.mo f2c29f134261f10e83e9c0d48a7e4428 1475545909
+obj /usr/share/locale/de/LC_MESSAGES/gnutls.mo f2c29f134261f10e83e9c0d48a7e4428 1483928720
 dir /usr/share/locale/vi
 dir /usr/share/locale/vi/LC_MESSAGES
-obj /usr/share/locale/vi/LC_MESSAGES/gnutls.mo b12ef5d5637cc6107b03ba75e0612d81 1475545910
+obj /usr/share/locale/vi/LC_MESSAGES/gnutls.mo b12ef5d5637cc6107b03ba75e0612d81 1483928720
 dir /usr/share/locale/en@boldquot
 dir /usr/share/locale/en@boldquot/LC_MESSAGES
-obj /usr/share/locale/en@boldquot/LC_MESSAGES/gnutls.mo 3b74275f2afe61363f4198b0a47fe58b 1475545909
+obj /usr/share/locale/en@boldquot/LC_MESSAGES/gnutls.mo 3b74275f2afe61363f4198b0a47fe58b 1483928720
 dir /usr/share/locale/zh_CN
 dir /usr/share/locale/zh_CN/LC_MESSAGES
-obj /usr/share/locale/zh_CN/LC_MESSAGES/gnutls.mo 496831b76a57d3e4c5eb3fb6f5fc6f57 1475545910
+obj /usr/share/locale/zh_CN/LC_MESSAGES/gnutls.mo 496831b76a57d3e4c5eb3fb6f5fc6f57 1483928720
 dir /usr/share/locale/eo
 dir /usr/share/locale/eo/LC_MESSAGES
-obj /usr/share/locale/eo/LC_MESSAGES/gnutls.mo 5603384be502747aebfa00dc0f94c279 1475545909
+obj /usr/share/locale/eo/LC_MESSAGES/gnutls.mo 5603384be502747aebfa00dc0f94c279 1483928720
 dir /usr/share/locale/fr
 dir /usr/share/locale/fr/LC_MESSAGES
-obj /usr/share/locale/fr/LC_MESSAGES/gnutls.mo f970e4a229d215620364421c7a70d6f2 1475545910
+obj /usr/share/locale/fr/LC_MESSAGES/gnutls.mo f970e4a229d215620364421c7a70d6f2 1483928720
 dir /usr/share/locale/en@quot
 dir /usr/share/locale/en@quot/LC_MESSAGES
-obj /usr/share/locale/en@quot/LC_MESSAGES/gnutls.mo 972ff6cbf714c1a1b462a8e7d2d7e804 1475545909
+obj /usr/share/locale/en@quot/LC_MESSAGES/gnutls.mo 972ff6cbf714c1a1b462a8e7d2d7e804 1483928720
 dir /usr/share/locale/cs
 dir /usr/share/locale/cs/LC_MESSAGES
-obj /usr/share/locale/cs/LC_MESSAGES/gnutls.mo 505c534c5306dedee84f74aa86f6a32d 1475545909
+obj /usr/share/locale/cs/LC_MESSAGES/gnutls.mo 505c534c5306dedee84f74aa86f6a32d 1483928720
 dir /usr/share/locale/pl
 dir /usr/share/locale/pl/LC_MESSAGES
-obj /usr/share/locale/pl/LC_MESSAGES/gnutls.mo ce31e6417ad8c13b569bec720c5bb404 1475545910
+obj /usr/share/locale/pl/LC_MESSAGES/gnutls.mo ce31e6417ad8c13b569bec720c5bb404 1483928720
 dir /usr/share/locale/fi
 dir /usr/share/locale/fi/LC_MESSAGES
-obj /usr/share/locale/fi/LC_MESSAGES/gnutls.mo e632d9c159345ba5630d237b0faacbde 1475545909
+obj /usr/share/locale/fi/LC_MESSAGES/gnutls.mo e632d9c159345ba5630d237b0faacbde 1483928720
 dir /usr/share/locale/sv
 dir /usr/share/locale/sv/LC_MESSAGES
-obj /usr/share/locale/sv/LC_MESSAGES/gnutls.mo ff4c46a00eca972c8029929e81d20561 1475545910
+obj /usr/share/locale/sv/LC_MESSAGES/gnutls.mo ff4c46a00eca972c8029929e81d20561 1483928720
 dir /usr/share/man
 dir /usr/share/man/man3
 dir /usr/share/man/man1
-obj /usr/share/man/man1/gnutls-cli-debug.1.bz2 e9b76b8f02506786473f79843d7641ef 1475545910
-obj /usr/share/man/man1/ocsptool.1.bz2 07515e448c836ecd38b0a82526cfa51d 1475545910
-obj /usr/share/man/man1/certtool.1.bz2 a79d4d6aacf9b9b33ed63aa0f9b69447 1475545910
-obj /usr/share/man/man1/tpmtool.1.bz2 64aaba9c91a059f003b6c2284f7f3dd0 1475545910
-obj /usr/share/man/man1/gnutls-serv.1.bz2 0283dcaa1bf55749ac9df922d4c04add 1475545910
-obj /usr/share/man/man1/srptool.1.bz2 07d9a739443b47438cd67b04a9c69b8b 1475545910
-obj /usr/share/man/man1/gnutls-cli.1.bz2 2bfc95ebdef2a3fb83dec34a0108cb33 1475545910
-obj /usr/share/man/man1/psktool.1.bz2 69e64ec41e2a159dde94d6f1fa935b8f 1475545910
-obj /usr/share/man/man1/p11tool.1.bz2 731ac0cb878bbd84ad509c6f64f51970 1475545910
+obj /usr/share/man/man1/gnutls-cli-debug.1.bz2 e9b76b8f02506786473f79843d7641ef 1483928722
+obj /usr/share/man/man1/ocsptool.1.bz2 07515e448c836ecd38b0a82526cfa51d 1483928722
+obj /usr/share/man/man1/certtool.1.bz2 a79d4d6aacf9b9b33ed63aa0f9b69447 1483928722
+obj /usr/share/man/man1/tpmtool.1.bz2 64aaba9c91a059f003b6c2284f7f3dd0 1483928722
+obj /usr/share/man/man1/gnutls-serv.1.bz2 0283dcaa1bf55749ac9df922d4c04add 1483928722
+obj /usr/share/man/man1/srptool.1.bz2 07d9a739443b47438cd67b04a9c69b8b 1483928722
+obj /usr/share/man/man1/gnutls-cli.1.bz2 2bfc95ebdef2a3fb83dec34a0108cb33 1483928722
+obj /usr/share/man/man1/psktool.1.bz2 69e64ec41e2a159dde94d6f1fa935b8f 1483928722
+obj /usr/share/man/man1/p11tool.1.bz2 731ac0cb878bbd84ad509c6f64f51970 1483928722
