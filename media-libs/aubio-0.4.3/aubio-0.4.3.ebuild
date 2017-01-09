@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -15,7 +15,7 @@ SRC_URI="http://aubio.piem.org/pub/${P}.tar.bz2"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~ppc ~ppc64 ~sparc ~x86"
-IUSE="+alsa doc examples ffmpeg +jack +samplerate +sndfile static-libs"
+IUSE="+alsa doc examples ffmpeg jack libsamplerate sndfile static-libs"
 REQUIRED_USE="${PYHON_REQUIRED_USE}"
 
 RDEPEND="sci-libs/fftw:3.0[${MULTILIB_USEDEP}]
@@ -23,7 +23,7 @@ RDEPEND="sci-libs/fftw:3.0[${MULTILIB_USEDEP}]
 	alsa? ( media-libs/alsa-lib[${MULTILIB_USEDEP}] )
 	ffmpeg? ( virtual/ffmpeg[${MULTILIB_USEDEP}] )
 	jack? ( media-sound/jack-audio-connection-kit[${MULTILIB_USEDEP}] )
-	samplerate? ( media-libs/libsamplerate[${MULTILIB_USEDEP}] )
+	libsamplerate? ( media-libs/libsamplerate[${MULTILIB_USEDEP}] )
 	sndfile? ( media-libs/libsndfile[${MULTILIB_USEDEP}] )"
 DEPEND="${RDEPEND}
 	>=dev-lang/swig-1.3.0
@@ -47,7 +47,7 @@ multilib_src_configure()
 		$(use_enable jack)
 		$(use_enable alsa)
 		$(use_enable ffmpeg avcodec)
-		$(use_enable samplerate)
+		$(use_enable libsamplerate)
 		$(use_enable sndfile)
 		"--with-target-platform=${CHOST}"
 	)
