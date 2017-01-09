@@ -11,7 +11,7 @@ HOMEPAGE="http://www.libimobiledevice.org/"
 SRC_URI="http://www.libimobiledevice.org/downloads/${P}.tar.bz2"
 
 LICENSE="GPL-2 LGPL-2.1"
-SLOT="0/2" # based on SONAME of libplist.so
+SLOT="0/3" # based on SONAME of libplist.so
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86 ~amd64-fbsd"
 IUSE="python static-libs"
 
