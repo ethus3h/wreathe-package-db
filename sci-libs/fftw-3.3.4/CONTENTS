@@ -1,100 +1,240 @@
 dir /usr
 dir /usr/lib64
-sym /usr/lib64/libfftw3q_omp.so -> libfftw3q_omp.so.3.4.4 1483914190
-obj /usr/lib64/libfftw3f_omp.so.3.4.4 d591d15b949c748419459c4fe09d29cf 1483914188
-obj /usr/lib64/libfftw3l.so.3.4.4 8fcebade6329e3c7329f444b9335ed21 1483914188
-obj /usr/lib64/libfftw3_threads.so.3.4.4 932f3f874f719abbdd1980654577b377 1483914188
-obj /usr/lib64/libfftw3_mpi.so.3.4.4 53dc3a043d1130f923c76d5853676353 1483914188
-sym /usr/lib64/libfftw3q.so.3 -> libfftw3q.so.3.4.4 1483914190
-obj /usr/lib64/libfftw3l_mpi.so.3.4.4 72e8753c123f4d11142075a17b576aa1 1483914188
-obj /usr/lib64/libfftw3f.so.3.4.4 46454e5a76f3593f3279a28438b36d6a 1483914188
-sym /usr/lib64/libfftw3q.so -> libfftw3q.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3f_omp.so -> libfftw3f_omp.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3f.so -> libfftw3f.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3l_omp.so.3 -> libfftw3l_omp.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3q_omp.so.3 -> libfftw3q_omp.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3f.so.3 -> libfftw3f.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3f_mpi.so -> libfftw3f_mpi.so.3.4.4 1483914190
+sym /usr/lib64/libfftw3q_omp.so -> libfftw3q_omp.so.3.4.4 1484026645
+obj /usr/lib64/libfftw3f_omp.so.3.4.4 d591d15b949c748419459c4fe09d29cf 1484026643
+sym /usr/lib64/libfftw3f_threads.so -> libfftw3f_threads.so.3.4.4 1484026645
+obj /usr/lib64/libfftw3l.so.3.4.4 8fcebade6329e3c7329f444b9335ed21 1484026643
+obj /usr/lib64/libfftw3_threads.so.3.4.4 932f3f874f719abbdd1980654577b377 1484026643
+obj /usr/lib64/libfftw3_mpi.so.3.4.4 53dc3a043d1130f923c76d5853676353 1484026643
+sym /usr/lib64/libfftw3q.so.3 -> libfftw3q.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3q_threads.so -> libfftw3q_threads.so.3.4.4 1484026645
+obj /usr/lib64/libfftw3l_mpi.so.3.4.4 72e8753c123f4d11142075a17b576aa1 1484026643
+sym /usr/lib64/libfftw3l_threads.so.3 -> libfftw3l_threads.so.3.4.4 1484026645
+obj /usr/lib64/libfftw3f.so.3.4.4 46454e5a76f3593f3279a28438b36d6a 1484026643
+sym /usr/lib64/libfftw3q.so -> libfftw3q.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3f_omp.so -> libfftw3f_omp.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3f_threads.so.3 -> libfftw3f_threads.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3f.so -> libfftw3f.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3q_threads.so.3 -> libfftw3q_threads.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3l_omp.so.3 -> libfftw3l_omp.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3q_omp.so.3 -> libfftw3q_omp.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3f.so.3 -> libfftw3f.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3l_threads.so -> libfftw3l_threads.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3f_mpi.so -> libfftw3f_mpi.so.3.4.4 1484026645
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/fftw3q_omp.pc b36cfe30a52210cfcc8f201507c8f12c 1483914187
-obj /usr/lib64/pkgconfig/fftw3f.pc 41d0b1acb6802d09e4421cd1ea63be62 1483914182
-obj /usr/lib64/pkgconfig/fftw3q.pc 71e64e06ce774c8d84556bbd96e6eb90 1483914186
-obj /usr/lib64/pkgconfig/fftw3l.pc 59bec1bcbb5b2adc96c92684db4bcdb8 1483914185
-obj /usr/lib64/pkgconfig/fftw3l_omp.pc b32412e91fa5a7c81dd11fffee41a8ed 1483914187
-obj /usr/lib64/pkgconfig/fftw3_mpi.pc 565dd184ae64143843605c99a8d756b7 1483914187
-obj /usr/lib64/pkgconfig/fftw3f_mpi.pc e6d8c6c24a88850716091fe50ee616d1 1483914187
-obj /usr/lib64/pkgconfig/fftw3_threads.pc fab1202ab9f330d6fcf6d5d0ad81deaf 1483914187
-obj /usr/lib64/pkgconfig/fftw3f_threads.pc 96243be669c7b30a741a93f26d0b7723 1483914187
-obj /usr/lib64/pkgconfig/fftw3l_mpi.pc 7cfe72b20bdd3c248df3fb1289202d5b 1483914187
-obj /usr/lib64/pkgconfig/fftw3.pc d55f859cbb12c27d64dbf16ea3ccdcf4 1483914183
-obj /usr/lib64/pkgconfig/fftw3q_mpi.pc 0c7ecee05c8f6aeb0ccc382ba9e064c9 1483914187
-obj /usr/lib64/pkgconfig/fftw3l_threads.pc f0c2b82ee8e4fbdeb58fe4e53e9316c7 1483914187
-obj /usr/lib64/pkgconfig/fftw3f_omp.pc 3080499dd77575a4ed55e422f49dfb87 1483914187
-obj /usr/lib64/pkgconfig/fftw3_omp.pc b5039f2cbe88198f6756d859fbe546b5 1483914187
-obj /usr/lib64/pkgconfig/fftw3q_threads.pc 4238905f7f84966675d5b9489a310a6b 1483914187
-sym /usr/lib64/libfftw3l_mpi.so.3 -> libfftw3l_mpi.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3_mpi.so -> libfftw3_mpi.so.3.4.4 1483914190
-obj /usr/lib64/libfftw3f_mpi.so.3.4.4 404d279152d78f20bda092ab8798cff7 1483914188
-obj /usr/lib64/libfftw3q_omp.so.3.4.4 01554bc1b86f03f531a2c06d7cbd9a89 1483914188
-sym /usr/lib64/libfftw3f_mpi.so.3 -> libfftw3f_mpi.so.3.4.4 1483914190
-obj /usr/lib64/libfftw3f_threads.so.3.4.4 ae12d3d0bb81227663cb481f11094aac 1483914188
-sym /usr/lib64/libfftw3_mpi.so.3 -> libfftw3_mpi.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3l.so.3 -> libfftw3l.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3_omp.so -> libfftw3_omp.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3l_omp.so -> libfftw3l_omp.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3l.so -> libfftw3l.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3l_mpi.so -> libfftw3l_mpi.so.3.4.4 1483914190
-obj /usr/lib64/libfftw3q_threads.so.3.4.4 caa752c8f80377b2d257f38a165bba90 1483914188
-sym /usr/lib64/libfftw3_omp.so.3 -> libfftw3_omp.so.3.4.4 1483914190
-obj /usr/lib64/libfftw3.so.3.4.4 6fab1a046b14a7ed92dd58a0ebc1b1b4 1483914188
-sym /usr/lib64/libfftw3_threads.so -> libfftw3_threads.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3f_omp.so.3 -> libfftw3f_omp.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3_threads.so.3 -> libfftw3_threads.so.3.4.4 1483914190
-obj /usr/lib64/libfftw3l_omp.so.3.4.4 edc090b94888b8d341f97c32eb354228 1483914188
-obj /usr/lib64/libfftw3_omp.so.3.4.4 5611df5577876b2753cc8f98497ca654 1483914188
-obj /usr/lib64/libfftw3q.so.3.4.4 57a04c455de4878348ac71d3e7c45cae 1483914188
-sym /usr/lib64/libfftw3.so -> libfftw3.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3.so.3 -> libfftw3.so.3.4.4 1483914190
-obj /usr/lib64/libfftw3l_threads.so.3.4.4 e543a08be141c17dbb0a8f26348bda7c 1483914188
+obj /usr/lib64/pkgconfig/fftw3q_omp.pc b36cfe30a52210cfcc8f201507c8f12c 1484026642
+obj /usr/lib64/pkgconfig/fftw3f.pc 41d0b1acb6802d09e4421cd1ea63be62 1484026638
+obj /usr/lib64/pkgconfig/fftw3q.pc 71e64e06ce774c8d84556bbd96e6eb90 1484026641
+obj /usr/lib64/pkgconfig/fftw3l.pc 59bec1bcbb5b2adc96c92684db4bcdb8 1484026640
+obj /usr/lib64/pkgconfig/fftw3l_omp.pc b32412e91fa5a7c81dd11fffee41a8ed 1484026642
+obj /usr/lib64/pkgconfig/fftw3_mpi.pc 565dd184ae64143843605c99a8d756b7 1484026642
+obj /usr/lib64/pkgconfig/fftw3f_mpi.pc e6d8c6c24a88850716091fe50ee616d1 1484026642
+obj /usr/lib64/pkgconfig/fftw3_threads.pc fab1202ab9f330d6fcf6d5d0ad81deaf 1484026642
+obj /usr/lib64/pkgconfig/fftw3f_threads.pc 96243be669c7b30a741a93f26d0b7723 1484026642
+obj /usr/lib64/pkgconfig/fftw3l_mpi.pc 7cfe72b20bdd3c248df3fb1289202d5b 1484026642
+obj /usr/lib64/pkgconfig/fftw3.pc d55f859cbb12c27d64dbf16ea3ccdcf4 1484026639
+obj /usr/lib64/pkgconfig/fftw3q_mpi.pc 0c7ecee05c8f6aeb0ccc382ba9e064c9 1484026642
+obj /usr/lib64/pkgconfig/fftw3l_threads.pc f0c2b82ee8e4fbdeb58fe4e53e9316c7 1484026642
+obj /usr/lib64/pkgconfig/fftw3f_omp.pc 3080499dd77575a4ed55e422f49dfb87 1484026642
+obj /usr/lib64/pkgconfig/fftw3_omp.pc b5039f2cbe88198f6756d859fbe546b5 1484026642
+obj /usr/lib64/pkgconfig/fftw3q_threads.pc 4238905f7f84966675d5b9489a310a6b 1484026642
+sym /usr/lib64/libfftw3l_mpi.so.3 -> libfftw3l_mpi.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3_mpi.so -> libfftw3_mpi.so.3.4.4 1484026645
+obj /usr/lib64/libfftw3f_mpi.so.3.4.4 404d279152d78f20bda092ab8798cff7 1484026643
+obj /usr/lib64/libfftw3q_omp.so.3.4.4 01554bc1b86f03f531a2c06d7cbd9a89 1484026643
+sym /usr/lib64/libfftw3f_mpi.so.3 -> libfftw3f_mpi.so.3.4.4 1484026645
+obj /usr/lib64/libfftw3f_threads.so.3.4.4 ae12d3d0bb81227663cb481f11094aac 1484026643
+sym /usr/lib64/libfftw3_mpi.so.3 -> libfftw3_mpi.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3l.so.3 -> libfftw3l.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3_omp.so -> libfftw3_omp.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3l_omp.so -> libfftw3l_omp.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3l.so -> libfftw3l.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3l_mpi.so -> libfftw3l_mpi.so.3.4.4 1484026645
+obj /usr/lib64/libfftw3q_threads.so.3.4.4 caa752c8f80377b2d257f38a165bba90 1484026643
+sym /usr/lib64/libfftw3_omp.so.3 -> libfftw3_omp.so.3.4.4 1484026645
+obj /usr/lib64/libfftw3.so.3.4.4 6fab1a046b14a7ed92dd58a0ebc1b1b4 1484026643
+sym /usr/lib64/libfftw3_threads.so -> libfftw3_threads.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3f_omp.so.3 -> libfftw3f_omp.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3_threads.so.3 -> libfftw3_threads.so.3.4.4 1484026645
+obj /usr/lib64/libfftw3l_omp.so.3.4.4 edc090b94888b8d341f97c32eb354228 1484026643
+obj /usr/lib64/libfftw3_omp.so.3.4.4 5611df5577876b2753cc8f98497ca654 1484026643
+obj /usr/lib64/libfftw3q.so.3.4.4 57a04c455de4878348ac71d3e7c45cae 1484026643
+sym /usr/lib64/libfftw3.so -> libfftw3.so.3.4.4 1484026645
+sym /usr/lib64/libfftw3.so.3 -> libfftw3.so.3.4.4 1484026645
+obj /usr/lib64/libfftw3l_threads.so.3.4.4 e543a08be141c17dbb0a8f26348bda7c 1484026643
 dir /usr/include
-obj /usr/include/fftw3l.f03 38428fa7dc79b86179602f9ebe569218 1483914186
-obj /usr/include/fftw3-mpi.f03 f7744e23bdfd9a9a376453bfd4c8582d 1483914185
-obj /usr/include/fftw3.f03 4a160aad52dc4dc066ea1a8dfb586575 1483914186
-obj /usr/include/fftw3l-mpi.f03 f15167c84c90efb907062162049026d3 1483914185
-obj /usr/include/fftw3-mpi.h b40d8a93f5c7cb0cc4d22c0bc4f0d69c 1483914185
-obj /usr/include/fftw3.f 2e023ce668e4a1c9b8e911b643a26531 1483914186
-obj /usr/include/fftw3q.f03 8eb39f6e25f66a5a180f6c40c87da43e 1483914186
-obj /usr/include/fftw3.h 64b0528c04913c5ec66f968607c298ab 1483914186
+obj /usr/include/fftw3l.f03 38428fa7dc79b86179602f9ebe569218 1484026641
+obj /usr/include/fftw3-mpi.f03 f7744e23bdfd9a9a376453bfd4c8582d 1484026640
+obj /usr/include/fftw3.f03 4a160aad52dc4dc066ea1a8dfb586575 1484026641
+obj /usr/include/fftw3l-mpi.f03 f15167c84c90efb907062162049026d3 1484026640
+obj /usr/include/fftw3-mpi.h b40d8a93f5c7cb0cc4d22c0bc4f0d69c 1484026640
+obj /usr/include/fftw3.f 2e023ce668e4a1c9b8e911b643a26531 1484026641
+obj /usr/include/fftw3q.f03 8eb39f6e25f66a5a180f6c40c87da43e 1484026641
+obj /usr/include/fftw3.h 64b0528c04913c5ec66f968607c298ab 1484026641
 dir /usr/bin
-obj /usr/bin/fftwf-wisdom ff3ab08eda8916e285649bca0e6516b4 1483914188
-obj /usr/bin/fftw-wisdom-to-conf e3235f2813a5bbaf403cd46aab4cfc51 1483914186
-obj /usr/bin/fftwq-wisdom 41178949a241b52fcf9f93c48d9bfea7 1483914188
-obj /usr/bin/fftw-wisdom a36bc61c508ca4fd0cd01c7ea34bfa6c 1483914188
-obj /usr/bin/fftwl-wisdom 67d190a2e6ff694955d59b3d97cb03a3 1483914188
+obj /usr/bin/fftwf-wisdom ff3ab08eda8916e285649bca0e6516b4 1484026643
+obj /usr/bin/fftw-wisdom-to-conf e3235f2813a5bbaf403cd46aab4cfc51 1484026641
+obj /usr/bin/fftwq-wisdom 41178949a241b52fcf9f93c48d9bfea7 1484026643
+obj /usr/bin/fftw-wisdom a36bc61c508ca4fd0cd01c7ea34bfa6c 1484026643
+obj /usr/bin/fftwl-wisdom 67d190a2e6ff694955d59b3d97cb03a3 1484026643
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/fftw-3.3.4
-obj /usr/share/doc/fftw-3.3.4/NEWS.bz2 783c0f8b3fe36e9e0239c0b16efd2974 1483914186
-obj /usr/share/doc/fftw-3.3.4/ChangeLog d41d8cd98f00b204e9800998ecf8427e 1483914186
-obj /usr/share/doc/fftw-3.3.4/README.bz2 e3c4ec945b0171cdcada2fb16df4471c 1483914186
-obj /usr/share/doc/fftw-3.3.4/AUTHORS.bz2 805581853f88805cfdcd7d239a4ffa5a 1483914186
-obj /usr/share/doc/fftw-3.3.4/COPYRIGHT.bz2 588f17f13c9c2b0e043d0cb52d7d4a4a 1483914187
-obj /usr/share/doc/fftw-3.3.4/CONVENTIONS.bz2 e4ffb323bae52807b6ea146ea79d1c86 1483914187
-obj /usr/share/doc/fftw-3.3.4/TODO.bz2 4043cda632fb37959ecdc4a9a833d282 1483914186
+obj /usr/share/doc/fftw-3.3.4/rfftwnd.pdf 8dc1fea0c553643f33b55623324a01a7 1484026642
+obj /usr/share/doc/fftw-3.3.4/NEWS.bz2 783c0f8b3fe36e9e0239c0b16efd2974 1484026641
+obj /usr/share/doc/fftw-3.3.4/ChangeLog d41d8cd98f00b204e9800998ecf8427e 1484026641
+dir /usr/share/doc/fftw-3.3.4/html
+obj /usr/share/doc/fftw-3.3.4/html/equation-dht.png cd29e4735ec428e61b661322f00c817e 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Basic-distributed_002dtranspose-interface.html e675d7d32a5ca3a0860f63b94ae85114 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Multi_002dDimensional-DFTs-of-Real-Data.html 21d7b4c41ff210d7ddb9e65b668c3207 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Concept-Index.html bc397c2bc0013d6e61efd76519b400a5 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Load-balancing.html 3fff847e72eb74cdddf354e483b46ca5 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/MPI-Plan-Creation.html d5ec6852e569d7b5db58a3a8cd8363f8 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Avoiding-MPI-Deadlocks.html 35f993b7787db34d46c4eeb580c7d05e 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/MPI-Files-and-Data-Types.html 51c3b9b4ed035830e05b62236a12c2b2 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Multi_002dthreaded-FFTW.html 8fe4264f9cf044b2e9470daea9bde7c0 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Other-Multi_002ddimensional-Real_002ddata-MPI-Transforms.html 0f7075c4d6034d3b6c3905dde6d893ff 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/equation-dft.png a8507f4bdc39dd616129cb032ada681a 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Using-MPI-Plans.html 4fbd0b53d4ea83ae1763e9d0229054b6 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Complex-numbers.html b8ae8e8ed591add565ddf02b207da4a7 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Multi_002ddimensional-MPI-DFTs-of-Real-Data.html 8a50b54869abf13a5af4aa14644ac114 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Wisdom-Import.html 0428e735c2e1264e769ca92803515535 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/FFTW-MPI-Wisdom.html 10d1f6fa8d53242b924225eb6348595d 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Forgetting-Wisdom.html 959f62a21a0ecd238b3e495e09d473a7 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Planner-Flags.html 5b66c618965bb73fa06a8ee8f503f47c 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Distributed_002dmemory-FFTW-with-MPI.html 700ad262f878a58861b6a45abe8804ab 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/What-FFTW-Really-Computes.html 235d3000812998097dfad6c7216fcac5 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/equation-rodft11.png 20791e53c8f5bd80eb78b492efce187b 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Row_002dmajor-Format.html af36682691326837f286e29c93d887d5 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Tutorial.html 16d582ae3e08248f159c2a9260743bff 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/An-improved-replacement-for-MPI_005fAlltoall.html 672b8eba952694bf2a1e101d0c2d34a1 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/equation-redft11.png 5729b0671cb721f9b7946d0f9cda941f 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Basic-and-advanced-distribution-interfaces.html b8594998abb9b0d6f7ce8d75629758a3 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/index.html 4be549736b7257d4706dc543e889fa68 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Wisdom-Utilities.html ea437439925e0cb9886ba0304d47d86d 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Guru-vector-and-transform-sizes.html d7508be64a3da229c270b0f8683f5815 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Fortran-Examples.html 6e16b1866249771dc7d4de3e06339cef 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Guru-Real_002dto_002dreal-Transforms.html c54e5dc1dcba1a1f566cca0f3c1165b8 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Fixed_002dsize-Arrays-in-C.html f00899abb3ba6ac6647679c0862c52c1 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/FFTW-Fortran-type-reference.html 24a72e41b80ec57f806213187266fab0 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Wisdom-File-Export_002fImport-from-Fortran.html 4c96a077e105999491ab33319732f5f5 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Overview-of-Fortran-interface.html 342d74ad46474f2179859e45eb7ce6fe 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/FFTW-MPI-Reference.html d3b740db48335b8191c295f77ea3f639 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Data-Types-and-Files.html 53ad6c9caad86a62423665abcc8d0317 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Interleaved-and-split-arrays.html a17ffc3e94099530b48592d341f69b47 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Multi_002ddimensional-Transforms.html 15ecc69a35148cff7bc12f76091ab19d 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/MPI-Data-Distribution-Functions.html c1f217b9bd584b25851a6f1ea448fae0 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Advanced-Complex-DFTs.html 4f6b677595fa782df1434aa3921bba9d 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/The-1d-Real_002ddata-DFT.html f54b6f29f51d86bac6906f21f622191e 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Wisdom-of-Fortran_003f.html f5cda671b0757c60739afc92805c0fa3 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/equation-redft01.png 7577b9a50942646235f11a86da24ab9d 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Fortran_002dinterface-routines.html 73c6219552c68fa99bb025729862bdf6 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/The-Halfcomplex_002dformat-DFT.html faee6cffb51870f9c6c3b4b54d8e9384 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/equation-redft00.png 8f0729a1ce1879785af1d413be4430ab 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Advanced-Real_002dto_002dreal-Transforms.html a9eb6900b73f5e32970462b9d78fba38 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/equation-rodft01.png 6dbaa46e6a5bc7e05c69f878e4105264 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/One_002ddimensional-distributions.html 9c756db5deb1678e47deb153f1b957f8 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Plan-execution-in-Fortran.html dfce29ba2479eb998cd821afa628e22f 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Guru-Interface.html 71cf7e3a24504dac9e4793fd7d4c42bb 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Real_002dto_002dReal-Transform-Kinds.html 75194cdf1bb41b657f6ea768c7de44ea 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/FFTW-MPI-Installation.html 3fb38e13408df20ae626e551add49a1e 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Accessing-the-wisdom-API-from-Fortran.html c53236815951257df8a81185ae1c1a82 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Dynamic-Arrays-in-C.html 594308a5dd5edcbc497fb39d27748805 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/FFTW-MPI-Fortran-Interface.html 2ef3000eada74154141c47f51206b4e5 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Wisdom-String-Export_002fImport-from-Fortran.html 184adef3ebf5748cd58fba49887a20a5 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Complex-Multi_002dDimensional-DFTs.html e927b78464b0fef582a21b72c291d35e 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/More-DFTs-of-Real-Data.html 80576a783bde2da1eaa28326eec81c23 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/equation-rodft10.png 5f32b89a5db7cd02d596ef9aa5b7d628 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Column_002dmajor-Format.html c42742f9a44ec247468d2e6d1fbfa994 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Memory-Allocation.html 1071eef653f4e9cbfadf0f0bbdfa2df2 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Real-even_002fodd-DFTs-_0028cosine_002fsine-transforms_0029.html e50082224c86066efbfdee28c069a74a 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Multi_002ddimensional-Array-Format.html 685ce97f3c3582265c3dd547fc558643 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/equation-rodft00.png a967bb7abaee642a9d6eb0be7429b6a8 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/2d-MPI-example.html 27b0ecdae8e2ca372f8933cd0ed363a6 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/FFTW-Execution-in-Fortran.html a1b0b7703a391ed925e48e86cabbb89a 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Real_002ddata-DFT-Array-Format.html e2eefb2ec1936f793cf0481524e3ba77 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Complex-One_002dDimensional-DFTs.html 8b95bca54326f091daaeee647ed3bbf2 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Defining-an-FFTW-module.html 4dc10b88d238cf5005364d350a228614 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Advanced-Real_002ddata-DFTs.html 550b62b0ac684b862469c2a138ec6f84 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/1d-Real_002deven-DFTs-_0028DCTs_0029.html c5d79a75c03cd7bbec62b116dc529f36 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Generating-your-own-code.html e7856bb9d032fe113d59482d8d4a9880 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/SIMD-alignment-and-fftw_005fmalloc.html ac869845983aa534e494161fb6fa73ab 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Wisdom.html 0fbb6fa584d0a2e7abf41e00407a45d4 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/New_002darray-Execute-Functions.html aca67e8cefd5d3793903af6f97ac2ed4 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/MPI-Initialization.html 0bd8851dae9de895f164d6b46cfd3023 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Complex-DFTs.html 3bfeae40b069ed44c8310b10fc17dc18 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Using-Plans.html d20bdae6796eae8b004513694901a53d 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/equation-redft10.png 26eb03536ae8440b337099652a92035c 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/MPI-Data-Distribution.html e0f0a0e071dbd16dc56627cee9626312 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Extended-and-quadruple-precision-in-Fortran.html 67b1c17d1843e760a84d08203c60c395 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Usage-of-Multi_002dthreaded-FFTW.html baea790bc76ee7b0239ec3ce307a9ded 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Real_002ddata-DFTs.html d54762dd5a7047cf98c369f0eecafbe7 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Cycle-Counters.html 505c88658b211f3aaa425686de3e7c85 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/64_002dbit-Guru-Interface.html 7480625339f16b12078616430e83dc48 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Installation-on-non_002dUnix-systems.html d9ca64a6244efe78d48fcc1ef1206215 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/rfftwnd-for-html.png 96cf4b48f7c9438d564495ec76e2aed5 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Advanced-distributed_002dtranspose-interface.html db5d3f2ca2c4e102cef573f8705975f9 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Introduction.html 746921fa34d6aeac231429bb8c15c132 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/equation-idft.png 16eb123198e54e27dfc26b44c595f29b 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/FFTW-Reference.html c7ba322730b8ce3c6f917908f77ebcfb 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/How-Many-Threads-to-Use_003f.html 405348774c1abc86ea8b05e69d00884a 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Installation-and-Supported-Hardware_002fSoftware.html 2c513f84f8e03feda12978651a0f4a50 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/The-1d-Discrete-Fourier-Transform-_0028DFT_0029.html d02fe119a9c1fbaaba8bba45c52d83d9 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Advanced-Interface.html 7e174bb30132132529a96e5bd822f74b 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/1d-Real_002dodd-DFTs-_0028DSTs_0029.html 2a3f467914aa17123087d39a31abb507 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Wisdom-Generic-Export_002fImport-from-Fortran.html b8a15f4f9667aa6945c2fb11168db601 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Reversing-array-dimensions.html b88d25c6d270eee0819e5752f9be33a6 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Calling-FFTW-from-Legacy-Fortran.html 4237b4dfc4cb74eedf5acac8e1e0a8aa 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Guru-Real_002ddata-DFTs.html ec9ab8c0f0d98eafacf5a0f4cb8e7881 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Real_002dto_002dReal-Transforms.html 97113a2bf559cd5fd9f69cfb25a91b2a 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Installation-on-Unix.html 0dda6cb4247d9b68e06a05a59c202287 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Guru-Complex-DFTs.html 54f2426f5ea153fa4442c9578291ec4a 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Other-Important-Topics.html 518c08a0e6db8a9f43d58cbe38c30347 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Words-of-Wisdom_002dSaving-Plans.html 16d7fe580188ca3378eef59a273035d6 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Upgrading-from-FFTW-version-2.html 1e6851271c729267871bfb15fb52808a 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/The-Discrete-Hartley-Transform.html 5e0eba7914263f4660bfb2a338a8d2aa 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Caveats-in-Using-Wisdom.html f0d6caad93e90545ce3175c609f50156 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/FFTW-MPI-Transposes.html 419abb3a2927445eb2c406fa63bf3438 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/MPI-Wisdom-Communication.html 7167c88dea6680a3cdcbae68330af0da 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/License-and-Copyright.html ff7ce1694316f4d54eaa8feb6582ac26 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Calling-FFTW-from-Modern-Fortran.html 91db442e1c65130d4d137fa3152c939a 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/FFTW-MPI-Performance-Tips.html bb90a0502dc8904d48cdb94a355fb8a5 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Allocating-aligned-memory-in-Fortran.html 855309c624f447319e08e05b9a34e477 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Library-Index.html 0956c44e19b146071beb88ffdc48be99 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Combining-MPI-and-Threads.html 67c2f0c40203ceaeec5efc8bf2d92f38 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/FFTW-Constants-in-Fortran.html 71f20f2d6d3b16f4ea4efe44ecf28b64 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Thread-safety.html 534b2a72355be56397b8a3fa639b0528 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/One_002dDimensional-DFTs-of-Real-Data.html 8b6b7356ee11be489be36bc3d387beed 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Basic-Interface.html d87df6ad9f0fdc113764a7ef4c407395 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/1d-Discrete-Hartley-Transforms-_0028DHTs_0029.html 952ac6afea53e1c9a0fa9319cdf99035 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Wisdom-Export.html 29359bdb978e3fbc1bc61c645e6d78f1 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Installation-and-Customization.html 01c9f1cf4154fb3bffcd904c967530aa 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Linking-and-Initializing-MPI-FFTW.html 28ec403428a16cc3bc4419fb43459af0 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Transposed-distributions.html a8800d6d89795eb1e542d5a4e92f8914 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Dynamic-Arrays-in-C_002dThe-Wrong-Way.html 5ddfa940f484c62818b474dee90cd5be 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Acknowledgments.html a57772f93dc456bd8ae8794a52217e27 1484026641
+obj /usr/share/doc/fftw-3.3.4/html/Precision.html 223f3a8dd57c35e46440593ac53b27da 1484026641
+obj /usr/share/doc/fftw-3.3.4/README.bz2 e3c4ec945b0171cdcada2fb16df4471c 1484026641
+obj /usr/share/doc/fftw-3.3.4/AUTHORS.bz2 805581853f88805cfdcd7d239a4ffa5a 1484026641
+obj /usr/share/doc/fftw-3.3.4/COPYRIGHT.bz2 588f17f13c9c2b0e043d0cb52d7d4a4a 1484026641
+dir /usr/share/doc/fftw-3.3.4/faq
+obj /usr/share/doc/fftw-3.3.4/faq/index.html 913dd6fe897789b1d2fa042eb677b122 1484026642
+obj /usr/share/doc/fftw-3.3.4/faq/section5.html 1ff80758f604e6203102e3ba6481533d 1484026642
+obj /usr/share/doc/fftw-3.3.4/faq/section1.html ebb20c7583885f7cd55f235031ad3a80 1484026642
+obj /usr/share/doc/fftw-3.3.4/faq/section4.html 706247b7c711d99c65a97ed4574698e4 1484026642
+obj /usr/share/doc/fftw-3.3.4/faq/section3.html 043d602721d25db8822a428faf7bc713 1484026642
+obj /usr/share/doc/fftw-3.3.4/faq/section2.html a79494a60b1586c2da1994c1f882e0f4 1484026642
+obj /usr/share/doc/fftw-3.3.4/fftw3.pdf 173021c846deb423d9141c503d1a2d63 1484026642
+obj /usr/share/doc/fftw-3.3.4/CONVENTIONS.bz2 e4ffb323bae52807b6ea146ea79d1c86 1484026641
+obj /usr/share/doc/fftw-3.3.4/TODO.bz2 4043cda632fb37959ecdc4a9a833d282 1484026641
 dir /usr/share/info
-obj /usr/share/info/fftw3.info-1.bz2 d4981b89ca576964dc9e28bb6449b20d 1483914186
-obj /usr/share/info/fftw3.info.bz2 d47a39bb99312fabc59303045ebd5a01 1483914186
-obj /usr/share/info/fftw3.info-2.bz2 e7287a7572185a24e1d98444fa5911d4 1483914186
+obj /usr/share/info/fftw3.info-1.bz2 d4981b89ca576964dc9e28bb6449b20d 1484026641
+obj /usr/share/info/fftw3.info.bz2 d47a39bb99312fabc59303045ebd5a01 1484026641
+obj /usr/share/info/fftw3.info-2.bz2 e7287a7572185a24e1d98444fa5911d4 1484026641
 dir /usr/share/man
 dir /usr/share/man/man1
-obj /usr/share/man/man1/fftwl-wisdom.1.bz2 5d6343497a24edef3ee35943eb95386b 1483914186
-obj /usr/share/man/man1/fftwq-wisdom.1.bz2 88fcd8ff9db47374c4f58ee2129888dd 1483914186
-obj /usr/share/man/man1/fftwf-wisdom.1.bz2 7d8560ccf5ab6e8ea60c7767f492a831 1483914183
-obj /usr/share/man/man1/fftw-wisdom.1.bz2 63915c5d19623dc83aa0c2be9d376ceb 1483914184
-obj /usr/share/man/man1/fftw-wisdom-to-conf.1.bz2 79611f9635e43497f8ad2a2364fe55d9 1483914186
-sym /usr/lib64/libfftw3l_threads.so -> libfftw3l_threads.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3q_threads.so.3 -> libfftw3q_threads.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3f_threads.so.3 -> libfftw3f_threads.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3l_threads.so.3 -> libfftw3l_threads.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3q_threads.so -> libfftw3q_threads.so.3.4.4 1483914190
-sym /usr/lib64/libfftw3f_threads.so -> libfftw3f_threads.so.3.4.4 1483914190
+obj /usr/share/man/man1/fftwl-wisdom.1.bz2 5d6343497a24edef3ee35943eb95386b 1484026640
+obj /usr/share/man/man1/fftwq-wisdom.1.bz2 88fcd8ff9db47374c4f58ee2129888dd 1484026641
+obj /usr/share/man/man1/fftwf-wisdom.1.bz2 7d8560ccf5ab6e8ea60c7767f492a831 1484026639
+obj /usr/share/man/man1/fftw-wisdom.1.bz2 63915c5d19623dc83aa0c2be9d376ceb 1484026640
+obj /usr/share/man/man1/fftw-wisdom-to-conf.1.bz2 79611f9635e43497f8ad2a2364fe55d9 1484026641
