@@ -1,37 +1,47 @@
 dir /usr
 dir /usr/bin
-obj /usr/bin/dnssec-signzone d29b21f8d81b977b365f321b8b570e91 1480816319
-obj /usr/bin/dnssec-keyfromlabel 35a12b2e79322768049bc4a022a0052b 1480816318
-obj /usr/bin/nslookup 8106dae8aafc9e122c3f87b3dcced34b 1480816318
-obj /usr/bin/nsupdate 6dbe1a09eb9bc61237f323c730945b03 1480816318
-obj /usr/bin/dnssec-verify ed4a61a6b4475f5850dc196a1cb7f561 1480816319
-obj /usr/bin/dig 20237bf7f6c0a6e1361030732e8efe25 1480816318
-obj /usr/bin/host 7100843ecf22abd473ab709cce0b2426 1480816318
-obj /usr/bin/dnssec-dsfromkey 0b598d4dc6efdd35db6c8cb9fd47c1a7 1480816318
-obj /usr/bin/dnssec-settime 12ef165f59552ef96459475db7cc5705 1480816319
-obj /usr/bin/dnssec-keygen 69c04addff0b3ff421ae1b0ba63fb6fd 1480816319
-obj /usr/bin/dnssec-revoke 5696ad6f75410dcd9bca75d52d580c6e 1480816319
-obj /usr/bin/delv 389fa88837266baa81f16f2ff3a8df47 1480816318
-obj /usr/bin/dnssec-importkey c380427ae5fff805569305e0290e48ad 1480816318
+obj /usr/bin/dnssec-signzone b46022ced562c0551c459b40ff1ac0fc 1484024528
+obj /usr/bin/dnssec-keyfromlabel bf05d76851e32744c0cca266bb98ceb9 1484024528
+obj /usr/bin/nslookup eca538e95ecddecdd4e255ac41162ab9 1484024528
+obj /usr/bin/nsupdate 10a58ca2889438b6f96c64c14b16617c 1484024528
+obj /usr/bin/dnssec-verify 1e56a4e9f204024182fd2d07ac7042d7 1484024528
+obj /usr/bin/dig 1540e01a86c6ae6cdb0ea3fc6ebfe3fb 1484024528
+obj /usr/bin/host 711a78227356ef8451abac3c5da71aec 1484024528
+obj /usr/bin/dnssec-dsfromkey b4f8e673a5bc0b70fa08ed9054adf387 1484024528
+obj /usr/bin/dnssec-settime f776b8559592e6303f845798f8dc184b 1484024528
+obj /usr/bin/dnssec-keygen 97b56a7dad42f441cac31758135797c2 1484024528
+obj /usr/bin/dnssec-revoke 62e847102cd8ce1b728fbfab40f0203e 1484024528
+obj /usr/bin/delv 9e75958f8fb5342c58302c64c11e637b 1484024528
+obj /usr/bin/dnssec-importkey 8959dd486fd0f6d257ec067cf66a6754 1484024528
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/bind-tools-9.10.4_p4
-obj /usr/share/doc/bind-tools-9.10.4_p4/README.bz2 20e1f16d010355d6d2fcd670f10c95fc 1480816317
-obj /usr/share/doc/bind-tools-9.10.4_p4/FAQ.bz2 19370faedffe82be64a69cbfb3ab7c0e 1480816317
-obj /usr/share/doc/bind-tools-9.10.4_p4/CHANGES.bz2 8f04a15618304fecdc09967f492a5383 1480816317
+dir /usr/share/doc/bind-tools-9.10.4_p4/html
+obj /usr/share/doc/bind-tools-9.10.4_p4/html/dnssec-keyfromlabel.html ef348cc4f36e5fe5fd8d59216dcd276f 1484024527
+obj /usr/share/doc/bind-tools-9.10.4_p4/html/nsupdate.html 6ea0cbf822708b4456b74eeb50ccf0b3 1484024527
+obj /usr/share/doc/bind-tools-9.10.4_p4/html/dnssec-settime.html bd56bac943d28d3ad78891c6e996f3cb 1484024527
+obj /usr/share/doc/bind-tools-9.10.4_p4/html/dnssec-signzone.html 65435c4fe232968c763fae63e79683f1 1484024527
+obj /usr/share/doc/bind-tools-9.10.4_p4/html/dnssec-revoke.html b72358148ef72cba9a6df9337a0d0cec 1484024527
+obj /usr/share/doc/bind-tools-9.10.4_p4/html/dnssec-importkey.html 4c9b80846e0c64f9d8563b5e81a611a7 1484024527
+obj /usr/share/doc/bind-tools-9.10.4_p4/html/dnssec-verify.html fa308155fa6b2b6a0c0ffb3ead655123 1484024528
+obj /usr/share/doc/bind-tools-9.10.4_p4/html/dnssec-dsfromkey.html 4ebd48e60782e94faee3d5eaa4c28c91 1484024527
+obj /usr/share/doc/bind-tools-9.10.4_p4/html/dnssec-keygen.html 527366c8a6957cd0819ed0dd5119aa22 1484024527
+obj /usr/share/doc/bind-tools-9.10.4_p4/README.bz2 20e1f16d010355d6d2fcd670f10c95fc 1484024527
+obj /usr/share/doc/bind-tools-9.10.4_p4/FAQ.bz2 19370faedffe82be64a69cbfb3ab7c0e 1484024527
+obj /usr/share/doc/bind-tools-9.10.4_p4/CHANGES.bz2 8f04a15618304fecdc09967f492a5383 1484024527
 dir /usr/share/man
 dir /usr/share/man/man8
-obj /usr/share/man/man8/dnssec-verify.8.bz2 9c159e47157ab50ffea3806ef56f2f00 1480816318
-obj /usr/share/man/man8/dnssec-revoke.8.bz2 ff90a26edb0d3885172f33f687678ce9 1480816318
-obj /usr/share/man/man8/dnssec-importkey.8.bz2 d477bc26d4054efb07d7726e5be6c344 1480816317
-obj /usr/share/man/man8/dnssec-dsfromkey.8.bz2 0f20eac08daa7c0a2872cfe159b9bc29 1480816317
-obj /usr/share/man/man8/dnssec-keygen.8.bz2 e640587fe2be6ee7a0bdefc4d9c957c4 1480816318
-obj /usr/share/man/man8/dnssec-signzone.8.bz2 73ad5ec333062931ba01b6d44fdb9d35 1480816318
-obj /usr/share/man/man8/dnssec-settime.8.bz2 24c889722dae283b758fbd3db94407dc 1480816318
-obj /usr/share/man/man8/dnssec-keyfromlabel.8.bz2 3c007803243a51f09fec62194c826854 1480816318
+obj /usr/share/man/man8/dnssec-verify.8.bz2 9c159e47157ab50ffea3806ef56f2f00 1484024527
+obj /usr/share/man/man8/dnssec-revoke.8.bz2 ff90a26edb0d3885172f33f687678ce9 1484024527
+obj /usr/share/man/man8/dnssec-importkey.8.bz2 d477bc26d4054efb07d7726e5be6c344 1484024527
+obj /usr/share/man/man8/dnssec-dsfromkey.8.bz2 0f20eac08daa7c0a2872cfe159b9bc29 1484024527
+obj /usr/share/man/man8/dnssec-keygen.8.bz2 e640587fe2be6ee7a0bdefc4d9c957c4 1484024527
+obj /usr/share/man/man8/dnssec-signzone.8.bz2 73ad5ec333062931ba01b6d44fdb9d35 1484024527
+obj /usr/share/man/man8/dnssec-settime.8.bz2 24c889722dae283b758fbd3db94407dc 1484024527
+obj /usr/share/man/man8/dnssec-keyfromlabel.8.bz2 3c007803243a51f09fec62194c826854 1484024527
 dir /usr/share/man/man1
-obj /usr/share/man/man1/nsupdate.1.bz2 c59482048b0d62d59315dae4a3533950 1480816317
-obj /usr/share/man/man1/host.1.bz2 789e4bddc47df00e7741d9bcdc101606 1480816317
-obj /usr/share/man/man1/dig.1.bz2 33ba2cd6b7e5f50f75166ae32e9ae276 1480816317
-obj /usr/share/man/man1/nslookup.1.bz2 e82e31c10ca9b7fca6cacce901e89749 1480816317
-obj /usr/share/man/man1/delv.1.bz2 d3314e41c687ac0e9cf4f1eb829e2b82 1480816317
+obj /usr/share/man/man1/nsupdate.1.bz2 c59482048b0d62d59315dae4a3533950 1484024527
+obj /usr/share/man/man1/host.1.bz2 789e4bddc47df00e7741d9bcdc101606 1484024527
+obj /usr/share/man/man1/dig.1.bz2 33ba2cd6b7e5f50f75166ae32e9ae276 1484024527
+obj /usr/share/man/man1/nslookup.1.bz2 e82e31c10ca9b7fca6cacce901e89749 1484024527
+obj /usr/share/man/man1/delv.1.bz2 d3314e41c687ac0e9cf4f1eb829e2b82 1484024527

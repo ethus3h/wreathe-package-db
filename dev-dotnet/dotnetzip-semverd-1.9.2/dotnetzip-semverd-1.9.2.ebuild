@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -10,8 +10,7 @@ USE_DOTNET="net45"
 
 inherit gac dotnet
 
-SRC_URI="https://github.com/haf/DotNetZip.Semverd/archive/v${PV}.tar.gz -> ${PV}.tar.gz"
-RESTRICT="mirror"
+SRC_URI="https://github.com/haf/DotNetZip.Semverd/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 S="${WORKDIR}/DotNetZip.Semverd-${PV}"
 
 HOMEPAGE="https://github.com/haf/DotNetZip.Semverd"

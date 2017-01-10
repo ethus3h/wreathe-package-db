@@ -1,25 +1,27 @@
 dir /usr
 dir /usr/lib64
-obj /usr/lib64/libqmfclient.so.1.0.0 2015eb30181d8a08fe25bfcd4d281e40 1466838178
-obj /usr/lib64/libqmfmessageserver.prl f5c049a678253eae4378f785b0480d04 1466838018
-sym /usr/lib64/libqmfclient.so -> libqmfclient.so.1.0.0 1466838180
+obj /usr/lib64/libqmfclient.so.1.0.0 7f2baa588bead95d820c450743ce418f 1484025799
+obj /usr/lib64/libqmfmessageserver.prl f5c049a678253eae4378f785b0480d04 1484025713
+sym /usr/lib64/libqmfclient.so -> libqmfclient.so.1.0.0 1484025802
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/qmfmessageserver.pc 576d07fb43c10ec18cc62b242f4acbc5 1466838018
-obj /usr/lib64/pkgconfig/qmfclient.pc e31eb2c77990765f91a5b556241b39ec 1466837844
-sym /usr/lib64/libqmfclient.so.1.0 -> libqmfclient.so.1.0.0 1466838180
-obj /usr/lib64/libqmfmessageserver.so.1.0.0 55e07bc242fcd597d50ffece0112ad58 1466838178
-sym /usr/lib64/libqmfmessageserver.so -> libqmfmessageserver.so.1.0.0 1466838180
-sym /usr/lib64/libqmfclient.so.1 -> libqmfclient.so.1.0.0 1466838180
-obj /usr/lib64/libqmfclient.prl d6195f3300c65a88ae124c3ea8d92721 1466837844
+obj /usr/lib64/pkgconfig/qmfmessageserver.pc 576d07fb43c10ec18cc62b242f4acbc5 1484025713
+obj /usr/lib64/pkgconfig/qmfclient.pc e31eb2c77990765f91a5b556241b39ec 1484025713
+sym /usr/lib64/libqmfclient.so.1.0 -> libqmfclient.so.1.0.0 1484025802
+sym /usr/lib64/libqmfmessageserver.so.1 -> libqmfmessageserver.so.1.0.0 1484025802
+sym /usr/lib64/libqmfmessageserver.so.1.0 -> libqmfmessageserver.so.1.0.0 1484025802
+obj /usr/lib64/libqmfmessageserver.so.1.0.0 60c9b67eadf1f567beee803d0ab2c5ea 1484025799
+sym /usr/lib64/libqmfmessageserver.so -> libqmfmessageserver.so.1.0.0 1484025802
+sym /usr/lib64/libqmfclient.so.1 -> libqmfclient.so.1.0.0 1484025802
+obj /usr/lib64/libqmfclient.prl d6195f3300c65a88ae124c3ea8d92721 1484025713
 dir /usr/lib64/qmf
 dir /usr/lib64/qmf/plugins
 dir /usr/lib64/qmf/plugins/messageservices
-obj /usr/lib64/qmf/plugins/messageservices/libsmtp.so f4af23d119e1ed5aa7192ba988d0896e 1466838178
-obj /usr/lib64/qmf/plugins/messageservices/libimap.so fdc11a4f33ae5e9aab5a6f43cc74b665 1466838178
-obj /usr/lib64/qmf/plugins/messageservices/libpop.so 02e8bd8925a33073ab5dbf4480932391 1466838178
-obj /usr/lib64/qmf/plugins/messageservices/libqmfsettings.so e8d47d30eeacd31535e8c674d1757332 1466838178
+obj /usr/lib64/qmf/plugins/messageservices/libsmtp.so f4af23d119e1ed5aa7192ba988d0896e 1484025799
+obj /usr/lib64/qmf/plugins/messageservices/libimap.so 42765ed74a1caea0bcc8e330c40bc85b 1484025799
+obj /usr/lib64/qmf/plugins/messageservices/libpop.so da78fe60ff467a5ff9be728a59cdbf36 1484025799
+obj /usr/lib64/qmf/plugins/messageservices/libqmfsettings.so e8d47d30eeacd31535e8c674d1757332 1484025799
 dir /usr/lib64/qmf/plugins/contentmanagers
-obj /usr/lib64/qmf/plugins/contentmanagers/libqmfstoragemanager.so c2cb7209dbcdcb3a5a7217beee69d7d9 1466838178
+obj /usr/lib64/qmf/plugins/contentmanagers/libqmfstoragemanager.so c2cb7209dbcdcb3a5a7217beee69d7d9 1484025799
 dir /usr/include
 dir /usr/include/qmfmessageserver
 obj /usr/include/qmfmessageserver/qmailheartbeattimer.h ee99ae38e5f0f951e18132e657a764c6 1375851734
@@ -76,10 +78,44 @@ obj /usr/include/qmfclient/qmailthread.h 355c1504cc7ff9b5efaec780dd665958 137585
 obj /usr/include/qmfclient/qmailaccountsortkey.h 573a4b3b3c7fcca994d7ee8f3d4a0698 1375851734
 obj /usr/include/qmfclient/qmailmessagekey.h 9851c05a934dbcc6085c7fab0db8bbbc 1375851734
 dir /usr/bin
-obj /usr/bin/messageserver c5807e9728c8b9aecdea19ee0364a5eb 1466838178
+obj /usr/bin/messageserver f9770e7cb7947b21bad19fcb5894ba93 1484025799
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/qmf-4.0.3
-obj /usr/share/doc/qmf-4.0.3/CHANGES.bz2 986c51a37a472304718f92ba3fa13690 1466838177
-sym /usr/lib64/libqmfmessageserver.so.1.0 -> libqmfmessageserver.so.1.0.0 1466838180
-sym /usr/lib64/libqmfmessageserver.so.1 -> libqmfmessageserver.so.1.0.0 1466838180
+dir /usr/share/doc/qmf-4.0.3/html
+dir /usr/share/doc/qmf-4.0.3/html/style
+obj /usr/share/doc/qmf-4.0.3/html/messaginglibrary.html 2c874e5448eb954f0d56933060703755 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/demos-manifest.xml d41d8cd98f00b204e9800998ecf8427e 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/changes-messageserver.html 34106afe3620fa94e3db166b7dd71607 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/libmessageserver.html 94769c24f228714e97ff308c266d6180 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/qtextendedmail.html b0cd378fdef3377492a08571b3aac8e1 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/messaging-classes.html 91dd253b0f95f440fe541fd8b3ecc886 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/qmf.qhp 15f1bfde3a986b1f271fcad5ac1de143 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/changes-qtopiamail.html 8f0090ed7bb60afd23ab1b8ef2603133 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/index.html 29756b535c257736a1d3372af57046fb 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/messagenavigator.html 8a90578906f548635564039c1c832548 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/qtextendedmail-qmfutil.html aafa7912a45cf6e3c7e8bd70e504f688 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/qmfutil.html 63196496d864aaf7c464c35fa392a77b 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/namespaces.html 6e15aacd259587f2b868207094605c80 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/qt-messaging-framework.index 0a82b5239303831cc5347e8f5655aed7 1484025798
+dir /usr/share/doc/qmf-4.0.3/html/scripts
+obj /usr/share/doc/qmf-4.0.3/html/messaging.html 732f5f1d7b9b31bd64c14bc74a69b94b 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/qmf.qch 0495c80f84e9beee30d1afb7d51518ef 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/qtextended-messaging.html 121f4b624e46c46697c1ba7ae013bc13 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/qtextendedmail-messageserver.html 9613a6a646fc4e1f5a788831e4de8d1b 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/qt-messaging-framework.pageindex 7b311c545cf9cff90f863b8a053703e5 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/classeshierarchy.html f791275e2d957169cb4428de47413b0b 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/annotated.html ddc44385d82b54a2839a772719fb1f1a 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/messageviewer.html c3e2a92a7fb3bd104293e945bb7cf405 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/examples-manifest.xml 9ecb992baa8485ff820d3e283ef97aa0 1484025798
+dir /usr/share/doc/qmf-4.0.3/html/images
+obj /usr/share/doc/qmf-4.0.3/html/images/qtlogo.png 2a991e25ded4bf9b4352b3df879b0f62 1484025798
+dir /usr/share/doc/qmf-4.0.3/html/images/used-in-examples
+obj /usr/share/doc/qmf-4.0.3/html/images/codeless.png eabc0d298e84ff12e0084da356de8c1f 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/images/messagenavigator-example.png b071ef0e6927ddb594cc31a201d7ffc9 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/images/messageviewer-example.png ff0eaa4452d02e42444626c30d167e1c 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/classes.html 82ca92cd09203fa4c38f9c73be35e0da 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/groups.html 5675101902b4dfb798d0a345f4a58e4d 1484025798
+obj /usr/share/doc/qmf-4.0.3/html/messageserver.html f9e3a8922a856c616dda6ac9c338ec7a 1484025798
+obj /usr/share/doc/qmf-4.0.3/qmf.qch 0495c80f84e9beee30d1afb7d51518ef 1484025798
+obj /usr/share/doc/qmf-4.0.3/CHANGES.bz2 986c51a37a472304718f92ba3fa13690 1484025797

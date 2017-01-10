@@ -1,34 +1,63 @@
 dir /usr
 dir /usr/bin
-obj /usr/bin/ldrdf 9b213be2c0af023423dfda2843b804f8 1465718603
-obj /usr/bin/rdflib 21cc53cb91ef940d3be3d4088fe18be5 1465718603
-obj /usr/bin/ndisasm d91d7cbdf745eea679985f51f868fce4 1465718603
-obj /usr/bin/rdf2bin 5f011cf8487b2ed7a12e324b26c957ba 1465718603
-sym /usr/bin/rdf2srec -> rdf2bin 1465718604
-obj /usr/bin/rdfdump 3d1bbafa31368fc56939533d46126dbd 1465718603
-obj /usr/bin/nasm 96f84fbe7eea356909d9e8ea54e090f6 1465718603
-obj /usr/bin/rdx 22dccc9709f32169daa5c0d44b4b578b 1465718603
+obj /usr/bin/ldrdf c99c4a6317f9bc9fa828961831ff4898 1484025520
+sym /usr/bin/rdf2ith -> rdf2bin 1484025522
+obj /usr/bin/rdflib a52722e357a8cf6f311961434ee10bff 1484025520
+obj /usr/bin/ndisasm ca7a03e3341b216497a6c46c0a5756e0 1484025520
+sym /usr/bin/rdf2com -> rdf2bin 1484025522
+sym /usr/bin/rdf2ihx -> rdf2bin 1484025522
+obj /usr/bin/rdf2bin db44ddb7dbde0d2f834e61b4fdc76f66 1484025520
+sym /usr/bin/rdf2srec -> rdf2bin 1484025522
+obj /usr/bin/rdfdump c2d878c21f5809197411550fd1823560 1484025520
+obj /usr/bin/nasm 038f78a5820bbd1e049a886b1844f23c 1484025520
+obj /usr/bin/rdx d24651a90e108d4037217beb426f6b8e 1484025520
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/nasm-2.12.01
-obj /usr/share/doc/nasm-2.12.01/CHANGES 3064764f084d27be8cd29d0852ba575e 1465718602
-obj /usr/share/doc/nasm-2.12.01/README.bz2 08129bdbe03bfe004d47591c38ea2e80 1465718602
-obj /usr/share/doc/nasm-2.12.01/AUTHORS.bz2 f9515dc1007288c4880fea1ebd5e7ba7 1465718602
-obj /usr/share/doc/nasm-2.12.01/ChangeLog.bz2 72ed842d30228384850946612465e378 1465718602
-obj /usr/share/doc/nasm-2.12.01/TODO.bz2 89eb07b7633ac4353f90212fc3fd819f 1465718602
+obj /usr/share/doc/nasm-2.12.01/CHANGES 3064764f084d27be8cd29d0852ba575e 1484025519
+obj /usr/share/doc/nasm-2.12.01/nasmdoc.txt.bz2 fc0b90b486ff35358e83ab909ae74d0e 1484025519
+dir /usr/share/doc/nasm-2.12.01/html
+obj /usr/share/doc/nasm-2.12.01/html/nasmdoc3.html 09f0aeb5543297ee8e4af6219a9f7234 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdoc5.html e2a304a25b25ac82145625db08d7eba8 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdoc6.html 6542781374be46230df289358522de88 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdoc4.html 401d4cbbe4101eb2383ac7411b71b607 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdocb.html 39b93584c7d1982f73fbaa397996a906 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdoc9.html 19ae12ebec64c6332c32a25ebc48dd04 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdo10.html 8597c465ad09278f183358060b6d83b6 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdo12.html 9fec7fc9bec4ed0bcf4f96547bd672cb 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdoc2.html 7647cad6ea4702940b409b8286706af1 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdoc0.html efbe62a7498e6f0e6562647f57d9840c 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdocc.html 139b88d89a8feee2657dc9abc3faec4c 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdoci.html 26257fad427395412eeabc4681531d73 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdoc1.html 0318993cff7609a43ff64d996172f2ce 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdoc7.html 5b8860ab4260c1fc3f020d24298356ef 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdoca.html f0b3579cc0cfb3963a6de51073d7ff6f 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdoc8.html 920b2995f8a21b53f31dab3db34307ec 1484025519
+obj /usr/share/doc/nasm-2.12.01/html/nasmdo11.html 5d2fc54a7c814b682923401c851468ef 1484025519
+obj /usr/share/doc/nasm-2.12.01/nasmdoc.ps.bz2 4808c5e1a71f49a5f3e4b6990bc2833d 1484025519
+obj /usr/share/doc/nasm-2.12.01/README.bz2 08129bdbe03bfe004d47591c38ea2e80 1484025519
+obj /usr/share/doc/nasm-2.12.01/nasmdoc.texi.bz2 aa44cac21d9326210f71344a7ede504b 1484025519
+obj /usr/share/doc/nasm-2.12.01/AUTHORS.bz2 f9515dc1007288c4880fea1ebd5e7ba7 1484025519
+obj /usr/share/doc/nasm-2.12.01/nasmdoc.src.bz2 6c117fe797c5d3f0a29c0fcf2657e194 1484025519
+obj /usr/share/doc/nasm-2.12.01/nasmdoc.pdf c7f95f3be187bf20e87ea37064635a00 1484025519
+obj /usr/share/doc/nasm-2.12.01/nasmdoc.dip.bz2 468d89cc331ad75ae6ebf8ff55d90750 1484025519
+obj /usr/share/doc/nasm-2.12.01/ChangeLog.bz2 72ed842d30228384850946612465e378 1484025519
+obj /usr/share/doc/nasm-2.12.01/TODO.bz2 89eb07b7633ac4353f90212fc3fd819f 1484025519
+dir /usr/share/info
+obj /usr/share/info/nasm.info-3.bz2 f1c1bb73f53ee5f2a072ab4d3c74ab9a 1484025519
+obj /usr/share/info/nasm.info-2.bz2 c6ee97ca245121350f9bebdec351eb8f 1484025519
+obj /usr/share/info/nasm.info.bz2 c7842acb9abdf86ff8bc994df8b9a513 1484025519
+obj /usr/share/info/nasm.info-1.bz2 163c4ba49f91b028eeffccf4b42a50e4 1484025519
 dir /usr/share/man
 dir /usr/share/man/man1
-obj /usr/share/man/man1/rdfdump.1.bz2 f575a4c004569fc4653dbce67e0feede 1465718602
-obj /usr/share/man/man1/rdf2com.1 6139b4e90636e61b103516d40600a5fb 1465718602
-obj /usr/share/man/man1/rdf2bin.1.bz2 e8b5a0c0497f3162e89acaf3ff5697de 1465718602
-obj /usr/share/man/man1/rdf2ihx.1 6139b4e90636e61b103516d40600a5fb 1465718602
-obj /usr/share/man/man1/nasm.1.bz2 1bbef53197b45b3b29cf85b6f0e0f49b 1465718602
-obj /usr/share/man/man1/rdf2srec.1 6139b4e90636e61b103516d40600a5fb 1465718602
-obj /usr/share/man/man1/ndisasm.1.bz2 100e521d1cb0b61b7e48c2b5be541f1c 1465718602
-obj /usr/share/man/man1/rdflib.1.bz2 f81ef93ff57ba0038cc0cb5f4ba2f54c 1465718602
-obj /usr/share/man/man1/ldrdf.1.bz2 02ee1c59aa61f281da7ff02771877159 1465718602
-obj /usr/share/man/man1/rdf2ith.1 6139b4e90636e61b103516d40600a5fb 1465718602
-obj /usr/share/man/man1/rdx.1.bz2 02cfbd99d66d1fd95d82e8f23d45e3e5 1465718602
-sym /usr/bin/rdf2ihx -> rdf2bin 1465718604
-sym /usr/bin/rdf2com -> rdf2bin 1465718604
-sym /usr/bin/rdf2ith -> rdf2bin 1465718604
+obj /usr/share/man/man1/rdfdump.1.bz2 f575a4c004569fc4653dbce67e0feede 1484025519
+obj /usr/share/man/man1/rdf2com.1 6139b4e90636e61b103516d40600a5fb 1484025519
+obj /usr/share/man/man1/rdf2bin.1.bz2 e8b5a0c0497f3162e89acaf3ff5697de 1484025519
+obj /usr/share/man/man1/rdf2ihx.1 6139b4e90636e61b103516d40600a5fb 1484025519
+obj /usr/share/man/man1/nasm.1.bz2 1bbef53197b45b3b29cf85b6f0e0f49b 1484025519
+obj /usr/share/man/man1/rdf2srec.1 6139b4e90636e61b103516d40600a5fb 1484025519
+obj /usr/share/man/man1/ndisasm.1.bz2 100e521d1cb0b61b7e48c2b5be541f1c 1484025519
+obj /usr/share/man/man1/rdflib.1.bz2 f81ef93ff57ba0038cc0cb5f4ba2f54c 1484025519
+obj /usr/share/man/man1/ldrdf.1.bz2 02ee1c59aa61f281da7ff02771877159 1484025519
+obj /usr/share/man/man1/rdf2ith.1 6139b4e90636e61b103516d40600a5fb 1484025519
+obj /usr/share/man/man1/rdx.1.bz2 02cfbd99d66d1fd95d82e8f23d45e3e5 1484025519
