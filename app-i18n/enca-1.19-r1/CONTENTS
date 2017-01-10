@@ -1,41 +1,52 @@
 dir /usr
 dir /usr/lib64
-sym /usr/lib64/libenca.so -> libenca.so.0.5.1 1483060607
-sym /usr/lib64/libenca.so.0 -> libenca.so.0.5.1 1483060607
+sym /usr/lib64/libenca.so -> libenca.so.0.5.1 1484083170
+sym /usr/lib64/libenca.so.0 -> libenca.so.0.5.1 1484083170
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/enca.pc 08e338a93c84cf875e2450eccbfb73ef 1483060604
-obj /usr/lib64/libenca.so.0.5.1 9d06705f3d8933889ca0224078a1d115 1483060605
+obj /usr/lib64/pkgconfig/enca.pc 08e338a93c84cf875e2450eccbfb73ef 1484083167
+obj /usr/lib64/libenca.so.0.5.1 cca2e783dbd307034a6eea426162868c 1484083168
 dir /usr/libexec
 dir /usr/libexec/enca
 dir /usr/libexec/enca/extconv
-obj /usr/libexec/enca/extconv/map 21ec99b605592087b665b0689da19ac4 1483060603
-obj /usr/libexec/enca/extconv/recode f9ac7008d0deb98f0529740f631e345d 1483060603
-obj /usr/libexec/enca/extconv/cstocs c04acc1b290294f530732248430964ad 1483060603
-obj /usr/libexec/enca/extconv/umap 8303ec5173912366bbbade292173d154 1483060603
-obj /usr/libexec/enca/extconv/piconv c463142bc6926b1cf02cbfd5b73a10a5 1483060603
+obj /usr/libexec/enca/extconv/map 21ec99b605592087b665b0689da19ac4 1484083167
+obj /usr/libexec/enca/extconv/recode f9ac7008d0deb98f0529740f631e345d 1484083167
+obj /usr/libexec/enca/extconv/cstocs c04acc1b290294f530732248430964ad 1484083167
+obj /usr/libexec/enca/extconv/umap 8303ec5173912366bbbade292173d154 1484083167
+obj /usr/libexec/enca/extconv/piconv c463142bc6926b1cf02cbfd5b73a10a5 1484083167
 dir /usr/include
-obj /usr/include/enca.h df63f59602b75d160c41d49451cca28e 1483060603
+obj /usr/include/enca.h df63f59602b75d160c41d49451cca28e 1484083167
 dir /usr/lib32
-sym /usr/lib32/libenca.so -> libenca.so.0.5.1 1483060607
-sym /usr/lib32/libenca.so.0 -> libenca.so.0.5.1 1483060607
+sym /usr/lib32/libenca.so -> libenca.so.0.5.1 1484083170
+sym /usr/lib32/libenca.so.0 -> libenca.so.0.5.1 1484083170
 dir /usr/lib32/pkgconfig
-obj /usr/lib32/pkgconfig/enca.pc 8290c253ca768a15488ad5572a344b20 1483060603
-obj /usr/lib32/libenca.so.0.5.1 238d80d6557632b228490ab956e60420 1483060605
+obj /usr/lib32/pkgconfig/enca.pc 8290c253ca768a15488ad5572a344b20 1484083167
+obj /usr/lib32/libenca.so.0.5.1 b8d1376a916ddf559367ac63092864e4 1484083168
 dir /usr/bin
-sym /usr/bin/enconv -> enca 1483060607
-obj /usr/bin/enca a217db67a3d3c1341dc885bbd74e23a7 1483060605
+sym /usr/bin/enconv -> enca 1484083170
+obj /usr/bin/enca 38da2aa87426b3ffcae20f3496c7a811 1484083168
 dir /usr/share
+dir /usr/share/gtk-doc
+dir /usr/share/gtk-doc/html
+dir /usr/share/gtk-doc/html/libenca
+obj /usr/share/gtk-doc/html/libenca/libenca-Charsets-and-Surfaces.html 6e11dc95208eb2df32bdbcef4402a70f 1484083167
+obj /usr/share/gtk-doc/html/libenca/index.html b405901a178ba5e453d452e39ff7c5b6 1484083167
+obj /usr/share/gtk-doc/html/libenca/ch01.html 87651f003187ffd1a9d82f3b432d200f 1484083167
+obj /usr/share/gtk-doc/html/libenca/index.sgml 5752ae5bc3baee68d7e8372ba4e9bb5b 1484083167
+obj /usr/share/gtk-doc/html/libenca/libenca-Analyser.html 802a8eabd1c838a9ee624bb2a46db04e 1484083167
+obj /usr/share/gtk-doc/html/libenca/libenca.devhelp2 53a61cd53ecaa82b7d7583bf73943b3d 1484083167
+obj /usr/share/gtk-doc/html/libenca/libenca-Typedefs-and-Constants.html d725698c733c9651ed1476bd3fc6adfc 1484083167
+obj /usr/share/gtk-doc/html/libenca/libenca-Auxiliary-Functions.html ecaf9166008145e00a2aa04af9715436 1484083167
 dir /usr/share/doc
 dir /usr/share/doc/enca-1.19-r1
-obj /usr/share/doc/enca-1.19-r1/README.md.bz2 ebd70a486e06d520185e209889dcf041 1483060604
-obj /usr/share/doc/enca-1.19-r1/NEWS.bz2 e37bd6c0ed984bb66cf5d2d02dc2af51 1483060604
-obj /usr/share/doc/enca-1.19-r1/README.bz2 ebd70a486e06d520185e209889dcf041 1483060604
-obj /usr/share/doc/enca-1.19-r1/AUTHORS.bz2 ad90594b53fda63c05bbd008129710de 1483060604
-obj /usr/share/doc/enca-1.19-r1/FAQ.bz2 32d22e143803667141a7863d06353320 1483060604
-obj /usr/share/doc/enca-1.19-r1/ChangeLog.bz2 e37bd6c0ed984bb66cf5d2d02dc2af51 1483060604
-obj /usr/share/doc/enca-1.19-r1/TODO.bz2 cd503fc41bdba990da85f611f35c7c76 1483060604
-obj /usr/share/doc/enca-1.19-r1/THANKS.bz2 e3ea571b70644bebdc7dfbb11cb7dc2e 1483060604
+obj /usr/share/doc/enca-1.19-r1/README.md.bz2 ebd70a486e06d520185e209889dcf041 1484083167
+obj /usr/share/doc/enca-1.19-r1/NEWS.bz2 e37bd6c0ed984bb66cf5d2d02dc2af51 1484083167
+obj /usr/share/doc/enca-1.19-r1/README.bz2 ebd70a486e06d520185e209889dcf041 1484083167
+obj /usr/share/doc/enca-1.19-r1/AUTHORS.bz2 ad90594b53fda63c05bbd008129710de 1484083167
+obj /usr/share/doc/enca-1.19-r1/FAQ.bz2 32d22e143803667141a7863d06353320 1484083168
+obj /usr/share/doc/enca-1.19-r1/ChangeLog.bz2 e37bd6c0ed984bb66cf5d2d02dc2af51 1484083167
+obj /usr/share/doc/enca-1.19-r1/TODO.bz2 cd503fc41bdba990da85f611f35c7c76 1484083168
+obj /usr/share/doc/enca-1.19-r1/THANKS.bz2 e3ea571b70644bebdc7dfbb11cb7dc2e 1484083168
 dir /usr/share/man
 dir /usr/share/man/man1
-sym /usr/share/man/man1/enconv.1.bz2 -> enca.1.bz2 1483060607
-obj /usr/share/man/man1/enca.1.bz2 a0c0f4c5853760d4bfcf81b26defa846 1483060604
+sym /usr/share/man/man1/enconv.1.bz2 -> enca.1.bz2 1484083170
+obj /usr/share/man/man1/enca.1.bz2 a0c0f4c5853760d4bfcf81b26defa846 1484083167

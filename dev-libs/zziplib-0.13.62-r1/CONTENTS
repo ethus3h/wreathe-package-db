@@ -1,67 +1,106 @@
 dir /usr
 dir /usr/lib64
-obj /usr/lib64/libzzipfseeko-0.so.13.0.62 8458a01a196cd70998a48c261fd2113d 1476762431
-sym /usr/lib64/libzzipfseeko.so -> libzzipfseeko-0.so.13.0.62 1476762435
+sym /usr/lib64/libzzipmmapped.so -> libzzipmmapped-0.so.13.0.62 1484082760
+obj /usr/lib64/libzzipfseeko-0.so.13.0.62 3ca2d210aa8df672fb9be25f5c59453f 1484082758
+sym /usr/lib64/libzzipmmapped-0.so.13 -> libzzipmmapped-0.so.13.0.62 1484082760
+sym /usr/lib64/libzzipwrap.so -> libzzipwrap-0.so.13.0.62 1484082760
+sym /usr/lib64/libzzipfseeko.so -> libzzipfseeko-0.so.13.0.62 1484082760
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/zzipmmapped.pc 920a631d41ac58647f467e0567083411 1476762429
-obj /usr/lib64/pkgconfig/zzipwrap.pc ba50840d1fa25dee582ded6f1d136d88 1476762429
-obj /usr/lib64/pkgconfig/zzipfseeko.pc b77b646eb2642af647d4749958753946 1476762429
-obj /usr/lib64/pkgconfig/SDL_rwops_zzip.pc b48bc4f7b7813c488a5d4c1df7a26d39 1476762430
-obj /usr/lib64/pkgconfig/zzip-zlib-config.pc 760df0ede265f7178f638f2df63e4635 1476762429
-obj /usr/lib64/pkgconfig/zziplib.pc 8290dfaed677ea8b6abd6553e50f5a11 1476762429
-obj /usr/lib64/libzzip-0.so.13.0.62 e4b978401cfa8f89138ae55541f78f96 1476762431
-sym /usr/lib64/libzzip.so -> libzzip-0.so.13.0.62 1476762435
-sym /usr/lib64/libzzipfseeko-0.so.13 -> libzzipfseeko-0.so.13.0.62 1476762435
-obj /usr/lib64/libzzipwrap-0.so.13.0.62 dd109073b248be25455e291b2e3c154b 1476762431
-obj /usr/lib64/libzzipmmapped-0.so.13.0.62 90e23460fca9fb090e5e193885e87cfa 1476762431
+obj /usr/lib64/pkgconfig/zzipmmapped.pc 920a631d41ac58647f467e0567083411 1484082756
+obj /usr/lib64/pkgconfig/zzipwrap.pc ba50840d1fa25dee582ded6f1d136d88 1484082757
+obj /usr/lib64/pkgconfig/zzipfseeko.pc b77b646eb2642af647d4749958753946 1484082756
+obj /usr/lib64/pkgconfig/SDL_rwops_zzip.pc b48bc4f7b7813c488a5d4c1df7a26d39 1484082757
+obj /usr/lib64/pkgconfig/zzip-zlib-config.pc 760df0ede265f7178f638f2df63e4635 1484082756
+obj /usr/lib64/pkgconfig/zziplib.pc 8290dfaed677ea8b6abd6553e50f5a11 1484082756
+sym /usr/lib64/libzzip-0.so.13 -> libzzip-0.so.13.0.62 1484082760
+sym /usr/lib64/libzzipwrap-0.so.13 -> libzzipwrap-0.so.13.0.62 1484082760
+obj /usr/lib64/libzzip-0.so.13.0.62 f9cb052ee1c369df4d759b1d7d15b0c2 1484082758
+sym /usr/lib64/libzzip.so -> libzzip-0.so.13.0.62 1484082760
+sym /usr/lib64/libzzipfseeko-0.so.13 -> libzzipfseeko-0.so.13.0.62 1484082760
+obj /usr/lib64/libzzipwrap-0.so.13.0.62 2623b8dd19b32bc4a46c1f01f7fde591 1484082758
+obj /usr/lib64/libzzipmmapped-0.so.13.0.62 c47facc0e7a57160f682bc9a5755881f 1484082758
 dir /usr/include
 dir /usr/include/SDL_rwops_zzip
-obj /usr/include/SDL_rwops_zzip/SDL_rwops_zzip.c 921b01f6e9c147bb9786ed4946baf112 1476762430
-obj /usr/include/SDL_rwops_zzip/SDL_rwops_zzip.h 1f0841db1e21e26d33115d75f59e8c1b 1476762430
+obj /usr/include/SDL_rwops_zzip/SDL_rwops_zzip.c 921b01f6e9c147bb9786ed4946baf112 1484082757
+obj /usr/include/SDL_rwops_zzip/SDL_rwops_zzip.h 1f0841db1e21e26d33115d75f59e8c1b 1484082757
 dir /usr/include/zzip
-obj /usr/include/zzip/types.h f118208213e1e35013e5a15d434172bc 1476762429
-obj /usr/include/zzip/zzip32.h 5c97d8783ea8e9e9bcde26cd54435836 1476762429
-obj /usr/include/zzip/_config.h 6e26b65cae82f9b67cbbd6f96fa20674 1476762429
-obj /usr/include/zzip/lib.h 31f49efb3d33a4da252c1d74b227bbd6 1476762429
-obj /usr/include/zzip/info.h 24b6368aea96a97c0edcfdefdfec0911 1476762429
-obj /usr/include/zzip/wrap.h 6be4f54944b17b954d502a7b34a3f005 1476762429
-obj /usr/include/zzip/_msvc.h 5e7a93b1c742d39b83487f9a62ddf8c6 1476762429
-obj /usr/include/zzip/memdisk.h d58db38ce5371a5d3ea3b6e571b07d4d 1476762429
-obj /usr/include/zzip/conf.h 0fefee487be97d2d39ee52d6fe6af5ef 1476762429
-obj /usr/include/zzip/format.h 8f5c8df114db36152a4fe564f39112a1 1476762429
-obj /usr/include/zzip/file.h 1fa20dcd645d3ad5f3fcff510bd3645b 1476762429
-obj /usr/include/zzip/fetch.h 8e5b998b69a21e601883c3997ae9859d 1476762429
-obj /usr/include/zzip/fseeko.h 825d301e9e11cfdb8afc98d605a7ef1c 1476762429
-obj /usr/include/zzip/zzip.h e1ce75a998e75f347208c2a43f6c5fc5 1476762429
-obj /usr/include/zzip/plugin.h c8e94e5cb5e7f015f39f37cfcd473b88 1476762429
-obj /usr/include/zzip/mmapped.h 8546e55c0d4f9a529d6c74aabecd299c 1476762429
-obj /usr/include/zzip/stdint.h 5a1069a1784aeec3da6735aa66fc9805 1476762429
-obj /usr/include/zzip/autoconf.h 383e0ed5f1fdcae1447b617269130030 1476762429
-obj /usr/include/zzip/write.h 8278ee5abb255b1ff423f731d2f46ffb 1476762429
-obj /usr/include/zzip.h 5e5558e8909e135935549c128fccfa4c 1476762429
-obj /usr/include/zziplib.h cc98205dfe1edf2a8cdf1617b3e769eb 1476762429
-obj /usr/include/zzip-io.h d0d3985d32d3d97bf9209b912c35cf3f 1476762429
+obj /usr/include/zzip/types.h f118208213e1e35013e5a15d434172bc 1484082756
+obj /usr/include/zzip/zzip32.h 5c97d8783ea8e9e9bcde26cd54435836 1484082756
+obj /usr/include/zzip/_config.h 6e26b65cae82f9b67cbbd6f96fa20674 1484082756
+obj /usr/include/zzip/lib.h 31f49efb3d33a4da252c1d74b227bbd6 1484082756
+obj /usr/include/zzip/info.h 24b6368aea96a97c0edcfdefdfec0911 1484082756
+obj /usr/include/zzip/wrap.h 6be4f54944b17b954d502a7b34a3f005 1484082757
+obj /usr/include/zzip/_msvc.h 5e7a93b1c742d39b83487f9a62ddf8c6 1484082756
+obj /usr/include/zzip/memdisk.h d58db38ce5371a5d3ea3b6e571b07d4d 1484082756
+obj /usr/include/zzip/conf.h 0fefee487be97d2d39ee52d6fe6af5ef 1484082756
+obj /usr/include/zzip/format.h 8f5c8df114db36152a4fe564f39112a1 1484082756
+obj /usr/include/zzip/file.h 1fa20dcd645d3ad5f3fcff510bd3645b 1484082756
+obj /usr/include/zzip/fetch.h 8e5b998b69a21e601883c3997ae9859d 1484082756
+obj /usr/include/zzip/fseeko.h 825d301e9e11cfdb8afc98d605a7ef1c 1484082756
+obj /usr/include/zzip/zzip.h e1ce75a998e75f347208c2a43f6c5fc5 1484082756
+obj /usr/include/zzip/plugin.h c8e94e5cb5e7f015f39f37cfcd473b88 1484082756
+obj /usr/include/zzip/mmapped.h 8546e55c0d4f9a529d6c74aabecd299c 1484082756
+obj /usr/include/zzip/stdint.h 5a1069a1784aeec3da6735aa66fc9805 1484082756
+obj /usr/include/zzip/autoconf.h 383e0ed5f1fdcae1447b617269130030 1484082756
+obj /usr/include/zzip/write.h 8278ee5abb255b1ff423f731d2f46ffb 1484082756
+obj /usr/include/zzip.h 5e5558e8909e135935549c128fccfa4c 1484082756
+obj /usr/include/zziplib.h cc98205dfe1edf2a8cdf1617b3e769eb 1484082756
+obj /usr/include/zzip-io.h d0d3985d32d3d97bf9209b912c35cf3f 1484082756
 dir /usr/bin
-obj /usr/bin/unzzipcat-mem a99672e33be9494f1d874b203c5dee23 1476762431
-obj /usr/bin/zzxorcat 83d9eb5df5cd90c274a7581cb8b29d14 1476762431
-obj /usr/bin/zzdir c0d434f97e34c1015e411f42e7e79043 1476762431
-obj /usr/bin/unzip-mem 8405507833c936d357654ddbe246b02f 1476762431
-obj /usr/bin/zzxordir 28eacc9982b0f8e7fd7b793350ed0265 1476762431
-obj /usr/bin/unzzipcat b51940a7beeee3c098df3e1137ca2bb6 1476762431
-obj /usr/bin/unzzipdir b0a130bc6f322af10e4cc19b2554a2eb 1476762431
-obj /usr/bin/zzcat 80f92fd80584ed1c88485bfcc9bdade8 1476762431
-obj /usr/bin/unzzip fea78451c41822f2e87eb35f2adadbb1 1476762431
-obj /usr/bin/unzzipdir-mem 40f2f82535dfc0381cd0e085fdd77a97 1476762431
-obj /usr/bin/zzxorcopy 1a396a9098b47041d174fb263c84f7bd 1476762431
-obj /usr/bin/unzzipcat-seeko 8d93fd7269ad71dbb1302c26d431d542 1476762431
+obj /usr/bin/unzzipcat-mem 74d50919914100c6028599022ee7b4f5 1484082758
+obj /usr/bin/zzxorcat 42629f97ea6da66013cbe8ae33de1339 1484082758
+obj /usr/bin/zzdir b5b1779da3a7b4c4b133591998264531 1484082758
+obj /usr/bin/unzip-mem e26c8223487466857b3a19a9ba7ac4ca 1484082758
+obj /usr/bin/zzxordir dc2559e3be2cba15fb3b81e52942d799 1484082758
+obj /usr/bin/unzzipcat aaf9901d0f1c92bd519233faedd88a21 1484082758
+obj /usr/bin/unzzipdir 85b4408dcefc102c34f80c21dfef1e30 1484082758
+obj /usr/bin/zzcat 257183aa416221a09983880b85ff5606 1484082758
+obj /usr/bin/unzzip 42b1fcdd0604ed5b5a64d6d3aa8b50c7 1484082758
+obj /usr/bin/unzzipdir-mem a94368ffbee3a7b0ad963f0f3b5c9988 1484082758
+obj /usr/bin/zzxorcopy e38ee39fd1d967ddb2b8a3b2fe55eeb6 1484082758
+obj /usr/bin/unzzipcat-seeko b5dcd5406b4f291c15cdf848f701216a 1484082758
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/zziplib-0.13.62-r1
-obj /usr/share/doc/zziplib-0.13.62-r1/README.bz2 4236fb7fb09fbb118424c6a0a151784b 1476762430
-obj /usr/share/doc/zziplib-0.13.62-r1/ChangeLog.bz2 ad6e0ec4d9b64fd6546f594106d8baa5 1476762430
-obj /usr/share/doc/zziplib-0.13.62-r1/TODO.bz2 a7bbb35fa82b729e69da3e207183a925 1476762430
+dir /usr/share/doc/zziplib-0.13.62-r1/html
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zip-php.htm b3176ac49d2995d65bbbba7e5f1fbd90 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/configs.htm 628bda360848d417d38f7a6d28acfa68 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zzip-index.htm 550260f6e7aec2b1aea5796c2fbcbcd2 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/future.htm a8587f7e9ee33c7c2bdf43a0ca804a2b 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zziplib.html 7b4eb01496e8c824345581b31f96a742 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zzip-cryptoid.htm 278b27de7c63392e2ae2dc4ccee4c451 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/notes.htm 0132e6847add92190c3d9e31848a49f1 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zzip-parse.htm 5f547b4f1ce8f8d28ed25f2c807bdcaa 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zzipmmapped.html 7ef5c405fe5a30a0d9878d6ef4cf7f0f 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zzip-file.htm 50628a1a8900f08a078fce8582a2a9a0 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/memdisk.htm 4db94a28b119d1e0f50a8eb8930375b7 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/referentials.htm 7f1862b371aa0203949b89e3809a6f24 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zzip-zip.htm 4a5d7da193d855d0fb9cbad29c66e4da 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/history.htm 92b8af157e6e800fbc0dcf34913222b5 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/faq.htm 8c8ccad645944d7017333150e18b2e05 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zzipfseeko.html afdff2099a5ce40ef639c75a3404bf90 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zzip-xor.htm 0336fe4e0bc36babc93ddaa914aa9e06 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/download.htm 962b4066379fdffa02f77c34695bed4d 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/developer.htm 2d8bd061f7b0080d55aeea0528ac3eb6 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/fseeko.htm 57ffc6fe6621da31faa2d1fac79653bf 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zzip-api.htm 3ff9f8f1ac796a56a8b88534bac58174 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/functions.htm 0de248ca9ab91dcb2c6123b6f8543240 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zzip-extio.htm 4f66074eb635f4938e2b4f38f9599be6 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zzip-extras.htm cc5fc8139dfd1b9a80ed9d70c03fb638 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/sfx-make.htm 950ed1f5a987cd0364c3ffffca8e5185 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/copying.htm 44dd208ce2a9619d6586fbb35b5642c9 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/mmapped.htm 930118845da7c23d9caedc85bfa50dce 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/sdocbook.css af488fed282e7e3aeee3923bc4cef4ac 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zzip-sdl-rwops.htm e9007e41783c3c076817281768973ae7 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zzip-crypt.htm 986a1a5a019de42b4bec14bdec4e13aa 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/zzip-basics.htm d8cf47faf0a361c3c1f0becea4d64f17 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/64on32.htm 772215f7fecf38245d3e1dbdf3b46179 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/html/body.htm c59f1dab1f6d089032fb673e9289fba0 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/README.bz2 4236fb7fb09fbb118424c6a0a151784b 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/ChangeLog.bz2 ad6e0ec4d9b64fd6546f594106d8baa5 1484082757
+obj /usr/share/doc/zziplib-0.13.62-r1/TODO.bz2 a7bbb35fa82b729e69da3e207183a925 1484082757
 dir /usr/share/aclocal
-obj /usr/share/aclocal/zziplib.m4 23718e20e85912bedba39c0cd6b5b63c 1476762429
+obj /usr/share/aclocal/zziplib.m4 23718e20e85912bedba39c0cd6b5b63c 1484082757
 dir /usr/share/man
 dir /usr/share/man/man3
 obj /usr/share/man/man3/zzip_dir_open.3.bz2 cf55eb98a012be3655751400ce6e68c3 1331509478
@@ -153,8 +192,3 @@ obj /usr/share/man/man3/zzip_dir_read.3 a9a3bdc3c7ed9d9dab051a3b0aef9350 1331509
 obj /usr/share/man/man3/zzip_telldir.3 13abe64c2c7f7e29ccfb4497691c5199 1331509479
 obj /usr/share/man/man3/zzip_telldir32.3 13abe64c2c7f7e29ccfb4497691c5199 1331509479
 obj /usr/share/man/man3/zzip_seek32.3 38acd075183d7aec67f9444e1e954b02 1331509480
-sym /usr/lib64/libzzipwrap-0.so.13 -> libzzipwrap-0.so.13.0.62 1476762435
-sym /usr/lib64/libzzip-0.so.13 -> libzzip-0.so.13.0.62 1476762435
-sym /usr/lib64/libzzipwrap.so -> libzzipwrap-0.so.13.0.62 1476762435
-sym /usr/lib64/libzzipmmapped-0.so.13 -> libzzipmmapped-0.so.13.0.62 1476762435
-sym /usr/lib64/libzzipmmapped.so -> libzzipmmapped-0.so.13.0.62 1476762435
