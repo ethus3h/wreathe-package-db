@@ -3,703 +3,703 @@ dir /usr/lib64
 dir /usr/lib64/shotwell
 dir /usr/lib64/shotwell/plugins
 dir /usr/lib64/shotwell/plugins/builtin
-obj /usr/lib64/shotwell/plugins/builtin/shotwell-data-imports.so 1fbf15de7b7ea00e0b8d91c66fec2116 1475916299
-obj /usr/lib64/shotwell/plugins/builtin/shotwell-publishing-extras.so a5f6ea6225ffd1b8374abae9a562266c 1475916299
-obj /usr/lib64/shotwell/plugins/builtin/shotwell-transitions.so 4ae3d19aa9a675552d9effdd317b8c70 1475916299
-obj /usr/lib64/shotwell/plugins/builtin/shotwell-publishing.so 2984300aec58506e4d0bad6bfce635bc 1475916299
-obj /usr/lib64/libshotwell-plugin-common.so.0.0.0 af7f25b5c2b32f549cc4e9a4fdc2b1ac 1475916298
+obj /usr/lib64/shotwell/plugins/builtin/shotwell-data-imports.so 3805b5b25939d5e0feb7310a0ba0d4ae 1484011075
+obj /usr/lib64/shotwell/plugins/builtin/shotwell-publishing-extras.so 7bd091b794b4c3a91235c016f9c20cf7 1484011075
+obj /usr/lib64/shotwell/plugins/builtin/shotwell-transitions.so 64a9f62a70e2e92f2d670b39f6fda61e 1484011075
+obj /usr/lib64/shotwell/plugins/builtin/shotwell-publishing.so 6c76cdbc3c1dad64d503a820f6df2b3e 1484011075
+sym /usr/lib64/libshotwell-plugin-common.so.0 -> libshotwell-plugin-common.so.0.0.0 1484011080
+sym /usr/lib64/libshotwell-plugin-common.so -> libshotwell-plugin-common.so.0.0.0 1484011080
+obj /usr/lib64/libshotwell-plugin-common.so.0.0.0 69dbd19e060825f8654303eeac52b0e8 1484011075
 dir /usr/libexec
 dir /usr/libexec/shotwell
-obj /usr/libexec/shotwell/shotwell-video-thumbnailer 21ceb57b0f8dab69e6f1e5276ab8158e 1475916298
-obj /usr/libexec/shotwell/shotwell-settings-migrator a67c1b1be3b7576594b0c3a1e8183422 1475916295
+obj /usr/libexec/shotwell/shotwell-video-thumbnailer b88f8e5bff3060be8187bf709ff57061 1484011075
+obj /usr/libexec/shotwell/shotwell-settings-migrator a67c1b1be3b7576594b0c3a1e8183422 1484011072
 dir /usr/bin
-obj /usr/bin/shotwell cf4a8928061ddf6b30a9becea2402f70 1475916299
+obj /usr/bin/shotwell 7ad96343c694491f68ffe3444b6b7669 1484011075
 dir /usr/share
 dir /usr/share/glib-2.0
 dir /usr/share/glib-2.0/schemas
-obj /usr/share/glib-2.0/schemas/org.yorba.shotwell.gschema.xml 24fb21e008e82d06dbcae037f6668ada 1475916287
-obj /usr/share/glib-2.0/schemas/org.yorba.shotwell-extras.gschema.xml 9df885ed7f0e1474482bf140e10999be 1475916287
+obj /usr/share/glib-2.0/schemas/org.yorba.shotwell.gschema.xml 24fb21e008e82d06dbcae037f6668ada 1484011065
+obj /usr/share/glib-2.0/schemas/org.yorba.shotwell-extras.gschema.xml 9df885ed7f0e1474482bf140e10999be 1484011065
 dir /usr/share/appdata
-obj /usr/share/appdata/shotwell.appdata.xml afeeeac374acdd6f6e9ffec99487874f 1475916287
+obj /usr/share/appdata/shotwell.appdata.xml afeeeac374acdd6f6e9ffec99487874f 1484011066
 dir /usr/share/shotwell
 dir /usr/share/shotwell/ui
-obj /usr/share/shotwell/ui/shotwell.ui 950b0cdefc5ab8b0a470aac0dab86301 1475916295
-obj /usr/share/shotwell/ui/event.ui 0dd5b36546d8383883a5088f5b6f14f1 1475916295
-obj /usr/share/shotwell/ui/photo.ui d139a983ec88189358af05ac1e417e6c 1475916295
-obj /usr/share/shotwell/ui/collection.ui 33608b6ed11069fd228507f30fe84bac 1475916295
-obj /usr/share/shotwell/ui/events_directory.ui d95a37db2b9f23579a841fcbb716532b 1475916295
-obj /usr/share/shotwell/ui/media.ui d0135897d0ee249cb0d74dafca5adf46 1475916295
-obj /usr/share/shotwell/ui/search_bar.ui 8ccce9e5affc878e523031359555d225 1475916295
-obj /usr/share/shotwell/ui/import.ui c34a5ad2e10fdb73aceb23a4dd0b328b 1475916295
-obj /usr/share/shotwell/ui/set_background_slideshow_dialog.ui 627f0b7a6102d6a081bcf4a93fc10915 1475916295
-obj /usr/share/shotwell/ui/direct.ui 42c2b499d0646829f90f59930e346c35 1475916295
-obj /usr/share/shotwell/ui/tags.ui 2d46e0bb707920d3d528d2e30d9f3c1c 1475916295
-obj /usr/share/shotwell/ui/offline.ui c0c9d9eac044a5c53b79e5e86be00c77 1475916295
-obj /usr/share/shotwell/ui/top.ui 7cf840b2938cfd3e35e7a00ff8dafa6c 1475916295
-obj /usr/share/shotwell/ui/savedsearch.ui 6189a051bf946dce798642bc70c0ca9a 1475916295
-obj /usr/share/shotwell/ui/fullscreen.ui e54068e4480de27fd0ae0925f42664fb 1475916295
-obj /usr/share/shotwell/ui/tag_sidebar_context.ui f186fee79ca0df2671e2cd40b9dffa00 1475916295
-obj /usr/share/shotwell/ui/trash.ui b78798e153d8adb1d200b19766d820e8 1475916295
-obj /usr/share/shotwell/ui/search_sidebar_context.ui 956c363fc087e9dfe448e3a50e8be1ad 1475916295
-obj /usr/share/shotwell/ui/sidebar_default_context.ui 52c231548a21f60c75e6f30f452537d3 1475916295
-obj /usr/share/shotwell/ui/shotwell.xml 39d9d0620da950157c4a25a6bf540388 1475916295
-obj /usr/share/shotwell/ui/set_background_dialog.ui 07c0a8ece2d3f81f90dd99c6dad7e7a9 1475916295
-obj /usr/share/shotwell/ui/photo_context.ui 7efb2b411ad35f3460e6072ddf3a6eec 1475916295
-obj /usr/share/shotwell/ui/import_queue.ui 58072a0087dd82fe449282b60b306799 1475916295
-obj /usr/share/shotwell/ui/direct_context.ui 5fd5443e8b7384e876ce20d44ca737c4 1475916295
+obj /usr/share/shotwell/ui/shotwell.ui 950b0cdefc5ab8b0a470aac0dab86301 1484011071
+obj /usr/share/shotwell/ui/event.ui 0dd5b36546d8383883a5088f5b6f14f1 1484011071
+obj /usr/share/shotwell/ui/photo.ui d139a983ec88189358af05ac1e417e6c 1484011071
+obj /usr/share/shotwell/ui/collection.ui 33608b6ed11069fd228507f30fe84bac 1484011071
+obj /usr/share/shotwell/ui/events_directory.ui d95a37db2b9f23579a841fcbb716532b 1484011071
+obj /usr/share/shotwell/ui/media.ui d0135897d0ee249cb0d74dafca5adf46 1484011071
+obj /usr/share/shotwell/ui/search_bar.ui 8ccce9e5affc878e523031359555d225 1484011071
+obj /usr/share/shotwell/ui/import.ui c34a5ad2e10fdb73aceb23a4dd0b328b 1484011071
+obj /usr/share/shotwell/ui/set_background_slideshow_dialog.ui 627f0b7a6102d6a081bcf4a93fc10915 1484011071
+obj /usr/share/shotwell/ui/direct.ui 42c2b499d0646829f90f59930e346c35 1484011071
+obj /usr/share/shotwell/ui/tags.ui 2d46e0bb707920d3d528d2e30d9f3c1c 1484011071
+obj /usr/share/shotwell/ui/offline.ui c0c9d9eac044a5c53b79e5e86be00c77 1484011071
+obj /usr/share/shotwell/ui/top.ui 7cf840b2938cfd3e35e7a00ff8dafa6c 1484011071
+obj /usr/share/shotwell/ui/savedsearch.ui 6189a051bf946dce798642bc70c0ca9a 1484011071
+obj /usr/share/shotwell/ui/fullscreen.ui e54068e4480de27fd0ae0925f42664fb 1484011071
+obj /usr/share/shotwell/ui/tag_sidebar_context.ui f186fee79ca0df2671e2cd40b9dffa00 1484011071
+obj /usr/share/shotwell/ui/trash.ui b78798e153d8adb1d200b19766d820e8 1484011071
+obj /usr/share/shotwell/ui/search_sidebar_context.ui 956c363fc087e9dfe448e3a50e8be1ad 1484011071
+obj /usr/share/shotwell/ui/sidebar_default_context.ui 52c231548a21f60c75e6f30f452537d3 1484011071
+obj /usr/share/shotwell/ui/shotwell.xml 39d9d0620da950157c4a25a6bf540388 1484011071
+obj /usr/share/shotwell/ui/set_background_dialog.ui 07c0a8ece2d3f81f90dd99c6dad7e7a9 1484011071
+obj /usr/share/shotwell/ui/photo_context.ui 7efb2b411ad35f3460e6072ddf3a6eec 1484011071
+obj /usr/share/shotwell/ui/import_queue.ui 58072a0087dd82fe449282b60b306799 1484011071
+obj /usr/share/shotwell/ui/direct_context.ui 5fd5443e8b7384e876ce20d44ca737c4 1484011071
 dir /usr/share/shotwell/icons
-obj /usr/share/shotwell/icons/filter-raw.png a713899f0c865f062b69257e4aee6659 1475916295
-obj /usr/share/shotwell/icons/image-adjust.svg f15b62939c79b70ba81b71b0264b8cc0 1475916295
-obj /usr/share/shotwell/icons/all-rejected.png 73425f6e7fa4692ad2e26f1107d29183 1475916295
-obj /usr/share/shotwell/icons/rejected.svg 6e9186808caca5ae0109b36869406f2e 1475916295
-obj /usr/share/shotwell/icons/flag-page.png b4e390dbdff7ed96525cb569b3c683a0 1475916295
-obj /usr/share/shotwell/icons/multiple-tags.png 4833d275d329cebfa8c29b908979cf79 1475916295
-obj /usr/share/shotwell/icons/shotwell-street.jpg b347f67e49b4a1c11419942310bc9e41 1475916295
-obj /usr/share/shotwell/icons/five-star-filter.svg 856d4c871fcd6be85b47cfa30857f9c3 1475916295
-obj /usr/share/shotwell/icons/shotwell-16.png 5fa43895cedd494b7652464c763ee8ec 1475916295
-obj /usr/share/shotwell/icons/four-star-filter-plus.svg 39091ad5927c32cbf67a10e288204fdc 1475916295
-obj /usr/share/shotwell/icons/many-faces.png 376da6c5d8a4c233e3bdd958cd7bd783 1475916295
-obj /usr/share/shotwell/icons/three-stars.svg 827edf968661f135c85a1b92f8060d6a 1475916295
-obj /usr/share/shotwell/icons/zoom-out.png 42adde11f3bfcd8521708318b3718d70 1475916295
-obj /usr/share/shotwell/icons/five-stars.svg 133ea69a946d42a72e0899b5167476ad 1475916295
-obj /usr/share/shotwell/icons/pin-toolbar.svg da73c044e47587c2a665ded298aaeb92 1475916295
-obj /usr/share/shotwell/icons/multiple-events.png 9651b2ad59b7b19a32e900c99310b86e 1475916295
-obj /usr/share/shotwell/icons/faces-tool.png 4377b26117c7253ea4114e7066d5c131 1475916295
-obj /usr/share/shotwell/icons/one-tag.png 679f2bc9d363ea2ee3298b6051a79ed9 1475916295
-obj /usr/share/shotwell/icons/no-event.png 5de3773bb46764e839883089b072c218 1475916295
-obj /usr/share/shotwell/icons/shotwell.png 5fa43895cedd494b7652464c763ee8ec 1475916295
-obj /usr/share/shotwell/icons/filter-videos.png da2bde3143918c0cf8c4d4b3a8680913 1475916295
-obj /usr/share/shotwell/icons/one-face.png b0d09cffacbd5ee01ff96f2ed60326c7 1475916295
-obj /usr/share/shotwell/icons/import-all.png 75f18c12f864679a326d5d59d12e5c0b 1475916295
-obj /usr/share/shotwell/icons/noninterpretable-video.png 06d4e67ee09c55eaf71e65dcc054a68b 1475916295
-obj /usr/share/shotwell/icons/one-event.png 7f9b29b894eb3aa15001f1529bb7a766 1475916295
-obj /usr/share/shotwell/icons/make-primary.svg c850ad8ff979af86ee53fb835550ee82 1475916295
-obj /usr/share/shotwell/icons/generic-plugin.png 99f3290ba8ab3bd4ca25656b6bf6ca2c 1475916295
-obj /usr/share/shotwell/icons/one-star-filter-plus.svg dc4efbdcded771d2b19404b0b9ceeb56 1475916295
-obj /usr/share/shotwell/icons/drag_nub.png 97d4805b053e860e13f958fd42ececbd 1475916295
-obj /usr/share/shotwell/icons/merge.svg 1730ed830f051a2e392975679519d92e 1475916295
-obj /usr/share/shotwell/icons/crop.svg 2e9031ce2c6584fb8ba2e2abe1d29e1f 1475916295
-obj /usr/share/shotwell/icons/three-star-filter-plus.svg f6e54bcfc5b6e841349648f7138de076 1475916295
-obj /usr/share/shotwell/icons/filter-flagged.png cb739b3a4654ae3d3be578e5c777d060 1475916295
-obj /usr/share/shotwell/icons/two-star-filter-plus.svg 2e8c0fc0054e1dc2f2b72bc35ef35be0 1475916295
-obj /usr/share/shotwell/icons/four-stars.svg 861ed6853781f1344fc94cc3812adfba 1475916295
-obj /usr/share/shotwell/icons/two-stars.svg 85ef64acb098cfb4ced58c422e128bd1 1475916295
-obj /usr/share/shotwell/icons/videos-page.png 15b7e4c9ded711499b2dc112e9940480 1475916295
-obj /usr/share/shotwell/icons/zoom-in.png 2e113137d49a81b31686dc744cb80437 1475916295
-obj /usr/share/shotwell/icons/import.svg 13a32f6e0db68f5fff930ef1254f7b06 1475916295
-obj /usr/share/shotwell/icons/crop-pivot-reticle.png d7c10c1710fcf136183049600d485f40 1475916295
-obj /usr/share/shotwell/icons/publish.png 147e01e1fd206afc2c5858b4f11856a6 1475916295
-obj /usr/share/shotwell/icons/straighten.svg b16bfdc5b00d37cf3d27eebce0654e88 1475916295
-obj /usr/share/shotwell/icons/filter-photos.png c61471e3c7be5079fe3e909ebd216fc8 1475916295
-obj /usr/share/shotwell/icons/shotwell-auto-enhance.png a19f963f20333d8c4ff8991ed3605fd2 1475916295
-obj /usr/share/shotwell/icons/sprocket.png 7e506e5d70ac620e335e95f141dc507f 1475916295
-obj /usr/share/shotwell/icons/flag-trinket.png 4889d902b931dcee974b0e9e172e8b09 1475916295
-obj /usr/share/shotwell/icons/redeye.png 73962f5c736c411ae367c3baab98869c 1475916295
-obj /usr/share/shotwell/icons/slideshow-extension-point.png 81c21f86de94a6eae6dd1a083ce3c4b5 1475916295
-obj /usr/share/shotwell/icons/one-star.svg b13678b0990e5888a87b4ec2caba1155 1475916295
+obj /usr/share/shotwell/icons/filter-raw.png a713899f0c865f062b69257e4aee6659 1484011071
+obj /usr/share/shotwell/icons/image-adjust.svg f15b62939c79b70ba81b71b0264b8cc0 1484011071
+obj /usr/share/shotwell/icons/all-rejected.png 73425f6e7fa4692ad2e26f1107d29183 1484011071
+obj /usr/share/shotwell/icons/rejected.svg 6e9186808caca5ae0109b36869406f2e 1484011071
+obj /usr/share/shotwell/icons/flag-page.png b4e390dbdff7ed96525cb569b3c683a0 1484011071
+obj /usr/share/shotwell/icons/multiple-tags.png 4833d275d329cebfa8c29b908979cf79 1484011071
+obj /usr/share/shotwell/icons/shotwell-street.jpg b347f67e49b4a1c11419942310bc9e41 1484011071
+obj /usr/share/shotwell/icons/five-star-filter.svg 856d4c871fcd6be85b47cfa30857f9c3 1484011071
+obj /usr/share/shotwell/icons/shotwell-16.png 5fa43895cedd494b7652464c763ee8ec 1484011071
+obj /usr/share/shotwell/icons/four-star-filter-plus.svg 39091ad5927c32cbf67a10e288204fdc 1484011071
+obj /usr/share/shotwell/icons/many-faces.png 376da6c5d8a4c233e3bdd958cd7bd783 1484011071
+obj /usr/share/shotwell/icons/three-stars.svg 827edf968661f135c85a1b92f8060d6a 1484011071
+obj /usr/share/shotwell/icons/zoom-out.png 42adde11f3bfcd8521708318b3718d70 1484011071
+obj /usr/share/shotwell/icons/five-stars.svg 133ea69a946d42a72e0899b5167476ad 1484011071
+obj /usr/share/shotwell/icons/pin-toolbar.svg da73c044e47587c2a665ded298aaeb92 1484011071
+obj /usr/share/shotwell/icons/multiple-events.png 9651b2ad59b7b19a32e900c99310b86e 1484011071
+obj /usr/share/shotwell/icons/faces-tool.png 4377b26117c7253ea4114e7066d5c131 1484011071
+obj /usr/share/shotwell/icons/one-tag.png 679f2bc9d363ea2ee3298b6051a79ed9 1484011071
+obj /usr/share/shotwell/icons/no-event.png 5de3773bb46764e839883089b072c218 1484011071
+obj /usr/share/shotwell/icons/shotwell.png 5fa43895cedd494b7652464c763ee8ec 1484011071
+obj /usr/share/shotwell/icons/filter-videos.png da2bde3143918c0cf8c4d4b3a8680913 1484011071
+obj /usr/share/shotwell/icons/one-face.png b0d09cffacbd5ee01ff96f2ed60326c7 1484011071
+obj /usr/share/shotwell/icons/import-all.png 75f18c12f864679a326d5d59d12e5c0b 1484011071
+obj /usr/share/shotwell/icons/noninterpretable-video.png 06d4e67ee09c55eaf71e65dcc054a68b 1484011071
+obj /usr/share/shotwell/icons/one-event.png 7f9b29b894eb3aa15001f1529bb7a766 1484011071
+obj /usr/share/shotwell/icons/make-primary.svg c850ad8ff979af86ee53fb835550ee82 1484011071
+obj /usr/share/shotwell/icons/generic-plugin.png 99f3290ba8ab3bd4ca25656b6bf6ca2c 1484011071
+obj /usr/share/shotwell/icons/one-star-filter-plus.svg dc4efbdcded771d2b19404b0b9ceeb56 1484011071
+obj /usr/share/shotwell/icons/drag_nub.png 97d4805b053e860e13f958fd42ececbd 1484011071
+obj /usr/share/shotwell/icons/merge.svg 1730ed830f051a2e392975679519d92e 1484011071
+obj /usr/share/shotwell/icons/crop.svg 2e9031ce2c6584fb8ba2e2abe1d29e1f 1484011071
+obj /usr/share/shotwell/icons/three-star-filter-plus.svg f6e54bcfc5b6e841349648f7138de076 1484011071
+obj /usr/share/shotwell/icons/filter-flagged.png cb739b3a4654ae3d3be578e5c777d060 1484011071
+obj /usr/share/shotwell/icons/two-star-filter-plus.svg 2e8c0fc0054e1dc2f2b72bc35ef35be0 1484011071
+obj /usr/share/shotwell/icons/four-stars.svg 861ed6853781f1344fc94cc3812adfba 1484011071
+obj /usr/share/shotwell/icons/two-stars.svg 85ef64acb098cfb4ced58c422e128bd1 1484011071
+obj /usr/share/shotwell/icons/videos-page.png 15b7e4c9ded711499b2dc112e9940480 1484011071
+obj /usr/share/shotwell/icons/zoom-in.png 2e113137d49a81b31686dc744cb80437 1484011071
+obj /usr/share/shotwell/icons/import.svg 13a32f6e0db68f5fff930ef1254f7b06 1484011071
+obj /usr/share/shotwell/icons/crop-pivot-reticle.png d7c10c1710fcf136183049600d485f40 1484011071
+obj /usr/share/shotwell/icons/publish.png 147e01e1fd206afc2c5858b4f11856a6 1484011071
+obj /usr/share/shotwell/icons/straighten.svg b16bfdc5b00d37cf3d27eebce0654e88 1484011071
+obj /usr/share/shotwell/icons/filter-photos.png c61471e3c7be5079fe3e909ebd216fc8 1484011071
+obj /usr/share/shotwell/icons/shotwell-auto-enhance.png a19f963f20333d8c4ff8991ed3605fd2 1484011071
+obj /usr/share/shotwell/icons/sprocket.png 7e506e5d70ac620e335e95f141dc507f 1484011071
+obj /usr/share/shotwell/icons/flag-trinket.png 4889d902b931dcee974b0e9e172e8b09 1484011071
+obj /usr/share/shotwell/icons/redeye.png 73962f5c736c411ae367c3baab98869c 1484011071
+obj /usr/share/shotwell/icons/slideshow-extension-point.png 81c21f86de94a6eae6dd1a083ce3c4b5 1484011071
+obj /usr/share/shotwell/icons/one-star.svg b13678b0990e5888a87b4ec2caba1155 1484011071
 dir /usr/share/help
 dir /usr/share/help/hu
 dir /usr/share/help/hu/shotwell
-obj /usr/share/help/hu/shotwell/organize-remove.page 87c856025a25edd788dad026c56682af 1475916290
-obj /usr/share/help/hu/shotwell/import-memorycard.page d83f314257f3c58152c042e805c58ccd 1475916290
-obj /usr/share/help/hu/shotwell/import-camera.page 37063d52c633baf56dcfecfde4b9451b 1475916290
-obj /usr/share/help/hu/shotwell/organize-tag.page a4118d593fe735bbef74a7d1eae22c39 1475916290
-obj /usr/share/help/hu/shotwell/share-background.page 7e332a3a9d2d1b42231ed0cc159c6db3 1475916290
-obj /usr/share/help/hu/shotwell/running.page a5627e91dbd41728e00180724c16c9b9 1475916290
-obj /usr/share/help/hu/shotwell/organize-rating.page 84bb476db43edaae5a91418da5acff17 1475916290
-obj /usr/share/help/hu/shotwell/organize-event.page 34b1fac9f1da173edddc4f5ef19d18ce 1475916290
-obj /usr/share/help/hu/shotwell/view-sidebar.page 2b36bb85f09412f6443fa5d208fb0d20 1475916291
-obj /usr/share/help/hu/shotwell/organize-flag.page 1573b74bf964e46279bce3fd310fe251 1475916290
-obj /usr/share/help/hu/shotwell/index.page 14fdbb8b8c4b4d948a034b21832f58ca 1475916290
-obj /usr/share/help/hu/shotwell/share-upload.page a77de0a42acff973e2cd13985db8e0bf 1475916291
-obj /usr/share/help/hu/shotwell/view-displaying.page 9a84609b5c7ff2d056f51d9537291868 1475916291
-obj /usr/share/help/hu/shotwell/edit-redeye.page 2b61e4bfa5e0593139b1bb9c46d9ecba 1475916290
-obj /usr/share/help/hu/shotwell/share-print.page 603a7902c68a3fd360310a54044de870 1475916291
-obj /usr/share/help/hu/shotwell/raw.page d031888da0b1d4f25e50d437f004c299 1475916290
-obj /usr/share/help/hu/shotwell/import-f-spot.page 4e57d33f477c045d77e2f7c3568d00f6 1475916290
-obj /usr/share/help/hu/shotwell/edit-adjustments.page 68a20c52f8363296fb0d35bd2e1a5990 1475916290
-obj /usr/share/help/hu/shotwell/edit-nondestructive.page a71c3a2ac6473b64feaf36859de80865 1475916290
-obj /usr/share/help/hu/shotwell/edit-undo.page b1c3cc2f992ca6ca876e6178c1618bd0 1475916290
-obj /usr/share/help/hu/shotwell/organize-search.page 97c8a65a7327c7d6e0cd2552e504d752 1475916290
-obj /usr/share/help/hu/shotwell/organize-title.page 7de6fee51ee22442bdab3c43e9263243 1475916290
-obj /usr/share/help/hu/shotwell/share-slideshow.page 7a6903a5cff899a67401f958c081f8c8 1475916291
-obj /usr/share/help/hu/shotwell/view-information.page 20156b17f6ad230373be35547eeba4d1 1475916291
-obj /usr/share/help/hu/shotwell/share-export.page 2291c32873545a6280e4415139e2544b 1475916291
-obj /usr/share/help/hu/shotwell/other-multiple.page 505cae524d8d29aaee8c77d807dbbe01 1475916290
-obj /usr/share/help/hu/shotwell/other-missing.page 55a761e9598a7552478678c34a9f2847 1475916290
-obj /usr/share/help/hu/shotwell/formats.page 576498c4d04220f09513d6560e48fb0c 1475916290
-obj /usr/share/help/hu/shotwell/edit-date-time.page 7814e2ce8bf83e736634e00ce5f73cd8 1475916290
-obj /usr/share/help/hu/shotwell/edit-rotate.page 38aac649b0f6ade14c003309d54d70b5 1475916290
-obj /usr/share/help/hu/shotwell/edit-crop.page 812bc7aac1a63b569165289778932c82 1475916290
-obj /usr/share/help/hu/shotwell/other-files.page be53bbfcc487e73027a043140ccfe3cd 1475916290
-obj /usr/share/help/hu/shotwell/edit-straighten.page 963947d14e49146a872cc13c35813749 1475916290
-obj /usr/share/help/hu/shotwell/share-send.page d0bdba101a5a28e97b0926341ab8a320 1475916291
-obj /usr/share/help/hu/shotwell/edit-external.page 8f6bf3dce8aeebea89a6a2126f254313 1475916290
-obj /usr/share/help/hu/shotwell/other-plugins.page 3d918b36cd6c4bf5db91c6fbe032f36e 1475916290
-obj /usr/share/help/hu/shotwell/edit-enhance.page 9264076453ce577c1ec2a5200e542346 1475916290
+obj /usr/share/help/hu/shotwell/organize-remove.page 87c856025a25edd788dad026c56682af 1484011069
+obj /usr/share/help/hu/shotwell/import-memorycard.page d83f314257f3c58152c042e805c58ccd 1484011068
+obj /usr/share/help/hu/shotwell/import-camera.page 37063d52c633baf56dcfecfde4b9451b 1484011068
+obj /usr/share/help/hu/shotwell/organize-tag.page a4118d593fe735bbef74a7d1eae22c39 1484011069
+obj /usr/share/help/hu/shotwell/share-background.page 7e332a3a9d2d1b42231ed0cc159c6db3 1484011069
+obj /usr/share/help/hu/shotwell/running.page a5627e91dbd41728e00180724c16c9b9 1484011069
+obj /usr/share/help/hu/shotwell/organize-rating.page 84bb476db43edaae5a91418da5acff17 1484011069
+obj /usr/share/help/hu/shotwell/organize-event.page 34b1fac9f1da173edddc4f5ef19d18ce 1484011069
+obj /usr/share/help/hu/shotwell/view-sidebar.page 2b36bb85f09412f6443fa5d208fb0d20 1484011069
+obj /usr/share/help/hu/shotwell/organize-flag.page 1573b74bf964e46279bce3fd310fe251 1484011069
+obj /usr/share/help/hu/shotwell/index.page 14fdbb8b8c4b4d948a034b21832f58ca 1484011069
+obj /usr/share/help/hu/shotwell/share-upload.page a77de0a42acff973e2cd13985db8e0bf 1484011069
+obj /usr/share/help/hu/shotwell/view-displaying.page 9a84609b5c7ff2d056f51d9537291868 1484011069
+obj /usr/share/help/hu/shotwell/edit-redeye.page 2b61e4bfa5e0593139b1bb9c46d9ecba 1484011068
+obj /usr/share/help/hu/shotwell/share-print.page 603a7902c68a3fd360310a54044de870 1484011069
+obj /usr/share/help/hu/shotwell/raw.page d031888da0b1d4f25e50d437f004c299 1484011069
+obj /usr/share/help/hu/shotwell/import-f-spot.page 4e57d33f477c045d77e2f7c3568d00f6 1484011068
+obj /usr/share/help/hu/shotwell/edit-adjustments.page 68a20c52f8363296fb0d35bd2e1a5990 1484011068
+obj /usr/share/help/hu/shotwell/edit-nondestructive.page a71c3a2ac6473b64feaf36859de80865 1484011068
+obj /usr/share/help/hu/shotwell/edit-undo.page b1c3cc2f992ca6ca876e6178c1618bd0 1484011068
+obj /usr/share/help/hu/shotwell/organize-search.page 97c8a65a7327c7d6e0cd2552e504d752 1484011069
+obj /usr/share/help/hu/shotwell/organize-title.page 7de6fee51ee22442bdab3c43e9263243 1484011069
+obj /usr/share/help/hu/shotwell/share-slideshow.page 7a6903a5cff899a67401f958c081f8c8 1484011069
+obj /usr/share/help/hu/shotwell/view-information.page 20156b17f6ad230373be35547eeba4d1 1484011069
+obj /usr/share/help/hu/shotwell/share-export.page 2291c32873545a6280e4415139e2544b 1484011069
+obj /usr/share/help/hu/shotwell/other-multiple.page 505cae524d8d29aaee8c77d807dbbe01 1484011069
+obj /usr/share/help/hu/shotwell/other-missing.page 55a761e9598a7552478678c34a9f2847 1484011069
+obj /usr/share/help/hu/shotwell/formats.page 576498c4d04220f09513d6560e48fb0c 1484011068
+obj /usr/share/help/hu/shotwell/edit-date-time.page 7814e2ce8bf83e736634e00ce5f73cd8 1484011068
+obj /usr/share/help/hu/shotwell/edit-rotate.page 38aac649b0f6ade14c003309d54d70b5 1484011068
+obj /usr/share/help/hu/shotwell/edit-crop.page 812bc7aac1a63b569165289778932c82 1484011068
+obj /usr/share/help/hu/shotwell/other-files.page be53bbfcc487e73027a043140ccfe3cd 1484011069
+obj /usr/share/help/hu/shotwell/edit-straighten.page 963947d14e49146a872cc13c35813749 1484011068
+obj /usr/share/help/hu/shotwell/share-send.page d0bdba101a5a28e97b0926341ab8a320 1484011069
+obj /usr/share/help/hu/shotwell/edit-external.page 8f6bf3dce8aeebea89a6a2126f254313 1484011068
+obj /usr/share/help/hu/shotwell/other-plugins.page 3d918b36cd6c4bf5db91c6fbe032f36e 1484011069
+obj /usr/share/help/hu/shotwell/edit-enhance.page 9264076453ce577c1ec2a5200e542346 1484011068
 dir /usr/share/help/hu/shotwell/figures
-obj /usr/share/help/hu/shotwell/import-file.page 5f570c989347d30fd1d895364d49e0db 1475916290
+sym /usr/share/help/hu/shotwell/figures/trash_process.png -> ../../../C/shotwell/figures/trash_process.png 1484011080
+sym /usr/share/help/hu/shotwell/figures/crop_thirds.jpg -> ../../../C/shotwell/figures/crop_thirds.jpg 1484011080
+sym /usr/share/help/hu/shotwell/figures/shotwell_logo.png -> ../../../C/shotwell/figures/shotwell_logo.png 1484011080
+sym /usr/share/help/hu/shotwell/figures/edit_toolbar.png -> ../../../C/shotwell/figures/edit_toolbar.png 1484011080
+sym /usr/share/help/hu/shotwell/figures/editing_overview.png -> ../../../C/shotwell/figures/editing_overview.png 1484011080
+obj /usr/share/help/hu/shotwell/import-file.page 5f570c989347d30fd1d895364d49e0db 1484011068
 dir /usr/share/help/pt_BR
 dir /usr/share/help/pt_BR/shotwell
-obj /usr/share/help/pt_BR/shotwell/organize-remove.page f0b912d8df7b3e0a6b4c774adc430b14 1475916291
-obj /usr/share/help/pt_BR/shotwell/import-memorycard.page faa388b3b41768b84fd2d29b657585a1 1475916291
-obj /usr/share/help/pt_BR/shotwell/import-camera.page fe9952494a110db31bc89758a68d7564 1475916291
-obj /usr/share/help/pt_BR/shotwell/organize-tag.page 3f899099b98bfeb96bb011780bce9e96 1475916291
-obj /usr/share/help/pt_BR/shotwell/share-background.page 9c077c1f587498747c748e8523d48b9c 1475916291
-obj /usr/share/help/pt_BR/shotwell/running.page 54880ef433f886fe2e253c57389ba934 1475916291
-obj /usr/share/help/pt_BR/shotwell/organize-rating.page 508f7921d1b41518615a6c95a1fe6362 1475916291
-obj /usr/share/help/pt_BR/shotwell/organize-event.page 46d25c3c707feb623e8548dbefb542a3 1475916291
-obj /usr/share/help/pt_BR/shotwell/view-sidebar.page d87693dc79d7b66bbddfc9d3e59f8f5f 1475916291
-obj /usr/share/help/pt_BR/shotwell/organize-flag.page 6c81c9e266948ec796a112af1603e843 1475916291
-obj /usr/share/help/pt_BR/shotwell/index.page ef42dc34a120f6b60339e4f5ec0c57fe 1475916291
-obj /usr/share/help/pt_BR/shotwell/share-upload.page 3b265262f1545a896dc635a73795b5ad 1475916291
-obj /usr/share/help/pt_BR/shotwell/view-displaying.page da124cae197fb9609db415fba9eacf8e 1475916291
-obj /usr/share/help/pt_BR/shotwell/edit-redeye.page 32981131032875426b36e71c6e596899 1475916291
-obj /usr/share/help/pt_BR/shotwell/share-print.page 306b1b316d39e86d6096ea5521a23159 1475916291
-obj /usr/share/help/pt_BR/shotwell/raw.page a3ceade6d02f9570067a00a9dfd7c197 1475916291
-obj /usr/share/help/pt_BR/shotwell/import-f-spot.page 16edef317ec2ec2e443ba234a4cd09d8 1475916291
-obj /usr/share/help/pt_BR/shotwell/edit-adjustments.page 1be4cd74ff8052e7e1a6116e717e89fe 1475916291
-obj /usr/share/help/pt_BR/shotwell/edit-nondestructive.page 4c3310e858dac718c33367e617663a9d 1475916291
-obj /usr/share/help/pt_BR/shotwell/edit-undo.page e81775bb050580d0d674e51b0083a084 1475916291
-obj /usr/share/help/pt_BR/shotwell/organize-search.page 81a4f9a7b6bd4fa08d8e11c4e3492f54 1475916291
-obj /usr/share/help/pt_BR/shotwell/organize-title.page c741dc43ce99bc10e359da17e0fd0196 1475916291
-obj /usr/share/help/pt_BR/shotwell/share-slideshow.page 5b097aa7c351ec554fed2cf5b8f67fe5 1475916291
-obj /usr/share/help/pt_BR/shotwell/view-information.page ab0d8b01db349630e5fa3e85d7f3dec8 1475916291
-obj /usr/share/help/pt_BR/shotwell/share-export.page 971453e0a18eb18b7e5189bbffe719e7 1475916291
-obj /usr/share/help/pt_BR/shotwell/other-multiple.page 497ea934ab310d4c2c4525e1d59b8f79 1475916291
-obj /usr/share/help/pt_BR/shotwell/other-missing.page e312dbc9dfd9e331f6b3cbecbaab9810 1475916291
-obj /usr/share/help/pt_BR/shotwell/formats.page dc38575e03dda1572e0695bc998f0e74 1475916291
-obj /usr/share/help/pt_BR/shotwell/edit-date-time.page 52d87a8144e797c0873d3ef7a3487def 1475916291
-obj /usr/share/help/pt_BR/shotwell/edit-rotate.page 356f07083f32dbe2f6e5b8826b05c261 1475916291
-obj /usr/share/help/pt_BR/shotwell/edit-crop.page a7e950ea64de37cc9823de3e7bc815b1 1475916291
-obj /usr/share/help/pt_BR/shotwell/other-files.page 6987cdd4c88ec8052e8e9c0089ba3247 1475916291
-obj /usr/share/help/pt_BR/shotwell/edit-straighten.page 5c34a28a33f2189068aeefef4ab81a6c 1475916291
-obj /usr/share/help/pt_BR/shotwell/share-send.page 87a8b71e4ecacb73b9b5e13ed664b249 1475916291
-obj /usr/share/help/pt_BR/shotwell/edit-external.page 83b61cb563b2b2bf818d29eff5404f69 1475916291
-obj /usr/share/help/pt_BR/shotwell/other-plugins.page 6ca72ee6fb1373755ad2613565d7a79b 1475916291
-obj /usr/share/help/pt_BR/shotwell/edit-enhance.page ce11f8df325edf9de6090638e0007b71 1475916291
+obj /usr/share/help/pt_BR/shotwell/organize-remove.page f0b912d8df7b3e0a6b4c774adc430b14 1484011069
+obj /usr/share/help/pt_BR/shotwell/import-memorycard.page faa388b3b41768b84fd2d29b657585a1 1484011069
+obj /usr/share/help/pt_BR/shotwell/import-camera.page fe9952494a110db31bc89758a68d7564 1484011069
+obj /usr/share/help/pt_BR/shotwell/organize-tag.page 3f899099b98bfeb96bb011780bce9e96 1484011069
+obj /usr/share/help/pt_BR/shotwell/share-background.page 9c077c1f587498747c748e8523d48b9c 1484011069
+obj /usr/share/help/pt_BR/shotwell/running.page 54880ef433f886fe2e253c57389ba934 1484011069
+obj /usr/share/help/pt_BR/shotwell/organize-rating.page 508f7921d1b41518615a6c95a1fe6362 1484011069
+obj /usr/share/help/pt_BR/shotwell/organize-event.page 46d25c3c707feb623e8548dbefb542a3 1484011069
+obj /usr/share/help/pt_BR/shotwell/view-sidebar.page d87693dc79d7b66bbddfc9d3e59f8f5f 1484011069
+obj /usr/share/help/pt_BR/shotwell/organize-flag.page 6c81c9e266948ec796a112af1603e843 1484011069
+obj /usr/share/help/pt_BR/shotwell/index.page ef42dc34a120f6b60339e4f5ec0c57fe 1484011069
+obj /usr/share/help/pt_BR/shotwell/share-upload.page 3b265262f1545a896dc635a73795b5ad 1484011069
+obj /usr/share/help/pt_BR/shotwell/view-displaying.page da124cae197fb9609db415fba9eacf8e 1484011069
+obj /usr/share/help/pt_BR/shotwell/edit-redeye.page 32981131032875426b36e71c6e596899 1484011069
+obj /usr/share/help/pt_BR/shotwell/share-print.page 306b1b316d39e86d6096ea5521a23159 1484011069
+obj /usr/share/help/pt_BR/shotwell/raw.page a3ceade6d02f9570067a00a9dfd7c197 1484011069
+obj /usr/share/help/pt_BR/shotwell/import-f-spot.page 16edef317ec2ec2e443ba234a4cd09d8 1484011069
+obj /usr/share/help/pt_BR/shotwell/edit-adjustments.page 1be4cd74ff8052e7e1a6116e717e89fe 1484011069
+obj /usr/share/help/pt_BR/shotwell/edit-nondestructive.page 4c3310e858dac718c33367e617663a9d 1484011069
+obj /usr/share/help/pt_BR/shotwell/edit-undo.page e81775bb050580d0d674e51b0083a084 1484011069
+obj /usr/share/help/pt_BR/shotwell/organize-search.page 81a4f9a7b6bd4fa08d8e11c4e3492f54 1484011069
+obj /usr/share/help/pt_BR/shotwell/organize-title.page c741dc43ce99bc10e359da17e0fd0196 1484011069
+obj /usr/share/help/pt_BR/shotwell/share-slideshow.page 5b097aa7c351ec554fed2cf5b8f67fe5 1484011069
+obj /usr/share/help/pt_BR/shotwell/view-information.page ab0d8b01db349630e5fa3e85d7f3dec8 1484011069
+obj /usr/share/help/pt_BR/shotwell/share-export.page 971453e0a18eb18b7e5189bbffe719e7 1484011069
+obj /usr/share/help/pt_BR/shotwell/other-multiple.page 497ea934ab310d4c2c4525e1d59b8f79 1484011069
+obj /usr/share/help/pt_BR/shotwell/other-missing.page e312dbc9dfd9e331f6b3cbecbaab9810 1484011069
+obj /usr/share/help/pt_BR/shotwell/formats.page dc38575e03dda1572e0695bc998f0e74 1484011069
+obj /usr/share/help/pt_BR/shotwell/edit-date-time.page 52d87a8144e797c0873d3ef7a3487def 1484011069
+obj /usr/share/help/pt_BR/shotwell/edit-rotate.page 356f07083f32dbe2f6e5b8826b05c261 1484011069
+obj /usr/share/help/pt_BR/shotwell/edit-crop.page a7e950ea64de37cc9823de3e7bc815b1 1484011069
+obj /usr/share/help/pt_BR/shotwell/other-files.page 6987cdd4c88ec8052e8e9c0089ba3247 1484011069
+obj /usr/share/help/pt_BR/shotwell/edit-straighten.page 5c34a28a33f2189068aeefef4ab81a6c 1484011069
+obj /usr/share/help/pt_BR/shotwell/share-send.page 87a8b71e4ecacb73b9b5e13ed664b249 1484011069
+obj /usr/share/help/pt_BR/shotwell/edit-external.page 83b61cb563b2b2bf818d29eff5404f69 1484011069
+obj /usr/share/help/pt_BR/shotwell/other-plugins.page 6ca72ee6fb1373755ad2613565d7a79b 1484011069
+obj /usr/share/help/pt_BR/shotwell/edit-enhance.page ce11f8df325edf9de6090638e0007b71 1484011069
 dir /usr/share/help/pt_BR/shotwell/figures
-obj /usr/share/help/pt_BR/shotwell/import-file.page 1dda32ee3a34eb18327ed241c9e57ab5 1475916291
+sym /usr/share/help/pt_BR/shotwell/figures/trash_process.png -> ../../../C/shotwell/figures/trash_process.png 1484011080
+sym /usr/share/help/pt_BR/shotwell/figures/crop_thirds.jpg -> ../../../C/shotwell/figures/crop_thirds.jpg 1484011080
+sym /usr/share/help/pt_BR/shotwell/figures/shotwell_logo.png -> ../../../C/shotwell/figures/shotwell_logo.png 1484011080
+sym /usr/share/help/pt_BR/shotwell/figures/edit_toolbar.png -> ../../../C/shotwell/figures/edit_toolbar.png 1484011080
+sym /usr/share/help/pt_BR/shotwell/figures/editing_overview.png -> ../../../C/shotwell/figures/editing_overview.png 1484011080
+obj /usr/share/help/pt_BR/shotwell/import-file.page 1dda32ee3a34eb18327ed241c9e57ab5 1484011069
 dir /usr/share/help/de
 dir /usr/share/help/de/shotwell
-obj /usr/share/help/de/shotwell/organize-remove.page e2fdbd0e99ec0d5e28ff51c4f507541d 1475916289
-obj /usr/share/help/de/shotwell/import-memorycard.page a3e4b159d90154af947755916cab2533 1475916289
-obj /usr/share/help/de/shotwell/import-camera.page c44ebaad904f4e3bd530d2842500cf9d 1475916289
-obj /usr/share/help/de/shotwell/organize-tag.page fa37344773cfc994c1806781ce5ca1d9 1475916289
-obj /usr/share/help/de/shotwell/share-background.page dd0a4db4232b3031fa0702849448cb71 1475916289
-obj /usr/share/help/de/shotwell/running.page 97dcdf38752d81191c179e47f59cbb5b 1475916289
-obj /usr/share/help/de/shotwell/organize-rating.page 2bc3695dc6a93b5cbcb2a570b263bc82 1475916289
-obj /usr/share/help/de/shotwell/organize-event.page 50a7ad320e3cf4488ca7ec98dfccc9cd 1475916289
-obj /usr/share/help/de/shotwell/view-sidebar.page dab8d9603a3552816e5fbde2e76c7366 1475916289
-obj /usr/share/help/de/shotwell/organize-flag.page dd71c83c8dbb9172eb8478693483ab14 1475916289
-obj /usr/share/help/de/shotwell/index.page 9af61d9e3e9e60c980d904cc823f6d9d 1475916289
-obj /usr/share/help/de/shotwell/share-upload.page a6c95c66b7002a43c0a7d478efe8443a 1475916289
-obj /usr/share/help/de/shotwell/view-displaying.page d2e1b4ba5320dfebba6caaa7d06cc8dd 1475916289
-obj /usr/share/help/de/shotwell/edit-redeye.page f79b40055fbf49017b2c634bad9416ae 1475916288
-obj /usr/share/help/de/shotwell/share-print.page 8e6faab92630e4e94d57f1d8b7884fec 1475916289
-obj /usr/share/help/de/shotwell/raw.page 10347bf13b7941f5eea66f16aa294358 1475916289
-obj /usr/share/help/de/shotwell/import-f-spot.page 27bce9943465aa7988208defa60bfbba 1475916289
-obj /usr/share/help/de/shotwell/edit-adjustments.page cb5e179f7b1fa68db83ddc8bcb8dbf2f 1475916288
-obj /usr/share/help/de/shotwell/edit-nondestructive.page 109fefd5612925d66d49ffe86163caa3 1475916288
-obj /usr/share/help/de/shotwell/edit-undo.page 3e0db513a18ba1242587cf3fcccc0d6b 1475916288
-obj /usr/share/help/de/shotwell/organize-search.page 0ce1423c094bcad685d514f6b527f632 1475916289
-obj /usr/share/help/de/shotwell/organize-title.page 79e37f814c5ac5ddd1cf2d5470216b00 1475916289
-obj /usr/share/help/de/shotwell/share-slideshow.page 694b733a92c08d8a11d1c3f246fb94da 1475916289
-obj /usr/share/help/de/shotwell/view-information.page 5dda50a275bd5dd58cac75e134356e05 1475916289
-obj /usr/share/help/de/shotwell/share-export.page 5757320fed6dec89e5a5435ae9be68fd 1475916289
-obj /usr/share/help/de/shotwell/other-multiple.page e7d798efd61e982edcfd7aa8b3b58f99 1475916289
-obj /usr/share/help/de/shotwell/other-missing.page 3bcb55cc6d4694f13135b63eb11e35b7 1475916289
-obj /usr/share/help/de/shotwell/formats.page a7cc5bb372e08f0da37c23fb3f1fc604 1475916289
-obj /usr/share/help/de/shotwell/edit-date-time.page 558f42a1035fc38c8ea3181327a5097d 1475916288
-obj /usr/share/help/de/shotwell/edit-rotate.page a5bb7b997c73c5a6d3709de80ca53ebb 1475916288
-obj /usr/share/help/de/shotwell/edit-crop.page 939cf2e27888c43ca5991904aeadc53f 1475916288
-obj /usr/share/help/de/shotwell/other-files.page c9462b699acd86cc3f611deadee48ffc 1475916289
-obj /usr/share/help/de/shotwell/edit-straighten.page 5823b492504bd0c4eae86183fe17b1c2 1475916288
-obj /usr/share/help/de/shotwell/share-send.page 5bdc61e6863f149b2c4c9e69d16539c4 1475916289
-obj /usr/share/help/de/shotwell/edit-external.page c87371b3515fc49aaff0dfecac4b38e2 1475916288
-obj /usr/share/help/de/shotwell/other-plugins.page e9a4dd19805953cdf8c1c63bbaf8e76e 1475916289
-obj /usr/share/help/de/shotwell/edit-enhance.page 116fb5b0c381c8ac415d38dae509fac7 1475916288
+obj /usr/share/help/de/shotwell/organize-remove.page e2fdbd0e99ec0d5e28ff51c4f507541d 1484011067
+obj /usr/share/help/de/shotwell/import-memorycard.page a3e4b159d90154af947755916cab2533 1484011067
+obj /usr/share/help/de/shotwell/import-camera.page c44ebaad904f4e3bd530d2842500cf9d 1484011067
+obj /usr/share/help/de/shotwell/organize-tag.page fa37344773cfc994c1806781ce5ca1d9 1484011067
+obj /usr/share/help/de/shotwell/share-background.page dd0a4db4232b3031fa0702849448cb71 1484011067
+obj /usr/share/help/de/shotwell/running.page 97dcdf38752d81191c179e47f59cbb5b 1484011067
+obj /usr/share/help/de/shotwell/organize-rating.page 2bc3695dc6a93b5cbcb2a570b263bc82 1484011067
+obj /usr/share/help/de/shotwell/organize-event.page 50a7ad320e3cf4488ca7ec98dfccc9cd 1484011067
+obj /usr/share/help/de/shotwell/view-sidebar.page dab8d9603a3552816e5fbde2e76c7366 1484011067
+obj /usr/share/help/de/shotwell/organize-flag.page dd71c83c8dbb9172eb8478693483ab14 1484011067
+obj /usr/share/help/de/shotwell/index.page 9af61d9e3e9e60c980d904cc823f6d9d 1484011067
+obj /usr/share/help/de/shotwell/share-upload.page a6c95c66b7002a43c0a7d478efe8443a 1484011067
+obj /usr/share/help/de/shotwell/view-displaying.page d2e1b4ba5320dfebba6caaa7d06cc8dd 1484011067
+obj /usr/share/help/de/shotwell/edit-redeye.page f79b40055fbf49017b2c634bad9416ae 1484011067
+obj /usr/share/help/de/shotwell/share-print.page 8e6faab92630e4e94d57f1d8b7884fec 1484011067
+obj /usr/share/help/de/shotwell/raw.page 10347bf13b7941f5eea66f16aa294358 1484011067
+obj /usr/share/help/de/shotwell/import-f-spot.page 27bce9943465aa7988208defa60bfbba 1484011067
+obj /usr/share/help/de/shotwell/edit-adjustments.page cb5e179f7b1fa68db83ddc8bcb8dbf2f 1484011067
+obj /usr/share/help/de/shotwell/edit-nondestructive.page 109fefd5612925d66d49ffe86163caa3 1484011067
+obj /usr/share/help/de/shotwell/edit-undo.page 3e0db513a18ba1242587cf3fcccc0d6b 1484011067
+obj /usr/share/help/de/shotwell/organize-search.page 0ce1423c094bcad685d514f6b527f632 1484011067
+obj /usr/share/help/de/shotwell/organize-title.page 79e37f814c5ac5ddd1cf2d5470216b00 1484011067
+obj /usr/share/help/de/shotwell/share-slideshow.page 694b733a92c08d8a11d1c3f246fb94da 1484011067
+obj /usr/share/help/de/shotwell/view-information.page 5dda50a275bd5dd58cac75e134356e05 1484011067
+obj /usr/share/help/de/shotwell/share-export.page 5757320fed6dec89e5a5435ae9be68fd 1484011067
+obj /usr/share/help/de/shotwell/other-multiple.page e7d798efd61e982edcfd7aa8b3b58f99 1484011067
+obj /usr/share/help/de/shotwell/other-missing.page 3bcb55cc6d4694f13135b63eb11e35b7 1484011067
+obj /usr/share/help/de/shotwell/formats.page a7cc5bb372e08f0da37c23fb3f1fc604 1484011067
+obj /usr/share/help/de/shotwell/edit-date-time.page 558f42a1035fc38c8ea3181327a5097d 1484011067
+obj /usr/share/help/de/shotwell/edit-rotate.page a5bb7b997c73c5a6d3709de80ca53ebb 1484011067
+obj /usr/share/help/de/shotwell/edit-crop.page 939cf2e27888c43ca5991904aeadc53f 1484011067
+obj /usr/share/help/de/shotwell/other-files.page c9462b699acd86cc3f611deadee48ffc 1484011067
+obj /usr/share/help/de/shotwell/edit-straighten.page 5823b492504bd0c4eae86183fe17b1c2 1484011067
+obj /usr/share/help/de/shotwell/share-send.page 5bdc61e6863f149b2c4c9e69d16539c4 1484011067
+obj /usr/share/help/de/shotwell/edit-external.page c87371b3515fc49aaff0dfecac4b38e2 1484011067
+obj /usr/share/help/de/shotwell/other-plugins.page e9a4dd19805953cdf8c1c63bbaf8e76e 1484011067
+obj /usr/share/help/de/shotwell/edit-enhance.page 116fb5b0c381c8ac415d38dae509fac7 1484011067
 dir /usr/share/help/de/shotwell/figures
-obj /usr/share/help/de/shotwell/import-file.page 68dd477231010d1ff9efa0be65638f49 1475916289
+sym /usr/share/help/de/shotwell/figures/trash_process.png -> ../../../C/shotwell/figures/trash_process.png 1484011080
+sym /usr/share/help/de/shotwell/figures/crop_thirds.jpg -> ../../../C/shotwell/figures/crop_thirds.jpg 1484011080
+sym /usr/share/help/de/shotwell/figures/shotwell_logo.png -> ../../../C/shotwell/figures/shotwell_logo.png 1484011080
+sym /usr/share/help/de/shotwell/figures/edit_toolbar.png -> ../../../C/shotwell/figures/edit_toolbar.png 1484011080
+sym /usr/share/help/de/shotwell/figures/editing_overview.png -> ../../../C/shotwell/figures/editing_overview.png 1484011080
+obj /usr/share/help/de/shotwell/import-file.page 68dd477231010d1ff9efa0be65638f49 1484011067
 dir /usr/share/help/es
 dir /usr/share/help/es/shotwell
-obj /usr/share/help/es/shotwell/organize-remove.page 964c3165c30e2291851c1e8c1d5ef514 1475916290
-obj /usr/share/help/es/shotwell/import-memorycard.page 1bb901059fe60a4357fe4fb45d1eac64 1475916290
-obj /usr/share/help/es/shotwell/import-camera.page d7bf0c4fe0fb4db899d2bcfcf63500a7 1475916290
-obj /usr/share/help/es/shotwell/organize-tag.page 01a9b99f2fb0200495301eea433f404d 1475916290
-obj /usr/share/help/es/shotwell/share-background.page c3c2b556e9de322ba7f3ce56c1a88280 1475916290
-obj /usr/share/help/es/shotwell/running.page f2e1508e4c0b7be4f5d4815e116e4cd8 1475916290
-obj /usr/share/help/es/shotwell/organize-rating.page 11981c823b4a49f4b40f2d1611debc20 1475916290
-obj /usr/share/help/es/shotwell/organize-event.page 374a74868a95d8d57487030feed9fc72 1475916290
-obj /usr/share/help/es/shotwell/view-sidebar.page 92e2862ab38c8cd9d46170b28bd0c20b 1475916290
-obj /usr/share/help/es/shotwell/organize-flag.page 9f9ef84fac6ffffcda8a5dc8de0f4615 1475916290
-obj /usr/share/help/es/shotwell/index.page ad159df603cfe9f10f35655ee326e133 1475916290
-obj /usr/share/help/es/shotwell/share-upload.page 190a371a1829bbf3a8c5c4d1dadb4ac1 1475916290
-obj /usr/share/help/es/shotwell/view-displaying.page dd1f763d7f68210e24602697a2710b48 1475916290
-obj /usr/share/help/es/shotwell/edit-redeye.page 5f50e6d9d9f5f9ac7ddeacfa92810883 1475916290
-obj /usr/share/help/es/shotwell/share-print.page 582003e4ba6c7331390b0e75fce025c9 1475916290
-obj /usr/share/help/es/shotwell/raw.page 2d6c80ff194b86bd416e87cb2d383df6 1475916290
-obj /usr/share/help/es/shotwell/import-f-spot.page a0d970b5f4b2a02f4907c930b951ebe7 1475916290
-obj /usr/share/help/es/shotwell/edit-adjustments.page add7e6e6c1dd0d3c47efe5a144b4d728 1475916289
-obj /usr/share/help/es/shotwell/edit-nondestructive.page f1c149b843a48ffa92862740313da9ce 1475916290
-obj /usr/share/help/es/shotwell/edit-undo.page 5a0b6f6f71fa5acbeeece636b7693386 1475916290
-obj /usr/share/help/es/shotwell/organize-search.page 45653c180fd5ba654f6ad043d64b8315 1475916290
-obj /usr/share/help/es/shotwell/organize-title.page 8db5eb7875af296ad79b5c21db026b33 1475916290
-obj /usr/share/help/es/shotwell/share-slideshow.page 09980bde455c1479c1a0ad0666a80ab6 1475916290
-obj /usr/share/help/es/shotwell/view-information.page fc9f72627fcd85576f5e511c1d4c1ee4 1475916290
-obj /usr/share/help/es/shotwell/share-export.page 400664c2255f485deda40455f4477dc7 1475916290
-obj /usr/share/help/es/shotwell/other-multiple.page b449586468babecbb0f6ac306040e529 1475916290
-obj /usr/share/help/es/shotwell/other-missing.page de63a1dc24afa500473a36754369e333 1475916290
-obj /usr/share/help/es/shotwell/formats.page 60f5c6db9c945a62e2538b8495f131a1 1475916290
-obj /usr/share/help/es/shotwell/edit-date-time.page c66886cb3f1f2dab307c318d31a5f168 1475916290
-obj /usr/share/help/es/shotwell/edit-rotate.page c56bd8d272a4666fa03734ccc4596cd6 1475916290
-obj /usr/share/help/es/shotwell/edit-crop.page 2a0de23df0253af3974ecdcff38c6613 1475916289
-obj /usr/share/help/es/shotwell/other-files.page 7b46303f3f3a764c5b6856f19ab9255a 1475916290
-obj /usr/share/help/es/shotwell/edit-straighten.page 8a157b5a9a8ccd523d8bd03a1d8c7f91 1475916290
-obj /usr/share/help/es/shotwell/share-send.page 472022daa4a6885f90dcb41d2e9d63c1 1475916290
-obj /usr/share/help/es/shotwell/edit-external.page 11487418528d01f62b038e82ba9d8cdb 1475916289
-obj /usr/share/help/es/shotwell/other-plugins.page fc5103e9a0540657676c296edd0fc541 1475916290
-obj /usr/share/help/es/shotwell/edit-enhance.page efcebdfe02cde186493ce61c3e086234 1475916289
+obj /usr/share/help/es/shotwell/organize-remove.page 964c3165c30e2291851c1e8c1d5ef514 1484011068
+obj /usr/share/help/es/shotwell/import-memorycard.page 1bb901059fe60a4357fe4fb45d1eac64 1484011068
+obj /usr/share/help/es/shotwell/import-camera.page d7bf0c4fe0fb4db899d2bcfcf63500a7 1484011068
+obj /usr/share/help/es/shotwell/organize-tag.page 01a9b99f2fb0200495301eea433f404d 1484011068
+obj /usr/share/help/es/shotwell/share-background.page c3c2b556e9de322ba7f3ce56c1a88280 1484011068
+obj /usr/share/help/es/shotwell/running.page f2e1508e4c0b7be4f5d4815e116e4cd8 1484011068
+obj /usr/share/help/es/shotwell/organize-rating.page 11981c823b4a49f4b40f2d1611debc20 1484011068
+obj /usr/share/help/es/shotwell/organize-event.page 374a74868a95d8d57487030feed9fc72 1484011068
+obj /usr/share/help/es/shotwell/view-sidebar.page 92e2862ab38c8cd9d46170b28bd0c20b 1484011068
+obj /usr/share/help/es/shotwell/organize-flag.page 9f9ef84fac6ffffcda8a5dc8de0f4615 1484011068
+obj /usr/share/help/es/shotwell/index.page ad159df603cfe9f10f35655ee326e133 1484011068
+obj /usr/share/help/es/shotwell/share-upload.page 190a371a1829bbf3a8c5c4d1dadb4ac1 1484011068
+obj /usr/share/help/es/shotwell/view-displaying.page dd1f763d7f68210e24602697a2710b48 1484011068
+obj /usr/share/help/es/shotwell/edit-redeye.page 5f50e6d9d9f5f9ac7ddeacfa92810883 1484011068
+obj /usr/share/help/es/shotwell/share-print.page 582003e4ba6c7331390b0e75fce025c9 1484011068
+obj /usr/share/help/es/shotwell/raw.page 2d6c80ff194b86bd416e87cb2d383df6 1484011068
+obj /usr/share/help/es/shotwell/import-f-spot.page a0d970b5f4b2a02f4907c930b951ebe7 1484011068
+obj /usr/share/help/es/shotwell/edit-adjustments.page add7e6e6c1dd0d3c47efe5a144b4d728 1484011068
+obj /usr/share/help/es/shotwell/edit-nondestructive.page f1c149b843a48ffa92862740313da9ce 1484011068
+obj /usr/share/help/es/shotwell/edit-undo.page 5a0b6f6f71fa5acbeeece636b7693386 1484011068
+obj /usr/share/help/es/shotwell/organize-search.page 45653c180fd5ba654f6ad043d64b8315 1484011068
+obj /usr/share/help/es/shotwell/organize-title.page 8db5eb7875af296ad79b5c21db026b33 1484011068
+obj /usr/share/help/es/shotwell/share-slideshow.page 09980bde455c1479c1a0ad0666a80ab6 1484011068
+obj /usr/share/help/es/shotwell/view-information.page fc9f72627fcd85576f5e511c1d4c1ee4 1484011068
+obj /usr/share/help/es/shotwell/share-export.page 400664c2255f485deda40455f4477dc7 1484011068
+obj /usr/share/help/es/shotwell/other-multiple.page b449586468babecbb0f6ac306040e529 1484011068
+obj /usr/share/help/es/shotwell/other-missing.page de63a1dc24afa500473a36754369e333 1484011068
+obj /usr/share/help/es/shotwell/formats.page 60f5c6db9c945a62e2538b8495f131a1 1484011068
+obj /usr/share/help/es/shotwell/edit-date-time.page c66886cb3f1f2dab307c318d31a5f168 1484011068
+obj /usr/share/help/es/shotwell/edit-rotate.page c56bd8d272a4666fa03734ccc4596cd6 1484011068
+obj /usr/share/help/es/shotwell/edit-crop.page 2a0de23df0253af3974ecdcff38c6613 1484011068
+obj /usr/share/help/es/shotwell/other-files.page 7b46303f3f3a764c5b6856f19ab9255a 1484011068
+obj /usr/share/help/es/shotwell/edit-straighten.page 8a157b5a9a8ccd523d8bd03a1d8c7f91 1484011068
+obj /usr/share/help/es/shotwell/share-send.page 472022daa4a6885f90dcb41d2e9d63c1 1484011068
+obj /usr/share/help/es/shotwell/edit-external.page 11487418528d01f62b038e82ba9d8cdb 1484011068
+obj /usr/share/help/es/shotwell/other-plugins.page fc5103e9a0540657676c296edd0fc541 1484011068
+obj /usr/share/help/es/shotwell/edit-enhance.page efcebdfe02cde186493ce61c3e086234 1484011068
 dir /usr/share/help/es/shotwell/figures
-obj /usr/share/help/es/shotwell/import-file.page 5d0f90dda9dd575ef6204fb822ce3985 1475916290
+sym /usr/share/help/es/shotwell/figures/trash_process.png -> ../../../C/shotwell/figures/trash_process.png 1484011080
+sym /usr/share/help/es/shotwell/figures/crop_thirds.jpg -> ../../../C/shotwell/figures/crop_thirds.jpg 1484011080
+sym /usr/share/help/es/shotwell/figures/shotwell_logo.png -> ../../../C/shotwell/figures/shotwell_logo.png 1484011080
+sym /usr/share/help/es/shotwell/figures/edit_toolbar.png -> ../../../C/shotwell/figures/edit_toolbar.png 1484011080
+sym /usr/share/help/es/shotwell/figures/editing_overview.png -> ../../../C/shotwell/figures/editing_overview.png 1484011080
+obj /usr/share/help/es/shotwell/import-file.page 5d0f90dda9dd575ef6204fb822ce3985 1484011068
 dir /usr/share/help/C
 dir /usr/share/help/C/shotwell
-obj /usr/share/help/C/shotwell/organize-remove.page f7b089512c807d4a63451fd2b4fea2f6 1475916288
-obj /usr/share/help/C/shotwell/import-memorycard.page 1272bd5f03611508c3f4b1fb86433cae 1475916288
-obj /usr/share/help/C/shotwell/import-camera.page 4a796125e26018f59d56ad2df948fa4f 1475916287
-obj /usr/share/help/C/shotwell/organize-tag.page 53d2c4bea2b41570bd506367dbf11695 1475916288
-obj /usr/share/help/C/shotwell/share-background.page 1610ae83c30c4e78cab56e3df3d51bdc 1475916288
-obj /usr/share/help/C/shotwell/running.page 35c6a2f326486ca98caf87ce0454e806 1475916288
-obj /usr/share/help/C/shotwell/organize-rating.page 1c13f5533f699ea8cc02fa134ea0058a 1475916288
-obj /usr/share/help/C/shotwell/organize-event.page 1a05cc9500136cacb022b66bae2cdec8 1475916288
-obj /usr/share/help/C/shotwell/view-sidebar.page a3827876397b31ff7ddd5d54d8dfc174 1475916288
-obj /usr/share/help/C/shotwell/organize-flag.page 3710035c0b82975c3446bf0ecd129164 1475916288
-obj /usr/share/help/C/shotwell/index.page 211b9edf4290dc3fe9e35402228a6a6a 1475916288
-obj /usr/share/help/C/shotwell/share-upload.page d0db779f1d2a6548c3ec76e34845553e 1475916288
-obj /usr/share/help/C/shotwell/view-displaying.page e570bc672730ca882bbb89f064ef6231 1475916288
-obj /usr/share/help/C/shotwell/edit-redeye.page a9a0d5e19c9935dd4994f48602e3919c 1475916287
-obj /usr/share/help/C/shotwell/share-print.page 51690e2f7e7b04fab15012ea08552271 1475916288
-obj /usr/share/help/C/shotwell/raw.page 48c283614b1bd908f6c860489a3cab95 1475916288
-obj /usr/share/help/C/shotwell/import-f-spot.page 8f2715c86d990f75c6a86fa938ff04f5 1475916288
-obj /usr/share/help/C/shotwell/edit-adjustments.page 1c6fc0b19d57551617ad4a9a5c4b52bf 1475916287
-obj /usr/share/help/C/shotwell/edit-nondestructive.page bbfe29c9454009d8f851ad396130ac9b 1475916287
-obj /usr/share/help/C/shotwell/edit-undo.page 5c1cc9c991298326ecdcf9900257f6f8 1475916287
-obj /usr/share/help/C/shotwell/organize-search.page bfa2a618563477287c6074832f500d17 1475916288
-obj /usr/share/help/C/shotwell/organize-title.page 9ae66a77b014faca7a8c6b3f78c684eb 1475916288
-obj /usr/share/help/C/shotwell/share-slideshow.page 44de4d78ef8012f618058a1da1201886 1475916288
-obj /usr/share/help/C/shotwell/view-information.page 59e4a223892510b2b1b726cf8ab89cee 1475916288
-obj /usr/share/help/C/shotwell/share-export.page 961017a6df0cf8b6047557ff51a67de3 1475916288
-obj /usr/share/help/C/shotwell/other-multiple.page 677abbaac99ee41e005db38a72d4fcc8 1475916288
-obj /usr/share/help/C/shotwell/other-missing.page 5e67f9429b5b4747315eb121be7f382f 1475916288
-obj /usr/share/help/C/shotwell/formats.page e891b808107018d2cee8a895554f4b6d 1475916287
-obj /usr/share/help/C/shotwell/edit-date-time.page 57159e760cd5cfcbed8026ea536bceb9 1475916287
-obj /usr/share/help/C/shotwell/edit-rotate.page c0d8911f922265a694eaa719207e3139 1475916287
-obj /usr/share/help/C/shotwell/edit-crop.page 125df78f2dbe046cd9e01ec1caac5655 1475916287
-obj /usr/share/help/C/shotwell/other-files.page 226ee687e85dc6c8f71d57af487324d5 1475916288
-obj /usr/share/help/C/shotwell/edit-straighten.page cd67382799d431546ef3f8824e4d3c28 1475916287
-obj /usr/share/help/C/shotwell/share-send.page 9bf0a581b5fd2bf69719e41bd6008b51 1475916288
-obj /usr/share/help/C/shotwell/edit-external.page 78721652e060bd152f87076f292bd83a 1475916287
-obj /usr/share/help/C/shotwell/other-plugins.page eebc186c10bdace1371582eb763ebac0 1475916288
-obj /usr/share/help/C/shotwell/edit-enhance.page ac3093633f68a5936d1eb62540c28638 1475916287
+obj /usr/share/help/C/shotwell/organize-remove.page f7b089512c807d4a63451fd2b4fea2f6 1484011066
+obj /usr/share/help/C/shotwell/import-memorycard.page 1272bd5f03611508c3f4b1fb86433cae 1484011066
+obj /usr/share/help/C/shotwell/import-camera.page 4a796125e26018f59d56ad2df948fa4f 1484011066
+obj /usr/share/help/C/shotwell/organize-tag.page 53d2c4bea2b41570bd506367dbf11695 1484011066
+obj /usr/share/help/C/shotwell/share-background.page 1610ae83c30c4e78cab56e3df3d51bdc 1484011066
+obj /usr/share/help/C/shotwell/running.page 35c6a2f326486ca98caf87ce0454e806 1484011066
+obj /usr/share/help/C/shotwell/organize-rating.page 1c13f5533f699ea8cc02fa134ea0058a 1484011066
+obj /usr/share/help/C/shotwell/organize-event.page 1a05cc9500136cacb022b66bae2cdec8 1484011066
+obj /usr/share/help/C/shotwell/view-sidebar.page a3827876397b31ff7ddd5d54d8dfc174 1484011066
+obj /usr/share/help/C/shotwell/organize-flag.page 3710035c0b82975c3446bf0ecd129164 1484011066
+obj /usr/share/help/C/shotwell/index.page 211b9edf4290dc3fe9e35402228a6a6a 1484011066
+obj /usr/share/help/C/shotwell/share-upload.page d0db779f1d2a6548c3ec76e34845553e 1484011066
+obj /usr/share/help/C/shotwell/view-displaying.page e570bc672730ca882bbb89f064ef6231 1484011066
+obj /usr/share/help/C/shotwell/edit-redeye.page a9a0d5e19c9935dd4994f48602e3919c 1484011066
+obj /usr/share/help/C/shotwell/share-print.page 51690e2f7e7b04fab15012ea08552271 1484011066
+obj /usr/share/help/C/shotwell/raw.page 48c283614b1bd908f6c860489a3cab95 1484011066
+obj /usr/share/help/C/shotwell/import-f-spot.page 8f2715c86d990f75c6a86fa938ff04f5 1484011066
+obj /usr/share/help/C/shotwell/edit-adjustments.page 1c6fc0b19d57551617ad4a9a5c4b52bf 1484011066
+obj /usr/share/help/C/shotwell/edit-nondestructive.page bbfe29c9454009d8f851ad396130ac9b 1484011066
+obj /usr/share/help/C/shotwell/edit-undo.page 5c1cc9c991298326ecdcf9900257f6f8 1484011066
+obj /usr/share/help/C/shotwell/organize-search.page bfa2a618563477287c6074832f500d17 1484011066
+obj /usr/share/help/C/shotwell/organize-title.page 9ae66a77b014faca7a8c6b3f78c684eb 1484011066
+obj /usr/share/help/C/shotwell/share-slideshow.page 44de4d78ef8012f618058a1da1201886 1484011066
+obj /usr/share/help/C/shotwell/view-information.page 59e4a223892510b2b1b726cf8ab89cee 1484011066
+obj /usr/share/help/C/shotwell/share-export.page 961017a6df0cf8b6047557ff51a67de3 1484011066
+obj /usr/share/help/C/shotwell/other-multiple.page 677abbaac99ee41e005db38a72d4fcc8 1484011066
+obj /usr/share/help/C/shotwell/other-missing.page 5e67f9429b5b4747315eb121be7f382f 1484011066
+obj /usr/share/help/C/shotwell/formats.page e891b808107018d2cee8a895554f4b6d 1484011066
+obj /usr/share/help/C/shotwell/edit-date-time.page 57159e760cd5cfcbed8026ea536bceb9 1484011066
+obj /usr/share/help/C/shotwell/edit-rotate.page c0d8911f922265a694eaa719207e3139 1484011066
+obj /usr/share/help/C/shotwell/edit-crop.page 125df78f2dbe046cd9e01ec1caac5655 1484011066
+obj /usr/share/help/C/shotwell/other-files.page 226ee687e85dc6c8f71d57af487324d5 1484011066
+obj /usr/share/help/C/shotwell/edit-straighten.page cd67382799d431546ef3f8824e4d3c28 1484011066
+obj /usr/share/help/C/shotwell/share-send.page 9bf0a581b5fd2bf69719e41bd6008b51 1484011066
+obj /usr/share/help/C/shotwell/edit-external.page 78721652e060bd152f87076f292bd83a 1484011066
+obj /usr/share/help/C/shotwell/other-plugins.page eebc186c10bdace1371582eb763ebac0 1484011066
+obj /usr/share/help/C/shotwell/edit-enhance.page ac3093633f68a5936d1eb62540c28638 1484011066
 dir /usr/share/help/C/shotwell/figures
-obj /usr/share/help/C/shotwell/figures/trash_process.png ed596bda34c2f4a79a310fbc8bb51fd2 1475916293
-obj /usr/share/help/C/shotwell/figures/crop_thirds.jpg 4cf0a026bb812c7eab0c9db8210a9524 1475916292
-obj /usr/share/help/C/shotwell/figures/shotwell_logo.png 4b333499555b4e496b1a38f7899067f3 1475916293
-obj /usr/share/help/C/shotwell/figures/edit_toolbar.png 94601a0165805ddde399d986ce267864 1475916292
-obj /usr/share/help/C/shotwell/figures/editing_overview.png 102c60bb79dabc3c7fc96b129cd5db1a 1475916292
-obj /usr/share/help/C/shotwell/import-file.page c8a01858eb42bcbb93f42827e697ff0e 1475916287
+obj /usr/share/help/C/shotwell/figures/trash_process.png ed596bda34c2f4a79a310fbc8bb51fd2 1484011070
+obj /usr/share/help/C/shotwell/figures/crop_thirds.jpg 4cf0a026bb812c7eab0c9db8210a9524 1484011070
+obj /usr/share/help/C/shotwell/figures/shotwell_logo.png 4b333499555b4e496b1a38f7899067f3 1484011070
+obj /usr/share/help/C/shotwell/figures/edit_toolbar.png 94601a0165805ddde399d986ce267864 1484011070
+obj /usr/share/help/C/shotwell/figures/editing_overview.png 102c60bb79dabc3c7fc96b129cd5db1a 1484011070
+obj /usr/share/help/C/shotwell/import-file.page c8a01858eb42bcbb93f42827e697ff0e 1484011066
 dir /usr/share/help/el
 dir /usr/share/help/el/shotwell
-obj /usr/share/help/el/shotwell/organize-remove.page 1c1936d820d59a9f9b6abc87a07f8ce6 1475916289
-obj /usr/share/help/el/shotwell/import-memorycard.page bf662a70a54bd1777b6c18088d0a2a79 1475916289
-obj /usr/share/help/el/shotwell/import-camera.page aeaf4a110556cba5cd5c4a812d93ef06 1475916289
-obj /usr/share/help/el/shotwell/organize-tag.page 855f08b5c23a4ef3b1c9e1df5f175b38 1475916289
-obj /usr/share/help/el/shotwell/share-background.page 8c67b3cabc413413a70b80c160caa319 1475916289
-obj /usr/share/help/el/shotwell/running.page 9ca24fee7f7e7f05c0567676fe95e6d2 1475916289
-obj /usr/share/help/el/shotwell/organize-rating.page 2098badf9883d71355a2a4d94ab8087b 1475916289
-obj /usr/share/help/el/shotwell/organize-event.page f4651ffc2e5781e00d6b7bbf0b47982c 1475916289
-obj /usr/share/help/el/shotwell/view-sidebar.page 221dd0867113799965bf2bbbbc47f3e4 1475916289
-obj /usr/share/help/el/shotwell/organize-flag.page 98ff162809b5f0052162c14040f709b3 1475916289
-obj /usr/share/help/el/shotwell/index.page 8802c0e593b9b3eae8318048a3792b32 1475916289
-obj /usr/share/help/el/shotwell/share-upload.page 7e5f2f3840194e002068792bfd76b683 1475916289
-obj /usr/share/help/el/shotwell/view-displaying.page 9df9a468923c4ba9cfcf993f59523345 1475916289
-obj /usr/share/help/el/shotwell/edit-redeye.page 6a115c56021f537e49fcc52e8b2f9f8e 1475916289
-obj /usr/share/help/el/shotwell/share-print.page a1d71862674a89a77a620357ee4d6b59 1475916289
-obj /usr/share/help/el/shotwell/raw.page 75aeeae43897fca8e13bc6d094596bf3 1475916289
-obj /usr/share/help/el/shotwell/import-f-spot.page 1c4c94da3a7a99a4daf4dc3212b3d611 1475916289
-obj /usr/share/help/el/shotwell/edit-adjustments.page ef7d5a159857a78cc9b8869c2bf53619 1475916289
-obj /usr/share/help/el/shotwell/edit-nondestructive.page aa617e921e2f29b4fef59533b2a5f58b 1475916289
-obj /usr/share/help/el/shotwell/edit-undo.page 9d1196e03a3ad87022bb93e61389de01 1475916289
-obj /usr/share/help/el/shotwell/organize-search.page d9587b4c09e1b4d7f0415ea8c38ffb95 1475916289
-obj /usr/share/help/el/shotwell/organize-title.page ea50f2469041dc73331e2af79e20f532 1475916289
-obj /usr/share/help/el/shotwell/share-slideshow.page 0b69ad33b3a97ae44a6767ddbdd74e49 1475916289
-obj /usr/share/help/el/shotwell/view-information.page cdec3100bfdb3b492d67b224ceaae1f6 1475916289
-obj /usr/share/help/el/shotwell/share-export.page 42376dd562c71bc066400e1186e8e3b4 1475916289
-obj /usr/share/help/el/shotwell/other-multiple.page 2b494b173701e1ac726f745e0d1206cb 1475916289
-obj /usr/share/help/el/shotwell/other-missing.page 9fa78dda92518fba0e27ddb63b37bf1b 1475916289
-obj /usr/share/help/el/shotwell/formats.page efca24bd1e956af4181908f9d7415459 1475916289
-obj /usr/share/help/el/shotwell/edit-date-time.page be0d97a90b4c5dd952273dd0784797df 1475916289
-obj /usr/share/help/el/shotwell/edit-rotate.page 88a6338cdb378fa3501a035a71b6dc73 1475916289
-obj /usr/share/help/el/shotwell/edit-crop.page b4ae1c03272255a12027b823d69234f9 1475916289
-obj /usr/share/help/el/shotwell/other-files.page c11cb5e7f8bcfdb8611775456a794e02 1475916289
-obj /usr/share/help/el/shotwell/edit-straighten.page 8dd007a5855395bd73db4588cbc4492c 1475916289
-obj /usr/share/help/el/shotwell/share-send.page 690b1f61fa7a65fe089c985f11e27e5c 1475916289
-obj /usr/share/help/el/shotwell/edit-external.page adea7bfcbd0d1cb6e1c65924e88cc4a9 1475916289
-obj /usr/share/help/el/shotwell/other-plugins.page 01f51bed04d5144f0fe44e563fd4f1bf 1475916289
-obj /usr/share/help/el/shotwell/edit-enhance.page 8b12d2daf0cb6258fab1d8ae5189e00e 1475916289
+obj /usr/share/help/el/shotwell/organize-remove.page 1c1936d820d59a9f9b6abc87a07f8ce6 1484011068
+obj /usr/share/help/el/shotwell/import-memorycard.page bf662a70a54bd1777b6c18088d0a2a79 1484011067
+obj /usr/share/help/el/shotwell/import-camera.page aeaf4a110556cba5cd5c4a812d93ef06 1484011067
+obj /usr/share/help/el/shotwell/organize-tag.page 855f08b5c23a4ef3b1c9e1df5f175b38 1484011068
+obj /usr/share/help/el/shotwell/share-background.page 8c67b3cabc413413a70b80c160caa319 1484011068
+obj /usr/share/help/el/shotwell/running.page 9ca24fee7f7e7f05c0567676fe95e6d2 1484011068
+obj /usr/share/help/el/shotwell/organize-rating.page 2098badf9883d71355a2a4d94ab8087b 1484011068
+obj /usr/share/help/el/shotwell/organize-event.page f4651ffc2e5781e00d6b7bbf0b47982c 1484011068
+obj /usr/share/help/el/shotwell/view-sidebar.page 221dd0867113799965bf2bbbbc47f3e4 1484011068
+obj /usr/share/help/el/shotwell/organize-flag.page 98ff162809b5f0052162c14040f709b3 1484011068
+obj /usr/share/help/el/shotwell/index.page 8802c0e593b9b3eae8318048a3792b32 1484011067
+obj /usr/share/help/el/shotwell/share-upload.page 7e5f2f3840194e002068792bfd76b683 1484011068
+obj /usr/share/help/el/shotwell/view-displaying.page 9df9a468923c4ba9cfcf993f59523345 1484011068
+obj /usr/share/help/el/shotwell/edit-redeye.page 6a115c56021f537e49fcc52e8b2f9f8e 1484011067
+obj /usr/share/help/el/shotwell/share-print.page a1d71862674a89a77a620357ee4d6b59 1484011068
+obj /usr/share/help/el/shotwell/raw.page 75aeeae43897fca8e13bc6d094596bf3 1484011068
+obj /usr/share/help/el/shotwell/import-f-spot.page 1c4c94da3a7a99a4daf4dc3212b3d611 1484011067
+obj /usr/share/help/el/shotwell/edit-adjustments.page ef7d5a159857a78cc9b8869c2bf53619 1484011067
+obj /usr/share/help/el/shotwell/edit-nondestructive.page aa617e921e2f29b4fef59533b2a5f58b 1484011067
+obj /usr/share/help/el/shotwell/edit-undo.page 9d1196e03a3ad87022bb93e61389de01 1484011067
+obj /usr/share/help/el/shotwell/organize-search.page d9587b4c09e1b4d7f0415ea8c38ffb95 1484011068
+obj /usr/share/help/el/shotwell/organize-title.page ea50f2469041dc73331e2af79e20f532 1484011068
+obj /usr/share/help/el/shotwell/share-slideshow.page 0b69ad33b3a97ae44a6767ddbdd74e49 1484011068
+obj /usr/share/help/el/shotwell/view-information.page cdec3100bfdb3b492d67b224ceaae1f6 1484011068
+obj /usr/share/help/el/shotwell/share-export.page 42376dd562c71bc066400e1186e8e3b4 1484011068
+obj /usr/share/help/el/shotwell/other-multiple.page 2b494b173701e1ac726f745e0d1206cb 1484011068
+obj /usr/share/help/el/shotwell/other-missing.page 9fa78dda92518fba0e27ddb63b37bf1b 1484011068
+obj /usr/share/help/el/shotwell/formats.page efca24bd1e956af4181908f9d7415459 1484011067
+obj /usr/share/help/el/shotwell/edit-date-time.page be0d97a90b4c5dd952273dd0784797df 1484011067
+obj /usr/share/help/el/shotwell/edit-rotate.page 88a6338cdb378fa3501a035a71b6dc73 1484011067
+obj /usr/share/help/el/shotwell/edit-crop.page b4ae1c03272255a12027b823d69234f9 1484011067
+obj /usr/share/help/el/shotwell/other-files.page c11cb5e7f8bcfdb8611775456a794e02 1484011068
+obj /usr/share/help/el/shotwell/edit-straighten.page 8dd007a5855395bd73db4588cbc4492c 1484011067
+obj /usr/share/help/el/shotwell/share-send.page 690b1f61fa7a65fe089c985f11e27e5c 1484011068
+obj /usr/share/help/el/shotwell/edit-external.page adea7bfcbd0d1cb6e1c65924e88cc4a9 1484011067
+obj /usr/share/help/el/shotwell/other-plugins.page 01f51bed04d5144f0fe44e563fd4f1bf 1484011068
+obj /usr/share/help/el/shotwell/edit-enhance.page 8b12d2daf0cb6258fab1d8ae5189e00e 1484011067
 dir /usr/share/help/el/shotwell/figures
-sym /usr/share/help/el/shotwell/figures/trash_process.png -> ../../../C/shotwell/figures/trash_process.png 1475916300
-sym /usr/share/help/el/shotwell/figures/crop_thirds.jpg -> ../../../C/shotwell/figures/crop_thirds.jpg 1475916300
-sym /usr/share/help/el/shotwell/figures/shotwell_logo.png -> ../../../C/shotwell/figures/shotwell_logo.png 1475916300
-sym /usr/share/help/el/shotwell/figures/edit_toolbar.png -> ../../../C/shotwell/figures/edit_toolbar.png 1475916300
-sym /usr/share/help/el/shotwell/figures/editing_overview.png -> ../../../C/shotwell/figures/editing_overview.png 1475916300
-obj /usr/share/help/el/shotwell/import-file.page e4c7700dda2693a6d68ecfa0454191fb 1475916289
+sym /usr/share/help/el/shotwell/figures/trash_process.png -> ../../../C/shotwell/figures/trash_process.png 1484011080
+sym /usr/share/help/el/shotwell/figures/crop_thirds.jpg -> ../../../C/shotwell/figures/crop_thirds.jpg 1484011080
+sym /usr/share/help/el/shotwell/figures/shotwell_logo.png -> ../../../C/shotwell/figures/shotwell_logo.png 1484011080
+sym /usr/share/help/el/shotwell/figures/edit_toolbar.png -> ../../../C/shotwell/figures/edit_toolbar.png 1484011080
+sym /usr/share/help/el/shotwell/figures/editing_overview.png -> ../../../C/shotwell/figures/editing_overview.png 1484011080
+obj /usr/share/help/el/shotwell/import-file.page e4c7700dda2693a6d68ecfa0454191fb 1484011067
 dir /usr/share/help/cs
 dir /usr/share/help/cs/shotwell
-obj /usr/share/help/cs/shotwell/organize-remove.page f9ce54c8b4f9d7d977787ababf118617 1475916288
-obj /usr/share/help/cs/shotwell/import-memorycard.page aa96dbb5ffaf0408fb1d2513faf12d59 1475916288
-obj /usr/share/help/cs/shotwell/import-camera.page 0b549e7d5898f2a34cb1c40b279dadfb 1475916288
-obj /usr/share/help/cs/shotwell/organize-tag.page 34823221194df9d5ee8a794e7eb98a10 1475916288
-obj /usr/share/help/cs/shotwell/share-background.page 0cd859a76ee37298833dacd525ecb06d 1475916288
-obj /usr/share/help/cs/shotwell/running.page 3bd9cbb441a6f02d96254c6d05be99eb 1475916288
-obj /usr/share/help/cs/shotwell/organize-rating.page e7d4b4603d9e019bb6aae2e1819b62f2 1475916288
-obj /usr/share/help/cs/shotwell/organize-event.page 3018315bb78f4d4979499d142b8b5cce 1475916288
-obj /usr/share/help/cs/shotwell/view-sidebar.page 56cd453f1d595593fe13080d77e6d01f 1475916288
-obj /usr/share/help/cs/shotwell/organize-flag.page 78439fbd806919c97d4a17a7755f854e 1475916288
-obj /usr/share/help/cs/shotwell/index.page da8279985d190b384db6cb241cd94f9f 1475916288
-obj /usr/share/help/cs/shotwell/share-upload.page 101c988a8902f62019a1de752cf6c3e1 1475916288
-obj /usr/share/help/cs/shotwell/view-displaying.page ef3e84a88bc8654e0ee4fe651328c157 1475916288
-obj /usr/share/help/cs/shotwell/edit-redeye.page b7102d9feb1b23fc8b3548acc64a9c4e 1475916288
-obj /usr/share/help/cs/shotwell/share-print.page 2cc5d8e0c7558fe517f13b9695c907e4 1475916288
-obj /usr/share/help/cs/shotwell/raw.page c29b85ee5378ddf79c306b2858cc87f6 1475916288
-obj /usr/share/help/cs/shotwell/import-f-spot.page 513d81c220b7d4a9b8ad0a93936d9454 1475916288
-obj /usr/share/help/cs/shotwell/edit-adjustments.page d859a5c754416fff0cbc38b7deac4231 1475916288
-obj /usr/share/help/cs/shotwell/edit-nondestructive.page a739c709e90783f56703d14ac8d0cb18 1475916288
-obj /usr/share/help/cs/shotwell/edit-undo.page 29e881cd945485dcca2436d5971a50c7 1475916288
-obj /usr/share/help/cs/shotwell/organize-search.page 5bc75b01cba2d420b095e7b9fa39a415 1475916288
-obj /usr/share/help/cs/shotwell/organize-title.page 6b91163503e5956fe5ef858ff10e883b 1475916288
-obj /usr/share/help/cs/shotwell/share-slideshow.page 8b2aed9c7966afcab818891588f7ca82 1475916288
-obj /usr/share/help/cs/shotwell/view-information.page 3e529dfc4bb82969c8e67667f1478d0b 1475916288
-obj /usr/share/help/cs/shotwell/share-export.page d7f208f58dc2a657f9e6a9632df676ec 1475916288
-obj /usr/share/help/cs/shotwell/other-multiple.page d349d710e0cf097c7d855b5732e970b5 1475916288
-obj /usr/share/help/cs/shotwell/other-missing.page 7d3bfb9eda5268a702f20e9fc7c02152 1475916288
-obj /usr/share/help/cs/shotwell/formats.page 3ff1dd7a927bdf01c0ea121e73e8a00c 1475916288
-obj /usr/share/help/cs/shotwell/edit-date-time.page 81d6217922caf61e47ffad92075a807d 1475916288
-obj /usr/share/help/cs/shotwell/edit-rotate.page aaaa6fa3a6b5698ec33a201b2d049a0f 1475916288
-obj /usr/share/help/cs/shotwell/edit-crop.page 90b6527a60775962cffc42f1939ae7e9 1475916288
-obj /usr/share/help/cs/shotwell/other-files.page 71cea5bc68a65fd37352d7489f5eeec9 1475916288
-obj /usr/share/help/cs/shotwell/edit-straighten.page 46ff0fe5f9ec712317a25686a49aa390 1475916288
-obj /usr/share/help/cs/shotwell/share-send.page 8f794dd2c2c359b06d2b25de4414527b 1475916288
-obj /usr/share/help/cs/shotwell/edit-external.page 25ed5235f355ac89b29e2d18103161b7 1475916288
-obj /usr/share/help/cs/shotwell/other-plugins.page 1cab0188b1e64eb16d7b7342e2d1e3f3 1475916288
-obj /usr/share/help/cs/shotwell/edit-enhance.page d8bdf66413759a5e9ef09ca1ddb30219 1475916288
+obj /usr/share/help/cs/shotwell/organize-remove.page f9ce54c8b4f9d7d977787ababf118617 1484011067
+obj /usr/share/help/cs/shotwell/import-memorycard.page aa96dbb5ffaf0408fb1d2513faf12d59 1484011066
+obj /usr/share/help/cs/shotwell/import-camera.page 0b549e7d5898f2a34cb1c40b279dadfb 1484011066
+obj /usr/share/help/cs/shotwell/organize-tag.page 34823221194df9d5ee8a794e7eb98a10 1484011067
+obj /usr/share/help/cs/shotwell/share-background.page 0cd859a76ee37298833dacd525ecb06d 1484011067
+obj /usr/share/help/cs/shotwell/running.page 3bd9cbb441a6f02d96254c6d05be99eb 1484011067
+obj /usr/share/help/cs/shotwell/organize-rating.page e7d4b4603d9e019bb6aae2e1819b62f2 1484011067
+obj /usr/share/help/cs/shotwell/organize-event.page 3018315bb78f4d4979499d142b8b5cce 1484011066
+obj /usr/share/help/cs/shotwell/view-sidebar.page 56cd453f1d595593fe13080d77e6d01f 1484011067
+obj /usr/share/help/cs/shotwell/organize-flag.page 78439fbd806919c97d4a17a7755f854e 1484011066
+obj /usr/share/help/cs/shotwell/index.page da8279985d190b384db6cb241cd94f9f 1484011066
+obj /usr/share/help/cs/shotwell/share-upload.page 101c988a8902f62019a1de752cf6c3e1 1484011067
+obj /usr/share/help/cs/shotwell/view-displaying.page ef3e84a88bc8654e0ee4fe651328c157 1484011067
+obj /usr/share/help/cs/shotwell/edit-redeye.page b7102d9feb1b23fc8b3548acc64a9c4e 1484011066
+obj /usr/share/help/cs/shotwell/share-print.page 2cc5d8e0c7558fe517f13b9695c907e4 1484011067
+obj /usr/share/help/cs/shotwell/raw.page c29b85ee5378ddf79c306b2858cc87f6 1484011067
+obj /usr/share/help/cs/shotwell/import-f-spot.page 513d81c220b7d4a9b8ad0a93936d9454 1484011066
+obj /usr/share/help/cs/shotwell/edit-adjustments.page d859a5c754416fff0cbc38b7deac4231 1484011066
+obj /usr/share/help/cs/shotwell/edit-nondestructive.page a739c709e90783f56703d14ac8d0cb18 1484011066
+obj /usr/share/help/cs/shotwell/edit-undo.page 29e881cd945485dcca2436d5971a50c7 1484011066
+obj /usr/share/help/cs/shotwell/organize-search.page 5bc75b01cba2d420b095e7b9fa39a415 1484011067
+obj /usr/share/help/cs/shotwell/organize-title.page 6b91163503e5956fe5ef858ff10e883b 1484011067
+obj /usr/share/help/cs/shotwell/share-slideshow.page 8b2aed9c7966afcab818891588f7ca82 1484011067
+obj /usr/share/help/cs/shotwell/view-information.page 3e529dfc4bb82969c8e67667f1478d0b 1484011067
+obj /usr/share/help/cs/shotwell/share-export.page d7f208f58dc2a657f9e6a9632df676ec 1484011067
+obj /usr/share/help/cs/shotwell/other-multiple.page d349d710e0cf097c7d855b5732e970b5 1484011067
+obj /usr/share/help/cs/shotwell/other-missing.page 7d3bfb9eda5268a702f20e9fc7c02152 1484011067
+obj /usr/share/help/cs/shotwell/formats.page 3ff1dd7a927bdf01c0ea121e73e8a00c 1484011066
+obj /usr/share/help/cs/shotwell/edit-date-time.page 81d6217922caf61e47ffad92075a807d 1484011066
+obj /usr/share/help/cs/shotwell/edit-rotate.page aaaa6fa3a6b5698ec33a201b2d049a0f 1484011066
+obj /usr/share/help/cs/shotwell/edit-crop.page 90b6527a60775962cffc42f1939ae7e9 1484011066
+obj /usr/share/help/cs/shotwell/other-files.page 71cea5bc68a65fd37352d7489f5eeec9 1484011067
+obj /usr/share/help/cs/shotwell/edit-straighten.page 46ff0fe5f9ec712317a25686a49aa390 1484011066
+obj /usr/share/help/cs/shotwell/share-send.page 8f794dd2c2c359b06d2b25de4414527b 1484011067
+obj /usr/share/help/cs/shotwell/edit-external.page 25ed5235f355ac89b29e2d18103161b7 1484011066
+obj /usr/share/help/cs/shotwell/other-plugins.page 1cab0188b1e64eb16d7b7342e2d1e3f3 1484011067
+obj /usr/share/help/cs/shotwell/edit-enhance.page d8bdf66413759a5e9ef09ca1ddb30219 1484011066
 dir /usr/share/help/cs/shotwell/figures
-sym /usr/share/help/cs/shotwell/figures/trash_process.png -> ../../../C/shotwell/figures/trash_process.png 1475916300
-sym /usr/share/help/cs/shotwell/figures/crop_thirds.jpg -> ../../../C/shotwell/figures/crop_thirds.jpg 1475916300
-sym /usr/share/help/cs/shotwell/figures/shotwell_logo.png -> ../../../C/shotwell/figures/shotwell_logo.png 1475916300
-sym /usr/share/help/cs/shotwell/figures/edit_toolbar.png -> ../../../C/shotwell/figures/edit_toolbar.png 1475916300
-sym /usr/share/help/cs/shotwell/figures/editing_overview.png -> ../../../C/shotwell/figures/editing_overview.png 1475916300
-obj /usr/share/help/cs/shotwell/import-file.page ae8f6480070da39f3478b2dda0a297ce 1475916288
+sym /usr/share/help/cs/shotwell/figures/trash_process.png -> ../../../C/shotwell/figures/trash_process.png 1484011080
+sym /usr/share/help/cs/shotwell/figures/crop_thirds.jpg -> ../../../C/shotwell/figures/crop_thirds.jpg 1484011080
+sym /usr/share/help/cs/shotwell/figures/shotwell_logo.png -> ../../../C/shotwell/figures/shotwell_logo.png 1484011080
+sym /usr/share/help/cs/shotwell/figures/edit_toolbar.png -> ../../../C/shotwell/figures/edit_toolbar.png 1484011080
+sym /usr/share/help/cs/shotwell/figures/editing_overview.png -> ../../../C/shotwell/figures/editing_overview.png 1484011080
+obj /usr/share/help/cs/shotwell/import-file.page ae8f6480070da39f3478b2dda0a297ce 1484011066
 dir /usr/share/help/sv
 dir /usr/share/help/sv/shotwell
-obj /usr/share/help/sv/shotwell/organize-remove.page 72df8083e90f04b6b5fccdce0efd4b55 1475916292
-obj /usr/share/help/sv/shotwell/import-memorycard.page 7c2f702f11a597d9ac9fa4e266117853 1475916292
-obj /usr/share/help/sv/shotwell/import-camera.page bb176ec46598ad0f9cbfc0f7fe778a5f 1475916292
-obj /usr/share/help/sv/shotwell/organize-tag.page c5efc0fce31bcf45d3025eb74b6bedb8 1475916292
-obj /usr/share/help/sv/shotwell/share-background.page 8c7d771cd133e887f4abd961b7837e47 1475916292
-obj /usr/share/help/sv/shotwell/running.page 2035b447b2bf52d5510f4ef99c52b088 1475916292
-obj /usr/share/help/sv/shotwell/organize-rating.page 51fd144d05b95f5eecdaea32176e6188 1475916292
-obj /usr/share/help/sv/shotwell/organize-event.page 7ad72f1e7ece95a6c2fa256fb6e6a122 1475916292
-obj /usr/share/help/sv/shotwell/view-sidebar.page 8971beea01130f7930cc087c7e88e204 1475916292
-obj /usr/share/help/sv/shotwell/organize-flag.page 0167d0e8b52228e40d54ff33e9851760 1475916292
-obj /usr/share/help/sv/shotwell/index.page 405fe1fe66f11bd987874ba84bf32112 1475916292
-obj /usr/share/help/sv/shotwell/share-upload.page 679b0ff22f07bfa9eeb4dddbf6df83fb 1475916292
-obj /usr/share/help/sv/shotwell/view-displaying.page 427c717c65ae823f7598b5060c764e07 1475916292
-obj /usr/share/help/sv/shotwell/edit-redeye.page c271c727052e76e129b113f27813e8ec 1475916291
-obj /usr/share/help/sv/shotwell/share-print.page 295fa9ec018aef574341505e8e13a994 1475916292
-obj /usr/share/help/sv/shotwell/raw.page 3ea2aeb58c93b74c999657d13c4a2b12 1475916292
-obj /usr/share/help/sv/shotwell/import-f-spot.page 4222896051029c6ca364cd4a6a094848 1475916292
-obj /usr/share/help/sv/shotwell/edit-adjustments.page 3882075df25dc4c0993bea39849071d2 1475916291
-obj /usr/share/help/sv/shotwell/edit-nondestructive.page 8dc26e40544a655cf47c65776e686520 1475916291
-obj /usr/share/help/sv/shotwell/edit-undo.page 15e11b648160a89fe18056edda1d5251 1475916291
-obj /usr/share/help/sv/shotwell/organize-search.page b2a53d1ab8683ff134c07e583346dfdd 1475916292
-obj /usr/share/help/sv/shotwell/organize-title.page 6893e670065ff6189134fa576dfcca96 1475916292
-obj /usr/share/help/sv/shotwell/share-slideshow.page fe7d8ae0dfdbd1015cd69f97e862ce29 1475916292
-obj /usr/share/help/sv/shotwell/view-information.page 0ff627cdf49e0188c358bb63bc08ce95 1475916292
-obj /usr/share/help/sv/shotwell/share-export.page 8f168ee53d0b21797fbaf8c3711de44b 1475916292
-obj /usr/share/help/sv/shotwell/other-multiple.page abd81550468f3cfa2083fcba5323bd84 1475916292
-obj /usr/share/help/sv/shotwell/other-missing.page 643bbdd6518e6cc1ea05caf398c56590 1475916292
-obj /usr/share/help/sv/shotwell/formats.page 00d391d850ad824f1410d1eb94930bbe 1475916292
-obj /usr/share/help/sv/shotwell/edit-date-time.page c36cc5f663685c74e549b3c002295cb3 1475916291
-obj /usr/share/help/sv/shotwell/edit-rotate.page 37b8dbbd24f24987ee3baede7a1b4188 1475916291
-obj /usr/share/help/sv/shotwell/edit-crop.page 65582d3fc1f4a731a0c36fa1b548ff6d 1475916291
-obj /usr/share/help/sv/shotwell/other-files.page 95536a6bf43b191d01c5b8ab0622926f 1475916292
-obj /usr/share/help/sv/shotwell/edit-straighten.page d1f354df4c4e1162135c22c7fe1105d5 1475916291
-obj /usr/share/help/sv/shotwell/share-send.page df20b6a854c004fa599acb752af8d3f0 1475916292
-obj /usr/share/help/sv/shotwell/edit-external.page 689469359f855ff9f20bbeb1a3567d0a 1475916291
-obj /usr/share/help/sv/shotwell/other-plugins.page fcb57f4cccf87aa616ac2db5155e350c 1475916292
-obj /usr/share/help/sv/shotwell/edit-enhance.page cfd8425e1e7451d242b4d680db7acceb 1475916291
+obj /usr/share/help/sv/shotwell/organize-remove.page 72df8083e90f04b6b5fccdce0efd4b55 1484011069
+obj /usr/share/help/sv/shotwell/import-memorycard.page 7c2f702f11a597d9ac9fa4e266117853 1484011069
+obj /usr/share/help/sv/shotwell/import-camera.page bb176ec46598ad0f9cbfc0f7fe778a5f 1484011069
+obj /usr/share/help/sv/shotwell/organize-tag.page c5efc0fce31bcf45d3025eb74b6bedb8 1484011069
+obj /usr/share/help/sv/shotwell/share-background.page 8c7d771cd133e887f4abd961b7837e47 1484011070
+obj /usr/share/help/sv/shotwell/running.page 2035b447b2bf52d5510f4ef99c52b088 1484011070
+obj /usr/share/help/sv/shotwell/organize-rating.page 51fd144d05b95f5eecdaea32176e6188 1484011069
+obj /usr/share/help/sv/shotwell/organize-event.page 7ad72f1e7ece95a6c2fa256fb6e6a122 1484011069
+obj /usr/share/help/sv/shotwell/view-sidebar.page 8971beea01130f7930cc087c7e88e204 1484011070
+obj /usr/share/help/sv/shotwell/organize-flag.page 0167d0e8b52228e40d54ff33e9851760 1484011069
+obj /usr/share/help/sv/shotwell/index.page 405fe1fe66f11bd987874ba84bf32112 1484011069
+obj /usr/share/help/sv/shotwell/share-upload.page 679b0ff22f07bfa9eeb4dddbf6df83fb 1484011070
+obj /usr/share/help/sv/shotwell/view-displaying.page 427c717c65ae823f7598b5060c764e07 1484011070
+obj /usr/share/help/sv/shotwell/edit-redeye.page c271c727052e76e129b113f27813e8ec 1484011069
+obj /usr/share/help/sv/shotwell/share-print.page 295fa9ec018aef574341505e8e13a994 1484011070
+obj /usr/share/help/sv/shotwell/raw.page 3ea2aeb58c93b74c999657d13c4a2b12 1484011070
+obj /usr/share/help/sv/shotwell/import-f-spot.page 4222896051029c6ca364cd4a6a094848 1484011069
+obj /usr/share/help/sv/shotwell/edit-adjustments.page 3882075df25dc4c0993bea39849071d2 1484011069
+obj /usr/share/help/sv/shotwell/edit-nondestructive.page 8dc26e40544a655cf47c65776e686520 1484011069
+obj /usr/share/help/sv/shotwell/edit-undo.page 15e11b648160a89fe18056edda1d5251 1484011069
+obj /usr/share/help/sv/shotwell/organize-search.page b2a53d1ab8683ff134c07e583346dfdd 1484011069
+obj /usr/share/help/sv/shotwell/organize-title.page 6893e670065ff6189134fa576dfcca96 1484011070
+obj /usr/share/help/sv/shotwell/share-slideshow.page fe7d8ae0dfdbd1015cd69f97e862ce29 1484011070
+obj /usr/share/help/sv/shotwell/view-information.page 0ff627cdf49e0188c358bb63bc08ce95 1484011070
+obj /usr/share/help/sv/shotwell/share-export.page 8f168ee53d0b21797fbaf8c3711de44b 1484011070
+obj /usr/share/help/sv/shotwell/other-multiple.page abd81550468f3cfa2083fcba5323bd84 1484011070
+obj /usr/share/help/sv/shotwell/other-missing.page 643bbdd6518e6cc1ea05caf398c56590 1484011070
+obj /usr/share/help/sv/shotwell/formats.page 00d391d850ad824f1410d1eb94930bbe 1484011069
+obj /usr/share/help/sv/shotwell/edit-date-time.page c36cc5f663685c74e549b3c002295cb3 1484011069
+obj /usr/share/help/sv/shotwell/edit-rotate.page 37b8dbbd24f24987ee3baede7a1b4188 1484011069
+obj /usr/share/help/sv/shotwell/edit-crop.page 65582d3fc1f4a731a0c36fa1b548ff6d 1484011069
+obj /usr/share/help/sv/shotwell/other-files.page 95536a6bf43b191d01c5b8ab0622926f 1484011070
+obj /usr/share/help/sv/shotwell/edit-straighten.page d1f354df4c4e1162135c22c7fe1105d5 1484011069
+obj /usr/share/help/sv/shotwell/share-send.page df20b6a854c004fa599acb752af8d3f0 1484011070
+obj /usr/share/help/sv/shotwell/edit-external.page 689469359f855ff9f20bbeb1a3567d0a 1484011069
+obj /usr/share/help/sv/shotwell/other-plugins.page fcb57f4cccf87aa616ac2db5155e350c 1484011070
+obj /usr/share/help/sv/shotwell/edit-enhance.page cfd8425e1e7451d242b4d680db7acceb 1484011069
 dir /usr/share/help/sv/shotwell/figures
-sym /usr/share/help/sv/shotwell/figures/trash_process.png -> ../../../C/shotwell/figures/trash_process.png 1475916300
-sym /usr/share/help/sv/shotwell/figures/crop_thirds.jpg -> ../../../C/shotwell/figures/crop_thirds.jpg 1475916300
-sym /usr/share/help/sv/shotwell/figures/shotwell_logo.png -> ../../../C/shotwell/figures/shotwell_logo.png 1475916300
-sym /usr/share/help/sv/shotwell/figures/edit_toolbar.png -> ../../../C/shotwell/figures/edit_toolbar.png 1475916300
-sym /usr/share/help/sv/shotwell/figures/editing_overview.png -> ../../../C/shotwell/figures/editing_overview.png 1475916300
-obj /usr/share/help/sv/shotwell/import-file.page 345ed73165b624f35e4cec5c3546fb77 1475916292
+sym /usr/share/help/sv/shotwell/figures/trash_process.png -> ../../../C/shotwell/figures/trash_process.png 1484011080
+sym /usr/share/help/sv/shotwell/figures/crop_thirds.jpg -> ../../../C/shotwell/figures/crop_thirds.jpg 1484011080
+sym /usr/share/help/sv/shotwell/figures/shotwell_logo.png -> ../../../C/shotwell/figures/shotwell_logo.png 1484011080
+sym /usr/share/help/sv/shotwell/figures/edit_toolbar.png -> ../../../C/shotwell/figures/edit_toolbar.png 1484011080
+sym /usr/share/help/sv/shotwell/figures/editing_overview.png -> ../../../C/shotwell/figures/editing_overview.png 1484011080
+obj /usr/share/help/sv/shotwell/import-file.page 345ed73165b624f35e4cec5c3546fb77 1484011069
 dir /usr/share/doc
 dir /usr/share/doc/shotwell-0.23.7
-obj /usr/share/doc/shotwell-0.23.7/NEWS.bz2 fdea9ddc973a616b1a5ab758b9ca40f0 1475916297
-obj /usr/share/doc/shotwell-0.23.7/README.bz2 69d978d11d9033bcce2a1b0b0ec7bfb9 1475916297
-obj /usr/share/doc/shotwell-0.23.7/AUTHORS.bz2 970d943455d5bfd7aedb5f343853af84 1475916297
-obj /usr/share/doc/shotwell-0.23.7/ChangeLog.bz2 e0ba81e846af631ee32175b7710d1f51 1475916297
-obj /usr/share/doc/shotwell-0.23.7/THANKS.bz2 1e60df184cccf0af780320d59aa568ce 1475916297
+obj /usr/share/doc/shotwell-0.23.7/NEWS.bz2 fdea9ddc973a616b1a5ab758b9ca40f0 1484011074
+obj /usr/share/doc/shotwell-0.23.7/README.bz2 69d978d11d9033bcce2a1b0b0ec7bfb9 1484011074
+obj /usr/share/doc/shotwell-0.23.7/AUTHORS.bz2 970d943455d5bfd7aedb5f343853af84 1484011074
+obj /usr/share/doc/shotwell-0.23.7/ChangeLog.bz2 e0ba81e846af631ee32175b7710d1f51 1484011074
+obj /usr/share/doc/shotwell-0.23.7/THANKS.bz2 1e60df184cccf0af780320d59aa568ce 1484011074
 dir /usr/share/locale
 dir /usr/share/locale/ia
 dir /usr/share/locale/ia/LC_MESSAGES
-obj /usr/share/locale/ia/LC_MESSAGES/shotwell.mo b8830037f8dde07ece680cac0f3eb20f 1475916294
+obj /usr/share/locale/ia/LC_MESSAGES/shotwell.mo b8830037f8dde07ece680cac0f3eb20f 1484011071
 dir /usr/share/locale/sl
 dir /usr/share/locale/sl/LC_MESSAGES
-obj /usr/share/locale/sl/LC_MESSAGES/shotwell.mo 2f26a54171af027d18d54279d22050fb 1475916294
+obj /usr/share/locale/sl/LC_MESSAGES/shotwell.mo 2f26a54171af027d18d54279d22050fb 1484011071
 dir /usr/share/locale/te
 dir /usr/share/locale/te/LC_MESSAGES
-obj /usr/share/locale/te/LC_MESSAGES/shotwell.mo 647ec716f37a86f6dd5e63217c99bcdd 1475916294
+obj /usr/share/locale/te/LC_MESSAGES/shotwell.mo 647ec716f37a86f6dd5e63217c99bcdd 1484011071
 dir /usr/share/locale/hu
 dir /usr/share/locale/hu/LC_MESSAGES
-obj /usr/share/locale/hu/LC_MESSAGES/shotwell.mo 7837965398c1077ebcc00c2fbc2cb588 1475916294
+obj /usr/share/locale/hu/LC_MESSAGES/shotwell.mo 7837965398c1077ebcc00c2fbc2cb588 1484011071
 dir /usr/share/locale/uk
 dir /usr/share/locale/uk/LC_MESSAGES
-obj /usr/share/locale/uk/LC_MESSAGES/shotwell.mo 76c5b5f9e71e3f49fe250f0346dc18e2 1475916294
+obj /usr/share/locale/uk/LC_MESSAGES/shotwell.mo 76c5b5f9e71e3f49fe250f0346dc18e2 1484011071
 dir /usr/share/locale/nl
 dir /usr/share/locale/nl/LC_MESSAGES
-obj /usr/share/locale/nl/LC_MESSAGES/shotwell.mo 1e0db1d9d7e930facbb255ff9253fbf4 1475916294
+obj /usr/share/locale/nl/LC_MESSAGES/shotwell.mo 1e0db1d9d7e930facbb255ff9253fbf4 1484011071
 dir /usr/share/locale/bn
 dir /usr/share/locale/bn/LC_MESSAGES
-obj /usr/share/locale/bn/LC_MESSAGES/shotwell.mo 8411b536b4c4b1893ebea12159b95ba4 1475916293
+obj /usr/share/locale/bn/LC_MESSAGES/shotwell.mo 8411b536b4c4b1893ebea12159b95ba4 1484011070
 dir /usr/share/locale/he
 dir /usr/share/locale/he/LC_MESSAGES
-obj /usr/share/locale/he/LC_MESSAGES/shotwell.mo 3faef9010e5325f84839b3b2823fb0f6 1475916293
+obj /usr/share/locale/he/LC_MESSAGES/shotwell.mo 3faef9010e5325f84839b3b2823fb0f6 1484011071
 dir /usr/share/locale/sr
 dir /usr/share/locale/sr/LC_MESSAGES
-obj /usr/share/locale/sr/LC_MESSAGES/shotwell.mo a1d978ba0cff95c273d8f782cefb90c0 1475916294
+obj /usr/share/locale/sr/LC_MESSAGES/shotwell.mo a1d978ba0cff95c273d8f782cefb90c0 1484011071
 dir /usr/share/locale/hi
 dir /usr/share/locale/hi/LC_MESSAGES
-obj /usr/share/locale/hi/LC_MESSAGES/shotwell.mo f5d0877ef34724fb3e0c07c40e7cd80a 1475916293
+obj /usr/share/locale/hi/LC_MESSAGES/shotwell.mo f5d0877ef34724fb3e0c07c40e7cd80a 1484011071
 dir /usr/share/locale/tr
 dir /usr/share/locale/tr/LC_MESSAGES
-obj /usr/share/locale/tr/LC_MESSAGES/shotwell.mo 117a0a175d0bb3ffe41e6a1ff400bff7 1475916294
+obj /usr/share/locale/tr/LC_MESSAGES/shotwell.mo 117a0a175d0bb3ffe41e6a1ff400bff7 1484011071
 dir /usr/share/locale/it
 dir /usr/share/locale/it/LC_MESSAGES
-obj /usr/share/locale/it/LC_MESSAGES/shotwell.mo 92c86da9bab4a07603bb0c0403d9e2b9 1475916294
+obj /usr/share/locale/it/LC_MESSAGES/shotwell.mo 92c86da9bab4a07603bb0c0403d9e2b9 1484011071
 dir /usr/share/locale/ta
 dir /usr/share/locale/ta/LC_MESSAGES
-obj /usr/share/locale/ta/LC_MESSAGES/shotwell.mo 1de1ec4d79ce58c11e44e4307848e36e 1475916294
+obj /usr/share/locale/ta/LC_MESSAGES/shotwell.mo 1de1ec4d79ce58c11e44e4307848e36e 1484011071
 dir /usr/share/locale/bg
 dir /usr/share/locale/bg/LC_MESSAGES
-obj /usr/share/locale/bg/LC_MESSAGES/shotwell.mo 8eeee2af997896c1e7f6d22581610980 1475916293
+obj /usr/share/locale/bg/LC_MESSAGES/shotwell.mo 8eeee2af997896c1e7f6d22581610980 1484011070
 dir /usr/share/locale/pt
 dir /usr/share/locale/pt/LC_MESSAGES
-obj /usr/share/locale/pt/LC_MESSAGES/shotwell.mo cddad41ce0fa77a077613189b7684d16 1475916294
+obj /usr/share/locale/pt/LC_MESSAGES/shotwell.mo cddad41ce0fa77a077613189b7684d16 1484011071
 dir /usr/share/locale/id
 dir /usr/share/locale/id/LC_MESSAGES
-obj /usr/share/locale/id/LC_MESSAGES/shotwell.mo 0731e8fbf53c26afc5d9928a2def767c 1475916294
+obj /usr/share/locale/id/LC_MESSAGES/shotwell.mo 0731e8fbf53c26afc5d9928a2def767c 1484011071
 dir /usr/share/locale/af
 dir /usr/share/locale/af/LC_MESSAGES
-obj /usr/share/locale/af/LC_MESSAGES/shotwell.mo 37ffc7b5767ebf400cc1d093fb8b4bce 1475916293
+obj /usr/share/locale/af/LC_MESSAGES/shotwell.mo 37ffc7b5767ebf400cc1d093fb8b4bce 1484011070
 dir /usr/share/locale/mk
 dir /usr/share/locale/mk/LC_MESSAGES
-obj /usr/share/locale/mk/LC_MESSAGES/shotwell.mo f42262db686659d3e5115e19fe952102 1475916294
+obj /usr/share/locale/mk/LC_MESSAGES/shotwell.mo f42262db686659d3e5115e19fe952102 1484011071
 dir /usr/share/locale/bn_IN
 dir /usr/share/locale/bn_IN/LC_MESSAGES
-obj /usr/share/locale/bn_IN/LC_MESSAGES/shotwell.mo db42f59cd73376bae1999d38d489f347 1475916293
+obj /usr/share/locale/bn_IN/LC_MESSAGES/shotwell.mo db42f59cd73376bae1999d38d489f347 1484011070
 dir /usr/share/locale/ko
 dir /usr/share/locale/ko/LC_MESSAGES
-obj /usr/share/locale/ko/LC_MESSAGES/shotwell.mo c27b9b9cd2ecc15a0eeb75a6916e5e55 1475916294
+obj /usr/share/locale/ko/LC_MESSAGES/shotwell.mo c27b9b9cd2ecc15a0eeb75a6916e5e55 1484011071
 dir /usr/share/locale/eu
 dir /usr/share/locale/eu/LC_MESSAGES
-obj /usr/share/locale/eu/LC_MESSAGES/shotwell.mo be4f59a48b6a5de0a374d2dc091177a8 1475916293
+obj /usr/share/locale/eu/LC_MESSAGES/shotwell.mo be4f59a48b6a5de0a374d2dc091177a8 1484011070
 dir /usr/share/locale/pa
 dir /usr/share/locale/pa/LC_MESSAGES
-obj /usr/share/locale/pa/LC_MESSAGES/shotwell.mo 0222178d616a54fab62d0344b7ce9481 1475916294
+obj /usr/share/locale/pa/LC_MESSAGES/shotwell.mo 0222178d616a54fab62d0344b7ce9481 1484011071
 dir /usr/share/locale/pt_BR
 dir /usr/share/locale/pt_BR/LC_MESSAGES
-obj /usr/share/locale/pt_BR/LC_MESSAGES/shotwell.mo 7665b81ed9c88a5b26960d70cdfa0ee3 1475916294
+obj /usr/share/locale/pt_BR/LC_MESSAGES/shotwell.mo 7665b81ed9c88a5b26960d70cdfa0ee3 1484011071
 dir /usr/share/locale/ky
 dir /usr/share/locale/ky/LC_MESSAGES
-obj /usr/share/locale/ky/LC_MESSAGES/shotwell.mo b5de3a11f259040d2da00b6b1a20ff03 1475916294
+obj /usr/share/locale/ky/LC_MESSAGES/shotwell.mo b5de3a11f259040d2da00b6b1a20ff03 1484011071
 dir /usr/share/locale/de
 dir /usr/share/locale/de/LC_MESSAGES
-obj /usr/share/locale/de/LC_MESSAGES/shotwell.mo 4076316b5c55c24e19f5efbfc0748536 1475916293
+obj /usr/share/locale/de/LC_MESSAGES/shotwell.mo 4076316b5c55c24e19f5efbfc0748536 1484011070
 dir /usr/share/locale/kk
 dir /usr/share/locale/kk/LC_MESSAGES
-obj /usr/share/locale/kk/LC_MESSAGES/shotwell.mo 1c95aa178b40746a4e4153cb5efff491 1475916294
+obj /usr/share/locale/kk/LC_MESSAGES/shotwell.mo 1c95aa178b40746a4e4153cb5efff491 1484011071
 dir /usr/share/locale/nn
 dir /usr/share/locale/nn/LC_MESSAGES
-obj /usr/share/locale/nn/LC_MESSAGES/shotwell.mo 408baa7b02aeadd386922f303fdd883f 1475916294
+obj /usr/share/locale/nn/LC_MESSAGES/shotwell.mo 408baa7b02aeadd386922f303fdd883f 1484011071
 dir /usr/share/locale/es
 dir /usr/share/locale/es/LC_MESSAGES
-obj /usr/share/locale/es/LC_MESSAGES/shotwell.mo 6a0e7cefdd42d5298b9df0a0f8fcbbde 1475916293
+obj /usr/share/locale/es/LC_MESSAGES/shotwell.mo 6a0e7cefdd42d5298b9df0a0f8fcbbde 1484011070
 dir /usr/share/locale/nb
 dir /usr/share/locale/nb/LC_MESSAGES
-obj /usr/share/locale/nb/LC_MESSAGES/shotwell.mo 5c1587c8416f09b79b9eb206acc18c74 1475916294
+obj /usr/share/locale/nb/LC_MESSAGES/shotwell.mo 5c1587c8416f09b79b9eb206acc18c74 1484011071
 dir /usr/share/locale/ca
 dir /usr/share/locale/ca/LC_MESSAGES
-obj /usr/share/locale/ca/LC_MESSAGES/shotwell.mo 765b4bebcdc415cc019d960e848fe442 1475916293
+obj /usr/share/locale/ca/LC_MESSAGES/shotwell.mo 765b4bebcdc415cc019d960e848fe442 1484011070
 dir /usr/share/locale/lv
 dir /usr/share/locale/lv/LC_MESSAGES
-obj /usr/share/locale/lv/LC_MESSAGES/shotwell.mo 13f51bfbbb5cf9eb24692efc490e7793 1475916294
+obj /usr/share/locale/lv/LC_MESSAGES/shotwell.mo 13f51bfbbb5cf9eb24692efc490e7793 1484011071
 dir /usr/share/locale/vi
 dir /usr/share/locale/vi/LC_MESSAGES
-obj /usr/share/locale/vi/LC_MESSAGES/shotwell.mo 73611c0bb42c66093e789f42973f024f 1475916294
+obj /usr/share/locale/vi/LC_MESSAGES/shotwell.mo 73611c0bb42c66093e789f42973f024f 1484011071
 dir /usr/share/locale/hr
 dir /usr/share/locale/hr/LC_MESSAGES
-obj /usr/share/locale/hr/LC_MESSAGES/shotwell.mo a20d223a5bacf2afaf658a02da4add01 1475916293
+obj /usr/share/locale/hr/LC_MESSAGES/shotwell.mo a20d223a5bacf2afaf658a02da4add01 1484011071
 dir /usr/share/locale/kn
 dir /usr/share/locale/kn/LC_MESSAGES
-obj /usr/share/locale/kn/LC_MESSAGES/shotwell.mo 56d412112d9273526ed1b94bcbd3fe7f 1475916294
+obj /usr/share/locale/kn/LC_MESSAGES/shotwell.mo 56d412112d9273526ed1b94bcbd3fe7f 1484011071
 dir /usr/share/locale/ja
 dir /usr/share/locale/ja/LC_MESSAGES
-obj /usr/share/locale/ja/LC_MESSAGES/shotwell.mo 0eef3b9cd457413a9c8f4de7a8d664d2 1475916294
+obj /usr/share/locale/ja/LC_MESSAGES/shotwell.mo 0eef3b9cd457413a9c8f4de7a8d664d2 1484011071
 dir /usr/share/locale/ru
 dir /usr/share/locale/ru/LC_MESSAGES
-obj /usr/share/locale/ru/LC_MESSAGES/shotwell.mo 506ea0b74324be7731839600fc645084 1475916294
+obj /usr/share/locale/ru/LC_MESSAGES/shotwell.mo 506ea0b74324be7731839600fc645084 1484011071
 dir /usr/share/locale/sk
 dir /usr/share/locale/sk/LC_MESSAGES
-obj /usr/share/locale/sk/LC_MESSAGES/shotwell.mo 9bfb818f1bf752f4b2226f47e48322c5 1475916294
+obj /usr/share/locale/sk/LC_MESSAGES/shotwell.mo 9bfb818f1bf752f4b2226f47e48322c5 1484011071
 dir /usr/share/locale/et
 dir /usr/share/locale/et/LC_MESSAGES
-obj /usr/share/locale/et/LC_MESSAGES/shotwell.mo c4076884421ce2ab43c19c1a54402bbc 1475916293
+obj /usr/share/locale/et/LC_MESSAGES/shotwell.mo c4076884421ce2ab43c19c1a54402bbc 1484011070
 dir /usr/share/locale/km
 dir /usr/share/locale/km/LC_MESSAGES
-obj /usr/share/locale/km/LC_MESSAGES/shotwell.mo ab6f26ff2850cae06dfb49b2dd759f7e 1475916294
+obj /usr/share/locale/km/LC_MESSAGES/shotwell.mo ab6f26ff2850cae06dfb49b2dd759f7e 1484011071
 dir /usr/share/locale/zh_CN
 dir /usr/share/locale/zh_CN/LC_MESSAGES
-obj /usr/share/locale/zh_CN/LC_MESSAGES/shotwell.mo 7b324df11331ecb8646310d32285ed6a 1475916295
+obj /usr/share/locale/zh_CN/LC_MESSAGES/shotwell.mo 7b324df11331ecb8646310d32285ed6a 1484011071
 dir /usr/share/locale/eo
 dir /usr/share/locale/eo/LC_MESSAGES
-obj /usr/share/locale/eo/LC_MESSAGES/shotwell.mo 28db0a1b1d3431c3f7260bea919b75b7 1475916293
+obj /usr/share/locale/eo/LC_MESSAGES/shotwell.mo 28db0a1b1d3431c3f7260bea919b75b7 1484011070
 dir /usr/share/locale/ml
 dir /usr/share/locale/ml/LC_MESSAGES
-obj /usr/share/locale/ml/LC_MESSAGES/shotwell.mo 285a08de87d2f2775fe58741ee4e6347 1475916294
+obj /usr/share/locale/ml/LC_MESSAGES/shotwell.mo 285a08de87d2f2775fe58741ee4e6347 1484011071
 dir /usr/share/locale/mr
 dir /usr/share/locale/mr/LC_MESSAGES
-obj /usr/share/locale/mr/LC_MESSAGES/shotwell.mo ac8219d97b092da7c954e0b4f318ff49 1475916294
+obj /usr/share/locale/mr/LC_MESSAGES/shotwell.mo ac8219d97b092da7c954e0b4f318ff49 1484011071
 dir /usr/share/locale/th
 dir /usr/share/locale/th/LC_MESSAGES
-obj /usr/share/locale/th/LC_MESSAGES/shotwell.mo 7734c1e53a0d41473c1f223a92770fa3 1475916294
+obj /usr/share/locale/th/LC_MESSAGES/shotwell.mo 7734c1e53a0d41473c1f223a92770fa3 1484011071
 dir /usr/share/locale/gd
 dir /usr/share/locale/gd/LC_MESSAGES
-obj /usr/share/locale/gd/LC_MESSAGES/shotwell.mo 697cc27e603a1c59d8f5b769ea9633d8 1475916293
+obj /usr/share/locale/gd/LC_MESSAGES/shotwell.mo 697cc27e603a1c59d8f5b769ea9633d8 1484011070
 dir /usr/share/locale/el
 dir /usr/share/locale/el/LC_MESSAGES
-obj /usr/share/locale/el/LC_MESSAGES/shotwell.mo 6f0516766c188aa4b22fd07dc3b6cd4b 1475916293
+obj /usr/share/locale/el/LC_MESSAGES/shotwell.mo 6f0516766c188aa4b22fd07dc3b6cd4b 1484011070
 dir /usr/share/locale/gu
 dir /usr/share/locale/gu/LC_MESSAGES
-obj /usr/share/locale/gu/LC_MESSAGES/shotwell.mo 1fa08b7b5aaa6c23a4f3bef2be5e577e 1475916293
+obj /usr/share/locale/gu/LC_MESSAGES/shotwell.mo 1fa08b7b5aaa6c23a4f3bef2be5e577e 1484011071
 dir /usr/share/locale/sr@latin
 dir /usr/share/locale/sr@latin/LC_MESSAGES
-obj /usr/share/locale/sr@latin/LC_MESSAGES/shotwell.mo b38c0e201b718cf6d8385c4eef5ac061 1475916294
+obj /usr/share/locale/sr@latin/LC_MESSAGES/shotwell.mo b38c0e201b718cf6d8385c4eef5ac061 1484011071
 dir /usr/share/locale/as
 dir /usr/share/locale/as/LC_MESSAGES
-obj /usr/share/locale/as/LC_MESSAGES/shotwell.mo f31ce641263eff840c33a59e8671dbad 1475916293
+obj /usr/share/locale/as/LC_MESSAGES/shotwell.mo f31ce641263eff840c33a59e8671dbad 1484011070
 dir /usr/share/locale/fr
 dir /usr/share/locale/fr/LC_MESSAGES
-obj /usr/share/locale/fr/LC_MESSAGES/shotwell.mo aa1f01f948362c7304893e3b67df4b08 1475916293
+obj /usr/share/locale/fr/LC_MESSAGES/shotwell.mo aa1f01f948362c7304893e3b67df4b08 1484011070
 dir /usr/share/locale/zh_TW
 dir /usr/share/locale/zh_TW/LC_MESSAGES
-obj /usr/share/locale/zh_TW/LC_MESSAGES/shotwell.mo e3e7143e57e905da32a9feb91d3014e7 1475916295
+obj /usr/share/locale/zh_TW/LC_MESSAGES/shotwell.mo e3e7143e57e905da32a9feb91d3014e7 1484011071
 dir /usr/share/locale/lt
 dir /usr/share/locale/lt/LC_MESSAGES
-obj /usr/share/locale/lt/LC_MESSAGES/shotwell.mo a2a653b1bccdca4782f4239cb10de6db 1475916294
+obj /usr/share/locale/lt/LC_MESSAGES/shotwell.mo a2a653b1bccdca4782f4239cb10de6db 1484011071
 dir /usr/share/locale/ro
 dir /usr/share/locale/ro/LC_MESSAGES
-obj /usr/share/locale/ro/LC_MESSAGES/shotwell.mo 58b4447b5665b3e8bd9a379f3a9e9951 1475916294
+obj /usr/share/locale/ro/LC_MESSAGES/shotwell.mo 58b4447b5665b3e8bd9a379f3a9e9951 1484011071
 dir /usr/share/locale/gl
 dir /usr/share/locale/gl/LC_MESSAGES
-obj /usr/share/locale/gl/LC_MESSAGES/shotwell.mo 766dda5dc9b8ff810d072534f4d15ee6 1475916293
+obj /usr/share/locale/gl/LC_MESSAGES/shotwell.mo 766dda5dc9b8ff810d072534f4d15ee6 1484011071
 dir /usr/share/locale/da
 dir /usr/share/locale/da/LC_MESSAGES
-obj /usr/share/locale/da/LC_MESSAGES/shotwell.mo 9cdb8ca7a778fce12fbd8227dcc6422c 1475916293
+obj /usr/share/locale/da/LC_MESSAGES/shotwell.mo 9cdb8ca7a778fce12fbd8227dcc6422c 1484011070
 dir /usr/share/locale/cs
 dir /usr/share/locale/cs/LC_MESSAGES
-obj /usr/share/locale/cs/LC_MESSAGES/shotwell.mo a087f238eed003e74e7229e784cb8a26 1475916293
+obj /usr/share/locale/cs/LC_MESSAGES/shotwell.mo a087f238eed003e74e7229e784cb8a26 1484011070
 dir /usr/share/locale/ast
 dir /usr/share/locale/ast/LC_MESSAGES
-obj /usr/share/locale/ast/LC_MESSAGES/shotwell.mo 0f673218204ec21d5f061a96076ff8f5 1475916293
+obj /usr/share/locale/ast/LC_MESSAGES/shotwell.mo 0f673218204ec21d5f061a96076ff8f5 1484011070
 dir /usr/share/locale/pl
 dir /usr/share/locale/pl/LC_MESSAGES
-obj /usr/share/locale/pl/LC_MESSAGES/shotwell.mo 1945177f38d09fe9fd5f5f07ff588fcf 1475916294
+obj /usr/share/locale/pl/LC_MESSAGES/shotwell.mo 1945177f38d09fe9fd5f5f07ff588fcf 1484011071
 dir /usr/share/locale/oc
 dir /usr/share/locale/oc/LC_MESSAGES
-obj /usr/share/locale/oc/LC_MESSAGES/shotwell.mo 7cffa65f4d6c53dc90e09f1233be2add 1475916294
+obj /usr/share/locale/oc/LC_MESSAGES/shotwell.mo 7cffa65f4d6c53dc90e09f1233be2add 1484011071
 dir /usr/share/locale/en_GB
 dir /usr/share/locale/en_GB/LC_MESSAGES
-obj /usr/share/locale/en_GB/LC_MESSAGES/shotwell.mo da5b82aa5314866baf01042a43492923 1475916293
+obj /usr/share/locale/en_GB/LC_MESSAGES/shotwell.mo da5b82aa5314866baf01042a43492923 1484011070
 dir /usr/share/locale/ar
 dir /usr/share/locale/ar/LC_MESSAGES
-obj /usr/share/locale/ar/LC_MESSAGES/shotwell.mo e9197b34a2f6cf186ce1b889976a44b8 1475916293
+obj /usr/share/locale/ar/LC_MESSAGES/shotwell.mo e9197b34a2f6cf186ce1b889976a44b8 1484011070
 dir /usr/share/locale/zh_HK
 dir /usr/share/locale/zh_HK/LC_MESSAGES
-obj /usr/share/locale/zh_HK/LC_MESSAGES/shotwell.mo 73fe448c87e557825cec21818f6e469e 1475916295
+obj /usr/share/locale/zh_HK/LC_MESSAGES/shotwell.mo 73fe448c87e557825cec21818f6e469e 1484011071
 dir /usr/share/locale/fi
 dir /usr/share/locale/fi/LC_MESSAGES
-obj /usr/share/locale/fi/LC_MESSAGES/shotwell.mo 7d3a99817368bde04bbe973a79abe164 1475916293
+obj /usr/share/locale/fi/LC_MESSAGES/shotwell.mo 7d3a99817368bde04bbe973a79abe164 1484011070
 dir /usr/share/locale/sv
 dir /usr/share/locale/sv/LC_MESSAGES
-obj /usr/share/locale/sv/LC_MESSAGES/shotwell.mo 174b04458521d720c29e3bb953eee432 1475916294
+obj /usr/share/locale/sv/LC_MESSAGES/shotwell.mo 174b04458521d720c29e3bb953eee432 1484011071
 dir /usr/share/locale/bs
 dir /usr/share/locale/bs/LC_MESSAGES
-obj /usr/share/locale/bs/LC_MESSAGES/shotwell.mo 6cab1aa31e7225442771f7bcc44fa65d 1475916293
+obj /usr/share/locale/bs/LC_MESSAGES/shotwell.mo 6cab1aa31e7225442771f7bcc44fa65d 1484011070
 dir /usr/share/locale/or
 dir /usr/share/locale/or/LC_MESSAGES
-obj /usr/share/locale/or/LC_MESSAGES/shotwell.mo 93e3cf193958a10828eb2c5408e5a528 1475916294
+obj /usr/share/locale/or/LC_MESSAGES/shotwell.mo 93e3cf193958a10828eb2c5408e5a528 1484011071
 dir /usr/share/man
 dir /usr/share/man/man1
-obj /usr/share/man/man1/shotwell.1.bz2 5d32144631920ea442ac089ed0238ba3 1475916287
+obj /usr/share/man/man1/shotwell.1.bz2 5d32144631920ea442ac089ed0238ba3 1484011066
 dir /usr/share/applications
-obj /usr/share/applications/shotwell.desktop c1db7feb227fd83c346b90e5ec958a69 1475916287
-obj /usr/share/applications/shotwell-viewer.desktop 39485b4427a1191346b3f94ce3842e94 1475916287
+obj /usr/share/applications/shotwell.desktop bb232d30ffc786e1eedf16a149dc5b8c 1484011065
+obj /usr/share/applications/shotwell-viewer.desktop 39485b4427a1191346b3f94ce3842e94 1484011065
 dir /usr/share/icons
 dir /usr/share/icons/hicolor
 dir /usr/share/icons/hicolor/48x48
 dir /usr/share/icons/hicolor/48x48/apps
-obj /usr/share/icons/hicolor/48x48/apps/shotwell.png 1778429eb29f893f9c5a7b3c7606ed99 1475916295
+obj /usr/share/icons/hicolor/48x48/apps/shotwell.png 1778429eb29f893f9c5a7b3c7606ed99 1484011071
 dir /usr/share/icons/hicolor/symbolic
 dir /usr/share/icons/hicolor/symbolic/apps
-obj /usr/share/icons/hicolor/symbolic/apps/shotwell-symbolic.svg c36bdada3bbf37b774d7f22dc91d7347 1475916295
+obj /usr/share/icons/hicolor/symbolic/apps/shotwell-symbolic.svg c36bdada3bbf37b774d7f22dc91d7347 1484011071
 dir /usr/share/icons/hicolor/32x32
 dir /usr/share/icons/hicolor/32x32/apps
-obj /usr/share/icons/hicolor/32x32/apps/shotwell.png effc176fbbbf9ff409adefeb81f2ae87 1475916295
+obj /usr/share/icons/hicolor/32x32/apps/shotwell.png effc176fbbbf9ff409adefeb81f2ae87 1484011071
 dir /usr/share/icons/hicolor/256x256
 dir /usr/share/icons/hicolor/256x256/apps
-obj /usr/share/icons/hicolor/256x256/apps/shotwell.png 3f445dfa417094bf30aa31f86b256136 1475916295
+obj /usr/share/icons/hicolor/256x256/apps/shotwell.png 3f445dfa417094bf30aa31f86b256136 1484011071
 dir /usr/share/icons/hicolor/16x16
 dir /usr/share/icons/hicolor/16x16/apps
-obj /usr/share/icons/hicolor/16x16/apps/shotwell.png 5fa43895cedd494b7652464c763ee8ec 1475916295
+obj /usr/share/icons/hicolor/16x16/apps/shotwell.png 5fa43895cedd494b7652464c763ee8ec 1484011071
 dir /usr/share/icons/hicolor/24x24
 dir /usr/share/icons/hicolor/24x24/apps
-obj /usr/share/icons/hicolor/24x24/apps/shotwell.png fe62990bbe2e035aedec556cbc45041c 1475916295
+obj /usr/share/icons/hicolor/24x24/apps/shotwell.png fe62990bbe2e035aedec556cbc45041c 1484011071
 dir /usr/share/icons/hicolor/22x22
 dir /usr/share/icons/hicolor/22x22/apps
-obj /usr/share/icons/hicolor/22x22/apps/shotwell.png e0d7b85a5987675919b9beb159fbaeb8 1475916295
-sym /usr/share/help/es/shotwell/figures/editing_overview.png -> ../../../C/shotwell/figures/editing_overview.png 1475916300
-sym /usr/share/help/es/shotwell/figures/edit_toolbar.png -> ../../../C/shotwell/figures/edit_toolbar.png 1475916300
-sym /usr/share/help/es/shotwell/figures/shotwell_logo.png -> ../../../C/shotwell/figures/shotwell_logo.png 1475916300
-sym /usr/share/help/es/shotwell/figures/crop_thirds.jpg -> ../../../C/shotwell/figures/crop_thirds.jpg 1475916300
-sym /usr/share/help/es/shotwell/figures/trash_process.png -> ../../../C/shotwell/figures/trash_process.png 1475916300
-sym /usr/share/help/de/shotwell/figures/editing_overview.png -> ../../../C/shotwell/figures/editing_overview.png 1475916300
-sym /usr/share/help/de/shotwell/figures/edit_toolbar.png -> ../../../C/shotwell/figures/edit_toolbar.png 1475916300
-sym /usr/share/help/de/shotwell/figures/shotwell_logo.png -> ../../../C/shotwell/figures/shotwell_logo.png 1475916300
-sym /usr/share/help/de/shotwell/figures/crop_thirds.jpg -> ../../../C/shotwell/figures/crop_thirds.jpg 1475916300
-sym /usr/share/help/de/shotwell/figures/trash_process.png -> ../../../C/shotwell/figures/trash_process.png 1475916300
-sym /usr/share/help/pt_BR/shotwell/figures/editing_overview.png -> ../../../C/shotwell/figures/editing_overview.png 1475916300
-sym /usr/share/help/pt_BR/shotwell/figures/edit_toolbar.png -> ../../../C/shotwell/figures/edit_toolbar.png 1475916300
-sym /usr/share/help/pt_BR/shotwell/figures/shotwell_logo.png -> ../../../C/shotwell/figures/shotwell_logo.png 1475916300
-sym /usr/share/help/pt_BR/shotwell/figures/crop_thirds.jpg -> ../../../C/shotwell/figures/crop_thirds.jpg 1475916300
-sym /usr/share/help/pt_BR/shotwell/figures/trash_process.png -> ../../../C/shotwell/figures/trash_process.png 1475916300
-sym /usr/share/help/hu/shotwell/figures/editing_overview.png -> ../../../C/shotwell/figures/editing_overview.png 1475916300
-sym /usr/share/help/hu/shotwell/figures/edit_toolbar.png -> ../../../C/shotwell/figures/edit_toolbar.png 1475916300
-sym /usr/share/help/hu/shotwell/figures/shotwell_logo.png -> ../../../C/shotwell/figures/shotwell_logo.png 1475916300
-sym /usr/share/help/hu/shotwell/figures/crop_thirds.jpg -> ../../../C/shotwell/figures/crop_thirds.jpg 1475916300
-sym /usr/share/help/hu/shotwell/figures/trash_process.png -> ../../../C/shotwell/figures/trash_process.png 1475916300
-sym /usr/lib64/libshotwell-plugin-common.so -> libshotwell-plugin-common.so.0.0.0 1475916300
-sym /usr/lib64/libshotwell-plugin-common.so.0 -> libshotwell-plugin-common.so.0.0.0 1475916300
+obj /usr/share/icons/hicolor/22x22/apps/shotwell.png e0d7b85a5987675919b9beb159fbaeb8 1484011071

@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: media-plugins/tap-plugins/tap-plugins-9999.ebuild,v 1.2 2015/06/06 18:00:11 Exp $
 
@@ -18,7 +18,7 @@ case "${PV}" in
 esac
 inherit eutils multilib-minimal ${VCS_ECLASS}
 
-DESCRIPTION="TAP LADSPA plugins: contains DeEsser, Dynamics, Equalizer, Reverb, Stereo Echo, Tremolo"
+DESCRIPTION="TAP DeEsser, Dynamics, Equalizer, Reverb, Stereo Echo, Tremolo for LADSPA"
 HOMEPAGE="http://tap-plugins.sf.net"
 SRC_URI+="
 	doc? ( mirror://sourceforge/${PN}/${PN}-doc-20140526.tar.gz )"
