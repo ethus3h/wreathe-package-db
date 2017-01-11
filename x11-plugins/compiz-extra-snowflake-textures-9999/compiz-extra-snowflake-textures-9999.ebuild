@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -13,11 +13,12 @@ EGIT_REPO_URI="git://github.com/ethus3h/compiz-extra-snowflake-textures.git"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 -*"
-RDEPEND="x11-plugins/compiz-plugins-experimental"
+# FIXME: x11-plugins/compiz-plugins-experimental provided by wreathe-base
+RDEPEND="app-misc/wreathe-base"
 
 src_install() {
-    insinto /usr/share/compiz/snow/
-    GLOBIGNORE="README.md:.git"
-    doins -r *
-    unset GLOBIGNORE
+	insinto /usr/share/compiz/snow/
+	GLOBIGNORE="README.md:.git:.egup.tags"
+	doins -r *
+	unset GLOBIGNORE
 }

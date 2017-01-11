@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -12,12 +12,12 @@ EGIT_REPO_URI="git://github.com/ethus3h/wreathe-media-resources.git"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 -*"
+KEYWORDS=""
 RDEPEND="app-misc/wreathe-base"
 
 src_install() {
-    insinto /
-    GLOBIGNORE="README.md:.git:.egup.tags"
-    doins -r *
-    unset GLOBIGNORE
+	insinto /
+	GLOBIGNORE="README.md:.git:.egup.tags"
+	doins -r *
+	unset GLOBIGNORE
 }

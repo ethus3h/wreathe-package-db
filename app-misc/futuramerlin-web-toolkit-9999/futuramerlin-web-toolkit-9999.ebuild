@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -12,11 +12,11 @@ EGIT_REPO_URI="git://github.com/ethus3h/futuramerlin-web-toolkit.git"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 -*"
+KEYWORDS=""
 RDEPEND="app-misc/wreathe-base"
 
 src_install() {
-    exeinto /usr/bin/
-    doexe futuramerlin-web-toolkit-build
-    doexe futuramerlin-web-toolkit-aliases
+	exeinto /usr/bin/
+	doexe futuramerlin-web-toolkit-build
+	doexe futuramerlin-web-toolkit-aliases
 }
