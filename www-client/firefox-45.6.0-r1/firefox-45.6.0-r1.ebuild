@@ -129,7 +129,9 @@ src_unpack() {
 
 src_prepare() {
 	# Apply our patches
-	eapply "${WORKDIR}/firefox"
+	eapply "${WORKDIR}/firefox" \
+		"${FILESDIR}"/mozilla_configure_regexp_esr.patch \
+		"${FILESDIR}"/update_h2_curve.patch
 
 	# Allow user to apply any additional patches without modifing ebuild
 	eapply_user
