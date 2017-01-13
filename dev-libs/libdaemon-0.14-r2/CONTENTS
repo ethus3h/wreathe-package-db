@@ -1,20 +1,97 @@
 dir /usr
 dir /usr/lib64
+sym /usr/lib64/libdaemon.so.0 -> libdaemon.so.0.5.0 1484281651
+sym /usr/lib64/libdaemon.so -> libdaemon.so.0.5.0 1484281651
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/libdaemon.pc 415a61fbc0d8208aa213f240b5bc685e 1466835553
-obj /usr/lib64/libdaemon.so.0.5.0 35a9cc7e7a5f154bb33c7bc4f171b544 1466835555
+obj /usr/lib64/pkgconfig/libdaemon.pc 415a61fbc0d8208aa213f240b5bc685e 1484281646
+obj /usr/lib64/libdaemon.so.0.5.0 35a9cc7e7a5f154bb33c7bc4f171b544 1484281647
 dir /usr/include
 dir /usr/include/libdaemon
-obj /usr/include/libdaemon/dsignal.h 6e2abbe47c4864031a28d579a6ee3884 1466835553
-obj /usr/include/libdaemon/dexec.h fd87e28b4a37531944e06b2c5470978a 1466835553
-obj /usr/include/libdaemon/daemon.h 4902dfb28f781a4dcd40506a81e8d0e9 1466835553
-obj /usr/include/libdaemon/dfork.h 43da1d5ba5ad7145ad9e2f2fa3e0c676 1466835553
-obj /usr/include/libdaemon/dnonblock.h b8c0a3ac9c9300acae59c4b2df07594b 1466835553
-obj /usr/include/libdaemon/dlog.h 898c6e952bb1026c673dda0e665c8953 1466835553
-obj /usr/include/libdaemon/dpid.h ac20df98d4af30001cf135c7577a3088 1466835553
+obj /usr/include/libdaemon/dsignal.h 6e2abbe47c4864031a28d579a6ee3884 1484281646
+obj /usr/include/libdaemon/dexec.h fd87e28b4a37531944e06b2c5470978a 1484281646
+obj /usr/include/libdaemon/daemon.h 4902dfb28f781a4dcd40506a81e8d0e9 1484281646
+obj /usr/include/libdaemon/dfork.h 43da1d5ba5ad7145ad9e2f2fa3e0c676 1484281646
+obj /usr/include/libdaemon/dnonblock.h b8c0a3ac9c9300acae59c4b2df07594b 1484281646
+obj /usr/include/libdaemon/dlog.h 898c6e952bb1026c673dda0e665c8953 1484281646
+obj /usr/include/libdaemon/dpid.h ac20df98d4af30001cf135c7577a3088 1484281646
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/libdaemon-0.14-r2
-obj /usr/share/doc/libdaemon-0.14-r2/README.bz2 a1884877a9674d079776bab68949cd29 1466835553
-sym /usr/lib64/libdaemon.so -> libdaemon.so.0.5.0 1466835557
-sym /usr/lib64/libdaemon.so.0 -> libdaemon.so.0.5.0 1466835557
+dir /usr/share/doc/libdaemon-0.14-r2/html
+obj /usr/share/doc/libdaemon-0.14-r2/html/style.css 7a70e72e6b205ab094ae4ebdcde44959 1484281646
+dir /usr/share/doc/libdaemon-0.14-r2/html/reference
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/navtree.css 992435068bd04f475325a25a75993811 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/sync_on.png b1cc394ed471b4ab97be14f1e1a7cefa 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dpid_8h.html e8a7227938d1872a1e48a41910f8d3fd 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/tabs.css cf9a4ad5a8b52323af8cc15e96fb2e93 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dynsections.js bcd222771d969778fb39b1e86d54ef8d 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dir_20ddce5748dc29883719f99930173c08.html d28b822b9a01f58a0246cd2d9d2044d5 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/resize.js 64199018105d4e79d139c02c6e6c3f84 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/nav_h.png 935f050f10b7fe425509491f207f574f 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/globals.html 486680d908ac8f61a1be28365394de1f 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/folderclosed.png 0b7046d86103299b2a0306ddf33ec004 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/files.js 433471b705a63b41ef15c366089d4b24 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/doxygen.png 4d8b8c8f1a68a4f320da8294a085f251 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/globals_enum.html fd2226b9563957155486d3e73c2d6c0f 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/examples.html 5497c976c4796f0cea9dee1880078c07 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/index.html d3e7cebe73731de55a14e5a9edaf2975 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/files.html 769e59af623e3a4b4bf138722e11c3fa 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dpid_8h.js 8d82396b9912de2fc88c7de0ddc0cf90 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/globals_type.html ff33cccb5f1b94170a1df43f381dcd2e 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dsignal_8h.html 6706190f60f6585378f6488672ab1389 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dsignal_8h_source.html 2e4b593bdfe9a0bfca61a2e78e9b7992 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/globals_vars.html 2e4ab8a62ec5cb9a47e36c175a2d416e 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/globals_defs.html 7158cc8b1e2cb00d24a7e7647e4d8d40 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dexec_8h.html aa3bc5125306cc646d8516e0d37e86ef 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dsignal_8h.js 8c0335846dc5d536ab7e9c30c9ae0041 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/examples.js 6340209e8b6e4c69b3a19a73fa95845a 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/bc_s.png ceaaae73746596a7519cfe782d8aa065 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dlog_8h.html a599a9245130406064d3dc434cf5cff7 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dnonblock_8h_source.html c0701e1cbed53be1ac9f1a84c4c32b4e 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dfork_8h_source.html 48dfee60d2f2571e692aad5d3c067467 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/open.png 468c228548b4a85dd54d544810bd0edd 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/navtree.js 5dde785fad974402d4c6e95d6b96211c 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dpid_8h_source.html 0b78988079d698b7ab32c9d8e6a411ba 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/splitbar.png 8d590f70c25a81e71b99f6c8246b067e 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/tab_h.png 38c6c507f0ab91770a0ed9a668a03551 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/doc.png 31ed05886f30a2be256e9df86a25586f 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/daemon_8h_source.html 3db2e1d3894c729de917730d83697f63 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dexec_8h_source.html 9ad3cb6a6a55203a8170f9b4afef0d57 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/closed.png 3fa180a1c853204ee64235708fb8e162 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/arrowright.png 7fcdd7b57b3825e8fbf2cd5fbb81ce70 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/doxygen.css 6443da25058e7338a96c3ce7ee4918bb 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dlog_8h.js 285dc13a47348aafa5e21d21666accab 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/arrowdown.png b337efbec07a710611184b65c6610a7f 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/nav_g.png 6cf157aabeb91ae637a6d770b07c1011 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dfork_8h.js d31b646e0cb4396c70ec3c0ac2e85660 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/navtreedata.js e0336b22e4dca9c769189dcc3bb9d3c5 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/jquery.js 348c67be8f444dc6fe00d9a2f12ec2b2 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/testd_8c-example.html a46e606e89b490a13be1a1b6536eb83a 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dnonblock_8h.html 5fa20431bcbf89b1b975df707182e222 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/tab_s.png d5a3e094c590d5113232b74cd902f58f 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/sync_off.png 12a5e283812e092b5a74b0d47e95e9a9 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dnonblock_8h.js ae56dafb98efad9467b12e49e9567316 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/daemon_8h.html a5db3e36e4cf02982dedc4cf21e771b0 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/bdwn.png 6249334b2e7fc28090f26abeb328eb78 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/globals_func.html 24888c1481641622fe0ab991462dc03b 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/nav_f.png 4e4d8be23c6d6bbe0184fd891ff59e00 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/tab_b.png c7cd16cfabe8a14b9848f813df53fc2e 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/folderopen.png 9ff4412a8e93e25320b9e260951c6a04 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/tab_a.png 2a5327b5dfc494fd8688fd887991cdab 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/navtreeindex0.js 9e1f427fd9cfba2eced9274ddc22b580 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dexec_8h.js 4727e133acdbfe9a847931843c87cb9a 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dlog_8h_source.html 8471d0608c7033babfaee302f2535f92 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/globals_eval.html 750d631688ba38c0fa6f365ac1657d2f 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/reference/dfork_8h.html 59fada725660c450f5f3c17f873a85f3 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/html/README.html 7b19ef1524f54f292abc52c4eea16f38 1484281646
+obj /usr/share/doc/libdaemon-0.14-r2/README.bz2 a1884877a9674d079776bab68949cd29 1484281646
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/_var_tmp_portage_dev-libs_libdaemon-0.14-r2_work_libdaemon-0.14-abi_x86_64.amd64_libdaemon_.3.bz2 6113529d1cd10d8c870c42f4a0a398dd 1484281646
+obj /usr/share/man/man3/daemon.h.3.bz2 09a07b2a0a7d830b0674c971890d3459 1484281646
+obj /usr/share/man/man3/dnonblock.h.3.bz2 9b629d635d6e515042d732f3c9e4ad46 1484281646
+obj /usr/share/man/man3/dexec.h.3.bz2 6489bab8e283c84498132466afdcea2d 1484281646
+obj /usr/share/man/man3/dfork.h.3.bz2 93717b3391a36fba4d7a9d261e116672 1484281646
+obj /usr/share/man/man3/dpid.h.3.bz2 db15523f5f46a266d893a960e768dfaa 1484281646
+obj /usr/share/man/man3/dsignal.h.3.bz2 5ba09672528d03051c8f741759d84fb6 1484281646
+obj /usr/share/man/man3/dlog.h.3.bz2 e9021d40ab9e1a3d20dba54af3ca79aa 1484281646
