@@ -1,248 +1,790 @@
 dir /lib
 dir /lib/udev
-obj /lib/udev/check-ptp-camera 077ae526be83efc0c36c2b53e6e05bd0 1466914411
+obj /lib/udev/check-ptp-camera 077ae526be83efc0c36c2b53e6e05bd0 1484282359
 dir /lib/udev/rules.d
-obj /lib/udev/rules.d/70-libgphoto2.rules b50d43272d3113d1be2303dbb6b63f43 1466914413
+obj /lib/udev/rules.d/70-libgphoto2.rules b50d43272d3113d1be2303dbb6b63f43 1484282361
 dir /usr
 dir /usr/lib64
-sym /usr/lib64/libgphoto2_port.so.12 -> libgphoto2_port.so.12.0.0 1466914421
-sym /usr/lib64/libgphoto2.so -> libgphoto2.so.6.0.0 1466914421
-sym /usr/lib64/libgphoto2_port.so -> libgphoto2_port.so.12.0.0 1466914421
+sym /usr/lib64/libgphoto2_port.so.12 -> libgphoto2_port.so.12.0.0 1484282371
+sym /usr/lib64/libgphoto2.so -> libgphoto2.so.6.0.0 1484282371
+sym /usr/lib64/libgphoto2_port.so -> libgphoto2_port.so.12.0.0 1484282371
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/libgphoto2.pc 9d74ba6f686e1a4ecac5b075bec1de21 1466914412
-obj /usr/lib64/pkgconfig/libgphoto2_port.pc 41a6ce0cebcf5d272ecd82ac59a70650 1466914408
+obj /usr/lib64/pkgconfig/libgphoto2.pc 9d74ba6f686e1a4ecac5b075bec1de21 1484282360
+obj /usr/lib64/pkgconfig/libgphoto2_port.pc 41a6ce0cebcf5d272ecd82ac59a70650 1484282357
 dir /usr/lib64/libgphoto2
-obj /usr/lib64/libgphoto2/print-camera-list b254abeb77b55d5fd48ad65f51f59b35 1466914417
+obj /usr/lib64/libgphoto2/print-camera-list b254abeb77b55d5fd48ad65f51f59b35 1484282366
 dir /usr/lib64/libgphoto2/2.5.10
-obj /usr/lib64/libgphoto2/2.5.10/ptp2.so 4a9f8c690c3d5bc4fde0e54e921eee8e 1466914417
+obj /usr/lib64/libgphoto2/2.5.10/ptp2.so 5920441d9367e5efc979dd1a2e3b9949 1484282366
 dir /usr/lib64/libgphoto2_port
 dir /usr/lib64/libgphoto2_port/0.12.0
-obj /usr/lib64/libgphoto2_port/0.12.0/ptpip.so 07b565726ac338edc4ddc216b4fec86b 1466914416
-obj /usr/lib64/libgphoto2_port/0.12.0/usb1.so c34be731bea6eda3ab7aeeaf7bfe7d12 1466914416
-obj /usr/lib64/libgphoto2_port/0.12.0/usbscsi.so 704a0b7308d70e48417188d4546f9b8f 1466914416
-obj /usr/lib64/libgphoto2_port/0.12.0/usbdiskdirect.so 69f58de85972b2f9e065e9d99ebe1639 1466914416
-obj /usr/lib64/libgphoto2_port/0.12.0/disk.so a91706a593a3f97339de65d46d9449c4 1466914416
-obj /usr/lib64/libgphoto2_port/0.12.0/vusb.so 830d539ff355834d4ae47661ce627a71 1466914417
-obj /usr/lib64/libgphoto2.so.6.0.0 ed7b0d0788936d02234d088e8f117dd7 1466914417
-sym /usr/lib64/libgphoto2.so.6 -> libgphoto2.so.6.0.0 1466914421
-obj /usr/lib64/libgphoto2_port.so.12.0.0 8196232b50d4d54998bb48ef8dc69866 1466914416
+obj /usr/lib64/libgphoto2_port/0.12.0/ptpip.so 07b565726ac338edc4ddc216b4fec86b 1484282366
+obj /usr/lib64/libgphoto2_port/0.12.0/usb1.so 14985f125a7ebc6da336b4e1b3846448 1484282366
+obj /usr/lib64/libgphoto2_port/0.12.0/usbscsi.so 704a0b7308d70e48417188d4546f9b8f 1484282366
+obj /usr/lib64/libgphoto2_port/0.12.0/usbdiskdirect.so 69f58de85972b2f9e065e9d99ebe1639 1484282366
+obj /usr/lib64/libgphoto2_port/0.12.0/disk.so a91706a593a3f97339de65d46d9449c4 1484282366
+obj /usr/lib64/libgphoto2_port/0.12.0/vusb.so 830d539ff355834d4ae47661ce627a71 1484282366
+obj /usr/lib64/libgphoto2.so.6.0.0 ed7b0d0788936d02234d088e8f117dd7 1484282366
+sym /usr/lib64/libgphoto2.so.6 -> libgphoto2.so.6.0.0 1484282371
+obj /usr/lib64/libgphoto2_port.so.12.0.0 8196232b50d4d54998bb48ef8dc69866 1484282366
 dir /usr/include
 dir /usr/include/gphoto2
-obj /usr/include/gphoto2/gphoto2-port-log.h 969cd1a3d2af8a470ad292174711889d 1466914408
-obj /usr/include/gphoto2/gphoto2-camera.h aeaa54d508949e5646ae0fcad31dacf3 1466914412
-obj /usr/include/gphoto2/gphoto2-abilities-list.h 6a0f46df4a12c493e366453a0dae9b2c 1466914412
-obj /usr/include/gphoto2/gphoto2-port-portability.h 432536c9787c564c4904853c2a3c0e8e 1466914408
-obj /usr/include/gphoto2/gphoto2-widget.h 353ebc989d4fa3175131043de1d92395 1466914412
-obj /usr/include/gphoto2/gphoto2-result.h 087bd9b62050c22d5d93f9e01450b9eb 1466914412
-obj /usr/include/gphoto2/gphoto2-list.h a70d16f495aa4c63914d005ecfb2c287 1466914412
-obj /usr/include/gphoto2/gphoto2-port.h a412a591e7f3fdc3c35ab42f1949edcf 1466914408
-obj /usr/include/gphoto2/gphoto2-port-version.h b7378ffc38951b0bc250cee45fc90cd2 1466914408
-obj /usr/include/gphoto2/gphoto2-library.h a5b445f50fe1f1166575367114b9c0ea 1466914412
-obj /usr/include/gphoto2/gphoto2.h 2908815259b51922cf46b700f98bde72 1466914412
-obj /usr/include/gphoto2/gphoto2-filesys.h 852283ac850580204593f3bb77aa608f 1466914412
-obj /usr/include/gphoto2/gphoto2-context.h 064f12abc610a32854d32e46860806cf 1466914412
-obj /usr/include/gphoto2/gphoto2-port-info-list.h e79c82ba9ab10c6400f3cbb927bac395 1466914408
-obj /usr/include/gphoto2/gphoto2-port-result.h a14e4c674ec65d3c800daa6bf594d6da 1466914408
-obj /usr/include/gphoto2/gphoto2-setting.h 172df289bce9ea6c14ac9dc0b3d41009 1466914412
-sym /usr/include/gphoto2/gphoto2 -> . 1466914421
-obj /usr/include/gphoto2/gphoto2-file.h 3f4f23d6f3d298b51d9743e28e11d158 1466914412
-obj /usr/include/gphoto2/gphoto2-version.h dd0ec7d3ed31703ac23bc093d081e3ec 1466914412
+obj /usr/include/gphoto2/gphoto2-port-log.h 969cd1a3d2af8a470ad292174711889d 1484282357
+obj /usr/include/gphoto2/gphoto2-camera.h aeaa54d508949e5646ae0fcad31dacf3 1484282360
+obj /usr/include/gphoto2/gphoto2-abilities-list.h 6a0f46df4a12c493e366453a0dae9b2c 1484282360
+obj /usr/include/gphoto2/gphoto2-port-portability.h 432536c9787c564c4904853c2a3c0e8e 1484282357
+obj /usr/include/gphoto2/gphoto2-widget.h 353ebc989d4fa3175131043de1d92395 1484282360
+obj /usr/include/gphoto2/gphoto2-result.h 087bd9b62050c22d5d93f9e01450b9eb 1484282360
+obj /usr/include/gphoto2/gphoto2-list.h a70d16f495aa4c63914d005ecfb2c287 1484282360
+obj /usr/include/gphoto2/gphoto2-port.h a412a591e7f3fdc3c35ab42f1949edcf 1484282357
+obj /usr/include/gphoto2/gphoto2-port-version.h b7378ffc38951b0bc250cee45fc90cd2 1484282357
+obj /usr/include/gphoto2/gphoto2-library.h a5b445f50fe1f1166575367114b9c0ea 1484282360
+obj /usr/include/gphoto2/gphoto2.h 2908815259b51922cf46b700f98bde72 1484282360
+obj /usr/include/gphoto2/gphoto2-filesys.h 852283ac850580204593f3bb77aa608f 1484282360
+obj /usr/include/gphoto2/gphoto2-context.h 064f12abc610a32854d32e46860806cf 1484282360
+obj /usr/include/gphoto2/gphoto2-port-info-list.h e79c82ba9ab10c6400f3cbb927bac395 1484282357
+obj /usr/include/gphoto2/gphoto2-port-result.h a14e4c674ec65d3c800daa6bf594d6da 1484282357
+obj /usr/include/gphoto2/gphoto2-setting.h 172df289bce9ea6c14ac9dc0b3d41009 1484282360
+sym /usr/include/gphoto2/gphoto2 -> . 1484282371
+obj /usr/include/gphoto2/gphoto2-file.h 3f4f23d6f3d298b51d9743e28e11d158 1484282360
+obj /usr/include/gphoto2/gphoto2-version.h dd0ec7d3ed31703ac23bc093d081e3ec 1484282360
 dir /usr/lib32
-sym /usr/lib32/libgphoto2_port.so.12 -> libgphoto2_port.so.12.0.0 1466914421
-sym /usr/lib32/libgphoto2.so -> libgphoto2.so.6.0.0 1466914421
-sym /usr/lib32/libgphoto2_port.so -> libgphoto2_port.so.12.0.0 1466914421
+sym /usr/lib32/libgphoto2_port.so.12 -> libgphoto2_port.so.12.0.0 1484282371
+sym /usr/lib32/libgphoto2.so -> libgphoto2.so.6.0.0 1484282371
+sym /usr/lib32/libgphoto2_port.so -> libgphoto2_port.so.12.0.0 1484282371
 dir /usr/lib32/pkgconfig
-obj /usr/lib32/pkgconfig/libgphoto2.pc 35c49c2f974d0f2df3950f63a5f6ded6 1466914402
-obj /usr/lib32/pkgconfig/libgphoto2_port.pc d35f94c569aa331ec1b573919c11ceed 1466914397
+obj /usr/lib32/pkgconfig/libgphoto2.pc 35c49c2f974d0f2df3950f63a5f6ded6 1484282357
+obj /usr/lib32/pkgconfig/libgphoto2_port.pc d35f94c569aa331ec1b573919c11ceed 1484282354
 dir /usr/lib32/libgphoto2
-obj /usr/lib32/libgphoto2/print-camera-list cd8e7a420d8c495a92aa39c1045689f7 1466914416
+obj /usr/lib32/libgphoto2/print-camera-list cd8e7a420d8c495a92aa39c1045689f7 1484282366
 dir /usr/lib32/libgphoto2/2.5.10
-obj /usr/lib32/libgphoto2/2.5.10/ptp2.so 20b463b98903026dd54dde2fdc6b13c9 1466914416
+obj /usr/lib32/libgphoto2/2.5.10/ptp2.so 6becace473b6fb75827bf80193b921ac 1484282366
 dir /usr/lib32/libgphoto2_port
 dir /usr/lib32/libgphoto2_port/0.12.0
-obj /usr/lib32/libgphoto2_port/0.12.0/ptpip.so e057b2e00282d1c5ad068335695ea5b0 1466914416
-obj /usr/lib32/libgphoto2_port/0.12.0/usb1.so 801fe7da49f4fb9abe243664929e0e7c 1466914416
-obj /usr/lib32/libgphoto2_port/0.12.0/usbscsi.so beebeabc80dcceac9e9af429607e7041 1466914416
-obj /usr/lib32/libgphoto2_port/0.12.0/usbdiskdirect.so 17101777261c36b306c7d6928870559c 1466914416
-obj /usr/lib32/libgphoto2_port/0.12.0/disk.so 7ffe002fa08a02488f23f93f78f62e84 1466914416
-obj /usr/lib32/libgphoto2_port/0.12.0/vusb.so daf5fdc4e543e3842b481986cf04dd67 1466914416
-obj /usr/lib32/libgphoto2.so.6.0.0 8e2696ee1885c6d93b8317791f492e38 1466914416
-sym /usr/lib32/libgphoto2.so.6 -> libgphoto2.so.6.0.0 1466914421
-obj /usr/lib32/libgphoto2_port.so.12.0.0 c169dd88351489bf4cdcb03d749a7842 1466914416
+obj /usr/lib32/libgphoto2_port/0.12.0/ptpip.so e057b2e00282d1c5ad068335695ea5b0 1484282366
+obj /usr/lib32/libgphoto2_port/0.12.0/usb1.so f11c7546ebeb5fc43eda84c74015b63e 1484282366
+obj /usr/lib32/libgphoto2_port/0.12.0/usbscsi.so 3fb315c1afe7376c54f0a482c9c26b53 1484282366
+obj /usr/lib32/libgphoto2_port/0.12.0/usbdiskdirect.so f4a326c78d7e4ebeb48aa8ed9489eb5e 1484282366
+obj /usr/lib32/libgphoto2_port/0.12.0/disk.so 7ffe002fa08a02488f23f93f78f62e84 1484282366
+obj /usr/lib32/libgphoto2_port/0.12.0/vusb.so 6a4dc1574d522fd685561931d9503167 1484282366
+obj /usr/lib32/libgphoto2.so.6.0.0 62be41d3d100b13fd7f6546538f4429d 1484282366
+sym /usr/lib32/libgphoto2.so.6 -> libgphoto2.so.6.0.0 1484282371
+obj /usr/lib32/libgphoto2_port.so.12.0.0 c169dd88351489bf4cdcb03d749a7842 1484282366
 dir /usr/bin
-obj /usr/bin/i686-pc-linux-gnu-gphoto2-config a31647509b8dddd885f78c67bb309b4b 1466914402
-obj /usr/bin/x86_64-pc-linux-gnu-gphoto2-port-config 36c04986db3d976c3a5625ebb2e25e9f 1466914404
-sym /usr/bin/gphoto2-config -> x86_64-pc-linux-gnu-gphoto2-config 1466914421
-obj /usr/bin/x86_64-pc-linux-gnu-gphoto2-config e2d82cd87623db8b6c67d07a00c50a6d 1466914412
-obj /usr/bin/i686-pc-linux-gnu-gphoto2-port-config 74772651b627ebb55689255fddfa6e62 1466914392
-sym /usr/bin/gphoto2-port-config -> x86_64-pc-linux-gnu-gphoto2-port-config 1466914421
+obj /usr/bin/i686-pc-linux-gnu-gphoto2-config a31647509b8dddd885f78c67bb309b4b 1484282357
+obj /usr/bin/x86_64-pc-linux-gnu-gphoto2-port-config 36c04986db3d976c3a5625ebb2e25e9f 1484282357
+sym /usr/bin/gphoto2-config -> x86_64-pc-linux-gnu-gphoto2-config 1484282371
+obj /usr/bin/x86_64-pc-linux-gnu-gphoto2-config e2d82cd87623db8b6c67d07a00c50a6d 1484282360
+obj /usr/bin/i686-pc-linux-gnu-gphoto2-port-config 74772651b627ebb55689255fddfa6e62 1484282354
+sym /usr/bin/gphoto2-port-config -> x86_64-pc-linux-gnu-gphoto2-port-config 1484282371
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/libgphoto2
 dir /usr/share/doc/libgphoto2/camlibs
-obj /usr/share/doc/libgphoto2/camlibs/README.jl2005a.bz2 bb4b201436ddb720b63f79c040f00170 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.9052.bz2 2a8d149b687115a64bd6f329bfda7a31 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.jamcam.bz2 01488c9b187bf58c8612a9ef647a4d11 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.sonix.bz2 3afa4cd9dd1985a16f7dcaeaf65d92d5 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.lg_gsm.bz2 209002b9989d9e868703ac137fb814fd 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.panasonic-l859.bz2 45de57a4c38a1ffa096fb39ccfb43769 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.iclick.bz2 1a5ed9141d2faf1bc912fb33d0f5e438 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.sq905.bz2 5aa4d79c8fcba75a6e34c7ff45e97fb0 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.enigma13.bz2 86db84688a35a351c54450c5a7b22932 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.spca50x.bz2 53a7da4fd8f5fe617e1fe880550088eb 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.tp6801.bz2 a0dad313dc0f5d1bd59ea572cc37e0b5 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.ax203.bz2 fc2575f4d96d053813265eaa106b1f03 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.jl2005bcd-compression.bz2 4a4b5ac7d07c3343d0512c7fb071cee7 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.pccam300.bz2 94fc65ab73e66def60e00b2c9f1d72c2 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.soundvision.bz2 463ffcdec92baa5da9aacdec098334a9 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.pentax.bz2 a8ece37054a80ad998126a61399a1295 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.largan-lmini dac69fbd70325000690609de6c9744ed 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.ptp2.bz2 b4eadce9a18dae8575670dcaefb46c7c 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.panasonic.bz2 192664a7d29f78a2b9a253ba90ecac1e 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.minolta-dimagev.bz2 bf89077a628dc02719aa53e2313cb83e 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.905C.bz2 a7477e2cba0aefdbae94d2f7d1d10454 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.9051.bz2 8976b0cbd34439d8238ff4ae7a0dc446 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.smal.bz2 46f5e8ff5b2133b165626fba597170bf 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.aox.bz2 ca87f7736aa8ab2afc0cb82c6fc544a7 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.panasonic-coolshot.bz2 be664a5ace8b0618db02c4dcda4e748d 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.ax203-compression.bz2 bc769fe308047964f4e70497fe2317e0 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.sonydscf1 dbfc3a85aba766fa809eeeec2a3a3708 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.mustek.bz2 fdfe2b189d8534ddde44c1028adc64f1 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.jl2005c.bz2 15eb77243965172ceb91001aa436fc95 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.mars.bz2 06cfe281466c84ed424b95ac1cdccefe 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.adc65.bz2 676d8ad25c6fd5adb1712bc737325869 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.toshiba-pdrm11.bz2 63c386c6a6cf1b84bd2379070233ba64 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.clicksmart310.bz2 3feb5d7ac8a87fc91afdb78ea03e07e5 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.konica.bz2 ef0786578d4d07d65405d01e1149af20 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.st2205-compression.bz2 4d92f50f1160839a2bd78ec74241d81d 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.913C.bz2 09e28a3b764e7c8cbea8aa35bc09ef1a 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.agfa-cl20.bz2 0884bff3ab73b69638e2e60311741e18 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/ChangeLog.bz2 443ce847342bd9d34b5c5a2c42da3182 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.gsmart300.bz2 c95a4fd43086179eb634d0db02d37672 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.st2205.bz2 5ec18b368cf27cae5518d68ae91d5ab7 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.pccam600.bz2 56de222f94f6bde638faaa7dab0eecf1 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.913D.bz2 0e8e1c1fceeeb901413d3cdf678ee036 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.9050.bz2 cfc26a29176b0d4cebfa2b46e5bdb928 1466914410
-obj /usr/share/doc/libgphoto2/camlibs/README.canon.bz2 a7b1caa5020e49d5e8c7fffd297a2099 1466914410
-obj /usr/share/doc/libgphoto2/NEWS.bz2 cc0850106e11dd521efed5d99400eed2 1466914412
-obj /usr/share/doc/libgphoto2/README.bz2 0ac8c6eea9372cae3ef5f9aa9e8ceccc 1466914412
-obj /usr/share/doc/libgphoto2/ABOUT-NLS.bz2 0f8fd3407e1bb5061fcff20844f3b48d 1466914412
-obj /usr/share/doc/libgphoto2/AUTHORS.bz2 c9ae6e8c2d691bc00f2004ca5aaa311e 1466914412
-obj /usr/share/doc/libgphoto2/COPYING.bz2 204fa0db89758634fb5bf83f84f80f34 1466914412
-obj /usr/share/doc/libgphoto2/README.packaging.bz2 0e555559c282a341f14de472189a8e8c 1466914412
-obj /usr/share/doc/libgphoto2/ChangeLog.bz2 912189c372f641094e542c6c257c69d7 1466914412
+obj /usr/share/doc/libgphoto2/camlibs/README.jl2005a.bz2 bb4b201436ddb720b63f79c040f00170 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.9052.bz2 2a8d149b687115a64bd6f329bfda7a31 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.jamcam.bz2 01488c9b187bf58c8612a9ef647a4d11 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.sonix.bz2 3afa4cd9dd1985a16f7dcaeaf65d92d5 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.lg_gsm.bz2 209002b9989d9e868703ac137fb814fd 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.panasonic-l859.bz2 45de57a4c38a1ffa096fb39ccfb43769 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.iclick.bz2 1a5ed9141d2faf1bc912fb33d0f5e438 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.sq905.bz2 5aa4d79c8fcba75a6e34c7ff45e97fb0 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.enigma13.bz2 86db84688a35a351c54450c5a7b22932 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.spca50x.bz2 53a7da4fd8f5fe617e1fe880550088eb 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.tp6801.bz2 a0dad313dc0f5d1bd59ea572cc37e0b5 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.ax203.bz2 fc2575f4d96d053813265eaa106b1f03 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.jl2005bcd-compression.bz2 4a4b5ac7d07c3343d0512c7fb071cee7 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.pccam300.bz2 94fc65ab73e66def60e00b2c9f1d72c2 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.soundvision.bz2 463ffcdec92baa5da9aacdec098334a9 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.pentax.bz2 a8ece37054a80ad998126a61399a1295 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.largan-lmini dac69fbd70325000690609de6c9744ed 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.ptp2.bz2 b4eadce9a18dae8575670dcaefb46c7c 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.panasonic.bz2 192664a7d29f78a2b9a253ba90ecac1e 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.minolta-dimagev.bz2 bf89077a628dc02719aa53e2313cb83e 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.905C.bz2 a7477e2cba0aefdbae94d2f7d1d10454 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.9051.bz2 8976b0cbd34439d8238ff4ae7a0dc446 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.smal.bz2 46f5e8ff5b2133b165626fba597170bf 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.aox.bz2 ca87f7736aa8ab2afc0cb82c6fc544a7 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.panasonic-coolshot.bz2 be664a5ace8b0618db02c4dcda4e748d 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.ax203-compression.bz2 bc769fe308047964f4e70497fe2317e0 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.sonydscf1 dbfc3a85aba766fa809eeeec2a3a3708 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.mustek.bz2 fdfe2b189d8534ddde44c1028adc64f1 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.jl2005c.bz2 15eb77243965172ceb91001aa436fc95 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.mars.bz2 06cfe281466c84ed424b95ac1cdccefe 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.adc65.bz2 676d8ad25c6fd5adb1712bc737325869 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.toshiba-pdrm11.bz2 63c386c6a6cf1b84bd2379070233ba64 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.clicksmart310.bz2 3feb5d7ac8a87fc91afdb78ea03e07e5 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.konica.bz2 ef0786578d4d07d65405d01e1149af20 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.st2205-compression.bz2 4d92f50f1160839a2bd78ec74241d81d 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.913C.bz2 09e28a3b764e7c8cbea8aa35bc09ef1a 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.agfa-cl20.bz2 0884bff3ab73b69638e2e60311741e18 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/ChangeLog.bz2 443ce847342bd9d34b5c5a2c42da3182 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.gsmart300.bz2 c95a4fd43086179eb634d0db02d37672 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.st2205.bz2 5ec18b368cf27cae5518d68ae91d5ab7 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.pccam600.bz2 56de222f94f6bde638faaa7dab0eecf1 1484282359
+obj /usr/share/doc/libgphoto2/camlibs/README.913D.bz2 0e8e1c1fceeeb901413d3cdf678ee036 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.9050.bz2 cfc26a29176b0d4cebfa2b46e5bdb928 1484282358
+obj /usr/share/doc/libgphoto2/camlibs/README.canon.bz2 a7b1caa5020e49d5e8c7fffd297a2099 1484282358
+obj /usr/share/doc/libgphoto2/NEWS.bz2 cc0850106e11dd521efed5d99400eed2 1484282360
+obj /usr/share/doc/libgphoto2/README.bz2 0ac8c6eea9372cae3ef5f9aa9e8ceccc 1484282360
+obj /usr/share/doc/libgphoto2/ABOUT-NLS.bz2 0f8fd3407e1bb5061fcff20844f3b48d 1484282360
+obj /usr/share/doc/libgphoto2/AUTHORS.bz2 c9ae6e8c2d691bc00f2004ca5aaa311e 1484282360
+obj /usr/share/doc/libgphoto2/README.apidocs.bz2 47865bf9521908601d3cfcaf279b5887 1484282359
+dir /usr/share/doc/libgphoto2/libgphoto2-api.html
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/navtree.css 992435068bd04f475325a25a75993811 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/bayer_8h.html 1bbef3fffd251a4549a598964a30d30e 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFunctions__coll__graph.md5 8af14f21330958e90ea4a36a51d75103 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraWidget__coll__graph.map.bz2 91595aec1b6377611a5dd7c563adfe69 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-camera_8c__incl.map.bz2 e7cb544230e401dc50309cabe30a28e7 1484282335
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-camera_8h.js 528cd7ab6f2e3bdde51292f05aea6597 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPort.html 739b9dacffae4bfb88036c312e282583 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-context_8c.js ad15837b9e7598e8ea5c46ddb3d4dacb 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/functions.html 1c0473f142b18a93b32cbb7ca43e9d46 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/jpeg_8h_source.html f01bb4227177c1e7212fea6daaf68037 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-context_8h__dep__incl.md5 67549651823262b155c6159bd2383bce 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-context_8h__dep__incl.map.bz2 477bd09a4b17c316cd0763d16277a5d2 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structExifData.html cf97f238eb6192e5193ca1155d17c744 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_6b27e2d59bc0984e94c7e2a478593fae.html 7cef96c5f66f4ea5613b4f7a04e19840 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraPrivateCore__coll__graph.map.bz2 bcce774f68d17f5ce618f9f2b08a2bd4 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_000002_000004.html 063607a48e7380914daf889282ae2a5b 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-camera_8h.html 87267e57279a674c453a1befee35c5a5 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2_8h__incl.png 0d84e039692bc8dfd0a18d009faa61bd 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraPrivateCore__coll__graph.png ff2799acf8ddcec0dfa618165a5f9d07 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-version_8c__incl.map.bz2 bffd1c2faa2a95b6e10b173579b5e42b 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/union__GPPortSettings.js 7db578bbbfc7703c555a1679485d300b 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-portability_8c.html 90fbb3712d65d2c26eec39783b74bbed 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/sync_on.png b1cc394ed471b4ab97be14f1e1a7cefa 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gamma_8c.html 7ec7cd713071d3008bb62bfa4736aa35 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structSetting.html 09957ca9b911dacfe451c2925fd84e7c 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-list_8h_source.html dd6a865d6d4044c11ce5296541df2a06 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-version_8c__incl.md5 698f65481dc18831362d1f017c3b0dd4 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-log_8h__dep__incl.png a16197476da58a39c87009c058ac3848 1484282337
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-abilities-list_8h.html e35f65ee1345a5fa77b7f690d3775c0e 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-result_8c__incl.md5 91698f53ad3ec21f5752067e441bc931 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystemFile__coll__graph.map.bz2 9b96da7a11050fdd886c3338b4d4cffe 1484282339
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-camera_8h__dep__incl.md5 8dd96537365c367e677a64e680c9f4dc 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFileInfo.html 9c626c4a226513735142949e19426231 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-widget_8h__dep__incl.md5 35c3584c328b6bf8a1f9bc0f5d6417f8 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/tabs.css cf9a4ad5a8b52323af8cc15e96fb2e93 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_s.html c4e428accd4c85aef6a432e284f427d0 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port_8h__dep__incl.png b55dec17f6d5cde572134e964591d952 1484282337
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dynsections.js fbc22f07caf51cf90cbae1412067567c 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_000003_000002.html d62f06f75924b4b0c54d02f3df5ea15f 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-version_8h__incl.png f63ba2610b9a1cbc88a48fef0a576201 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-version_8c.html cd9ffa07a0a912b7dee14e322d3f81b1 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraAbilitiesList.html 526e1a7a332840c6e4ea8c4b97d1443c 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystemFolder__coll__graph.md5 b3ae29d10c367232b3473bac5a3ee313 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-list_8h__dep__incl.png 17784fc4e95ed6ed51d78f4c733a6ec0 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystemFolder__coll__graph.png e855d8cee8a59f51c4e58e724ff8650c 1484282339
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structforeach__data__t__coll__graph.png 4e881d6814237a6e907da3c579b86f4c 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-abilities-list_8h_source.html 33fb8d35382be4ce5c48014f48e076aa 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/bayer_8c__incl.md5 9e8ba16fbf6c6eba1cd61aee69fca150 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_68c4d028e8e6091a637f06831eeab3d9.html 02e85d55426d245a53dfe1eb0a2553fa 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/ahd__bayer_8c__incl.md5 bf2b11d8b7a9c28d6b2820cd0eebcb78 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/resize.js 64199018105d4e79d139c02c6e6c3f84 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-widget_8c.js f7e524a5f160910d54de8b8db330aac7 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-filesys_8c.html 04a63c83ffa2bf4d1571dca84cf8563e 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-list_8h.js b70afefd9205d843b5cd71caffa0f52d 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-version_8c__incl.png d8df505b405a803086f160a8f304fd07 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-filesys_8h__dep__incl.png caa5cc55faaa9fd44e24afa60f3deaae 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-camera_8h__incl.map.bz2 7dfa94d01548e505f49e7188e91b1ab8 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-widget_8c__incl.png 643c421007dbbd87c34742a45c56f4fc 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/annotated_dup.js 864c834db6aa19cc78063ac79ca51878 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-library_8h.html 541549328f98b33d8216c8cbe194d761 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/exif_8c__incl.md5 0f0b1febc36b3bbf52045cb1920d73bc 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-setting_8h__dep__incl.png d70f0ee48a839d1c12ed7b0d767a9018 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-library_8c__incl.png 53282a99e207d5b53ef87ad2b8ee2d89 1484282335
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/nav_h.png 935f050f10b7fe425509491f207f574f 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystemFuncs__coll__graph.map.bz2 d82a0af20478cdb5a0718e71a8b97206 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-library_8h__incl.md5 4a4007b1a1382148f959811b11874029 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals.html 8b77613091a0e888250f4b62864289e0 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-setting_8h__dep__incl.md5 5ca67ecea9dbba8f10271b6b68c82a2a 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gamma_8h__dep__incl.map.bz2 0824817a2b973e365e49308686e6ee51 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-file_8h_source.html 0629889a38a0cc641213f0a9347a826d 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraWidget.js f1f5697886f784d81028aea5b99415af 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystemFile__coll__graph.md5 97393a439c9eacbec7240daa0e505dc4 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-portability_8h_source.html 43aa79d5abe7321f8fb69267149f5176 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-filesys_8c.js 7f5295ca67ed1cde28312a10d56dc078 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-list_8c__incl.png 6e2c849d07a2d65bbf49ffa15e3cb2fa 1484282335
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-camera_8h_source.html 9b6ca15d9700588fd16fcac3041d0b92 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortSettingsSerial.html 3c8a5419b99948e8b7d336a3e1a832e3 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystemFolder__coll__graph.map.bz2 96e70f6fd2e82fe53049c2d49f236da1 1484282339
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_0fd050eb813c55dff11104457b8b7bf9.html 30664ccca6799189e0cef11c7b1ea844 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFile.html 351500b5073f8e9ae68cdc218fa029c3 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-file_8h__incl.png 2e14c774b3e464178d04f17e5e656b25 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_68c4d028e8e6091a637f06831eeab3d9_dep.png 09d618c57b2579bf06637a492882a549 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-setting_8h__dep__incl.map.bz2 44701c475322f5c341cb96a0820f94d7 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/folderclosed.png 0b7046d86103299b2a0306ddf33ec004 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_000003_000004.html 898ef490927e27e69d98d3d8c9889b44 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/exif_8c.js 8a50e0d53e506451436bf8ecfef09e3f 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-result_8c.js 5d7691efe363fcd535d664996eed906a 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_df723b3f25cfe80b0e773fc78a5873a4.js 84399c4b539ad5e8f452c250c5ead70b 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortOperations.html 9e96d73cef0f3d8e87b1e21eae6736d4 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-version_8h__incl.map.bz2 a72541eadd70efed2b9e366304add6a4 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/template_8c__incl.map.bz2 a96616d3f21536b166120dcdbcc90c60 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structforeach__data__t__coll__graph.md5 77ea08c8743a6a6242b095b64e12b40b 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/navtreeindex3.js 0b6a4eca02b4bebf614193ca36b8c88c 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystemFile__coll__graph.png 2b75c426c46206e2c8afdb4d09a8d60a 1484282339
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-library_8h__dep__incl.png 8be6d84897d382eaab1329b31711c37c 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/exif_8h__incl.png ddebbc3dc7d6d423b2e001e0722a0dbf 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__Camera__coll__graph.map.bz2 d5a05b2ad6e6570b1b2c4563b0733d2f 1484282339
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortInfoList.js 6bbfb86c2bfddde5cbc1d8d942887e32 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-file_8c.html a983c51b86bcfafbecbdfd1c68e4ea26 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/bayer_8c__incl.png ab949dbac49bc4a1236a2fbd152f5528 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info-list_8h__dep__incl.png ec51cf04f9b6f4404f2aab5e0de9d2ca 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-list_8h__dep__incl.md5 10b31eac16b04d0059abd559fd988968 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info-list_8c.js 23d23f28f91fddb0934a757815367619 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraList__coll__graph.md5 df348ad38f9fab8b407384b16f89bce8 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraList__coll__graph.png db1010d39f0729a5275d6a0790fc9d36 1484282339
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-result_8h__dep__incl.png 90101b135857949f40b37033f692b16a 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/files.js 26ae200abc9f78689dd97f8e169d0989 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-list_8h.html 16f541f31d7337fbd14afc2c5ab7685f 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/doxygen.png 4d8b8c8f1a68a4f320da8294a085f251 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/deprecated.html e2dd62fdff44a9258d8ae0424ddf654a 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_enum.html 4a844f546ef10ded403345831a848c1b 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraList.html 6b04b35caf7bc53260f2a7c4eebfda67 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-abilities-list_8c__incl.map.bz2 cb2f4bf908334e759762fdb083233c96 1484282335
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortInfoList.html ee41981a907877c1a4b4fab07eab799a 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-log_8h.html a44fc8ebfeb03dabb291e63d216a39dc 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-abilities-list_8h__incl.png 1c0367ca03202602aa7d7e356e116e2d 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFunctions.html 5f3870a3c349be67db16dd44093c49d6 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port_8c__incl.map.bz2 2c3e7a79254f17091306c6d52726516f 1484282339
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_4206fa17ee070de85e5fb63facf13fa1_dep.png 72a2dab02033969c747361e9e738fe10 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-widget_8h.html 60f22146bb6b67c400de774b701c3785 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_g.html a3b64c554d1e7f74344659aae01e9d91 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-list_8h__dep__incl.map.bz2 bf2a52b420ea451e345cd0d16153ffb7 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gamma_8h__dep__incl.png 36c5289c867981b297305656234d4831 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/index.html f7f50bc726e71f52f1c017f60f230a02 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/functions_vars.html eb96951f1b31c79ff1da3fc5f366ff24 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structjpeg__coll__graph.map.bz2 a12b64896d1ebd245edcc11e2ef40571 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/template_8c__incl.md5 3bd0d1683e3943bdffce340130f8cf1f 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-portability_8c__incl.map.bz2 80993bd6017d3bb93cfebe643ae9e1c0 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-setting_8h.html dd5c6262fe5c7aacffd9c124f1a46f67 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structCameraAbilities.js a98b6cf770269db3a28ab9d45b3e0f75 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-result_8h.html 89cedffc3f1576d145766a2dc850e193 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-context_8h.html a678ed116438615b277d7ed174b09b95 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-abilities-list_8h__incl.map.bz2 d8b300c8d4ec25a759d75b93fcbbbec6 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/files.html 57c225a2ad999412d96e122ed1d0faa2 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-result_8h.html 956250ba8a109fec9d5c8614fe658e82 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFileInfoFile.html 17e4b782834bc43d10222cf5aa631478 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFileHandler.html e59c713f59444d888f27331cc1ebd56e 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/bayer_8h_source.html c07dd9755d9f27cbcf5ba05d615ee12a 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFileInfoFile.js 095d619be8a8ff869c7f9924896bf7be 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/union__GPPortSettings__coll__graph.md5 06a1f9d463d9f729ca49c347ab91c3c0 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_type.html 985a157e42744078225a80171eea2a93 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-file_8h.js fd42bf305fd5c6ad44194f6fd826d598 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info_8h__dep__incl.map.bz2 9c1261567e36a4b76d7a93b0e502cf82 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-result_8h__incl.md5 91cfb85992ffdbf58f62584b9423be77 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-file_8h__dep__incl.map.bz2 726d8554463b4499b7b1ad5d118ca0bc 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraList.js 3c38e6e59fc0e319c7770d9e5e5279cd 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-camera_8c__incl.png 17fca17fab1d4dff6e958b490a177217 1484282335
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortPrivateCore__coll__graph.png 86a910fdbbcdddbbeb0635d7ba9994aa 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/jpeg_8h__incl.png 192abc77027c5e7d51a98039cb639330 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-widget_8h__incl.md5 572a0387de56cd7ba1235029729f2fa5 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-abilities-list_8h__dep__incl.md5 f335c81943d286117d44d1de5623bb70 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-library_8c__incl.md5 024de1f35a752761af5066bb04da8ea4 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-file_8c__incl.map.bz2 bf490c00e3c9a06ecfe1546ba0554cc5 1484282335
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-result_8h_source.html dadc6f589f06547aecc34f7247f0c5e4 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_vars.html 61a840f18526253e840c466d7fc0ec0d 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystemFolder.js 913b9ac9af35225a770a96f1b77a8abf 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortInfoList__coll__graph.map.bz2 81398f5042725e443a2cabcff969562d 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info-list_8h__dep__incl.md5 aa9fcece48406343a5b794c62c8ebcea 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/bayer_8c__incl.map.bz2 c9120c1ac4dbc28a15e8cb2a31a005bf 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_defs.html ac233642bb82191ec8d1ce927f3c72d2 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/exif_8h_source.html 5a6fb717a5bba3440124a07ae8d72efe 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-setting_8h.js 473e5e026943d72e852c2aee89976068 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structforeach__data__t.js 650867924e1682f4970363cf67c0327e 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/navtreeindex5.js 7357955ba20c653e858486ccfeebfeec 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/template_8c.js a8a51a68934e420815b40a14583162e0 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystemFile.html e50b42c8aa6e3da67781d2c346aec8a0 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-result_8c.js ace66151cf7c018968408a4d6fe100f3 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__entry.js d8d6035e141b11b831acaad078d9deb3 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structjpeg.js 28297a004d7e8fc33a220762af43b32b 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__Camera__coll__graph.png bcf3d434c7cbf8d7043196b16f2d7771 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-setting_8h_source.html 3309ad8cb1bf3660bc60af6a606a9625 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-context_8c.html 2218b5d701ca6ba9265ffc2564f8f4f1 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_func_d.html 18ee4ad15a4210a16955d3be70429a15 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info-list_8h__dep__incl.map.bz2 f58e4de03094e09405b028026efc7c30 1484282337
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraPrivateCore.js da3e15ec5de6429f9cf0c2e4dea56360 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/exif_8c.html 828fd1c94e3c8f40da18051058f538fb 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/bc_s.png ceaaae73746596a7519cfe782d8aa065 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structLogFunc.html f8357e21411b39a05875192f1f980d2a 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-filesys_8h__incl.map.bz2 3f66de2f2ee3ca67f8bbcdf9cd8dc352 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-library_8h.js fb196e766cb82b512fd6960bc9fb39c1 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_4206fa17ee070de85e5fb63facf13fa1.html b3ea5d6848a7431f8a77f019c18ee93f 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-abilities-list_8h__incl.md5 57f466021c3506b12f5fef8254957a24 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-log_8h__incl.md5 3ad744a76db646fcee388372ab972322 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/navtreeindex2.js 270bc9790eda2b79e53a250977e615e8 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystem__coll__graph.md5 d0b07d63dd5eb64e5c0a2bdd83ba1771 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/jpeg_8h__dep__incl.map.bz2 02bff4aa44d128261e402938e3bff1a1 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-file_8h__incl.md5 1af852ca28d51325cbf8a079c60dba22 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-setting_8c__incl.png 679f421c1191f7989e5024e2bf45eb55 1484282335
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortSettingsUsbDiskDirect.html d18954a55025c73783f066ec965f6e7a 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-portability_8c__incl.png 8bbef46f87b6297938bd7d1103e51d5d 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-widget_8c.html 3d76c8c649e55f91a23cdbef2e8b1b8d 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/jpeg_8c__incl.md5 85172f2abd4f30bbfe669aa21131cd99 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-abilities-list_8h__dep__incl.map.bz2 7f05bef42a1880598c30d010d8786ac8 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-filesys_8h.html d79a12d355af037ddcc5b1af95340de2 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_4206fa17ee070de85e5fb63facf13fa1.js 908bbe30b718acaa75a8a10926d10965 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_func_g.html a556256f692f93ff767effcc7eec7606 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFileInfoPreview.html b4035c637a3b91400ec1b9ad8b7efa33 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPContext.js c716b44f9371fae9f02dcb53eb4fde44 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_func.js e3e105a99001e1dbe96d835d21fd0cea 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port_8c__incl.png e56dd450846ba896ae3d47b407cd1763 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_p.html b3812e9cbf1b75b44e9cc9fdb10e7691 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraWidget__coll__graph.png e6d3dc170c14eddc88b1371f35e43c31 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-library_8h_source.html d449e35c6f551a681270ccb4a4d405ce 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_h.html 27137092aa1763aae03eeb3eeedd24a4 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-filesys_8c__incl.png d433ccc1b3db46d7670d0325106bf338 1484282335
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/graph_legend.md5 52a954045b75ea5e2bed90767b5e4eda 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/open.png 468c228548b4a85dd54d544810bd0edd 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gamma_8c__incl.md5 12b6d5468653cce95b4d3ffba27dc465 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-context_8h__incl.map a9369a6750cacc22390c4bc36a1d18c9 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortPrivateCore.html ba32967e285cc617d25fafee936cd660 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/jpeg_8c.html 167b92d86670bbef8ac4353c15124343 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFileInfo__coll__graph.md5 69eca80edab9aadc1ec92e4be159088b 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-version_8h_source.html c22fd879668339ef343c887828cad5f4 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-camera_8c__incl.md5 bbab24741e1e28b1ac08ec7a4f7e9ebf 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/navtree.js 5dde785fad974402d4c6e95d6b96211c 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-list_8c.js 4a937dd65f224adb1af33c6adf12ded5 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/jpeg_8h.html 2ce728ec6708e47bf1b8bee5d6bbe290 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/bayer_8h.js 2c8dce8a8fda6ceaca86479e592e620d 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPort__coll__graph.map.bz2 4f654a3a749a7e3c0244711774ab029c 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortInfo.html b6efeb5fcfb79a2e5f93d370fe4265cf 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-library_8h__incl.map.bz2 7905600f49f57d948776c1acff6a0ac0 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-result_8h.js f56938644b59b0202cf730fad9861bcb 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-log_8h_source.html e45302bb96c69017c4b23353fba215fb 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-log_8h.js 1aa3d0c775cb62e0ff78806ae29c20e6 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-camera_8h__dep__incl.png b48cbfe11e59288231e4003fac0af75f 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info-list_8h__incl.md5 2b2330c3836d890f4dcdfba8b18cc485 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-camera_8h__incl.md5 d3461b3a753c2ee915000a8fc3ac25b5 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPContext__coll__graph.png f66d205a65c6a01dd7828dfc7de62bad 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortSettingsUSB.html 937f29934b5ed559a46c28adfdb1db8e 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info_8h.html d9367e3221fa138751e13229f827b534 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/ahd__bayer_8c.js 7b2c50ac4a688b141e332987c8490070 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_6b27e2d59bc0984e94c7e2a478593fae_dep.md5 cd186f87ca09db89224bd3fcd2570c16 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/splitbar.png 8d590f70c25a81e71b99f6c8246b067e 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-context_8h.js 1711626c65dfc9a15a6c647f4a3dbedb 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-result_8h__dep__incl.png fc6414678e7c08c581f32d92256311a2 1484282337
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-widget_8c__incl.md5 77211709b9fe078e247ae8f435db06e1 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-library_8h__dep__incl.map.bz2 d7975a28519c0e3ad236658516fccead 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/jpeg_8c.js 91b705e9ce6e0d03221e686b8bd62481 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-widget_8h__dep__incl.png 5512649c4b6cd242b447e13d4a0da916 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFileInfoAudio.js b8aa0ff83a85f9f5ae782e4f238e9aa1 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-library_8h__dep__incl.map.bz2 f6a1c25d3ba073bfa64ee0d215c026ea 1484282337
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/tab_h.png 38c6c507f0ab91770a0ed9a668a03551 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-version_8c.html 948d2ce50a55847840866a899fffe6be 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/graph_legend.png 71233ce0baa19f52029d0f6b9a5404e1 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-context_8c__incl.png 4f58d13ad1c3f02c6ddad9468ca5edb3 1484282335
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-library_8h__dep__incl.png 5f1b7182ad862214f21ad87f1b4dab4c 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-version_8h.html feb6b36c59670e1e3e224d1e82d4a84e 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraAbilitiesList__coll__graph.png 7eeff757d6b374d8926161d4a51d3788 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2_8h.html c37cf33af20efa0cf2c5ee9129d05df8 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortOperations.js aded4d8392626dfaca1b0ee6bd60ea70 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-result_8h__dep__incl.md5 83c1d534480b7bfc33960369ca697114 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-version_8h_source.html 4a45fd8f4ee5a5d9e4bf88b47bb65265 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info-list_8h.html e4d3d4a15eac374e8d834473e672466b 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-camera_8h__dep__incl.map.bz2 3604780e6230dde06c358065cdc6b7a9 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/ahd__bayer_8c.html 23cf2fff060546ae9c3cc6437fcf7f2f 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structExifData.js abf3d3fa63accea1a8f965a4e364bb78 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-widget_8h__incl.map.bz2 b77bc97ee242223ab566c04e8240d226 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structCameraText.html 24bc4ca558d7d79a77ba72f20346b389 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info-list_8h.js 4a91e41508d7a6535bffc38e0902a82a 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-result_8c__incl.md5 0bf46f2fec4aad62346c74114dfec82e 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/jpeg_8h.js 48a8dd1c8c2253aaba4e661a010b9ce1 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_68c4d028e8e6091a637f06831eeab3d9.js 186cf86f18d35a11202240ddbc3b04da 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/doc.png 31ed05886f30a2be256e9df86a25586f 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port_8h__incl.png af6ddde902bea1f4638799f2c229f0b4 1484282337
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-version_8h.js e0ab38766813ad64fcf9ee1bd1826cec 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-log_8h__incl.png 5b463ae1d93b83ef0201ab043eb2a5a0 1484282337
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-file_8h__incl.map 5c6ceb2b64f4ec737951ef78a8a00e80 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-setting_8c.html 93a14bf29ccc88e6abe958a3b91320d4 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPort__coll__graph.png 7e67802642b2a566bc74e74e290fd1a1 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPContext__coll__graph.md5 723afac206b2da039858266d1755df53 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystem__coll__graph.map.bz2 c5af85598817a1395ff8a528903a17be 1484282339
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-abilities-list_8c__incl.md5 e3648b692cc4ff4c0d9567f26ce47e47 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-setting_8c__incl.map.bz2 eb0a090be21a4105865b48a52dc7de50 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_df723b3f25cfe80b0e773fc78a5873a4_dep.png cf6afff25188f3ac50bc6f954eee8d02 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-version_8h__incl.md5 fe7a0e1cf572767ce4d217e2f98271cd 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gamma_8h__dep__incl.md5 2444c57ab9e3442e0febfc1b5b294924 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_ff2570e7e5c377838c8e56ea8c3b24f7.html 0eb0dad2c1738279ea707e9f2c103949 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_000001_000002.html 6816788bcd1c4c41332caf2faa0b0d6a 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraList__coll__graph.map.bz2 16735cbc29d5ddf0517d14959de75927 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystem.js d813ca6fbad32968df43192084e4affa 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structSetting.js b5f7928c1118f4e9841ff6a3dfd52395 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-setting_8c.js 4458832448818082d0e90f4a9a30c259 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__entry.html 8276cad5ea2ee32ebeb9a76e38f9b575 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-context_8c__incl.map.bz2 24cde5865327f4b81a692ec9e8fe732e 1484282335
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/bayer_8h__dep__incl.png 2ba617da4343dcb48c1d6433f88a132c 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__Camera.js 4aad98ee6a81b2a7f949edde24d7d095 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-filesys_8c__incl.map.bz2 0591f347fec642bcc5cab1b05f2b42de 1484282335
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/closed.png 3fa180a1c853204ee64235708fb8e162 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-context_8h_source.html aeb50570e6f7e5a5eefce8e01feb1058 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structexif__parser.js 5872b080af98c77b31e4b64e3bc0e503 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/bayer_8c.html 23663b7489ed79db683966055f9d2a3f 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-result_8c__incl.png 33dbd42f158311014722657e619097e8 1484282335
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/jpeg_8h__incl.md5 4a524d549c8a7830a8d4d7a6d8d4ea6f 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-result_8c.html c42bc5828ba127b1033e5976dbd242f7 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-library_8c__incl.map.bz2 f942ea0350ed3bb78f538dc21fba4730 1484282335
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-context_8h__incl.md5 9c5796e8c603f4ee112d3764d5251f97 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port_8h__dep__incl.md5 e2553ea3bb11a73ce07ba7bd246c93ea 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystem__coll__graph.png ac7c962cbc364773e820c1e9ad97feb0 1484282339
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/arrowright.png 7fcdd7b57b3825e8fbf2cd5fbb81ce70 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-widget_8h_source.html 6abecc4aecae5bbec90490269ff969cc 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortInfo.js dbafdc498d7d9c7516551f09dafaed66 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraAbilitiesList__coll__graph.md5 404d61c9fb57ed79b305399a2b573bfe 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_b.html 1c8c11f9c87a015cf7bf72071ed3bb88 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-library_8h__incl.md5 456877d3bb0afc16350d0325b53a8032 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_func_f.html a9d8f6b7c7beaf6af2f02371977fea6e 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_72b6eb78ea8bf859fcb0e4198a96160a_dep.map.bz2 4c14e7d696b77e5aeb10ab0572d20836 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/exif_8h__incl.map f9975b6f54ac99c721275f08096d725a 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystemFuncs.js 35bdc0a17a35ca2de11d4f5a9b9091b6 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/exif_8h__dep__incl.map.bz2 53cd7e3f4784b10ab4de38fbf2ef8ee8 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/jpeg_8c__incl.png 6104c273975fe1f631be8aded963c6ea 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/exif_8h.html 709be51276f370b635b66d67f1226330 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gamma_8c.js 1febf3b8f5926af0580ce8d6d3c558d5 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystemFolder.html 030445f01b7270a0621d853a5d18e8ca 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-context_8h__incl.png f596756bb1da2cc9d1726cf45d892de5 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_72b6eb78ea8bf859fcb0e4198a96160a_dep.md5 6a559bee2e86f1e105f6ad922e5137ad 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info-list_8c.html 7ad0760628345739ed8ef89317c9893b 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFileInfo__coll__graph.png d4e50bfc7f411a0fa45e9ee45a6d9f6f 1484282339
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_68c4d028e8e6091a637f06831eeab3d9_dep.map.bz2 49a0102ab2713ecf48ec740d71837e5b 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/jpeg_8h__dep__incl.png 6a561d5268087db3424855ef55887cce 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystemFuncs.html aa6e62cdccee706481123d638590ef21 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port_8h.js b9fc167c771348bffcaa702c85eb4343 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraStorageInformation.js 2421704859fd63327e542707f9d08f23 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortSettingsUsbDiskDirect.js d0499f556b2089bce920a15761e42e57 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-abilities-list_8h__dep__incl.png bc6dfe602ef4b73c35d25cced9855cbb 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraWidget.html 650f08f669de069e9f3bccbe02852f0c 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2_8h__incl.map.bz2 c9e2790719662202d45ae8d7cd7d33fe 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-result_8h_source.html 5412e882f5078d34807d3022569a65c9 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-library_8c.js d01425136f0b87e61d06c767b8b06429 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-version_8c.js 28b8e148f74d77cb8e64b56634837906 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraAbilitiesList.js 06f160fdf5c5640d2509bfd4848231d1 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_6b27e2d59bc0984e94c7e2a478593fae.js 5b659f5a864425a9bad261b05a1e920a 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port_8h__incl.map.bz2 caa0f49e979c905a0e0dfb82fbb91acf 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-filesys_8h__incl.png 979f767bdc6ec497620e5eba4d6f6c30 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-library_8h__dep__incl.md5 ed6cddc0e39fd16c1c20dc889e09a065 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortPrivateCore__coll__graph.md5 3939178ae3bf16d574a9bfeabe8cc9c6 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-list_8c__incl.md5 fa5117e26947c397af742c1ec6dd7314 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-version_8h.html 34e05101ba9d50896bb68d97934e3bf7 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-version_8c__incl.map.bz2 65f5badbc00a58bb06e56449ef87d344 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/exif_8c__incl.png a9164b43aaf84de66f1651f18da1d0f1 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-context_8h__dep__incl.png e206789d057c410a99e1ebab0515efb8 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/doxygen.css 6443da25058e7338a96c3ce7ee4918bb 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_6b27e2d59bc0984e94c7e2a478593fae_dep.map.bz2 1940a813e25e33326e7145a570d8e664 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPort.js 756b3d4396b18d45c1353e1e36499220 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info-list_8h_source.html b25e27571e5d44194494ffb5b9ef9703 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-result_8h__dep__incl.map.bz2 6623fef76e9d48220f25490a9c6f3020 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_f.html 87d7fa035d821b85aec845ce7a36c19c 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structchunk.js 1206ddd5de2e3b66fd63c0c093e11912 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-version_8h__dep__incl.map.bz2 fffc8a8e9adf430986fcf20d4e2d2018 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port_8h__incl.md5 f9fc4a2c15fc9b9a7e7359d9fe4d53bc 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFileInfo__coll__graph.map.bz2 2cb9f5d2abb8c9ec479030f8e93432c3 1484282339
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortPrivateCore__coll__graph.map.bz2 c3b76f3bc81ad92fb3eaf0bc971bb90a 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-library_8h__incl.map.bz2 2f93ebc78733227c104a3e0fed878cfb 1484282337
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info_8h__dep__incl.png 1466dec8f71381e9f4282eb2289f28fb 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortInfoList__coll__graph.png 867797941f15bd8f9d76c8cb8a2f991c 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFunctions__coll__graph.png f9c346b582dcd3650623c7ae1287b92b 1484282339
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-widget_8h__incl.png d80ca960751c2abc3ebd70e09e295e31 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-library_8c.html 8809cc21e22b5db283691dc679bfe37f 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/annotated.html 3c22cfb776845e58129fabc22aa34af2 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-version_8c__incl.md5 e9441e304a67193f47d7c4b814a92816 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-log_8h__dep__incl.md5 414536f29166c8743da457301def3df6 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structCameraFilePath.html d62caa6bd49fa9e24119c6dd0f4fa3a1 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/bayer_8c.js 7470d1f888e544b4bdcd202109961ae8 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-list_8c__incl.map.bz2 8a5553400ef42ec678563825cd854476 1484282335
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2_8h__incl.md5 06aa07f158dcea61d4d117695bccde00 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_func_s.html 6e3e4fb58908de342df0bb976f6d2d0a 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/arrowdown.png b337efbec07a710611184b65c6610a7f 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/nav_g.png 6cf157aabeb91ae637a6d770b07c1011 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_6b27e2d59bc0984e94c7e2a478593fae_dep.png 0f62761d9fdb6dd3c2d99d1274526029 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFileInfo.js f60d976eac84a01c6b3dbeaf84004f24 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/union__GPPortSettings.html 8f12ccde441c5e645096d8b64e7b94ec 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/jpeg_8h__incl.map.bz2 dc0c1003c9a2f0dea2c11a5e3892ed1f 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structjpeg.html 6c1f98afc66119b094262cd0181a8c82 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-library_8h__dep__incl.md5 177498f649be752b67bb1b20158b4cb2 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/template_8c.html a5d4fb6f74379f8b78cce7735e9ba816 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structchunk.html 120f6a6e875ec245bab248c22a2df8a4 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-library_8h__incl.png 8b25149c444213b9f03ffda43ef6bbc0 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_72b6eb78ea8bf859fcb0e4198a96160a.html d043cbf6a6c6cf31426754754090c96b 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraStorageInformation.html a659a21578987d0805b64fc625314496 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-version_8h__dep__incl.png bb73d7703b8bab7ee5b1d6f9a6c19918 1484282337
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-filesys_8c__incl.md5 3c84102c24ef3123e094e98b30201e4a 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gamma_8h.html 4e85b6c8393db0e56d91c2f2963bb07e 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortSettingsUsbScsi.html a7e64160b963aa12a7a5a87e1e48e508 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/navtreedata.js f976f2965252530204a191af3dd6512b 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/jquery.js 348c67be8f444dc6fe00d9a2f12ec2b2 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-widget_8h.js 29625398a387f9475dca56a93305ade0 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-result_8c.html 05a9046268e542c98854a7d551632be7 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structjpeg__coll__graph.md5 40918e4b5207ff1daac3e5c19afbc1db 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/exif_8c__incl.map.bz2 cee165383d2e78a84ab6142a9fc7d768 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortPrivateCore.js fe8cf756270f45303248e7c33c42dd60 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info_8h__dep__incl.md5 255f1f9994f218dbffc2a5a1dfb9dca1 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_0fd050eb813c55dff11104457b8b7bf9.js 359598782d6e43b74727b371c10aadc5 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info-list_8c__incl.map.bz2 56dee10171e59fa45a519a0072bc3006 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_d.html a5167bb764654e07ded993179d737a91 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/graph_legend.html fd2275b9b39f12b816b2a3d878e84304 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-log_8h__incl.map 7719d3678ab473f04d228a4ce606f77a 1484282337
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gamma_8c__incl.map.bz2 83989f52b01ce2477d6d1c45d657d8cf 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-context_8c__incl.md5 b62688511ab6b4b4dd33d0c932a0c436 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-version_8c.js b7db74ff9ef6c7bf47a750658ff45a51 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/union__GPPortSettings__coll__graph.png 8d7ffbcec7b5c6aee64ba42eadb74911 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info_8h_source.html 6d97929ef3f55e4f086da7b8cd204569 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__Camera__coll__graph.md5 6e5f0746af300494cf8392a72938c0f8 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFileInfoPreview.js 1a2471aeed5bfa11ddbcb9794e3a4fe4 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/navtreeindex4.js b015acb16c5591c1f20e758f868568a1 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_df723b3f25cfe80b0e773fc78a5873a4_dep.md5 2a9e5ac8389d305557d50d5a7269d123 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2_8h_source.html 9b1721bcc84083674b7be54d0df79e43 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFunctions__coll__graph.map.bz2 f4c5eacdbaac1cb842d3257c033cd25e 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port_8h_source.html 49c993751f235ee9fed239d8382d8058 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-setting_8c__incl.md5 4ff1850e7dbdbe71134d712b44e8cc72 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/tab_s.png d5a3e094c590d5113232b74cd902f58f 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port_8c__incl.md5 b7e2a081972a4243fb5c6e80ee8bdd6e 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraPrivateCore__coll__graph.md5 ad3437efcf0092bffe2b19c0f125f0de 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-log_8c__incl.map.bz2 362065731badb2f16513c91481abd190 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_dup.js 456a41ff6bb7144f0ef453ff47ba7f9c 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/sync_off.png 12a5e283812e092b5a74b0d47e95e9a9 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-result_8c__incl.map.bz2 7b2ddfc0511bb0f0528f7cfea43d5be2 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-log_8c__incl.md5 e167a91d92e4110f025e4441b8583443 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraWidget__coll__graph.md5 b0f47a125cb7f0398130123c0bd22b9a 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystemFile.js 258b1f1c2707c4b25133537c1a56f051 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_000006_000005.html e43f2e653c038ad2e7ba04c358147566 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPort__coll__graph.md5 994242fc48b4378b9ab483ecb62eb69f 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-camera_8c.html 4a6fb16bd0e39fcab6cd17fbf1ba81cc 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-version_8h__dep__incl.md5 d4a8aa9f77eff69faad0f93794fe4d3f 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structCameraFile.html 0a7520439331e49f382e9d434da1cf42 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-version_8h__dep__incl.png 5e4f226b4f6882d16e9ec80f37a9f41b 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-filesys_8h_source.html bbcddce392525ee3b357cdbf1e5f5bc4 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-file_8h__dep__incl.md5 f8e157a7b0cf921cd8771e90b5adf97d 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-abilities-list_8c.js 1a630e11467d817b7976fd8e3ea4038c 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_72b6eb78ea8bf859fcb0e4198a96160a_dep.png fa7c9357e02e6064de49f7d4cc16b058 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-library_8h.js c9c9936ab1bbebb56342852c4274379c 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-result_8c__incl.png 00388abd04783d59d95439d998bac153 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPContext.html 91464030062c9525f5c2c54435d93835 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-abilities-list_8h.js e0c17c8fa13be84157104522ccf1bf2e 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-log_8c.html 54740007e7e47d336bf4466f2d5cafd9 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraAbilitiesList__coll__graph.map.bz2 430c993ffd08399b91d11d99c5d03935 1484282339
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/template_8c__incl.png c856aa1ef92f67aedd9de7ea5ba70745 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystem.html f0431708bfa16022fb9fac115ca4ffd5 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFile.js fe8c69dd43e8a5217f9f15d1bbc28d78 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-log_8c__incl.png 5510979cf8e9b653420b55f992c15d8f 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-library_8h__incl.png 23bcd036ef0b57fc8ee89f945d181821 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/exif_8h__incl.md5 6993542ea27a0dbfc555e097c5ec6f1c 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-version_8h__dep__incl.md5 7342f88567e75d04dec988bf77210648 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structforeach__data__t.html 459f49489d28da036658dde39c47b22b 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortInfoList__coll__graph.md5 9618832a0285fd90027b89f9aff73892 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_c.html de599f31296142b48119b4832aadca92 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structforeach__data__t__coll__graph.map.bz2 1b609880dcbc688598f558ef5138bfff 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/exif_8h.js cf885291be949b57db32212d32346a7d 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/jpeg_8c__incl.map.bz2 7739ea2fdd19511a692057864a2ac816 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/union__GPPortSettings__coll__graph.map.bz2 e50fd77b88481dcb0d237161cd2f6f7c 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/bayer_8h__dep__incl.map.bz2 7390f741e08d66ad2379109c4d4e57e2 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/pages.html 343fdbb04c466f42a15fd24c279e3ca2 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_72b6eb78ea8bf859fcb0e4198a96160a.js 65cc563ebcc376b7f01cae7777c268f9 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/bdwn.png 6249334b2e7fc28090f26abeb328eb78 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__Camera.html d0de424a88b03d3aedfb068640fa3c9c 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-filesys_8h__dep__incl.map.bz2 1f0f45a19bbec6ba9e1bb907fd66a484 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_func.html 04cbe1fb17b9f513d8053fd498d43cb7 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-result_8h__incl.png 40ca4a60efb845fdce39cb226b38822d 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-library_8h.html b8891a53f8a1b376aaaef7af71f17af5 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port_8h.html 84dcf6cfea6f3958bcac1cbe7b8d8d95 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFile__coll__graph.map.bz2 e9258fd299d585e3fd9676b873b5d4f6 1484282339
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_0fd050eb813c55dff11104457b8b7bf9_dep.png 430cf8a80d018175d85aede05380cce7 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structLogFunc.js e9ec998d91069c1507159bfed7225846 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-result_8h.js c6244ca1b34106fc525916810748a316 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-version_8h__dep__incl.map.bz2 95f1f87d9c14af08e5f2d7abe83e6e17 1484282337
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_0fd050eb813c55dff11104457b8b7bf9_dep.md5 87f107763322643f77e69daef29ea857 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-filesys_8h__incl.md5 971fa69295417569130f48c1c39d158d 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_df723b3f25cfe80b0e773fc78a5873a4.html 09b2d2cb951f52e6e49df2ca27be3e74 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structjpeg__coll__graph.png 50d03b0cd1358c9545905045ed1b4f7f 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port_8c.html 3e389452e6e841bf04e0ee937bbe1389 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/nav_f.png 4e4d8be23c6d6bbe0184fd891ff59e00 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_df723b3f25cfe80b0e773fc78a5873a4_dep.map.bz2 4fe1981922e3130490d4db643989daf2 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-filesys_8h__dep__incl.md5 02b0894def01210b4c10dc0a194c7c68 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-result_8h__dep__incl.map.bz2 77a6a29affefa60167592840c3a7c84d 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-version_8h.js 06504a249782a74360dee4414be39249 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystemFuncs__coll__graph.png 58d7c17cf3315cb93ae7da8bd8f150fc 1484282339
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/tab_b.png c7cd16cfabe8a14b9848f813df53fc2e 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/folderopen.png 9ff4412a8e93e25320b9e260951c6a04 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/ahd__bayer_8c__incl.map.bz2 dd4bd66a207a959b2ed6d0e9a32f4403 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_func_p.html 6411039e8c1749bfe42fe9cf1570dfe0 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-file_8c.js 090ea4f8037a164028acff2694ffc53a 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortSettingsUsbScsi.js f5d14851579d08ab8018d73c69c4ac06 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-file_8c__incl.md5 9b67dc5ca3a81a8572667aad3203c998 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-list_8c.html 471ce62356fcfbb11290f3fe7755537c 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port_8h__dep__incl.map.bz2 8504317cf9b998847ba00d34b687e8fc 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFileHandler.js b67fec7e46fab4acaf3c4bb5c0770e5b 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structCameraText.js 970e322a3f4ec361da060e0f386848e5 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info-list_8c__incl.png 2e0c0c7da7b04153883e1de6a8ac8cae 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-result_8h__dep__incl.md5 983ac57e8c2c25983a5ccff88b01c5dc 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-abilities-list_8c__incl.png 565c14b4d15007a1c5c58c216144dabd 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-file_8c__incl.png 4bd2b75d34ed9d98d0b4bb27910aebae 1484282335
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info-list_8h__incl.png 2617a9aa8ea96f1d9aca6f7c07d7ef46 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-file_8h__dep__incl.png c41209ff4c7a79d37e3344f400314edb 1484282332
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info-list_8c__incl.md5 f5fbcd543494a9c3e0c992c7ac330a77 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/exif_8h__dep__incl.md5 7b2b8a8a60162457cbdb22a7c3eb0a1d 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-camera_8h__incl.png ba80c2c5e3f2bf91dda83aec5c482763 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-abilities-list_8c.html 77ad6829ce6eab944784c5f9348b4e43 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gamma_8h_source.html b89ebdb17a5f1f14ceaf604807ec6198 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_0fd050eb813c55dff11104457b8b7bf9_dep.map.bz2 200904ef5cb9232db75798862efcb8a8 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gamma_8h.js f2cbd8c034fa95ae15d3adb7717be13b 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/navtreeindex6.js 7496fc913c844dcfd707aed529e5f921 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-widget_8c__incl.map.bz2 a385025657143069f2acdf48ae362bf8 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFile__coll__graph.png 2a49e0f09cfa1ccd6734fe89b3f297f5 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPContext__coll__graph.map 2c8a7a1fce04443ed58e8bd1945388ca 1484282340
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-camera_8c.js d9db5754f0ce4fab2144cbe003113184 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/ahd__bayer_8c__incl.png f7dad33de1fea83e8b89864908bdedb4 1484282333
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFilesystemFuncs__coll__graph.md5 1a697e0bb90a5d92acb3272f4558a3b9 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/jpeg_8h__dep__incl.md5 a77dc62a8cfd9f5e7127adc077f603d8 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gamma_8c__incl.png 3582b08d96085d1d04e2194ec462793c 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structexif__parser.html 9206db71925655f89576d52684680412 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/tab_a.png 2a5327b5dfc494fd8688fd887991cdab 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraPrivateCore.html dffc31b5044bdef128945dbbf376514b 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-log_8h__dep__incl.map.bz2 138beb7b04d10858282ba560a1fc3afa 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structCameraFilePath.js 8db7e162ad8b9dfae94a9f4876b6d75a 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-log_8c.js b7fd326ac8f641125b3ed8ad3b5d5d54 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_4206fa17ee070de85e5fb63facf13fa1_dep.map.bz2 52324c2ff1fa8117ea59c685c73c57a0 1484282341
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFileInfoAudio.html c439cf8cd8fe6276a22c9283fd33f110 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/navtreeindex0.js c28e6cb8b00a0211eb1d332d94671f02 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/classes.html a3d4a95b21e74eb308e88c464e99ae06 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_ff2570e7e5c377838c8e56ea8c3b24f7.js 143acf423f1f480d31155eae50ab42ec 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-filesys_8h.js d432682b7f77d640bd3ace9c6f0f9c2b 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-info-list_8h__incl.map.bz2 685702a157d7ae0effe2b6162c5a4405 1484282337
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/structCameraAbilities.html 6cca4efc375c61048f4ca607b9128634 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/navtreeindex1.js 15f869ec36157034bb2b5115a3e4757a 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/bayer_8h__dep__incl.md5 e324f229209a618531268fb4d2e04d69 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-library_8h_source.html c1d28704385c2206fdd0fc0252313ea9 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFunctions.js 923d202e56770a94b61967317dfd8247 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-result_8c__incl.map.bz2 7492d98c3ffb1c0de1b59fece7a2c09c 1484282338
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port_8c.js 9e2c52531ffcf5684707f3892856d358 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__CameraFile__coll__graph.md5 d3822f1d5f4f7d4176569bd5e911b2c5 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-portability_8c__incl.md5 dc0148215fb1cb4d3537f30b48b50e4e 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_4206fa17ee070de85e5fb63facf13fa1_dep.md5 61ad48abacd6294f0c99dadfc6291c30 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/globals_eval.html 59e802900e716e15eefc258410a49c6e 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-port-portability_8c.js 2e07b070c64398ad59d6691082a2e04f 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-widget_8h__dep__incl.map.bz2 af5ddd4aa1f71c03863832f2c27c349b 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/exif_8h__dep__incl.png 2dc7eb68283b96e8ff4cd3f7e34878e9 1484282334
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortSettingsSerial.js 6404d2a6ad2188e908c04d6b3374ab17 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-version_8c__incl.png c9b2ae0470403539be9262f63599fe60 1484282336
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-file_8h.html 473e24bbd5d5d0e8139a5956718bd029 1484282342
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/struct__GPPortSettingsUSB.js 82cf0ff0e7c6cb8b8c6a372b25dc6f5f 1484282331
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/dir_68c4d028e8e6091a637f06831eeab3d9_dep.md5 86a455e1a43fc5bf6638bd11fa21c893 1484282330
+obj /usr/share/doc/libgphoto2/libgphoto2-api.html/gphoto2-result_8h__incl.map.bz2 d22eafff9f7dacc8817a7d5984a95569 1484282332
+obj /usr/share/doc/libgphoto2/COPYING.bz2 204fa0db89758634fb5bf83f84f80f34 1484282360
+obj /usr/share/doc/libgphoto2/README.packaging.bz2 0e555559c282a341f14de472189a8e8c 1484282360
+obj /usr/share/doc/libgphoto2/ChangeLog.bz2 912189c372f641094e542c6c257c69d7 1484282360
 dir /usr/share/doc/libgphoto2_port
-obj /usr/share/doc/libgphoto2_port/NEWS.bz2 a5cd3e974c4edd36d76ea517b4bc6fdc 1466914404
-obj /usr/share/doc/libgphoto2_port/README.bz2 c6e80770edaddf570dec53a8fee0732b 1466914404
-obj /usr/share/doc/libgphoto2_port/AUTHORS.bz2 f81be360a0920f2658955cbfe8fb8dd2 1466914404
+obj /usr/share/doc/libgphoto2_port/NEWS.bz2 a5cd3e974c4edd36d76ea517b4bc6fdc 1484282357
+obj /usr/share/doc/libgphoto2_port/README.bz2 c6e80770edaddf570dec53a8fee0732b 1484282357
+obj /usr/share/doc/libgphoto2_port/AUTHORS.bz2 f81be360a0920f2658955cbfe8fb8dd2 1484282357
 dir /usr/share/doc/libgphoto2-2.5.10
-obj /usr/share/doc/libgphoto2-2.5.10/TESTERS.bz2 6989e78efaab5bf141bbdc0a5d8c9439 1466914413
-obj /usr/share/doc/libgphoto2-2.5.10/README.in.bz2 6da81eca97d1fca1077ac2d804ff8e8a 1466914413
+obj /usr/share/doc/libgphoto2-2.5.10/TESTERS.bz2 6989e78efaab5bf141bbdc0a5d8c9439 1484282361
+obj /usr/share/doc/libgphoto2-2.5.10/README.in.bz2 6da81eca97d1fca1077ac2d804ff8e8a 1484282361
 dir /usr/share/doc/libgphoto2-2.5.10/hotplug
-obj /usr/share/doc/libgphoto2-2.5.10/hotplug/usbcam.x11-app.bz2 388f6199b351e942aab71730fa9b98a9 1466914411
-obj /usr/share/doc/libgphoto2-2.5.10/hotplug/usbcam.console.bz2 2a0d5e598bfbfe57a5d2020072fe3e4a 1466914411
-obj /usr/share/doc/libgphoto2-2.5.10/hotplug/usbcam.user.bz2 ba3756122ccc4d27502a0a0fbab543ac 1466914411
-obj /usr/share/doc/libgphoto2-2.5.10/hotplug/usbcam.group.bz2 488342532fe15f8075f9b668a433bce8 1466914411
-obj /usr/share/doc/libgphoto2-2.5.10/NEWS.bz2 cc0850106e11dd521efed5d99400eed2 1466914413
-obj /usr/share/doc/libgphoto2-2.5.10/README.bz2 0ac8c6eea9372cae3ef5f9aa9e8ceccc 1466914413
-obj /usr/share/doc/libgphoto2-2.5.10/AUTHORS.bz2 c9ae6e8c2d691bc00f2004ca5aaa311e 1466914413
-obj /usr/share/doc/libgphoto2-2.5.10/README.packaging.bz2 0e555559c282a341f14de472189a8e8c 1466914413
-obj /usr/share/doc/libgphoto2-2.5.10/MAINTAINERS.bz2 b63a72e3289b9f101199cbbcb47e003e 1466914413
-obj /usr/share/doc/libgphoto2-2.5.10/HACKING.bz2 c20474728861e7dd0185916090ebef5c 1466914413
-obj /usr/share/doc/libgphoto2-2.5.10/ChangeLog.bz2 912189c372f641094e542c6c257c69d7 1466914413
+obj /usr/share/doc/libgphoto2-2.5.10/hotplug/usbcam.x11-app.bz2 388f6199b351e942aab71730fa9b98a9 1484282359
+obj /usr/share/doc/libgphoto2-2.5.10/hotplug/usbcam.console.bz2 2a0d5e598bfbfe57a5d2020072fe3e4a 1484282359
+obj /usr/share/doc/libgphoto2-2.5.10/hotplug/usbcam.user.bz2 ba3756122ccc4d27502a0a0fbab543ac 1484282359
+obj /usr/share/doc/libgphoto2-2.5.10/hotplug/usbcam.group.bz2 488342532fe15f8075f9b668a433bce8 1484282359
+obj /usr/share/doc/libgphoto2-2.5.10/NEWS.bz2 cc0850106e11dd521efed5d99400eed2 1484282361
+obj /usr/share/doc/libgphoto2-2.5.10/README.bz2 0ac8c6eea9372cae3ef5f9aa9e8ceccc 1484282361
+obj /usr/share/doc/libgphoto2-2.5.10/AUTHORS.bz2 c9ae6e8c2d691bc00f2004ca5aaa311e 1484282361
+obj /usr/share/doc/libgphoto2-2.5.10/README.packaging.bz2 0e555559c282a341f14de472189a8e8c 1484282361
+obj /usr/share/doc/libgphoto2-2.5.10/MAINTAINERS.bz2 b63a72e3289b9f101199cbbcb47e003e 1484282361
+obj /usr/share/doc/libgphoto2-2.5.10/HACKING.bz2 c20474728861e7dd0185916090ebef5c 1484282361
+obj /usr/share/doc/libgphoto2-2.5.10/ChangeLog.bz2 912189c372f641094e542c6c257c69d7 1484282361
 dir /usr/share/locale
 dir /usr/share/locale/hu
 dir /usr/share/locale/hu/LC_MESSAGES
-obj /usr/share/locale/hu/LC_MESSAGES/libgphoto2-6.mo 6c8176dd390355959463f35031363095 1466914411
+obj /usr/share/locale/hu/LC_MESSAGES/libgphoto2-6.mo 6c8176dd390355959463f35031363095 1484282359
 dir /usr/share/locale/uk
 dir /usr/share/locale/uk/LC_MESSAGES
-obj /usr/share/locale/uk/LC_MESSAGES/libgphoto2_port-12.mo 796ed4aded9785a12a31777ab6c1eab6 1466914403
-obj /usr/share/locale/uk/LC_MESSAGES/libgphoto2-6.mo 879f9287d7001755ff6f6b6d7f0d668e 1466914411
+obj /usr/share/locale/uk/LC_MESSAGES/libgphoto2_port-12.mo 796ed4aded9785a12a31777ab6c1eab6 1484282357
+obj /usr/share/locale/uk/LC_MESSAGES/libgphoto2-6.mo 879f9287d7001755ff6f6b6d7f0d668e 1484282359
 dir /usr/share/locale/nl
 dir /usr/share/locale/nl/LC_MESSAGES
-obj /usr/share/locale/nl/LC_MESSAGES/libgphoto2_port-12.mo d272944e152f5d87571b6da293323730 1466914403
-obj /usr/share/locale/nl/LC_MESSAGES/libgphoto2-6.mo f9ec6165c5bdf858956cd83ac8551216 1466914411
+obj /usr/share/locale/nl/LC_MESSAGES/libgphoto2_port-12.mo d272944e152f5d87571b6da293323730 1484282357
+obj /usr/share/locale/nl/LC_MESSAGES/libgphoto2-6.mo f9ec6165c5bdf858956cd83ac8551216 1484282359
 dir /usr/share/locale/sr
 dir /usr/share/locale/sr/LC_MESSAGES
-obj /usr/share/locale/sr/LC_MESSAGES/libgphoto2_port-12.mo 539f77333ca164e6d65e214ceab9eb56 1466914403
+obj /usr/share/locale/sr/LC_MESSAGES/libgphoto2_port-12.mo 539f77333ca164e6d65e214ceab9eb56 1484282357
 dir /usr/share/locale/it
 dir /usr/share/locale/it/LC_MESSAGES
-obj /usr/share/locale/it/LC_MESSAGES/libgphoto2_port-12.mo 81e134d6ef9b98a935e2ee67babac0de 1466914403
-obj /usr/share/locale/it/LC_MESSAGES/libgphoto2-6.mo b5d33cb23aa49654663fe52e0c60ad55 1466914411
+obj /usr/share/locale/it/LC_MESSAGES/libgphoto2_port-12.mo 81e134d6ef9b98a935e2ee67babac0de 1484282357
+obj /usr/share/locale/it/LC_MESSAGES/libgphoto2-6.mo b5d33cb23aa49654663fe52e0c60ad55 1484282359
 dir /usr/share/locale/eu
 dir /usr/share/locale/eu/LC_MESSAGES
-obj /usr/share/locale/eu/LC_MESSAGES/libgphoto2_port-12.mo a9b1f2b4ca3572ce870dadbbdf8b8d74 1466914403
-obj /usr/share/locale/eu/LC_MESSAGES/libgphoto2-6.mo 55c1a90fd13ef01d5c765d360776c0a7 1466914411
+obj /usr/share/locale/eu/LC_MESSAGES/libgphoto2_port-12.mo a9b1f2b4ca3572ce870dadbbdf8b8d74 1484282357
+obj /usr/share/locale/eu/LC_MESSAGES/libgphoto2-6.mo 55c1a90fd13ef01d5c765d360776c0a7 1484282359
 dir /usr/share/locale/pt_BR
 dir /usr/share/locale/pt_BR/LC_MESSAGES
-obj /usr/share/locale/pt_BR/LC_MESSAGES/libgphoto2_port-12.mo a6c6ca6647d4403bac3125fdc50b5f7d 1466914403
+obj /usr/share/locale/pt_BR/LC_MESSAGES/libgphoto2_port-12.mo a6c6ca6647d4403bac3125fdc50b5f7d 1484282357
 dir /usr/share/locale/de
 dir /usr/share/locale/de/LC_MESSAGES
-obj /usr/share/locale/de/LC_MESSAGES/libgphoto2_port-12.mo e2c3b0dda60b33008e15a6a47d341f99 1466914403
-obj /usr/share/locale/de/LC_MESSAGES/libgphoto2-6.mo 77e18f36f40c428826d167483199e3fb 1466914411
+obj /usr/share/locale/de/LC_MESSAGES/libgphoto2_port-12.mo e2c3b0dda60b33008e15a6a47d341f99 1484282357
+obj /usr/share/locale/de/LC_MESSAGES/libgphoto2-6.mo 77e18f36f40c428826d167483199e3fb 1484282359
 dir /usr/share/locale/es
 dir /usr/share/locale/es/LC_MESSAGES
-obj /usr/share/locale/es/LC_MESSAGES/libgphoto2_port-12.mo a1e052cf19a7df73e852b66e1eaf206d 1466914403
-obj /usr/share/locale/es/LC_MESSAGES/libgphoto2-6.mo c6b8a8fae21a913f901baca08dff31c0 1466914411
+obj /usr/share/locale/es/LC_MESSAGES/libgphoto2_port-12.mo a1e052cf19a7df73e852b66e1eaf206d 1484282357
+obj /usr/share/locale/es/LC_MESSAGES/libgphoto2-6.mo c6b8a8fae21a913f901baca08dff31c0 1484282359
 dir /usr/share/locale/vi
 dir /usr/share/locale/vi/LC_MESSAGES
-obj /usr/share/locale/vi/LC_MESSAGES/libgphoto2_port-12.mo 09d1c3c098edb3d0e4527d91ebe3a012 1466914403
-obj /usr/share/locale/vi/LC_MESSAGES/libgphoto2-6.mo 68cb37613efa99b4f0a724309e6ebedf 1466914411
+obj /usr/share/locale/vi/LC_MESSAGES/libgphoto2_port-12.mo 09d1c3c098edb3d0e4527d91ebe3a012 1484282357
+obj /usr/share/locale/vi/LC_MESSAGES/libgphoto2-6.mo 68cb37613efa99b4f0a724309e6ebedf 1484282359
 dir /usr/share/locale/ja
 dir /usr/share/locale/ja/LC_MESSAGES
-obj /usr/share/locale/ja/LC_MESSAGES/libgphoto2_port-12.mo a5e343ad0f73fb56172d4f996e96f210 1466914403
-obj /usr/share/locale/ja/LC_MESSAGES/libgphoto2-6.mo d9d9553a51a0f1327b0269a5c6dcdbb1 1466914411
+obj /usr/share/locale/ja/LC_MESSAGES/libgphoto2_port-12.mo a5e343ad0f73fb56172d4f996e96f210 1484282357
+obj /usr/share/locale/ja/LC_MESSAGES/libgphoto2-6.mo d9d9553a51a0f1327b0269a5c6dcdbb1 1484282359
 dir /usr/share/locale/ru
 dir /usr/share/locale/ru/LC_MESSAGES
-obj /usr/share/locale/ru/LC_MESSAGES/libgphoto2_port-12.mo ae98baacf0cedd92cf6032d585abf0b9 1466914403
-obj /usr/share/locale/ru/LC_MESSAGES/libgphoto2-6.mo 18c3e84df699efecccc27311894a9978 1466914411
+obj /usr/share/locale/ru/LC_MESSAGES/libgphoto2_port-12.mo ae98baacf0cedd92cf6032d585abf0b9 1484282357
+obj /usr/share/locale/ru/LC_MESSAGES/libgphoto2-6.mo 18c3e84df699efecccc27311894a9978 1484282359
 dir /usr/share/locale/sk
 dir /usr/share/locale/sk/LC_MESSAGES
-obj /usr/share/locale/sk/LC_MESSAGES/libgphoto2_port-12.mo 9aec07c9a59fd30e931028ad0e67602d 1466914403
+obj /usr/share/locale/sk/LC_MESSAGES/libgphoto2_port-12.mo 9aec07c9a59fd30e931028ad0e67602d 1484282357
 dir /usr/share/locale/zh_CN
 dir /usr/share/locale/zh_CN/LC_MESSAGES
-obj /usr/share/locale/zh_CN/LC_MESSAGES/libgphoto2_port-12.mo a502f0df91ddb4d5efb99dd42c05f384 1466914403
-obj /usr/share/locale/zh_CN/LC_MESSAGES/libgphoto2-6.mo f3e4f34e73e49c295193fc40a816bd4b 1466914411
+obj /usr/share/locale/zh_CN/LC_MESSAGES/libgphoto2_port-12.mo a502f0df91ddb4d5efb99dd42c05f384 1484282357
+obj /usr/share/locale/zh_CN/LC_MESSAGES/libgphoto2-6.mo f3e4f34e73e49c295193fc40a816bd4b 1484282359
 dir /usr/share/locale/fr
 dir /usr/share/locale/fr/LC_MESSAGES
-obj /usr/share/locale/fr/LC_MESSAGES/libgphoto2_port-12.mo 00d092aa9ec21733d0d2f9af4d9bce9a 1466914403
-obj /usr/share/locale/fr/LC_MESSAGES/libgphoto2-6.mo d7886f38a180205e2a0488d8174f304b 1466914411
+obj /usr/share/locale/fr/LC_MESSAGES/libgphoto2_port-12.mo 00d092aa9ec21733d0d2f9af4d9bce9a 1484282357
+obj /usr/share/locale/fr/LC_MESSAGES/libgphoto2-6.mo d7886f38a180205e2a0488d8174f304b 1484282359
 dir /usr/share/locale/zh_TW
 dir /usr/share/locale/zh_TW/LC_MESSAGES
-obj /usr/share/locale/zh_TW/LC_MESSAGES/libgphoto2_port-12.mo 4b66609c0d2b5f065e8fdf0cab3b3b5e 1466914403
+obj /usr/share/locale/zh_TW/LC_MESSAGES/libgphoto2_port-12.mo 4b66609c0d2b5f065e8fdf0cab3b3b5e 1484282357
 dir /usr/share/locale/da
 dir /usr/share/locale/da/LC_MESSAGES
-obj /usr/share/locale/da/LC_MESSAGES/libgphoto2_port-12.mo 36b2e5925b7ef2301121b78a2cfd2fc3 1466914402
-obj /usr/share/locale/da/LC_MESSAGES/libgphoto2-6.mo 85852d6673aa82cafa3ecc3c1b90c2f9 1466914411
+obj /usr/share/locale/da/LC_MESSAGES/libgphoto2_port-12.mo 36b2e5925b7ef2301121b78a2cfd2fc3 1484282357
+obj /usr/share/locale/da/LC_MESSAGES/libgphoto2-6.mo 85852d6673aa82cafa3ecc3c1b90c2f9 1484282359
 dir /usr/share/locale/cs
 dir /usr/share/locale/cs/LC_MESSAGES
-obj /usr/share/locale/cs/LC_MESSAGES/libgphoto2_port-12.mo 9c3eb2740ac0ff17523eb43c916a83da 1466914402
-obj /usr/share/locale/cs/LC_MESSAGES/libgphoto2-6.mo 3f761dc35c96af213f9148ab89508813 1466914411
+obj /usr/share/locale/cs/LC_MESSAGES/libgphoto2_port-12.mo 9c3eb2740ac0ff17523eb43c916a83da 1484282357
+obj /usr/share/locale/cs/LC_MESSAGES/libgphoto2-6.mo 3f761dc35c96af213f9148ab89508813 1484282359
 dir /usr/share/locale/pl
 dir /usr/share/locale/pl/LC_MESSAGES
-obj /usr/share/locale/pl/LC_MESSAGES/libgphoto2_port-12.mo 39f7478fb69371770464e03822a0746b 1466914403
-obj /usr/share/locale/pl/LC_MESSAGES/libgphoto2-6.mo 4d9f24e9f1fd97f07b3df6f9f4869f0c 1466914411
+obj /usr/share/locale/pl/LC_MESSAGES/libgphoto2_port-12.mo 39f7478fb69371770464e03822a0746b 1484282357
+obj /usr/share/locale/pl/LC_MESSAGES/libgphoto2-6.mo 4d9f24e9f1fd97f07b3df6f9f4869f0c 1484282359
 dir /usr/share/locale/fi
 dir /usr/share/locale/fi/LC_MESSAGES
-obj /usr/share/locale/fi/LC_MESSAGES/libgphoto2_port-12.mo 06a40d36d5f150ff18ca268d464a9714 1466914403
+obj /usr/share/locale/fi/LC_MESSAGES/libgphoto2_port-12.mo 06a40d36d5f150ff18ca268d464a9714 1484282357
 dir /usr/share/locale/sv
 dir /usr/share/locale/sv/LC_MESSAGES
-obj /usr/share/locale/sv/LC_MESSAGES/libgphoto2_port-12.mo 9fe024f6490e2cc47acca03ad5df9d64 1466914403
-obj /usr/share/locale/sv/LC_MESSAGES/libgphoto2-6.mo 086245430099aed58533c5f9300494ec 1466914411
+obj /usr/share/locale/sv/LC_MESSAGES/libgphoto2_port-12.mo 9fe024f6490e2cc47acca03ad5df9d64 1484282357
+obj /usr/share/locale/sv/LC_MESSAGES/libgphoto2-6.mo 086245430099aed58533c5f9300494ec 1484282359
 dir /usr/share/libgphoto2
 dir /usr/share/libgphoto2/2.5.10
 dir /usr/share/libgphoto2/2.5.10/konica
-obj /usr/share/libgphoto2/2.5.10/konica/english f9800ddefc5653e6a47b5863de800339 1466914410
-obj /usr/share/libgphoto2/2.5.10/konica/german d5957540df91073d8cf9376af53f41ad 1466914410
-obj /usr/share/libgphoto2/2.5.10/konica/spanish 59b55700a240c75b21ff34929a48a50d 1466914410
-obj /usr/share/libgphoto2/2.5.10/konica/korean eb877574b5a9890e3a12b41bd5078687 1466914410
-obj /usr/share/libgphoto2/2.5.10/konica/japanese e2533e8bd6886ebb414c244895d897f7 1466914410
-obj /usr/share/libgphoto2/2.5.10/konica/french 0252d82d47454e6c7fc39086100b9137 1466914410
+obj /usr/share/libgphoto2/2.5.10/konica/english f9800ddefc5653e6a47b5863de800339 1484282359
+obj /usr/share/libgphoto2/2.5.10/konica/german d5957540df91073d8cf9376af53f41ad 1484282359
+obj /usr/share/libgphoto2/2.5.10/konica/spanish 59b55700a240c75b21ff34929a48a50d 1484282359
+obj /usr/share/libgphoto2/2.5.10/konica/korean eb877574b5a9890e3a12b41bd5078687 1484282359
+obj /usr/share/libgphoto2/2.5.10/konica/japanese e2533e8bd6886ebb414c244895d897f7 1484282359
+obj /usr/share/libgphoto2/2.5.10/konica/french 0252d82d47454e6c7fc39086100b9137 1484282359
 dir /usr/share/libgphoto2_port
 dir /usr/share/libgphoto2_port/0.12.0
 dir /usr/share/libgphoto2_port/0.12.0/vcamera
-obj /usr/share/libgphoto2_port/0.12.0/vcamera/README.txt fc5d6406e416be668de8072674598da1 1466914408
+obj /usr/share/libgphoto2_port/0.12.0/vcamera/README.txt fc5d6406e416be668de8072674598da1 1484282357
 dir /usr/share/man
 dir /usr/share/man/man3
-obj /usr/share/man/man3/libgphoto2_port.3.bz2 de96cef47f2a7b8104025db06b1a76a6 1466914412
-obj /usr/share/man/man3/libgphoto2.3.bz2 4714545cf269589f570ece4230bbcee6 1466914412
+obj /usr/share/man/man3/libgphoto2_port.3.bz2 de96cef47f2a7b8104025db06b1a76a6 1484282359
+obj /usr/share/man/man3/libgphoto2.3.bz2 4714545cf269589f570ece4230bbcee6 1484282359

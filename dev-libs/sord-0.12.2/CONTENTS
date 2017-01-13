@@ -1,25 +1,31 @@
 dir /usr
 dir /usr/lib64
+sym /usr/lib64/libsord-0.so -> libsord-0.so.0.12.2 1484282421
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/sord-0.pc 6f28281de5018ffaf1dcb1c6bf2fdc1b 1483563640
-obj /usr/lib64/libsord-0.so.0.12.2 91f8403c6f9df6394093d3fbf43d19e6 1483563642
-sym /usr/lib64/libsord-0.so.0 -> libsord-0.so.0.12.2 1483563643
+obj /usr/lib64/pkgconfig/sord-0.pc 6f28281de5018ffaf1dcb1c6bf2fdc1b 1484282418
+obj /usr/lib64/libsord-0.so.0.12.2 91f8403c6f9df6394093d3fbf43d19e6 1484282420
+sym /usr/lib64/libsord-0.so.0 -> libsord-0.so.0.12.2 1484282421
 dir /usr/include
 dir /usr/include/sord-0
 dir /usr/include/sord-0/sord
 obj /usr/include/sord-0/sord/sord.h af6b4221a2af15a4d8bb91a386b824cd 1407508802
 obj /usr/include/sord-0/sord/sordmm.hpp e79147f271f6a42d398f9c2514752632 1377006851
 dir /usr/bin
-obj /usr/bin/sordi 87434a29841e40f2f3891ac72049b713 1483563642
-obj /usr/bin/sord_validate afccbdc34122b6f2008c6f52aa20f25a 1483563642
+obj /usr/bin/sordi 87434a29841e40f2f3891ac72049b713 1484282420
+obj /usr/bin/sord_validate afccbdc34122b6f2008c6f52aa20f25a 1484282420
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/sord-0.12.2
-obj /usr/share/doc/sord-0.12.2/NEWS.bz2 cd125994801b515b5b556e3cee4591c9 1483563641
-obj /usr/share/doc/sord-0.12.2/README.bz2 128074985ab4efa37b2018016a168919 1483563641
-obj /usr/share/doc/sord-0.12.2/AUTHORS 04d7cad472e8c10af159177eb2d9e31e 1483563641
+dir /usr/share/doc/sord-0.12.2/sord-0
+dir /usr/share/doc/sord-0.12.2/sord-0/html
+obj /usr/share/doc/sord-0.12.2/sord-0/html/index.html 15cd3472391251dbbe9983595402d41d 1484282418
+obj /usr/share/doc/sord-0.12.2/sord-0/html/style.css aba500b6361e31975130b3a475ec79a4 1484282418
+obj /usr/share/doc/sord-0.12.2/NEWS.bz2 cd125994801b515b5b556e3cee4591c9 1484282419
+obj /usr/share/doc/sord-0.12.2/README.bz2 128074985ab4efa37b2018016a168919 1484282419
+obj /usr/share/doc/sord-0.12.2/AUTHORS 04d7cad472e8c10af159177eb2d9e31e 1484282419
 dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/sord.3.bz2 ae2932dcde0a8aa2115f86e052cd62a2 1484282418
 dir /usr/share/man/man1
 obj /usr/share/man/man1/sordi.1.bz2 b0103f350b0a470671bd8d735b059639 1361203885
 obj /usr/share/man/man1/sord_validate.1.bz2 d0947af71842402bb55ce0dd76ace435 1361203885
-sym /usr/lib64/libsord-0.so -> libsord-0.so.0.12.2 1483563643
