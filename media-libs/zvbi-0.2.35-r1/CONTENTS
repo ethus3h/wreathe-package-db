@@ -1,67 +1,212 @@
 dir /usr
 dir /usr/lib64
+sym /usr/lib64/libzvbi-chains.so -> libzvbi-chains.so.0.0.0 1484285613
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/zvbi-0.2.pc 7cec38070e2eb4b99b0a4a463f9a22fb 1480389539
-obj /usr/lib64/libzvbi-chains.so.0.0.0 baedd0d90fcbfae122b9b456be54be08 1480389540
-sym /usr/lib64/libzvbi-chains.so.0 -> libzvbi-chains.so.0.0.0 1480389543
-obj /usr/lib64/libzvbi.so.0.13.2 12bd7ff762e4c266ce7b98d90fd00dd7 1480389540
+obj /usr/lib64/pkgconfig/zvbi-0.2.pc 7cec38070e2eb4b99b0a4a463f9a22fb 1484285610
+sym /usr/lib64/libzvbi.so -> libzvbi.so.0.13.2 1484285613
+obj /usr/lib64/libzvbi-chains.so.0.0.0 2a489f907d63ae44f8fbbc58694728a4 1484285611
+sym /usr/lib64/libzvbi-chains.so.0 -> libzvbi-chains.so.0.0.0 1484285613
+sym /usr/lib64/libzvbi.so.0 -> libzvbi.so.0.13.2 1484285613
+obj /usr/lib64/libzvbi.so.0.13.2 d67c106717b6da7d7ef1c24f9a2420f7 1484285611
 dir /usr/include
-obj /usr/include/libzvbi.h 874a74543958ed82a730f37c062b8929 1480389538
+obj /usr/include/libzvbi.h 874a74543958ed82a730f37c062b8929 1484285610
 dir /usr/lib32
+sym /usr/lib32/libzvbi-chains.so -> libzvbi-chains.so.0.0.0 1484285613
 dir /usr/lib32/pkgconfig
-obj /usr/lib32/pkgconfig/zvbi-0.2.pc b4907ae341ebc7e7acad0e889e2e52b6 1480389537
-obj /usr/lib32/libzvbi-chains.so.0.0.0 22f11a6b64f98b92d3a2ce79c29a9084 1480389540
-sym /usr/lib32/libzvbi-chains.so.0 -> libzvbi-chains.so.0.0.0 1480389543
-obj /usr/lib32/libzvbi.so.0.13.2 876777407d29cddcb6512335a78f640e 1480389540
+obj /usr/lib32/pkgconfig/zvbi-0.2.pc b4907ae341ebc7e7acad0e889e2e52b6 1484285610
+sym /usr/lib32/libzvbi.so -> libzvbi.so.0.13.2 1484285613
+obj /usr/lib32/libzvbi-chains.so.0.0.0 e580c1d12e44d11deb85c713299e280e 1484285611
+sym /usr/lib32/libzvbi-chains.so.0 -> libzvbi-chains.so.0.0.0 1484285613
+sym /usr/lib32/libzvbi.so.0 -> libzvbi.so.0.13.2 1484285613
+obj /usr/lib32/libzvbi.so.0.13.2 b8d1e68b08b3763ab4f465bd995efdb1 1484285611
 dir /usr/bin
-obj /usr/bin/zvbi-atsc-cc b2963f718b589e16d70de9e9a3b69142 1480389540
-obj /usr/bin/zvbi-ntsc-cc 8c445c455fe8138aa9df4274b16877ca 1480389540
-obj /usr/bin/zvbi-chains 1be2542362755048532f076b637912a4 1480389540
+obj /usr/bin/zvbi-atsc-cc 85c068e2dcafc5c884bc842042c4705b 1484285611
+obj /usr/bin/zvbi-ntsc-cc 1d71951b2f74f4add9a70afe64cb142e 1484285611
+obj /usr/bin/zvbi-chains 9467cecfed51db2538714371f3260cc8 1484285611
 dir /usr/sbin
-obj /usr/sbin/zvbid 903d95e0c260bbcce7f97c45947a36f4 1480389540
+obj /usr/sbin/zvbid 1161cdfa65949dbaa637cb9a7e8fdea0 1484285611
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/zvbi-0.2.35-r1
-obj /usr/share/doc/zvbi-0.2.35-r1/NEWS.bz2 b6e1bc2034c0368f1ddd709a1d037a17 1480389539
-obj /usr/share/doc/zvbi-0.2.35-r1/README.bz2 99bfbb8557a348d3a3a12f7664edf32f 1480389539
-obj /usr/share/doc/zvbi-0.2.35-r1/AUTHORS.bz2 5a571bd856b7d43cf5344eac91688b57 1480389539
-obj /usr/share/doc/zvbi-0.2.35-r1/ChangeLog.bz2 05d286a72f579d8d471c3a1fe8d0518e 1480389539
-obj /usr/share/doc/zvbi-0.2.35-r1/TODO.bz2 a73c1ae29a8fe0e302cc77bd9ca66132 1480389539
-obj /usr/share/doc/zvbi-0.2.35-r1/BUGS.bz2 091055cb23c11a2ee8aa9bd1307be11a 1480389539
+obj /usr/share/doc/zvbi-0.2.35-r1/NEWS.bz2 b6e1bc2034c0368f1ddd709a1d037a17 1484285610
+dir /usr/share/doc/zvbi-0.2.35-r1/html
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__SERVICE__REQ.html f418975640fbbd9919f5976ddd08eb37 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__raw__decoder.html ad057208b8a1f0558a5cd4552a94df82 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/dir_fc4d6265c124e465718dd142190be10c.html 22975329ea36e27ddd99dca3c503ea3c 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/functions.html 10d61026fbcd3409321ca2baf06252bf 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__xds__packet.html d5d6728c0e801799140252818072375f 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__export.html 2cf773144ab5c3f67a21e2e479757ad5 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CHN__NOTIFY__REQ.html 646185b2d3c30febedfef91e3d68e333 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/sync_on.png b1cc394ed471b4ab97be14f1e1a7cefa 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/struct__vbi__xds__demux.html dc33602b6839155acaa0053d902118cc 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/tabs.css cf9a4ad5a8b52323af8cc15e96fb2e93 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CHN__RECLAIM__REQ.html 38bfbbb7d40e170cb5ccbf5e3c6f32f5 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/modules.html 44ae3f773c51822f629855a58dd4f006 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__BCD.html e04c726b9793c5886bf31a96f2337eda 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structxds__sub__packet.html 24ec088599aca74cede876d0b04ef38b 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/nav_h.png 935f050f10b7fe425509491f207f574f 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__pfc__block.html b791a2ece53bfd489081edb4a3a50b96 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__font__descr.html ecf52f5320c94c8e2f3ff5e93b81a30f 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__export__class.html 6b4151554c87af04f96bf2b367b094fc 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__PFCDemux.html a874cd54ba6db915423f247b023b07e8 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structttx__pop__link.html 4475ff1fd512c868c9ac846dccd096b0 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/zvbi_525.gif 9bad556fda254b5e5511d4360428d28a 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/folderclosed.png 0b7046d86103299b2a0306ddf33ec004 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__SERVICE__REJ.html 86e0af39b3d30b8913a51efe4d5ae601 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__DVBMux.html e89ded9088191b17a3671e79f1d65274 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__program__info.html 0dd9a042b658149c94692ae997b29cbd 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structttx__extension.html f489abfdbfdbc23edd05670746424e1c 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Search.html 9c08f0fffab64b0cd8b477f601750444 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CHN__SUSPEND__REJ.html 46e942995fc0075860e0b8996fd99c23 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/doxygen.png 4d8b8c8f1a68a4f320da8294a085f251 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/deprecated.html e5d1790249cf991334f52987968378de 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Sliced.html df1d4d0121380bd96505065e9fdcfb61 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Error.html 61c927c0b07711cd53dcc444b734a183 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__XDSDemux.html cdccc71abf55c222cec7dc07b2f22152 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/src_2exp-templ_8c-example.html a49754afe647eeff5670acbb8392bd8c 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/examples.html e3f7eb31d4ab2bba5a3856d8c57afdb3 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/index.html 63c921ee830a11be9f439a89d38dd7c9 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/functions_vars.html 8c741bc6c0c5fcb677b6d5d67857bcd6 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__sliced.html cd2ae072731f5a85086343e9f159b851 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__program__id.html 64b7516678ddf52c71dff936c4f9dd97 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CHN__IOCTL__REJ.html b50b95ab5ff11fb2cdac6621ba855661 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__LowDec.html 7b9f6d27c7eb58e6bb66c21d928e9574 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__HiDec.html 5c99a6eea2ede89ede307c3c85e0c8fd 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Cache.html b0454a3c801ece8c8f9e01873af67d06 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/examples_2pdc2_8c-example.html ffe2c395a4b24c020e807261ce122e84 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__MAGICS.html 221dd2bf2271eca5f351259175bbb5c8 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CHN__TOKEN__CNF.html 52d2f18a912221dfe1ebe18d3a735516 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/bc_s.png ceaaae73746596a7519cfe782d8aa065 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Service.html 298d2e2408e6198d6dc73643d7ce250d 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structttx__ait__title.html 141ea8e6ca180940986810eeb44e9abe 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structttx__lop.html a626c91beff63c177c72a12151493638 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__capture.html bb27305902c66dda3d7c8c5425ad7b62 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CHN__IOCTL__REQ.html 7fe06f28880da6e441da302f00dbed86 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CHN__TOKEN__REQ.html d717584e679b2fa078515e2bdbc6d887 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__decoder.html c96938572097cee44045c85b850faf22 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Event.html 0dfba21b08c698d8c905da841794cc8c 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__DAEMON__PID__CNF.html 8d694ec8e7b41aed4a16d55ab3543494 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Conv.html 5f1f7e7a30087e771e46bdc5af03394b 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structttx__page__stat.html f125c797da727f563c2d5742a8266b21 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/open.png 468c228548b4a85dd54d544810bd0edd 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structcc__channel.html d4c5dcc51168cd731233c52d1c508261 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/struct__vbi__pfc__demux.html 047d6e8139d8b486d5bafaaf2145989d 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__ProgramID.html 788d87f59590f639a77fc7cb27f71140 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__option__info.html 7b93b1be665513c10561d29fb72acc6b 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/splitbar.png 8d590f70c25a81e71b99f6c8246b067e 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CHN__TOKEN__IND.html 5df382a2c6bc9e04bff02647d31168e6 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__MSG__HEADER.html 2da7c463ee5902fde6f5329830f2d6d1 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/tab_h.png 38c6c507f0ab91770a0ed9a668a03551 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CHN__RECLAIM__CNF.html 30296af61e59627d16652bb20e3c88aa 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structttx__ext__fallback.html 42f32cb7b84f264ce8bc6f18c3e09f1d 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__link.html 3df6761d51f3e123738df6d4ba7216e1 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__channel__profile.html c38e4eff5779ce447b2134a7edbe5348 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/examples_2rawout_8c-example.html f4999149ed455fd387721861b77bd7d6 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/dir_7ab42873af6d742bb5026134f5c73c39.html 477f9974d0b7848dd387b43767b914a9 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/doc.png 31ed05886f30a2be256e9df86a25586f 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Basic.html 19c749aed55bcb198d15328918b97fbd 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Raw.html f33d9122760dfe0c14faa72f24507c65 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__VPS.html 4d0e44b71bc11f8c299f9cf9d32f260e 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__page.html d41e582df4f32b750ac14db65dd4ae73 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__bit__slicer.html baebcb03877453a39f0fd38d698c4d45 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/struct__vbi__idl__demux.html 6b4fe2fe72ade70450adf9a72380540a 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/struct__vbi__log__hook.html cfa732f622fc76d2c7cb1e93a476af1c 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/closed.png 3fa180a1c853204ee64235708fb8e162 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/arrowright.png 7fcdd7b57b3825e8fbf2cd5fbb81ce70 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Rawenc.html f706b5e1a3822c2667615992b13539cf 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/struct__vbi__xds__subpacket.html 7a0e47f0011769b321bfed8c38f67ad7 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CONNECT__REJ.html 86c4dfa915714339cf8ffa4c250f4b26 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/examples_2network_8c-example.html 27b6c93144f68cb60f4c0a844f08df63 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CHN__IOCTL__CNF.html 8410cfced97408538cc3246019d24892 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structttx__page__link.html ca58ca7ee1d420c487f898be1af193ff 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/bug.html 65909197f2e682563d2bb05c7000943e 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/doxygen.css 6443da25058e7338a96c3ce7ee4918bb 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Render.html 3e2827fc95110ede77e21932afb61897 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structttx__triplet.html 132067a7bf38795bc0b87747773e8b5d 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/unionvbi__option__value.html 382b8aa0301f3c96ee87e7d703b4a108 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/annotated.html da5e4081947985b5cb24dad400ab7b69 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Proxy.html d38661cfeb6e2409601e4ce8f106fdfb 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/arrowdown.png b337efbec07a710611184b65c6610a7f 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/nav_g.png 6cf157aabeb91ae637a6d770b07c1011 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/zvbi_625.gif ecacb81f0c01228d422baf0436a58006 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__DVBDemux.html 8b24d3b483e62590ea99b55bfce09589 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structcaption.html 65b2118c684312b6cdb7852b8aaad756 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__network.html d78aa4e654fb1e935a0e5847d6451191 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/unionvbi__option__value__ptr.html cd4cb65654d6162e8787be31c997fef5 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Packet830.html c1ab030158cceba32a86bd22d47de68d 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Export.html 2f6e9716a3f8d3a1e41ce560591d0ed4 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__local__time.html b4a1aac7d06900a8212974f230b6cfdd 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__event.html 87904f3d260f9fad3a7c2345a34d90c9 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__MSG.html 268edb128495aa80f3edc09268ed5534 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CHN__CHANGE__IND.html b12550687ea009e10f90a55ed40256a4 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/unionVBIPROXY__MSG__BODY.html 88583fa135b00fe2009e65aa9abf92f3 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structttx__magazine.html ea2c49c458d4559060a13046ae2356c1 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CONNECT__CNF.html 189ff9676db74ad5c6e0093474976824 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__export__info.html 1080a93f0a8fe848f45e3e850ed315aa 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/tab_s.png d5a3e094c590d5113232b74cd902f58f 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Rawdec.html 2084b271771666270b51df489decb35e 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/sync_off.png 12a5e283812e092b5a74b0d47e95e9a9 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__raw__decoder_1_1__vbi__raw__decoder__job.html 4d7018f798662445b8b4c3989ccaba50 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__char.html c318b60a73511b33705a660dba6e22b7 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__MSG__STATE.html 1441010cab602bfd4a58914983b5db80 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Page.html 765b22b406047456d085f10603ee1dc7 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/pages.html 77c23d49cd550110d45ad538cfed1494 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/bdwn.png 6249334b2e7fc28090f26abeb328eb78 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__cni__entry.html 7e3aadc97d1c5af50dfd257ec38e7f6f 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CONNECT__REQ.html 8c68a4254731c23079423cb276cf72fa 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__capture__buffer.html a2eb78ec84c84c669a4be2939ddbe16e 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Exmod.html 8e2d859ba1f1d95863f2cd74d443e84f 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__DAEMON__PID__REQ.html 3565497050a7734bce0ff53dd8306dcd 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/nav_f.png 4e4d8be23c6d6bbe0184fd891ff59e00 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/tab_b.png c7cd16cfabe8a14b9848f813df53fc2e 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/folderopen.png 9ff4412a8e93e25320b9e260951c6a04 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Device.html 702d2687f833524197abbd706cbb2fbe 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__SERVICE__CNF.html 424534ce791349040e96b8ae162238b0 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/examples_2wss_8c-example.html 3d67eaa68608ea85387d9ed350e271c1 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CHN__SUSPEND__REQ.html a4dc94c07eb1d2336f4398f5823aab20 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CHN__NOTIFY__CNF.html 339ebe5838ab44347c3b2d9e83322e1a 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structvbi__aspect__ratio.html 5ef40d65551c6c5c710546ec90dbd08b 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/tab_a.png 2a5327b5dfc494fd8688fd887991cdab 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__Sampling.html 4acee8ab983093c23cd02f073a2e39e0 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/classes.html b5bfa1a023422c562b0994992126b3f5 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/examples_2pdc1_8c-example.html e1b2982cd0e831bece27798ca93d2044 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__SLICED__IND.html d1d1a500cadbaa6b572bb43624df726c 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structVBIPROXY__CHN__SUSPEND__CNF.html 95d847f729a30bd204b6558d0a419d50 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/structevent__handler.html 536c43984545c0fd748f19508c589173 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/html/group__IDLDemux.html 73e2d32d89fe050586b9fbefa579e634 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/README.bz2 99bfbb8557a348d3a3a12f7664edf32f 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/AUTHORS.bz2 5a571bd856b7d43cf5344eac91688b57 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/ChangeLog.bz2 05d286a72f579d8d471c3a1fe8d0518e 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/TODO.bz2 a73c1ae29a8fe0e302cc77bd9ca66132 1484285610
+obj /usr/share/doc/zvbi-0.2.35-r1/BUGS.bz2 091055cb23c11a2ee8aa9bd1307be11a 1484285610
 dir /usr/share/locale
 dir /usr/share/locale/nl
 dir /usr/share/locale/nl/LC_MESSAGES
-obj /usr/share/locale/nl/LC_MESSAGES/zvbi.mo 76c09d541451d51e98cc715aa0befec0 1480389539
+obj /usr/share/locale/nl/LC_MESSAGES/zvbi.mo 76c09d541451d51e98cc715aa0befec0 1484285610
 dir /usr/share/locale/it
 dir /usr/share/locale/it/LC_MESSAGES
-obj /usr/share/locale/it/LC_MESSAGES/zvbi.mo 935065a85a6539dcc30c8fc7d082bcad 1480389539
+obj /usr/share/locale/it/LC_MESSAGES/zvbi.mo 935065a85a6539dcc30c8fc7d082bcad 1484285610
 dir /usr/share/locale/de
 dir /usr/share/locale/de/LC_MESSAGES
-obj /usr/share/locale/de/LC_MESSAGES/zvbi.mo 59e42a1f233537cdf58dd531a0212b47 1480389538
+obj /usr/share/locale/de/LC_MESSAGES/zvbi.mo 59e42a1f233537cdf58dd531a0212b47 1484285610
 dir /usr/share/locale/es
 dir /usr/share/locale/es/LC_MESSAGES
-obj /usr/share/locale/es/LC_MESSAGES/zvbi.mo 15673801fed35f37fb9bfd947f253504 1480389538
+obj /usr/share/locale/es/LC_MESSAGES/zvbi.mo 15673801fed35f37fb9bfd947f253504 1484285610
 dir /usr/share/locale/en@boldquot
 dir /usr/share/locale/en@boldquot/LC_MESSAGES
-obj /usr/share/locale/en@boldquot/LC_MESSAGES/zvbi.mo 7081e5551d1e97862b92ac4f64395c1e 1480389538
+obj /usr/share/locale/en@boldquot/LC_MESSAGES/zvbi.mo 7081e5551d1e97862b92ac4f64395c1e 1484285610
 dir /usr/share/locale/fr
 dir /usr/share/locale/fr/LC_MESSAGES
-obj /usr/share/locale/fr/LC_MESSAGES/zvbi.mo 62faa6db38d455cc3214530c65fc7234 1480389539
+obj /usr/share/locale/fr/LC_MESSAGES/zvbi.mo 62faa6db38d455cc3214530c65fc7234 1484285610
 dir /usr/share/locale/en@quot
 dir /usr/share/locale/en@quot/LC_MESSAGES
-obj /usr/share/locale/en@quot/LC_MESSAGES/zvbi.mo aef62671c512d120ee1bff15da1fcf5f 1480389538
+obj /usr/share/locale/en@quot/LC_MESSAGES/zvbi.mo aef62671c512d120ee1bff15da1fcf5f 1484285610
 dir /usr/share/locale/pl
 dir /usr/share/locale/pl/LC_MESSAGES
-obj /usr/share/locale/pl/LC_MESSAGES/zvbi.mo e54ed588984456b24a5893cddaffe721 1480389539
+obj /usr/share/locale/pl/LC_MESSAGES/zvbi.mo e54ed588984456b24a5893cddaffe721 1484285610
 dir /usr/share/man
 dir /usr/share/man/man1
-obj /usr/share/man/man1/zvbi-ntsc-cc.1.bz2 c460933386d91a7c11391efabc6f286f 1480389538
-obj /usr/share/man/man1/zvbid.1.bz2 488e5862733886e3d6644e66176beb46 1480389538
-obj /usr/share/man/man1/zvbi-atsc-cc.1.bz2 ea35da4bc450fdcb2aea4892f8a9f306 1480389538
-obj /usr/share/man/man1/zvbi-chains.1.bz2 dc8befd788421e4bc28e4781b8332f21 1480389538
-sym /usr/lib32/libzvbi.so.0 -> libzvbi.so.0.13.2 1480389543
-sym /usr/lib32/libzvbi.so -> libzvbi.so.0.13.2 1480389543
-sym /usr/lib32/libzvbi-chains.so -> libzvbi-chains.so.0.0.0 1480389543
-sym /usr/lib64/libzvbi.so.0 -> libzvbi.so.0.13.2 1480389543
-sym /usr/lib64/libzvbi.so -> libzvbi.so.0.13.2 1480389543
-sym /usr/lib64/libzvbi-chains.so -> libzvbi-chains.so.0.0.0 1480389543
+obj /usr/share/man/man1/zvbi-ntsc-cc.1.bz2 c460933386d91a7c11391efabc6f286f 1484285610
+obj /usr/share/man/man1/zvbid.1.bz2 488e5862733886e3d6644e66176beb46 1484285610
+obj /usr/share/man/man1/zvbi-atsc-cc.1.bz2 ea35da4bc450fdcb2aea4892f8a9f306 1484285610
+obj /usr/share/man/man1/zvbi-chains.1.bz2 dc8befd788421e4bc28e4781b8332f21 1484285610
