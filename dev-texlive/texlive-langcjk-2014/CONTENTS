@@ -7,11 +7,12 @@ dir /etc/texmf/dvipdfm
 dir /etc/texmf/dvipdfm/config
 dir /etc/texmf/dvips.d
 dir /etc/texmf/updmap.d
-obj /etc/texmf/updmap.d/texlive-langcjk.cfg 84e567bd0f59aae8da5379528accbd56 1465674982
+obj /etc/texmf/updmap.d/texlive-langcjk.cfg 84e567bd0f59aae8da5379528accbd56 1484348858
 dir /usr
 dir /usr/share
 dir /usr/share/tlpkg
 dir /usr/share/tlpkg/tlpobj
+obj /usr/share/tlpkg/tlpobj/xcjk2uni.doc.tlpobj 98004012b06cca0294f3af25bf2bd39e 1403659753
 obj /usr/share/tlpkg/tlpobj/adobemapping.tlpobj 0556da931ced5545e36942e6af7799eb 1397780175
 obj /usr/share/tlpkg/tlpobj/norasi-c90.source.tlpobj 958e060f24e996c7657fa6135229418b 1397784465
 obj /usr/share/tlpkg/tlpobj/zxjafont.tlpobj fa98fbea2414384dc5d1274f9ed8389e 1397787094
@@ -19,10 +20,13 @@ obj /usr/share/tlpkg/tlpobj/collection-langcjk.tlpobj a43a0664ef4a3887ab1e7701b7
 obj /usr/share/tlpkg/tlpobj/xcjk2uni.tlpobj 2da419229704f9f2078b97e09b3a6cea 1403659753
 obj /usr/share/tlpkg/tlpobj/c90.tlpobj b986bdcbf41b99e6ee1f3b48c83b8b68 1397781442
 obj /usr/share/tlpkg/tlpobj/garuda-c90.tlpobj 2d49514b9f82f716d15d712efe8da624 1397782599
+obj /usr/share/tlpkg/tlpobj/zxjafont.doc.tlpobj 82724e25cfc28be82696bab23b1df26a 1397787094
 obj /usr/share/tlpkg/tlpobj/cjkpunct.source.tlpobj 17c0e09aa92dbf2d48827cce96b3441f 1397781610
 obj /usr/share/tlpkg/tlpobj/xcjk2uni.source.tlpobj 1e85e09028f6cfd99f034fbda6ec64a2 1403659752
+obj /usr/share/tlpkg/tlpobj/cjkpunct.doc.tlpobj c3e5ba85ed60a060c67e6eaa4e500560 1397781610
 obj /usr/share/tlpkg/tlpobj/dnp.tlpobj 8c590ad32ecf71c5097a3c1a6ef21793 1397782047
 obj /usr/share/tlpkg/tlpobj/garuda-c90.source.tlpobj e7a9bedeff07837800b6125d3b3af1a3 1397782599
+obj /usr/share/tlpkg/tlpobj/c90.doc.tlpobj f468788e3ba68b763d0a74f5e5d6e0f7 1397781442
 obj /usr/share/tlpkg/tlpobj/cjkpunct.tlpobj 6df3592de7728953cbfce8c2d5f4deac 1397781610
 obj /usr/share/tlpkg/tlpobj/norasi-c90.tlpobj 5fc4aa484f1eb006f67c9ee7c98febd7 1397784465
 obj /usr/share/tlpkg/tlpobj/c90.source.tlpobj 2c6ce5cbc511a83a9a3dd1778fc67a87 1397781442
@@ -416,6 +420,33 @@ dir /usr/share/texmf-dist/dvips/norasi-c90
 obj /usr/share/texmf-dist/dvips/norasi-c90/config.norasi-c90 dd3dd40961c8d56fe4762dc7c22b9c46 1232306533
 dir /usr/share/texmf-dist/dvips/garuda-c90
 obj /usr/share/texmf-dist/dvips/garuda-c90/config.garuda-c90 653eb0adf8e4334fa4619ad9f8a9a431 1232306533
+dir /usr/share/texmf-dist/doc
+dir /usr/share/texmf-dist/doc/latex
+dir /usr/share/texmf-dist/doc/latex/xcjk2uni
+obj /usr/share/texmf-dist/doc/latex/xcjk2uni/xCJK2uni.pdf 5f297174005cb30e18a20721cef3a169 1403633048
+obj /usr/share/texmf-dist/doc/latex/xcjk2uni/README 0aaf00b54311b1fe42aedebe1ca6bb80 1403633048
+dir /usr/share/texmf-dist/doc/latex/zxjafont
+obj /usr/share/texmf-dist/doc/latex/zxjafont/zxjafont.pdf 127fed5d90610e5b6aaf5b20e670a436 1366929194
+obj /usr/share/texmf-dist/doc/latex/zxjafont/README b5a059a7f52b34a5421ab8a326df4724 1366929194
+obj /usr/share/texmf-dist/doc/latex/zxjafont/LICENSE 695714c063e3d7c3ad2224792f74635a 1366929194
+obj /usr/share/texmf-dist/doc/latex/zxjafont/zxjafont.tex d0abc98e8a0e9d953c610d0e0129b42c 1366929194
+dir /usr/share/texmf-dist/doc/latex/cjkpunct
+obj /usr/share/texmf-dist/doc/latex/cjkpunct/README 7d8908a688735c53353612a864b18f16 1248050290
+obj /usr/share/texmf-dist/doc/latex/cjkpunct/README.zh-cn.txt fc0222cb13873208c324816edf6784b8 1248050290
+dir /usr/share/texmf-dist/doc/latex/cjkpunct/setpunct
+obj /usr/share/texmf-dist/doc/latex/cjkpunct/setpunct/setpunct-main.tex c316daaa728803a88a4648f77236dd66 1248050290
+obj /usr/share/texmf-dist/doc/latex/cjkpunct/setpunct/setpunct-macros.tex bed697625e1eff84dde346be5062094e 1248050290
+obj /usr/share/texmf-dist/doc/latex/cjkpunct/CJKpunct.pdf 3ccdd89d5440ceac457377d1abf70dca 1248050290
+dir /usr/share/texmf-dist/doc/latex/cjkpunct/examples
+obj /usr/share/texmf-dist/doc/latex/cjkpunct/examples/example-utf8.tex 214f653b3911527d37b0d42ac9fbe148 1248050290
+obj /usr/share/texmf-dist/doc/latex/cjkpunct/examples/example-CJKfntef.tex 659f9769b432ed814a37b9d76a57c601 1248050290
+obj /usr/share/texmf-dist/doc/latex/cjkpunct/examples/example-gbk.tex d998c83b82dceb94a18051d1d1b65376 1248050290
+obj /usr/share/texmf-dist/doc/latex/cjkpunct/examples/example-gb.tex 1b082ad1bc3bd3058c2b4b870531c4a9 1248050290
+obj /usr/share/texmf-dist/doc/latex/cjkpunct/CJKpunct.spa 176f0766306e74dec3e7df43a5ef9a5f 1248050290
+dir /usr/share/texmf-dist/doc/fonts
+dir /usr/share/texmf-dist/doc/fonts/enc
+dir /usr/share/texmf-dist/doc/fonts/enc/c90
+obj /usr/share/texmf-dist/doc/fonts/enc/c90/c90.pdf b63464c22818fa1642ad0e5c08172efe 1232306533
 dir /usr/share/texmf-dist/fonts
 dir /usr/share/texmf-dist/fonts/map
 dir /usr/share/texmf-dist/fonts/map/dvips

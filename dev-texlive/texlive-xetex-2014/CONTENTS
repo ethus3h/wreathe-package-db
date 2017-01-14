@@ -3,24 +3,24 @@ dir /var/lib
 dir /var/lib/texmf
 dir /var/lib/texmf/web2c
 dir /var/lib/texmf/web2c/xetex
-obj /var/lib/texmf/web2c/xetex/xetex.fmt 2eff8f67673f527542df148347d8070f 1465673297
-obj /var/lib/texmf/web2c/xetex/xelatex.log f076b9f437bdabef9ac66e0060072f65 1465673297
-obj /var/lib/texmf/web2c/xetex/xetex.log 9ee1114137d27c32fb6c6814f62bb97e 1465673297
-obj /var/lib/texmf/web2c/xetex/xelatex.fmt e9d0b674f01ed716c37835b613c08cb2 1465673297
+obj /var/lib/texmf/web2c/xetex/xetex.fmt f0bf1ee6a58d3b4b8e2b282ccab0cf10 1484340405
+obj /var/lib/texmf/web2c/xetex/xelatex.log 91836fc90c23d98508bf096bc1fac6a8 1484340405
+obj /var/lib/texmf/web2c/xetex/xetex.log 5ff30b1a75f5769dbe90fecb24c1789e 1484340405
+obj /var/lib/texmf/web2c/xetex/xelatex.fmt cc3b145f430863467be961a41a986bf4 1484340405
 dir /etc
 dir /etc/texmf
 dir /etc/texmf/dvipdfm
 dir /etc/texmf/dvipdfm/config
 dir /etc/texmf/dvips.d
 dir /etc/texmf/fmtutil.d
-obj /etc/texmf/fmtutil.d/format.texlive-xetex.cnf bc7e11799fb2a720bf4f231de59319a5 1465673292
+obj /etc/texmf/fmtutil.d/format.texlive-xetex.cnf bc7e11799fb2a720bf4f231de59319a5 1484340402
 dir /etc/texmf/updmap.d
 dir /etc/fonts
 dir /etc/fonts/conf.avail
-obj /etc/fonts/conf.avail/09-texlive.conf 235621aea7a9285faf2099960d88afcb 1465673297
+obj /etc/fonts/conf.avail/09-texlive.conf 235621aea7a9285faf2099960d88afcb 1484340405
 dir /usr
 dir /usr/bin
-sym /usr/bin/xelatex -> xetex 1465673301
+sym /usr/bin/xelatex -> xetex 1484340410
 dir /usr/share
 dir /usr/share/tlpkg
 dir /usr/share/tlpkg/tlpobj
@@ -29,45 +29,77 @@ obj /usr/share/tlpkg/tlpobj/euenc.source.tlpobj 91ca7cfa3e370b2f5de004a7f239a842
 obj /usr/share/tlpkg/tlpobj/fontbook.tlpobj 81aed11c651eb57e8ed676a538d5f168 1397782510
 obj /usr/share/tlpkg/tlpobj/xunicode.tlpobj b186fa5f2f06f55e624fee858a10ad82 1397787058
 obj /usr/share/tlpkg/tlpobj/xetex-pstricks.tlpobj 9836506803507b55e282d8d63ef1ff3a 1397786333
+obj /usr/share/tlpkg/tlpobj/ucharclasses.doc.tlpobj 7e0ef2d0a50bc521a3d1f98e6c8af3bc 1397786030
 obj /usr/share/tlpkg/tlpobj/euenc.tlpobj 5ff8a230ca4b5a7a965e5ec7246d47bc 1397782352
 obj /usr/share/tlpkg/tlpobj/philokalia.source.tlpobj d617f61fd55d1eba1b9daa056cab68a3 1397784814
 obj /usr/share/tlpkg/tlpobj/xetex-def.tlpobj 19047577c6fdd208ba3a4c6b4f1fac82 1406424385
 obj /usr/share/tlpkg/tlpobj/xepersian.source.tlpobj 9a41599b6ae4d63c804960021a35e828 1411780972
+obj /usr/share/tlpkg/tlpobj/xetex-pstricks.doc.tlpobj d0c6b2c03ee2cddd8f9cd91883f0bccc 1397786333
+obj /usr/share/tlpkg/tlpobj/xeindex.doc.tlpobj 020484a951dba45defef1f1395692361 1397786328
 obj /usr/share/tlpkg/tlpobj/ucharclasses.tlpobj c43b7e9602215a8514cc017e79b3aa09 1397786030
 obj /usr/share/tlpkg/tlpobj/xetexko.tlpobj 625ac1249427b079b137d86e202974d7 1407461159
+obj /usr/share/tlpkg/tlpobj/bidi-atbegshi.doc.tlpobj b1a1f6008289ef8258f2d72709209195 1410484863
 obj /usr/share/tlpkg/tlpobj/xecjk.source.tlpobj bafe9cde4eed3a99f894a985a0fbe9f8 1403659757
 obj /usr/share/tlpkg/tlpobj/bidi-atbegshi.tlpobj 0ffb869a105649eb5d6956f0596f0df8 1410484863
+obj /usr/share/tlpkg/tlpobj/ptext.doc.tlpobj 061fd99555cec646ad23f38d144fd107 1397785223
+obj /usr/share/tlpkg/tlpobj/xetex-itrans.doc.tlpobj 418e37451f8f104c30c7816c6ba873b8 1409620832
 obj /usr/share/tlpkg/tlpobj/fixlatvian.source.tlpobj de982adeb8df45dff84e6b88ddad83ce 1397782486
+obj /usr/share/tlpkg/tlpobj/xunicode.doc.tlpobj 6bc60f60d5eecb3b919daabe55ccbe6f 1397787058
+obj /usr/share/tlpkg/tlpobj/xetexko.doc.tlpobj ab64d25791d583c4bd921e93af61a021 1407461159
+obj /usr/share/tlpkg/tlpobj/bidishadowtext.doc.tlpobj 590573f291de595ac5bb920cd8a027f4 1405560220
 obj /usr/share/tlpkg/tlpobj/xevlna.tlpobj 8da2ed47292a132132cd9810381be13a 1397786963
+obj /usr/share/tlpkg/tlpobj/fixlatvian.doc.tlpobj 424b5d15eae5df13e3fe1cfbdac5be1e 1397782486
 obj /usr/share/tlpkg/tlpobj/xeindex.tlpobj 7f538d7140327b05a4b678fba4d7653a 1397786328
+obj /usr/share/tlpkg/tlpobj/fontbook.doc.tlpobj 0b2c1e0cf0a02c65b249f15ecb13e99a 1397782508
 obj /usr/share/tlpkg/tlpobj/fixlatvian.tlpobj 765441edde62852e5139b08e15e92fb7 1397782486
 obj /usr/share/tlpkg/tlpobj/xecolor.tlpobj 9479c2bbdde8b0248b373add0a2159c1 1397786328
 obj /usr/share/tlpkg/tlpobj/polyglossia.source.tlpobj f968903ece997f8e1ef1d23f2817a2eb 1400800520
 obj /usr/share/tlpkg/tlpobj/unisugar.tlpobj 7050e3635c92741b063e694c36563106 1397786077
+obj /usr/share/tlpkg/tlpobj/xepersian.doc.tlpobj 3712e57b873cd940b8dc1cb320054179 1411780973
+obj /usr/share/tlpkg/tlpobj/xecjk.doc.tlpobj e98ccc999df157d72df993b60ccfb4f5 1403659758
 obj /usr/share/tlpkg/tlpobj/xecjk.tlpobj 2e61daccddda114dce0e50cb7973a2cf 1403659759
+obj /usr/share/tlpkg/tlpobj/xetexfontinfo.doc.tlpobj 4ac310eca317f37215fd92e95fafb800 1397786962
+obj /usr/share/tlpkg/tlpobj/arabxetex.doc.tlpobj f13aaafed650bbac245611465be002a6 1397780373
 obj /usr/share/tlpkg/tlpobj/bidipagegrid.tlpobj 49caed49dd9fcd4fde0dd0ec89f562a8 1405560219
 obj /usr/share/tlpkg/tlpobj/ptext.tlpobj e2e11cb759ccd936129445cdf32ea4f4 1397785223
 obj /usr/share/tlpkg/tlpobj/bidicontour.tlpobj 6a367269683da3255e5c7f405598393a 1405560219
 obj /usr/share/tlpkg/tlpobj/xltxtra.tlpobj bed9054eda7a820a4510faa0d29a2d33 1397787046
 obj /usr/share/tlpkg/tlpobj/xepersian.tlpobj 3bdac5ffc8e44ed4b8f8310e1d0aaa4a 1411780974
+obj /usr/share/tlpkg/tlpobj/fontwrap.doc.tlpobj 94be5516fcb03e3762eab278447bfcc9 1397782575
 obj /usr/share/tlpkg/tlpobj/fontbook.source.tlpobj 8a49c6a9c6f0c04b546e90f6c708d863 1397782508
+obj /usr/share/tlpkg/tlpobj/bidipagegrid.doc.tlpobj ef78355c9c36f8890bd061fb26725f4c 1405560219
+obj /usr/share/tlpkg/tlpobj/bidipresentation.doc.tlpobj 5de3a7a550a65475d2e74f1ebb12006f 1411780941
 obj /usr/share/tlpkg/tlpobj/fontwrap.tlpobj 6cfb5c0557ecbf4048bb2354a1afda6a 1397782575
+obj /usr/share/tlpkg/tlpobj/bidicontour.doc.tlpobj fbd5ddcc3c722cf923b131714f5a2a47 1405560219
 obj /usr/share/tlpkg/tlpobj/philokalia.tlpobj c190382e75b5a61e2c2fc9aae13bdfac 1397784814
+obj /usr/share/tlpkg/tlpobj/realscripts.doc.tlpobj 2f42ad7758ac59f12d03ed70cd75f5a6 1397785260
 obj /usr/share/tlpkg/tlpobj/xetex-tibetan.tlpobj 3057744e4cbfae713cf85a1f640b5e9e 1397786333
 obj /usr/share/tlpkg/tlpobj/realscripts.source.tlpobj 0ac24ba5cd95563739c134cf5608b691 1397785260
+obj /usr/share/tlpkg/tlpobj/xesearch.doc.tlpobj d40fcf476219942edcbc829b9c8c0c33 1397786331
+obj /usr/share/tlpkg/tlpobj/xetex-tibetan.doc.tlpobj 8f6f2526e154573fa818b8af891a3ff9 1397786333
 obj /usr/share/tlpkg/tlpobj/xecyr.tlpobj 4709080e401ba8601abda9506852d18b 1397786328
 obj /usr/share/tlpkg/tlpobj/mathspec.tlpobj f81e4de6fb687d7ce1ccbc5a252456a2 1397784070
+obj /usr/share/tlpkg/tlpobj/polyglossia.doc.tlpobj b861e8278762954c6b70115188634f9b 1400800520
+obj /usr/share/tlpkg/tlpobj/xecyr.doc.tlpobj 7100a8c2ba84509ccbbd25dea1ca1d3c 1397786328
 obj /usr/share/tlpkg/tlpobj/bidishadowtext.tlpobj 37f0021d3f860966295d57f08a301512 1405560220
 obj /usr/share/tlpkg/tlpobj/xltxtra.source.tlpobj f890b9f87218d8fef5121870a8fb6f77 1397787046
+obj /usr/share/tlpkg/tlpobj/xevlna.doc.tlpobj 5eb543095e38a93a97ca191afbb57c91 1397786963
 obj /usr/share/tlpkg/tlpobj/collection-xetex.tlpobj d599deb3347fbc30f8cc8550287d8f10 1411780942
 obj /usr/share/tlpkg/tlpobj/arabxetex.tlpobj f90f79602fc64708ab49b3430e29e138 1397780373
+obj /usr/share/tlpkg/tlpobj/xecolor.doc.tlpobj fc95e0567164988f725a3524c76e4c24 1397786328
 obj /usr/share/tlpkg/tlpobj/xetex.tlpobj 5605cc77d6ad1ca3fc39365188da373a 1397786332
 obj /usr/share/tlpkg/tlpobj/xetexfontinfo.tlpobj 99c4fc8f24fd088940de2a7fde0fb1ce 1397786962
 obj /usr/share/tlpkg/tlpobj/xetexconfig.tlpobj 530ef8beebeca1a6f221b98b43e6c38e 1406337872
 obj /usr/share/tlpkg/tlpobj/bidipresentation.tlpobj 17b4b7653ff3d30059850615581ed542 1411780942
+obj /usr/share/tlpkg/tlpobj/euenc.doc.tlpobj c7729c966770df63e5e5b70bdb0b77c7 1397782352
 obj /usr/share/tlpkg/tlpobj/realscripts.tlpobj 4c903389e1270b69faf75eca962d9f57 1397785260
+obj /usr/share/tlpkg/tlpobj/xetex.doc.tlpobj cd1e3d6522fa8dc1e2771be44c534f48 1397786332
+obj /usr/share/tlpkg/tlpobj/unisugar.doc.tlpobj 4fd67b8c7a4c788fd80e68e4da862d83 1397786076
 obj /usr/share/tlpkg/tlpobj/xetex-itrans.tlpobj d744e8035891432f0687c86c953cbfa6 1409620832
+obj /usr/share/tlpkg/tlpobj/xltxtra.doc.tlpobj ed9d915746eef964d5fc07c3a854ad05 1397787046
+obj /usr/share/tlpkg/tlpobj/philokalia.doc.tlpobj efc4a91481fcd36daf386bcabb771822 1397784814
 obj /usr/share/tlpkg/tlpobj/arabxetex.source.tlpobj b59f886d4ac6f1e2bc0b4e8c47eb54b9 1397780372
+obj /usr/share/tlpkg/tlpobj/mathspec.doc.tlpobj 5c445705e32a14c0a2e23f49193f2eb7 1397784070
 obj /usr/share/tlpkg/tlpobj/polyglossia.tlpobj c3996f55f8d9385c28afbacb09abb0b5 1400800520
 dir /usr/share/tlpkg/tlpostcode
 obj /usr/share/tlpkg/tlpostcode/xetex.pl c76aa8bd8ac91d3dae9246180ebd6635 1336949597
@@ -361,7 +393,7 @@ obj /usr/share/texmf-dist/tex/xelatex/mathspec/mathspec.sty f6d5c2577f039eddec71
 dir /usr/share/texmf-dist/tex/xelatex/xeindex
 obj /usr/share/texmf-dist/tex/xelatex/xeindex/xeindex.sty c9a8ffbc62e5a71e402244eadb0ca27d 1263771239
 dir /usr/share/texmf-dist/fmtutil
-sym /usr/share/texmf-dist/fmtutil/format.texlive-xetex.cnf -> /etc/texmf/fmtutil.d/format.texlive-xetex.cnf 1465673301
+sym /usr/share/texmf-dist/fmtutil/format.texlive-xetex.cnf -> /etc/texmf/fmtutil.d/format.texlive-xetex.cnf 1484340411
 dir /usr/share/texmf-dist/scripts
 dir /usr/share/texmf-dist/scripts/xetex
 dir /usr/share/texmf-dist/scripts/xetex/perl
@@ -371,6 +403,214 @@ dir /usr/share/texmf-dist/scripts/xetex/perl/lib/PDF
 obj /usr/share/texmf-dist/scripts/xetex/perl/lib/PDF/Reuse.pm e348a08e84b7c698cc2c2e22eab0c8cf 1165505250
 dir /usr/share/texmf-dist/scripts/xetex/perl/lib/PDF/Reuse
 obj /usr/share/texmf-dist/scripts/xetex/perl/lib/PDF/Reuse/Util.pm 2289109cb06ce250e5cd459182d87f85 1165505250
+dir /usr/share/texmf-dist/doc
+dir /usr/share/texmf-dist/doc/latex
+dir /usr/share/texmf-dist/doc/latex/realscripts
+obj /usr/share/texmf-dist/doc/latex/realscripts/README 16edebc2a9912b36f31faf515bccf54e 1363646110
+obj /usr/share/texmf-dist/doc/latex/realscripts/realscripts.pdf 8fa56bd7cdd909a97ca7e8bdc6b750cd 1363646110
+dir /usr/share/texmf-dist/doc/latex/xltxtra
+obj /usr/share/texmf-dist/doc/latex/xltxtra/README faece4c443858be572c5ffb79e4d09cb 1284935542
+obj /usr/share/texmf-dist/doc/latex/xltxtra/xltxtra.pdf 629244c3b46694d3e417b9987b94509a 1284935542
+dir /usr/share/texmf-dist/doc/latex/polyglossia
+obj /usr/share/texmf-dist/doc/latex/polyglossia/example-thai.pdf cb132f675f53a49b5e86c2cff586e411 1400796035
+obj /usr/share/texmf-dist/doc/latex/polyglossia/README c3449108f5bbe763d065870fd2d77d82 1400796035
+obj /usr/share/texmf-dist/doc/latex/polyglossia/example-thai.tex f8b5877c785754400b2c0d9c28a2ddc4 1368483354
+obj /usr/share/texmf-dist/doc/latex/polyglossia/polyglossia.tex 6bee1de8080d37085770dad5c39a5c71 1400796035
+obj /usr/share/texmf-dist/doc/latex/polyglossia/example-arabic.tex e177e4dfc28d929052bbbb7ba5893eb2 1368483354
+obj /usr/share/texmf-dist/doc/latex/polyglossia/examples.pdf 42fc82eff230a952dc1f336945153e5e 1400796035
+obj /usr/share/texmf-dist/doc/latex/polyglossia/example-arabic.pdf 2a8fffdaa2d8f4803ece677d47ab28a6 1400796035
+obj /usr/share/texmf-dist/doc/latex/polyglossia/polyglossia.pdf b14e3efc73a98e488101ae3293405793 1400796035
+obj /usr/share/texmf-dist/doc/latex/polyglossia/examples.tex 4edd89b1d457ad64b4141285ea80fdf2 1369779238
+dir /usr/share/texmf-dist/doc/latex/euenc
+obj /usr/share/texmf-dist/doc/latex/euenc/README cd5ac898bca0e0ff9222432a21ef6e6b 1284849341
+obj /usr/share/texmf-dist/doc/latex/euenc/euenc.pdf 4d19f2752203de742cd38a82d861b989 1284849341
+obj /usr/share/texmf-dist/doc/latex/euenc/test-euxlm.ltx df336a304c33379c3066f7cf48aef1ed 1284849341
+dir /usr/share/texmf-dist/doc/xetex
+dir /usr/share/texmf-dist/doc/xetex/xetex-pstricks
+obj /usr/share/texmf-dist/doc/xetex/xetex-pstricks/README 128c23e19287ff2f4e667d0ef8edd3af 1259454806
+dir /usr/share/texmf-dist/doc/xetex/xetexko
+obj /usr/share/texmf-dist/doc/xetex/xetexko/README 7db1c71c13128d095717a19900b00e42 1407448025
+obj /usr/share/texmf-dist/doc/xetex/xetexko/ChangeLog b766400e76a9a5bb993ac12fd1fc73cb 1407448025
+obj /usr/share/texmf-dist/doc/xetex/xetexko/xetexko-doc.tex 613eac4c377f95df067d3c741276f9ee 1407448025
+obj /usr/share/texmf-dist/doc/xetex/xetexko/xetexko-doc.pdf e68a74b6c67065883efd7cf35102413a 1407448025
+dir /usr/share/texmf-dist/doc/xetex/xetexfontinfo
+obj /usr/share/texmf-dist/doc/xetex/xetexfontinfo/README c0a09a4249dab1df5742c98b3156fdf6 1214060100
+dir /usr/share/texmf-dist/doc/xetex/xesearch
+obj /usr/share/texmf-dist/doc/xetex/xesearch/README dc1cd48a841a4281a701fc9f038b609a 1258421663
+obj /usr/share/texmf-dist/doc/xetex/xesearch/xesearch.pdf 811ee7c048c74cb78155aa66d89c289b 1258421663
+obj /usr/share/texmf-dist/doc/xetex/xesearch/xesearch.tex 0ff801a7d3f531854fd345b17a84fe28 1258421663
+dir /usr/share/texmf-dist/doc/xetex/base
+obj /usr/share/texmf-dist/doc/xetex/base/XeTeX-notes.tex aed5792a2c9021058dd31301d81fbce2 1214415832
+obj /usr/share/texmf-dist/doc/xetex/base/XeTeX-notes.pdf 86a4a15a20a30c45ab8d0dd81bc904a7 1243719999
+dir /usr/share/texmf-dist/doc/xetex/xetex-tibetan
+obj /usr/share/texmf-dist/doc/xetex/xetex-tibetan/Changelog 33d166607cc944dbea5d5e4f8b842173 1358291055
+obj /usr/share/texmf-dist/doc/xetex/xetex-tibetan/README f2f086d5feab34e0ea9ffddc846e0352 1358291055
+dir /usr/share/texmf-dist/doc/xelatex
+dir /usr/share/texmf-dist/doc/xelatex/ptext
+obj /usr/share/texmf-dist/doc/xelatex/ptext/README 38b6446c7c890df4d7822300a30a6f6c 1367278220
+obj /usr/share/texmf-dist/doc/xelatex/ptext/ptext.pdf 9bb2d656ae7671171265af6abb442932 1367278220
+obj /usr/share/texmf-dist/doc/xelatex/ptext/ptext.tex 07b65362510edca7a42516540aa544b1 1367278220
+dir /usr/share/texmf-dist/doc/xelatex/philokalia
+obj /usr/share/texmf-dist/doc/xelatex/philokalia/philokalia.pdf 9da950853360696d122803bd456e1217 1243719999
+dir /usr/share/texmf-dist/doc/xelatex/bidipresentation
+obj /usr/share/texmf-dist/doc/xelatex/bidipresentation/README ed4b5e3e433192e4ba4d951140594663 1411763313
+obj /usr/share/texmf-dist/doc/xelatex/bidipresentation/sample.tex 000d146c84dd19a0aac882938a544a2a 1411763313
+obj /usr/share/texmf-dist/doc/xelatex/bidipresentation/fig-1.pdf da14106bdcc1bb362672d50b22f5745c 1411763313
+obj /usr/share/texmf-dist/doc/xelatex/bidipresentation/sample.pdf c07e2ce5bb93b4d5495a24cef6366579 1411763313
+dir /usr/share/texmf-dist/doc/xelatex/ucharclasses
+obj /usr/share/texmf-dist/doc/xelatex/ucharclasses/ucharclasses.tex 6e7800fd15878e33a9b75b21c17ffeba 1348698720
+obj /usr/share/texmf-dist/doc/xelatex/ucharclasses/README 876bbcd708463359915a2f3a5dc019ae 1348698720
+obj /usr/share/texmf-dist/doc/xelatex/ucharclasses/ucharclasses.pdf 43008e96e4f34cf7ebfe06ffbd997e74 1348698720
+dir /usr/share/texmf-dist/doc/xelatex/bidi-atbegshi
+obj /usr/share/texmf-dist/doc/xelatex/bidi-atbegshi/bidi-atbegshi-doc.tex 38a2d50311ef60e6f0f0e68176770d52 1410475578
+obj /usr/share/texmf-dist/doc/xelatex/bidi-atbegshi/README 6db9356499f2f0fd2a65257ce8b72f96 1410475578
+obj /usr/share/texmf-dist/doc/xelatex/bidi-atbegshi/test-RTL.pdf b70928b0a296d2adf77575f7b85a9c6e 1410475578
+obj /usr/share/texmf-dist/doc/xelatex/bidi-atbegshi/test-foreground-LTR.pdf 55a8cddf3b740796f882ec6c78d1683b 1410475578
+obj /usr/share/texmf-dist/doc/xelatex/bidi-atbegshi/bidi-atbegshi-doc.pdf 4734b0c6f2317d2f20c201d1bcc5347a 1410475578
+obj /usr/share/texmf-dist/doc/xelatex/bidi-atbegshi/test-foreground-RTL.pdf ce54d191bac947181f40b5dd8990fd82 1410475578
+obj /usr/share/texmf-dist/doc/xelatex/bidi-atbegshi/test-foreground-RTL.tex 23fcdc5d786925a55cc2a9c2ee37af8c 1410475578
+obj /usr/share/texmf-dist/doc/xelatex/bidi-atbegshi/test-LTR.tex 9dc7ad4e86372a2ab17d4aec71dfa79c 1410475578
+obj /usr/share/texmf-dist/doc/xelatex/bidi-atbegshi/test-LTR.pdf 92e16b665e01aec9c273a67fdf97a18c 1410475578
+obj /usr/share/texmf-dist/doc/xelatex/bidi-atbegshi/test-foreground-LTR.tex ba884c0a76c9f7ddaf1e1ec20197fdb9 1410475578
+obj /usr/share/texmf-dist/doc/xelatex/bidi-atbegshi/test-RTL.tex 70b7ac64fbabe1e557eb8fdeb0d4c5f2 1410475578
+dir /usr/share/texmf-dist/doc/xelatex/fontbook
+obj /usr/share/texmf-dist/doc/xelatex/fontbook/README 9bbd6a2ad854746ffbf9d113fe659139 1312243492
+obj /usr/share/texmf-dist/doc/xelatex/fontbook/fontbook-freefonts.tex 49269219bf379626bbccea2f3f519b0f 1313775559
+obj /usr/share/texmf-dist/doc/xelatex/fontbook/fontbook-freefonts.pdf 1492a35bc54fe2dfb164a98cc8a3947e 1313775559
+obj /usr/share/texmf-dist/doc/xelatex/fontbook/fontbook.pdf 0afacd38a9c40fc0f5b2cb0226de3bc4 1313775559
+dir /usr/share/texmf-dist/doc/xelatex/bidishadowtext
+obj /usr/share/texmf-dist/doc/xelatex/bidishadowtext/bidishadowtext-demo.pdf 3151c2216bbe97185d25033261635b2d 1405550050
+obj /usr/share/texmf-dist/doc/xelatex/bidishadowtext/bidishadowtext-doc.tex 66fac939812da98ef72a6bffcf76f522 1405550050
+obj /usr/share/texmf-dist/doc/xelatex/bidishadowtext/bidishadowtext-doc.pdf 049943ffdd697217fc08d0add02007a1 1405550050
+obj /usr/share/texmf-dist/doc/xelatex/bidishadowtext/bidishadowtext-demo.tex 546d3f559a197e96fb2ae01021cf1288 1405550050
+dir /usr/share/texmf-dist/doc/xelatex/xevlna
+obj /usr/share/texmf-dist/doc/xelatex/xevlna/README fdf2040fa2d79a059b1a34c4dd4bad72 1366755718
+obj /usr/share/texmf-dist/doc/xelatex/xevlna/xevlna.tex 19c3be24b97bd449b6efa21bc7f7e016 1366755718
+obj /usr/share/texmf-dist/doc/xelatex/xevlna/xevlna-inc.tex df9e10948d88a0a8f3147d0fb43dd4a0 1366755718
+obj /usr/share/texmf-dist/doc/xelatex/xevlna/xevlna.pdf 1fb57bb220e9767ca8cdf64b6f677b68 1366755718
+obj /usr/share/texmf-dist/doc/xelatex/xevlna/License.txt 11ef55b5ce8caf92b257eeb312fd3f9d 1366755718
+dir /usr/share/texmf-dist/doc/xelatex/bidipagegrid
+obj /usr/share/texmf-dist/doc/xelatex/bidipagegrid/README 29d6ee345a26a7ef151a97eda6183e4f 1405549986
+obj /usr/share/texmf-dist/doc/xelatex/bidipagegrid/bidipagegrid-doc.pdf 3bc747d5c0bbc5a169e289d235ffd8e7 1405549986
+obj /usr/share/texmf-dist/doc/xelatex/bidipagegrid/bidipagegrid-doc.tex 27ea8607d827d5356829470c84e98375 1405203919
+dir /usr/share/texmf-dist/doc/xelatex/xecolor
+obj /usr/share/texmf-dist/doc/xelatex/xecolor/README 73f50553e40fe7b2091b6d19ab172680 1365117265
+dir /usr/share/texmf-dist/doc/xelatex/fontwrap
+obj /usr/share/texmf-dist/doc/xelatex/fontwrap/README d5d010dd2f29d374c27dc729502a2b76 1213044687
+obj /usr/share/texmf-dist/doc/xelatex/fontwrap/fontwrap_example.pdf eae69a554f909107df864a8e5ad36386 1243719999
+obj /usr/share/texmf-dist/doc/xelatex/fontwrap/fontwrap.tex 003861969fe54d18ca13d86d0e667513 1213044687
+obj /usr/share/texmf-dist/doc/xelatex/fontwrap/fontwrap.pdf 664e7d531d7e7797b5e8fb602a5ef8cc 1243719999
+obj /usr/share/texmf-dist/doc/xelatex/fontwrap/fontwrap_example.tex bd16cedb408155e217785cb47f8e0beb 1213044687
+dir /usr/share/texmf-dist/doc/xelatex/unisugar
+obj /usr/share/texmf-dist/doc/xelatex/unisugar/Makefile cc40b0e94907dbd875c0598f4fb0d023 1304896034
+obj /usr/share/texmf-dist/doc/xelatex/unisugar/README dfcad13b3def0531c06ea052d2cd48bd 1304896034
+obj /usr/share/texmf-dist/doc/xelatex/unisugar/gedit-mixed-sugar.png 7f8df7db8b18ba60e5a86b61020ddd93 1298333748
+obj /usr/share/texmf-dist/doc/xelatex/unisugar/unisugar.tex a3d5f13f8b780d5f4b79b29fa3684c67 1304896034
+obj /usr/share/texmf-dist/doc/xelatex/unisugar/sugar.png 081027b77f9641d57ba8436d916baaae 1298333748
+obj /usr/share/texmf-dist/doc/xelatex/unisugar/unisugar.pdf f2100739cddeff595e31bcb9191c0683 1304896034
+obj /usr/share/texmf-dist/doc/xelatex/unisugar/gedit-mixed-traditional.png 19c77328b1ed899d3074192417724378 1298333748
+obj /usr/share/texmf-dist/doc/xelatex/unisugar/traditional.png 58bf053a391b8094433d288d31895f33 1298333748
+dir /usr/share/texmf-dist/doc/xelatex/xunicode
+obj /usr/share/texmf-dist/doc/xelatex/xunicode/README aaddab64cb0bce7e28e7960b02897fae 1185929412
+dir /usr/share/texmf-dist/doc/xelatex/fixlatvian
+obj /usr/share/texmf-dist/doc/xelatex/fixlatvian/Makefile 44a90779cd1a69eaca88088b54c065de 1299543024
+obj /usr/share/texmf-dist/doc/xelatex/fixlatvian/README 830577c99f45b2979ed7a69bb7885573 1299543024
+obj /usr/share/texmf-dist/doc/xelatex/fixlatvian/fixlatvian.pdf 1e767925cc03530c5cfe1cafd23327ed 1299543024
+dir /usr/share/texmf-dist/doc/xelatex/xepersian
+obj /usr/share/texmf-dist/doc/xelatex/xepersian/README 282011fd7dcaf41cdcb8a35d0d0ccd57 1411763339
+obj /usr/share/texmf-dist/doc/xelatex/xepersian/xepersian-logo.tex 569de41f3bbffd7249767922fe1652bf 1380150840
+obj /usr/share/texmf-dist/doc/xelatex/xepersian/xepersian-logo.pdf 03afa0f02d5b21c12eabb1bb7740e0d0 1365532592
+obj /usr/share/texmf-dist/doc/xelatex/xepersian/test-correction.tex 61cfed7fc518944eeb6747569966e138 1380150840
+obj /usr/share/texmf-dist/doc/xelatex/xepersian/magazine-sample.tex 50cc74acda7b20587a0835832f41f386 1411681318
+obj /usr/share/texmf-dist/doc/xelatex/xepersian/xepersian.pdf 7a837e03ade9e872e8233cfee0b72aad 1411763339
+dir /usr/share/texmf-dist/doc/xelatex/xepersian/img
+dir /usr/share/texmf-dist/doc/xelatex/xepersian/img/weather
+obj /usr/share/texmf-dist/doc/xelatex/xepersian/img/weather/rain.jpg 47279834914dd64deacbcd8b6ccd4a03 1365532592
+obj /usr/share/texmf-dist/doc/xelatex/xepersian/img/weather/sun.jpg ec649f55037f8edf79f350819d974010 1365532592
+obj /usr/share/texmf-dist/doc/xelatex/xepersian/img/weather/clouds.jpg 2ac2c49d0459552e97bf9d83bcc14ce8 1365532592
+obj /usr/share/texmf-dist/doc/xelatex/xepersian/img/ireland.jpg 2cb9332ff46d921b3fd294fdf5deb8e7 1365532592
+obj /usr/share/texmf-dist/doc/xelatex/xepersian/ftxe-0.12.py d9eee21df02fc57d77b0287f9446f2ed 1365028826
+obj /usr/share/texmf-dist/doc/xelatex/xepersian/test-empty-form.tex 5006e18cb2a7903511214e7f05af7c05 1380150840
+obj /usr/share/texmf-dist/doc/xelatex/xepersian/test-question-only.tex edd123b7e8f24ef7967a36c58bbc65fc 1380150840
+obj /usr/share/texmf-dist/doc/xelatex/xepersian/test-solution-form.tex 72e1d6ebc0f0502ba8aa791da21e050d 1380150840
+dir /usr/share/texmf-dist/doc/xelatex/xecjk
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/README 87a3e09944f4dc74d0b6a53abf62e9b9 1388445882
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/xunicode-symbols.pdf c3c19ea87b385c905d3aed8fa42f6daf 1403633205
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/xeCJK.pdf d1910079643f639ca9ab90c6f1046c40 1403633205
+dir /usr/share/texmf-dist/doc/xelatex/xecjk/example
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-checksingle.tex 844a7b90dcf31b9be209c708f01f7794 1355443948
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/example/xunicode-combine-marks.tex eb3f73afbdf02bcd50ba9335ba90cb65 1388445882
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/example/xunicode-symbols.tex c5d490671bb427ae93df1f65fe5fd760 1393767983
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/example/xunicode-commands.tex e592768468f5da619455caf156762e15 1393767983
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-listings.tex cc753ff1be22ead4415c151386684547 1373320894
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-IVS.tex 39ab0aa1229f67bc3c895b209ac64845 1369629933
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-subCJKblock.tex 96bc01aafbfcc7fa61073c44c6bc2dcc 1353710792
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-fallback.tex 16ff254b41ceebbe740c053d7baaf4df 1355443948
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-CJKfntef.tex e4c07d67d158195365ea3c70a2e355ee 1384474359
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-CJKecglue.tex bc91d987583d357abd152611ff41d157 1353710792
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-autofake.tex 6bbf46c3869756af5b2441688389d09c 1376868978
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-verbatim.tex 9eed01450fd45053f0a744021ab73067 1353710792
+obj /usr/share/texmf-dist/doc/xelatex/xecjk/example/xeCJK-example-punctstyle.tex e3dd2e3a4d93471eddd56d95261e88a1 1384474359
+dir /usr/share/texmf-dist/doc/xelatex/xecyr
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-ex6-ru-x.pdf 75afb6ad04fcf0d8eca3e7d16b012ad8 1288138618
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-ex2-ru-x.pdf a5693efb8481567b5985997f90d290d4 1288138618
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/README debdd58790297e3a6997df698f1b0d6a 1288138618
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-doc-ru.pdf 8c362806c39ea963607c63ee1a2601dc 1243719999
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-ex6-ru-x.tex a827b39ca8fc66472ef8c9b61eeb0042 1205108851
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-ex7-ru-x.pdf 476e2421f6a53f1f06005a1ea143aa98 1288138618
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/pict2e-ex.tex 85d7529213bd87a940073f1cc69ec645 1288138618
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-ex3-ru-x.tex 474b07a55a0a4925c8f51d77d6f03241 1205108851
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-ex7-ru-x.tex 28a8ddaf6283b4a30f83e42beb1dd634 1288138618
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/NEWS 40a9621943409d34866658e970f90675 1288138618
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-ex5-ru-x.pdf 4ec2e698316852c5d2c70a731ab46f60 1288138618
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/koi8-r.tex 057bc36165de1690834ec7aa27635b83 1205108851
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-ex4-ru-x.pdf 7c816fcd531f4254cee0ff0aa02d60f6 1288138618
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/listings-utf8-ex.tex e2684d8ccb2c3479445f7a81eda6d447 1288138618
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-ex4-ru-x.tex 7a6df190bb8eb1d8767c5287a856d972 1205108851
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/rumakeindex-ex-x.tex 8a77a9f92a2110a06de80a4bd7a0bf0d 1205108851
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-ex1-ru-x.tex e82d602af0dcac8db15c28f9a8aab8d9 1205108851
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/1251.tex 01be3a007336453c933ecf94377cbf13 1205108851
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-ex3-ru-x.pdf 2150d1c8096cc5254ed48a11c9d86a27 1288138618
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/language.dat.add c403d973037a6739d0b9028c829fc9b3 1205108851
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/rubibtex-ex-x.pdf e0aa24da3e6dacf06dd0d88ce91b2d68 1243719999
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/rubibtex-ex.bib 0ce72bb870088e68d69f79e1b68db0cc 1205108851
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/pict2e-ex.pdf 6b9bc483b2245657ec4a39b180e3dd0f 1288138618
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/rubibtex-ex-x.tex f13a08c9035990a03cdb92698ce56250 1205108851
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-ex2-ru-x.tex fef839c1a8da36dc2ea0741cdc063632 1205108851
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/listings-utf8-ex.pdf da52d2c3bb40cb1d01804b09164bb4ac 1288138618
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/rumakeindex-ex-x.pdf 14d418ea0c2bf5060860cf23542087fc 1243719999
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/866.tex 9ec94745fadc17f589f742d647127461 1205108851
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/iso.tex 6b10112837e088769920d069af198c96 1205108851
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-ex1-ru-x.pdf 47218ef941fbfbe344d8f2a270c395e7 1288138618
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-ex5-ru-x.tex e44fd7e67358c22e79bcc7f3486bafe0 1205108851
+obj /usr/share/texmf-dist/doc/xelatex/xecyr/xecyr-doc-ru.tex 23ca4d88056feeda80869211b4936e3e 1205108851
+dir /usr/share/texmf-dist/doc/xelatex/arabxetex
+obj /usr/share/texmf-dist/doc/xelatex/arabxetex/README 62aa1c318e493bc14688cbd20883be21 1267749238
+obj /usr/share/texmf-dist/doc/xelatex/arabxetex/arabxetex.pdf fcae688423db9f1193a880cdbcf034d3 1267749238
+dir /usr/share/texmf-dist/doc/xelatex/arabxetex/examples
+obj /usr/share/texmf-dist/doc/xelatex/arabxetex/examples/minimal.tex d8aee56fd3ce81d448e5a53eb40aa29f 1267749238
+obj /usr/share/texmf-dist/doc/xelatex/arabxetex/examples/ednotes_example.tex 112f15f9bcb2f9fed8f63dc4c4b525d6 1267749238
+obj /usr/share/texmf-dist/doc/xelatex/arabxetex/examples/ednotes_example.pdf d68720503bb029df2c0a2c0d3de99041 1267749238
+dir /usr/share/texmf-dist/doc/xelatex/xetex-itrans
+obj /usr/share/texmf-dist/doc/xelatex/xetex-itrans/README 95ed38cd3ddaab331423b3e40ef9db4a 1409610626
+obj /usr/share/texmf-dist/doc/xelatex/xetex-itrans/itrans-tamil-sample.tex 05858867615d16d1f729fe03d4cc6bd4 1317083092
+obj /usr/share/texmf-dist/doc/xelatex/xetex-itrans/itrans-tamil-sample.pdf 4e22bed2242ff51ce841359b0ff1c1fb 1317083092
+dir /usr/share/texmf-dist/doc/xelatex/bidicontour
+obj /usr/share/texmf-dist/doc/xelatex/bidicontour/README 34fcba850c5f20732d68c0f0b6572028 1405549968
+obj /usr/share/texmf-dist/doc/xelatex/bidicontour/bidicontour-example-outline.tex 755991a701ff21800f5ef6cb42b3fe45 1405288283
+obj /usr/share/texmf-dist/doc/xelatex/bidicontour/bidicontour-example-outline.pdf 055370282d797cd08adc2aa23d0a590b 1405288283
+obj /usr/share/texmf-dist/doc/xelatex/bidicontour/bidicontour-doc.tex 6feb3350ad08a2134ff2a41eb31a663a 1405288283
+obj /usr/share/texmf-dist/doc/xelatex/bidicontour/bidicontour-doc.pdf 906f5646d60f222f5c61cb77874c7580 1405549968
+obj /usr/share/texmf-dist/doc/xelatex/bidicontour/bidicontour-example-copies.tex cf2c475ea3c34b794735a53f59e154af 1405288283
+obj /usr/share/texmf-dist/doc/xelatex/bidicontour/bidicontour-example-copies.pdf 9550a2004c12adcb6001400afbfb14fc 1405288283
+dir /usr/share/texmf-dist/doc/xelatex/mathspec
+obj /usr/share/texmf-dist/doc/xelatex/mathspec/mathspec.tex fc38289aea91868db47cd867ece955d8 1254581989
+obj /usr/share/texmf-dist/doc/xelatex/mathspec/README 58133cea4d6ee46fbecf393be36bf607 1254581989
+obj /usr/share/texmf-dist/doc/xelatex/mathspec/mathspec.pdf 95e600ff8d5895e05857e397a00f779e 1254581989
+dir /usr/share/texmf-dist/doc/xelatex/xeindex
+obj /usr/share/texmf-dist/doc/xelatex/xeindex/README ce384b377932b3873a04ad1970fe0a33 1263771239
+obj /usr/share/texmf-dist/doc/xelatex/xeindex/xeindex.tex 5c86efbf6e2c88ab203fdff1cd7eef04 1263771239
+obj /usr/share/texmf-dist/doc/xelatex/xeindex/xeindex.pdf b2d490d57b0574226fd188a5e4d4afda 1263771239
 dir /usr/share/texmf-dist/fonts
 dir /usr/share/texmf-dist/fonts/misc
 dir /usr/share/texmf-dist/fonts/misc/xetex

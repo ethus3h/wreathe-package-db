@@ -7,56 +7,84 @@ dir /etc/texmf
 dir /etc/texmf/dvipdfm
 dir /etc/texmf/dvipdfm/config
 dir /etc/texmf/language.dat.d
-obj /etc/texmf/language.dat.d/language.texlive-langcyrillic.dat 7397f2426fc54e475a883ea5ac466a67 1465672758
+obj /etc/texmf/language.dat.d/language.texlive-langcyrillic.dat 7397f2426fc54e475a883ea5ac466a67 1484349101
 dir /etc/texmf/dvips.d
 dir /etc/texmf/language.def.d
-obj /etc/texmf/language.def.d/language.texlive-langcyrillic.def 2ba2757f9fe1859fb282a1d7b1bf10e8 1465672758
+obj /etc/texmf/language.def.d/language.texlive-langcyrillic.def 2ba2757f9fe1859fb282a1d7b1bf10e8 1484349101
 dir /etc/texmf/fmtutil.d
-obj /etc/texmf/fmtutil.d/format.texlive-langcyrillic.cnf ccc0804df807804a63e2ce339e8e255a 1465672756
+obj /etc/texmf/fmtutil.d/format.texlive-langcyrillic.cnf ccc0804df807804a63e2ce339e8e255a 1484349100
 dir /etc/texmf/language.dat.lua.d
-obj /etc/texmf/language.dat.lua.d/language.texlive-langcyrillic.dat.lua eb87179990fff462e204e1c5a8b5d743 1465672758
+obj /etc/texmf/language.dat.lua.d/language.texlive-langcyrillic.dat.lua eb87179990fff462e204e1c5a8b5d743 1484349101
 dir /etc/texmf/updmap.d
-obj /etc/texmf/updmap.d/texlive-langcyrillic.cfg c1e49c9da6302557dff56e8d9d584fa5 1465672758
+obj /etc/texmf/updmap.d/texlive-langcyrillic.cfg c1e49c9da6302557dff56e8d9d584fa5 1484349101
 dir /usr
 dir /usr/bin
+sym /usr/bin/rumakeindex -> ../share/texmf-dist/scripts/texlive/rumakeindex.sh 1484349109
+sym /usr/bin/rubibtex -> ../share/texmf-dist/scripts/texlive/rubibtex.sh 1484349109
 dir /usr/share
 dir /usr/share/tlpkg
 dir /usr/share/tlpkg/tlpobj
 obj /usr/share/tlpkg/tlpobj/eskd.source.tlpobj 6b99021b8a975cc919b8cc77048443e1 1397782335
+obj /usr/share/tlpkg/tlpobj/lshort-ukr.doc.tlpobj b319b5d26089e04a9439a872d302b3dd 1397783677
+obj /usr/share/tlpkg/tlpobj/lshort-bulgarian.doc.tlpobj 9e3a09c9a9080e2438e26d9e4128a43f 1397783638
 obj /usr/share/tlpkg/tlpobj/cyrillic.source.tlpobj dab346ad9fad7e7dab0a4b7f7ed3fd2f 1399678078
+obj /usr/share/tlpkg/tlpobj/serbian-apostrophe.doc.tlpobj 5661ca0ff184900d1263412c04272038 1397785338
 obj /usr/share/tlpkg/tlpobj/gost.tlpobj 5b3836ea0946875320afeeee868e5fc2 1397782730
+obj /usr/share/tlpkg/tlpobj/eskd.doc.tlpobj 842e5ed3016597904c34397de01902e8 1397782335
+obj /usr/share/tlpkg/tlpobj/cmcyr.doc.tlpobj 304cc9a608837c3e5c20b2d658e8b270 1397781763
+obj /usr/share/tlpkg/tlpobj/lshort-mongol.doc.tlpobj aa4e5bf4e7e7f93ea38463beb1baa4eb 1397783659
 obj /usr/share/tlpkg/tlpobj/lhcyr.tlpobj b514ea9cec108010b65e7dcf39f65d50 1397783517
 obj /usr/share/tlpkg/tlpobj/lshort-ukr.tlpobj d646359a5d92284806fd3265e45a181d 1397783680
 obj /usr/share/tlpkg/tlpobj/eskdx.tlpobj f164fc0de8d1ec506b5154434af90873 1397782337
 obj /usr/share/tlpkg/tlpobj/eskd.tlpobj aad2341b9ace3dece7bedf28d87141f0 1397782336
+obj /usr/share/tlpkg/tlpobj/gost.doc.tlpobj 0b92c8bb63109250277344e67abb9dd9 1397782727
 obj /usr/share/tlpkg/tlpobj/babel-serbianc.source.tlpobj 195e4812bab1c85c715ab6e83052d635 1397780665
 obj /usr/share/tlpkg/tlpobj/lhcyr.source.tlpobj 1303175d3b67cabb09703c3ce8290114 1397783517
 obj /usr/share/tlpkg/tlpobj/disser.source.tlpobj d78ed855589abee48bbc7f4fc6aca249 1397782043
+obj /usr/share/tlpkg/tlpobj/serbian-def-cyr.doc.tlpobj 6f786c3f84efe0c91d047d2b95155ec4 1397785339
 obj /usr/share/tlpkg/tlpobj/ukrhyph.tlpobj 8cd758c3173f8043de44d69c092f5346 1397786062
 obj /usr/share/tlpkg/tlpobj/hyphen-mongolian.tlpobj 7b0fc8bad0f2c800134bbf9a79bba071 1397782804
+obj /usr/share/tlpkg/tlpobj/eskdx.doc.tlpobj 264d6da8b435d1de58be40a00ddb1982 1397782336
+obj /usr/share/tlpkg/tlpobj/serbian-date-lat.doc.tlpobj 54109b5ba3dcaebf956555e9f3094bff 1397785339
 obj /usr/share/tlpkg/tlpobj/mpman-ru.tlpobj e373d1af54f405c904fcbc43b5cd09be 1397784357
+obj /usr/share/tlpkg/tlpobj/disser.doc.tlpobj ecea622f6b4aa0efdff3b2ba5f5b4334 1397782043
+obj /usr/share/tlpkg/tlpobj/pst-eucl-translation-bg.doc.tlpobj 279b174560d1199707887f8663b81b51 1397784975
 obj /usr/share/tlpkg/tlpobj/lshort-russian.tlpobj d4e1d797975a2b4b9c2cb57d1fcf1464 1397783670
 obj /usr/share/tlpkg/tlpobj/babel-serbian.tlpobj 0dafef6a041b0bbd60ecfaafa602e995 1397780664
+obj /usr/share/tlpkg/tlpobj/serbian-lig.doc.tlpobj 8b40102a046c6c48c4277c596046c843 1397785340
+obj /usr/share/tlpkg/tlpobj/babel-russian.doc.tlpobj 8bde9927ecaec4c5044e8be3b7bd9474 1403659518
+obj /usr/share/tlpkg/tlpobj/lh.doc.tlpobj b24399e7c003e29079ebb5df41ab0f83 1397783514
+obj /usr/share/tlpkg/tlpobj/montex.doc.tlpobj adf9362f5aa54dde787c17a41eca16b2 1397784341
+obj /usr/share/tlpkg/tlpobj/russ.doc.tlpobj 3b1eb1e9348fc151898fb92b03436dbd 1397785295
 obj /usr/share/tlpkg/tlpobj/mongolian-babel.tlpobj 43cab26e40100f975c79adfce2fb9515 1397784340
+obj /usr/share/tlpkg/tlpobj/texlive-ru.doc.tlpobj aa598ab3a8a140599dc026dca2aecca2 1400289974
 obj /usr/share/tlpkg/tlpobj/lh.tlpobj 789ec0199296a6b6284f80f3685d40fc 1397783514
 obj /usr/share/tlpkg/tlpobj/hyphen-russian.tlpobj 7d99bc9cd1e5cb3b4babdbd2dad52021 1397782804
+obj /usr/share/tlpkg/tlpobj/ukrhyph.doc.tlpobj f60e2d22e238e8803f5d5bfaff831ed3 1397786062
 obj /usr/share/tlpkg/tlpobj/lh.source.tlpobj edccb78f89f1b6a81d424f54bbdc3e2b 1397783513
+obj /usr/share/tlpkg/tlpobj/cyrillic-bin.doc.tlpobj f2654fd7df4b78d1e5637765721d89eb 1398734939
 obj /usr/share/tlpkg/tlpobj/hyphen-serbian.tlpobj 74a94c7c90dbfbcbac21c4e66ce7368d 1397782805
 obj /usr/share/tlpkg/tlpobj/russ.tlpobj d251238df09f94914020eb76563db602 1397785296
 obj /usr/share/tlpkg/tlpobj/babel-bulgarian.tlpobj 081220a64e562b5b2cda57e4fd148310 1397780650
 obj /usr/share/tlpkg/tlpobj/serbian-def-cyr.tlpobj d03566e1699c5332fc19a4b771d90765 1397785340
+obj /usr/share/tlpkg/tlpobj/babel-serbianc.doc.tlpobj 7b221cc5cba47586402c46539bcd322b 1397780665
 obj /usr/share/tlpkg/tlpobj/ruhyphen.tlpobj e7cb1dada45cb2e8fee4a38c592f9391 1397785294
 obj /usr/share/tlpkg/tlpobj/babel-bulgarian.source.tlpobj e05809e1af5760613f60e355bae6804a 1397780649
 obj /usr/share/tlpkg/tlpobj/babel-russian.source.tlpobj b69f900ac7fbaaec7f5328620a5a7cdd 1403659518
 obj /usr/share/tlpkg/tlpobj/gost.source.tlpobj 82cc23323117907af82fc240c5b43d5f 1397782727
 obj /usr/share/tlpkg/tlpobj/ruhyphen.source.tlpobj 97a72a52c16c24a89282ffaf9a8f8079 1397785294
+obj /usr/share/tlpkg/tlpobj/babel-bulgarian.doc.tlpobj 2c20e750b3fc73b90b89ec9bb222223f 1397780650
+obj /usr/share/tlpkg/tlpobj/babel-ukraineb.doc.tlpobj 91a28d799a87c25250576b3cfddbfe99 1397780669
+obj /usr/share/tlpkg/tlpobj/mpman-ru.doc.tlpobj 5f8809a8d9e39e34f4a19c91010d79da 1397784355
 obj /usr/share/tlpkg/tlpobj/texlive-sr.tlpobj af0f2b9d3eeeb9e9ed24dc69e2aa528b 1400289978
 obj /usr/share/tlpkg/tlpobj/cmcyr.tlpobj f56046d96d9ac6fb67e93ec4b86888ef 1397781763
 obj /usr/share/tlpkg/tlpobj/lshort-bulgarian.tlpobj b9fde6b95708ee7e7625f4b06360c02d 1397783640
 obj /usr/share/tlpkg/tlpobj/serbian-date-lat.tlpobj 405d947b20f429ac0b4ac60ff769b146 1397785339
 obj /usr/share/tlpkg/tlpobj/serbian-lig.tlpobj 2044504763bb639c5bab4aa058545b1e 1397785340
+obj /usr/share/tlpkg/tlpobj/babel-serbian.doc.tlpobj 6af0f5de1a61600d0ce4fd8ae9742f9a 1397780664
 obj /usr/share/tlpkg/tlpobj/t2.tlpobj 6bd3b2342947a7e64bcf0039ea122230 1397785477
 obj /usr/share/tlpkg/tlpobj/pst-eucl-translation-bg.tlpobj 11cf7094e1c76ea468196e433ee84f7f 1397784976
+obj /usr/share/tlpkg/tlpobj/lshort-russian.doc.tlpobj bbb8c0d1959ecf15c568a905ef49069a 1397783667
 obj /usr/share/tlpkg/tlpobj/texlive-ru.tlpobj 5165283d3270414bf0f86942abec217f 1400289976
 obj /usr/share/tlpkg/tlpobj/babel-ukraineb.tlpobj a3c825f17fe931b689d07bf73ddfaff4 1397780670
 obj /usr/share/tlpkg/tlpobj/babel-serbianc.tlpobj 71d123c28197c88fbc8899f7e176d7b8 1397780665
@@ -68,13 +96,18 @@ obj /usr/share/tlpkg/tlpobj/lcyw.source.tlpobj 4f9362df9f052aaca476a9d3c34e9413 
 obj /usr/share/tlpkg/tlpobj/cyrplain.tlpobj a1fc17cd0ceef736d287ae16c9e7136f 1397781975
 obj /usr/share/tlpkg/tlpobj/disser.tlpobj b59e0cf804c07d3690db8692e4cde463 1397782044
 obj /usr/share/tlpkg/tlpobj/mongolian-babel.source.tlpobj f31a2c72b9db4c364e3cc2c811a03ffc 1397784340
+obj /usr/share/tlpkg/tlpobj/lcyw.doc.tlpobj c806a757623b4617a2b66d9211e81afe 1397783497
 obj /usr/share/tlpkg/tlpobj/babel-ukraineb.source.tlpobj bc2d7a42a9d4b1bf9cfad9037e1e94f1 1397780669
+obj /usr/share/tlpkg/tlpobj/t2.doc.tlpobj ca264b010830a860d79495381362d87f 1397785477
+obj /usr/share/tlpkg/tlpobj/mongolian-babel.doc.tlpobj ea55f8a7ca2caaefc33eead41cd6ec34 1397784340
 obj /usr/share/tlpkg/tlpobj/cyrillic-bin.tlpobj 0fd8820969cd00520151c54b7aa7ad75 1398734939
 obj /usr/share/tlpkg/tlpobj/babel-serbian.source.tlpobj 105c7034fc1d47504d45b229b769551d 1397780664
 obj /usr/share/tlpkg/tlpobj/serbian-apostrophe.tlpobj 3145fd4e52c18ecfb9475fe0ab7ebf89 1397785338
 obj /usr/share/tlpkg/tlpobj/cyrillic.tlpobj 624e3c0a13053ce1c0b596a7e55bb4bc 1399678079
 obj /usr/share/tlpkg/tlpobj/collection-langcyrillic.tlpobj b7c07c4ac6d2a32192f05eba789855ce 1397781794
 obj /usr/share/tlpkg/tlpobj/hyphen-ukrainian.tlpobj 7057b2043da14f6f904a9b767b499552 1397782805
+obj /usr/share/tlpkg/tlpobj/texlive-sr.doc.tlpobj 916a1dbc94919deb2f0f328feb490385 1400289976
+obj /usr/share/tlpkg/tlpobj/cyrillic.doc.tlpobj 1098bcdbfc9b947f159e130cdc3bc809 1399678078
 obj /usr/share/tlpkg/tlpobj/lshort-mongol.tlpobj ab19897a3497c67a4c795f4be472353d 1397783662
 dir /usr/share/texmf-dist
 dir /usr/share/texmf-dist/source
@@ -705,11 +738,662 @@ dir /usr/share/texmf-dist/tex/plain/lh
 obj /usr/share/texmf-dist/tex/plain/lh/testkern.tex e19286b7ecfe9a75674a398544121008 1250986712
 obj /usr/share/texmf-dist/tex/plain/lh/testfox.tex cd38620e00a6e5a8629fd4ccbcbf898e 1250986712
 dir /usr/share/texmf-dist/fmtutil
-sym /usr/share/texmf-dist/fmtutil/format.texlive-langcyrillic.cnf -> /etc/texmf/fmtutil.d/format.texlive-langcyrillic.cnf 1465672761
+sym /usr/share/texmf-dist/fmtutil/format.texlive-langcyrillic.cnf -> /etc/texmf/fmtutil.d/format.texlive-langcyrillic.cnf 1484349109
 dir /usr/share/texmf-dist/scripts
 dir /usr/share/texmf-dist/scripts/texlive
 obj /usr/share/texmf-dist/scripts/texlive/rumakeindex.sh 164504e582860729d6e591210842b373 1365436280
 obj /usr/share/texmf-dist/scripts/texlive/rubibtex.sh 941191b1bdd0e0d9acaa20222d3e1437 1365436280
+dir /usr/share/texmf-dist/doc
+dir /usr/share/texmf-dist/doc/latex
+dir /usr/share/texmf-dist/doc/latex/disser
+obj /usr/share/texmf-dist/doc/latex/disser/Makefile 3d43443998deb0aa6acf0d37572cbe57 1353710706
+obj /usr/share/texmf-dist/doc/latex/disser/README 2b170307d81ff4d62dd81873ca2ae8bd 1353710706
+obj /usr/share/texmf-dist/doc/latex/disser/ChangeLog 246de298b7d09591123544429cffa515 1388445864
+obj /usr/share/texmf-dist/doc/latex/disser/cp1251.csf f10bb0743e5010d04e4e0f0bb004d278 1275260430
+dir /usr/share/texmf-dist/doc/latex/disser/include
+obj /usr/share/texmf-dist/doc/latex/disser/include/latex.fig.mk 7bf6ffab279badaa74c6a879ba805e89 1259285449
+obj /usr/share/texmf-dist/doc/latex/disser/include/latex.fig.nmk.cmd 1dd11da78b6dff5ff73be61f026cffcd 1275260430
+obj /usr/share/texmf-dist/doc/latex/disser/include/latex.nmk.cmd f15fe3c12c8a29f0025a762c519e1f1a 1353710706
+obj /usr/share/texmf-dist/doc/latex/disser/include/latex.mk 25e3de2c5cb4a35385f6cdd0b889e9ae 1353710706
+obj /usr/share/texmf-dist/doc/latex/disser/README.ru 01e600e7406e547f92e58c2130f849a6 1353710706
+obj /usr/share/texmf-dist/doc/latex/disser/nomake.cmd 3e24423afdb94fc5052a73fab58158ac 1353710706
+obj /usr/share/texmf-dist/doc/latex/disser/manual.tex 6daf0e81f008f24231b2e2120898aa95 1388445864
+dir /usr/share/texmf-dist/doc/latex/disser/templates
+obj /usr/share/texmf-dist/doc/latex/disser/templates/Makefile 1ebe6b462f9548ebbaf4b99bf9c02f7e 1388445864
+dir /usr/share/texmf-dist/doc/latex/disser/templates/bachelor
+obj /usr/share/texmf-dist/doc/latex/disser/templates/bachelor/Makefile cf5d263370c5fec2960b1ed71e6a900d 1258401456
+obj /usr/share/texmf-dist/doc/latex/disser/templates/bachelor/concl.tex b2faf22667e0fe672ec61a0e766d098f 1179591614
+obj /usr/share/texmf-dist/doc/latex/disser/templates/bachelor/thesis.tex 301d6297821c85343feccaa0cb167c3f 1388445864
+obj /usr/share/texmf-dist/doc/latex/disser/templates/bachelor/intro.tex dfbd5c8b323a2762c43868bdbc25d667 1179591614
+obj /usr/share/texmf-dist/doc/latex/disser/templates/bachelor/1.tex 514044be8c22af50c17ce62147f9241f 1388445864
+obj /usr/share/texmf-dist/doc/latex/disser/templates/bachelor/nomake.cmd 48f64982d31e7063bbb5d4c375cc9c9c 1258401456
+dir /usr/share/texmf-dist/doc/latex/disser/templates/bachelor/fig
+obj /usr/share/texmf-dist/doc/latex/disser/templates/bachelor/fig/Makefile 859abf4cd795c4e0fe47e6c7fef741a1 1245861313
+obj /usr/share/texmf-dist/doc/latex/disser/templates/bachelor/fig/nomake.cmd 41c80f71179aa8e8f20692f2cbc7f0af 1245861313
+obj /usr/share/texmf-dist/doc/latex/disser/templates/bachelor/fig/fig.eps 44d613ab9ebaa238c3aba1230e577f00 1209573747
+obj /usr/share/texmf-dist/doc/latex/disser/templates/bachelor/app-a.tex d01ef961a0cd215e3e10eb94d3423bca 1179591614
+obj /usr/share/texmf-dist/doc/latex/disser/templates/bachelor/thesis.bib 12728b0ef70cdded099d6669f876ce54 1388445864
+dir /usr/share/texmf-dist/doc/latex/disser/templates/candidate
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/Makefile 7f2c3a41e5c12dff8e3eb9c3d094b1b9 1258401456
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/common.tex a1d39d443a9d4250566268fbc256410f 1353710706
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/concl.tex b2faf22667e0fe672ec61a0e766d098f 1179591614
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/thesis.tex 5364ba3d14d6f0b5b1c7bc77e4a3d4ec 1388445864
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/review.tex 948afb87eba6af3c76bf495f50e30f38 1179591614
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/intro.tex 71a2a5ef99c89b40725c2e47438edf7e 1239820078
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/autoref.tex 811cfd2801e72aa9c83f7832decf30eb 1353710706
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/defs.tex f302ea56f0a2042ff77fd72afbab2218 1388445864
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/1.tex ec6ffd3bfc93af8d2343d7887018e436 1196607530
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/nomake.cmd 9ddffa576c4c8196ff869f952d6356f9 1258401456
+dir /usr/share/texmf-dist/doc/latex/disser/templates/candidate/fig
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/fig/Makefile 859abf4cd795c4e0fe47e6c7fef741a1 1245861313
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/fig/facsimile.eps 39bc0a44fa8446cbfad8ca51566555ad 1228264133
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/fig/sec-facsimile.eps 39bc0a44fa8446cbfad8ca51566555ad 1228264133
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/fig/nomake.cmd 41c80f71179aa8e8f20692f2cbc7f0af 1245861313
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/app-a.tex 411b75cdfd2dd90acddd051b56e7eda6 1179591614
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/thesis.bib 81817fcc189f4d20c01ac620ee326945 1275260430
+obj /usr/share/texmf-dist/doc/latex/disser/templates/candidate/dict.tex f25d02c2e7239211e855f7107bf32f6c 1388445864
+dir /usr/share/texmf-dist/doc/latex/disser/templates/specialist
+obj /usr/share/texmf-dist/doc/latex/disser/templates/specialist/Makefile cf5d263370c5fec2960b1ed71e6a900d 1290383625
+obj /usr/share/texmf-dist/doc/latex/disser/templates/specialist/concl.tex b2faf22667e0fe672ec61a0e766d098f 1290383625
+obj /usr/share/texmf-dist/doc/latex/disser/templates/specialist/thesis.tex 0f91a00d9f2419765710b68e92d3ed1f 1388445864
+obj /usr/share/texmf-dist/doc/latex/disser/templates/specialist/intro.tex dfbd5c8b323a2762c43868bdbc25d667 1290383625
+obj /usr/share/texmf-dist/doc/latex/disser/templates/specialist/1.tex b59e8a779329e5dcf7483bbc57f89778 1290383625
+obj /usr/share/texmf-dist/doc/latex/disser/templates/specialist/nomake.cmd 48f64982d31e7063bbb5d4c375cc9c9c 1290383625
+dir /usr/share/texmf-dist/doc/latex/disser/templates/specialist/fig
+obj /usr/share/texmf-dist/doc/latex/disser/templates/specialist/fig/Makefile 859abf4cd795c4e0fe47e6c7fef741a1 1290383625
+obj /usr/share/texmf-dist/doc/latex/disser/templates/specialist/fig/nomake.cmd 41c80f71179aa8e8f20692f2cbc7f0af 1290383625
+obj /usr/share/texmf-dist/doc/latex/disser/templates/specialist/fig/fig.eps 44d613ab9ebaa238c3aba1230e577f00 1290383625
+obj /usr/share/texmf-dist/doc/latex/disser/templates/specialist/app-a.tex 1d033edf9c76ac0284ad72d9e81e399a 1290383625
+obj /usr/share/texmf-dist/doc/latex/disser/templates/specialist/thesis.bib a0b5de1c1b9fcb88f20263081f0cc9e9 1290383625
+dir /usr/share/texmf-dist/doc/latex/disser/templates/master
+obj /usr/share/texmf-dist/doc/latex/disser/templates/master/Makefile cf5d263370c5fec2960b1ed71e6a900d 1258401456
+obj /usr/share/texmf-dist/doc/latex/disser/templates/master/concl.tex b2faf22667e0fe672ec61a0e766d098f 1179591614
+obj /usr/share/texmf-dist/doc/latex/disser/templates/master/thesis.tex b141d14ac5d1e06ee0ee16c57f0914a1 1388445864
+obj /usr/share/texmf-dist/doc/latex/disser/templates/master/intro.tex dfbd5c8b323a2762c43868bdbc25d667 1179591614
+obj /usr/share/texmf-dist/doc/latex/disser/templates/master/1.tex b59e8a779329e5dcf7483bbc57f89778 1179591614
+obj /usr/share/texmf-dist/doc/latex/disser/templates/master/nomake.cmd 48f64982d31e7063bbb5d4c375cc9c9c 1258401456
+dir /usr/share/texmf-dist/doc/latex/disser/templates/master/fig
+obj /usr/share/texmf-dist/doc/latex/disser/templates/master/fig/Makefile 859abf4cd795c4e0fe47e6c7fef741a1 1245861313
+obj /usr/share/texmf-dist/doc/latex/disser/templates/master/fig/nomake.cmd 41c80f71179aa8e8f20692f2cbc7f0af 1245861313
+obj /usr/share/texmf-dist/doc/latex/disser/templates/master/app-a.tex 1d033edf9c76ac0284ad72d9e81e399a 1196607530
+obj /usr/share/texmf-dist/doc/latex/disser/templates/master/thesis.bib eb5cf25ecbcbf8b0fee3020c1ad8b7fd 1275260430
+obj /usr/share/texmf-dist/doc/latex/disser/templates/nomake.cmd 91449de30b74561895fac6338fcc4314 1353710706
+dir /usr/share/texmf-dist/doc/latex/disser/templates/doctor
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/Makefile 7f2c3a41e5c12dff8e3eb9c3d094b1b9 1388445864
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/common.tex b7bee18a042f3751f6f9c0b09b339dd7 1388445864
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/concl.tex b2faf22667e0fe672ec61a0e766d098f 1179591614
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/thesis.tex d73d1f67e614c1136a079eadd9568310 1388445864
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/review.tex 948afb87eba6af3c76bf495f50e30f38 1179591614
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/intro.tex 71a2a5ef99c89b40725c2e47438edf7e 1239820078
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/autoref.tex eb0fb9daf093217b82cb92eb40036775 1353710706
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/defs.tex f302ea56f0a2042ff77fd72afbab2218 1388445864
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/1.tex ec6ffd3bfc93af8d2343d7887018e436 1228264133
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/nomake.cmd 9ddffa576c4c8196ff869f952d6356f9 1258401456
+dir /usr/share/texmf-dist/doc/latex/disser/templates/doctor/fig
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/fig/Makefile 859abf4cd795c4e0fe47e6c7fef741a1 1245861313
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/fig/facsimile.eps 39bc0a44fa8446cbfad8ca51566555ad 1228264133
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/fig/sec-facsimile.eps 39bc0a44fa8446cbfad8ca51566555ad 1228264133
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/fig/nomake.cmd 41c80f71179aa8e8f20692f2cbc7f0af 1245861313
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/app-a.tex 411b75cdfd2dd90acddd051b56e7eda6 1179591614
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/thesis.bib 81817fcc189f4d20c01ac620ee326945 1275260430
+obj /usr/share/texmf-dist/doc/latex/disser/templates/doctor/dict.tex f25d02c2e7239211e855f7107bf32f6c 1388445864
+dir /usr/share/texmf-dist/doc/latex/serbian-def-cyr
+obj /usr/share/texmf-dist/doc/latex/serbian-def-cyr/README 37ebb89642300ec496d4ec8ea8be0321 1314576304
+obj /usr/share/texmf-dist/doc/latex/serbian-def-cyr/proba.pdf a29d9c1f4b461b2fbb4616801d67e157 1314576304
+obj /usr/share/texmf-dist/doc/latex/serbian-def-cyr/usage.tex c3d6b8030a2d8d290a7b619a629fea70 1314576304
+obj /usr/share/texmf-dist/doc/latex/serbian-def-cyr/usage.pdf 383479e418e7d0e6c9a46e569f7b372e 1314576304
+obj /usr/share/texmf-dist/doc/latex/serbian-def-cyr/proba.tex c2e73930f8c586a7a6edb408774d97ae 1314576304
+dir /usr/share/texmf-dist/doc/latex/eskdx
+obj /usr/share/texmf-dist/doc/latex/eskdx/Makefile af7bff973b2198af1e17c13ddbe36eca 1305325751
+dir /usr/share/texmf-dist/doc/latex/eskdx/source
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdlist.sty.in 8fc9851223b9f6f09af831cad5d279ef 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/Makefile 1b60c410edab29fcddc87769089a9470 1153611124
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdtitle.sty.in aff632fc7a1bb1364a78ca81229d7f3f 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdpara.sty.in 98332c1c98b1d31aac09a0cafb4ddd53 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdfootnote.sty.in 3112acd7eae833cd521fe4752062956c 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdtotal.sty.in e9d3e9da1c4278ea67019939bd2ca0ea 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdfreesize.sty.in 47842532a90c93649983237d618f3da9 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdspecii.sty.in f14fe4f246dca300cb7a1a297557dc41 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdfont.sty.in a75bf75a964b959295b83ca4d88a7c49 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdexplan.sty.in 8ba799808bf43e74dd5c9da1bd990677 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdukrainian.def.in b6f561f9781cd0652f4dac7e42652077 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskddstu.sty.in 12b2ad0ce9e8528554f9566acca6bfae 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdappsheet.sty.in 12d71db9dddb5545f726e2f06b72f5b0 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdindent.sty.in 8003b19a010d40f6b62dcc9db6826897 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdplain.sty.in d5ce702ebfd56096629044e5ec3ff870 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdbiblist.sty.in 77810fe5a297a320fbcb1425350f4ae4 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdchngsheet.sty.in 1665ff2c82765f48db6f9e07ee65cf24 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdgraph.cls.in 1076331407267088ea5f045f52ba2132 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdrussian.def.in 62270704ae09c4da87a81db7a68ef017 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdcap.sty.in 2ddf45fc74692843385bb0bd00cf5ebc 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdsect.sty.in 3e52d3aa50e03006758712d0951677b5 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdtitlebase.sty.in 4256dc1e180f186b0b109780057b39fa 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdafterpkg.sty.in a7356ee7a1a29edd742caada1ae17be7 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdspec.sty.in 33ccf2fb2e9cc7315d374d8bf2bb162a 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdhash.sty.in cc444cebd373e60af7472e1d691ee177 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdinfo.sty.in 4ceba7d5b2f68ebccbe2bbdefb56f494 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdlang.sty.in 96cb7af7a8c811e38c82c3eabd3c8839 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdtext.cls.in 6f2ea67e0782c922dbb3e27b18ec058d 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdtab.cls.in c089ef710e6702e06619be837daf9969 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/source/eskdstamp.sty.in ecea6999d65711abb98266868b46f21a 1305325751
+dir /usr/share/texmf-dist/doc/latex/eskdx/manual
+obj /usr/share/texmf-dist/doc/latex/eskdx/manual/Makefile e23f87e4cb3f6a478615fda5b5d9c461 1162775166
+obj /usr/share/texmf-dist/doc/latex/eskdx/manual/img-form2.svg 3cf2c266fe417deaa2f2fa967129fe98 1162775166
+obj /usr/share/texmf-dist/doc/latex/eskdx/manual/img-form1.svg ebb49481c7d23f1d53993311839d3fac 1162775166
+obj /usr/share/texmf-dist/doc/latex/eskdx/manual/img-form2a.svg 14746feb9be2e69b55f482752e0cbd75 1162775166
+obj /usr/share/texmf-dist/doc/latex/eskdx/manual/img-title.svg 096ee0577eb52b54e50bdd6237419b7a 1162775166
+obj /usr/share/texmf-dist/doc/latex/eskdx/manual/eskdx.pdf 3974b58000ef4fa7c4a6b7e379fb00be 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/manual/example.tex 467a82e507125975f66943b82479378e 1153611124
+obj /usr/share/texmf-dist/doc/latex/eskdx/manual/latex2html-init bcfbacde9b2a362583d513fcfb6eb52c 1162775166
+obj /usr/share/texmf-dist/doc/latex/eskdx/manual/eskdx.tex.in 3a9a1c8a5064be6808ea7ab6820e3638 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/README 9516d52bcc459b9f9d6e4ff73117cd76 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/NEWS 52cb7c335320f6d0a89a2b85d979c3fe 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/ChangeLog cdd8fbd3e2fc8947f3d852630239b5cf 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/Makefile.unpacked d3ddb4bf868108fa114e7891873a2bab 1153611124
+obj /usr/share/texmf-dist/doc/latex/eskdx/NEWS.in 3ca24efb330d828e2143fc33027fc4ec 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/include.m4 3ccf71c379d080599a718d9111803f17 1361900353
+dir /usr/share/texmf-dist/doc/latex/eskdx/test
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/Makefile 6a2a3eb433fa921acba8dcee05ba24cf 1153611124
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/pagestyle.tex ccc63355806119b3025ecf49b9053888 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/drawing-a3.tex 04aaf344e23eb103b24a397f3f763b37 1153611124
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/drawing-a3-mp.tex 42f0254ef5c70e3d6b80831f42dd10e3 1153611124
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/drawing-a4.tex cc23d9d54da1e5b964c7bffed5ab7a66 1153611124
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/general2.tex f3d01dd8a6946fce2018f3cc5a22b190 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/drawing-a3-p.tex 86e18fa216a1ebbcc513f2e6e983d562 1153611124
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/freesizesheets.tex cf7df4577e1884ae8e5fa4b7bf3edf52 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/footnote.tex a884300ee90f95e5908b3fabc62a81da 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/appsheet.tex 0a4996b3a11d98e750b41fe9272a499e 1153611124
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/drawing-a2.tex 22e46a69aabcc56c8e3d86f4a69b332f 1153611124
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/spec.tex 3a7ea4ac166ba711a9730f8cb7c5ca7d 1153611124
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/numbering.tex ae0a61347de6a089dc97de068ff0b99d 1156632764
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/specii.tex 6209f6de3e201d9cfee996e4cac9b0d2 1153611124
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/twoside.tex 4701abe236bd0bf166d6141ff85d10af 1153611124
+obj /usr/share/texmf-dist/doc/latex/eskdx/test/general.tex 2640b9983425706dd5ffbd8e97f65df6 1156632764
+obj /usr/share/texmf-dist/doc/latex/eskdx/include.mak e29cf371bffbef7e6b758b02db21e416 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/manifest.txt eba9df2f355eaa36407f45bc1e6ee9be 1305325751
+obj /usr/share/texmf-dist/doc/latex/eskdx/README.in 8c9183410d116b52654b7095f5a09046 1305325751
+dir /usr/share/texmf-dist/doc/latex/serbian-date-lat
+obj /usr/share/texmf-dist/doc/latex/serbian-date-lat/TestDateLat.pdf 281f71685b1cedd0e916827cc472a6b6 1312757694
+obj /usr/share/texmf-dist/doc/latex/serbian-date-lat/README cd51b147fc0ba7d84a04d1b8d4b5e168 1312757694
+obj /usr/share/texmf-dist/doc/latex/serbian-date-lat/TestDateLat.tex 4c6f349efec5eb5168db0b3308fde998 1312757694
+obj /usr/share/texmf-dist/doc/latex/serbian-date-lat/SerbianDateLat.pdf 847b06dc9f00f268f5feb480f419c077 1312757694
+obj /usr/share/texmf-dist/doc/latex/serbian-date-lat/SerbianDateLat.tex a2d18c67400d857d82cb7b7eb5962536 1312757694
+dir /usr/share/texmf-dist/doc/latex/lcyw
+obj /usr/share/texmf-dist/doc/latex/lcyw/example-lcyw.tex d39ddfeb15d90967bf2911f0be5768d5 1209490154
+obj /usr/share/texmf-dist/doc/latex/lcyw/README c2b14dfe31b10144559c99521fb07e0b 1216851201
+obj /usr/share/texmf-dist/doc/latex/lcyw/lcyw.pdf 454864b2fe6e3e3e12d5cbee967f4b65 1243719999
+obj /usr/share/texmf-dist/doc/latex/lcyw/README.koi8-r 328e64efc6428b12e03f4b3459394380 1216851201
+dir /usr/share/texmf-dist/doc/latex/mongolian-babel
+obj /usr/share/texmf-dist/doc/latex/mongolian-babel/README 087e826fbab704224bc32aa2b7f5ecb7 1194227940
+obj /usr/share/texmf-dist/doc/latex/mongolian-babel/mongolian.pdf cd13058c80cf4e3c7b04836317023d86 1243719999
+dir /usr/share/texmf-dist/doc/latex/lshort-bulgarian
+obj /usr/share/texmf-dist/doc/latex/lshort-bulgarian/lshort-bg.pdf 2139923b1d864c085e82fc385936d2aa 1243719999
+obj /usr/share/texmf-dist/doc/latex/lshort-bulgarian/README 1ad7b1e464830b87286bdb4b0dda928f 1135815713
+dir /usr/share/texmf-dist/doc/latex/lshort-bulgarian/src
+obj /usr/share/texmf-dist/doc/latex/lshort-bulgarian/src/lshort-bg.src.zip 730c4a36ed3e9d1df86864a8109e9189 1135815713
+dir /usr/share/texmf-dist/doc/latex/serbian-apostrophe
+obj /usr/share/texmf-dist/doc/latex/serbian-apostrophe/README 76f6803db3ae31882b491d1ee9f3b035 1312757754
+obj /usr/share/texmf-dist/doc/latex/serbian-apostrophe/apostrophe-list.tex bec301828781313714a2d2c104f4435d 1315151150
+obj /usr/share/texmf-dist/doc/latex/serbian-apostrophe/serbian-apostrophe.tex ecf47b50eb973995fab5cdf27da57dd7 1315151150
+obj /usr/share/texmf-dist/doc/latex/serbian-apostrophe/apostrophe-list.pdf bd43c8850759ee52bbb7e0f85dad0e53 1315151150
+obj /usr/share/texmf-dist/doc/latex/serbian-apostrophe/serbian-apostrophe.pdf 08ba6cd6c30f2a8541b4377665748278 1315151150
+dir /usr/share/texmf-dist/doc/latex/russ
+obj /usr/share/texmf-dist/doc/latex/russ/README be509f2912914043c1026343543867fe 1327623096
+obj /usr/share/texmf-dist/doc/latex/russ/russ_doc.tex 4bb14b47a9541874eca0c7c78394a9a3 1327623096
+obj /usr/share/texmf-dist/doc/latex/russ/russ_doc.pdf 86d66b329dc268791a04d1c2e80c9a4f 1327623096
+obj /usr/share/texmf-dist/doc/latex/russ/readme.RU.txt d88b6f3dba7a6229e187571f16e39910 1327623096
+dir /usr/share/texmf-dist/doc/latex/lshort-russian
+obj /usr/share/texmf-dist/doc/latex/lshort-russian/lshortru.pdf 9e30a742199764a25a884fcd07db192c 1243719999
+obj /usr/share/texmf-dist/doc/latex/lshort-russian/lshortru.zip 1115dc3fa8fb12fb443defe459514ec6 1276302192
+dir /usr/share/texmf-dist/doc/latex/lshort-mongol
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/Makefile 5d4768f5dfed8f60e55e078ec3ade294 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/README 242479765538985d5c384d3bba053e47 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/MANIFEST c91ca3624ed26e1fe729a1f3099f7882 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/fixdate.pl 8d2cfed5ed1a8cd4bc4554fcfe90df2a 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/CHANGES 3f9eb713dc1f13fd00ef7a261d0d58a0 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/lshort-mn.pdf 850d9f15ffeb6769944af414ef0352a7 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/00README 546a9cdf11fb1f0de23f7088e146cbaf 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/TODO e052f60005569775471ee8585ae94a51 1242670208
+dir /usr/share/texmf-dist/doc/latex/lshort-mongol/src
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/lssym.tex ea9fe713a6f2aa5979cf209e6206b3af 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/things.tex f60afea146efd97232c01355969438f8 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/lshort-mn.tex efa573bd4bc8733585db6c95b24b69c6 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/lshort-base.tex 25dbd8eb9be6258152bb698e34852627 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/lshort.sty 4960ee49d6ce238b4426559c4005f840 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/title.tex b3533d300e710335578362dae0ea020c 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/biblio.tex 7ef57539437383b2b9510813444bec8f 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/custom.tex 3db09fb234e88069da7fde20afafdea8 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/contrib.tex 77df344a66977b2787ea86849a82985a 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/lshort-a5.tex 7fde3f77e63ca1ec51f76bb608eb87fb 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/appendix.tex cdf4f1b2918c4435c598720c4162878d 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/math.tex 4ab85e61e443d3524a855a647dd195db 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/typeset.tex bdc60303043e9f3e2022ec9a4a5bfbc7 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/spec.tex 0ae2bf3ca982e4c8a8fcd619fa931caf 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/graphic.tex 36a8a589eb880af706065c1d379fd730 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/overview.tex 0dc8c4930d599cf02fd069f31bd6601b 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/fancyhea.sty ef414eaef59b27235eb4d79ca31c0d82 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/src/mylayout.sty 0dea8d0303f5f4387218e2901933024b 1242670208
+obj /usr/share/texmf-dist/doc/latex/lshort-mongol/TRANSLATIONS 10c34c903c674c6d3a9f432ef3604448 1242670208
+dir /usr/share/texmf-dist/doc/latex/montex
+obj /usr/share/texmf-dist/doc/latex/montex/fontlist.tex e611ea8629e071eaeafa2ec7564332ea 1238698405
+obj /usr/share/texmf-dist/doc/latex/montex/UPDATE 86381f8786b5100bd16e105560e3e543 1238698405
+obj /usr/share/texmf-dist/doc/latex/montex/INSTALL 35c3243360240b3e8758d19e75ad7e3b 1238698405
+obj /usr/share/texmf-dist/doc/latex/montex/testfont.input 37d3cb72f22a6a6610904ad3e18070f4 1271205004
+obj /usr/share/texmf-dist/doc/latex/montex/00readme.mfinput.km 1d908599df62e0c8db5937387f6d5e94 1238889402
+obj /usr/share/texmf-dist/doc/latex/montex/ANNOUNCE 6d8e609f582075424eb6adcf21077fa1 1238698405
+obj /usr/share/texmf-dist/doc/latex/montex/montex.xml b62447220215eccbb87f826b153a7390 1238698405
+obj /usr/share/texmf-dist/doc/latex/montex/00README fd5fdc5e044a986a9830574f6bb7e459 1136767747
+obj /usr/share/texmf-dist/doc/latex/montex/mkmlsmf.pl a163376795d7d8a4c1a727eee35eb11c 1238698405
+obj /usr/share/texmf-dist/doc/latex/montex/montex.tex 75a11bf3aef57dc72227644650988e1b 1136767747
+obj /usr/share/texmf-dist/doc/latex/montex/testfont.sh 579ddb04b95ae39e6dad92304e3211c2 1363046501
+obj /usr/share/texmf-dist/doc/latex/montex/MIKTEX f12ebbf23f83dff2db15c0faa19796e5 1238698405
+obj /usr/share/texmf-dist/doc/latex/montex/zanabazr.tex 3f8bfdcd028582513fd48b6922e7b8cb 1136767747
+obj /usr/share/texmf-dist/doc/latex/montex/mlsquick.pdf 655ff5f7d9267de3ee641e5871ce410c 1243719999
+obj /usr/share/texmf-dist/doc/latex/montex/HISTORY 4e1bcaff535246faff6e7aa1236e1abe 1238698405
+obj /usr/share/texmf-dist/doc/latex/montex/mlsquick.tex 379f5e7179ad98c9158cf00bffd209d6 1136767747
+obj /usr/share/texmf-dist/doc/latex/montex/TODO 7bb5eafdd167d3d537c7742d54139adf 1238698405
+obj /usr/share/texmf-dist/doc/latex/montex/mnhyphen.tex e6674c917026b521adff99407007e7ab 1238698405
+obj /usr/share/texmf-dist/doc/latex/montex/mtdocmac.tex c452296448b9e3b887321144ebe3feae 1238698405
+dir /usr/share/texmf-dist/doc/latex/montex/mfinput
+dir /usr/share/texmf-dist/doc/latex/montex/mfinput/bithe
+obj /usr/share/texmf-dist/doc/latex/montex/mfinput/bithe/testfont.input d8906029bba8b548537fe471f3850d5a 1271205004
+obj /usr/share/texmf-dist/doc/latex/montex/mfinput/bithe/testfont.sh f43ea5e86c580c9b6f1babaf94e57870 1363046501
+obj /usr/share/texmf-dist/doc/latex/montex/EMTEX 168e6df85cecf1840b6641e7e39f033c 1238698405
+obj /usr/share/texmf-dist/doc/latex/montex/montex.pdf 6f3fd3ebf4c7efe3c6f639497c39aa31 1243719999
+obj /usr/share/texmf-dist/doc/latex/montex/zanabazr.pdf 27b8e49bcca8b7918c833a2c50d2b228 1243719999
+obj /usr/share/texmf-dist/doc/latex/montex/cyrename.pl 87b00753d3c80c179dcfe814ee4c11a2 1238698405
+obj /usr/share/texmf-dist/doc/latex/montex/mls-diag.tex 249f1a804a4656d0f0307446ecace74b 1136767747
+dir /usr/share/texmf-dist/doc/latex/lshort-ukr
+obj /usr/share/texmf-dist/doc/latex/lshort-ukr/lshort-ukr-4.12.src.tar.gz 606b319918f1597a370545aea7ddc1c3 1172173822
+obj /usr/share/texmf-dist/doc/latex/lshort-ukr/lshort-ukr.pdf d7583a3aa52b83b6b830c7e04919ed1b 1243719999
+dir /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/README-bulgarian.txt e8df07cb051367639dec5ecea23b67d0 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/README 054291432b786568bf47c9813d892fe8 1278635306
+dir /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/symorthogonale.tex 9e4339a3bbcc4b8f99ef74326f200ccb 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/delto.tex 2e9edd6a969d32dce41050f08733c694 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/interFL.tex ca6790fab05fc714260379f68275ed1e 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/gal_biss.tex 4be26ede14b64f6f17de7e34eeb9288a 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/translation_in.tex dc2e50e9c23e52f8d0fbefe89bb776f9 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/ccirc.tex eb2050ed7df8fd3d396d48329baab971 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/symcentrale.tex 405cf25c1e16d224735307e1b3605960 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/interFC.tex 04c91f1e357bb35d614475a0435f0a78 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/bissec.tex 006a1487e6fbb49229f85a093f07a446 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/symorthogonale_in.tex 43895cd31fbce105400a61a4cefa39f9 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/interFF.tex fee7b51dbdd1d16027516a1bef0ab86a 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/rotation_in.tex 7c5f4def36c8a117259367773787ccd0 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/envcardi_in.tex 2f19af4078cc89b6bcac4592940e6858 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/bissec_in.tex bd3981e6c94580d24795b834b7d017e2 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/projection_in.tex d48f2698403be05b997bcdd12b76cf17 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/curvetype_in.tex 88e715e6ad0e80d8e2abc7aa27f1c5e7 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/grav_in.tex 1957d48e3d5b18a59de87a29075bfd66 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/gauss_in.tex fd63a99b9805c4f13eaad912cb3f4469 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/arc.tex 1ffabf2efa7228ed5921af1733644c2d 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/gencur_in.tex 8a848c3fa54dd32ca76de0b9f674c975 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/arc_in.log 809f14bdbe20a27fadbf99800dc32be5 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/gal_biss_in.tex cae05e35199253f6859fe35da5b210aa 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/tg2c_in.tex 68350608c35a4eaf1f16b548c2e205dd 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/ccirc_in.tex 72ad93f6ac44c7a490cb3105ea6cdbaf 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/euler_in.tex 75a8da3ccd23570df787e0dbcfb46852 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/geohyper_in.tex f1928365e525eeade792c82f4f2ee4ed 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/hypocyclo.tex 55995d5b59a5521ca55f4125cbddbfeb 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/geohyper.tex 7542e203e133afca971da76ab1b4f062 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/hyperbole_in.tex b0f5a204e78d99a3a5d2bf0ef4c2e33c 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/mediator.tex 25203675408aa80cce2c3089c6a887ed 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/projection.tex 47411986e6baf437d0d3e0f30ef420c6 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/droite_in.tex da0156a26171da4ece17204be0a2d7e6 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/orthocentre_in.tex 7bca77e71a8ce295d5f6ebd2923c5b02 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/interDC_in.tex 3a6c865d83e0b22aeb842adb4211e030 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/envellipse.tex f1689eec848a665b714cf29d23823f8d 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/symcentrale_in.tex 8d37ec198a998a40473f913efebd47da 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/tg2c.tex 54df2a1462845f8414289d88d9c6109e 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/cercle.tex a4f7f3c1f98d6ebe069f574f914b6ee2 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/segmentmark.tex 843459a20c0f653ff82b83d6570897e2 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/tg1c_in.tex 2810e4f100220beab582f87c1b9c3778 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/envellipse_in.tex a822eeec3a997dff63d6affa97b0a896 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/gauss.tex f2e5eeb31b137837f423ae95029a8494 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/interCC_in.tex 71ca6a2333f29c708b8ee95ab9547e52 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/orthoethyper_in.tex f83488f63aaca4f9067014291e55fa1f 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/segmentmark_in.tex 020f52c1a82e49b96c90d8715793c71e 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/abscur_in.tex bc4a9254d51449635fb09bd7a9c2f88d 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/droite.tex e41fec2d29de7616311960945fc0eec1 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/translation.tex 3b525549e57fe237e103515f0a9e997d 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/rotation.tex f538b788773443c47aa60cff0b1ba34e 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/geonode.tex ebe22a722ce5e535f10b5357661aa20f 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/interDC.tex 7019d117b998910169112c00aaa9165f 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/parabole_in.tex be478db4a5b4f5d83798739397a5276c 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/grav.tex d4cddb18103aa275f6b3db78fa35d811 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/fracthom_in.tex fb5813c156aace8b89774953d7a3f1ab 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/euler.tex fc209952d75dcc1912be405a0357facb 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/milieu_in.tex 6bef94af3d503d2a386f219e770d3151 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/curvetype.tex 70ce3db13a4f09f08b59648a1f70b3dc 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/hyperbole.tex 7ae96c9b38271a2622e0cac249bf36bf 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/oij.tex e104c13aaec5841cd1965469421b1725 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/angle_in.tex 338c0f2fff2d822ea52ee97615caacbc 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/interFL_in.tex 3e1c1649eedf682f5c870f70fe51505b 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/parabole.tex cbce7a022edb45ddf9a6cae316b65d59 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/mediator_in.tex 781428e2d56c9a73c3644599f132e1c4 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/interCC_bis_in.tex 1ffca122485332f15c4cfcf384b88da8 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/arc_in.tex 8e1bd4551db39513158ed6ee8b7a2546 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/german_ra.tex 606943875e7c053071ac7125f7f059ef 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/triangle.tex dfb6a183d4d67726511125e6412109b3 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/astro_in.tex b300c4e8711d6e8f09c2d3b235029a7c 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/milieu.tex 0d3379079e812b609b46222a657fcbdb 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/ptfermat_in.tex 5b98eec84453ab9f62d7056bfc0deece 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/gencur.tex 7cebcfdb89838dada424f2786883f264 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/cyclo.tex 69373b3a1eb935b9372231572012f2e6 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/geonode_in.tex 2c348517988ed02e66a2ae6c6445973f 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/angle.tex c115c35a463d5f293c9d042362f78df2 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/abscur.tex 47fe064c0ee2f67f67836f492f2bc404 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/interCC.tex ce73a3c73e330472b3699f2bc407f516 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/orthoethyper.tex 3eaad851dcb6aa82cf01e09b3cc8916e 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/interFF_in.tex 2d8608a6aa9c53d26f74d7c415edccf3 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/remarq.tex 16ec2191820d964c083106e67f9f0c0c 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/homothetie.tex f161d16db3522a692cfcaf8721b375a6 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/interDD.tex c48e920d32fdc2fa9a4de2193fd89c6f 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/triangle_in.tex 28762d51a55cbaba5768c45b06276dda 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/remarq_in.tex 5e94e30336b6021a347f7c6603935086 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/german_ra_in.tex 5c2c245efc0717bb634f0bd79d56e644 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/tg1c.tex 2639178655cd0c5ad3f82f52a87f8fcf 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/fracthom.tex 38992c18083904d2de030ef0d62d6337 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/interDD_in.tex 51721d9f7b06d24117c21977cc6e7069 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/homothetie_in.tex 879b1f7f9d605a97e1e98ff28a33c3a6 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/cinscex_in.tex e612853ee10c4c56afe9a2754bafaeff 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/cyclo_in.tex 5f4550d7d1503b98715f6d6eb56335fd 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/oij_in.tex e52624dd6a595fb9b536cbdf2d45e22b 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/envcardi.tex 80acbaae32359caf8cf095dd5727e52d 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/astro.tex 6cb218874f6e5cf3fcd0e61b09478176 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/cinscex.tex f844b1a8879d4d5e1fcc5d3f8428a172 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/cercle_in.tex c6933ef816e7bf9badcd1c03783b36d6 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/orthocentre.tex bedadf93681a342329538743dc840107 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/interFC_in.tex abeac24d1ceb2199ad6ebf97cd0f35fc 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/Exemples/ptfermat.tex 0f2ea66ba1e20e9cf75b7f8fc1a0ca3c 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/pst-eucl-docBG.pdf b48dbd644c2162e5737dbf8a4cfe9b8a 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/pst-eucl-docBG.tex 86fdcf08256606de8995ca1fef912428 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/euclide_bg.sty e74f9f4cb30cd7f1f64b5412f818b1ee 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/euclide_macros.ist 2c3b9e7b6a71435222da57b96dc0dce2 1278635306
+obj /usr/share/texmf-dist/doc/latex/pst-eucl-translation-bg/pst-eucl-docBG.cb 071c92139bafb870142e6b8be17efafe 1278635306
+dir /usr/share/texmf-dist/doc/latex/cyrillic
+obj /usr/share/texmf-dist/doc/latex/cyrillic/lcy.pdf 39487a68615dda94bbf08f6c8263fb7e 1399675188
+obj /usr/share/texmf-dist/doc/latex/cyrillic/t2lhfnt.pdf d31103c923816e874107477bfb2b6d94 1399675188
+obj /usr/share/texmf-dist/doc/latex/cyrillic/lcycmlh.pdf e712c0f83cdeb8a5b3574aae3e2572d2 1399675188
+obj /usr/share/texmf-dist/doc/latex/cyrillic/00readme.txt 15248429dd3b87debe11d495b4d0618a 1254151841
+obj /usr/share/texmf-dist/doc/latex/cyrillic/changes.txt 1a59ed46c04487c1d082305c8f5b344a 1254151841
+obj /usr/share/texmf-dist/doc/latex/cyrillic/cyinpenc.pdf eeb35876a86a810f2ba385bf3da1209b 1399675188
+obj /usr/share/texmf-dist/doc/latex/cyrillic/cyoutenc.pdf dfa38bdf1bf94717f117f0c04fc498db 1399675188
+obj /usr/share/texmf-dist/doc/latex/cyrillic/ot2cmlh.pdf 52459dc9d7c3b29b91c5fcbaf28bc7e8 1399675188
+obj /usr/share/texmf-dist/doc/latex/cyrillic/ot2cmams.pdf a62234728477f088e0555c0204ce8d78 1399675188
+obj /usr/share/texmf-dist/doc/latex/cyrillic/ot2.pdf 29bf4aabb14474fdb1d9dd32fb44bd52 1399675188
+obj /usr/share/texmf-dist/doc/latex/cyrillic/manifest.txt e3ca6ca55ec03b719c4a5eeb913f2500 1156702524
+dir /usr/share/texmf-dist/doc/latex/eskd
+obj /usr/share/texmf-dist/doc/latex/eskd/README 4c4419ab086b8a3f1808b41c0bcf654a 1136767747
+obj /usr/share/texmf-dist/doc/latex/eskd/example.eps 94b1ae692a7d9ce6c25f0b8ea9aae6d1 1136767747
+obj /usr/share/texmf-dist/doc/latex/eskd/eskd.pdf aeca49ca962af70aab37dc6e632d363c 1243719999
+obj /usr/share/texmf-dist/doc/latex/eskd/example.tex 19fe7a8b13621edaa14195f78006edd0 1136767747
+dir /usr/share/texmf-dist/doc/latex/serbian-lig
+obj /usr/share/texmf-dist/doc/latex/serbian-lig/README c37115cdce20bc98f273ef7eabda00ba 1312376967
+obj /usr/share/texmf-dist/doc/latex/serbian-lig/serbian-lig.pdf 0ac9e512cbde844069f3cb00a6f364e9 1312376967
+obj /usr/share/texmf-dist/doc/latex/serbian-lig/serbian-lig.tex dd292c474cc902a29de73f945d790896 1312376967
+obj /usr/share/texmf-dist/doc/latex/serbian-lig/lig-list.tex a0662271e0d7be7ac8de3b13fafe4eef 1312376967
+obj /usr/share/texmf-dist/doc/latex/serbian-lig/lig-list.pdf 55aac35835c91508b79609b67ef88569 1312376967
+dir /usr/share/texmf-dist/doc/metapost
+dir /usr/share/texmf-dist/doc/metapost/mpman-ru
+obj /usr/share/texmf-dist/doc/metapost/mpman-ru/Makefile e25eaee168ece0b93e6433a2e0b01a16 1211158315
+obj /usr/share/texmf-dist/doc/metapost/mpman-ru/README cfa5df45799233dd2f19138952deb08f 1211158315
+obj /usr/share/texmf-dist/doc/metapost/mpman-ru/mpman-ru.tex c6c892e7aefc56b21230fd66ed0d4cef 1211158315
+obj /usr/share/texmf-dist/doc/metapost/mpman-ru/ctabbing.sty 8bb9aa9cd4772dac7f117a52e35f5bb8 1211158315
+obj /usr/share/texmf-dist/doc/metapost/mpman-ru/mpman.ist 2d2a738f79080d2d24b2b1e1b078105e 1211158315
+obj /usr/share/texmf-dist/doc/metapost/mpman-ru/manfig-ru.mp 255de6a525a66dfd47396775d4055eb8 1211158315
+obj /usr/share/texmf-dist/doc/metapost/mpman-ru/mpman-optab-ru.tex b1022841849a80168b5ab519ec742b06 1211158315
+obj /usr/share/texmf-dist/doc/metapost/mpman-ru/mpman-ru.pdf 3e0f555d7ac9cc4bff1605440fb7edb7 1243719999
+obj /usr/share/texmf-dist/doc/metapost/mpman-ru/README.ru.koi8-r 6747f6ea8fe74e11bf3b6195ea92c9d7 1211158315
+obj /usr/share/texmf-dist/doc/metapost/mpman-ru/bm-to-utf16be.awk 2541dc25b7c74389691b408c0a75a705 1211158315
+obj /usr/share/texmf-dist/doc/metapost/mpman-ru/idx3.awk 5b7b90e5a76c85cca8d82112706238b0 1211158315
+obj /usr/share/texmf-dist/doc/metapost/mpman-ru/extract-bm.awk bb24a90ae6b69dcacc8adb0ea177de86 1211158315
+obj /usr/share/texmf-dist/doc/metapost/mpman-ru/idx2.awk 46f5e5ab46848cda5155ab0c1f1a6547 1211158315
+obj /usr/share/texmf-dist/doc/metapost/mpman-ru/idx1.awk 15d9266fb08fb156c84e68fd3a1ad45d 1211158315
+dir /usr/share/texmf-dist/doc/bibtex
+dir /usr/share/texmf-dist/doc/bibtex/gost
+obj /usr/share/texmf-dist/doc/bibtex/gost/README 63851838fe6fc89a2781c3ca5e97e56d 1347318172
+obj /usr/share/texmf-dist/doc/bibtex/gost/gost2008l.pdf 15b08b2c9882087b68c9391316965387 1329780755
+obj /usr/share/texmf-dist/doc/bibtex/gost/gost2008-sorted.pdf d96cd9ad4dee817e53f916c95bc97c24 1329780755
+obj /usr/share/texmf-dist/doc/bibtex/gost/gost780.pdf 205984f429f48384026b74c7787bcb31 1329780755
+obj /usr/share/texmf-dist/doc/bibtex/gost/gost2008-natbib-s.pdf 58a452f1d726c1c7e2e7c8982eae2e52 1329780755
+obj /usr/share/texmf-dist/doc/bibtex/gost/gost2008.pdf a7915f316a79868c24c8487fae83de11 1329780755
+obj /usr/share/texmf-dist/doc/bibtex/gost/gost.pdf 32de0e19ab546e84d086858809b74b4f 1347318172
+obj /usr/share/texmf-dist/doc/bibtex/gost/gost2003.pdf 4c47d3689f73b80e3d96520e767c68e8 1329780755
+obj /usr/share/texmf-dist/doc/bibtex/gost/gost2008-customized.pdf aad879405fdc74305dec2069dded78f4 1329780755
+obj /usr/share/texmf-dist/doc/bibtex/gost/gost2008-natbib.pdf 59a5109d4dfcea35cf4eb3b7124c1cc3 1329780755
+dir /usr/share/texmf-dist/doc/generic
+dir /usr/share/texmf-dist/doc/generic/t2
+obj /usr/share/texmf-dist/doc/generic/t2/Makefile 30c7e6425c43e1567bdc1495eed340bd 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/README 1e098fd160329cac0c51555bfde74157 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/broken2.txt cce2e50d30ad44d423e90f670480119c 1136768345
+obj /usr/share/texmf-dist/doc/generic/t2/t2cyr.txt 8b8724a237888c5f5f0ca83dc8fd8d3d 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/T2Auni.map d8a638cc02e3706b3d27cef747f161a0 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/mtcyr.txt 29814e017c6636a1c2767e03b8aeda96 1136768345
+obj /usr/share/texmf-dist/doc/generic/t2/T2Buni.map 046bb611b9e02a33d99f374349ff789c 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/T2Cuni.map cecdac6f0dff9aa087e391ccf7e99318 1136768345
+obj /usr/share/texmf-dist/doc/generic/t2/make-enc.pl 8d709ee0d98d2e60e44f7b9eb3a8fe81 1136768345
+obj /usr/share/texmf-dist/doc/generic/t2/X2uni.map 3452e85e046160f211ed28f299570015 1136768345
+obj /usr/share/texmf-dist/doc/generic/t2/cyrcsets.ind 358ed0790c66fd05a8191b6da5c1a911 1136768345
+obj /usr/share/texmf-dist/doc/generic/t2/mkencs.sh 7ba46ca15a340c718bf5a42116ec6ff3 1363046501
+obj /usr/share/texmf-dist/doc/generic/t2/OT2uni.map 652c22bb13eb54a60d7c158857486b92 1136768217
+dir /usr/share/texmf-dist/doc/generic/t2/etc
+obj /usr/share/texmf-dist/doc/generic/t2/etc/mathtext.ins 2bb3c75d8569328cd28ab026bef97141 1136768217
+dir /usr/share/texmf-dist/doc/generic/t2/etc/utf-8
+obj /usr/share/texmf-dist/doc/generic/t2/etc/utf-8/test-utf8.tex 02440f4bb039e9698ba53541dee4c065 1136768445
+obj /usr/share/texmf-dist/doc/generic/t2/etc/utf-8/utf-8.def cff24b9ef19ddb937b37edeae6f31845 1136768445
+obj /usr/share/texmf-dist/doc/generic/t2/etc/utf-8/utfcyr.def 2772db9039ba4ad19247664d3938dd35 1136768445
+obj /usr/share/texmf-dist/doc/generic/t2/etc/utf-8/utflat.def a4b7499bc7b9f49605198c3e742fb321 1136768445
+dir /usr/share/texmf-dist/doc/generic/t2/etc/rumkidx
+obj /usr/share/texmf-dist/doc/generic/t2/etc/rumkidx/README 46e0544975577bbd8997da779f4a9954 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/etc/rumkidx/rumkidxw.bat 0581285fc3ae6e293e2c44764799b13c 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/etc/rumkidx/rumkidx1.sed b7ace0d9d461287d8cc1878444cbfa12 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/etc/rumkidx/rumakeindex 52fefb8c0223a674f8ca92f7e277d151 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/etc/rumkidx/rumkidxd.bat 0747154718dddb6eaafc756f58af6ea7 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/etc/rumkidx/rumkidx3.sed 6a8f23b825b966d524e48f1a32ea9a82 1136768445
+obj /usr/share/texmf-dist/doc/generic/t2/etc/rumkidx/rumkidx2.sed 485304d775d59ab7df9b91fd9884f871 1136768217
+dir /usr/share/texmf-dist/doc/generic/t2/etc/rubibtex
+obj /usr/share/texmf-dist/doc/generic/t2/etc/rubibtex/README 5397bdc9615edde032c1029c7b3ac61a 1136768445
+obj /usr/share/texmf-dist/doc/generic/t2/etc/rubibtex/rubibtex.sed e5aff2da3c471850b6521aaa6cff676b 1136768445
+obj /usr/share/texmf-dist/doc/generic/t2/etc/rubibtex/rubibtex.old 789bb776159bbb64da86e785fcf7e35f 1222648037
+obj /usr/share/texmf-dist/doc/generic/t2/etc/rubibtex/rubibtex 3ad1ef6279afa56934fdffeb72ba8bcd 1222648037
+obj /usr/share/texmf-dist/doc/generic/t2/etc/rubibtex/rubibtex.bat 6e3976d8466a205e74eebc982d562e0f 1136768445
+obj /usr/share/texmf-dist/doc/generic/t2/etc/mathtext.dtx 06eba303673b596a9a9029283e5eeee5 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/etc/ruinpenc b2a263cff1a6340808c62eace9a57c81 1136768445
+obj /usr/share/texmf-dist/doc/generic/t2/etc/amsppt.diff 4247e39412c5fdea1c357667a2a79c47 1136768445
+obj /usr/share/texmf-dist/doc/generic/t2/etc/t2filter.c 202efa84bf42aed408841673c1e29302 1136768445
+obj /usr/share/texmf-dist/doc/generic/t2/broken1.txt a052d8c4db1c1febd350d7d52a71e303 1136768345
+dir /usr/share/texmf-dist/doc/generic/t2/examples
+obj /usr/share/texmf-dist/doc/generic/t2/examples/example1.tex a7954d944173cba2f721405c1787cea6 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/examples/example3.tex a88ecd84053f0f7e8fbf91d55df6553c 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/examples/example4.tex 31855a8b7351de60c9ee37b613d99f5a 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/examples/example5.tex f6547d7a2a7ead43eccbb6bd0e62f400 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/examples/example2.tex 3b88eeed0e6199bb6ac77ade01ac47b9 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/cyrcset7.txt 8f3f25def1320f199fc844b2effcd5ae 1136768345
+obj /usr/share/texmf-dist/doc/generic/t2/urwcyr.txt 85b4b870568aa9aaf4d7ca01d8f49d8c 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/cyrcset8.txt b2917afb90ae020addf72cbe0f156f2a 1136768217
+obj /usr/share/texmf-dist/doc/generic/t2/amscyr.txt c8bf813cf7e85ec95721a027f2946b0d 1136768345
+obj /usr/share/texmf-dist/doc/generic/t2/t2lat.txt b24c23191fc19ee11315746631a1bd02 1136768345
+dir /usr/share/texmf-dist/doc/generic/babel-russian
+obj /usr/share/texmf-dist/doc/generic/babel-russian/README 8192a22b37b7d415fdd5a02e9d0a581b 1403649660
+obj /usr/share/texmf-dist/doc/generic/babel-russian/russianb.pdf ca39007d84fc954f22a070342d42f368 1403649660
+dir /usr/share/texmf-dist/doc/generic/babel-bulgarian
+obj /usr/share/texmf-dist/doc/generic/babel-bulgarian/README c9c9856fdf3c9c75a9e4abe06a0af6c1 1381789667
+obj /usr/share/texmf-dist/doc/generic/babel-bulgarian/bulgarian.pdf d5fd5a6cb82457dd7320c5b0ad1f5753 1381789667
+dir /usr/share/texmf-dist/doc/generic/ukrhyph
+obj /usr/share/texmf-dist/doc/generic/ukrhyph/README 430de44ff992511b5e74506b1cab0646 1136767449
+obj /usr/share/texmf-dist/doc/generic/ukrhyph/rules60.pdf dec4127d6674c56e934e279ab9d8b76e 1243719999
+obj /usr/share/texmf-dist/doc/generic/ukrhyph/rules_ph.pdf 043639c3b402ec367b732d43d62246b4 1243719999
+obj /usr/share/texmf-dist/doc/generic/ukrhyph/rules90.pdf 2335d3ad28c79eb8694c5b13227ebc43 1243719999
+dir /usr/share/texmf-dist/doc/generic/babel-serbianc
+obj /usr/share/texmf-dist/doc/generic/babel-serbianc/README 23dc02bbbd3c4121f6b07f7ee55bd658 1367879005
+obj /usr/share/texmf-dist/doc/generic/babel-serbianc/INSTALL c23d6c1993c01672ce84225133498542 1368139386
+obj /usr/share/texmf-dist/doc/generic/babel-serbianc/README.serbianc 23dc02bbbd3c4121f6b07f7ee55bd658 1368139386
+obj /usr/share/texmf-dist/doc/generic/babel-serbianc/Copyright bf14a8758e89e867a86cb6fb06695cf7 1368139386
+obj /usr/share/texmf-dist/doc/generic/babel-serbianc/ChangeLog 85b2a32c33eef4278619a5893cf8fb8b 1368139386
+obj /usr/share/texmf-dist/doc/generic/babel-serbianc/README.Files 57e18f481466c156400cf299e2788f82 1368139386
+obj /usr/share/texmf-dist/doc/generic/babel-serbianc/COPYING 11ef55b5ce8caf92b257eeb312fd3f9d 1368139386
+obj /usr/share/texmf-dist/doc/generic/babel-serbianc/sample.tex 3bc6426aa2b36d825c105afb34cf57ff 1368139386
+obj /usr/share/texmf-dist/doc/generic/babel-serbianc/sample.pdf 7bd1bfae796359dc839417d55f85b172 1368139386
+obj /usr/share/texmf-dist/doc/generic/babel-serbianc/serbianc.patch cee518c1bc40dd42c24f7e906bc1253d 1368139386
+dir /usr/share/texmf-dist/doc/generic/babel-serbian
+obj /usr/share/texmf-dist/doc/generic/babel-serbian/serbian.pdf ea12ee92bd953dc810a286ff42911f11 1367879001
+dir /usr/share/texmf-dist/doc/generic/babel-ukraineb
+obj /usr/share/texmf-dist/doc/generic/babel-ukraineb/ukraineb.pdf 6efd805625e653e43a4917a9c96d0162 1367879035
+dir /usr/share/texmf-dist/doc/texlive
+dir /usr/share/texmf-dist/doc/texlive/texlive-ru
+obj /usr/share/texmf-dist/doc/texlive/texlive-ru/Makefile b6e6203da1a0c9acf7fe38703ed02ffc 1255042664
+obj /usr/share/texmf-dist/doc/texlive/texlive-ru/texlive-ru.tex 1e779ef8f5d8387e2afac55d4333608b 1400269961
+obj /usr/share/texmf-dist/doc/texlive/texlive-ru/t2almr.fd fbc38c53556a320a9ff0ce054747ce5e 1334186451
+obj /usr/share/texmf-dist/doc/texlive/texlive-ru/live4ht.cfg 33f676fe74aa70184f6de14033d38de5 1243096783
+obj /usr/share/texmf-dist/doc/texlive/texlive-ru/t2almdh.fd 8b219510e3e19ef66eaf68062d33a7e2 1334186451
+obj /usr/share/texmf-dist/doc/texlive/texlive-ru/t2almtt.fd 6eee0a66597a59f690c537f9a70f4faf 1334186451
+obj /usr/share/texmf-dist/doc/texlive/texlive-ru/t2almss.fd aa082f30ec17ce6f494af3ff7fd042a4 1334186451
+obj /usr/share/texmf-dist/doc/texlive/texlive-ru/texlive-ru.html 01b0b87a7a6d7f32105f859acf413c72 1400269961
+obj /usr/share/texmf-dist/doc/texlive/texlive-ru/texlive-ru.pdf 94ae45426371e77770b8524fc0df42e9 1400269961
+obj /usr/share/texmf-dist/doc/texlive/texlive-ru/texlive-ru.css cbfd5cbd758f8783ef925f881e401af0 1368809553
+obj /usr/share/texmf-dist/doc/texlive/texlive-ru/tex-live.css fff5a30f3875719613f13af822b9a2ab 1135815616
+dir /usr/share/texmf-dist/doc/texlive/texlive-sr
+obj /usr/share/texmf-dist/doc/texlive/texlive-sr/Makefile 020437b916fd80f5264b3ffdde2e22b2 1279381536
+obj /usr/share/texmf-dist/doc/texlive/texlive-sr/texlive-sr.sty 8e73f0135300a16c14635e21f84e32f0 1338762080
+obj /usr/share/texmf-dist/doc/texlive/texlive-sr/texlive-sr.css 171d63de5ae18f03c4465626a82103e5 1368831438
+obj /usr/share/texmf-dist/doc/texlive/texlive-sr/texlive-sr.pdf 72e40193fca25bbf3e22b2464b68210b 1400288673
+obj /usr/share/texmf-dist/doc/texlive/texlive-sr/texlive-sr.html ecc777295e24993698313b1444991b6b 1400288673
+obj /usr/share/texmf-dist/doc/texlive/texlive-sr/README-SR.txt ce5303bf818c7ec4cf3f3bce1a899996 1399422423
+dir /usr/share/texmf-dist/doc/texlive/texlive-sr/images
+obj /usr/share/texmf-dist/doc/texlive/texlive-sr/images/tl2014-install-tl-wizard-win32-sr.png 1fd8e076346672572074ab994b8c9763 1399422423
+obj /usr/share/texmf-dist/doc/texlive/texlive-sr/images/tl2014-tlmgr-main-screen-freebsd-sr.png d2136f89ccce97e28e99b6f366f41b31 1399391132
+obj /usr/share/texmf-dist/doc/texlive/texlive-sr/images/tl2014-install-tl-first.stage-win32-sr.png 7fdf7a3e9ddade0270e1a0beae2cf49a 1399391132
+obj /usr/share/texmf-dist/doc/texlive/texlive-sr/images/tl2014-tlmgr-options-freebsd-sr.png 016803eb621b4bba0ca314af5cd9d0cc 1399391132
+obj /usr/share/texmf-dist/doc/texlive/texlive-sr/images/tl2014-install-tl-collections-freebsd-sr.png e1c66997da3246ab12a104406561c5fe 1400288673
+obj /usr/share/texmf-dist/doc/texlive/texlive-sr/images/tl2014-install-tl-expert-gui-freebsd-sr.png a2ea0a4711863d0b5a4346e62fb48f63 1399391132
+obj /usr/share/texmf-dist/doc/texlive/texlive-sr/images/tl2014-tlmgr-paper-options-freebsd-sr.png a26d3307662ebdc671b5435ca5385b98 1399391132
+obj /usr/share/texmf-dist/doc/texlive/texlive-sr/texlive-sr.tex d0a7c12d73d34757d910a155bb8a2a97 1400288673
+dir /usr/share/texmf-dist/doc/fonts
+dir /usr/share/texmf-dist/doc/fonts/cmcyr
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/README 00daea6e8dab7f1a4c08a5ad105a2b81 1136767397
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cyrkde 46dd0d684853747718ab9c1cab932d13 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cmalte 505ff0eb35a66464928fa346b1a65f16 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cyriso 2f4cd1717011df08e7d24aacafcf421d 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cyralte e84ef458d9faa39fd60e7bab8908d366 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cyrwin 4eb6ac610a1cbb47e99a60fd2613ec61 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/merge.bat 9d23ee0a9ffa77ba8b12d96658820a68 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/merge.6i c4efc4a7ff667bc1e008913b49e77202 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/wnckoi8 304ac0debb0a8f0aba737bf2e1803647 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/merge.alt c64a3450fbafa263bba62573b82d1dc8 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cyrkoi8e 40606a394dc477a262c79aa13f467f8c 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cyrwine ff1755cac3460c797fd8f2eb2b4b084b 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/merge.win ef2541388af51d23428260acb55a9988 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/merge.6k 8f87591678d81b2c43b90bff75201055 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cmkoi8e 943603bec1f37b14c40c1926b34bead2 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cmkde 2c1702c05cc39a264b24ac8417a52338 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cmiso 2c1702c05cc39a264b24ac8417a52338 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/merge.iso f4b777e1abf0ed0606ad725a3348eed9 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cmisoe 943603bec1f37b14c40c1926b34bead2 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cyrkoi8 49610c62f85bc2de07df38c72e84ab1f 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/wncalte 1e26d0343aaedfdcf70242a0aa50b645 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/merge.o6w bf7c9b77e62257be32158f3b82abf486 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/merge.koi 215b8a8ea5515dd6c64a8f0cfe5d5521 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cmalt 2c1702c05cc39a264b24ac8417a52338 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cmwine c458135c8a7f9384121ca674911bce9b 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cyrkdee 0bb46919cde660ea7d5deafc276e0c5f 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/wnciso 5647d337f93c6635bd28fd204a1154dd 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cyrisoe e02c818d6e41e88dfb512f53b6dcea6b 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/wncisoe 7ea5d58137da9da7338de0c557c12dbd 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cmkoi8 2c1702c05cc39a264b24ac8417a52338 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cmkdee 943603bec1f37b14c40c1926b34bead2 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cyralt d5e7ebac62eb1606554fb32debe5a157 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/wnckoi8e f4fb66f8f3845e4854147ac7379bafc9 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/merge.6w 58ad60f9405d81d0d00162ba420328ad 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/wncalt 2e474c1d5a2650c3debd0f6c512a1f47 1213640331
+dir /usr/share/texmf-dist/doc/fonts/cmcyr/vf
+dir /usr/share/texmf-dist/doc/fonts/cmcyr/vf/cmcyr6w
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/vf/cmcyr6w/merge.bat 754807a9386814b97f6c20aee38e9896 1213640331
+dir /usr/share/texmf-dist/doc/fonts/cmcyr/vf/cmcyr6i
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/vf/cmcyr6i/merge.bat acd3faea62be8a0080cd15205e5e22f9 1213640331
+dir /usr/share/texmf-dist/doc/fonts/cmcyr/vf/cmcyr6k
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/vf/cmcyr6k/merge.bat 6f51a0f4823ab52fa89b28956d368ceb 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/cmwin 2c1702c05cc39a264b24ac8417a52338 1213640331
+obj /usr/share/texmf-dist/doc/fonts/cmcyr/coding.bak 7ac9438bc99d321fddfb81e98e1f3881 1213640331
+dir /usr/share/texmf-dist/doc/fonts/lh
+obj /usr/share/texmf-dist/doc/fonts/lh/README dcb499864e3edcb6ff03a90ee6012a79 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/readme35g.1st ec389a86b78cfaa9628969481c9798f1 1250986712
+dir /usr/share/texmf-dist/doc/fonts/lh/fonttest
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/lh-fmap.tex 45334a11ffa52cb41ef98f34715baa4d 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/t2d-text.tex fafda0001edb26517123efc704410433 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/xsl-text.tex 950248181d163fd6d5f87f829c1970c4 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/xsl-fmap.tex 61736240d281e026b1146d18e421c09c 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/katalog6.t2 1617b6f2085501f36e44cdac1c891f38 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/lh-texy.tex dfc154133f2d8b58d48e126170fab51c 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/katalog2.lh 8baf7720683215dcb02b2e3ddc0bfd21 1136767397
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/t2a-text.tex 900cb3b511adf6d2babbcbfd4cd8b7ad 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/allenc4.tex fb9ac3cc4bcc35be2bbd5e5f8812d038 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/t2b-fmap.tex 892b98f7a2dfdf2775ccb73872334805 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/katalog1.lh b88254e85085dcbf7c7bc271690f0eeb 1136767397
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/katalog7.t2 31b01de624475bfd16d1e40dbbb030c4 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/wn-text.tex a35ad913820498ecb29df1cf39a5edfc 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/lh-text.tex da100d9590c6be6b459d28345c854418 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/lh-texx.tex c9df020b38cab2b024d616b7ff8eb398 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/allenc0.tex a2338f5a8afca5a8f2d27680d5e771bd 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/allenc.tex 8be2f73b6a82a094efe87fcbed2a16fe 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/t2d-fmap.tex 04c34f03977e8075313a8e928f378dbc 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/katalog1.t2 aee87f21eadf292d917f974189c4d062 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/katalog-short.t2 a21d3a9f5cd5302b7eb23182a19ea4c2 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/wn-fmap.tex 0f190924c3f120aaca9a97929e266489 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/x2-fmap.tex 88414f720c0c3c93bd3f18a3ff4c85d9 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/katalog.t2 8c1bd203a8c6cdace833e3878944e79a 1136767397
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/allenc1.tex 72c56183e586d4e4becad0fffe2033b2 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/t2a-fmap-short.tex da65c418c9a19bd24a7b0f3ce4c1fb5c 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/katalog.lh e04e812f359a8ae63e15ff0b9afa4298 1136767397
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/katalog5.t2 36c95baabcb9009809eaa378fdd146cd 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/t2c-fmap.tex 02acaed5e8bc728aab30c40c59923e2e 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/t2a-fmap.tex 11723d22ab2edc6542e50bf5083ea2c7 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/testLHtxt.tex 43665a86058a99d8b64a7dd503611a40 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/katalog3.t2 3b59bb9c6cc755f5021cc8797f627213 1136767397
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/t2b-text.tex 7045bfb339016066b85b0acef0815175 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/allenc2.tex 1de59b5001bd139a65a35d66d5e45c45 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/katalog2.t2 432af69f2f3097ddf4619bc76f562893 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/allenc3.tex d2c9f2d5f1c25d18ea11838ed156c76f 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/t2c-text.tex 3c0212b36e9ea124d96f59a5138b3498 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/x2-text.tex 16ca65beaabe00f2a0f64d2eea63d8fe 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/katalog4.t2 e7b1cae0d510ade375ecc415ec08904f 1136767397
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/katalog-beresta.tex 65b30876b4db1d90886d7058e2870cba 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/wn-comp.tex 278f55b1fb38e5d0304439b1d107bd20 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/fonttest/uc-fmap.tex 535b29d47a0a7c91e52475433353873a 1151792337
+dir /usr/share/texmf-dist/doc/fonts/lh/beresta
+obj /usr/share/texmf-dist/doc/fonts/lh/beresta/lbcodes.tex daca55c405d45075252f6a78909ee921 1136767397
+obj /usr/share/texmf-dist/doc/fonts/lh/beresta/berestax.tex f967f2f17ed4e4172354891f970586f4 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/beresta/lccodes.tex 52aee4a46694aaa5451e7bb20b7add20 1136767397
+obj /usr/share/texmf-dist/doc/fonts/lh/beresta/lacodes.tex 885de0d7785aceb564e7623f3816776f 1136767397
+obj /usr/share/texmf-dist/doc/fonts/lh/beresta/yycodes.tex 5eab83d0d1eb59fe0654b53b98dc4998 1136767397
+obj /usr/share/texmf-dist/doc/fonts/lh/beresta/ldcodes.tex 51f7af527f852a7f584253766fb89100 1136767397
+obj /usr/share/texmf-dist/doc/fonts/lh/beresta/txcodes.tex d14aae6f2cd39168630397e416ddad40 1136767397
+obj /usr/share/texmf-dist/doc/fonts/lh/beresta/rxcodes.tex 41ac6209d498abef37a896133236468b 1136767397
+obj /usr/share/texmf-dist/doc/fonts/lh/beresta/beresta.tex 088cc547d699a64eac08eb6745f837ca 1151792337
+dir /usr/share/texmf-dist/doc/fonts/lh/samples
+obj /usr/share/texmf-dist/doc/fonts/lh/samples/lh-ot2.tex 0fb9b864f5da1d58e28fc6e740f915f7 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/samples/lh-ot2text.tex 813fff22b23c0208da9809e1d21fd524 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/samples/lh-t2a.tex 4f3a79a751445335bcfca75df3396bae 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/samples/lh-lcytext.tex e7176973c5869d07dabf2ba25fff606f 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/samples/lh-t2atext.tex 7633a6d19710ab51160b28ffe3d9abf0 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/samples/lh-lcy.tex 7e75a476c35d2290a7cbd8711f51c602 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/install 713c0d7035258033c43e82af6b174ac4 1250986712
+dir /usr/share/texmf-dist/doc/fonts/lh/lhfonts
+obj /usr/share/texmf-dist/doc/fonts/lh/lhfonts/lhfont35.ru 82e2306a78c506452a0c27327eed5772 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/lhfonts/fonttest.en 954b1d2a9b1347fca9bc3827d6b339e8 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/lhfonts/T1inT2.en afaadbaacbb92cfd8ef1722f16a92af9 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/lhfonts/lhfont35.en 9daf9cfd298b66cfc666da1235742627 1151792337
+obj /usr/share/texmf-dist/doc/fonts/lh/lhfonts/lhfonts.hst 9f0bf01a6bb7b7fbf5d75e2732d14b2a 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/readme35c.1st 3578c30c23506919c63eaf902f67ed54 1250986712
+obj /usr/share/texmf-dist/doc/fonts/lh/manifest.txt 713c7e33142094b1533171669079d11a 1250986712
+dir /usr/share/texmf-dist/doc/man
+dir /usr/share/texmf-dist/doc/man/man1
+obj /usr/share/texmf-dist/doc/man/man1/rubibtex.man1.pdf 28bc3d47a0763bf64f5e0a12a2066d84 1398726081
+obj /usr/share/texmf-dist/doc/man/man1/rumakeindex.man1.pdf 00d6270b015c8186f4c1da7017228b4c 1398726081
+obj /usr/share/texmf-dist/doc/man/man1/rubibtex.1 e19d047bf03597e48325a090961f2d99 1136246418
+obj /usr/share/texmf-dist/doc/man/man1/rumakeindex.1 e5ef3dc4e26e47c8eeee9c875bddc9c3 1136246418
 dir /usr/share/texmf-dist/fonts
 dir /usr/share/texmf-dist/fonts/source
 dir /usr/share/texmf-dist/fonts/source/public
@@ -2246,5 +2930,3 @@ obj /usr/share/texmf-dist/fonts/vf/public/cmcyr/ycmssi9.vf c5e0390d614739c1494be
 dir /usr/share/texmf-dist/makeindex
 dir /usr/share/texmf-dist/makeindex/disser
 obj /usr/share/texmf-dist/makeindex/disser/dtx.ist 0a965e7eb7b453a0f7e19c3ae2527300 1290383625
-sym /usr/bin/rubibtex -> ../share/texmf-dist/scripts/texlive/rubibtex.sh 1465672762
-sym /usr/bin/rumakeindex -> ../share/texmf-dist/scripts/texlive/rumakeindex.sh 1465672762

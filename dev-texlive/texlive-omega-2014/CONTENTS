@@ -3,10 +3,10 @@ dir /var/lib
 dir /var/lib/texmf
 dir /var/lib/texmf/web2c
 dir /var/lib/texmf/web2c/aleph
-obj /var/lib/texmf/web2c/aleph/lamed.log fbcc29048fa1fe8a704ecb7e18b6d182 1465672638
-obj /var/lib/texmf/web2c/aleph/lamed.fmt 687e977e30ca68492ed044460abae9cb 1465672638
-obj /var/lib/texmf/web2c/aleph/aleph.fmt cc42e6a1ecc0d925f72b90a713047785 1465672638
-obj /var/lib/texmf/web2c/aleph/aleph.log d6628ece6df9dd389507fb930f9fe331 1465672638
+obj /var/lib/texmf/web2c/aleph/lamed.log 7f5b1c54530ba1f0c48e010636b227d8 1484348750
+obj /var/lib/texmf/web2c/aleph/lamed.fmt 3ec173605ab3b12bccf6fdff5e82af1e 1484348750
+obj /var/lib/texmf/web2c/aleph/aleph.fmt 9ae70bfd3a3db6271105a9b786dd0879 1484348750
+obj /var/lib/texmf/web2c/aleph/aleph.log 0d9b8599c65a0d842ec29fd4066726e6 1484348750
 dir /etc
 dir /etc/texmf
 dir /etc/texmf/dvipdfm
@@ -16,25 +16,31 @@ dir /etc/texmf/dvips
 dir /etc/texmf/dvips/omega.d
 obj /etc/texmf/dvips/omega.d/omega.cfg 20f3291d20f52a0af681cea63d491f22 1136768462
 dir /etc/texmf/fmtutil.d
-obj /etc/texmf/fmtutil.d/format.texlive-omega.cnf 43f457a983660bac571a61b82d22f536 1465672637
+obj /etc/texmf/fmtutil.d/format.texlive-omega.cnf 43f457a983660bac571a61b82d22f536 1484348748
 dir /etc/texmf/updmap.d
-obj /etc/texmf/updmap.d/texlive-omega.cfg f085faf60408ec7bad4c45e886f6e5cd 1465672638
+obj /etc/texmf/updmap.d/texlive-omega.cfg f085faf60408ec7bad4c45e886f6e5cd 1484348750
 dir /usr
 dir /usr/bin
-sym /usr/bin/lamed -> aleph 1465672640
+sym /usr/bin/lamed -> aleph 1484348753
 dir /usr/share
 dir /usr/share/tlpkg
 dir /usr/share/tlpkg/tlpobj
+obj /usr/share/tlpkg/tlpobj/mxedruli.doc.tlpobj 593cb1181c597d70f75fdb5fc640d51b 1397784384
 obj /usr/share/tlpkg/tlpobj/otibet.tlpobj bde2543a17ab3359ca97b0dbd271716a 1397784586
 obj /usr/share/tlpkg/tlpobj/omegaware.tlpobj 1fe917fd74c2feedb9d6d76d9625959d 1398735237
 obj /usr/share/tlpkg/tlpobj/mxedruli.tlpobj 74a805f73bbd5fb97c26a41568a14322 1397784384
+obj /usr/share/tlpkg/tlpobj/omegaware.doc.tlpobj 366de236f320244a3c2bedf831fbf925 1398735237
 obj /usr/share/tlpkg/tlpobj/otibet.source.tlpobj 4d90f3745d2829c69af6a17f57cc4dc9 1397784586
 obj /usr/share/tlpkg/tlpobj/lambda.tlpobj b4af378afb0bf6a30cbcc07c836da251 1397783288
 obj /usr/share/tlpkg/tlpobj/omega.tlpobj a869f4a165ad4cec68ca9ddbae4744b5 1397784536
 obj /usr/share/tlpkg/tlpobj/aleph.tlpobj 24adad0f404054f91218463c9ac981f0 1398734719
 obj /usr/share/tlpkg/tlpobj/collection-omega.tlpobj e6293df204dabdbe0cd2cd8c198e3fec 1397781795
+obj /usr/share/tlpkg/tlpobj/antomega.doc.tlpobj 7eb03068c25c2ca49dc179ee77117ccc 1397780323
 obj /usr/share/tlpkg/tlpobj/antomega.tlpobj b6fb6879212eb90eeb13350bb05866bf 1397780324
+obj /usr/share/tlpkg/tlpobj/otibet.doc.tlpobj d12ee96f821730b885fd80fab6fcee1f 1397784586
+obj /usr/share/tlpkg/tlpobj/aleph.doc.tlpobj 0cedd3befa83e0c95222e0d355ba8673 1398734719
 obj /usr/share/tlpkg/tlpobj/antomega.source.tlpobj 9925cdbf0fa1497242d77ca2c3396998 1397780323
+obj /usr/share/tlpkg/tlpobj/omega.doc.tlpobj ddf39cc861b6d4c7d06775ecbb514440 1397784536
 dir /usr/share/texmf-dist
 dir /usr/share/texmf-dist/source
 dir /usr/share/texmf-dist/source/latex
@@ -159,11 +165,70 @@ dir /usr/share/texmf-dist/tex/plain/omega
 obj /usr/share/texmf-dist/tex/plain/omega/grlccode.tex c00476f52899c09545df06ceed5dd699 1137109606
 obj /usr/share/texmf-dist/tex/plain/omega/omega.tex aa700bcb958cbbe1f95d8bfd8696c073 1137109606
 dir /usr/share/texmf-dist/fmtutil
-sym /usr/share/texmf-dist/fmtutil/format.texlive-omega.cnf -> /etc/texmf/fmtutil.d/format.texlive-omega.cnf 1465672641
+sym /usr/share/texmf-dist/fmtutil/format.texlive-omega.cnf -> /etc/texmf/fmtutil.d/format.texlive-omega.cnf 1484348753
 dir /usr/share/texmf-dist/dvips
 dir /usr/share/texmf-dist/dvips/omega
 obj /usr/share/texmf-dist/dvips/omega/config.omega 20f3291d20f52a0af681cea63d491f22 1136768462
-sym /usr/share/texmf-dist/dvips/omega/omega.cfg -> /etc/texmf/dvips/omega.d/omega.cfg 1465672641
+sym /usr/share/texmf-dist/dvips/omega/omega.cfg -> /etc/texmf/dvips/omega.d/omega.cfg 1484348753
+dir /usr/share/texmf-dist/doc
+dir /usr/share/texmf-dist/doc/latex
+dir /usr/share/texmf-dist/doc/latex/otibet
+obj /usr/share/texmf-dist/doc/latex/otibet/yugpacan.dvi fb612cdde31170fb351f6a59d96be1b2 880456614
+obj /usr/share/texmf-dist/doc/latex/otibet/README 482023fee907e1a9fdb85dd7610150e3 1136767747
+obj /usr/share/texmf-dist/doc/latex/otibet/yugpacan.tex 7a83aac4d58aa90c7cd2e204bbf3623c 1136767747
+obj /usr/share/texmf-dist/doc/latex/otibet/otibet-mule.tex 74ce0de338ab0e0f503f301e48a2fbf2 1136767747
+obj /usr/share/texmf-dist/doc/latex/otibet/allbasic-mule.tex 67aa31ebf88831bfdbacf800b8d02f97 1136767747
+obj /usr/share/texmf-dist/doc/latex/otibet/unidoc.dvi 5077f6aa63dbbf2a08fe08ce182cacfa 880370308
+obj /usr/share/texmf-dist/doc/latex/otibet/tiblatex.dvi 417fce240c4001cf7698868dbc072c77 880370320
+obj /usr/share/texmf-dist/doc/latex/otibet/allbasic.tex 684b8a2057f21d716e5157761e1bc75c 1136767747
+obj /usr/share/texmf-dist/doc/latex/otibet/allbasic.dvi f516ae98a4c3788690a0cc5cc16df361 880370363
+obj /usr/share/texmf-dist/doc/latex/otibet/testtib.tex 082462aba829236bc6e65cb30de9c985 1136767747
+obj /usr/share/texmf-dist/doc/latex/otibet/unidoc.tex fc1ba5a6fb28e1d2b1cc63a86a5baea2 1136767747
+obj /usr/share/texmf-dist/doc/latex/otibet/tiblatex.tex e771e14c21d2d38b231d020e8222f3de 1136767747
+dir /usr/share/texmf-dist/doc/aleph
+dir /usr/share/texmf-dist/doc/aleph/base
+obj /usr/share/texmf-dist/doc/aleph/base/readme.txt 1d846b74281b08b1b3aa34204e5efc67 1136767228
+obj /usr/share/texmf-dist/doc/aleph/base/News 2eb0090f6fa3672c426b033af39b6570 1136767228
+dir /usr/share/texmf-dist/doc/fonts
+dir /usr/share/texmf-dist/doc/fonts/mxedruli
+obj /usr/share/texmf-dist/doc/fonts/mxedruli/README 1e788d2bfbf401ef5f3aae5557d3673b 1366326389
+obj /usr/share/texmf-dist/doc/fonts/mxedruli/mxeddoc.tex b8914dddb3ec4b3ce1dd7cebd82df2a6 1366326389
+obj /usr/share/texmf-dist/doc/fonts/mxedruli/ossetic.tex dbd1f17976b816f65d8197c0549986b2 1232408907
+obj /usr/share/texmf-dist/doc/fonts/mxedruli/vepxis.tex 0c16a0f67a5981467567451f7bee1932 1232408907
+obj /usr/share/texmf-dist/doc/fonts/mxedruli/mxeddoc.pdf ec8af2a6d47bcbea5ff3c470962d4080 1366326389
+obj /usr/share/texmf-dist/doc/fonts/mxedruli/alphabets.tex 82874ae9789730f7e1f67e29c97b437e 1232408907
+dir /usr/share/texmf-dist/doc/omega
+dir /usr/share/texmf-dist/doc/omega/antomega
+obj /usr/share/texmf-dist/doc/omega/antomega/README e1694affa85ad807459d883d67b9cdf2 1136767480
+obj /usr/share/texmf-dist/doc/omega/antomega/antomega.pdf e61f978a3dbcff94a30958fb366ec58a 1243719999
+dir /usr/share/texmf-dist/doc/omega/base
+obj /usr/share/texmf-dist/doc/omega/base/doc-1.8.tex 0b80f66a564bea6b6e11efd3093348ce 1136767228
+obj /usr/share/texmf-dist/doc/omega/base/torture.ps 53d36b611bc01628fc1e90eee7267c43 1136767228
+obj /usr/share/texmf-dist/doc/omega/base/torture.tex 9a35fb9236dae8079135605a05cfe21b 1136767228
+dir /usr/share/texmf-dist/doc/man
+dir /usr/share/texmf-dist/doc/man/man1
+obj /usr/share/texmf-dist/doc/man/man1/otangle.man1.pdf b0299c45c8f0b8cdd56906d61336050d 1398726081
+obj /usr/share/texmf-dist/doc/man/man1/otangle.1 75d317d870b408d9f75feb2d3cc98d0a 1274381417
+obj /usr/share/texmf-dist/doc/man/man1/ofm2opl.1 b86cfdbf3a923fc0674b1de0c402f573 1274258453
+obj /usr/share/texmf-dist/doc/man/man1/ofm2opl.man1.pdf 3ca4f0ce8b341fb94f07e46f0525bd56 1398726081
+obj /usr/share/texmf-dist/doc/man/man1/aleph.1 35156895f841b7072a02a949d508bf6e 1398725971
+obj /usr/share/texmf-dist/doc/man/man1/odvitype.1 eb9a23cf97a06c35aafbea98dc0c4fba 1214761154
+obj /usr/share/texmf-dist/doc/man/man1/aleph.man1.pdf b6fcdb239d1993021c897fae0c6559e5 1398726081
+obj /usr/share/texmf-dist/doc/man/man1/odvitype.man1.pdf 538fe4d347fbc7897709972418bba653 1398726081
+obj /usr/share/texmf-dist/doc/man/man1/otp2ocp.man1.pdf e99fced66bc26d79f255b24e10373a0d 1398726081
+obj /usr/share/texmf-dist/doc/man/man1/odvicopy.1 2a6c42e0e58175bc7ba46b97cee0bab5 1214761154
+obj /usr/share/texmf-dist/doc/man/man1/outocp.man1.pdf e65965b779f0eddb1f64de786fd1bc47 1398726081
+obj /usr/share/texmf-dist/doc/man/man1/ovp2ovf.1 e78a2f38e4c6008fa4d3ea0eac173302 1274258453
+obj /usr/share/texmf-dist/doc/man/man1/otp2ocp.1 0a32ccce6d38a0c7fe64ca0bc93f4dae 1274258453
+obj /usr/share/texmf-dist/doc/man/man1/opl2ofm.man1.pdf 9e60a06bcc3d61b3d30f3dc0dd6d9a61 1398726081
+obj /usr/share/texmf-dist/doc/man/man1/outocp.1 8ffd28a3dcc62901b7d72bc70edeb61c 1274258453
+obj /usr/share/texmf-dist/doc/man/man1/ovf2ovp.1 92c2e433b14dd3aeeea07cf1fbaaa2c6 1274258453
+obj /usr/share/texmf-dist/doc/man/man1/odvicopy.man1.pdf d4b99a9905e53dbe9117cd79523f99da 1398726081
+obj /usr/share/texmf-dist/doc/man/man1/ovf2ovp.man1.pdf 5615db962d5429e0e530ba73a4572d1a 1398726081
+obj /usr/share/texmf-dist/doc/man/man1/ovp2ovf.man1.pdf 81dcbfe1e5efc5157616b1e98d07c559 1398726081
+obj /usr/share/texmf-dist/doc/man/man1/opl2ofm.1 50f0a6c50df8dcc7ae663484e4feddd1 1274258453
+obj /usr/share/texmf-dist/doc/man/man1/lamed.man1.pdf 9399d850c53200811b9b6c658eb2be2e 1398726081
+obj /usr/share/texmf-dist/doc/man/man1/lamed.1 f7cfa0d4538b9e708ce02ca392127b97 1274381417
 dir /usr/share/texmf-dist/fonts
 dir /usr/share/texmf-dist/fonts/source
 dir /usr/share/texmf-dist/fonts/source/public

@@ -1,214 +1,252 @@
 dir /etc
 dir /etc/modprobe.d
-obj /etc/modprobe.d/lirc.conf d374ddf8953df7ab1556384e1f5c972e 1465275574
+obj /etc/modprobe.d/lirc.conf d374ddf8953df7ab1556384e1f5c972e 1484320195
 dir /etc/init.d
-obj /etc/init.d/irexec 105e24020a1e76310eaf8b787989cd75 1465275574
-obj /etc/init.d/lircmd 87ddb2a9facb60e673c45d6d74279a5e 1465275574
-obj /etc/init.d/lircd 10f8875e70267c015699428c9e175324 1465275574
+obj /etc/init.d/irexec 105e24020a1e76310eaf8b787989cd75 1484320195
+obj /etc/init.d/lircmd 87ddb2a9facb60e673c45d6d74279a5e 1484320195
+obj /etc/init.d/lircd 10f8875e70267c015699428c9e175324 1484320194
 dir /etc/lirc
-obj /etc/lirc/.keep_app-misc_lirc-0 d41d8cd98f00b204e9800998ecf8427e 1465275577
+obj /etc/lirc/.keep_app-misc_lirc-0 d41d8cd98f00b204e9800998ecf8427e 1484320196
 dir /etc/conf.d
-obj /etc/conf.d/irexec 6abeb719007a883ff202cd75ffe922e8 1465275574
-obj /etc/conf.d/lircd 7de9952f9cc2d70f2cd5206b403d003a 1465275574
+obj /etc/conf.d/irexec 6abeb719007a883ff202cd75ffe922e8 1484320195
+obj /etc/conf.d/lircd 7de9952f9cc2d70f2cd5206b403d003a 1484320195
 dir /usr
 dir /usr/lib
 dir /usr/lib/systemd
 dir /usr/lib/systemd/system
-obj /usr/lib/systemd/system/irexec.service 24d768cdbc2e66ebf13a347355afc78a 1465275575
-obj /usr/lib/systemd/system/lirc.service d9d271622f245086acd936812ec82696 1465275575
-obj /usr/lib/systemd/system/lircm.service 3dc3fb06a7b76b44f2a2823dfb5b5243 1465275575
+obj /usr/lib/systemd/system/irexec.service 24d768cdbc2e66ebf13a347355afc78a 1484320195
+obj /usr/lib/systemd/system/lirc.service d9d271622f245086acd936812ec82696 1484320195
+obj /usr/lib/systemd/system/lircm.service 3dc3fb06a7b76b44f2a2823dfb5b5243 1484320195
 dir /usr/lib64
-obj /usr/lib64/liblirc_client.so.0.2.1 dff66d6833559322e49871ea74f74601 1465275578
-sym /usr/lib64/liblirc_client.so -> liblirc_client.so.0.2.1 1465275579
+sym /usr/lib64/liblirc_client.so.0 -> liblirc_client.so.0.2.1 1484320199
+obj /usr/lib64/liblirc_client.so.0.2.1 ff0bc41a781e831316398a606fac9aa1 1484320197
+sym /usr/lib64/liblirc_client.so -> liblirc_client.so.0.2.1 1484320199
 dir /usr/include
 dir /usr/include/lirc
-obj /usr/include/lirc/lirc_client.h b2b705574866ebd7e3892a3db1fa92eb 1465275573
+obj /usr/include/lirc/lirc_client.h b2b705574866ebd7e3892a3db1fa92eb 1484320194
 dir /usr/bin
-obj /usr/bin/mode2 22db7f16c89bf0472b2a23334d23f013 1465275578
-obj /usr/bin/irrecord 0752b903feb697a5d600e30afb46db75 1465275578
-obj /usr/bin/irexec ea572601a262b07ec6dd2f3fed1ad5bc 1465275578
-obj /usr/bin/irpty b0f4de1a90293831d5345ebe50c67b85 1465275578
-obj /usr/bin/irxevent 64d7941d7ffaeb942952c01fa4f22bf8 1465275578
-obj /usr/bin/lircrcd a84c7f58cd19a9671655add51bb2d0b2 1465275578
-obj /usr/bin/irw b5768089a4310de4ab3b24e24e161739 1465275578
-obj /usr/bin/xmode2 1a65f7cd35d9d37c7cb046674abb2cad 1465275578
-obj /usr/bin/pronto2lirc c31e4e3d61d8fd8f535281dad9aa65a0 1465275573
-obj /usr/bin/irsend 557e5dbb1ec9152bc83e2901517aadcb 1465275578
-obj /usr/bin/ircat 7e62f4a6da5f0292c7a8e3b9e2ed6570 1465275578
+obj /usr/bin/mode2 eb7924b1736d34a31c700ec7c52687dd 1484320197
+obj /usr/bin/irrecord 111be7b39359a403dcffad37c569269e 1484320197
+obj /usr/bin/irexec b1034fbbd19d91e352ccd29cc1f674e8 1484320197
+obj /usr/bin/irpty d66d90bff450abcd249f21f26015c270 1484320197
+obj /usr/bin/irxevent 657cf5f1457389f2d49d85da310beb69 1484320197
+obj /usr/bin/lircrcd a50719f7db47a821438a46bc5ee0c266 1484320197
+obj /usr/bin/irw 271edf26ac6f8e18041a768ecee4b4a4 1484320197
+obj /usr/bin/xmode2 ddb859fb49e7158a80a93dc336c0cb70 1484320197
+obj /usr/bin/pronto2lirc c31e4e3d61d8fd8f535281dad9aa65a0 1484320194
+obj /usr/bin/irsend 8700b93369cf3f7459d8c72f3b2e2515 1484320197
+obj /usr/bin/ircat 951d44d4af726c2f020d2df0957c58e2 1484320197
 dir /usr/sbin
-obj /usr/sbin/lircmd faa596d6d3778a69880cbb850215151e 1465275578
-obj /usr/sbin/lircd 2d7e9ba22e9d598f53a6b1cc8c95c342 1465275578
+obj /usr/sbin/lircmd cad9cfeee435ca45662167775cd7551a 1484320197
+obj /usr/sbin/lircd d67504b491a533276788242a93fd2a53 1484320197
 dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/lirc-0.9.0-r6
+dir /usr/share/doc/lirc-0.9.0-r6/html
+obj /usr/share/doc/lirc-0.9.0-r6/html/irxevent.html 8ef4eee624da6e9d85923ee3d417eb34 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/mode2.html 0485e4ae0ed2f55fc43d03bc43e4a7c4 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/xmode2.html 210cf533fcebf23c0cced11791c4b54e 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/alsa-usb.html f2b4f5d5d6dc800160557efe49b54d63 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/configure.html 7b5686921244c9c13f95e92abda5cc22 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/lircrcd.html 239a90d684f5d13fa3bfb282b16104f3 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/index.html 3e0517def98f6655819ae7469181dd64 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/irw.html 68b142800b5c3eb9b5e743ad9f6189f8 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/lircd.html d9975499a79930ddbbf1e4c5b9607d1c 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/irpty.html 8c472c6f0ac3720f39485fdab941640b 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/irexec.html 8831a7d0e148fc5913ab9493661b1be4 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/lircmd.html b861f2599b27b5193c0de21face6f476 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/ircat.html 77fe5f228a1eeb5af0c5557e96b9e2c7 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/irrecord.html 875d5a13c41f0be8559e561e98bedc4b 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/imon.html 2908f5460cd8f8c8b09e73f4dc072b6d 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/programs.html eee6c2dc08e8d3870e95cd589603ab56 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/devinput.html fbb4deebbf9adc6ac00eb3f7c9abbb43 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/audio-alsa.html 49aabf7f0c182d1d333e5f13636085a7 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/technical.html 3dedd5acd9f68aae7cd4499ab3b391b2 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/install.html 4ebdd38a958da989269ca595fbe3ef40 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/audio.html 4abf138b1d286f368334d285af7c057f 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/irsend.html ab744c7343545930eaf7b59de90319e3 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/smode2.html 2c2299b8905550f85db9f8f7237467a7 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/help.html 18a6b84486ab0fb5794736f8892ecd4d 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/imon-24g.html 0dfc59c9edac2c350efe7bfb79170873 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/tira.html 6fd4dc8540699454afdd710d26e27cef 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/pronto2lirc.html e73f0ba4f2500f2f5ec0b3f5ee1acc09 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/html/table.html b6c2ad1da5a3444aad6c3d96f7c63203 1484320195
+dir /usr/share/doc/lirc-0.9.0-r6/images
+obj /usr/share/doc/lirc-0.9.0-r6/images/audio_wave.png 668d16051cb064d01eb8804ff8e81f03 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/images/atwf83.jpg 449f2e6e85c5151c7dd55a8b6d3136ce 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/images/diode.gif 014e139020e82692bc039785d96e74a6 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/images/audio_transmitter.png 62f45d38d0d7f1d96ca77c2b9d90c3bb 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/images/marb18.jpg da0ddda7a60cf2fcccfd59ed190b71e7 1484320195
+obj /usr/share/doc/lirc-0.9.0-r6/images/lirc.gif d5c3d0043a253eac63704ed6d910cc3a 1484320195
 dir /usr/share/man
 dir /usr/share/man/man8
-obj /usr/share/man/man8/lircmd.8.bz2 ff0afc400250564a8f7e5067625a2a8c 1465275574
-obj /usr/share/man/man8/lircd.8.bz2 03274dbf87c73bc4a4db6df55564d167 1465275574
+obj /usr/share/man/man8/lircmd.8.bz2 ff0afc400250564a8f7e5067625a2a8c 1484320194
+obj /usr/share/man/man8/lircd.8.bz2 03274dbf87c73bc4a4db6df55564d167 1484320194
 dir /usr/share/man/man1
-obj /usr/share/man/man1/irsend.1.bz2 7bf40f0279c35a169a94c60b4c6c4735 1465275574
-obj /usr/share/man/man1/ircat.1.bz2 e0f7a5bbfe53c807ce6a6a979662ab94 1465275574
-obj /usr/share/man/man1/irxevent.1.bz2 17b96948ba226368d19269a3e1fe132d 1465275574
-obj /usr/share/man/man1/irw.1.bz2 53dcb4cc1f69cb4df38392aa9a6dc2dc 1465275574
-obj /usr/share/man/man1/lircrcd.1.bz2 4485564f6646cfe51f6f116bcd7dac3b 1465275574
-obj /usr/share/man/man1/irrecord.1.bz2 0b36d2da25721132226ad1a76931f7f1 1465275574
-obj /usr/share/man/man1/smode2.1 d41d8cd98f00b204e9800998ecf8427e 1465275574
-obj /usr/share/man/man1/irexec.1.bz2 37092e7348af7e7a887e3f6c02a4d59e 1465275574
-obj /usr/share/man/man1/xmode2.1.bz2 6b93a0c7476af5e148d9df313acb7198 1465275574
-obj /usr/share/man/man1/irpty.1.bz2 3096f6e8806f39e0101278a4161a7584 1465275574
-obj /usr/share/man/man1/mode2.1.bz2 edb418dcc8198e47d73eab8253a87c4c 1465275574
+obj /usr/share/man/man1/irsend.1.bz2 7bf40f0279c35a169a94c60b4c6c4735 1484320194
+obj /usr/share/man/man1/ircat.1.bz2 e0f7a5bbfe53c807ce6a6a979662ab94 1484320194
+obj /usr/share/man/man1/irxevent.1.bz2 17b96948ba226368d19269a3e1fe132d 1484320194
+obj /usr/share/man/man1/irw.1.bz2 53dcb4cc1f69cb4df38392aa9a6dc2dc 1484320194
+obj /usr/share/man/man1/lircrcd.1.bz2 4485564f6646cfe51f6f116bcd7dac3b 1484320194
+obj /usr/share/man/man1/irrecord.1.bz2 0b36d2da25721132226ad1a76931f7f1 1484320194
+obj /usr/share/man/man1/smode2.1 d41d8cd98f00b204e9800998ecf8427e 1484320194
+obj /usr/share/man/man1/irexec.1.bz2 37092e7348af7e7a887e3f6c02a4d59e 1484320194
+obj /usr/share/man/man1/xmode2.1.bz2 6b93a0c7476af5e148d9df313acb7198 1484320194
+obj /usr/share/man/man1/irpty.1.bz2 3096f6e8806f39e0101278a4161a7584 1484320194
+obj /usr/share/man/man1/mode2.1.bz2 edb418dcc8198e47d73eab8253a87c4c 1484320194
 dir /usr/share/lirc
 dir /usr/share/lirc/remotes
 dir /usr/share/lirc/remotes/aureal
-obj /usr/share/lirc/remotes/aureal/lircd.conf.atwf83 1896efcc7650ac3f1d8e5476cc635fb3 1465275575
+obj /usr/share/lirc/remotes/aureal/lircd.conf.atwf83 1896efcc7650ac3f1d8e5476cc635fb3 1484320195
 dir /usr/share/lirc/remotes/kanam_accent
-obj /usr/share/lirc/remotes/kanam_accent/lircd.conf.IR-100 7512461918a781c6358132271ea809d7 1465275576
+obj /usr/share/lirc/remotes/kanam_accent/lircd.conf.IR-100 7512461918a781c6358132271ea809d7 1484320196
 dir /usr/share/lirc/remotes/x10
-obj /usr/share/lirc/remotes/x10/lircd.conf.mouseremote 8910524defc3a6ca47ed0a8fc82e881c 1465275577
-obj /usr/share/lirc/remotes/x10/lircd.conf.mp3anywhere af1afde2c598bbcefeaf0fa3f47db325 1465275577
-obj /usr/share/lirc/remotes/x10/lircmd.conf.mouseremote ffb36705fbea213428dc06610ee863d9 1465275577
-obj /usr/share/lirc/remotes/README ff22f9319bcd5670b6a1a8d63a1d7218 1465275576
+obj /usr/share/lirc/remotes/x10/lircd.conf.mouseremote 8910524defc3a6ca47ed0a8fc82e881c 1484320196
+obj /usr/share/lirc/remotes/x10/lircd.conf.mp3anywhere af1afde2c598bbcefeaf0fa3f47db325 1484320196
+obj /usr/share/lirc/remotes/x10/lircmd.conf.mouseremote ffb36705fbea213428dc06610ee863d9 1484320196
+obj /usr/share/lirc/remotes/README ff22f9319bcd5670b6a1a8d63a1d7218 1484320196
 dir /usr/share/lirc/remotes/pixelview
-obj /usr/share/lirc/remotes/pixelview/lircd.conf.playtv_bt878 9ab6a3d21352a73ceffb9a60bcca3823 1465275576
-obj /usr/share/lirc/remotes/pixelview/lircmd.conf.playtv_pro 8f43598e5f527cbd41c61a62914c44a1 1465275576
-obj /usr/share/lirc/remotes/pixelview/lircd.conf.playtv 54cdd3b398562c474d8d9bd30d9ae6b3 1465275576
-obj /usr/share/lirc/remotes/pixelview/lircd.conf.remotemaster b0949dd40059d21cacdcd2f473c8b979 1465275576
-obj /usr/share/lirc/remotes/pixelview/lircmd.conf.remotemaster ba4391cd0014fd7dac78a35f6687fe01 1465275576
-obj /usr/share/lirc/remotes/pixelview/lircd.conf.playtv_pro fc71158989343af0d00b92bcd03c5d3d 1465275576
-obj /usr/share/lirc/remotes/pixelview/lircrc.playtv_pro 2fc89ab1af3b855b437d4f02c888c511 1465275576
+obj /usr/share/lirc/remotes/pixelview/lircd.conf.playtv_bt878 9ab6a3d21352a73ceffb9a60bcca3823 1484320196
+obj /usr/share/lirc/remotes/pixelview/lircmd.conf.playtv_pro 8f43598e5f527cbd41c61a62914c44a1 1484320196
+obj /usr/share/lirc/remotes/pixelview/lircd.conf.playtv 54cdd3b398562c474d8d9bd30d9ae6b3 1484320196
+obj /usr/share/lirc/remotes/pixelview/lircd.conf.remotemaster b0949dd40059d21cacdcd2f473c8b979 1484320196
+obj /usr/share/lirc/remotes/pixelview/lircmd.conf.remotemaster ba4391cd0014fd7dac78a35f6687fe01 1484320196
+obj /usr/share/lirc/remotes/pixelview/lircd.conf.playtv_pro fc71158989343af0d00b92bcd03c5d3d 1484320196
+obj /usr/share/lirc/remotes/pixelview/lircrc.playtv_pro 2fc89ab1af3b855b437d4f02c888c511 1484320196
 dir /usr/share/lirc/remotes/imon
-obj /usr/share/lirc/remotes/imon/lircd.conf.imon-rsc fe89cce9eafbe23dd4f1957f98d8eed7 1465275576
-obj /usr/share/lirc/remotes/imon/lircd.conf.imon-pad b3051d1bf51de016fbf715be1f93945b 1465275576
-obj /usr/share/lirc/remotes/imon/lircd.conf.imon-ultrabay ebe10567abec17452ab637dadd2535c2 1465275576
-obj /usr/share/lirc/remotes/imon/lircd.conf.imon-knob 8a7c6c3255af92f9919664feb46adb96 1465275576
-obj /usr/share/lirc/remotes/imon/lircd.conf.imon 9baa848e5554df5580bdd0dbaa21007e 1465275576
-obj /usr/share/lirc/remotes/imon/lircd.conf.imon-mceusb 785185c344c0c349376eeb9ac1fba222 1465275576
-obj /usr/share/lirc/remotes/imon/lircd.conf.imon-2.4g 19147c122b1e0d520c79ca6910fab227 1465275576
-obj /usr/share/lirc/remotes/imon/lircd.conf.imon-antec-veris a309c7d2622ff43931c8dbe13efcb0b3 1465275576
+obj /usr/share/lirc/remotes/imon/lircd.conf.imon-rsc fe89cce9eafbe23dd4f1957f98d8eed7 1484320196
+obj /usr/share/lirc/remotes/imon/lircd.conf.imon-pad b3051d1bf51de016fbf715be1f93945b 1484320196
+obj /usr/share/lirc/remotes/imon/lircd.conf.imon-ultrabay ebe10567abec17452ab637dadd2535c2 1484320196
+obj /usr/share/lirc/remotes/imon/lircd.conf.imon-knob 8a7c6c3255af92f9919664feb46adb96 1484320196
+obj /usr/share/lirc/remotes/imon/lircd.conf.imon 9baa848e5554df5580bdd0dbaa21007e 1484320196
+obj /usr/share/lirc/remotes/imon/lircd.conf.imon-mceusb 785185c344c0c349376eeb9ac1fba222 1484320196
+obj /usr/share/lirc/remotes/imon/lircd.conf.imon-2.4g 19147c122b1e0d520c79ca6910fab227 1484320196
+obj /usr/share/lirc/remotes/imon/lircd.conf.imon-antec-veris a309c7d2622ff43931c8dbe13efcb0b3 1484320196
 dir /usr/share/lirc/remotes/adstech
-obj /usr/share/lirc/remotes/adstech/lircd.conf.usbx-707 91186bebc0dacd3813e89901f19ba5f6 1465275575
+obj /usr/share/lirc/remotes/adstech/lircd.conf.usbx-707 91186bebc0dacd3813e89901f19ba5f6 1484320195
 dir /usr/share/lirc/remotes/acer
-obj /usr/share/lirc/remotes/acer/lircd.conf.Aspire_6530G ded17096fdee823d26e1d6d3a1053cdd 1465275575
+obj /usr/share/lirc/remotes/acer/lircd.conf.Aspire_6530G ded17096fdee823d26e1d6d3a1053cdd 1484320195
 dir /usr/share/lirc/remotes/provideo
-obj /usr/share/lirc/remotes/provideo/lircd.conf.pv951 4734a242877e2079cc542b8276b4f7dd 1465275576
+obj /usr/share/lirc/remotes/provideo/lircd.conf.pv951 4734a242877e2079cc542b8276b4f7dd 1484320196
 dir /usr/share/lirc/remotes/mceusb
-obj /usr/share/lirc/remotes/mceusb/lircd.conf.mceusb 062f69788a4c081c83af8cf22d462b94 1465275576
+obj /usr/share/lirc/remotes/mceusb/lircd.conf.mceusb 062f69788a4c081c83af8cf22d462b94 1484320196
 dir /usr/share/lirc/remotes/avermedia
-obj /usr/share/lirc/remotes/avermedia/lircd.conf.avermedia d75cfc88041907f76af5aa02aea32709 1465275575
-obj /usr/share/lirc/remotes/avermedia/lircd.conf.vdomate 9a43bf5cb46b07f36f528170a0093f9f 1465275575
-obj /usr/share/lirc/remotes/avermedia/lircd.conf.avermedia98 05326ef6e404612d55049f80372e7cb0 1465275575
-obj /usr/share/lirc/remotes/avermedia/lircmd.conf.avermedia98 75a2bf5d710ea44be6c1a93744acf6e4 1465275575
-obj /usr/share/lirc/remotes/avermedia/lircmd.conf.avermedia a1e9a1bddbbbb8b7cc9ff7fa3cc57720 1465275575
+obj /usr/share/lirc/remotes/avermedia/lircd.conf.avermedia d75cfc88041907f76af5aa02aea32709 1484320195
+obj /usr/share/lirc/remotes/avermedia/lircd.conf.vdomate 9a43bf5cb46b07f36f528170a0093f9f 1484320195
+obj /usr/share/lirc/remotes/avermedia/lircd.conf.avermedia98 05326ef6e404612d55049f80372e7cb0 1484320195
+obj /usr/share/lirc/remotes/avermedia/lircmd.conf.avermedia98 75a2bf5d710ea44be6c1a93744acf6e4 1484320195
+obj /usr/share/lirc/remotes/avermedia/lircmd.conf.avermedia a1e9a1bddbbbb8b7cc9ff7fa3cc57720 1484320195
 dir /usr/share/lirc/remotes/generic
-obj /usr/share/lirc/remotes/generic/RC-5.conf 0f9b268166c29250f1abaf8d8c2a207b 1465275576
-obj /usr/share/lirc/remotes/generic/SONY20.conf 43e9d5376753c568ae2a8b15475efdd7 1465275575
-obj /usr/share/lirc/remotes/generic/RC-6.conf e11ce2957ae24973cfc21efc6c3bdbb7 1465275575
-obj /usr/share/lirc/remotes/generic/NEC-pulse.conf 8feae811faec14cd5aea083b32dda072 1465275575
-obj /usr/share/lirc/remotes/generic/SONY12.conf 8aab1583f8ba71f20b4c8ebc8af5b12a 1465275575
-obj /usr/share/lirc/remotes/generic/MOTOROLA.conf 60f5387b5c5a7b761a1fc72bbecd43a8 1465275575
-obj /usr/share/lirc/remotes/generic/NEC.conf 954c0646ce2a61101c046560aad801f2 1465275575
-obj /usr/share/lirc/remotes/generic/RCMM-32.conf a9ed485fae1865351ba6df367bac64aa 1465275575
-obj /usr/share/lirc/remotes/generic/NEC-short-pulse.conf 552735b74eee4a8c2ae5b3b0520acd56 1465275575
-obj /usr/share/lirc/remotes/generic/RECS80.conf a6635691be588640aae336213f3963d2 1465275575
-obj /usr/share/lirc/remotes/generic/DENON.conf 6f036a3f2312e8feb767b6223f36543b 1465275575
-obj /usr/share/lirc/remotes/generic/SANYO.conf 9e658881a3a8d708a2e13c867681acce 1465275575
-obj /usr/share/lirc/remotes/generic/XMP 16c3762b2effcc6df7b6ab6145f8b568 1465275575
+obj /usr/share/lirc/remotes/generic/RC-5.conf 0f9b268166c29250f1abaf8d8c2a207b 1484320196
+obj /usr/share/lirc/remotes/generic/SONY20.conf 43e9d5376753c568ae2a8b15475efdd7 1484320195
+obj /usr/share/lirc/remotes/generic/RC-6.conf e11ce2957ae24973cfc21efc6c3bdbb7 1484320195
+obj /usr/share/lirc/remotes/generic/NEC-pulse.conf 8feae811faec14cd5aea083b32dda072 1484320195
+obj /usr/share/lirc/remotes/generic/SONY12.conf 8aab1583f8ba71f20b4c8ebc8af5b12a 1484320195
+obj /usr/share/lirc/remotes/generic/MOTOROLA.conf 60f5387b5c5a7b761a1fc72bbecd43a8 1484320195
+obj /usr/share/lirc/remotes/generic/NEC.conf 954c0646ce2a61101c046560aad801f2 1484320195
+obj /usr/share/lirc/remotes/generic/RCMM-32.conf a9ed485fae1865351ba6df367bac64aa 1484320195
+obj /usr/share/lirc/remotes/generic/NEC-short-pulse.conf 552735b74eee4a8c2ae5b3b0520acd56 1484320195
+obj /usr/share/lirc/remotes/generic/RECS80.conf a6635691be588640aae336213f3963d2 1484320195
+obj /usr/share/lirc/remotes/generic/DENON.conf 6f036a3f2312e8feb767b6223f36543b 1484320195
+obj /usr/share/lirc/remotes/generic/SANYO.conf 9e658881a3a8d708a2e13c867681acce 1484320195
+obj /usr/share/lirc/remotes/generic/XMP 16c3762b2effcc6df7b6ab6145f8b568 1484320195
 dir /usr/share/lirc/remotes/leadtek
-obj /usr/share/lirc/remotes/leadtek/lircd.conf.PVR2000 5562db0bb3d66acff456b649606dd708 1465275576
-obj /usr/share/lirc/remotes/leadtek/lircmd.conf.RM-0007 ec9939994d0654e75f089dd49cb8d680 1465275576
-obj /usr/share/lirc/remotes/leadtek/lircd.conf.RM-0010 e4350a397d67b0a89a6b31340e2d98b5 1465275576
-obj /usr/share/lirc/remotes/leadtek/lircd.conf.RM-0007 89c4299e8ce59ea2655222df236281a3 1465275576
-obj /usr/share/lirc/remotes/leadtek/lircmd.conf.RM-0010 74771036e8751ade5a3e0110f4739e38 1465275576
+obj /usr/share/lirc/remotes/leadtek/lircd.conf.PVR2000 5562db0bb3d66acff456b649606dd708 1484320196
+obj /usr/share/lirc/remotes/leadtek/lircmd.conf.RM-0007 ec9939994d0654e75f089dd49cb8d680 1484320196
+obj /usr/share/lirc/remotes/leadtek/lircd.conf.RM-0010 e4350a397d67b0a89a6b31340e2d98b5 1484320196
+obj /usr/share/lirc/remotes/leadtek/lircd.conf.RM-0007 89c4299e8ce59ea2655222df236281a3 1484320196
+obj /usr/share/lirc/remotes/leadtek/lircmd.conf.RM-0010 74771036e8751ade5a3e0110f4739e38 1484320196
 dir /usr/share/lirc/remotes/iodata
-obj /usr/share/lirc/remotes/iodata/lircd.conf.gvbctv5pci a5e335c1948c1abf99f79faca804520e 1465275576
+obj /usr/share/lirc/remotes/iodata/lircd.conf.gvbctv5pci a5e335c1948c1abf99f79faca804520e 1484320196
 dir /usr/share/lirc/remotes/logitech
-obj /usr/share/lirc/remotes/logitech/lircmd.conf.logitech f495613cc470eb3479e060f4e87a31a0 1465275576
-obj /usr/share/lirc/remotes/logitech/lircd.conf.logitech b6cbecf83cfebd747e8cd15b9305e5ac 1465275576
+obj /usr/share/lirc/remotes/logitech/lircmd.conf.logitech f495613cc470eb3479e060f4e87a31a0 1484320196
+obj /usr/share/lirc/remotes/logitech/lircd.conf.logitech b6cbecf83cfebd747e8cd15b9305e5ac 1484320196
 dir /usr/share/lirc/remotes/silitek
-obj /usr/share/lirc/remotes/silitek/lircmd.conf.silitek 61f5d68be0453604682b3f2b6724bd3e 1465275576
-obj /usr/share/lirc/remotes/silitek/lircd.conf.silitek 5b5643ed5c6a8ed54e37ac9b93afd3a6 1465275576
+obj /usr/share/lirc/remotes/silitek/lircmd.conf.silitek 61f5d68be0453604682b3f2b6724bd3e 1484320196
+obj /usr/share/lirc/remotes/silitek/lircd.conf.silitek 5b5643ed5c6a8ed54e37ac9b93afd3a6 1484320196
 dir /usr/share/lirc/remotes/cph03x
-obj /usr/share/lirc/remotes/cph03x/lircd.conf.cph03x 57e21f9a72f90af734f29edef8b5724b 1465275575
+obj /usr/share/lirc/remotes/cph03x/lircd.conf.cph03x 57e21f9a72f90af734f29edef8b5724b 1484320195
 dir /usr/share/lirc/remotes/chronos
-obj /usr/share/lirc/remotes/chronos/lircd.conf.chronos f35e1fb39301d58db311be2d0d7ef2ae 1465275575
+obj /usr/share/lirc/remotes/chronos/lircd.conf.chronos f35e1fb39301d58db311be2d0d7ef2ae 1484320195
 dir /usr/share/lirc/remotes/hercules
-obj /usr/share/lirc/remotes/hercules/lircd.conf.smarttv_stereo 5d45bfdd96d00c41b7f645a8a1a43211 1465275576
+obj /usr/share/lirc/remotes/hercules/lircd.conf.smarttv_stereo 5d45bfdd96d00c41b7f645a8a1a43211 1484320196
 dir /usr/share/lirc/remotes/zotac
-obj /usr/share/lirc/remotes/zotac/lircd.conf.zotac 7e56c6b6c1830cb50fa78798c4bff2c4 1465275577
+obj /usr/share/lirc/remotes/zotac/lircd.conf.zotac 7e56c6b6c1830cb50fa78798c4bff2c4 1484320196
 dir /usr/share/lirc/remotes/creative
-obj /usr/share/lirc/remotes/creative/lircd.conf.alsa_usb 71bae245a2be4cea2bd03fdc3f5bb7ae 1465275575
-obj /usr/share/lirc/remotes/creative/lircd.conf.livedrive 9a851bc2c3187738548f8c67ee6f9178 1465275575
-obj /usr/share/lirc/remotes/creative/lircd.conf.breakoutbox 9b7b1bfde1bd5c427feff2eaedac62a0 1465275575
-obj /usr/share/lirc/remotes/creative/lircd.conf.infracd ba0c77f970e11df25bfec101e00673e5 1465275575
-obj /usr/share/lirc/remotes/creative/lircd.conf.creative 7ff28d4168e530d3e6d22fe7c351a8cd 1465275575
+obj /usr/share/lirc/remotes/creative/lircd.conf.alsa_usb 71bae245a2be4cea2bd03fdc3f5bb7ae 1484320195
+obj /usr/share/lirc/remotes/creative/lircd.conf.livedrive 9a851bc2c3187738548f8c67ee6f9178 1484320195
+obj /usr/share/lirc/remotes/creative/lircd.conf.breakoutbox 9b7b1bfde1bd5c427feff2eaedac62a0 1484320195
+obj /usr/share/lirc/remotes/creative/lircd.conf.infracd ba0c77f970e11df25bfec101e00673e5 1484320195
+obj /usr/share/lirc/remotes/creative/lircd.conf.creative 7ff28d4168e530d3e6d22fe7c351a8cd 1484320195
 dir /usr/share/lirc/remotes/awlibusb
-obj /usr/share/lirc/remotes/awlibusb/lircd.conf.awlibusb 51bfe8e21e07c3cb32a7eec754d05114 1465275575
+obj /usr/share/lirc/remotes/awlibusb/lircd.conf.awlibusb 51bfe8e21e07c3cb32a7eec754d05114 1484320195
 dir /usr/share/lirc/remotes/adaptec
-obj /usr/share/lirc/remotes/adaptec/lircd.conf.AVC-2410 f209011cd2542ac75bbd41895aef2a43 1465275575
+obj /usr/share/lirc/remotes/adaptec/lircd.conf.AVC-2410 f209011cd2542ac75bbd41895aef2a43 1484320195
 dir /usr/share/lirc/remotes/ea65
-obj /usr/share/lirc/remotes/ea65/lircd.conf.ea65 cd0e89fe333f30e05b27179ea38eccbf 1465275575
-obj /usr/share/lirc/remotes/ea65/lircrc.ea65 a4a51292d3d66137bdc3736b5d79dce1 1465275575
+obj /usr/share/lirc/remotes/ea65/lircd.conf.ea65 cd0e89fe333f30e05b27179ea38eccbf 1484320195
+obj /usr/share/lirc/remotes/ea65/lircrc.ea65 a4a51292d3d66137bdc3736b5d79dce1 1484320195
 dir /usr/share/lirc/remotes/hauppauge
-obj /usr/share/lirc/remotes/hauppauge/lircmd.conf.hauppauge 846773709d239e8fd63694aa03ad2c5a 1465275576
-obj /usr/share/lirc/remotes/hauppauge/lircd.conf.hauppauge e9bd6bf66a0d9f5a8625acfcd7817d14 1465275576
+obj /usr/share/lirc/remotes/hauppauge/lircmd.conf.hauppauge 846773709d239e8fd63694aa03ad2c5a 1484320196
+obj /usr/share/lirc/remotes/hauppauge/lircd.conf.hauppauge e9bd6bf66a0d9f5a8625acfcd7817d14 1484320196
 dir /usr/share/lirc/remotes/sasem
-obj /usr/share/lirc/remotes/sasem/lircd.conf.sasem 0241835b198144a140f2433b46c01146 1465275576
+obj /usr/share/lirc/remotes/sasem/lircd.conf.sasem 0241835b198144a140f2433b46c01146 1484320196
 dir /usr/share/lirc/remotes/technisat
-obj /usr/share/lirc/remotes/technisat/lircd.conf.mediafocusI 09b09ca92a9b0ee56b241064d6af2ba8 1465275576
+obj /usr/share/lirc/remotes/technisat/lircd.conf.mediafocusI 09b09ca92a9b0ee56b241064d6af2ba8 1484320196
 dir /usr/share/lirc/remotes/caraca
-obj /usr/share/lirc/remotes/caraca/lircd.conf.caraca f2dc29d615fb0b8ac8a42cdc30e292e1 1465275575
-obj /usr/share/lirc/remotes/caraca/lircrc.caraca 4659ae0b81de233263a218cf67eb0dc8 1465275575
+obj /usr/share/lirc/remotes/caraca/lircd.conf.caraca f2dc29d615fb0b8ac8a42cdc30e292e1 1484320195
+obj /usr/share/lirc/remotes/caraca/lircrc.caraca 4659ae0b81de233263a218cf67eb0dc8 1484320195
 dir /usr/share/lirc/remotes/streamzap
-obj /usr/share/lirc/remotes/streamzap/lircd.conf.streamzap 8b66afaa04fbcefc5966077ba735672d 1465275576
+obj /usr/share/lirc/remotes/streamzap/lircd.conf.streamzap 8b66afaa04fbcefc5966077ba735672d 1484320196
 dir /usr/share/lirc/remotes/devinput
-obj /usr/share/lirc/remotes/devinput/lircd.conf.devinput c5e103abb12f68b3a9d2e3d0f8806c31 1465275575
+obj /usr/share/lirc/remotes/devinput/lircd.conf.devinput c5e103abb12f68b3a9d2e3d0f8806c31 1484320195
 dir /usr/share/lirc/remotes/animax
-obj /usr/share/lirc/remotes/animax/lircmd.conf.animax f2349c44ba38078026e0d71163afe231 1465275575
-obj /usr/share/lirc/remotes/animax/lircd.conf.animax efa5bd431a4ad5c9e14f23081631fb5a 1465275575
+obj /usr/share/lirc/remotes/animax/lircmd.conf.animax f2349c44ba38078026e0d71163afe231 1484320195
+obj /usr/share/lirc/remotes/animax/lircd.conf.animax efa5bd431a4ad5c9e14f23081631fb5a 1484320195
 dir /usr/share/lirc/remotes/bestbuy
-obj /usr/share/lirc/remotes/bestbuy/lircmd.conf.bestbuy fa0fa3d51f306d49f6a15251fa1bd0a3 1465275575
-obj /usr/share/lirc/remotes/bestbuy/lircmd.conf.bestbuy2 c94d332a6cb0b5f7dcd2a825746a3fb0 1465275575
-obj /usr/share/lirc/remotes/bestbuy/lircd.conf.bestbuy2 dbf91d4940326a6e3737765547872059 1465275575
-obj /usr/share/lirc/remotes/bestbuy/lircd.conf.bestbuy ca05f664d9f1a77286e1798ffb1227c3 1465275575
+obj /usr/share/lirc/remotes/bestbuy/lircmd.conf.bestbuy fa0fa3d51f306d49f6a15251fa1bd0a3 1484320195
+obj /usr/share/lirc/remotes/bestbuy/lircmd.conf.bestbuy2 c94d332a6cb0b5f7dcd2a825746a3fb0 1484320195
+obj /usr/share/lirc/remotes/bestbuy/lircd.conf.bestbuy2 dbf91d4940326a6e3737765547872059 1484320195
+obj /usr/share/lirc/remotes/bestbuy/lircd.conf.bestbuy ca05f664d9f1a77286e1798ffb1227c3 1484320195
 dir /usr/share/lirc/remotes/packard_bell
-obj /usr/share/lirc/remotes/packard_bell/lircd.conf.packard_bell 64953585dd2527b8437295f1b15a3ec0 1465275576
+obj /usr/share/lirc/remotes/packard_bell/lircd.conf.packard_bell 64953585dd2527b8437295f1b15a3ec0 1484320196
 dir /usr/share/lirc/remotes/asus
-obj /usr/share/lirc/remotes/asus/lircd.conf.asusdh bd27eee42406aef0fc54fc484d1e357c 1465275575
-obj /usr/share/lirc/remotes/asus/lircd.conf.digimatrix b51db5953a3cb45a1382ebb18fdeb79e 1465275575
-obj /usr/share/lirc/remotes/asus/lircd.conf.asus 7bbf8184a80f5e0a5ac5cb90507d6702 1465275575
+obj /usr/share/lirc/remotes/asus/lircd.conf.asusdh bd27eee42406aef0fc54fc484d1e357c 1484320195
+obj /usr/share/lirc/remotes/asus/lircd.conf.digimatrix b51db5953a3cb45a1382ebb18fdeb79e 1484320195
+obj /usr/share/lirc/remotes/asus/lircd.conf.asus 7bbf8184a80f5e0a5ac5cb90507d6702 1484320195
 dir /usr/share/lirc/remotes/vlsystem
-obj /usr/share/lirc/remotes/vlsystem/lircd.conf.mplay 5db818e034df010b9200c5538dacba89 1465275577
+obj /usr/share/lirc/remotes/vlsystem/lircd.conf.mplay 5db818e034df010b9200c5538dacba89 1484320196
 dir /usr/share/lirc/remotes/tekram
-obj /usr/share/lirc/remotes/tekram/lircd.conf.m230 910f3e6216dfd114f10b64d6cbd144cb 1465275576
-obj /usr/share/lirc/remotes/tekram/lircmd.conf.m230 ea328bf3f00e3461642d26e844790e0b 1465275576
+obj /usr/share/lirc/remotes/tekram/lircd.conf.m230 910f3e6216dfd114f10b64d6cbd144cb 1484320196
+obj /usr/share/lirc/remotes/tekram/lircmd.conf.m230 ea328bf3f00e3461642d26e844790e0b 1484320196
 dir /usr/share/lirc/remotes/sigma_designs
-obj /usr/share/lirc/remotes/sigma_designs/lircd.conf.realmagic 996e11277455e80275266bc0bde0f5db 1465275576
+obj /usr/share/lirc/remotes/sigma_designs/lircd.conf.realmagic 996e11277455e80275266bc0bde0f5db 1484320196
 dir /usr/share/lirc/remotes/dvico
-obj /usr/share/lirc/remotes/dvico/lircd.conf.fusionHDTV bd2f898fa49e2d8cf17eaf87a5c2d12e 1465275575
+obj /usr/share/lirc/remotes/dvico/lircd.conf.fusionHDTV bd2f898fa49e2d8cf17eaf87a5c2d12e 1484320195
 dir /usr/share/lirc/remotes/samsung
-obj /usr/share/lirc/remotes/samsung/lircd.conf.samsung fa02e114180a60e3f12ea97d844be8a0 1465275576
+obj /usr/share/lirc/remotes/samsung/lircd.conf.samsung fa02e114180a60e3f12ea97d844be8a0 1484320196
 dir /usr/share/lirc/remotes/kworld
-obj /usr/share/lirc/remotes/kworld/lircd.conf.kworld e411634ee61df9016c6aa7af933d4dc7 1465275576
+obj /usr/share/lirc/remotes/kworld/lircd.conf.kworld e411634ee61df9016c6aa7af933d4dc7 1484320196
 dir /usr/share/lirc/remotes/remotec
-obj /usr/share/lirc/remotes/remotec/lircmd.conf.BW6130 22fbc8fbe705f5eb8577c387d9df6c02 1465275576
-obj /usr/share/lirc/remotes/remotec/lircd.conf.BW6130 923a589d3b714b48eed032809e7a9c38 1465275576
+obj /usr/share/lirc/remotes/remotec/lircmd.conf.BW6130 22fbc8fbe705f5eb8577c387d9df6c02 1484320196
+obj /usr/share/lirc/remotes/remotec/lircd.conf.BW6130 923a589d3b714b48eed032809e7a9c38 1484320196
 dir /usr/share/lirc/remotes/philips
-obj /usr/share/lirc/remotes/philips/lircd.conf.srm7500libusb 526b00dba1c99631e9436ccbb168ca96 1465275576
+obj /usr/share/lirc/remotes/philips/lircd.conf.srm7500libusb 526b00dba1c99631e9436ccbb168ca96 1484320196
 dir /usr/share/lirc/remotes/pcmak
-obj /usr/share/lirc/remotes/pcmak/lircmd.conf.pcmak 9aebd0b848a443b4d8e96c3d3c2cc3fa 1465275576
-obj /usr/share/lirc/remotes/pcmak/lircd.conf.pcmak 9af37e2d51d61936c7020bebb2d81c1d 1465275576
-obj /usr/share/lirc/remotes/pcmak/lircrc.pcmak b336efa0fa15f784f5cfa67642a86228 1465275576
+obj /usr/share/lirc/remotes/pcmak/lircmd.conf.pcmak 9aebd0b848a443b4d8e96c3d3c2cc3fa 1484320196
+obj /usr/share/lirc/remotes/pcmak/lircd.conf.pcmak 9af37e2d51d61936c7020bebb2d81c1d 1484320196
+obj /usr/share/lirc/remotes/pcmak/lircrc.pcmak b336efa0fa15f784f5cfa67642a86228 1484320196
 dir /usr/share/lirc/remotes/atiusb
-obj /usr/share/lirc/remotes/atiusb/lircd.conf.atilibusb 1441a7c7e776ba72e6c890785f082341 1465275575
-obj /usr/share/lirc/remotes/atiusb/lircd.conf.atiusb bfadb177f864cb7af2324b34ef9bf436 1465275575
+obj /usr/share/lirc/remotes/atiusb/lircd.conf.atilibusb 1441a7c7e776ba72e6c890785f082341 1484320195
+obj /usr/share/lirc/remotes/atiusb/lircd.conf.atiusb bfadb177f864cb7af2324b34ef9bf436 1484320195
 dir /usr/share/lirc/remotes/knc_one
-obj /usr/share/lirc/remotes/knc_one/lircd.conf.knc_one 01cfe8cc822e4e68867ad1d10c775517 1465275576
+obj /usr/share/lirc/remotes/knc_one/lircd.conf.knc_one 01cfe8cc822e4e68867ad1d10c775517 1484320196
 dir /usr/share/lirc/remotes/pinnacle_systems
-obj /usr/share/lirc/remotes/pinnacle_systems/lircd.conf.pctv da385bad87604e23b3bae1a6df65780a 1465275576
+obj /usr/share/lirc/remotes/pinnacle_systems/lircd.conf.pctv da385bad87604e23b3bae1a6df65780a 1484320196
 dir /usr/share/lirc/remotes/ericsson
-obj /usr/share/lirc/remotes/ericsson/lircd.conf.bte 44eb069625f5e71033de32d3ab5e334f 1465275575
+obj /usr/share/lirc/remotes/ericsson/lircd.conf.bte 44eb069625f5e71033de32d3ab5e334f 1484320195
 dir /usr/share/lirc/remotes/apple
-obj /usr/share/lirc/remotes/apple/lircd.conf.macmini 406930833512b5984b5c16bdfd80f627 1465275575
+obj /usr/share/lirc/remotes/apple/lircd.conf.macmini 406930833512b5984b5c16bdfd80f627 1484320195
 dir /usr/share/lirc/remotes/life-view
-obj /usr/share/lirc/remotes/life-view/lircmd.conf.flyvideo db2f1375e064f7440916bc3159d51ebe 1465275576
-obj /usr/share/lirc/remotes/life-view/lircrc.flyvideo c019e312cdd8305eab1fbb2451c8f5e3 1465275576
-obj /usr/share/lirc/remotes/life-view/lircd.conf.flyvideo cf828a4c3cf551fea9766758862a9413 1465275576
-sym /usr/lib64/liblirc_client.so.0 -> liblirc_client.so.0.2.1 1465275579
+obj /usr/share/lirc/remotes/life-view/lircmd.conf.flyvideo db2f1375e064f7440916bc3159d51ebe 1484320196
+obj /usr/share/lirc/remotes/life-view/lircrc.flyvideo c019e312cdd8305eab1fbb2451c8f5e3 1484320196
+obj /usr/share/lirc/remotes/life-view/lircd.conf.flyvideo cf828a4c3cf551fea9766758862a9413 1484320196

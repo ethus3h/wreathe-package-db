@@ -7,57 +7,93 @@ dir /etc/texmf/dvipdfm
 dir /etc/texmf/dvipdfm/config
 dir /etc/texmf/dvips.d
 dir /etc/texmf/updmap.d
-obj /etc/texmf/updmap.d/texlive-pictures.cfg 7d08cb8ade87687bd8676f8e8ba20697 1465673119
+obj /etc/texmf/updmap.d/texlive-pictures.cfg 7d08cb8ade87687bd8676f8e8ba20697 1484329674
 dir /usr
 dir /usr/bin
+sym /usr/bin/mkpic -> ../share/texmf-dist/scripts/mkpic/mkpic 1484329690
+sym /usr/bin/fig4latex -> ../share/texmf-dist/scripts/fig4latex/fig4latex 1484329690
+sym /usr/bin/cachepic -> ../share/texmf-dist/scripts/cachepic/cachepic.tlu 1484329690
+sym /usr/bin/mathspic -> ../share/texmf-dist/scripts/mathspic/mathspic.pl 1484329690
 dir /usr/share
 dir /usr/share/tlpkg
 dir /usr/share/tlpkg/tlpobj
+obj /usr/share/tlpkg/tlpobj/knittingpattern.doc.tlpobj 445b431041025f65500f1dc62aad74f0 1397783177
 obj /usr/share/tlpkg/tlpobj/tkz-fct.tlpobj 77212767d54a424c3b72c118255a4d13 1397785797
+obj /usr/share/tlpkg/tlpobj/randomwalk.doc.tlpobj 028ab5f8b503205cfcba0c61852c285a 1397785256
 obj /usr/share/tlpkg/tlpobj/grafcet.tlpobj 905b90dda46da44ce0279f66cc1aa213 1397782733
 obj /usr/share/tlpkg/tlpobj/getmap.tlpobj a0c105fc3629f27dbd3a45afb6910a60 1411262513
+obj /usr/share/tlpkg/tlpobj/tkz-kiviat.doc.tlpobj 4a1b14d6ef4c4ea0ca204076dcf43b9b 1397785798
 obj /usr/share/tlpkg/tlpobj/tikzinclude.source.tlpobj 758664e6b5008e6f907f7c56a6164861 1397785771
+obj /usr/share/tlpkg/tlpobj/prerex.doc.tlpobj d4b17d992af75120a0192612c74766f4 1398302663
+obj /usr/share/tlpkg/tlpobj/graphviz.doc.tlpobj ae58a96b7043f5b7ed120c891a06c0c6 1397782736
 obj /usr/share/tlpkg/tlpobj/flowchart.source.tlpobj 8e97e1da7b51a9bf8c3bb79ca499aa1c 1397782496
 obj /usr/share/tlpkg/tlpobj/tqft.source.tlpobj 6b1a70b6b69c04c652bebf42379fa78a 1397785918
+obj /usr/share/tlpkg/tlpobj/qcircuit.doc.tlpobj 9ba6cb052bbd1b0ba8c20512a5691e50 1406251442
 obj /usr/share/tlpkg/tlpobj/tikzsymbols.tlpobj 580ebcb7ff676d203ec1f28c24342f83 1397785776
+obj /usr/share/tlpkg/tlpobj/lpic.doc.tlpobj 74b3be2811e2709ec18d78492b584d51 1397783636
 obj /usr/share/tlpkg/tlpobj/pgf-umlcd.tlpobj ea1df9be490a8a6ab4f922948f000eb1 1397784793
 obj /usr/share/tlpkg/tlpobj/modiagram.tlpobj 19da437b38db6ec4234ca0ae6478df4d 1404183049
 obj /usr/share/tlpkg/tlpobj/combinedgraphics.source.tlpobj fba9b6470f9204b93b549eec756838ad 1397781800
 obj /usr/share/tlpkg/tlpobj/asyfig.source.tlpobj c86e4c834b070aee5525418f4d4dad96 1397780457
+obj /usr/share/tlpkg/tlpobj/esk.doc.tlpobj 4d433784b5ff80d8313280651b24b46f 1397782334
 obj /usr/share/tlpkg/tlpobj/tkz-euclide.tlpobj cdb1d6eac71644b08fd35c5df810314e 1397785796
 obj /usr/share/tlpkg/tlpobj/bloques.tlpobj 963a5deb109a10289e5e7bac4bb7cb9c 1397781412
+obj /usr/share/tlpkg/tlpobj/tikzpagenodes.doc.tlpobj 30ccec0b301f2016fcefb6243b75c30a 1397785772
 obj /usr/share/tlpkg/tlpobj/tikz-dependency.tlpobj 4fb98d18749a848ab9745de4620935d7 1397785770
+obj /usr/share/tlpkg/tlpobj/epspdfconversion.doc.tlpobj 3b02ff7b071edca2b4c617d3cfc09d70 1397782326
 obj /usr/share/tlpkg/tlpobj/curve2e.tlpobj c7b5f8c9074e12c1fa3021e0a85779d1 1397781959
+obj /usr/share/tlpkg/tlpobj/texdraw.doc.tlpobj 5910579c828bb2f206b97a6de38cc6e2 1397785625
+obj /usr/share/tlpkg/tlpobj/pict2e.doc.tlpobj eacb6bf6182997e72ae18c5f88a31497 1397784818
+obj /usr/share/tlpkg/tlpobj/pgfplots.doc.tlpobj f15bfc907b0e5f2f7853dab37e01cbaa 1407374744
 obj /usr/share/tlpkg/tlpobj/picinpar.tlpobj a75a9b836c7bb7f905b312f2cedf5427 1397784817
+obj /usr/share/tlpkg/tlpobj/tufte-latex.doc.tlpobj 63eb413cca35e9776065c3bca09947f8 1397785960
 obj /usr/share/tlpkg/tlpobj/randomwalk.tlpobj cd39afe1a83b611c0aa3d32bcd0ce2c7 1397785257
 obj /usr/share/tlpkg/tlpobj/productbox.tlpobj 529db1d0f9f9b5050467a95a277b85b1 1397784930
 obj /usr/share/tlpkg/tlpobj/hvfloat.tlpobj bdcfe5695e02f671cbfd4ee22989fd22 1397782777
+obj /usr/share/tlpkg/tlpobj/tikzscale.doc.tlpobj 4b758ed6e47d1d9933abcb451fe7e3b8 1397785774
 obj /usr/share/tlpkg/tlpobj/doc-pictex.tlpobj 479c491fb1003068e7fcf3267113c3ae 1397782047
 obj /usr/share/tlpkg/tlpobj/xpicture.tlpobj 8d8ef3a2ffe86846a36e57723d52e091 1397787051
 obj /usr/share/tlpkg/tlpobj/graphviz.tlpobj cc8563ade8e044daffb7d5db9a509478 1397782737
+obj /usr/share/tlpkg/tlpobj/askmaps.doc.tlpobj f6b381f3205dc5cb62d9f0b62c063750 1397780453
+obj /usr/share/tlpkg/tlpobj/piano.doc.tlpobj 28d5fb6de5e7186b38fd5f441655d27a 1397784817
+obj /usr/share/tlpkg/tlpobj/here.doc.tlpobj 8ac867a7da44e05b57e937791a4309e4 1397782759
+obj /usr/share/tlpkg/tlpobj/curve.doc.tlpobj 20683ea62c291da5bf48aaaa6571021c 1397781958
 obj /usr/share/tlpkg/tlpobj/pict2e.tlpobj 601dd23883072af0a7975a9c459eddec 1397784818
 obj /usr/share/tlpkg/tlpobj/gradientframe.tlpobj d8e448cafb9b098a2b28a98f4a8d55cb 1397782732
+obj /usr/share/tlpkg/tlpobj/duotenzor.doc.tlpobj 3a0c777c40658ca0c8e17d03ca601e19 1397782075
 obj /usr/share/tlpkg/tlpobj/tikzinclude.tlpobj b8b709f126709a897526ab020d4ae24c 1397785772
 obj /usr/share/tlpkg/tlpobj/esk.tlpobj a30cdcc59453bfc35bb7a380140c2cd4 1397782335
 obj /usr/share/tlpkg/tlpobj/curve.source.tlpobj adf9a74f962524dcb65021978babc65b 1397781958
 obj /usr/share/tlpkg/tlpobj/tkz-linknodes.tlpobj 9c3d58b7a951ae195e2a522a0af65a45 1397785798
 obj /usr/share/tlpkg/tlpobj/pgfmolbio.tlpobj 265937da5ab9dfc35371da99aa431875 1410484890
+obj /usr/share/tlpkg/tlpobj/combinedgraphics.doc.tlpobj a6f3530cfcb8771c38375bae8d5af11f 1397781800
 obj /usr/share/tlpkg/tlpobj/diagmac2.tlpobj 78fe7c6664df807074574804f45ee47f 1397782029
 obj /usr/share/tlpkg/tlpobj/tufte-latex.source.tlpobj ed9c24dc94bc2a94532770b41fcce1c6 1397785960
 obj /usr/share/tlpkg/tlpobj/xpicture.source.tlpobj 806ed698ebea5ed28fdd9006b3013f92 1397787050
 obj /usr/share/tlpkg/tlpobj/forest.source.tlpobj df9d1a50e1d4b2f67e817ce4dac8b176 1397782578
+obj /usr/share/tlpkg/tlpobj/petri-nets.doc.tlpobj ba2ab07b5951983e8490c254868a0f4a 1397784768
 obj /usr/share/tlpkg/tlpobj/epspdfconversion.tlpobj ee7be39caeb09c686765345b3cdfb42d 1397782326
+obj /usr/share/tlpkg/tlpobj/gincltex.doc.tlpobj 9a5aba4554bf3ffea2f22b5abf287dcc 1397782636
 obj /usr/share/tlpkg/tlpobj/pictex.tlpobj 6fca0ce839188d15a6dd38e31413fd55 1397784819
+obj /usr/share/tlpkg/tlpobj/bondgraph.doc.tlpobj c3e97eb145b4b5ecd10e7e4525d21912 1397781420
 obj /usr/share/tlpkg/tlpobj/tikz-timing.tlpobj b9463aedb6ced128c6f3bc99ab35108e 1397785771
 obj /usr/share/tlpkg/tlpobj/gradientframe.source.tlpobj ec9116f2c48f29f06d8b414f58360249 1397782732
+obj /usr/share/tlpkg/tlpobj/tkz-graph.doc.tlpobj 04c351ad160d0c2ca90fc134ced6251e 1397785797
 obj /usr/share/tlpkg/tlpobj/bxeepic.tlpobj b25d84f78c0a961a6163cda72a7840bf 1397781440
 obj /usr/share/tlpkg/tlpobj/prerex.tlpobj 99fbaf2e654772894f7be36f47b26984 1398302664
+obj /usr/share/tlpkg/tlpobj/fig4latex.doc.tlpobj 2e9aa323a90f9922f540992cc5cc9931 1397782471
 obj /usr/share/tlpkg/tlpobj/tqft.tlpobj b97b0957f5603d696a6fb631a2569da0 1397785919
+obj /usr/share/tlpkg/tlpobj/knitting.doc.tlpobj 0e264022aa06427c83602c1dacf49816 1397783175
 obj /usr/share/tlpkg/tlpobj/celtic.source.tlpobj ef82e8262ba679e69377a6db5e7c1b12 1405905876
 obj /usr/share/tlpkg/tlpobj/mathspic.tlpobj bb3165fa3de94f7c1ccedec3853560ec 1397784077
 obj /usr/share/tlpkg/tlpobj/numericplots.tlpobj d8bee587c99a538414c92d23fb6f82ce 1397784474
+obj /usr/share/tlpkg/tlpobj/qrcode.doc.tlpobj 2c4e74c8a062ec090bdc693b39e6d712 1411780967
 obj /usr/share/tlpkg/tlpobj/dcpic.tlpobj 291cdca9557312481cb98ecf62929180 1397781986
+obj /usr/share/tlpkg/tlpobj/bxeepic.doc.tlpobj 9e3adeda6622a44c90a0a1e8645b8e03 1397781440
+obj /usr/share/tlpkg/tlpobj/braids.doc.tlpobj cb6fe347cab18a40ceaffa4d2ce80ff0 1397781434
+obj /usr/share/tlpkg/tlpobj/fast-diagram.doc.tlpobj b0df11bba9b2ef216b06d9a204b3a103 1397782419
 obj /usr/share/tlpkg/tlpobj/curves.source.tlpobj be3ba369ff48821357e992f1a67a1707 1397781959
+obj /usr/share/tlpkg/tlpobj/tkz-euclide.doc.tlpobj b9b9809e83dea88ddbf66d0caef4c290 1397785795
 obj /usr/share/tlpkg/tlpobj/tikzposter.source.tlpobj 83156d61fd61213e328bb6142ae930bc 1397785773
 obj /usr/share/tlpkg/tlpobj/tikzmark.tlpobj 07f664464c5c5652bf31998ea7a97095 1397785772
 obj /usr/share/tlpkg/tlpobj/tikzorbital.tlpobj 67a506843d87ed1d0eaf97646bfd5474 1397785772
@@ -67,7 +103,9 @@ obj /usr/share/tlpkg/tlpobj/pgfmolbio.source.tlpobj cb12933343a79c10b17fbe066d65
 obj /usr/share/tlpkg/tlpobj/tikzsymbols.source.tlpobj 9183daf175050d5fe9308a16c55441d8 1397785775
 obj /usr/share/tlpkg/tlpobj/flowchart.tlpobj 8e60ee64add4397d7013da0b9a03ec1f 1397782497
 obj /usr/share/tlpkg/tlpobj/pgfopts.source.tlpobj 7443e76dfed5b4d54f7e8ad1d10118a7 1405128222
+obj /usr/share/tlpkg/tlpobj/picinpar.doc.tlpobj 3f3fe4e83ebf7c63a9220b4acbbad24f 1397784817
 obj /usr/share/tlpkg/tlpobj/hobby.source.tlpobj 84e6400df2236ec9178bc9ba9fd88a56 1408325014
+obj /usr/share/tlpkg/tlpobj/neuralnetwork.doc.tlpobj ceb0766807927efacb6cd8b3510ab9f9 1397784442
 obj /usr/share/tlpkg/tlpobj/pgf-blur.tlpobj c565d49d8ee4f1c36b85c5070fb3462d 1397784792
 obj /usr/share/tlpkg/tlpobj/spath3.source.tlpobj b2fa11b7cb19ea375371bf7fa5728d59 1397785397
 obj /usr/share/tlpkg/tlpobj/timing-diagrams.tlpobj f69c9d4ace175c9f026fef3189b3dcc2 1397785779
@@ -77,112 +115,199 @@ obj /usr/share/tlpkg/tlpobj/hf-tikz.source.tlpobj ad78098d11fbdf37b59eb351272652
 obj /usr/share/tlpkg/tlpobj/tikzscale.source.tlpobj b832ff68fc552bd2b4b747dd89d29f3d 1397785774
 obj /usr/share/tlpkg/tlpobj/circuitikz.tlpobj 10f53dc98f0112ebf38a3bbed765b5bf 1397781603
 obj /usr/share/tlpkg/tlpobj/randbild.tlpobj 64ee4fd00298e2736dee2703466281b3 1397785256
+obj /usr/share/tlpkg/tlpobj/pgf-soroban.doc.tlpobj 758f9db53fe40c2923fb91bec65c03c6 1397784792
 obj /usr/share/tlpkg/tlpobj/mkpic.tlpobj c0a346d3641bd83a385bc42fa51e49dc 1398648327
 obj /usr/share/tlpkg/tlpobj/productbox.source.tlpobj b85de9c4998f1ec55d5c0237c5640a2d 1397784930
 obj /usr/share/tlpkg/tlpobj/drs.tlpobj 071020437e20ae2a05a657019ab28bfc 1397782068
+obj /usr/share/tlpkg/tlpobj/dottex.doc.tlpobj df790c640f497f76324ffa911b5663ef 1397782050
+obj /usr/share/tlpkg/tlpobj/hvfloat.doc.tlpobj d81e878d378ea4d700dc658455b07723 1397782777
 obj /usr/share/tlpkg/tlpobj/tikzpagenodes.tlpobj 4d65d7bcc87d77191e01839947ae4f4c 1397785773
+obj /usr/share/tlpkg/tlpobj/schemabloc.doc.tlpobj fa90ca8751b33a09a1d4c7aa5468a857 1397785314
+obj /usr/share/tlpkg/tlpobj/tqft.doc.tlpobj ed1d43a89f5c2f00951b02eebae78155 1397785919
 obj /usr/share/tlpkg/tlpobj/duotenzor.tlpobj a598aea4b7acf1bc2738cbc8e528b8c8 1397782076
+obj /usr/share/tlpkg/tlpobj/tikz-inet.doc.tlpobj 846f1f1a58b54dcc49a363b8d87d7d16 1397785770
 obj /usr/share/tlpkg/tlpobj/smartdiagram.source.tlpobj 23ff745829d600fe8d2cbad7c2398885 1397785377
 obj /usr/share/tlpkg/tlpobj/venndiagram.source.tlpobj e2fdcd6d9fbe84f381eb091011c39e93 1397786183
+obj /usr/share/tlpkg/tlpobj/bloques.doc.tlpobj bc2698a4848cd9944a93f59d991f41a7 1397781412
 obj /usr/share/tlpkg/tlpobj/pb-diagram.tlpobj 90031c38f2dcd35bd823f7ca0c89b5bf 1397784641
+obj /usr/share/tlpkg/tlpobj/tikz-opm.doc.tlpobj c6126899cdac5f065abbbc01ae5df5e9 1397785770
+obj /usr/share/tlpkg/tlpobj/swimgraf.doc.tlpobj 851c5ba33c498ad751ccfcd4c42b1aab 1397785461
+obj /usr/share/tlpkg/tlpobj/blox.doc.tlpobj 3cc9a36ca27acb002b6d8c7af4a43854 1408756871
 obj /usr/share/tlpkg/tlpobj/pmgraph.tlpobj 70857752b63861f0837440dceef6447b 1397784840
+obj /usr/share/tlpkg/tlpobj/autoarea.doc.tlpobj b6552f0def569ce2e02a38169e2e9a50 1397780641
 obj /usr/share/tlpkg/tlpobj/neuralnetwork.tlpobj 58db679de48a5ec27cf6b0c0084c5322 1397784443
+obj /usr/share/tlpkg/tlpobj/grafcet.doc.tlpobj 775a490a0c91ca1d7fd717255d2507c8 1397782732
+obj /usr/share/tlpkg/tlpobj/pictex.doc.tlpobj 9cb8ed62321b7a47a0f11a44ce487fb3 1397784819
+obj /usr/share/tlpkg/tlpobj/timing-diagrams.doc.tlpobj 0f9d5bb6bc191c821746744335703b30 1397785778
 obj /usr/share/tlpkg/tlpobj/smartdiagram.tlpobj 0f247cac1427d68401454b119da426f2 1397785378
 obj /usr/share/tlpkg/tlpobj/braids.tlpobj 4e4eded3942a6c1f7834a49519aaca79 1397781434
 obj /usr/share/tlpkg/tlpobj/qcircuit.tlpobj 94e08dff29c0454677c6336a5c9229d7 1406251442
 obj /usr/share/tlpkg/tlpobj/tikz-cd.tlpobj 922fe0fdb17b940a0b6797d249ea0727 1397785768
 obj /usr/share/tlpkg/tlpobj/miniplot.tlpobj cc4d9a5b675caecd92f0134b00c76e5f 1397784226
 obj /usr/share/tlpkg/tlpobj/pgfplots.tlpobj 762959147c3a6c28ac095fea33156055 1407374755
+obj /usr/share/tlpkg/tlpobj/tkz-orm.doc.tlpobj f8f5fd955f79924fcf2c329b259aa005 1397785799
+obj /usr/share/tlpkg/tlpobj/pinlabel.doc.tlpobj b874b7171c19fe463315213972bcebc4 1397784821
 obj /usr/share/tlpkg/tlpobj/collection-pictures.tlpobj 5097be256d8544b80f7778c275b37a67 1411780942
 obj /usr/share/tlpkg/tlpobj/pictex2.tlpobj a8e2b0e97102a1d2fc2b9c0ef9e153bb 1397784819
 obj /usr/share/tlpkg/tlpobj/tikzposter.tlpobj 78fc45daf0173fcf5a5261d607b66858 1397785774
 obj /usr/share/tlpkg/tlpobj/dratex.tlpobj c91b76034a5673b433a233016066f09c 1397782057
 obj /usr/share/tlpkg/tlpobj/tufte-latex.tlpobj 841f48bc3c36caa76c52337d01dab446 1397785961
 obj /usr/share/tlpkg/tlpobj/tkz-tab.tlpobj 9565794dffd682229b59b8ab689b9967 1397785800
+obj /usr/share/tlpkg/tlpobj/tkz-fct.doc.tlpobj 45f994a3c1cc8e189c15f10055ce024c 1397785796
+obj /usr/share/tlpkg/tlpobj/pgfmolbio.doc.tlpobj e278c2c42c57d94864ad1142a6602cb1 1410484889
+obj /usr/share/tlpkg/tlpobj/venndiagram.doc.tlpobj 3732661dcd2a14fef64397513f605c8e 1397786183
 obj /usr/share/tlpkg/tlpobj/eepic.tlpobj 0f6849b9918e94d887086ebbbc0353c3 1397782275
 obj /usr/share/tlpkg/tlpobj/tikz-timing.source.tlpobj 2e1fc79d59b31aeaf8377cc193329b20 1397785770
+obj /usr/share/tlpkg/tlpobj/sa-tikz.doc.tlpobj 95d04f11e511c0b9a6f4a3827016f52e 1397785297
+obj /usr/share/tlpkg/tlpobj/reotex.doc.tlpobj 0a0f17ad87429b975cd2fe0020d900dc 1407979535
 obj /usr/share/tlpkg/tlpobj/lapdf.tlpobj 094657c9c8dd14a195f09110a5f7e6f5 1397783292
 obj /usr/share/tlpkg/tlpobj/fig4latex.tlpobj 875f9c4b7ba99b0a993080a540c15930 1397782471
+obj /usr/share/tlpkg/tlpobj/tikz-cd.doc.tlpobj 805beb102e170bbcd872a89e556326f9 1397785768
 obj /usr/share/tlpkg/tlpobj/fast-diagram.tlpobj 65b5b2a02d1bb52f72b78efa9fd47d57 1397782421
 obj /usr/share/tlpkg/tlpobj/bodegraph.tlpobj ebe36dea2e549f869aa3659c098d18f1 1397781413
 obj /usr/share/tlpkg/tlpobj/bondgraph.tlpobj c55981fff07fedc1e93eb33818a297e5 1397781420
 obj /usr/share/tlpkg/tlpobj/askmaps.tlpobj c07d60832098648704bbb52405896823 1397780453
 obj /usr/share/tlpkg/tlpobj/tikz-inet.tlpobj e5407702301ca44200a13de60386f9d8 1397785770
 obj /usr/share/tlpkg/tlpobj/pgfgantt.source.tlpobj 34fc6e07aa31d6fdc29f0492ec816060 1397784793
+obj /usr/share/tlpkg/tlpobj/tikzmark.doc.tlpobj 2c9e36b6685533c20b37864232f1156b 1397785772
 obj /usr/share/tlpkg/tlpobj/esk.source.tlpobj d7171507182aba60b6ac35af871aae42 1397782334
 obj /usr/share/tlpkg/tlpobj/aobs-tikz.source.tlpobj 8080c48ce4635019b252ee808539b219 1397780354
 obj /usr/share/tlpkg/tlpobj/pxpgfmark.tlpobj e8cc46e0bf697e8039414db8be9b0b88 1397785232
 obj /usr/share/tlpkg/tlpobj/knittingpattern.tlpobj 6b9cd942c840630added8879f5a5c0ca 1397783177
 obj /usr/share/tlpkg/tlpobj/tikzpfeile.source.tlpobj 01b420b2b5f525dc18e0a091f11f67a1 1397785773
 obj /usr/share/tlpkg/tlpobj/tikz-qtree.tlpobj 3dea07acce4332519203263602ee2630 1397785770
+obj /usr/share/tlpkg/tlpobj/tkz-base.doc.tlpobj 128b242f66156735f4af9a8e93fb5284 1397785792
+obj /usr/share/tlpkg/tlpobj/tikz-bayesnet.doc.tlpobj 6ebbddda13fc4b447185ee64bfc437d2 1397785768
 obj /usr/share/tlpkg/tlpobj/randomwalk.source.tlpobj 4468cbe4e324e07c2fd69e5c852d225c 1397785256
+obj /usr/share/tlpkg/tlpobj/dcpic.doc.tlpobj 2e74eb7ff702023d0bf89b4b4e64f724 1397781985
+obj /usr/share/tlpkg/tlpobj/setdeck.doc.tlpobj 750a6f65480fde094806d8a7d19e0e03 1397785340
+obj /usr/share/tlpkg/tlpobj/pgf-blur.doc.tlpobj 4a010c16fc0991cc72e439a35447eb01 1397784791
+obj /usr/share/tlpkg/tlpobj/mkpic.doc.tlpobj 0ef8412d357c33c76605a85dd7381282 1398648327
 obj /usr/share/tlpkg/tlpobj/here.tlpobj d6205cdbe1edefc31777f4b9bb30059d 1397782759
 obj /usr/share/tlpkg/tlpobj/tkz-doc.tlpobj b9b2f7d4cce09171246dd366656d9468 1397785795
 obj /usr/share/tlpkg/tlpobj/tkz-base.tlpobj b8389a8d3c8069fc9fb53a571960fa9c 1397785792
+obj /usr/share/tlpkg/tlpobj/numericplots.doc.tlpobj bd3a0fbae665034c107f31e67e297b08 1397784472
 obj /usr/share/tlpkg/tlpobj/schemabloc.tlpobj de108a42ae008475c68224fc8fbe29da 1397785315
 obj /usr/share/tlpkg/tlpobj/curve.tlpobj a91c4eb526f39905b15e735cea209a6d 1397781959
+obj /usr/share/tlpkg/tlpobj/xpicture.doc.tlpobj b0fee9a31118800177e3db99faecd31a 1397787050
 obj /usr/share/tlpkg/tlpobj/braids.source.tlpobj d3ef138297984844d275cff4e713271d 1397781434
 obj /usr/share/tlpkg/tlpobj/gnuplottex.source.tlpobj 5b518573ce880cd9e161d324a4470971 1397782726
+obj /usr/share/tlpkg/tlpobj/smartdiagram.doc.tlpobj 45a73e68bca53754a3897836ef1944cd 1397785378
 obj /usr/share/tlpkg/tlpobj/tsemlines.tlpobj 0185c66436bc15a9b1b8971d4121660b 1397785930
 obj /usr/share/tlpkg/tlpobj/rviewport.tlpobj ea906713a79c2a38f7eff3fda3b93e9a 1397785296
+obj /usr/share/tlpkg/tlpobj/tkz-tab.doc.tlpobj a8fff7d73e8653b6e6d6bedce8d99e89 1397785799
+obj /usr/share/tlpkg/tlpobj/harveyballs.doc.tlpobj 67202ea8eac66cfd1d53c2b57c2f34f4 1397782753
+obj /usr/share/tlpkg/tlpobj/gradientframe.doc.tlpobj 51f949020431f97b57f14057912b91c7 1397782732
+obj /usr/share/tlpkg/tlpobj/pgfkeyx.doc.tlpobj 0afb441fc0cb0843312b24c3e098aae4 1397784794
+obj /usr/share/tlpkg/tlpobj/tikzinclude.doc.tlpobj 4d26fdae2d522d47e1f96bfad2859c2d 1397785771
 obj /usr/share/tlpkg/tlpobj/makeshape.tlpobj 1349e683588b1f88fccb7f1b6920b8f9 1397784044
 obj /usr/share/tlpkg/tlpobj/tkz-graph.tlpobj 12c637ce09dc29309feed4faf0799617 1397785798
+obj /usr/share/tlpkg/tlpobj/aobs-tikz.doc.tlpobj 688e5aea0284da7a1e7fd063fdd66937 1397780354
 obj /usr/share/tlpkg/tlpobj/harveyballs.tlpobj 14fd39fc54bbfee2c3fdfeb6eab63194 1397782753
 obj /usr/share/tlpkg/tlpobj/tikzpagenodes.source.tlpobj 6c314ed0c1c4840a5a399c4d91357120 1397785772
+obj /usr/share/tlpkg/tlpobj/pgfgantt.doc.tlpobj 549c15ec9a21543effb7a871f84ab75b 1397784793
 obj /usr/share/tlpkg/tlpobj/setdeck.tlpobj 205dce313398d2965dba0c8017b68e67 1397785340
 obj /usr/share/tlpkg/tlpobj/blox.source.tlpobj 74e0db94011a6a450f180521cf2265df 1408756871
 obj /usr/share/tlpkg/tlpobj/asypictureb.tlpobj 8b664551ca631efc9d652a2081334b5c 1397780635
+obj /usr/share/tlpkg/tlpobj/flowchart.doc.tlpobj 3d47e471f51c143337929bc0370f58f7 1397782496
+obj /usr/share/tlpkg/tlpobj/bodegraph.doc.tlpobj 90f2f3bf9eb5213be7176a3305f8ccd8 1397781413
 obj /usr/share/tlpkg/tlpobj/dottex.tlpobj 40da39348f73eb27b1d934ca42e8c2d9 1397782050
+obj /usr/share/tlpkg/tlpobj/circuitikz.doc.tlpobj a989849f1d3403f43db709f89a4fff32 1397781602
 obj /usr/share/tlpkg/tlpobj/bardiag.tlpobj 2e81fabcfac1c81fa4c465b5f6a7b2ae 1397780680
 obj /usr/share/tlpkg/tlpobj/pgf-umlsd.tlpobj 1b095f9887516b5e02ccdaea0f11ebab 1397784793
 obj /usr/share/tlpkg/tlpobj/piano.tlpobj be182f7afe54fdefd41447b708da0a9e 1397784817
+obj /usr/share/tlpkg/tlpobj/getmap.doc.tlpobj 413c5cdbab29dea0daedf6217c12e005 1411262510
 obj /usr/share/tlpkg/tlpobj/tkz-berge.tlpobj c53c84d54fb2578773f95f52103a4118 1397785795
+obj /usr/share/tlpkg/tlpobj/drs.doc.tlpobj 4afd6953ab668ebed1995c93f7f234d9 1397782068
+obj /usr/share/tlpkg/tlpobj/asypictureb.doc.tlpobj 3e96ece5d2b6539a1dc2a668401a3c79 1397780634
 obj /usr/share/tlpkg/tlpobj/rviewport.source.tlpobj 592e09bfe167febc1fcd08056c79e720 1397785296
 obj /usr/share/tlpkg/tlpobj/tikz-opm.tlpobj 98a23cee06de4f6bf77fa53421c6f707 1397785770
+obj /usr/share/tlpkg/tlpobj/tikz-dependency.doc.tlpobj 88e70fdd52656fc06fc646fe101a17a3 1397785769
+obj /usr/share/tlpkg/tlpobj/tkz-berge.doc.tlpobj 6de56210a19dac1fa305e11fbccb5e18 1397785793
+obj /usr/share/tlpkg/tlpobj/tikzsymbols.doc.tlpobj 0f9c903a37440fb7966c52a3f281ea96 1397785775
 obj /usr/share/tlpkg/tlpobj/curve2e.source.tlpobj 6a2dbed4f27931ac24fc9f3e5b7aa908 1397781959
 obj /usr/share/tlpkg/tlpobj/gnuplottex.tlpobj 29c74517c7bd889f84b85aa9fb12a390 1397782727
 obj /usr/share/tlpkg/tlpobj/swimgraf.tlpobj 6abb08b6ddef8c4ad0b68bfaab3c4b04 1397785461
 obj /usr/share/tlpkg/tlpobj/asypictureb.source.tlpobj e6717c671eb6fcc1031c4282236f74e0 1397780634
 obj /usr/share/tlpkg/tlpobj/forest.tlpobj d68a82bc3876443112d34fb01ebb0804 1397782580
 obj /usr/share/tlpkg/tlpobj/dottex.source.tlpobj fcda157d92e4939f340d2c2e2fcdba15 1397782050
+obj /usr/share/tlpkg/tlpobj/lapdf.doc.tlpobj 23e0730d0c083baeeb61657f296b7256 1397783289
+obj /usr/share/tlpkg/tlpobj/curve2e.doc.tlpobj 12797cebe557a47f22130578d47d7678 1397781959
 obj /usr/share/tlpkg/tlpobj/graphviz.source.tlpobj 6fb6ae9eb4e9a59044381d38c34738a1 1397782736
+obj /usr/share/tlpkg/tlpobj/productbox.doc.tlpobj b0a17ef7df5e616fcf7571320ba30838 1397784930
+obj /usr/share/tlpkg/tlpobj/pxpgfmark.doc.tlpobj e03337e2b94200bcfc471636c57c0abc 1397785232
 obj /usr/share/tlpkg/tlpobj/hf-tikz.tlpobj 52240d6ae1a919802bea2f8f9600ba49 1406424378
 obj /usr/share/tlpkg/tlpobj/venndiagram.tlpobj 3c02d15f693537a2db5835df45610be5 1397786183
+obj /usr/share/tlpkg/tlpobj/doc-pictex.doc.tlpobj 01f2e50608f171235c77a0a58b13f9a4 1397782047
 obj /usr/share/tlpkg/tlpobj/texdraw.tlpobj 16c7218328856634a8baff662031bde3 1397785626
+obj /usr/share/tlpkg/tlpobj/tikzpfeile.doc.tlpobj 1fada2ac7f395470120a7257c7a50263 1397785773
+obj /usr/share/tlpkg/tlpobj/curves.doc.tlpobj f6735899ad55c9f342027141c91fd984 1397781960
 obj /usr/share/tlpkg/tlpobj/randbild.source.tlpobj ec8fe710a30ff32fce22ed8387c7d720 1397785256
+obj /usr/share/tlpkg/tlpobj/tikzposter.doc.tlpobj 34f6fd997ab4cc2d0b294ee912bd92da 1397785773
 obj /usr/share/tlpkg/tlpobj/sa-tikz.tlpobj 24c1022132e8eef7c44b9f5576894b2b 1397785298
+obj /usr/share/tlpkg/tlpobj/pmgraph.doc.tlpobj 12d1a08692bb45a171316a833cbe218e 1397784840
+obj /usr/share/tlpkg/tlpobj/tikzorbital.doc.tlpobj 6afc025adc097a3cd0545b1f7c9357c5 1397785772
 obj /usr/share/tlpkg/tlpobj/aobs-tikz.tlpobj 7f555deff9c411afd41151c6c072a95c 1397780354
+obj /usr/share/tlpkg/tlpobj/hobby.doc.tlpobj a72c40381ab21f67a0ddfa0a762afd52 1408325015
 obj /usr/share/tlpkg/tlpobj/pgfkeyx.tlpobj 0faf18d01f63d6e617db3004d5ba8bb1 1397784794
 obj /usr/share/tlpkg/tlpobj/tkz-kiviat.tlpobj d77c259da53946544ccb09d4ecb2caaf 1397785798
 obj /usr/share/tlpkg/tlpobj/knitting.tlpobj 4de2364a51a813e31b35e0ffbee2f498 1397783175
+obj /usr/share/tlpkg/tlpobj/bardiag.doc.tlpobj a4d30083655cfa6e8bf8fe5531a54061 1397780676
+obj /usr/share/tlpkg/tlpobj/pgfopts.doc.tlpobj 3c31a501fa26e4c2259d7dcac444b306 1405128222
 obj /usr/share/tlpkg/tlpobj/tikz-bayesnet.tlpobj 6db6a9f409ad3cbc58d30084b05ff581 1397785768
+obj /usr/share/tlpkg/tlpobj/xypic.doc.tlpobj be902cb429834a19d7eb9cdccec51b06 1397787064
+obj /usr/share/tlpkg/tlpobj/makeshape.doc.tlpobj 64ef9a79c5d19263db430e1ddcb555be 1397784043
 obj /usr/share/tlpkg/tlpobj/asyfig.tlpobj e9de172004fe7b1f290513a7473ba207 1397780458
+obj /usr/share/tlpkg/tlpobj/pb-diagram.doc.tlpobj 7818238ba937d3c80a8179e033d61066 1397784641
 obj /usr/share/tlpkg/tlpobj/gincltex.source.tlpobj 0796399a5a59fd9049c56e7e4d2887ab 1397782636
 obj /usr/share/tlpkg/tlpobj/pgfgantt.tlpobj dbd867c95466b19003e8b26a82910607 1397784794
+obj /usr/share/tlpkg/tlpobj/modiagram.doc.tlpobj 9d7aa943f11a8091193be487dc056b56 1404183048
 obj /usr/share/tlpkg/tlpobj/makeshape.source.tlpobj 82de9843019a705615231bbf544c5ffb 1397784043
 obj /usr/share/tlpkg/tlpobj/blox.tlpobj 8c0a074bb14a599382b370181d5f4c3a 1408756871
+obj /usr/share/tlpkg/tlpobj/randbild.doc.tlpobj 8d474baa1f9d7148339fbeaf11b2e4ba 1397785256
+obj /usr/share/tlpkg/tlpobj/tikz-qtree.doc.tlpobj 53e119d4550108e9c6a0bfad1197735d 1397785770
+obj /usr/share/tlpkg/tlpobj/tkz-linknodes.doc.tlpobj 556ca5313d0948110cb8ccb086f5eaee 1397785798
+obj /usr/share/tlpkg/tlpobj/asyfig.doc.tlpobj 9679dd4bfe6932248c1d9d0a78c7abbe 1397780457
 obj /usr/share/tlpkg/tlpobj/cachepic.tlpobj 5b8b83c0d10ceb1ac6165ddb149e2708 1397781448
+obj /usr/share/tlpkg/tlpobj/hf-tikz.doc.tlpobj 1c0e8c5e77f1adab99059449bfd46227 1406424378
 obj /usr/share/tlpkg/tlpobj/tikzscale.tlpobj 809a799ae10991bedced19d76ffb5e86 1397785775
 obj /usr/share/tlpkg/tlpobj/spath3.tlpobj 5a9ce074d972fb17d4db0f899a60711e 1397785398
 obj /usr/share/tlpkg/tlpobj/pgf-soroban.tlpobj c5a10f82da6c12eca447e0ef9af915e9 1397784792
+obj /usr/share/tlpkg/tlpobj/forest.doc.tlpobj 70262bdfa474f52f28791a018e1cc81a 1397782579
 obj /usr/share/tlpkg/tlpobj/hobby.tlpobj beaa56b8327daa5e28034a7a86a0b483 1408325015
 obj /usr/share/tlpkg/tlpobj/celtic.tlpobj 46a5c57e6a34575fe3e19e9df1e0bfef 1405905876
 obj /usr/share/tlpkg/tlpobj/reotex.tlpobj bd3a912f9e80a7a9bae19995cb3c0c13 1407979535
+obj /usr/share/tlpkg/tlpobj/dratex.doc.tlpobj 5d78915906cac60b48ba9eb292aa90d1 1397782057
 obj /usr/share/tlpkg/tlpobj/combinedgraphics.tlpobj 93ad0a7e701b37eb0542c4f4d2f6872a 1397781801
 obj /usr/share/tlpkg/tlpobj/pgfopts.tlpobj 9be590992a49ceb173df4efbc60d2e85 1405128222
+obj /usr/share/tlpkg/tlpobj/spath3.doc.tlpobj fd2172498c759d929b01e1e5ad9a44f7 1397785397
 obj /usr/share/tlpkg/tlpobj/xypic.tlpobj 0369e16032538f4a3bbe73f93bc51983 1397787068
+obj /usr/share/tlpkg/tlpobj/pgf-umlcd.doc.tlpobj 33285c9f34896fce9189aaec6779f311 1397784792
 obj /usr/share/tlpkg/tlpobj/qrcode.tlpobj a4b531f4b1f1feac03dacc596b54ce2c 1411780968
 obj /usr/share/tlpkg/tlpobj/petri-nets.tlpobj 0c72808103e57458e285783be2be0a6e 1397784768
 obj /usr/share/tlpkg/tlpobj/lpic.tlpobj e16f0f08393d3e5c752add8d9c8b8c26 1397783636
+obj /usr/share/tlpkg/tlpobj/cachepic.doc.tlpobj 95708eff86115d2f6ebfc272b7f45b5f 1397781448
 obj /usr/share/tlpkg/tlpobj/pinlabel.tlpobj 4d2e8165465cb96f91995f42f7631d07 1397784821
 obj /usr/share/tlpkg/tlpobj/pict2e.source.tlpobj 776291fbec072faf648f893243417809 1397784817
+obj /usr/share/tlpkg/tlpobj/chemfig.doc.tlpobj f28220e67afeaac04592b9e0b48daf20 1397781575
 obj /usr/share/tlpkg/tlpobj/pgfplots.source.tlpobj 15f639bda6270c577484bf2933f3c02c 1407374743
+obj /usr/share/tlpkg/tlpobj/pgf-umlsd.doc.tlpobj aab54caa92b14845e46699a5b4667f53 1397784793
+obj /usr/share/tlpkg/tlpobj/tkz-doc.doc.tlpobj b3871b3007cac837ebf5bfeb9085ec9c 1397785795
+obj /usr/share/tlpkg/tlpobj/diagmac2.doc.tlpobj 23d0d4109a09efc5c56c2bf26f79ab88 1397782028
 obj /usr/share/tlpkg/tlpobj/autoarea.tlpobj 25a0e26977a830e11ebe73fdd05a1e6b 1397780642
+obj /usr/share/tlpkg/tlpobj/gnuplottex.doc.tlpobj e0e3f6d4a41abf58efabd699f4c48212 1397782726
+obj /usr/share/tlpkg/tlpobj/rviewport.doc.tlpobj 9ec078633571eb967d44cc6dc4db6f86 1397785296
+obj /usr/share/tlpkg/tlpobj/celtic.doc.tlpobj 108887391f578e4f888f7cd1662080ab 1405905876
 obj /usr/share/tlpkg/tlpobj/tkz-orm.tlpobj f0ff55924632d08eb6b4366f7c354850 1397785799
 obj /usr/share/tlpkg/tlpobj/tikz-3dplot.tlpobj 0d9d94688195e78f32ec00de103fb31f 1397785768
 obj /usr/share/tlpkg/tlpobj/gincltex.tlpobj 6296ddb20e0059e045a90831e3d1a1c9 1397782636
+obj /usr/share/tlpkg/tlpobj/miniplot.doc.tlpobj 96a221436c3d84db784b0e9ee2e8ef9f 1397784226
+obj /usr/share/tlpkg/tlpobj/mathspic.doc.tlpobj 58831e139a106ac2aba419b7c52755a3 1397784070
+obj /usr/share/tlpkg/tlpobj/tikz-3dplot.doc.tlpobj 3f98c4566196a4c8708b2d44528ee6d2 1397785767
 obj /usr/share/tlpkg/tlpobj/chemfig.tlpobj b02682de7f2ce645e092a7ff92ddb632 1397781578
+obj /usr/share/tlpkg/tlpobj/tikz-timing.doc.tlpobj 0e83a1c25c0ce9c709b6eea474df297d 1397785771
 obj /usr/share/tlpkg/tlpobj/pgf-blur.source.tlpobj 536144971712bbc27a611d6429a6cc77 1397784791
+obj /usr/share/tlpkg/tlpobj/eepic.doc.tlpobj 374193a726209549c82917301eac59c9 1397782275
 dir /usr/share/texmf-dist
 dir /usr/share/texmf-dist/source
 dir /usr/share/texmf-dist/source/latex
@@ -906,6 +1031,1554 @@ obj /usr/share/texmf-dist/scripts/mathspic/mathspic.pl fef0d13c161d1f2d2d64c292b
 dir /usr/share/texmf-dist/dvips
 dir /usr/share/texmf-dist/dvips/xypic
 obj /usr/share/texmf-dist/dvips/xypic/xy389dict.pro ff9c63ccd64ec715c04c742297ae1a19 1381187214
+dir /usr/share/texmf-dist/doc
+dir /usr/share/texmf-dist/doc/latex
+dir /usr/share/texmf-dist/doc/latex/tkz-euclide
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/README 1ba0207ce8de4c34145a2038b275f8c6 1307380675
+dir /usr/share/texmf-dist/doc/latex/tkz-euclide/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-rapporteur.tex 3bfe09f2241cbd31374be4504419e5a9 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-polygons.tex 3f27e6618a9e8d25a43bc9c3aa8d68a5 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-FAQ.tex ad0cb1f77806984fa327f40e4e6ecd26 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-example.tex 77c26ab1a1d5416aabea54ab6101145d 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-obj.tex 9fb3f6b40dc1eb93bb1a11a7fb3b07d6 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-vec.tex 00b5f702c3765897b00158d7d43169a7 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-main.tex 98a9a24dcbe1bb25bd8f594804ffd320 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-circles.tex 20b545e518ba8fc9c50455f9395055a2 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/euclide.ist efc63e7989204c5e9e89aa57fff6789d 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-installation.tex 93ae21c5cc5d9420a5fa7b017bc94f22 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-presentation.tex 285314faac5c4eb0934937f6ac828e2e 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-transf.tex 7c85b9d8215df24fa1ce9cd5bdbf7780 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-base.tex 07e8ef1a97e03e097d799b2ac253ede1 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-sectors.tex 24cb0cb96c2a889ea0991f5368f2d9de 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-config.tex ad62054bab105e00b32f63382ee23231 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-tips_and_tricks.tex 17d61146ee051eb1e0027e3af25f74fb 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-segments.tex e990712871bb9158620c7d784173ec7c 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-intersec.tex 22885eb1935001e900e549f6fff8ed5f 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-lines.tex 4f97d7f275afbf7f46d85ae81b77622b 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-tools.tex 8a367155e4cba04d6e8af819835f4d76 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-points.tex d9d941b0545e71cc9c96721f998e2339 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-compass.tex fad7989ac954581992e7e0659a8e7143 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-alea.tex 5ab13612d6e8b24fba24e65389dc1434 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-arcs.tex cb77aa2e5b9cbcccd11ec44f32536e45 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/latex/TKZdoc-euclide-exemples.tex a540160406386470c95c237ff58d4d47 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/readme-tkz-euclide.txt 698b90d3b58a4ec4cc43d3d0158cdfb8 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/readme-tkz-euclide-fr.txt dbe454aa07f638ec727e55955d223d80 1307380675
+dir /usr/share/texmf-dist/doc/latex/tkz-euclide/examples
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/examples/Makefile dc96e88e706bf686aec7b0a6ee345e58 1307380675
+dir /usr/share/texmf-dist/doc/latex/tkz-euclide/examples/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/examples/latex/euclide-tex.zip ebf9c898f9f73f15ee1b29c04d4add05 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/examples/info_euclide_tex.txt 86f1170256a67ecf165390db2ed501c1 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/examples/tkzeuclpreamble.ltx 990e96d6af95fbde1163a081f7d39d35 1307380675
+obj /usr/share/texmf-dist/doc/latex/tkz-euclide/tkz-euclide-screen.pdf babebc4ee39d25b818d1932e8dc44896 1307380675
+dir /usr/share/texmf-dist/doc/latex/tikzorbital
+obj /usr/share/texmf-dist/doc/latex/tikzorbital/tikzorbital.tex 2f8850535b2c16d5a1368574437568ca 1355788084
+obj /usr/share/texmf-dist/doc/latex/tikzorbital/tikzorbital.pdf c92c4c7e098ed334d226cc3999ed08b6 1355788084
+dir /usr/share/texmf-dist/doc/latex/bloques
+obj /usr/share/texmf-dist/doc/latex/bloques/README 5767f01f79875d9afbb42065c0cefe8d 1305498099
+obj /usr/share/texmf-dist/doc/latex/bloques/example.pdf 3a4213c7474cb6860ed21111fc2fe3d8 1305498099
+obj /usr/share/texmf-dist/doc/latex/bloques/example.tex 4a83c95b202f82eb325940435ea50044 1305498099
+dir /usr/share/texmf-dist/doc/latex/curve
+obj /usr/share/texmf-dist/doc/latex/curve/README f20f5715665d101ca2d59d387d7be434 1292368714
+obj /usr/share/texmf-dist/doc/latex/curve/THANKS 96e89ad4a9567e2abefc9bd460d4e7a4 1292368714
+obj /usr/share/texmf-dist/doc/latex/curve/NEWS b69d7677b113371d4d7839192d6ba519 1292368714
+obj /usr/share/texmf-dist/doc/latex/curve/curve.pdf 1569f874b1d8f5e52ba0d056756e08ad 1292368714
+obj /usr/share/texmf-dist/doc/latex/curve/curve.el 78ade7fe3513bc5d0217a6e8b22155e1 1185582681
+dir /usr/share/texmf-dist/doc/latex/curve/examples
+obj /usr/share/texmf-dist/doc/latex/curve/examples/raw.tex 64037fd4f5d98b606747388c3dfbbf19 1292368714
+obj /usr/share/texmf-dist/doc/latex/curve/examples/Makefile f3b1a25ace6dbd94bc9a3d165ea17940 1292368714
+obj /usr/share/texmf-dist/doc/latex/curve/examples/rubric.tex ce0d7474d311c449d92c892c9a36d13c 1292368714
+obj /usr/share/texmf-dist/doc/latex/curve/examples/bib.bib d60a3befa40bb0bf6126f0a974465cf4 1292368714
+obj /usr/share/texmf-dist/doc/latex/curve/examples/bib.tex 7c191e4b12b2aaebc4b58d6c0ea29c7f 1292368714
+obj /usr/share/texmf-dist/doc/latex/curve/header.inc f6251f0fbc9cb76b9a7310aa92e477e8 1292368714
+dir /usr/share/texmf-dist/doc/latex/hvfloat
+obj /usr/share/texmf-dist/doc/latex/hvfloat/README 77d0fa053dde028f2b26cda66ffa0969 1330989725
+obj /usr/share/texmf-dist/doc/latex/hvfloat/rose.png fafc10e4f57458ccd7748551408da82e 1136767480
+obj /usr/share/texmf-dist/doc/latex/hvfloat/hvfloat.pdf 3c8eb63f0a6ce154010872ff5579c647 1330989725
+obj /usr/share/texmf-dist/doc/latex/hvfloat/bateaux.jpg 178c53eaa8e523ec12297e1fd5d5c4d7 1136767480
+obj /usr/share/texmf-dist/doc/latex/hvfloat/hvfloat.tex c11696d8c3fdf8b42a1b81e67e0bfbbc 1330989725
+dir /usr/share/texmf-dist/doc/latex/bodegraph
+obj /usr/share/texmf-dist/doc/latex/bodegraph/README e4cc3e7504e1223f6e39e584b9c30603 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/bodegraph.tex a27aeb8e5fe84986e08145d8e4e7ef5a 1286756189
+dir /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot
+dir /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/21.table 5b1216c61e927e3cef83a49671533506 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/68.table 9d56270ccaee3624feeead853fe900b6 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/63.table d7c5669fd6b95e70e02677fdd364930a 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/11.gnuplot 02d483fead2f83f15ad7ff6056129e1a 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/60.gnuplot 90ae5ef5c2afd5161457b5099c4da0a6 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/93.gnuplot 61ceb7b8e7254b946ac4d8ce50a4ec3b 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/27.gnuplot adcd0baf6bd4e80432f4a7f30eb4ff70 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/13.table c96be4aceadf3f0bc3c57f78f702b6ea 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/72.gnuplot c8ced537ffc810507137eb50cc402a5f 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/67.gnuplot 40484c8483a140a6f1a9bd687c564c5f 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/22.gnuplot 5f9a6e5897235037ef1eacbb29a79aa1 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/79.table 37099b80a61bcb3b0ee0e54f155787e7 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/41.gnuplot 501a6e99c7ddec385d8dd67b80388721 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/10.gnuplot 0ee71489e27b640480aadfdace0984c6 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/44.gnuplot 2a18521cc5973f4b53dbe57ed33633ce 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/23.table 6c57df824232210ffbb46757a079559e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/1.table 4115c988c20173fe603f6e91c091f969 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/69.table c2047979bf5a2aa06f6d0c35bd2e58de 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/47.table 1dafcddd4a0397a6a3d0868bb0592ef5 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/76.gnuplot 363c70cad5d108f983e4027afd9799b5 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/85.table ac2eeaf87d8bb2254e760a0946dd3229 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/49.table 8f07a2e2380c61734b553dc224589562 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/81.gnuplot 9f2b4ae67fbc8e0f40c43415e5fecd9d 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/84.table 62720ec1589c969e28317143411444a5 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/55.gnuplot 259dfcb13db945dee272c8551dd9e0b6 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/51.table e0f213267fa201fab0d10a4d8097043e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/9.table 3baed4f0ee19066df298fd30195e310e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/36.table 9be8f6e76fe7ab9cb6b9732560d492cf 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/15.table a6e9e8f22feb65ff443036477ca64886 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/76.table 8099cfb0efaff2826917cf444c692a3d 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/46.gnuplot 5bd9a793b380e171f7c0b8a5995c918a 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/18.table 67bd89bffdc567450fe97d65437b23ee 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/46.table e199b558fa19ba0ccbb51c6969f9be90 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/22.table 4d343291982e217af1bec28910040989 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/30.table d41d8cd98f00b204e9800998ecf8427e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/12.table 6a0e73cec1e68e89e61cb5cc7b09a54c 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/73.table e3168e99beb1c334377803087f57391e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/6.table 08a428a52133fc82a0671b430374cb1c 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/54.table b259f9641629e6a29db3a102bf3ff84f 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/52.table 9560691293dce109c260e933635070ea 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/14.table ededda9dddddf5b0d7cdecf6663451da 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/93.table 0a6b1bc7fb4bf1cf99eadd885609fb65 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/89.table 0a6b1bc7fb4bf1cf99eadd885609fb65 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/7.table c91f495c57ab285c6a1a5043d6cc8c4e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/70.table 3a812e47e041aa3db7c31e6520066274 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/33.gnuplot 3fc636ac26d57fcad6dfd841ed7f87f1 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/21.gnuplot 8db32b23b347ba000bf9745c6231b47e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/85.gnuplot e6794401697b7a7b46f0e7582e686f67 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/37.gnuplot c7f91b99543d1b83261efbaaa9203062 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/78.gnuplot ddeeb985435455aa42c2b8b1ab635b1d 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/74.table 6fc6388ee790cb87e3d3c4aba279b79f 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/55.table 36b55ee913bf98e0f3330da57a3d76ad 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/48.table 1d033dce40024b3c1c44184a666c532d 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/87.table 574cf2b344ed19a0d73219c809153f33 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/68.gnuplot 6d8d28e3206f6d5caf9949c6476c4a5e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/3.table 96bf141629b055f97d1958e63f789558 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/25.gnuplot cb609d8c146d709431bf4194d3460c4d 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/40.gnuplot 6403f76d90627d49277db198590ead68 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/34.table 741fdaa319107cbffd4ca5c6ba46050a 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/66.table ad8a859e59e7d2023ac2a55748355435 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/35.gnuplot f0cad7ef9dc5b8ffa8f6d3a8c7cab469 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/57.gnuplot 51adc602c06717e9361c003f18f892ac 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/5.table 9030c159e0c8b7383d0959bc28aef667 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/95.gnuplot f4c6144550e8bee6310ac819db93b7ae 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/42.table 4501dd4c5b197ca664a87e2eb1ddf8fc 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/45.gnuplot 9ec8d14bbc1ddb353ed17a63b70c1687 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/16.table 7f7200ce2bb6e9c3da91bd5d4ceb5974 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/82.table 37492066cdb513bbfc661e2015e541d8 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/73.gnuplot 56fa9a3ff0d70e1948b405457d89dfe8 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/38.gnuplot 2733fb122a261161ff173c874457091f 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/54.gnuplot d68fca91e31c03c9e3334a7d6dd2c968 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/29.gnuplot 9cfc404880699be1e9de9c9322bf2f4d 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/4.gnuplot d36f3d1012cf84a4ec43b76505a26c0a 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/64.gnuplot e58ff222c067374c4dd76fd41683c4cb 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/35.table ecafa60d237c8c1331c405b7d8ad7781 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/20.table 06499dc634ad0d63509d40d61d509751 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/28.table ce430cbf1d8f00e4e6a718a276309e64 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/13.gnuplot c91bd22e0b6975930a8c68f04291b247 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/52.gnuplot 1ceee3774d286ac34448ad0787b27985 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/34.gnuplot ee7480c254ca938d34be30d4bac3567e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/62.table 11b0cf235a4765fb7bf16234df659975 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/90.gnuplot 16f137610432756f01fc7cf6f0f903d9 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/49.gnuplot a333625651cf3ebeeb9c6d08d321eb99 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/19.table b59d7baa5010d092ca5a8bafecc1fdaa 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/6.gnuplot 482892db68d48a6df1cfae57511592c5 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/37.table 627e7e2d337ee839c15e89ad3f8aedd0 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/79.gnuplot a9768cf516befeaf16d31043bc599359 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/75.table db0360e2c460c4e6b4bcaf01ee0cdb52 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/41.table 984597a54a114f08762efe9291ef6209 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/86.table 43d2e578f9d057d3cb4fe77ff1a0f950 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/18.gnuplot 26702f887908c8dbd8c1f51d3714d5de 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/90.table e1c0793b99e48115593f9a16e43fca97 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/51.gnuplot 196790ba34937fff11c3774b150454c9 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/5.gnuplot ea0d97b9457f3c1100219e61b7005f46 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/81.table db8ee23aeab925dcd8594c20af6da522 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/83.table 490481fda54b9e2a3c9fccf2cb3cc6e8 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/39.gnuplot 5528a2e3c2037a1a6aa949c97685eea3 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/61.table 905a45224e74f7cc4a985c0c7907a0b3 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/39.table 989cbb5abfaf135749a78901c53d8fba 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/17.gnuplot b1a12f1d67ed92a7cf70a3d0cf0932cd 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/32.table d41d8cd98f00b204e9800998ecf8427e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/61.gnuplot 9a800a69e74813d714b908bbed0c8a96 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/94.gnuplot 652249a5f6d98a0f5a1aabd6a192919c 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/82.gnuplot 4231f65f91e4b6ad5808197f4c7a0360 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/42.gnuplot cac3cb383c96200cdd23968414963543 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/45.table ca1e743ea90d6a6d31b0f20f5a65ba87 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/59.gnuplot bcfeb11566f7e833a39f083c5a99e57b 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/53.gnuplot 7674a5de8bf45a47afbe52e1ccb13321 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/50.table 83e8eb28af5a93144cfd5af2a1c0d4d1 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/84.gnuplot 5a378aee68b2e065140640e1668ae210 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/66.gnuplot e749ad3aab80c664af133ccd6a0501a0 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/31.table 0624f07e428f1f5482e2d17bad448f2a 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/64.table c3dc00206adcc6a90394e0d7bac8a870 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/17.table 738bfa818cf734d1fe9eb8bc984be8d6 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/26.gnuplot 91d7c66a84a20d13ac0c5166804390ca 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/56.gnuplot 07c0a996f8ad9afdce5165caf764e577 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/4.table 45477f284d15ed2b8a2a429418ffadb2 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/91.gnuplot 087b1c935222045b2f9c7b8d56585a92 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/47.gnuplot 81c2bd2d55ce4504f1c4e15f62149d59 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/14.gnuplot 116de5d58f446aff0e16dffa76613e3f 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/33.table f93975431229e1cd144443eb9176135a 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/26.table 4998d896e2b359494313d21242a0bd0e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/74.gnuplot e510a6fdd7b908066d4736e5fdcf2e69 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/57.table d41d8cd98f00b204e9800998ecf8427e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/56.table 75ba906299c77bec0590ebeec6b4eefc 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/38.table ae0779567c888e8f8189614a351cc269 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/58.table 66f52326abb3a59469bb97f94c0db2c6 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/59.table d41d8cd98f00b204e9800998ecf8427e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/31.gnuplot f8dde0e40c2040d6d1796d21fc04d018 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/69.gnuplot b8a0a6c6499e45e014f1a1b19e1cf7d3 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/15.gnuplot c0c32fbf8e5ac441ae76cf350b727882 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/78.table 09552b82f104d76dcefd3b6710b86b31 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/19.gnuplot 3a8d3bcb67a3d4bb4ce47195a9b2eba5 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/72.table aadb881b3c723d3edd02c4c904a59fa9 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/87.gnuplot 418feca3444463482f62cfc0cdc2a17c 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/75.gnuplot 1200ea6512ea82b01d8a0127d977d668 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/50.gnuplot ab357fee463aea0591a55f651c117a44 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/43.table 52278be0d62d621c065786747853da28 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/95.table 3d40e0e36e1a37958abf9d30f97a10d3 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/9.gnuplot 98f32fe1b6e1efcbfb7f7faa784f7712 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/91.table 15b060cfecbd482d7d6be9deb9329c7f 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/58.gnuplot 4bb36faedef366cffa35099c5962a481 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/94.table d85ba9e09830e7012a9abfe562c6184a 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/86.gnuplot bc4eff4475ebc544fdfa5967f3f38a09 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/28.gnuplot bf1575182a3918d52524059300660a32 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/53.table 0fbd047533550f4acc7ceba0bc161ec4 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/10.table bb40d6ffdd4104f74e56112699e31f67 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/32.gnuplot e2a0f98c3c3a9cf2089ea76dadf2217c 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/62.gnuplot 77da192ca5432e96fd678cbe0519efd2 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/24.table 20a9abdaff58edd3a3f878b144cc198c 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/63.gnuplot f4bc8df82433220ee42b126472b5704b 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/44.table f119763b500126023386019890012ca0 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/1.gnuplot dd53e583ccbe63ec9a44d5333d58a482 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/16.gnuplot 9b66aa4bb9cdec0c71a07fe6798a86f9 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/8.gnuplot 5c9290c20eac5c74270f5da5faaf540e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/83.gnuplot 79beb968a1ca7dc13240050ed1f2ca5a 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/3.gnuplot 5645bf181bb54cb0faebbbfd61e107cd 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/89.gnuplot 177494e29687c062eff3343dc1677a72 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/70.gnuplot 3b2039c7bf1f96de101d2e6305eee3d2 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/67.table bab1525cc5921ab07c88513fd75b4f47 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/24.gnuplot 0bd9c019535f2802c1610f26b79f9af5 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/48.gnuplot 842d6d913db2cf65227f8aa53e02f456 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/40.table 885f17586968f38588d28489233ae77e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/8.table 826c4840c240bd4a81b45fbbd82a6cc8 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/36.gnuplot fba4ae2e4c7b64c097184dddd5b46385 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/25.table 20a9abdaff58edd3a3f878b144cc198c 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/27.table 69438e3a46f24180d680b63f0b59c66c 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/43.gnuplot b69ea9308f7c02e4cb00d5c148c33594 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/7.gnuplot 36e8247f0d1656064ff8c02532e78bdb 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/23.gnuplot d90a4ba2d88af2a7fad1c3b89f2b335e 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/11.table 5ad72c4c5b2bc86547cfdd5fab18a904 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/30.gnuplot 500e4a176212bf4de95e732423c3e193 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/60.table 0d40240cc0e69460da1e0a5c2428191d 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/12.gnuplot 9772631ecd6828293bf38840b97319ef 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/29.table 4e94989f9939326fe7183f98a8243539 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/gnuplot/bodegraph/20.gnuplot 4cbf77d8db9db2f88e49e88a8ddc0798 1286756189
+obj /usr/share/texmf-dist/doc/latex/bodegraph/bodegraph.pdf 039e3fdd359480d6fa35b2dc80b0d46a 1286756189
+dir /usr/share/texmf-dist/doc/latex/spath3
+obj /usr/share/texmf-dist/doc/latex/spath3/calligraphy_doc.pdf 07d1c5a561afca0ed240f6afb165c60c 1365893910
+obj /usr/share/texmf-dist/doc/latex/spath3/knots_doc.tex 4384e5353a3640daae7a752084d92619 1365893910
+obj /usr/share/texmf-dist/doc/latex/spath3/knots_doc.pdf 56c84a1b55c294a7e3f48ea516c13f16 1365893910
+obj /usr/share/texmf-dist/doc/latex/spath3/calligraphy_doc.tex 89d0921958c6ad870b8e38b6ed77c989 1365893910
+obj /usr/share/texmf-dist/doc/latex/spath3/README.txt 1882266c8b999423b978e95c3f5c4426 1365893910
+dir /usr/share/texmf-dist/doc/latex/picinpar
+obj /usr/share/texmf-dist/doc/latex/picinpar/picinpar-de.pdf 34e6f41449b70dffa10e3a46791f2c61 1288993531
+obj /usr/share/texmf-dist/doc/latex/picinpar/picinpar-de.tex 3ca33ac3e63881c9bf36167fe3a2a50d 1288993531
+obj /usr/share/texmf-dist/doc/latex/picinpar/picinpar-en.tex 1ee973f56f3207b1293c556e2630ce42 1289259601
+obj /usr/share/texmf-dist/doc/latex/picinpar/picinpar-en.pdf 592af96b50a0495d3c040a252a02b126 1289259601
+dir /usr/share/texmf-dist/doc/latex/tkz-base
+obj /usr/share/texmf-dist/doc/latex/tkz-base/README dffb596cc9231290938d60db09af84b2 1307380573
+dir /usr/share/texmf-dist/doc/latex/tkz-base/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-base/latex/TKZdoc.zip 38d61cfd80d1220db92af3217a846e34 1307380573
+obj /usr/share/texmf-dist/doc/latex/tkz-base/tkz-base-screen.pdf b8462b3efe0c3f84387645f94083befc 1307380573
+dir /usr/share/texmf-dist/doc/latex/tkz-base/examples
+obj /usr/share/texmf-dist/doc/latex/tkz-base/examples/Makefile dc96e88e706bf686aec7b0a6ee345e58 1307380573
+dir /usr/share/texmf-dist/doc/latex/tkz-base/examples/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-base/examples/latex/tkzbase-tex.zip 1a1dc221e0028ad04a2e53778593d91f 1307380573
+obj /usr/share/texmf-dist/doc/latex/tkz-base/examples/tkzbasepreamble.ltx 1c437e0faa2cbf9bb42fba6be73be128 1307380573
+obj /usr/share/texmf-dist/doc/latex/tkz-base/examples/info_base_tex.txt 87b0e4201df7d5b024bfaea8887f1b4c 1307380573
+dir /usr/share/texmf-dist/doc/latex/swimgraf
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fcanada14.dat de33b050ccd6c85238631b5fca0e7fd5 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/README 5ce090618991c6ebfc187724c2dfb6cd 1329780591
+obj /usr/share/texmf-dist/doc/latex/swimgraf/text1.pdf 09b2000cf1d3dd9dd6ebac9dbbb07104 1243719999
+obj /usr/share/texmf-dist/doc/latex/swimgraf/100br2.pdf 83922f4de6eff4df764c93535d1d5e7d 1243719999
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fontario8.dat c189c55dc44fbabc146e9f9c3601fd24 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fontario11.dat 9cd23dd6c6f3b7446d33de401dea80ac 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fontario13.dat 3e5626a02f2c89e9117e962c0fbf5666 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/mcanada.dat 427d6c508bfae99bb74b0234a1f2825a 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fontario12.dat 3e5626a02f2c89e9117e962c0fbf5666 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fcanada17.dat cc718003b08c3a366da96b2c7e7f37ab 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/100br2.tex 86016a6958d86ff5ee5e2b35631c8c39 1329780591
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fontario14.dat a2374a0577871ee471726330f139b3ee 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/text1.tex ff3b4e6acd4eb5393b040c8ca9b24fe8 1329780591
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fontario10.dat c189c55dc44fbabc146e9f9c3601fd24 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fcanada11.dat f6e9d782eca5e572ebd5ceb401d935a6 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fontario17.dat 91903c8baa8e8bcbccd3218d8fab5e2d 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/sample1.dat 7e33414d89da29e073073b66c7504519 1329780591
+obj /usr/share/texmf-dist/doc/latex/swimgraf/README.TEXLIVE c7cdc016c2282c91a93e796e1f2da76b 1329780591
+obj /usr/share/texmf-dist/doc/latex/swimgraf/text2.pdf d4bf0a11427e5eaea61bb9a345d5bffa 1243719999
+obj /usr/share/texmf-dist/doc/latex/swimgraf/sample2.dat f3157e54e3c4b86f8363d7d7f65de754 1329780591
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fcanada12.dat c30b00fdbc1fc7322662ab2027a7cdec 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fcanada13.dat de33b050ccd6c85238631b5fca0e7fd5 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/100br1.pdf 64fc4f494fda0cb4ac99dd7fe5eb5431 1243719999
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fcanada15.dat cc718003b08c3a366da96b2c7e7f37ab 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fcanada.dat 983dbf27219ef23221796585a30c4214 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fworld.dat 0423c45fe738897bcd4e79ff8b50c494 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/100br1.tex 5b9967f82649adf74e94d48d0c4474ab 1329780591
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fontario15.dat a2374a0577871ee471726330f139b3ee 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/text2.tex ec866fc80c65e651119cab1b81d2e476 1329780591
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fontario9.dat c189c55dc44fbabc146e9f9c3601fd24 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/mworld.dat 95fad9af04438481654f91eeeebadd1b 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fontario16.dat 91903c8baa8e8bcbccd3218d8fab5e2d 1275861970
+obj /usr/share/texmf-dist/doc/latex/swimgraf/fcanada16.dat cc718003b08c3a366da96b2c7e7f37ab 1275861970
+dir /usr/share/texmf-dist/doc/latex/tkz-graph
+dir /usr/share/texmf-dist/doc/latex/tkz-graph/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-installation.tex 00718713b24208c5fbb965f936e2c4cb 1307380710
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-edge.tex 076740ba156c22632dfe046aa6a9f4be 1307380710
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-Dijkstra.tex ba5187477d0d0d62d4a8f3c0f4ebabd6 1307380710
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/latex/graph.ist 69b8c1c8cfb0ab613b809969a603fad9 1307380710
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-label.tex c23ce5fe508e928b9379731be0b02a88 1307380710
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-Welsh.tex 4cbea5a63121c2d17aeb082c3b1b1b72 1307380710
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-couverture.tex feec1443b3d8dcd7378193b74957e1af 1307380710
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-style.tex 1dc5c995ad377bab8040e47cd16fe371 1307380710
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-main.tex 4fe1fb9fb771d60ec7f539d5639b4793 1307380710
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-presentation.tex 388e300d38bd8f7697949bab466d10ab 1307380710
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-annales.tex 75443f3b618dd66cb066ac37793c30bd 1307380710
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-prob.tex c8091a22face7ed9904f24ea98537da6 1307380710
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-vertices.tex 05a10d6f9fed45774ed500685c0a15d8 1307380710
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/latex/TKZdoc-gr-vertex.tex 7a0069f8d7f6a0b163aed2598895b794 1307380710
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/readme-tkz-graph.txt 7aa75afdd4136cce16391150335b0fc2 1307380710
+obj /usr/share/texmf-dist/doc/latex/tkz-graph/tkz-graph-screen.pdf ed7cd027028810ed4636c8c908938acf 1307380710
+dir /usr/share/texmf-dist/doc/latex/piano
+obj /usr/share/texmf-dist/doc/latex/piano/README 46a051ddbb943291f5ecb6e65c0873f7 1299023096
+dir /usr/share/texmf-dist/doc/latex/tikzposter
+obj /usr/share/texmf-dist/doc/latex/tikzposter/README 6c1ce7fbababaa3e0dd2595381d27ded 1390259687
+obj /usr/share/texmf-dist/doc/latex/tikzposter/tikzposter-example.tex 195a6f560801b04720223aefd3a049fa 1390259687
+obj /usr/share/texmf-dist/doc/latex/tikzposter/tikzposter.pdf 10fbd3fea8d1c9a57be3c0f37d1d580b 1390259687
+obj /usr/share/texmf-dist/doc/latex/tikzposter/tikzposter-template.tex 625440e202ca4262b85a156d7ed18830 1390259687
+dir /usr/share/texmf-dist/doc/latex/esk
+obj /usr/share/texmf-dist/doc/latex/esk/eskman.pdf 4f919685585657459ab2defaec3ef734 1273099700
+obj /usr/share/texmf-dist/doc/latex/esk/README a78f01e62b54a04bd849f3e9da787c73 1273099700
+obj /usr/share/texmf-dist/doc/latex/esk/esk.pdf 87e0a39aa7cfd129ec8dbfa954119e7d 1273099700
+obj /usr/share/texmf-dist/doc/latex/esk/COPYING 18810669f13b87348459e611d31ab760 1273099700
+dir /usr/share/texmf-dist/doc/latex/schemabloc
+obj /usr/share/texmf-dist/doc/latex/schemabloc/README 4e0f78972f2cb15da65f63b3b7e3157f 1232588427
+obj /usr/share/texmf-dist/doc/latex/schemabloc/schemabloc.tex b5ee8f7e79d71b7f7da1a422aa310195 1232588427
+obj /usr/share/texmf-dist/doc/latex/schemabloc/schemabloc.pdf 2b8c697f36cdb0c774d5ee27d839de6c 1232588427
+dir /usr/share/texmf-dist/doc/latex/gincltex
+obj /usr/share/texmf-dist/doc/latex/gincltex/README 0676e0c8750581faed921b9722fb6683 1315265409
+obj /usr/share/texmf-dist/doc/latex/gincltex/gincltex.pdf e6130e85b959084c1841c1c34fe75ea5 1315265409
+dir /usr/share/texmf-dist/doc/latex/hf-tikz
+obj /usr/share/texmf-dist/doc/latex/hf-tikz/README 1d4229666dafe25d5b64e5464622f878 1362353795
+obj /usr/share/texmf-dist/doc/latex/hf-tikz/hf-tikz.pdf 579bb5b28223e0457a8bff8b2aed69ee 1406415738
+dir /usr/share/texmf-dist/doc/latex/tikzpagenodes
+obj /usr/share/texmf-dist/doc/latex/tikzpagenodes/README a306d10ef9e44f617f0085649b38facc 1316212585
+obj /usr/share/texmf-dist/doc/latex/tikzpagenodes/tikzpagenodes.pdf 2c946b0d60d1190587df42d99660375e 1348011662
+dir /usr/share/texmf-dist/doc/latex/pmgraph
+obj /usr/share/texmf-dist/doc/latex/pmgraph/README 3cf018ed34890610afd74afc6f68f39a 1225848746
+obj /usr/share/texmf-dist/doc/latex/pmgraph/COPYING d32239bcb673463ab874e80d47fae504 1225848746
+obj /usr/share/texmf-dist/doc/latex/pmgraph/pmgraph.pdf 98b9dd31af7717aa62bdff73de6d1bc2 1225848746
+obj /usr/share/texmf-dist/doc/latex/pmgraph/pmgraph.tex d67199b579a3fa3091f8825b681a6652 1225848746
+dir /usr/share/texmf-dist/doc/latex/pgf-blur
+obj /usr/share/texmf-dist/doc/latex/pgf-blur/README 298250dd12550fce8e119673d9db90a5 1335137320
+obj /usr/share/texmf-dist/doc/latex/pgf-blur/pgf-blur.pdf 8abb89921767cbf5d9eca631ee3f14ee 1379542485
+dir /usr/share/texmf-dist/doc/latex/pinlabel
+obj /usr/share/texmf-dist/doc/latex/pinlabel/pinlabdoc.pdf 27240095d9c802601623d8bfcaa1b93e 1323129517
+dir /usr/share/texmf-dist/doc/latex/pinlabel/src
+obj /usr/share/texmf-dist/doc/latex/pinlabel/src/pinlabdoc.tex 7a29ad24bb268b827aab8090dc828bb5 1323129517
+obj /usr/share/texmf-dist/doc/latex/pinlabel/src/put.pdf ec0830e6485b95170df8555801cd0117 1243719999
+obj /usr/share/texmf-dist/doc/latex/pinlabel/src/fig3.pdf eee3b2e96347bfabfde3f13a2ead4878 1243719999
+obj /usr/share/texmf-dist/doc/latex/pinlabel/src/screen.pdf 81db2aab74a8289dd4085fe53884783f 1243719999
+obj /usr/share/texmf-dist/doc/latex/pinlabel/src/fig6.pdf 173c24004705198a434e1a55feef8751 1243719999
+obj /usr/share/texmf-dist/doc/latex/pinlabel/src/put.fig c1068c4e2a7ef4e3e75fa6962c0042b2 1196346340
+obj /usr/share/texmf-dist/doc/latex/pinlabel/src/put2.fig dcf4c8a1e27e95ae80a5cc4309218593 1196346340
+obj /usr/share/texmf-dist/doc/latex/pinlabel/src/put2.pdf 697da01ad62599fd0d599b3e6849e279 1243719999
+obj /usr/share/texmf-dist/doc/latex/pinlabel/src/gtpart.cls c753981fbb5c425ae977c886153a8e41 1196346340
+dir /usr/share/texmf-dist/doc/latex/autoarea
+obj /usr/share/texmf-dist/doc/latex/autoarea/ANNOUNCE.txt 533e1cf39dcf739e857b48c24c4b0642 1218759219
+dir /usr/share/texmf-dist/doc/latex/autoarea/autodemo
+obj /usr/share/texmf-dist/doc/latex/autoarea/autodemo/README.autodemo a05325e704804abdd15c53453ee61fb2 1218759219
+obj /usr/share/texmf-dist/doc/latex/autoarea/autodemo/autodemo-.tex 74f7a8b35fda00e965311e339ce7152c 1218759219
+obj /usr/share/texmf-dist/doc/latex/autoarea/autodemo/autodemo+.pdf 467e37706c356084a639b4b349ef92b4 1218759219
+obj /usr/share/texmf-dist/doc/latex/autoarea/autodemo/autodemo-.pdf bc4c1bcd477c0e069059d75f89626171 1218759219
+obj /usr/share/texmf-dist/doc/latex/autoarea/autodemo/autodemo-.log c74ae2ac147b5ffd87914a0cb957043c 1218759219
+obj /usr/share/texmf-dist/doc/latex/autoarea/autodemo/autodemo+.tex 94da9ad3d12c6e4bb6ccf888dc7fa939 1218759219
+obj /usr/share/texmf-dist/doc/latex/autoarea/autodemo/autodemo+.log 9e34b2e432bb48144d9c45df5b6e52d9 1218759219
+obj /usr/share/texmf-dist/doc/latex/autoarea/autodemo/autodemo.tex d4663e85767d2fd160f276bc4673a39b 1218759219
+obj /usr/share/texmf-dist/doc/latex/autoarea/README.aa 51cf7b63c5e6522091fce9ac5f63dcb3 1218759219
+dir /usr/share/texmf-dist/doc/latex/graphviz
+obj /usr/share/texmf-dist/doc/latex/graphviz/Makefile 0b6cd83535df1f9c5c444b49597a0803 1377467839
+obj /usr/share/texmf-dist/doc/latex/graphviz/README 44d749aa49fa5bff428b9585586c230c 1377467839
+obj /usr/share/texmf-dist/doc/latex/graphviz/README.md c49386d590dea69d0b94194983388cd1 1377467839
+obj /usr/share/texmf-dist/doc/latex/graphviz/LICENSE 9f4337828d782bdea41f03dd2ad1b808 1377467839
+obj /usr/share/texmf-dist/doc/latex/graphviz/graphviz.pdf 78353838287d40fbb7cf55ba242e54be 1377467839
+dir /usr/share/texmf-dist/doc/latex/graphviz/test
+obj /usr/share/texmf-dist/doc/latex/graphviz/test/Makefile 5bcfb1615e19294c790e270db24b9467 1377467839
+obj /usr/share/texmf-dist/doc/latex/graphviz/test/pdf.tex 090081e82fe6b651b3293df3cf3aac68 1377467839
+obj /usr/share/texmf-dist/doc/latex/graphviz/test/pdf-singlefile.tex eab7185455af2f20ae1ad2fb2d1d6a71 1377467839
+obj /usr/share/texmf-dist/doc/latex/graphviz/test/pdf-singlefile-tmpdir.tex d97584726a20e429cd1e0068392e4201 1377467839
+obj /usr/share/texmf-dist/doc/latex/graphviz/test/body.tex f05840ae224b5e45b37ecf6c5f8d8b37 1377467839
+obj /usr/share/texmf-dist/doc/latex/graphviz/test/pdf-tmpdir.tex 5c2bf998c893bb202347635423670b6f 1377467839
+obj /usr/share/texmf-dist/doc/latex/graphviz/test/ps.tex 2c9b3ae0c8b154617b97d4e2d919acb5 1377467839
+dir /usr/share/texmf-dist/doc/latex/tkz-kiviat
+dir /usr/share/texmf-dist/doc/latex/tkz-kiviat/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-kiviat/latex/file2.dat 6eaa9e53202fdff2c330e3a104c895a3 1307490812
+obj /usr/share/texmf-dist/doc/latex/tkz-kiviat/latex/TKZdoc-kiviat-main.tex b28a9a5054d8c3873f2a26aba84d8413 1307490812
+obj /usr/share/texmf-dist/doc/latex/tkz-kiviat/latex/file.dat de0d46de4abce777765547322a85f449 1307490812
+dir /usr/share/texmf-dist/doc/latex/tkz-kiviat/examples
+dir /usr/share/texmf-dist/doc/latex/tkz-kiviat/examples/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-kiviat/examples/latex/kiviat5.tex 3e4f75a2741c8234bdc669b0cd497395 1307490812
+obj /usr/share/texmf-dist/doc/latex/tkz-kiviat/examples/latex/kiviat4.tex 97442452578caf04b4b368f39d75973d 1307490812
+obj /usr/share/texmf-dist/doc/latex/tkz-kiviat/examples/latex/file.dat aceddd3a48bd6780459a28deb7382204 1307490812
+obj /usr/share/texmf-dist/doc/latex/tkz-kiviat/examples/latex/kiviat2.tex 1548940a9f0b4877367289c752cb2444 1307490812
+obj /usr/share/texmf-dist/doc/latex/tkz-kiviat/examples/latex/kiviat1.tex 4ab15a490ddcadc2d28dc6b198bc5390 1307490812
+obj /usr/share/texmf-dist/doc/latex/tkz-kiviat/examples/latex/kiviat3.tex 37af98586dd7dd5dfc74453f0ce7b9b3 1307490812
+obj /usr/share/texmf-dist/doc/latex/tkz-kiviat/TKZdoc-kiviat-main.pdf 66265396877ec5a229d4ec263db0c06d 1307490812
+dir /usr/share/texmf-dist/doc/latex/bondgraph
+obj /usr/share/texmf-dist/doc/latex/bondgraph/bondgraph_example.tex 15c347c5a3ab644bea2e04f904b682cd 1299715855
+obj /usr/share/texmf-dist/doc/latex/bondgraph/README b730022f64952ff4e509dfa851421e65 1299715855
+obj /usr/share/texmf-dist/doc/latex/bondgraph/bondgraph_arrows.tex 689e47c1e979f69c88ffff1672e35e5a 1299715855
+obj /usr/share/texmf-dist/doc/latex/bondgraph/bondgraph_example.pdf 74f3d7f2b616817f805de519560d0b36 1299715855
+obj /usr/share/texmf-dist/doc/latex/bondgraph/License.txt 9f4337828d782bdea41f03dd2ad1b808 1299715855
+dir /usr/share/texmf-dist/doc/latex/reotex
+obj /usr/share/texmf-dist/doc/latex/reotex/README d69a4c5d654b7702c39be774b8c25bad 1407968416
+obj /usr/share/texmf-dist/doc/latex/reotex/reotex.tex 83a6028979c865680e4615cd1e2a666d 1365532592
+obj /usr/share/texmf-dist/doc/latex/reotex/reotex.pdf 68156639e9aa5dfdb8fd515fd696b5af 1407968416
+dir /usr/share/texmf-dist/doc/latex/diagmac2
+obj /usr/share/texmf-dist/doc/latex/diagmac2/README ba354afad7d4c3c0fa2f4dc43cdada78 1242600093
+dir /usr/share/texmf-dist/doc/latex/diagmac2/doc
+obj /usr/share/texmf-dist/doc/latex/diagmac2/doc/diagmac2.pdf 922e862c69bd869e81116facdff1043d 1242600093
+obj /usr/share/texmf-dist/doc/latex/diagmac2/doc/diagmactest.pdf 7508e8135b8e8fbe12d527ac97f93d38 1242600093
+obj /usr/share/texmf-dist/doc/latex/diagmac2/doc/diagmac2.tex a50c85f6dfc34acef2ea028486271842 1242600093
+obj /usr/share/texmf-dist/doc/latex/diagmac2/doc/diagmactest.tex d88bebd38410a2780a5d4a20a9a0b425 1242600093
+dir /usr/share/texmf-dist/doc/latex/pb-diagram
+obj /usr/share/texmf-dist/doc/latex/pb-diagram/README c173cc5c3ee507c77be66298764f37e9 1136767747
+obj /usr/share/texmf-dist/doc/latex/pb-diagram/pb-manual.pdf c67299ef93c2866c46c5a15749f2b369 1220892869
+obj /usr/share/texmf-dist/doc/latex/pb-diagram/pb-manual.tex 777c81aa664c728e507950f184dba0f0 1136767747
+obj /usr/share/texmf-dist/doc/latex/pb-diagram/COPYING 8ca43cbc842c2336e835926c2166c28b 1136767747
+obj /usr/share/texmf-dist/doc/latex/pb-diagram/pb-examples.tex 81693a9dbbb773ba65e89966feeea69b 1136767747
+dir /usr/share/texmf-dist/doc/latex/grafcet
+obj /usr/share/texmf-dist/doc/latex/grafcet/README 0de75f681db6bb58a986b0c77a641018 1305673856
+obj /usr/share/texmf-dist/doc/latex/grafcet/grafcet.pdf 1553a42065057df2c554be4c03d64f7f 1305153284
+obj /usr/share/texmf-dist/doc/latex/grafcet/grafcet.tex 29be3717231afc8e3d691f14a150f66b 1305153284
+dir /usr/share/texmf-dist/doc/latex/gnuplottex
+obj /usr/share/texmf-dist/doc/latex/gnuplottex/README aee3d4ff05b495716c5a435324c25207 1152743325
+obj /usr/share/texmf-dist/doc/latex/gnuplottex/SomeValuesForGnuplot.txt be180820a96327721255f266cb6326a1 1385763080
+obj /usr/share/texmf-dist/doc/latex/gnuplottex/gnuplottex.pdf 625bd24fdbef50fe86b64c046a95da61 1385763080
+obj /usr/share/texmf-dist/doc/latex/gnuplottex/example-pdf.tex 6cc91c38e05f1190af275d125a5e27c6 1372520324
+obj /usr/share/texmf-dist/doc/latex/gnuplottex/gpl.txt b6e1ee92c201966e3ca98bfb5d898d86 1152743325
+obj /usr/share/texmf-dist/doc/latex/gnuplottex/example.gnuplot 5bd8cc2e6c65f5d2ba3a105012beae72 1372520324
+dir /usr/share/texmf-dist/doc/latex/tkz-berge
+dir /usr/share/texmf-dist/doc/latex/tkz-berge/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/latex/TKZdoc-gr-installation.tex 0b9008c65b8fe12126823d0bf6ce4845 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/latex/TKZdoc-berge-main.tex 7bd9f96676c588db54ad8023804caba0 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/latex/TKZdoc-berge-macros.tex ba7afccb9ddda5aabb826d988f75d3e3 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/latex/TKZdoc-berge-style.tex 34a91686f3ae76bc7d0ba94f36cfadbe 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/latex/TKZdoc-berge-classic.tex 832541b619ca0b94de91966d75f07344 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/latex/TKZdoc-berge-installation.tex 2bc6a898846de9bf7bb93bac4d961509 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/latex/TKZdoc-berge-macros-e.tex 111f09159a5e385f23731a2b5231ae35 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/latex/berge.ist 69b8c1c8cfb0ab613b809969a603fad9 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/readme-tkz-berge.txt 1846cb15c89f1e67ac9fb8185e5dc4a3 1307380634
+dir /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/README 4d7ad5abbbe9c831479a8c61b24ecf42 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/readme-namedgraph.txt 4d7ad5abbbe9c831479a8c61b24ecf42 1307380634
+dir /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/NamedGraphs.pdf f2feea10f8db17701773161f5ae746e3 1307380634
+dir /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Andrasfai.tex 93f8b77b7abf6f7daa5bf910e8a6aeb6 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Pappus.tex 656b9f1a0f1d89852791389abdbd46b0 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Desargues.tex 9ce6dfbf8899e77764bf86ab5751696b 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Cocktail_Party.tex 39fb9af5a4b949c9b57db1e8430adb31 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-couverture.tex b9aa741d212e04acdcd4c79b6c0210cb 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Hypercube.tex 4bf1bf1d70005a413a2ae4c9cc17d486 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Platonic.tex bdd0bd0d70324905a0599c5bf3eedeef 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Coxeter.tex aa9672f7125d8a1722e95a31e9a21ead 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Bipartite.tex 1851d387c052a4248310fda13e00c7a1 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-CubicSymmetric.tex 79c46f534a743369613f402f17003cb0 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Chvatal.tex da59d0969728a5d7e7d0e23605e8aef5 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Moebius.tex 4b5ee85997fbaa3332428da8a0830b82 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Groetzsch.tex 1cc71255563ef5a6b99cd4645fa1592a 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Folkman.tex f4384d52c3f5565cbd9bd16f5db4f5db 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-McGee.tex d9ab9a356f577976bc7a57adb897e728 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Bull.tex 253d222e2a8fac4f2c9dbf637a9fc399 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Franklin.tex 89da3301c4be08fce468dd38c12be591 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-main.tex 6d108d191be9068a084768257b09eff6 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Wong.tex 3db2fbfceb25f235c2672b7c9492b16a 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Gray.tex 38e0e1e384f9adb753496668dc849210 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Dyck.tex a7bb9fe59a1a77be3a447d3b8bc063f6 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Levi.tex 7b0a2cb4f43af4885e313745b3c2610f 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Balaban.tex 3da33c723dc928fccc932402f7bad8b6 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Cage.tex 2e569eb45cf4535cb8d1d2ac3d7d9688 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Tutte.tex c87ae309023f9d0a42ef1bd2bc7a0eb7 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Harries.tex 202930091d7bddf1816c6f33edad04f3 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Doyle.tex a911b44c8d894b001039b3351a5954fc 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Nauru.tex 28a94df5c23a3bff8b918177cd4f6b03 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Crown.tex 4de82df9d66788aed2db06d3ae7262f2 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Koenisberg.tex 4017b371b9515a6ecfbac23089b1dc7d 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Robertson.tex fa2c83e68d4208d3a7b49365ff88cb46 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Foster.tex 5d47e157b9642382bb890fee53e32c04 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Petersen.tex 689f9500f3fa2a04c53068ef45478465 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/NamedGraphs-Heawood.tex e358d25a1e6d8db333a142817454270b 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/doc/latex/namedg.ist 69b8c1c8cfb0ab613b809969a603fad9 1307380634
+dir /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples
+dir /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-7-3-0.tex a7f3c77888f1389e20f35813313e90ee 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-7-1-0.tex aa66aff3f866eed0c776e1727f1fbc45 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-26-11-0.tex 20c5fcb7e333bbc9704592b1626d7b8c 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-25-9-0.tex e0fad499a1a4026d1787c0913b0df7a2 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-26-14-0.tex f9d35674c8d7fa173645b0a10e077770 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-1-1-0.tex 72f5c59bd134f6d6b6a089dd7dee0794 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-25-8-0.tex d626079f5ca43593d1810a3c0f546b5b 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-21-0-0.tex 854baf0ab047bc1e27d168f83e01065a 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-7-2-0.tex a27ff595ecc1e8d1f5c98258e783c2f1 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-7-5-0.tex 0ee317324c20c76577943779da1fa525 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-10-1-0.tex cd05c5612e5a0125e0f98a50abf99bdf 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-25-7-0.tex addaeaf765ef925caecf67f10b8ddc1b 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-27-1-0.tex efbd351f3e7a8464e8c781c0e8b64780 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-21-1-0.tex 71b51f7a990dc876d2558f359f2b88cb 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-11-3-0.tex 5e20106b5d89f5f772a92b8fb03eff70 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-18-1-0.tex 185f0353256bd7dc46ffcde05b2b8695 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-15-3-0.tex 35dd7b62103588f9b22fbe9b0f70783e 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-22-2-0.tex 4e94d3c8b7c3308329835bb9eaac65ce 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-15-1-0.tex 6f63a3607258161fcb488903d56fc4d1 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-16-0-0.tex d938096ae0a2e2f663c9aa39f653e1d3 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-11-4-0.tex 6e89c24487593664bc84c9663a5bd7f8 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-11-2-0.tex 5a49e4ef3047b48040ea88c69655bc77 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-26-6-0.tex a40a6ae5005c9d7e42072bf0420c1974 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-22-1-0.tex 8f56015c98402b61ecbb36474bc5a825 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-27-2-0.tex 45b54ce86089988c3ce3cd309678704e 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-17-2-0.tex c1421d21d0d66c4c60596f664d7267a7 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-24-3-0.tex 84170e869fb15c9d4030826df93deeec 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-2-2-0.tex 9940dd31d0534a4b67cb9d79facd4007 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-12-3-0.tex e72423f9928977e06ce6088c862c7331 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-26-1-0.tex 82ee313510e0a1aea3d7dc0e74a50ef4 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-25-1-0.tex 2a126267bb7166e4b0b9aadefa98eb99 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-11-1-0.tex ea44b8acfa8d00396e87283e3b97ed21 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-3-1-0.tex 4aa284262ff9eb009a9209c95cf32248 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-13-4-0.tex db44b709524771defd69d04518769932 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-13-3-0.tex 5044d4387811a38a93a983f30b83a556 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-18-2-0.tex 5e2a43315bfe0b494a2e47219ecf6569 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-27-4-0.tex e56a32213a06724bb7a9dcda39a3c394 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-20-1-0.tex c29fca3e460d067191ffb8b6fe006270 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-25-6-0.tex be4be165953ca7da05d43a4359f949f2 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-22-3-0.tex c789800ab91ec3a0d02c05edc206a43c 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-2-1-0.tex 5b1515b3bb590f5064b9463505cca185 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-26-12-0.tex 56d9feb2be11e66a020286d833812c4d 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-8-1-0.tex 4b4e1fd9ca318aa3dfa895d7d1a2b96e 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-26-5-0.tex 321462860d258ceede48743857e8eb30 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-24-1-0.tex 0eda6a7ecdb5534cfb3f765ebb8f1ef4 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-2-4-0.tex 73b8940071460980131c0baaa9fddd62 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-23-6-0.tex 6b605f22aac8a4ffdd4535908a17ead5 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-23-7-0.tex d10991385e4348f2ae375cf79bbecdc1 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-3-2-0.tex 39e3aa0a508970aa396d44ba8f96fbe4 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-17-1-0.tex bf435237dbedfac83efeeebc70406956 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-23-2-0.tex 2674a90d6d08b87ad8ee68a0154cf9e2 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-26-9-0.tex 29caf1cf67a9fd258c6217cc3a75bc95 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-8-3-0.tex 24b3ead26ab6dca8ea2bd24b89ff8fbe 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-21-2-0.tex d1d97542abe0bf240d98100fde6f49ad 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-25-5-0.tex 47e5383865454249a07f4e7f316369f7 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-14-1-0.tex 1d00faba2f130ec0524480410bebfa10 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-25-2-0.tex 725d42cc5bdb188acf59f4a4d8bd34e5 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-25-3-0.tex 650b2d4a4a8363751229ca62c6ef0896 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-23-5-0.tex 3547e601bf5555e9b4114696662a9db7 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-26-10-0.tex ec5500dee1b06afbe6464c6859b6fa39 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-12-1-0.tex 5f3d41ba4749b63232b4a926f259ff26 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-26-3-0.tex fa7b893ffd2e550c9454771bef532837 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-28-1-0.tex f10eaa8471ca0063adcee0df87e283fe 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-9-1-0.tex 6269ced74009ac4e631550cfbccc92cf 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-23-4-0.tex a3d3b5ef471fe743f89542bcaa0f7fa0 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-2-3-0.tex 2013e7ca1e0e54829fe45fbcf1adce0d 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-20-2-0.tex 90d940572690337bc062b10bcaecd059 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-17-3-0.tex 9c57fb44337f16481f86e79876ae8ecc 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-29-1-0.tex 2dc3496c137cbff2fa898c4415d2df85 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-27-3-0.tex 788020805c68de33385f9b2243e865c5 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-25-4-0.tex 36452bff4052f25335bc73e7a4370da0 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-26-7-0.tex 046d1d341ad4bc6026bee78bce7b51aa 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-9-2-0.tex 3bec4a7c8f22b70ee444f3367d2d3509 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-23-1-0.tex 5867462adb1065deeefb5e2032c33a4c 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-19-1-0.tex c607c1cd79812e9f2c683c6c73a6aa1e 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-13-2-0.tex 61dddfaabc5e0e9bc39087fe6bf80742 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-24-2-0.tex b4e88e50f4997d96abccf3398362ae38 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-26-4-0.tex cb58abe33be3e438ee412586ac7ed746 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-15-2-0.tex 4d956c0e3593d1e8a1c2d1cdb0633174 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-8-2-0.tex 5abaebeeae5510bcd940a4e11038fe7c 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-12-4-0.tex f8a28214d6aae0d776e873c8e72ece34 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-7-4-0.tex d17fac2cf8cb13b9f28b8db9a884291f 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-23-3-0.tex 09d1ad767305e3ea4917ae0658d28780 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-6-2-0.tex 46e9182aaa0e76e79e3b100df6c8ec3d 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-12-2-0.tex ca97cace2adf84080f2bd638166f9325 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-6-1-0.tex 2cb42e1639a4575fdea29d6b101d7156 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-26-8-0.tex 6888882d3f5c3b46cfb0a3cd6031d16f 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-26-2-0.tex 9f8cf964465dbe0821a0567f03589843 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-4-0-0.tex 177106bc0596b7da423289a0c4c64a60 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-26-13-0.tex 814a44a79e911df5e16853751fcebf3d 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-13-1-0.tex b6595389d431379dc95524191b6feabd 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-1-2-0.tex 20a16a18ad89df1df1382740e32eaa79 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-1-3-0.tex 8b34111085d72b7e6ff2393ab84ee1a5 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-3-3-0.tex 54f4aca2c2b23740869482481a6cb7a9 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/latex/tkzNamed-10-2-0.tex bc3a2780269b72a2b3638b2e73b8dfac 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/NamedGraphs/examples/tkzpreamblenamed.ltx 2d353bfd6dc0aa25eaaee040871c5774 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/tkz-berge-screen.pdf 2d36254ef974d2068eaca9c0abc23ea9 1307380634
+dir /usr/share/texmf-dist/doc/latex/tkz-berge/examples
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/grWheel.pdf 18fd2f289c8e03ee9b48809715f1bdb0 1307380634
+dir /usr/share/texmf-dist/doc/latex/tkz-berge/examples/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/latex/grExtraChords.tex f765a7a06c30cce87d659d5e67786b34 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/latex/hypercube_simple.tex 64700cf52de3e6d84768a7e778944f2a 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/latex/hypercubed.tex bf8a8cd62704c9e6ec340836f3a07fcf 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/latex/grStar.tex de87966f97fd5dd45c494d585d24f4d7 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/latex/gr-Complet-16.tex 8dc64eae186ab06f88a1528811086b79 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/latex/Grid.tex 180b647621717845b3aefeaa3adea41d 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/latex/grDoubleMod.tex a2087279e11655f29219cbca74134448 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/latex/gr-edgeingraphmodloop.tex 8485a842c0c22a63845d41dd6d122ed5 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/latex/grWheel.tex e6f20cb27a546f5cf881793ba6ca3757 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/latex/gr-Circulant.tex a9869614b6240c38a6370a175d022ac0 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/latex/grCLadder.tex bb2ec2e2d772bacc0ce1fbcc0bdbd694 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/latex/grLadder.tex 7487978bde5ae6a5104563bc5cc10ca1 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/latex/grSQCycle.tex 7ff838caaf4b1771f8664e11b9437b64 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/grDoubleMod.pdf 4a82a578806d092bd9b88d874ea6218f 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/gr-Circulant.pdf fbaa0d440c37ee53223001040b50ba57 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/grLadder.pdf 90b81d9ec23c7baa3b8e075873e0f01d 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/grCLadder.pdf 3be7d4b0efa56ede20e7a6c9030831e8 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/hypercube_simple.pdf daeaf795bb701528b8ce7455eb50b18f 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/gr-edgeingraphmodloop.pdf eaef8e11b36bff6c52949eaafd48b02f 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/grStar.pdf 73ec4664735e3b75297eafbfc22ac11b 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/Grid.pdf b70fd3df876934f8743f6d5b31bbd800 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/hypercube.pdf 11fe10086b84f843802efa0714f05213 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/hypercubed.pdf c7e7f3c34e6ab099392665a616434651 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/gr-Complet-16.pdf abf810b38c38466de28f53e28d9f9c6f 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/grSQCycle.pdf d6a40dfb3cf3c8e96b3a06044499a083 1307380634
+obj /usr/share/texmf-dist/doc/latex/tkz-berge/examples/grExtraChords.pdf d87fae30d4cb8bb55d1fb2d490cb83e4 1307380634
+dir /usr/share/texmf-dist/doc/latex/tkz-tab
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/tkz-tab-screen.pdf 19742aa972bdb8f9fac363d04437b9c1 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/README 6b9fbe8460f01a67ed2d09ef79313fe6 1307380758
+dir /usr/share/texmf-dist/doc/latex/tkz-tab/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab.ist efc63e7989204c5e9e89aa57fff6789d 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-adapt.tex 60ec60f6d91950a621c586698537f730 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-tangente.tex 84de2e6914ff9bc0c4c0ae2a1e5c36e0 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-install.tex 7560d3f01a5df2dc626a9e69094c70be 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-slope.tex 9254ad2c062fe6bdcd80fb553160119a 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-image.tex 2533c251033a3419aebec7882f9e9de2 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-examples.tex ee5bdc60f028203dc713cba45162c398 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZ-doc-tab-faq.tex eadb66ccf42edb6e5de53df4409821fb 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-style.tex 1cb853b82ee6bf29da4dedc6966e3ef8 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-main.tex e9b9b18b6318fe4af0a810aed1f93d72 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-valeurs.tex 1a230901078fcd734d6fe4eda7b9c6fa 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-tv.tex 41e9b8e22338313ec556e5eea2e5750d 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-bac.tex a5b96d711d457a41f3609057738e9f58 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-variation.tex 594cd968c47c5bf592a00d75abb6aed3 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-sign.tex 5a8df0f9bc90b78d1cf527ef616fa98e 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/latex/TKZdoc-tab-init.tex a7d3c6ce127162a3d789a1e8da059dab 1307380758
+obj /usr/share/texmf-dist/doc/latex/tkz-tab/readme-us.txt c5a83baad98b73cfedf8301b209ec45e 1307380758
+dir /usr/share/texmf-dist/doc/latex/pxpgfmark
+obj /usr/share/texmf-dist/doc/latex/pxpgfmark/README 3b51fc1c95eb7de4fb33149b18b34e75 1367531606
+obj /usr/share/texmf-dist/doc/latex/pxpgfmark/LICENSE ee5f40702465dd383541051a33c769b0 1367531606
+dir /usr/share/texmf-dist/doc/latex/tikz-cd
+obj /usr/share/texmf-dist/doc/latex/tikz-cd/README 75d246f976af36dec3222b97f2ced6e6 1393811092
+obj /usr/share/texmf-dist/doc/latex/tikz-cd/tikz-cd-doc.tex 5251ebb54d6ea109d7413a110a35379b 1394323950
+obj /usr/share/texmf-dist/doc/latex/tikz-cd/tikz-cd-doc.pdf 7b1c0a2b2b78ae62c7665fdacfefe8f2 1394323950
+dir /usr/share/texmf-dist/doc/latex/curves
+obj /usr/share/texmf-dist/doc/latex/curves/README aeab276e8aa51bde3651d23154a1dc8c 1252001221
+obj /usr/share/texmf-dist/doc/latex/curves/curves.pdf 8486c5a72bd7b86bbd3351dd792aa137 1252001221
+obj /usr/share/texmf-dist/doc/latex/curves/latex2pdf cb904536650a3b25edef9d046dc110d7 1252001221
+dir /usr/share/texmf-dist/doc/latex/dottex
+obj /usr/share/texmf-dist/doc/latex/dottex/README faec181ede470f6747dcbd9ab7935de3 1136767480
+obj /usr/share/texmf-dist/doc/latex/dottex/dottex.pdf 2a879a9003291d4704ede2acb7520dce 1243719999
+obj /usr/share/texmf-dist/doc/latex/dottex/gpl.txt b6e1ee92c201966e3ca98bfb5d898d86 1136767480
+obj /usr/share/texmf-dist/doc/latex/dottex/example.tex a4c91ae9d04c6c2f87bf592db2d9dfeb 1159951381
+dir /usr/share/texmf-dist/doc/latex/tikz-dependency
+obj /usr/share/texmf-dist/doc/latex/tikz-dependency/README 15c0b5bde26426284a8f8c26e212d211 1327013291
+obj /usr/share/texmf-dist/doc/latex/tikz-dependency/pgfmanual.code.tex 05abbe56b01b4d58b315b6a5ad9583df 1322612570
+obj /usr/share/texmf-dist/doc/latex/tikz-dependency/tikz-dependency-doc.tex 131134a012836a9869cc7aeea8a543a1 1327013291
+obj /usr/share/texmf-dist/doc/latex/tikz-dependency/pgfmanual.pdflinks.code.tex 79af61666578f947e5d9175ca9d381b9 1322612570
+obj /usr/share/texmf-dist/doc/latex/tikz-dependency/LICENSE c201bc33ca49a849d1c9e177fcd1a12c 1322612570
+obj /usr/share/texmf-dist/doc/latex/tikz-dependency/VERSION d39d8df974f8d45e3d23499dc20ea763 1327013291
+obj /usr/share/texmf-dist/doc/latex/tikz-dependency/pgfmanual-en-macros.tex f25f975922f524ca82ab61523caea902 1322612570
+obj /usr/share/texmf-dist/doc/latex/tikz-dependency/pgfmanual.prettyprinter.code.tex bb1a6da23c0c2556f624800ac76f89a3 1322612570
+obj /usr/share/texmf-dist/doc/latex/tikz-dependency/AUTHORS 6884fb9aa2b118d1871e4530395e4177 1322523857
+obj /usr/share/texmf-dist/doc/latex/tikz-dependency/tikz-dependency-doc.pdf b87516a8190c7bf60dd6f0f2e1db8e04 1327013291
+dir /usr/share/texmf-dist/doc/latex/tikz-3dplot
+obj /usr/share/texmf-dist/doc/latex/tikz-3dplot/CHANGELOG 3903cb4b01c6df8ff852c877d26d8610 1298935655
+obj /usr/share/texmf-dist/doc/latex/tikz-3dplot/README 2dadf36c85692ca8e0a2b42b09ba8475 1271204813
+obj /usr/share/texmf-dist/doc/latex/tikz-3dplot/externalize_images.bat fa1384a28031d8cd816523bfd823106a 1326410233
+obj /usr/share/texmf-dist/doc/latex/tikz-3dplot/tikz-3dplot_documentation.pdf 8c567f8661c837a968b1979a695d2c94 1326410233
+obj /usr/share/texmf-dist/doc/latex/tikz-3dplot/tikz-3dplot_documentation.tex 936c1537f542ad709efc8b574192dd00 1326410233
+obj /usr/share/texmf-dist/doc/latex/tikz-3dplot/tikz-3dplot_documentation_figures.tex d3d3060c9b91fb96d890f0e49245e645 1326410233
+dir /usr/share/texmf-dist/doc/latex/here
+obj /usr/share/texmf-dist/doc/latex/here/README c6db926efdfb32c2eb1714ec5c97f093 1258935436
+dir /usr/share/texmf-dist/doc/latex/gradientframe
+obj /usr/share/texmf-dist/doc/latex/gradientframe/README 0d4e3495a6646289fb005b23c2ee83ad 1297639779
+obj /usr/share/texmf-dist/doc/latex/gradientframe/gradientframe.pdf 5630eb0274abecb690d51da34328b7b9 1297639779
+dir /usr/share/texmf-dist/doc/latex/tikz-timing
+obj /usr/share/texmf-dist/doc/latex/tikz-timing/README 4e7cbba6979a81c869a6049ef5d80661 1260493416
+obj /usr/share/texmf-dist/doc/latex/tikz-timing/tikz-timing.pdf 236d2546eb52419d91d67b774792623a 1294706267
+dir /usr/share/texmf-dist/doc/latex/tikz-bayesnet
+obj /usr/share/texmf-dist/doc/latex/tikz-bayesnet/model_pca2.tex 4a7f20b8b85c534c3be51b155567ae62 1366844625
+obj /usr/share/texmf-dist/doc/latex/tikz-bayesnet/tikzlibrarybayesnet.code.tex 23e335ca3e5456a9bff222d6ae8bbb92 1366844625
+obj /usr/share/texmf-dist/doc/latex/tikz-bayesnet/model_pca.tex d255b01c989060802c70699828270b6c 1366844625
+obj /usr/share/texmf-dist/doc/latex/tikz-bayesnet/model_lda.tex 5f987a4b9acd545f81925057e2e0234b 1366844625
+obj /usr/share/texmf-dist/doc/latex/tikz-bayesnet/LICENSE_LPPL 9f4337828d782bdea41f03dd2ad1b808 1366844625
+obj /usr/share/texmf-dist/doc/latex/tikz-bayesnet/README.rst 1b8a04afbdd24336079078375f14b635 1366844625
+obj /usr/share/texmf-dist/doc/latex/tikz-bayesnet/model_citation_influence.tex a38f8f838ea01f4cbf08e5358717a9c4 1366844625
+obj /usr/share/texmf-dist/doc/latex/tikz-bayesnet/example.tex b1b3a9be57ba958bef501c8b004b0534 1366844625
+obj /usr/share/texmf-dist/doc/latex/tikz-bayesnet/LICENSE_GPL d32239bcb673463ab874e80d47fae504 1366844625
+dir /usr/share/texmf-dist/doc/latex/qrcode
+obj /usr/share/texmf-dist/doc/latex/qrcode/README 08485e0f1a945a3397a04e4eee67d5f4 1411763249
+obj /usr/share/texmf-dist/doc/latex/qrcode/qrcode.pdf 539cd02840a714dd61f7efd3c5005cd0 1411763249
+dir /usr/share/texmf-dist/doc/latex/flowchart
+obj /usr/share/texmf-dist/doc/latex/flowchart/README a8ebda23e65231a0be452c57dc45f189 1361231012
+obj /usr/share/texmf-dist/doc/latex/flowchart/flowchart.pdf 6e0e69af96d8d1d80dcc11efef80bd2d 1361231012
+dir /usr/share/texmf-dist/doc/latex/tikz-opm
+obj /usr/share/texmf-dist/doc/latex/tikz-opm/README 69524993fb3a1e9464e80aec52ada54a 1390518361
+obj /usr/share/texmf-dist/doc/latex/tikz-opm/tikz-opm.pdf cae04ecaf8f38be9fd9ffdb340f56e1e 1390518361
+dir /usr/share/texmf-dist/doc/latex/lapdf
+obj /usr/share/texmf-dist/doc/latex/lapdf/rcircle.pdf a3df1aa1d15e2d04ebc052a3d871150e 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/colors.tex b0f5cb36a4605bb01d3b88722c4db462 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/rational.tex 1e36d88b46abdd075c71ca64c445a9fb 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/drawing.tex 8affaee19212f80e5e6bcdb8d99f5302 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/ellipse.tex 85a30d0d30af824f97c0ece11db08d23 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/README 61c8a0298d7920e388ff1006269183d8 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/vector.pdf bff823ca6d0da1388a448d6c9452e8f4 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/rcircle.tex 94b60feb3e1459b07ae51a14e4345b24 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/roundtri.tex a9132b2ce1cd6f5e461b7587b1730ea4 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/grids.pdf c7faae272a48d055a59120a145eb48da 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/pplot.pdf 07f93e566cb634b9eed3d73c00b8c4cc 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/curve.tex 4d99016abe587f1a973ef52fd1461c18 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/curveto.tex 5ac582b436f1784d6aa556f354b22916 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/qcircle.pdf 37c4587248046ef42b592c13994944fa 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/conic.tex fc0feda36d8c4358b98fd8d8c77a304b 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/arcs.pdf 6db1501a45b0f37c0c8e936a777a06e6 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/bezinfo.tex d5b550d2cab8eb155a081a06e4619c55 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/geometry.pdf c603b56736c54804ab93166f88f19557 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/rcurve.tex f3191674ca8a50d9f45b48dfc8fbc45c 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/quartic.pdf 3c5a0821fcf4c193303a79508e444c4f 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/cfamily.pdf b3c143b2a56857a35f58b760805bc86c 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/turtle.tex 59f636395de3483d0607e1f94f95ef84 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/conic.pdf 0e0d28fdbc066885e04fe282985c67f5 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/circle.tex 2bda9b74cdfc0785f923e64a81ae4f26 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/cfamily.tex 93e718ed6303fb3a7b520e97a24874ff 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/line.tex 3fbc01b49c6fffcdffcf24921334e7b0 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/chrysant.pdf 74e9032f58924db9c4e89b216d46f2a6 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/polygon.tex ab9e2233a23bf11bb2e58cd78936f4c6 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/buttrfly.pdf 6b96d2e43a0fbb5ab24a04085aebf842 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/superell.tex 84c0ad280a73cf3359d9a31b34bcec8e 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/fplot.pdf 542d470918215047f12423c3ec7e4475 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/lapdf.tex a8a7ee22ad475051e2ad61379f463453 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/trochoid.tex 6731f6b133caa1028400bb8cba12bed6 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/rational.pdf 756349172156146d3ead531de2d7b1a8 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/turtle.pdf cf266cd93d3608e0ea8fd2873d2ca598 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/polynom.pdf 9b80baf9e58779c55e03f889e91df656 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/roundtri.pdf 21dcc7e43f8d7c33414df88b4628d378 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/cycloid.pdf e6d984dc6bb94f928731de2b21d1a0da 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/curveto.pdf f3949899844caee28beb96f311adaef5 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/recttria.tex b350c6410f387488d1d1de2ccbb4b972 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/quartic.tex 2d815819e790a2d343a5c2e69475c0db 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/qcircle.tex bf98f78e17abd04e690566043e024867 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/recttria.pdf f4d5bc3b6c38caa16761a7a0fc38e232 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/drawing.pdf 811b4bbb7d6fe8d477f5383a38a21f51 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/bezier.pdf a416973cb2ef976fbf59a30bf6d05835 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/curve.pdf 475ad4b79a91c40c16f65e7cf17caf09 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/cycloid.tex 7593526c5dd8c3ffd7d6e8ea8b2efd66 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/chrysant.tex 28e60ec7624075da2f76df4155ee8361 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/licence.txt b11747a987a6a64cdcab51f6cb2e01d5 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/preamble.tex 4fc8a308d5ef2cd7f58fc1618495fb82 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/trochoid.pdf 7b1682169982eec0520585ee7d64c1af 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/pplot.tex acef6893868aad8b7a05692995fb8c68 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/buttrfly.tex 51f46dc9671cefc65438d296ab2f65a0 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/hippo.tex 6280df92d9ced5f3fdb5d4bda10760ab 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/geometry.tex 3d797a25d6ea7ec47820ed8fa3990b90 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/tplot.pdf e70135eda93f68eeb1ea2b05d14527c3 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/arcs.tex 0ee62d541768ed0e6ec7709673a8b8b7 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/superell.pdf fe442de3b864c599d78259689e6a2959 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/polygon.pdf c501be2e1c2972ef8bc8533b91400128 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/rparams.pdf f2cb28503bf83703467e674f316d0e1e 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/fplot.tex 93bba5fc3d8c13bd8b74d6e4f1e3f55a 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/circle.pdf 3380270e384a86064a6b8495c5f1f72a 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/line.pdf 5856a1253fedacd62ffe123799989408 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/vector.tex cd371c84e781041a070bb57575986ed3 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/pythagor.pdf 610381d1846b23d71bee81225000dfff 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/hippo.pdf a80d205374066a0f019723403cb93998 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/pythagor.tex 75d0968ef4e669858fa8dacc4c37c563 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/colors.pdf f37b1269ccb953a0b9cfe5a527a03a38 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/rparams.tex 9324ce569d6e9be4c1ae54fa569191ba 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/grids.tex 8a8699e6abe984234abfc15aff078d5f 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/ellipse.pdf d827a9dea47c05c08c7fc1819285f7e9 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/bezier.tex 13fbccc8208c24eee0329bcb16646284 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/lapdf.pdf e5d3c9cab456474f4dd136d558f1f31d 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/rcurve.pdf ec906dd5507f48cffc4991c5c8135acf 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/bezinfo.pdf f9492cf9515d0ac85d604ce3d3c70e2e 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/polynom.tex ab6c68bfd6d5a3b7e977cbd7a0dfacd4 1315154148
+obj /usr/share/texmf-dist/doc/latex/lapdf/tplot.tex a1b3085eda6918ff705a3fa6820da0ad 1315154148
+dir /usr/share/texmf-dist/doc/latex/tikzinclude
+obj /usr/share/texmf-dist/doc/latex/tikzinclude/README 749238086d4858a4adc997efb690bc59 1357255937
+obj /usr/share/texmf-dist/doc/latex/tikzinclude/tikzinclude.pdf ce08b508af12af37f909b3260b4c1f7e 1357255937
+dir /usr/share/texmf-dist/doc/latex/tikz-qtree
+obj /usr/share/texmf-dist/doc/latex/tikz-qtree/README 8f92dedffca4f632258161d3cfe69d91 1335224017
+obj /usr/share/texmf-dist/doc/latex/tikz-qtree/tikz-qtree-manual.pdf 8488b372f5fbf5a912b9c0dfa9506e47 1335224017
+obj /usr/share/texmf-dist/doc/latex/tikz-qtree/tikz-qtree-manual.tex 130140522daf89c15b7f507798b9cb99 1335224017
+dir /usr/share/texmf-dist/doc/latex/productbox
+obj /usr/share/texmf-dist/doc/latex/productbox/Makefile edcdaecbe4bc31f7c9e0df286f4bee7e 1293752511
+obj /usr/share/texmf-dist/doc/latex/productbox/README 3b53b7712df45b5637125b136e20e6d8 1293752511
+obj /usr/share/texmf-dist/doc/latex/productbox/productbox.pdf c91c4dc6a2a6a5d75fb8a7508c84142a 1293752511
+obj /usr/share/texmf-dist/doc/latex/productbox/productbox.bib accf6116a8f90980f4563d402c5b1fc3 1293752511
+dir /usr/share/texmf-dist/doc/latex/miniplot
+obj /usr/share/texmf-dist/doc/latex/miniplot/miniplot.pdf bf7d0406b5a314febbfd555aa082ff94 1268872534
+obj /usr/share/texmf-dist/doc/latex/miniplot/disclaimer.txt ca398f8e787e9b0ba7b8c580d5280e07 1136767747
+obj /usr/share/texmf-dist/doc/latex/miniplot/miniplot.tex 69992555b0fb51949bfae57d83b2889c 1268872534
+obj /usr/share/texmf-dist/doc/latex/miniplot/documentation.zip 53558ffbc50c07380546932592c082de 1268872534
+dir /usr/share/texmf-dist/doc/latex/knittingpattern
+obj /usr/share/texmf-dist/doc/latex/knittingpattern/template.tex 27270f96232c8567331a8ba602c8cdd6 1267144763
+obj /usr/share/texmf-dist/doc/latex/knittingpattern/lion.png 91c21bb3df33b91fc2c62126c31a218b 1267144763
+obj /usr/share/texmf-dist/doc/latex/knittingpattern/README 6c9f0176140c056236ee0b4926c6c7aa 1267144763
+obj /usr/share/texmf-dist/doc/latex/knittingpattern/introduction.pdf 6f0d9a34f76f5f8d81167b295d1d67d4 1267144763
+obj /usr/share/texmf-dist/doc/latex/knittingpattern/template.pdf bb1895d308d87de4413545c4053325b5 1267144763
+obj /usr/share/texmf-dist/doc/latex/knittingpattern/introduction.tex b61a1a0ab85c3121e7a3eb01d877dcfc 1267144763
+dir /usr/share/texmf-dist/doc/latex/venndiagram
+obj /usr/share/texmf-dist/doc/latex/venndiagram/README 6ae96cc9a7170717e6589f4537b1268a 1351121303
+obj /usr/share/texmf-dist/doc/latex/venndiagram/INSTALL fa1a2814777c5a45685ba3a86a8c71c6 1351121303
+obj /usr/share/texmf-dist/doc/latex/venndiagram/CHANGES 403db9076d5abb8b2f58c7c334311423 1351121303
+obj /usr/share/texmf-dist/doc/latex/venndiagram/venndiagram.pdf d21f4a772be2f602808232ffea2ee4c0 1351121303
+dir /usr/share/texmf-dist/doc/latex/venndiagram/samples
+obj /usr/share/texmf-dist/doc/latex/venndiagram/samples/venn-sample.tex 015198ec5b1129409926030d00fa231a 1351121303
+obj /usr/share/texmf-dist/doc/latex/venndiagram/samples/venn-sample.pdf a9f0a88048479c412c1122af77dfb68e 1351121303
+dir /usr/share/texmf-dist/doc/latex/pgfopts
+obj /usr/share/texmf-dist/doc/latex/pgfopts/README d70a13ebae6eeb421ba387ecc64ad4ff 1405118212
+obj /usr/share/texmf-dist/doc/latex/pgfopts/LICENSE 9b456d488799a3a6e5098ff1f936b1c3 1405118212
+obj /usr/share/texmf-dist/doc/latex/pgfopts/pgfopts.pdf f6fd5e2d3169cd0af1697662cf8b59c2 1405118212
+dir /usr/share/texmf-dist/doc/latex/tkz-orm
+obj /usr/share/texmf-dist/doc/latex/tkz-orm/Makefile 8c2540d6643c98bc0f6f8b0c651395b9 1264641713
+obj /usr/share/texmf-dist/doc/latex/tkz-orm/README 18eb3aa953a4730f7f6f32048c141dfa 1264641713
+obj /usr/share/texmf-dist/doc/latex/tkz-orm/tkz-orm.tex 470cadb5d25cb26698f06b53278404df 1264641713
+obj /usr/share/texmf-dist/doc/latex/tkz-orm/LICENSE 43beea2a12872735bad1588af434072d 1264641713
+obj /usr/share/texmf-dist/doc/latex/tkz-orm/tkz-orm.pdf 4f970c63a993bb3a756d1038504d9030 1264641713
+obj /usr/share/texmf-dist/doc/latex/tkz-orm/tkz-orm.bib 5a30dc5c89c793e93f82ce3842c74f50 1264641713
+obj /usr/share/texmf-dist/doc/latex/tkz-orm/pgfmanualstyle.sty 0034c0934f1ef00d942fd3a6895f748e 1264641713
+dir /usr/share/texmf-dist/doc/latex/cachepic
+obj /usr/share/texmf-dist/doc/latex/cachepic/cachepic.tex 623b1376000e8c9cf663e5a6b77acf73 1254183430
+obj /usr/share/texmf-dist/doc/latex/cachepic/README c37723dd77261126ee2a4ff3a481fb91 1254183430
+obj /usr/share/texmf-dist/doc/latex/cachepic/cachepic.pdf d86e53a8d822d12cc17670c1ecde60c3 1255040724
+dir /usr/share/texmf-dist/doc/latex/pgfgantt
+obj /usr/share/texmf-dist/doc/latex/pgfgantt/README 00434f9689aa0095effc8ebb7e856681 1372520282
+obj /usr/share/texmf-dist/doc/latex/pgfgantt/pgfgantt.pdf ea3911437e08b2ba0015e5455ac2b1c4 1372520282
+dir /usr/share/texmf-dist/doc/latex/sa-tikz
+obj /usr/share/texmf-dist/doc/latex/sa-tikz/README f41bca266353bbd3a375fb06ba5342f3 1391035080
+obj /usr/share/texmf-dist/doc/latex/sa-tikz/sa-tikz-doc.pdf 2cf2f43aace8dd5567033d18339cad70 1391035080
+obj /usr/share/texmf-dist/doc/latex/sa-tikz/sa-tikz-doc.tex 611118dca96fe4eadceb891aa8303d27 1391035080
+obj /usr/share/texmf-dist/doc/latex/sa-tikz/pgfmanual-en-macros.tex f072207dbdb880cbc0043045bc4261e5 1390689744
+dir /usr/share/texmf-dist/doc/latex/prerex
+obj /usr/share/texmf-dist/doc/latex/prerex/chart.tex 616b49017d6b73fbf73f6a3da18f6fa6 1345676839
+obj /usr/share/texmf-dist/doc/latex/prerex/chart.pdf bb51bb516f2a854c7b6b30bccd782de4 1395612745
+obj /usr/share/texmf-dist/doc/latex/prerex/introFonts.png c1ab599b178acc0f9fc93d3393bfb950 1393737860
+obj /usr/share/texmf-dist/doc/latex/prerex/README 0528b611820fc3bd41fce2e759ae57bc 1398289017
+obj /usr/share/texmf-dist/doc/latex/prerex/introchart2.tex cf157eec5b190f45fb6428be7ba74ff0 1393737860
+obj /usr/share/texmf-dist/doc/latex/prerex/prerex.tex 4822c2cd2ddad82fc5fcd846588d8adc 1398289017
+obj /usr/share/texmf-dist/doc/latex/prerex/prerex-6.5.3.tar.gz 1488b749702809e02d29cdf854f61484 1398289017
+obj /usr/share/texmf-dist/doc/latex/prerex/vprerex-6.4.2.tar.gz 780166620d6b6ce19ff10e098954a9d0 1381789608
+obj /usr/share/texmf-dist/doc/latex/prerex/introchart1.tex d4f9752d25d4cab67bb9e1a4f6e2312e 1393737860
+obj /usr/share/texmf-dist/doc/latex/prerex/intro.pdf 21a0354e050741bed7044a3dc819437d 1398289017
+obj /usr/share/texmf-dist/doc/latex/prerex/prerex.sty.7 b382f8e2dd3c73efa592cea0228fa565 1398205494
+obj /usr/share/texmf-dist/doc/latex/prerex/intro.tex 7ec9fd36aa8f14bc49e6d0993264da4a 1398289017
+obj /usr/share/texmf-dist/doc/latex/prerex/prerex.pdf 606e775a21b3f277178c66b5708d1839 1398289017
+obj /usr/share/texmf-dist/doc/latex/prerex/prerex.sty.7.pdf c96e3f6300a37136e3adf41bac8411f5 1398205494
+obj /usr/share/texmf-dist/doc/latex/prerex/chart.svg adbb2618ff8fdf15affa5f58c295d065 1398289017
+dir /usr/share/texmf-dist/doc/latex/neuralnetwork
+dir /usr/share/texmf-dist/doc/latex/neuralnetwork/examples
+obj /usr/share/texmf-dist/doc/latex/neuralnetwork/examples/xor.pdf 3421b313f877663d75bbdc08ebcdbdb4 1377123149
+obj /usr/share/texmf-dist/doc/latex/neuralnetwork/examples/xor.tex 72c04d5b9752ddff215557b81c90eb0a 1377123149
+obj /usr/share/texmf-dist/doc/latex/neuralnetwork/examples/neuralnetwork.pdf 8263040ecef158eaefa1b6b3150e6bc2 1377123149
+obj /usr/share/texmf-dist/doc/latex/neuralnetwork/examples/neuralnetwork.tex d13785f8bbc2334d3bc8ad0202850d3b 1377123149
+obj /usr/share/texmf-dist/doc/latex/neuralnetwork/examples/neural-networks-ebook.pdf 117da4ecd68b11389f46cb64133ed04d 1377123149
+dir /usr/share/texmf-dist/doc/latex/bxeepic
+obj /usr/share/texmf-dist/doc/latex/bxeepic/README 0d7045d91b5d6d30e07c1908274809f7 1368915346
+obj /usr/share/texmf-dist/doc/latex/bxeepic/sample-bxeepic.tex f1aca7bfa9fff81bf1ebd5a4cf29d8c1 1368915346
+obj /usr/share/texmf-dist/doc/latex/bxeepic/LICENSE 4a07062d7a6e1f0a968168b38ea73272 1368915346
+obj /usr/share/texmf-dist/doc/latex/bxeepic/sample-bxeepic.pdf da9f3f2559ee79e3443a007d322b45fa 1368915346
+dir /usr/share/texmf-dist/doc/latex/epspdfconversion
+obj /usr/share/texmf-dist/doc/latex/epspdfconversion/README 969812b09996a41c3978dba102a63d06 1275523471
+obj /usr/share/texmf-dist/doc/latex/epspdfconversion/epspdfconversion.pdf 872ac9137e78cb1d95383b132799460e 1275523471
+dir /usr/share/texmf-dist/doc/latex/epspdfconversion/example
+obj /usr/share/texmf-dist/doc/latex/epspdfconversion/example/optionstable.tex 781628cd17a6379b7b4eb42e4a2c913d 1275523471
+obj /usr/share/texmf-dist/doc/latex/epspdfconversion/example/epspdfconversion_docu.tex 3f8b59ccf901a2ae76a12a8d0ab38bcd 1275523471
+obj /usr/share/texmf-dist/doc/latex/epspdfconversion/example/image2.eps f6ba37c70cc6739dad2415d62ad56982 1252001070
+obj /usr/share/texmf-dist/doc/latex/epspdfconversion/example/image.eps f6ba37c70cc6739dad2415d62ad56982 1252001070
+dir /usr/share/texmf-dist/doc/latex/pgfplots
+obj /usr/share/texmf-dist/doc/latex/pgfplots/pgfplotstable.pdf bd05453316d7bd6199682bae25d834bd 1407365279
+obj /usr/share/texmf-dist/doc/latex/pgfplots/TeX-programming-notes.pdf a0a2f8872dd9649c2d1e5e25e26addfe 1407365279
+obj /usr/share/texmf-dist/doc/latex/pgfplots/pgfplotsexample.pdf e6f8622d54ffb9129ebacda6fcbd6bcb 1407365279
+obj /usr/share/texmf-dist/doc/latex/pgfplots/pgfplotstodo.pdf 761795bfd2bc517616fb19fe2d7a97ba 1407365279
+obj /usr/share/texmf-dist/doc/latex/pgfplots/pgfplots.pdf 597424f58af7f214580ec2fbb97e160f 1407365279
+obj /usr/share/texmf-dist/doc/latex/pgfplots/pgfplotsexample.tex ea9da35db3cc275bd138b36be1fc491b 1364427911
+obj /usr/share/texmf-dist/doc/latex/pgfplots/pgfplots.doc.src.tar.bz2 3e3599c021051cc3cd1e216fd8a07ff1 1407365279
+dir /usr/share/texmf-dist/doc/latex/tikzscale
+obj /usr/share/texmf-dist/doc/latex/tikzscale/tikzscale.pdf 3cdbced1ea3c6c472f0bcdf0193d0774 1369264263
+obj /usr/share/texmf-dist/doc/latex/tikzscale/README 9b1f846ce5a3ad8841a6810fcb5dc70f 1357774805
+obj /usr/share/texmf-dist/doc/latex/tikzscale/3Dplot.tikz da5554b525dff8b9ccd5eae01c913e2a 1369264263
+obj /usr/share/texmf-dist/doc/latex/tikzscale/pgfplots.randn.dat 329ccd8b67e9c24c213348b2c702fba4 1357774805
+obj /usr/share/texmf-dist/doc/latex/tikzscale/test-tikzscale.pdf d2725d58f42faba324365d91287b08c9 1369264263
+obj /usr/share/texmf-dist/doc/latex/tikzscale/tikzscale-beamer.tex c9d5752607d670aae0879230c2117db0 1363044062
+obj /usr/share/texmf-dist/doc/latex/tikzscale/visible.tikz cc7bc259755cd0e7d6aa7a30f3451f1d 1363044062
+obj /usr/share/texmf-dist/doc/latex/tikzscale/alt.tikz 8231e8236c5230cb139c7e88be742b20 1363044062
+obj /usr/share/texmf-dist/doc/latex/tikzscale/invisible.tikz 64dcf839422d731ca8ad83f8130d7d07 1363044062
+obj /usr/share/texmf-dist/doc/latex/tikzscale/testRectangle.tikz c4818d702378a25da0039a90db14607f 1351720049
+obj /usr/share/texmf-dist/doc/latex/tikzscale/histogramNormal.tikz 41716052b81249f60d53081f8da4deba 1359413545
+obj /usr/share/texmf-dist/doc/latex/tikzscale/testNode.tikz edfcbb5d0b70759e355fbb277084082b 1351720049
+obj /usr/share/texmf-dist/doc/latex/tikzscale/linewidth.tikz bd768cdc5da96b3ca043f522d33bbcc6 1357774805
+obj /usr/share/texmf-dist/doc/latex/tikzscale/pgfplots-test.tikz 64062bbf51018d0da86c0d167af002b9 1351720049
+obj /usr/share/texmf-dist/doc/latex/tikzscale/pause.tikz 262ae802180fcd13ca685cca64298fb4 1363044062
+obj /usr/share/texmf-dist/doc/latex/tikzscale/only.tikz bb393986717da6cadc3ed2df8ff35a7b 1363044062
+obj /usr/share/texmf-dist/doc/latex/tikzscale/uncover.tikz bc25a5c89a55f34dbd520b851722a7db 1363044062
+obj /usr/share/texmf-dist/doc/latex/tikzscale/temporal.tikz 33ab39566b5ee0d97a3709be55f758e5 1363044062
+obj /usr/share/texmf-dist/doc/latex/tikzscale/test-tikzscale.tex c2e3ab164a59f6c97dea2cff3ab6dd1d 1369264263
+obj /usr/share/texmf-dist/doc/latex/tikzscale/testgraphic2D.tikz 25a2bba596559437f670e94214a24516 1351720049
+obj /usr/share/texmf-dist/doc/latex/tikzscale/onslide.tikz 26c8b8a06434cf61c5a7be4c3d0c50c2 1363044062
+dir /usr/share/texmf-dist/doc/latex/tikz-inet
+obj /usr/share/texmf-dist/doc/latex/tikz-inet/README e7e0233aa715bbb3377941efbf16145d 1213834313
+obj /usr/share/texmf-dist/doc/latex/tikz-inet/tikz-inet-doc.pdf 16028d832811a05b47bcdc24e98cbfd9 1243719999
+obj /usr/share/texmf-dist/doc/latex/tikz-inet/tikz-inet-doc.tex a899f297dfd5234b75a62c14a28012f7 1213834313
+dir /usr/share/texmf-dist/doc/latex/rviewport
+obj /usr/share/texmf-dist/doc/latex/rviewport/Makefile cbca3ecf2554bd47d15e11788a82dbc7 1314576694
+obj /usr/share/texmf-dist/doc/latex/rviewport/vitruvian.jpg 5cc9109965f6554b03a8730b0e1f656c 1314576694
+obj /usr/share/texmf-dist/doc/latex/rviewport/README fa8fb838c44e1cf799758c067f2146bd 1314576694
+obj /usr/share/texmf-dist/doc/latex/rviewport/rviewport.pdf b3785152fbe8d0635ddca44817986b8d 1314576694
+dir /usr/share/texmf-dist/doc/latex/tkz-linknodes
+obj /usr/share/texmf-dist/doc/latex/tkz-linknodes/README d064712c75547dfc8038a043b2e2dd4d 1307380742
+dir /usr/share/texmf-dist/doc/latex/tkz-linknodes/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-linknodes/latex/linknodes.ist 69b8c1c8cfb0ab613b809969a603fad9 1307380742
+obj /usr/share/texmf-dist/doc/latex/tkz-linknodes/latex/TKZdoc-linknodes-us.tex 22f08e342ca6dfe23474de75b72b52ce 1307380742
+obj /usr/share/texmf-dist/doc/latex/tkz-linknodes/readme-linknodes.txt 9bda3c3e21856bdd4e761d4c122b1de4 1307380742
+dir /usr/share/texmf-dist/doc/latex/tkz-linknodes/examples
+dir /usr/share/texmf-dist/doc/latex/tkz-linknodes/examples/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-linknodes/examples/latex/quadratic.tex 1a50c0caefc793a464d8d8e93e5004d8 1307380742
+obj /usr/share/texmf-dist/doc/latex/tkz-linknodes/examples/latex/equation.tex 36ff2c66df72d07fb94754b1d5f990d6 1307380742
+obj /usr/share/texmf-dist/doc/latex/tkz-linknodes/examples/latex/system.tex 7c76d3c4ed39f8ad1d1c9461fb32d49e 1307380742
+obj /usr/share/texmf-dist/doc/latex/tkz-linknodes/examples/equation.pdf 9adc3d78e6d9f4c4718028f4cac75bfd 1307380742
+obj /usr/share/texmf-dist/doc/latex/tkz-linknodes/examples/system.pdf 713cdd0567e764d0660024baa7d652c5 1307380742
+obj /usr/share/texmf-dist/doc/latex/tkz-linknodes/examples/quadratic.pdf 012291ebfabca8091e7d61270d991d15 1307380742
+obj /usr/share/texmf-dist/doc/latex/tkz-linknodes/tkz-linknodes-screen.pdf d78872c1d58e06e9b17996745fe94353 1307380742
+dir /usr/share/texmf-dist/doc/latex/braids
+obj /usr/share/texmf-dist/doc/latex/braids/README 47687419d30f3588b6e3ea61c5b5efce 1314396484
+obj /usr/share/texmf-dist/doc/latex/braids/braids_doc.pdf 4a358fd390279a870d5f6cedbeeae75c 1315150664
+obj /usr/share/texmf-dist/doc/latex/braids/braids_doc.tex 6c1509622cfa05766794e1803526f472 1315150664
+dir /usr/share/texmf-dist/doc/latex/tkz-doc
+obj /usr/share/texmf-dist/doc/latex/tkz-doc/README 55ac398787f17d7d7825b0695e5b218b 1307380651
+dir /usr/share/texmf-dist/doc/latex/xpicture
+obj /usr/share/texmf-dist/doc/latex/xpicture/README fb0530a871634cec82ee6a7f20eb8898 1357167510
+obj /usr/share/texmf-dist/doc/latex/xpicture/xpicture-doc.pdf 328da72abd236e8b3e61a08ddab559d9 1357167510
+obj /usr/share/texmf-dist/doc/latex/xpicture/xpicture.pdf f8af712e1f849a45f216b0aff1897ed6 1357167510
+obj /usr/share/texmf-dist/doc/latex/xpicture/xpicture-doc.tex e188038778f4355721f86764868dffc6 1357167510
+obj /usr/share/texmf-dist/doc/latex/xpicture/xpicture.cfgxmpl 4e58c722305724c23b2ba18efd142d41 1357692155
+dir /usr/share/texmf-dist/doc/latex/tqft
+obj /usr/share/texmf-dist/doc/latex/tqft/README 5791de16840a70ac65e6a4a3a1743aed 1396995648
+obj /usr/share/texmf-dist/doc/latex/tqft/tqft_doc.pdf a8d86a162ea07d136e8724ff7afdac35 1396995648
+obj /usr/share/texmf-dist/doc/latex/tqft/tqft_doc.tex 32911921536ba6bb8c283a0309c8f891 1396995648
+dir /usr/share/texmf-dist/doc/latex/randbild
+obj /usr/share/texmf-dist/doc/latex/randbild/README a6848cfb9be7bb5ae6a76878f1d99eb5 1179505162
+obj /usr/share/texmf-dist/doc/latex/randbild/randbild.pdf e5c110d6414f6528edec5f271e481c9e 1243719999
+dir /usr/share/texmf-dist/doc/latex/setdeck
+obj /usr/share/texmf-dist/doc/latex/setdeck/README b609f869d480162270accc83ac7f07f0 1350474129
+obj /usr/share/texmf-dist/doc/latex/setdeck/setdeck.pdf 22bcf4a421407bdb8c55440f90bf54b1 1350474129
+obj /usr/share/texmf-dist/doc/latex/setdeck/setdeck.tex 00e580cbcacac121b0b579e7de225001 1350474129
+dir /usr/share/texmf-dist/doc/latex/tikzsymbols
+obj /usr/share/texmf-dist/doc/latex/tikzsymbols/README 2425f17d914eb9bcc23079303bc5d269 1375048325
+obj /usr/share/texmf-dist/doc/latex/tikzsymbols/tikzsymbols.pdf 2d5d5948f25f102fd53de1cad5f37038 1375048325
+dir /usr/share/texmf-dist/doc/latex/aobs-tikz
+obj /usr/share/texmf-dist/doc/latex/aobs-tikz/README fdc37dece5bb6b67f5dd96131c141337 1389658833
+obj /usr/share/texmf-dist/doc/latex/aobs-tikz/aobs-tikz.pdf bbde0aecf78fb63ea361edc7031cb370 1389658833
+obj /usr/share/texmf-dist/doc/latex/aobs-tikz/example.tex 53b3b763ec170cdff4695072fa6cfe06 1389658833
+dir /usr/share/texmf-dist/doc/latex/pgf-soroban
+obj /usr/share/texmf-dist/doc/latex/pgf-soroban/README 5e103646264adfef6eb67c9d5c8feb8b 1385680856
+obj /usr/share/texmf-dist/doc/latex/pgf-soroban/pgf-soroban-doc.pdf 969608053f6b5fd2d796102451bd0e4c 1385680856
+obj /usr/share/texmf-dist/doc/latex/pgf-soroban/pgf-soroban-doc.bib ad526e2abe54f055e9344fbe1bcc094c 1385680856
+obj /usr/share/texmf-dist/doc/latex/pgf-soroban/Changes 66f82cba0427c710253c96149767f65c 1385680856
+obj /usr/share/texmf-dist/doc/latex/pgf-soroban/pgf-soroban-doc.tex aa771667b71aeeccf5ef0e7a8c652a00 1385680856
+dir /usr/share/texmf-dist/doc/latex/randomwalk
+obj /usr/share/texmf-dist/doc/latex/randomwalk/README 46197436311232f5644f546345e51ce9 1343148931
+obj /usr/share/texmf-dist/doc/latex/randomwalk/randomwalk.pdf 2c29317d028460d67415d89cef97d891 1357692049
+dir /usr/share/texmf-dist/doc/latex/hobby
+obj /usr/share/texmf-dist/doc/latex/hobby/README b736e974f123a55800675fdfffee7136 1408225529
+obj /usr/share/texmf-dist/doc/latex/hobby/hobby_doc.pdf 1c50a904db305b9675dfe65fd11d66f9 1408313494
+obj /usr/share/texmf-dist/doc/latex/hobby/hobby_doc.tex 60248042fc03bde97e1dc78bd9e06646 1408313494
+obj /usr/share/texmf-dist/doc/latex/hobby/hobby.pdf ea2959fc2c1fef0b99f65dfe349de75b 1408313494
+dir /usr/share/texmf-dist/doc/latex/duotenzor
+obj /usr/share/texmf-dist/doc/latex/duotenzor/README d57b4264226825af57bae63046501550 1274829906
+obj /usr/share/texmf-dist/doc/latex/duotenzor/duotenzormanual.pdf 187f92604481c3eea85dcd187b5f80fa 1275663120
+obj /usr/share/texmf-dist/doc/latex/duotenzor/duotenzormanual.tex 053a3ba4ecd538baae723cc63ec32fbb 1275663120
+dir /usr/share/texmf-dist/doc/latex/drs
+obj /usr/share/texmf-dist/doc/latex/drs/README 575003986dfd886f1f344c15c7d98b97 1278284768
+obj /usr/share/texmf-dist/doc/latex/drs/drsdoc.tex 03d6237fc82c80548ca5002d8f8a098b 1278284768
+obj /usr/share/texmf-dist/doc/latex/drs/drsdoc.pdf 6cddf2cac03ce5582d4f4a885a0a629e 1278284768
+dir /usr/share/texmf-dist/doc/latex/circuitikz
+obj /usr/share/texmf-dist/doc/latex/circuitikz/circuitikz-context.pdf f8adfbbcb02935b2d0af07d35689c004 1315869211
+obj /usr/share/texmf-dist/doc/latex/circuitikz/CHANGELOG bdbda1c1ae7a6541156237daca969fbe 1356914140
+obj /usr/share/texmf-dist/doc/latex/circuitikz/README 936f55afbceac1dadcad5f49a505552f 1356827911
+obj /usr/share/texmf-dist/doc/latex/circuitikz/circuitikz-context.tex 6a89fb9ad3d72c122a950a086caf8279 1315869211
+obj /usr/share/texmf-dist/doc/latex/circuitikz/circuitikzmanual.tex 2ab630cba98ec768e69a6d6c3fab1be5 1356914140
+obj /usr/share/texmf-dist/doc/latex/circuitikz/circuitikzmanual.pdf ef743b40e29cadc38c7e7baff4b45f68 1356914140
+dir /usr/share/texmf-dist/doc/latex/asypictureb
+obj /usr/share/texmf-dist/doc/latex/asypictureb/README a0d186085c89674b5a3aef4dc90df0c6 1397775426
+obj /usr/share/texmf-dist/doc/latex/asypictureb/asypictureB.pdf 56d38fcf49d9c1e21258cf97e002ba49 1397684754
+dir /usr/share/texmf-dist/doc/latex/getmap
+obj /usr/share/texmf-dist/doc/latex/getmap/README 4dda0dd00e5c58b33c0deca7f4d276c2 1411251695
+obj /usr/share/texmf-dist/doc/latex/getmap/getmap.dtx e82e6febcbc67a54d4b62caf3fd66d4b 1411251695
+obj /usr/share/texmf-dist/doc/latex/getmap/getmap.pdf b6246bb0a2860772de9177fda653f558 1411251695
+obj /usr/share/texmf-dist/doc/latex/getmap/install.bat e5e75f77627c66212ff7b764f9af9cca 1408401075
+obj /usr/share/texmf-dist/doc/latex/getmap/getmap-example.tex 6e093bd05921f9f8ddd0002a8b153a5d 1406322221
+obj /usr/share/texmf-dist/doc/latex/getmap/makefile 91ed86e296658879fbf436c81547ce31 1408401075
+obj /usr/share/texmf-dist/doc/latex/getmap/manifest.txt c08824617f52d4da2cf168f111506ac4 1408401075
+dir /usr/share/texmf-dist/doc/latex/mathspic
+obj /usr/share/texmf-dist/doc/latex/mathspic/sourcecode113.html 667d86a8c721e57febf8cb58300098f5 1313971029
+obj /usr/share/texmf-dist/doc/latex/mathspic/mathspic.sh 51ebc533d11c43c846b187a28466cc7c 1363046501
+obj /usr/share/texmf-dist/doc/latex/mathspic/sourcecode113.nw 9888148ea6dd31bfa568494e45329cff 1313971029
+obj /usr/share/texmf-dist/doc/latex/mathspic/mathsPICfigures.zip b9d08613f48437c82c80825a78b3a3ab 1313971029
+obj /usr/share/texmf-dist/doc/latex/mathspic/grabtexdata.tex 3340b7178614042ba73148ced117c4fb 1313971029
+obj /usr/share/texmf-dist/doc/latex/mathspic/sourcecode113.pdf fd988327c536f8404baa5cf0bc81248d 1313971029
+obj /usr/share/texmf-dist/doc/latex/mathspic/MATHSPIC.BAT 879656a84e59d06ed3f37317372a6e88 1313971029
+obj /usr/share/texmf-dist/doc/latex/mathspic/mathsPICmanual.pdf 8e544406d78c1b0c843b1cccb04455de 1313971029
+obj /usr/share/texmf-dist/doc/latex/mathspic/mathsPICmanual.zip dbccce37ab28a4ba4cacec8bd1f6858a 1313971029
+obj /usr/share/texmf-dist/doc/latex/mathspic/mathspic.lib 30178cae10f6453643550f24e7edae14 1313971029
+obj /usr/share/texmf-dist/doc/latex/mathspic/HELP.txt 6b6c7296d51ee956d2b478e42dfb0812 1313971029
+obj /usr/share/texmf-dist/doc/latex/mathspic/README.txt 76d7fca944c2fb0627d59577d295a21c 1313971029
+dir /usr/share/texmf-dist/doc/latex/eepic
+obj /usr/share/texmf-dist/doc/latex/eepic/readme 35d2a98f607fa301b6d8ed0717629a4c 1136767480
+obj /usr/share/texmf-dist/doc/latex/eepic/epic-eg3.tex 6808f5f44580569f5f2d60540b448e42 1136767480
+obj /usr/share/texmf-dist/doc/latex/eepic/epic-eg3.fig 54a1facee676dfee68a1c97399e7ab15 1198783974
+obj /usr/share/texmf-dist/doc/latex/eepic/grafig.shar c0b1f414a5c3d52a6b22b6833c15aba4 1198783974
+obj /usr/share/texmf-dist/doc/latex/eepic/eepic.pdf 021b47264fdafb9d123a2a2fea0d72ae 1247274248
+obj /usr/share/texmf-dist/doc/latex/eepic/epic-eg4.fig d63d849daff18b40bb8b1bdb7f41376f 1198783974
+obj /usr/share/texmf-dist/doc/latex/eepic/epic-eg4.tex 944bf581f0a03deab220657988377086 1136767480
+dir /usr/share/texmf-dist/doc/latex/eepic/fig2eepic
+obj /usr/share/texmf-dist/doc/latex/eepic/fig2eepic/fig2epic.1 9c326396b2c88015e703abb6f2890694 1198783974
+obj /usr/share/texmf-dist/doc/latex/eepic/fig2eepic/readme c705944925e663e2417289405f0ae35c 1198783974
+obj /usr/share/texmf-dist/doc/latex/eepic/fig2eepic/epic-eg3.fig 54a1facee676dfee68a1c97399e7ab15 1198783974
+obj /usr/share/texmf-dist/doc/latex/eepic/fig2eepic/epic-eg4.fig d63d849daff18b40bb8b1bdb7f41376f 1198783974
+obj /usr/share/texmf-dist/doc/latex/eepic/fig2eepic/makefile 9e2bbbaae5d8aa0f7e9733bc53f2ac55 1198783974
+obj /usr/share/texmf-dist/doc/latex/eepic/eepic.tex d5b3b7f0afecbca8e1d7b8e2a42a1963 1136767480
+dir /usr/share/texmf-dist/doc/latex/pgf-umlcd
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/README 19b0b52eba7e6498344b61199a157651 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/pgf-umlcd-manual.pdf c56ee03feea2160a709272c300a6485a 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/logo.png 90ec14ddf554e07f772d3af86ce57ec6 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/COPYING 7bd53abe1debd565728ae3f0e320c67e 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/pgf-umlcd-manual.tex b5c599e846545c5b0123e6f67b224430 1395963309
+dir /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/association.tex c53ab45ed7df3b8f8180bd4276f6e852 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/visibility.tex b7cc9309e10ec9d0e9f622d10e2ee299 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/composition.tex 0387b844776b3f4d52ad636abb486ae5 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/implement-interface.tex c01be1350065f4245c077590d30cf5e6 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/unidirectional-association.tex 671f853ed54a5071179004ed20f83578 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/package.tex ce10317859d7c784b7854d4a2ae35e08 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/note.tex 34fea9f127ed880ee88b58ed968a74f6 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/interface.tex 1af451d50c9d909dabdec36ef3bec8c4 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/aggregation.tex 8a34f418a98d950cc35bc3485c80a4c0 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/abstract-class.tex 86aebec5c868449a5d8dd8ed1b3a6915 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/object.tex 10232c216714828d5d4c49a6594e68f0 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/abstract-factory.svg a41c5b7be7ff13b7b36eec72b47aed56 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/abstract-factory.tex 5dc60037f0064b6466d91b8067c11c38 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/object-include-methods.tex f7eda731f62065420c05b7a523f78fb8 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/inheritance.tex 379b090889f5258ef2bc3b0e59d19ede 1395963309
+obj /usr/share/texmf-dist/doc/latex/pgf-umlcd/demo/class.tex 1941ced1d152ebb3e9d62ecd811d3254 1395963309
+dir /usr/share/texmf-dist/doc/latex/curve2e
+obj /usr/share/texmf-dist/doc/latex/curve2e/README e4332e2c11596faa28c4e38e71fefda5 1355272480
+obj /usr/share/texmf-dist/doc/latex/curve2e/curve2e.pdf 525752de83760be855d4fde36361e07c 1355272480
+obj /usr/share/texmf-dist/doc/latex/curve2e/manifest.txt 8dcf2271704a783bb6b58f67b14da5b2 1355272480
+dir /usr/share/texmf-dist/doc/latex/bardiag
+obj /usr/share/texmf-dist/doc/latex/bardiag/README 36e7e5e80ee33bbcfd73c24a4fa91130 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/bardiag.tex 0edd4ea73809b74f86700583da024729 1136767480
+dir /usr/share/texmf-dist/doc/latex/bardiag/figs
+obj /usr/share/texmf-dist/doc/latex/bardiag/figs/examp2er.tex b43a6588adce56af7c91c13a1954c80c 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/figs/examp2.tex 26db00aef392f43e11e5a992f15f0c16 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/figs/examp1b.tex cb5e28f232df9645603a8049656437f8 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/figs/examp5.tex 402394c6cdd7e241039d0e4e1dc7ff63 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/figs/examp4.tex ed8f045ad41092dd82db16e418732de6 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/figs/examp1a.tex 88830a3ef2fe35a3e60bc774319bed12 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/figs/diagleg.eps f2c2ba9204453f4a6d6eb7e99422eaaa 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/figs/exampcr.tex 1e9d255abcdc8706ed77d21dd4a6b021 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/figs/examp3.tex 20c9e9742894cf7362dcddc455c368b1 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/figs/tddiag.eps 53527119b8399317a9a7d636c1dd1e08 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/figs/examp1.tex 0f2fda7bfffe0c1f47d7fcc1f0d08140 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/figs/diag.eps 45e53cfd5c1e3d2fc09aa28f09834ee7 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/figs/examp6.tex ecf7c34787bdc610ba1dd00dc598f4ea 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/bardiag2.pdf 3d3a6e3f781757741e757c23f2890011 1302194425
+obj /usr/share/texmf-dist/doc/latex/bardiag/bardiag1.tex 02d7a59d137f20d7be84d7cad1ce26b1 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/bardiag1.pdf 5e77bb6c9225e94812f0bcd61ce24b5e 1302194425
+obj /usr/share/texmf-dist/doc/latex/bardiag/bardiag.pdf 00c044ebbf1e38898e64c3ddf204ca37 1302194425
+dir /usr/share/texmf-dist/doc/latex/bardiag/src
+obj /usr/share/texmf-dist/doc/latex/bardiag/src/6.tex 7aca6e8b5a37876a6134a0b38c421e98 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/src/10.tex 7e84299c3f86e5c4a9d01fb7aa526c6c 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/src/2b.tex 9030f1d006e1c2f7152f215d26cc0d64 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/src/1a.tex 04d6e9a0d610c803b54326179166d30c 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/src/5.tex bc35d819be8859ae23358aab2a717e45 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/src/8.tex 6e2c49af9bea8ec7043a9ec0962727a7 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/src/7.tex 6bc78ffbbe86babff73baa5d96371e74 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/src/1b.tex 3c342e613457559c205848d869d00aa0 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/src/9.tex f66cd3573d8c5b0eb9adc19a78a1ef8f 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/src/2a.tex 2ea050bac48ebb4309b860ddc4136c75 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/src/3.tex ed48500d7194185b5cbc3b21416707e3 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/src/4.tex 59ac775b3f1e3538be870fd3790aa9b1 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/bardiag2.tex a90c288507ca84b40428ca2d436049da 1136767480
+dir /usr/share/texmf-dist/doc/latex/bardiag/example
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/diagrams.tex 75a5815061541fb38113994ff8836d4f 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/altdiags.tex 9374d0b28bc80bd59371f6bb1a8971f4 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/diagrams.dvi 59e672fac09ca302dbe94ab52fd3076d 1072085099
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/altdiags.ps 2548207ad0c372d4ddbc2b6b5f103121 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/diagramsbw.ps 184c355d7c6092f9c6d9fd00bcf4f0a0 1136767480
+dir /usr/share/texmf-dist/doc/latex/bardiag/example/src
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/src/6.tex 7aca6e8b5a37876a6134a0b38c421e98 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/src/10.tex 938356ddad77caa5308cfe3d95527950 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/src/2b.tex 9030f1d006e1c2f7152f215d26cc0d64 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/src/1a.tex 04d6e9a0d610c803b54326179166d30c 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/src/5.tex 415bfeec99fd0d70d4208bcd4de53331 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/src/8.tex 6e2c49af9bea8ec7043a9ec0962727a7 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/src/7.tex 6bc78ffbbe86babff73baa5d96371e74 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/src/1b.tex 3c342e613457559c205848d869d00aa0 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/src/9.tex f66cd3573d8c5b0eb9adc19a78a1ef8f 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/src/2a.tex 2ea050bac48ebb4309b860ddc4136c75 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/src/3.tex de491a6e2e437b068b8a621db8672f7b 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/src/4.tex 69fa71330e10cfe6914c4aafbb54a22d 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/diagrams.ps 038eb9e20fb99c1bf789576fe6f4f258 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/diagramsbw.tex fbaefa1df58894fbb24b4a6dbca8c53e 1136767480
+obj /usr/share/texmf-dist/doc/latex/bardiag/example/compile.all 929c167cc7875713e380f422fa2c6443 1136767480
+dir /usr/share/texmf-dist/doc/latex/pict2e
+obj /usr/share/texmf-dist/doc/latex/pict2e/p2e-drivers.pdf f3113f7cdf6a9416736664acbd909b0f 1302046102
+obj /usr/share/texmf-dist/doc/latex/pict2e/README cf0f6dd65be2582c4a4f8301e335ef30 1136767480
+obj /usr/share/texmf-dist/doc/latex/pict2e/pict2e.pdf 61f14fbe768ca870235aef8e2fb56773 1389657689
+obj /usr/share/texmf-dist/doc/latex/pict2e/manifest.txt 85b7748a73adb19e994a6e120b5ad44d 1136767480
+dir /usr/share/texmf-dist/doc/latex/numericplots
+obj /usr/share/texmf-dist/doc/latex/numericplots/README 08e8bc98c8ed01ac353fed8287b198ca 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/NumericPlots.pdf c30b8b57f38f666aae4db498dd66ec84 1379887956
+obj /usr/share/texmf-dist/doc/latex/numericplots/README.TEXLIVE 3b4ab201dd5120ffae06991e47925baf 1379632508
+dir /usr/share/texmf-dist/doc/latex/numericplots/src
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/FurtherExamples.tex cc3d1d5913b737fc9120e12b12115355 1379632508
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/keys_NumericDataPlot.tex 5493ed7593b6fef5fac295b5b5f735a7 1379632508
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/BasicFunctionality.tex 96097dfe72e9384640cfd956e36a613b 1366929142
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/TechnicalDetails.tex fdf07d89f7e57fc2914efd2ee4ba9d33 1379632508
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/history.tex 7047d6ba5b3b1f4f13a4179b70e8ba76 1379632508
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/fig_NoiseData_ClosedLine.eps 0ebab5e40fc423fb8c1c7d6b851e82f0 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/TestPlots.tex 8d6887c9cdda0c3eb645a796efa0b505 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/options.tex 0bd3c2e32fd8be7782ccc54bcc6a16b3 1366845484
+dir /usr/share/texmf-dist/doc/latex/numericplots/src/examples
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_Legend.tex 5050b933592160e0ab508adfe930bf10 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_LegendII.tex 419358b35c9456f423c56e39f935cde4 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/multiplots_exampleIII.tex 948f38a396f868e4cb89d607ef7ea70b 1379632508
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/BodeDiagramm.tex a02f1cd0db04654eea77e573b98eb40a 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_MultipleData.tex 75998e68bb605fe7a08661a558152f86 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/DefineData.tex 6cb4647af8443644e01f4dd0be4907f9 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_EasyPlot.tex c23d536f257745cda384638d63e76ac2 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_LogarithmicII.tex acc4d434dbccc4dff5e52ba9f80f7d2f 1366929142
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_Lines.tex 0891b6fbb2a6e923b3da8b344dfc006e 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_LogarithmicI.tex 769675190f6ec35df6b103fb59e5b122 1366929142
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_LegendIII.tex 8467bca44e2101698be142748c2ed4db 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_LegendI.tex 7fee398f8304b6b110c07d518d879852 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_LineStyles.tex 2a6dc48d0f88b5a2b90fe419be56dee4 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/NyquistPlot.tex 6b9b022aa53f86eb13b008d543192769 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_Labels.tex d7650e2b421c293ec5e7fc6673db4f5c 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_Boxes.tex f78aab9834b3fb16fd55d5447c20ec18 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/multiplots_exampleII.tex 39ff8a9c24e0e3f7855150c71a0f038e 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/data_SprungantwortPT1Glied.tex b510627fc98074c400db2c270326a125 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/multiplots_exampleI.tex 93f9d721ca716f99605f403549c1257e 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_PlotWHoles.tex c46bafb4c42fa95fe2eb9083271a8368 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_PlaceObjects.tex 2aa4630ae1e0e23a76e3047084219f57 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/furtherEx_TickLabels.tex 1cf024702ec85c49e96cb8aabe0313ce 1379632508
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_UseRput.tex d9de055311cae0402126706502934900 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/DataTestRealData.tex b7aab44e4c4a625a33d60f09cdcc5353 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/LabelsNTickLabels.tex 5c658a32dcf2215666769d5b661cbf8b 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_LogarithmicIII.tex 8c8bbecff8d7e2e69a18289d417a9c0b 1366929142
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/data_Nyquist.tex 8179865d8dabe9e2f8c394606050bddc 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/data_BodeDiagrammLinearerTerm.tex 3e72794f9334f0e73bc5fce38456fe1d 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_UserLinestyles.tex f2f09c211325e168c2fbe6a2e12aaa5c 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/Sprungantwort_PT1Glied.tex 065ed22a69be2593eb6a45dba8c6a45c 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_Grid.tex 21e07955ce72137239ac158967414716 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_PlaceObjectsII.tex 5fc43fdffca94196cd80da87874bd736 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/examples/basic_Objects.tex 25f10235538eff1e3756d901f9a1f461 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/NumericPlotsDoc.tex 24845b29b254d6c3c78479ddb30fc743 1379632508
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/MultiplePlots.tex 1724ac578ba8ed47610aefda33df0a9b 1379632508
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/fig_NoiseData_OpenLine.eps 92f0eb11889f4996b8722abc65f0d55e 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/MatlabSupport.tex 84b14a7f952d62d2befa667f0c4fd98c 1366929142
+obj /usr/share/texmf-dist/doc/latex/numericplots/src/Roll406_Ref2288.tex c5bec65c83cac18ec8b4586cd964c661 1366845484
+obj /usr/share/texmf-dist/doc/latex/numericplots/License.txt d32239bcb673463ab874e80d47fae504 1284913109
+dir /usr/share/texmf-dist/doc/latex/pgfkeyx
+obj /usr/share/texmf-dist/doc/latex/pgfkeyx/README bfb982d450a1db2eb367bb116b83ffb5 1335137448
+obj /usr/share/texmf-dist/doc/latex/pgfkeyx/pgfkeyx-test1.tex e3c2d9a16ad5c185e0f371d8945f6426 1335137448
+dir /usr/share/texmf-dist/doc/latex/fast-diagram
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/README c40159c7e8b84bad694ed57169b7f654 1362186913
+dir /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/installation.tex f736698a7215aa5ee02ffd4537be72f8 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/exemple.tex 924c8e19051443fff34eaff33f54238d 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/commandes.tex afcd677467dcbdf82d973578e475b120 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/intro.tex 5307f638d689479407e02d957e5a5138 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/tikz.tex 7a0f0a6828249e6fad388134b9258828 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/miseEnForme.tex 28e5b5ea81d990c5ad478ee6e942f27d 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/reglages.tex f7062689cd0157f1b8b592aa35c013c7 1362186913
+dir /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/images
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/images/batterie.png 4fcd2403d915f3ad26a5cff4c369960e 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/images/recepteur.png 926e64c20a768db72e252fa89edcf3c5 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/images/servomoteur.png 180a960f505c3014ddb8ab74a047c496 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/images/bouton.png 652ef54b779ffafbc91a4668003e695f 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/images/roue.png e18b739141eab4675f92f361222bc9a0 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/images/moteur.png bfcc6cde45ac9f166750c5b8c12c9df7 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/images/biellettes.png 3ce757cf4d7917f8b792bb663758e448 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/images/antenne.png ee28edf6d9a1d1698b1a6308d1174316 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/images/pedalier.png fc305e4d53333aa60d78b19ef29e9df6 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/sources_help/images/pignons.png de7d31b4e909d8541547dcee110c9a85 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/help.tex 42e6e6fe4030026ed35178c6313ceb16 1362186913
+obj /usr/share/texmf-dist/doc/latex/fast-diagram/help.pdf f372e582848d89c03fa9b6d5ed4e4268 1362186913
+dir /usr/share/texmf-dist/doc/latex/asyfig
+obj /usr/share/texmf-dist/doc/latex/asyfig/README 64dc71cab1627b2f146a5bb0e169cddf 1269129181
+obj /usr/share/texmf-dist/doc/latex/asyfig/asyfig.pdf 0e100763ce015664005b1396dc874cb6 1269129181
+dir /usr/share/texmf-dist/doc/latex/asyfig/example
+obj /usr/share/texmf-dist/doc/latex/asyfig/example/frf.asy 402d5f5938b9781dabadaafba94ad6d8 1245861841
+obj /usr/share/texmf-dist/doc/latex/asyfig/example/test-asyfig.tex 525475d0514b0a46a58c9eaac5c49f8a 1245861841
+dir /usr/share/texmf-dist/doc/latex/tikzpfeile
+obj /usr/share/texmf-dist/doc/latex/tikzpfeile/README 930157571ac72fb130b041b47ab375a6 1333063106
+obj /usr/share/texmf-dist/doc/latex/tikzpfeile/tikzpfeile.pdf a282f69990cbab958fb10132e42b1b87 1333063106
+dir /usr/share/texmf-dist/doc/latex/tikzmark
+obj /usr/share/texmf-dist/doc/latex/tikzmark/tikzmark.pdf fd9d764bbdc0762a5da66b448b0e68be 1366240525
+obj /usr/share/texmf-dist/doc/latex/tikzmark/README.txt f2e115943e10289e20282a00ed0efe09 1366240525
+dir /usr/share/texmf-dist/doc/latex/harveyballs
+obj /usr/share/texmf-dist/doc/latex/harveyballs/README e05b5fb16cecf77ae0b14c549abe980c 1382823738
+obj /usr/share/texmf-dist/doc/latex/harveyballs/harveyballs-Manual.pdf c7e8118e765dd1e05abea7a8d1869b68 1382823738
+obj /usr/share/texmf-dist/doc/latex/harveyballs/harveyballs-Manual.tex 934688546f8642331f244d89f6735bfe 1382823738
+dir /usr/share/texmf-dist/doc/latex/askmaps
+obj /usr/share/texmf-dist/doc/latex/askmaps/README cb179c4fcccf23cecc83740cb2e76aaa 1386202070
+obj /usr/share/texmf-dist/doc/latex/askmaps/askmaps.pdf 7072ab1cc5c4f1aead1e0e9d5fc5cd00 1386202070
+obj /usr/share/texmf-dist/doc/latex/askmaps/askmaps.tex 62f9a292859110845a6b344e1dc16e47 1386202070
+dir /usr/share/texmf-dist/doc/latex/modiagram
+obj /usr/share/texmf-dist/doc/latex/modiagram/README f284b81dbe8ee495f15d15e289e4d296 1404167628
+obj /usr/share/texmf-dist/doc/latex/modiagram/modiagram_en.pdf 014de0a1aff29f2d2225626aa9a82326 1404167628
+obj /usr/share/texmf-dist/doc/latex/modiagram/modiagram_en.tex 6de5af1d1d4f9249cff01b2140d51696 1400018938
+dir /usr/share/texmf-dist/doc/latex/forest
+obj /usr/share/texmf-dist/doc/latex/forest/README 9ac672905509dfa0fdbfd9a21f9c5993 1394238859
+obj /usr/share/texmf-dist/doc/latex/forest/forest.pdf 8ea4db64a4e049f47bcfc06551b68534 1394238859
+dir /usr/share/texmf-dist/doc/latex/combinedgraphics
+obj /usr/share/texmf-dist/doc/latex/combinedgraphics/Makefile ed6fc63828d0d1dd3bcaeffb37637764 1343413361
+obj /usr/share/texmf-dist/doc/latex/combinedgraphics/README ef658c9007167bd6e8e661d734e30197 1343413361
+obj /usr/share/texmf-dist/doc/latex/combinedgraphics/COPYING d32239bcb673463ab874e80d47fae504 1258999717
+dir /usr/share/texmf-dist/doc/latex/combinedgraphics/test
+obj /usr/share/texmf-dist/doc/latex/combinedgraphics/test/Makefile c472b84063769a82f92c424321910b45 1343413361
+obj /usr/share/texmf-dist/doc/latex/combinedgraphics/test/xfig325.eps 28e40ee54452862f2b99f3e283fea896 1343413361
+obj /usr/share/texmf-dist/doc/latex/combinedgraphics/test/xfig325.pdf 79fd74c3565c72a6136dc6c2983c376b 1343413361
+obj /usr/share/texmf-dist/doc/latex/combinedgraphics/test/combinedgraphics_test.pdf c5d931ce55922c2027141a6fe948991b 1343413361
+obj /usr/share/texmf-dist/doc/latex/combinedgraphics/test/combinedgraphics_test.tex 1df53dff35c68718b896dca65c5f8310 1343413361
+obj /usr/share/texmf-dist/doc/latex/combinedgraphics/test/xfig325.fig 3758b466d8818c4e1c91bfdd91523f81 1258999717
+obj /usr/share/texmf-dist/doc/latex/combinedgraphics/test/gnuplot42.plt 92f38ef3f52c3c33d665a3625e52ac33 1343413361
+obj /usr/share/texmf-dist/doc/latex/combinedgraphics/test/xfig325.tex b7616210873ce02b3b46c33e41671c01 1343413361
+obj /usr/share/texmf-dist/doc/latex/combinedgraphics/test/gnuplot42.pdf c4876193e8534e9da3a3755f71213e2b 1343413361
+obj /usr/share/texmf-dist/doc/latex/combinedgraphics/test/gnuplot42.tex 559a6cc95722f6d83a8001e2e07f421c 1343413361
+obj /usr/share/texmf-dist/doc/latex/combinedgraphics/test/gnuplot42.eps 4884150618b9a503ffa8fef895bc2ea7 1343413361
+obj /usr/share/texmf-dist/doc/latex/combinedgraphics/combinedgraphics.pdf d27db616f0823fb965bc2194d1d7deee 1343413361
+dir /usr/share/texmf-dist/doc/latex/timing-diagrams
+obj /usr/share/texmf-dist/doc/latex/timing-diagrams/Makefile 60b724d8802c79e1b4c88c839be6ca9c 1377123106
+obj /usr/share/texmf-dist/doc/latex/timing-diagrams/README edc31e8e0ee1969e17c9cfe463f3c168 1377123106
+obj /usr/share/texmf-dist/doc/latex/timing-diagrams/diagrams-examples.tex 5692b2008734a3de04d7aa5b96352438 1377123106
+obj /usr/share/texmf-dist/doc/latex/timing-diagrams/diagrams-examples.pdf e4d44933a9c13217e1a19a2231e47613 1377123106
+obj /usr/share/texmf-dist/doc/latex/timing-diagrams/version.txt eea43dccfe2d85ff94c987d4afc85f61 1377123106
+dir /usr/share/texmf-dist/doc/latex/tkz-fct
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/README 1c5108d7b0597bdc57f69b6c6259255d 1307380695
+dir /usr/share/texmf-dist/doc/latex/tkz-fct/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/fct.ist efc63e7989204c5e9e89aa57fff6789d 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-label.tex 69664bf024a37af43229b6b39ee5ebcf 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-riemann.tex 9fba6b892d29abc046f0a5cfa5c5413c 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-liste.tex e74291f052b7fa760a7088a125e52b9e 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-param.tex dfbf81849a34caca82d5d15143e39f1f 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-point.tex 06e4a23c3d86a2332e69c359d0e04fa2 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-polar.tex ca23aa21197767a81eee9ecf2dafe2e3 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-faq.tex 71c187761cab7d36863924d435273cb8 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-area.tex e45cf87bfe53db3e6081a4d6f89f01a5 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-VDW.tex 20a8f18d4b42ec66b62b4b5d7ffa7afe 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-bac.tex 3f1b3b37d81bcbcd2e6f3d0c532ab034 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-fppgf.tex 195b5efa6fad605717d30d6a050b63ea 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-interpolation.tex 41f64483b4edb64cfc7817a6c0c8acdf 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-example.tex 05fed1bc22d363e1d2fd310632a97758 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-why.tex 41bc7f1fa1f5d2282cfc2f238fa3ce52 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-tangent.tex cfe908201ad8712abe393480821bd114 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-fonctions.tex 587f1a244a5a11de35c9eddd4e3c3dc4 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-compilation.tex 93153bd063d9d5d204c1fd4350aab60a 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-symbol.tex e5ce701d09f6cd87136d81556a85461a 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-asymptote.tex 83e053700b0405a9726bca5a2c1f3d13 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-installation.tex 2cb834aaedb4111dc7f7554524549a0d 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/latex/TKZdoc-fct-main.tex 44923e55018e1ebba24fca9f0fb065cc 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/tkz-fct-screen.pdf c02b312a98e82760c4b03ff216fcc651 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/readme.tex 77c576a958241d884a37fb03deb2f66e 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/readme-tkz-fct-fr.txt 4955765e8a95441b996b58548718e54d 1307380695
+dir /usr/share/texmf-dist/doc/latex/tkz-fct/examples
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/Makefile dc96e88e706bf686aec7b0a6ee345e58 1307380695
+dir /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-9-3-0.tex 2c4e7e72e3af1df2085d73bd31f60298 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-12-1-0.tex 314d4a72a5281db491e52f4649c6ca81 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-3-3-0.tex 3a693deb7ffc606eec3f6fb4d93fa5c8 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-4-2-0.tex 4e4b96edc947f1812bfdcca6592b01e6 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-10-7-0.tex 298c1edca35bcaa8d3b80476a3021a48 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-12-6-0.tex f06cb6e0e4aa1bf81b4bb2f4ed9ae703 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-11-2-0.tex cc79dde1245f9336354229a637597782 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-14-3-0.tex efafeb5babd153ec96e6bb4787fea6be 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-8-6-0.tex 9fffcba85c14fbea5170584b330ed756 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-12-5-0.tex 9eb82d3f9dce8a5e466e16ef10be7c55 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-7-10-2.tex b410f85dde875e0ee128c0e3a2639d8f 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-8-2-0.tex e25723cbabe1728de180bcdd32cc0b79 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-4-8-0.tex 96fdb6722fc9aff95499e0790e8e7176 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-11-3-0.tex 40497f2f866b1a1a25e820bf4055f3b0 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-5-1-0.tex c1193d6dbe32ee156040d17f1ad735a3 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-14-5-0.tex e7e4c60a4af659ad31eaedfa59bf7b08 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-10-8-0.tex 4712e31c324e5d0e1273141e22e6df27 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-7-6-0.tex 0be95c55cddc172660d335af65addf7f 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-10-5-0.tex 685bd392855a25358025407514227603 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-14-4-0.tex 24b14b09e328b01a551f2e602d4dd1e8 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-15-0-3.tex 0627f34121752e9fa136a0feb8be5333 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-14-2-0.tex 9ed6f3ab13d32556422906e5e7e38160 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-8-10-0.tex e3ce7d9cd9c44a0b979fb9311f90b6ec 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-5-6-0.tex ebc719277107d2c9756772dd0b9d838f 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-8-9-0.tex bea30e9bcbe6ce131926885083ee8e34 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-14-8-2.tex 7047a3fa664e55624094ad2d48d4b77c 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-14-7-4.tex 9849c42a6ae1662a9d21dfe05b7d0bee 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-16-1-0.tex ebf9940b7c78531cacd705f18e7579d9 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-15-0-4.tex 8ae0d7efa325ad9ba9ec84ae510c2daa 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-1-0-0.tex b0b0f78e3357563a966bed65c00a1599 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-12-3-0.tex 277c36819ef0a33e9225f4a60f3a2989 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-7-8-0.tex 6b97ee59980ed910419ec97835a301cb 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-14-7-2.tex 2c285d84d8349503c02b77e70663b1f3 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-5-5-0.tex f4a009e119cbfa15aed49ec0d30d3d04 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-8-7-0.tex 15998d220d579b7eb17ec48397765d5d 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-8-11-0.tex 1301fc3273f10bd8eebb37e3a8edeca9 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-11-6-0.tex 29a32046db0f2b0a5b6da0423b3ffe0a 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-14-6-1.tex 478f2ffcd9c5703596c22e3dd95b4f01 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-11-7-0.tex 9b0260461a80c79fff38b65b84e030f5 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-7-2-0.tex 16211cd191b3eeb0867141bb659ae23a 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-7-5-0.tex 2440efb55b1ae1673974063aaf17e198 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-16-2-0.tex 248c148ca22bb85828a9626e8cb8eaa7 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-4-5-0.tex 2b634b70df10bc3b6407ababf5fa0a1f 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-9-1-0.tex c70c84b765f99836bcac9a3faaec83a3 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-4-7-0.tex 9421e5f6e0b3b2fadc04088bf623f2d4 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-12-4-0.tex 6694c587bf07caf06201c2c9c37920e4 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-7-4-0.tex b18f0555cf56cab15944b13618bb2f87 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-9-4-0.tex 3abd5081e374efd6a33feaa47b400c63 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-13-0-0.tex 87c125188592ce93fe9c68752115a72d 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-8-3-0.tex cf89f48829bef5d546013062bbed56d0 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-5-2-0.tex 4cd1981ac79ea3cab411c64d9aad3f3c 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-6-1-0.tex 4e42170b2e5aa01f4257f014236cc5b2 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-5-4-0.tex dd07285da24df8be370f08c77f786702 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-11-1-0.tex e741a78aa8e780fc6691c457c2a33118 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-4-4-0.tex 4516f764312d76ba223212c471e28ba8 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-3-4-0.tex 4340f63def0d77555eaedb1e37b2f232 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-8-4-0.tex 1d01756effc115f6471fffe6a45c3ee8 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-14-8-1.tex 3bb3e23c8d99568a6be8a5cca4f34843 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-7-7-0.tex b5ebb0d971cba036376871fc2d7fcf71 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-14-7-1.tex 32db7a0397d560c55832cc373ab007ed 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-10-2-0.tex a82424175c3047fadf6bee482c3ff7ac 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-14-7-3.tex 0613ba0067a8408c9167b1db6baf8e76 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-4-3-0.tex 1d02ff70a576c10cec14c4e3508383f6 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-7-3-0.tex 459d30f5918d60d9eaf92d17646565f7 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-4-6-0.tex f8a65ed7db4287c073f8ff0d80f94f1d 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-5-3-0.tex ed500424ab54281bbb970373c2af46c5 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-9-2-0.tex 67c44240ca111c857e197bf0f8aed627 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-10-4-0.tex 8e06cc917023c4e3963a6737f6c4441a 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-12-2-0.tex 83730671081bb577d807c020e50ce4cd 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-14-1-0.tex 968b623ec1dbbb557cd4fc3e14ed3eeb 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-8-8-0.tex 63c823604022d576694968d53f097fc7 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-11-4-0.tex 5856f63ccdc77034bbe92901065797f5 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-7-9-1.tex 608f8f606339556d90bb2bc73d704099 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-10-6-0.tex decdfad8e9a15209479e772908cdabf4 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-10-3-0.tex d10036a13da2b857daba2d2d0c65f2de 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/latex/tkzFct-11-5-0.tex 09a087c006a2dc164d0b9cb328095981 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/info_fct_tex.txt fee03a65f676747ca9fdfc2ed87910bf 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/examples/tkzfctpreamble.ltx 1c437e0faa2cbf9bb42fba6be73be128 1307380695
+obj /usr/share/texmf-dist/doc/latex/tkz-fct/readme-tkz-fct.txt db42bc704586beb3f19f5f99a1522a2f 1307380695
+dir /usr/share/texmf-dist/doc/latex/tufte-latex
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/sample-book.tex bfaf9b488f005a014855bd87da62a502 1260666435
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/History.txt 1a20adbc86604cb437700b7c553b17c6 1260666435
+dir /usr/share/texmf-dist/doc/latex/tufte-latex/graphics
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/vdqi-contents.pdf 8fad96e79732c10b2719114382643b5e 1242689102
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/helix.pdf a37d6482b483c71a7881e781c4b94af9 1243719999
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/hilbertrecursive.tex 44c56625e3d737e9531dba66e0888e2a 1322929866
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/sine2.pdf 2fb891a69f11cfdad9615bc12eba30f8 1322929866
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/hilbertcurves.pdf 69a17dada5c1553466dccb30d8fdf6e7 1243719999
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/be-contents.pdf 6c085083d9f8eb7763da1fb7087d1960 1242689102
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/sine2.asy 70f74fdeb5f44e781894854bfce140ff 1322929866
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/ei-title.pdf 4ba5cc7afc3b27de90728a923d2c0078 1242689102
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/sine.pdf dcb821f8816c16dae479bc0f27412a2a 1243719999
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/helix.asy e7e1242e8c81f5c93ab87bd6b30456e6 1213033958
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/satir_graph.png bbb2ebb5a81175c3d5b0237ed7593037 1213033958
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/sine.asy e1cd83f06751e5006ecfe6d36d49a246 1213033958
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/nasa_vision_sm.png acfd2fa4e7a91e8a654e512d791faf08 1213033958
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/vdqi-title.pdf 37d655aecf663e0276f1fa75fc018296 1242689102
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/be-title.pdf 7fd8b23070b3f5410022e7679241d279 1242689102
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/ve-contents.pdf 3f8204d2acf03af50f8d22a673801ef8 1242689102
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/ve-title.pdf 167fb7a40dda103bc79dd7f597ffcd1a 1242689102
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/graphics/ei-contents.pdf 169eeb141d7dd1461a4a21fe3b19451c 1242689102
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/sample-book.pdf bc96aeba754e2b65e9564448bc206b20 1260666435
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/sample-handout.pdf 0e3334b36ecb3301bfc00122a29c8ee7 1260666435
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/sample-handout.bib 4ebfe710dbe5b523c4e0d98372dc4946 1260666435
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/sample-handout.tex ff7bd03c19d7f97afff10eaea5ecabd8 1260666435
+obj /usr/share/texmf-dist/doc/latex/tufte-latex/README.txt 46c0698ebc845cb2b3db5028a0c1742a 1322929866
+dir /usr/share/texmf-dist/doc/latex/celtic
+obj /usr/share/texmf-dist/doc/latex/celtic/celtic.pdf 8a501dd77ef43b73294bd6181b276942 1405894676
+obj /usr/share/texmf-dist/doc/latex/celtic/README b23686a942ff4aa6bd7cd6f7a83803f8 1405894676
+obj /usr/share/texmf-dist/doc/latex/celtic/celtic_doc.tex a70bd0cb72c450eca5385c2ef645e93c 1405894676
+obj /usr/share/texmf-dist/doc/latex/celtic/celtic_code.pdf b1399162b7b9a966dad28350ee0cac27 1405894676
+dir /usr/share/texmf-dist/doc/latex/lpic
+obj /usr/share/texmf-dist/doc/latex/lpic/instructions-differential.eps 0493a1de9b54d16af68a4087e9cce298 1293147360
+obj /usr/share/texmf-dist/doc/latex/lpic/README 1b18581470005938e2d20ca38843da9f 1293147360
+obj /usr/share/texmf-dist/doc/latex/lpic/instructions.tex 14bb96eb8874eb400905f235679ea1e4 1293147360
+obj /usr/share/texmf-dist/doc/latex/lpic/instructions.pdf 2c4e21d9db95d69c7a027a02a9090ac1 1293147360
+obj /usr/share/texmf-dist/doc/latex/lpic/instructions-differential.pdf 37a77dd44cf3e7756f9efdba2837e995 1293147360
+dir /usr/share/texmf-dist/doc/latex/blox
+obj /usr/share/texmf-dist/doc/latex/blox/README 6e12876782be2d7d4b102e89e5cd1333 1408741470
+obj /usr/share/texmf-dist/doc/latex/blox/blox.pdf ab21d6904091f3e7314a85f4ca1c3963 1408741470
+dir /usr/share/texmf-dist/doc/latex/makeshape
+obj /usr/share/texmf-dist/doc/latex/makeshape/testsample.pdf 6e3a020480d1523657d385e88eca7f48 1359413748
+obj /usr/share/texmf-dist/doc/latex/makeshape/README c4287cea4e91886709974a5a5526ed71 1359413748
+obj /usr/share/texmf-dist/doc/latex/makeshape/makeshape.pdf ea8345f793e11ccfbdee9dda8e507587 1359413748
+obj /usr/share/texmf-dist/doc/latex/makeshape/sampleshape.tex ae55bf4740fea97e9bc7baedde5624a1 1359413748
+obj /usr/share/texmf-dist/doc/latex/makeshape/ontesting.pdf 9f60116536eab09dd625bdcc1e04412e 1359413748
+obj /usr/share/texmf-dist/doc/latex/makeshape/testsample.tex c7f9128175143b4536d7a8dbe960f06d 1359413748
+dir /usr/share/texmf-dist/doc/latex/qcircuit
+obj /usr/share/texmf-dist/doc/latex/qcircuit/README 72aa7be46d5a09e9d7859b401b3ef788 1406243247
+obj /usr/share/texmf-dist/doc/latex/qcircuit/Qtutorial.tex 4fe648cf532ffe4574a33ff23499ab94 1406243247
+obj /usr/share/texmf-dist/doc/latex/qcircuit/Qtutorial.pdf 95aa16fe85154f7fd264c4071236cb8e 1406243247
+dir /usr/share/texmf-dist/doc/latex/smartdiagram
+obj /usr/share/texmf-dist/doc/latex/smartdiagram/README 4a2ba05ac92939ea4e6c3e0613d7f854 1365203420
+obj /usr/share/texmf-dist/doc/latex/smartdiagram/smartdiagram.pdf 74ccdce2435bf00276146648936c051c 1366414725
+dir /usr/share/texmf-dist/doc/latex/pgf-umlsd
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/README 50ee1fba1b5ba22beb7cf06b5c77d824 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/pgf-umlsd-manual.pdf 6dce01edb7275aba71eb6923bf3c4546 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/diagrams.pdf 17252dc522b39c514884086142669a64 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/logo.png 6f4b9c87f212bcdf4eeef52324541b5e 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/pgf-umlsd-manual.tex f95084b47634bef94855be0a909f5a7c 1393282815
+dir /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/customize.log ae45003d4883b820ca8e710d085a85f7 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/threadbias.log a8384e998f80e87ced16ed633f3c58bf 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/distance.tex 84f5a61c37878993a2ad8f00dbcd146c 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/callself.tex 8c93a0e8791ed70743250ec1c0048cf5 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/multi-threads-example.tex e10f3303f424f8c3aa897ee96f3cfef1 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/threadbias.tex a54fa7d927f6aed03047bc867f255495 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/sync-clock.tex 6d9622bdbe74fc36a14e97077a650f0b 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/nested-call.tex 96f8d101786efc58a0043e5eac030386 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/postlevel.tex 34399a06c7e529760c92c1cde1a2acee 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/block.tex 71eaf17b286cba8163fd9256582f0b14 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/no-thread-example.tex 19576faaff918bf9743a3d7957587c21 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/postlevel.log 718bf1153d921c3eef1f24e0d215338a 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/empty.tex f4a010b669ccfc7403a69414b73bef0a 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/thread.tex 83c0560a5dd95a39f61cd01d7d301c43 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/instance.tex ebf4b38e37d286f61937646fbff30679 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/call.tex 5326c3ad4633872a99f7950471a176ef 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/messcall.tex c92c0411fa6cb585f2e0499a3069153a 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/customize.tex af9ebc1848267fc34fe12ad1e69d5d12 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/prelevel.tex 97365454118721d1d8d43d5cda768364 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/non-instantaneous-message.tex 0a94e667ead57c1520c0d109f801e372 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/message.tex 4d6b2ebe92cc47ca62ca6190be61b0e5 1393282815
+obj /usr/share/texmf-dist/doc/latex/pgf-umlsd/demo/single-thread-example.tex 1f7ef3cf772a31e2c6059b16b60724a4 1393282815
+dir /usr/share/texmf-dist/doc/generic
+dir /usr/share/texmf-dist/doc/generic/xypic
+obj /usr/share/texmf-dist/doc/generic/xypic/README d76abb4db084ce7809ec626b2636bd00 1276303729
+obj /usr/share/texmf-dist/doc/generic/xypic/INSTALL c7f5c01e69077db8d158f582e156f764 1312310545
+obj /usr/share/texmf-dist/doc/generic/xypic/MANIFEST 1d7fe559c307abe29e5b614e8a83e625 1381187214
+obj /usr/share/texmf-dist/doc/generic/xypic/FONTCOPYING 3ea0c09f75df8a0eddf67188f3125d97 1276303729
+obj /usr/share/texmf-dist/doc/generic/xypic/Xy-logo.png 792a7b006f4613644463030b58290e1a 1381187214
+obj /usr/share/texmf-dist/doc/generic/xypic/xysource.pdf 17c0efce393a0bd29919e4d477a232b6 1381187214
+obj /usr/share/texmf-dist/doc/generic/xypic/COPYING b234ee4d69f5fce4486a80fdaf4a4263 1277423258
+obj /usr/share/texmf-dist/doc/generic/xypic/xyrefer.pdf ad5043ac1412229c2af729fe5460855c 1381187214
+obj /usr/share/texmf-dist/doc/generic/xypic/barrdoc.pdf 5d20d8e19b6daa6c6a3402cb95ba7bc4 1381187214
+obj /usr/share/texmf-dist/doc/generic/xypic/CATALOG bd87b05d1301be9116740f603263c9fd 1381187214
+obj /usr/share/texmf-dist/doc/generic/xypic/Xy-pic.html ba464963f0a718d0034c33e4705b2b03 1381187214
+obj /usr/share/texmf-dist/doc/generic/xypic/xy389src.tar.gz 8590792a6323e9abc1da1caeaa51b966 1381187214
+obj /usr/share/texmf-dist/doc/generic/xypic/TRAILER 7ec42cb4e4e3cd19cac45c089401846c 1381187214
+obj /usr/share/texmf-dist/doc/generic/xypic/xyguide.pdf cef4e0acc39f1bcb4b223bcf2cd465fa 1381187214
+obj /usr/share/texmf-dist/doc/generic/xypic/xypdf.pdf 56b0ecf3af1b9fdd808a23c34ab5bf04 1381187214
+dir /usr/share/texmf-dist/doc/generic/xypic/support
+obj /usr/share/texmf-dist/doc/generic/xypic/support/install-tds aa343431ff9e933fa16e5068959564f9 1312310545
+obj /usr/share/texmf-dist/doc/generic/xypic/support/dvitogif89a 85bc76623f2217f06df7e0af4abdb2f4 1312310545
+obj /usr/share/texmf-dist/doc/generic/xypic/support/pnmrawtopcropwhite.c 276994651134121f9b5b9720a485ac67 1312310545
+obj /usr/share/texmf-dist/doc/generic/xypic/VERSIONS 8849a3a6359690e59663657b7d6a4c93 1381187214
+dir /usr/share/texmf-dist/doc/generic/dratex
+obj /usr/share/texmf-dist/doc/generic/dratex/README efd951d20a4857896054594ab7db2ca5 1221918219
+obj /usr/share/texmf-dist/doc/generic/dratex/Examples.tex 6b80f7231067f3fdf7601428741cfd53 1221918219
+dir /usr/share/texmf-dist/doc/generic/petri-nets
+obj /usr/share/texmf-dist/doc/generic/petri-nets/README 4896b65205a34b819ff972816c391147 1316989345
+obj /usr/share/texmf-dist/doc/generic/petri-nets/pndoc.pdf 8fd5df271b2815cedc1e7b9ceaf30c1e 1316989345
+obj /usr/share/texmf-dist/doc/generic/petri-nets/pn2pdf 5209550290f0464e8f293253f28ec907 1316989345
+obj /usr/share/texmf-dist/doc/generic/petri-nets/ChangeLog 0979d644c3c34e460ad6134766703e4d 1316989345
+obj /usr/share/texmf-dist/doc/generic/petri-nets/pndoc.tex 81e29f0f6080c70c543de1692ced8b76 1316989345
+obj /usr/share/texmf-dist/doc/generic/petri-nets/COPYING 0636e73ff0215e8d672dc4c32c317bb3 1316989345
+dir /usr/share/texmf-dist/doc/generic/doc-pictex
+obj /usr/share/texmf-dist/doc/generic/doc-pictex/Doc-PiCTeX.txt 5306f976e89d9319581290ec30a37613 1324686628
+dir /usr/share/texmf-dist/doc/generic/pgfplots
+obj /usr/share/texmf-dist/doc/generic/pgfplots/README f2a58d604912811ac6c7d58eb8921d0e 1407365279
+dir /usr/share/texmf-dist/doc/generic/chemfig
+obj /usr/share/texmf-dist/doc/generic/chemfig/chemfig_doc_fr.pdf 3e740400dbdb56c7581121794bbcb0d6 1385680874
+obj /usr/share/texmf-dist/doc/generic/chemfig/README bf64172cd9a0a1cfb18e0c03d5abfc25 1385680874
+obj /usr/share/texmf-dist/doc/generic/chemfig/chemfig_doc_fr.tex e24a3f2236e1c24c55dbe4490bde68c8 1385680874
+obj /usr/share/texmf-dist/doc/generic/chemfig/chemfig_doc_en.pdf 1c12fbdce553aa1f3cdef24f817e7ff9 1385680874
+obj /usr/share/texmf-dist/doc/generic/chemfig/chemfig_doc_en.tex 24079f4ebeec000e1c218e8e58e98df9 1385680874
+dir /usr/share/texmf-dist/doc/generic/pictex
+obj /usr/share/texmf-dist/doc/generic/pictex/README 3af48d4c00b80a4b135c26d84a6378b8 1301872302
+obj /usr/share/texmf-dist/doc/generic/pictex/00index f2227f3eca9db9ac7ff51e2f418f15da 1136768217
+obj /usr/share/texmf-dist/doc/generic/pictex/readme.errorbars 9b0461d14ecc4f672dd6e91f0bda8642 1136768217
+obj /usr/share/texmf-dist/doc/generic/pictex/pictexzusatz.txt c8aaedc1428ea904feaf33e8b32fdb7c 1136768217
+dir /usr/share/texmf-dist/doc/generic/dcpic
+obj /usr/share/texmf-dist/doc/generic/dcpic/README 19e3bd8c9d8d1f5dade91ee7364ba3cb 1262223847
+obj /usr/share/texmf-dist/doc/generic/dcpic/examples.pdf 3b1affe513ed9e20c49afb3c6c40b3b3 1367531239
+obj /usr/share/texmf-dist/doc/generic/dcpic/manDCPiCpt.tex 915370b28988bc7f12b40a492e6e4b7b 1367531239
+obj /usr/share/texmf-dist/doc/generic/dcpic/eurotex2001.tex dc3c9de16704abbb2eb0b53cda30a402 1367531239
+obj /usr/share/texmf-dist/doc/generic/dcpic/manDCPiC.pdf c4743c6acf48af520fd12498cb9e7670 1367531239
+obj /usr/share/texmf-dist/doc/generic/dcpic/manDCPiCpt.pdf fbf6524360a1986afbc191cb575733ee 1367531239
+obj /usr/share/texmf-dist/doc/generic/dcpic/manDCPiC.tex be29f9c9c354ea572e29e4c257795274 1367531239
+obj /usr/share/texmf-dist/doc/generic/dcpic/eurotex2001.pdf 5793365f6bc60beb4cea495b2d230af6 1367531239
+obj /usr/share/texmf-dist/doc/generic/dcpic/examples.tex c40a9e50c316708a99e0147a896ee0c2 1367531239
+dir /usr/share/texmf-dist/doc/fonts
+dir /usr/share/texmf-dist/doc/fonts/knitting
+obj /usr/share/texmf-dist/doc/fonts/knitting/README b8f20a68d59d06cd313181c168a99824 1263772548
+obj /usr/share/texmf-dist/doc/fonts/knitting/knitting-doc.pdf 891e04253b6c07ec2d66edff644cb4fa 1283819897
+obj /usr/share/texmf-dist/doc/fonts/knitting/knitkey.tex 94914cc17ef1a49eeb9955f7ff4a818a 1283819897
+obj /usr/share/texmf-dist/doc/fonts/knitting/knitexamples.tex 1a409a30a7213297d60b5b2c547e987f 1283819897
+obj /usr/share/texmf-dist/doc/fonts/knitting/knitting-doc.tex 5bbcf15e23a8e39c8dc06aba68042174 1283819897
+dir /usr/share/texmf-dist/doc/context
+dir /usr/share/texmf-dist/doc/context/third
+dir /usr/share/texmf-dist/doc/context/third/pgfplots
+obj /usr/share/texmf-dist/doc/context/third/pgfplots/pgfplotsexample-context.tex 788425629b60b865c798714f800c9d76 1364427911
+obj /usr/share/texmf-dist/doc/context/third/pgfplots/pgfplotsexample-context.pdf 471ecd4cee763d34ecb0d722705703d1 1407365279
+dir /usr/share/texmf-dist/doc/lualatex
+dir /usr/share/texmf-dist/doc/lualatex/pgfmolbio
+obj /usr/share/texmf-dist/doc/lualatex/pgfmolbio/README c0d537ed0722e513ce9ef1dcdc89d3f2 1375485723
+obj /usr/share/texmf-dist/doc/lualatex/pgfmolbio/SampleUniprot.txt 269b08cc96c7ead788b07e8b9a7b95ba 1350600770
+obj /usr/share/texmf-dist/doc/lualatex/pgfmolbio/SampleGff.gff 30fdbe41bd87858ce15d615a39e1605c 1350600770
+obj /usr/share/texmf-dist/doc/lualatex/pgfmolbio/SampleScf.scf f90b981fa288c681f1189ba717dcc47b 1316560439
+obj /usr/share/texmf-dist/doc/lualatex/pgfmolbio/pgfmolbio.pdf 31d6d105d6eeb56b992f5372a5f9a963 1375485723
+dir /usr/share/texmf-dist/doc/info
+obj /usr/share/texmf-dist/doc/info/texdraw.info d423fcb207b87b98c7f46ba0a2f97292 1381705116
+dir /usr/share/texmf-dist/doc/support
+dir /usr/share/texmf-dist/doc/support/mkpic
+obj /usr/share/texmf-dist/doc/support/mkpic/README 1e09f45f95d3410c3abc9f5c3710e8a2 1398634922
+obj /usr/share/texmf-dist/doc/support/mkpic/mkpic.pdf fb05e44a69110bfe5d04de2a609c3f19 1398634922
+obj /usr/share/texmf-dist/doc/support/mkpic/mkpicdoc.pdf 10793d1a96a015395f941f88e8bbea83 1398634922
+obj /usr/share/texmf-dist/doc/support/mkpic/mkpicdoc.tex 0c070a3e1d628a994b39f0a9f44a9da3 1398634922
+dir /usr/share/texmf-dist/doc/support/fig4latex
+obj /usr/share/texmf-dist/doc/support/fig4latex/README 6067cd3e387acd7092ad37c5a4c652bc 1250617252
+dir /usr/share/texmf-dist/doc/support/fig4latex/figs
+obj /usr/share/texmf-dist/doc/support/fig4latex/figs/if-then_flowchart.fig 7bf27cab990859ab246ff51187ce0bab 1250617252
+obj /usr/share/texmf-dist/doc/support/fig4latex/figs/div_alg_flowchart.fig 2271f9069b50834f55b174a849d6b2ec 1250617252
+obj /usr/share/texmf-dist/doc/support/fig4latex/CHANGES f00149ab41eeab1c0c1b2dbbe204a872 1250617252
+obj /usr/share/texmf-dist/doc/support/fig4latex/COPYING d32239bcb673463ab874e80d47fae504 1250617252
+obj /usr/share/texmf-dist/doc/support/fig4latex/example.pdf 1b8f64f11d8de2ed0f809b112f628489 1250617252
+obj /usr/share/texmf-dist/doc/support/fig4latex/example.tex d1fc4d71fb342077e20ce5472b6d3a1c 1250617252
+dir /usr/share/texmf-dist/doc/support/texdraw
+obj /usr/share/texmf-dist/doc/support/texdraw/README 00297940015772139004738556384d25 1381705116
+obj /usr/share/texmf-dist/doc/support/texdraw/texdraw.fns 8278445ee0cd4691a5808b5fb49b63c8 1136767548
+obj /usr/share/texmf-dist/doc/support/texdraw/texdraw.cps 0ddad574dff4f96f723846204623784b 1136767548
+obj /usr/share/texmf-dist/doc/support/texdraw/ChangeLog 56920bec8980d5540037c05b7a7c2f72 1381705116
+obj /usr/share/texmf-dist/doc/support/texdraw/texdraw.ps 8c877270eaa7fda67cae6429fd83add3 1381705116
+obj /usr/share/texmf-dist/doc/support/texdraw/texdraw.texi 678bba0c45592f492c7c04959b6b16d7 1136767548
+obj /usr/share/texmf-dist/doc/support/texdraw/txi-src.tgz df79b3f341eb1a4388b3bf2614cf756d 1381705116
+dir /usr/share/texmf-dist/doc/man
+dir /usr/share/texmf-dist/doc/man/man1
+obj /usr/share/texmf-dist/doc/man/man1/mathspic.man1.pdf 164690b719725404e2ee2bf445d4a102 1382306581
+obj /usr/share/texmf-dist/doc/man/man1/mathspic.1 eb28f0662c695f15a4f214f716aae3f9 1382306581
+dir /usr/share/texmf-dist/doc/man/man5
+obj /usr/share/texmf-dist/doc/man/man5/prerex.man5.pdf 5c2665b5c8da2f3c786250e4884de2ee 1398205494
+obj /usr/share/texmf-dist/doc/man/man5/prerex.5 95d085fc4e73f50a72ea1b4e5d7daab1 1398205494
+dir /usr/share/texmf-dist/doc/plain
+dir /usr/share/texmf-dist/doc/plain/pgfplots
+obj /usr/share/texmf-dist/doc/plain/pgfplots/pgfplotsexample-plain.tex 56270c8394de1bed0609ead7fab15486 1364427911
+obj /usr/share/texmf-dist/doc/plain/pgfplots/pgfplotsexample-plain.pdf bdded5679d7b0be2008a89ceeb9e2d7e 1407365279
 dir /usr/share/texmf-dist/fonts
 dir /usr/share/texmf-dist/fonts/source
 dir /usr/share/texmf-dist/fonts/source/public
@@ -1134,7 +2807,3 @@ dir /usr/share/texmf-dist/fonts/enc/dvips/xypic
 obj /usr/share/texmf-dist/fonts/enc/dvips/xypic/xycirc.enc 81499e8f6fc4029878adc87117df6452 1276303729
 obj /usr/share/texmf-dist/fonts/enc/dvips/xypic/xyd.enc 49cd4c2d54e7a7fccf078e946f586f8b 1276303729
 obj /usr/share/texmf-dist/fonts/enc/dvips/xypic/xyd2.enc 5ad4d52a4bd04bae23ca548c793c5c3f 1276303729
-sym /usr/bin/mathspic -> ../share/texmf-dist/scripts/mathspic/mathspic.pl 1465673122
-sym /usr/bin/cachepic -> ../share/texmf-dist/scripts/cachepic/cachepic.tlu 1465673122
-sym /usr/bin/fig4latex -> ../share/texmf-dist/scripts/fig4latex/fig4latex 1465673122
-sym /usr/bin/mkpic -> ../share/texmf-dist/scripts/mkpic/mkpic 1465673122

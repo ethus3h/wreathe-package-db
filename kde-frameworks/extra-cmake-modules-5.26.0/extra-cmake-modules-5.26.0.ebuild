@@ -4,7 +4,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python{2_7,3_3,3_4,3_5} )
+PYTHON_COMPAT=( python{2_7,3_4,3_5} )
 KDE_AUTODEPS="false"
 KDE_DEBUG="false"
 KDE_TEST="false"
@@ -14,7 +14,7 @@ DESCRIPTION="Extra modules and scripts for CMake"
 HOMEPAGE="https://projects.kde.org/projects/kdesupport/extra-cmake-modules"
 
 LICENSE="BSD"
-KEYWORDS="amd64 ~arm ~arm64 hppa ~ppc ppc64 x86"
+KEYWORDS="amd64 arm ~arm64 hppa ppc ppc64 x86"
 IUSE="doc test"
 
 DEPEND="

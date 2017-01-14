@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -18,7 +18,7 @@ DESCRIPTION="KDE libraries needed by all KDE programs"
 [[ ${KDE_BUILD_TYPE} != live ]] && \
 SRC_URI="mirror://kde/stable/applications/${APPS_VERSION}/src/${P}.tar.xz"
 
-KEYWORDS="amd64 ~arm ~ppc ~ppc64 x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm ~x86"
 LICENSE="LGPL-2.1"
 IUSE="cpu_flags_x86_3dnow acl altivec +bzip2 +crypt debug doc fam jpeg2k
 kerberos libressl lzma cpu_flags_x86_mmx nls openexr +policykit spell
@@ -96,7 +96,7 @@ RDEPEND="${COMMONDEPEND}
 	!dev-qt/qtphonon
 	>=app-crypt/gnupg-2.0.11
 	app-misc/ca-certificates
-	$(add_kdebase_dep kde-env '' 4.14.3)
+	kde-frameworks/kdelibs-env:4
 	sys-apps/dbus[X]
 	!aqua? (
 		udisks? ( sys-fs/udisks:2 )
@@ -108,12 +108,12 @@ RDEPEND="${COMMONDEPEND}
 	udev? ( app-misc/media-player-info )
 "
 PDEPEND="
-	$(add_kdebase_dep katepart '' 4.14.3)
+	$(add_kdeapps_dep katepart '' 4.14.3)
 	|| (
 		$(add_kdeapps_dep kfmclient '' 4.14.3)
 		x11-misc/xdg-utils
 	)
-	handbook? ( kde-apps/khelpcenter:* )
+	handbook? ( kde-apps/khelpcenter:= )
 	policykit? ( || (
 		>=sys-auth/polkit-kde-agent-0.99
 		kde-plasma/polkit-kde-agent

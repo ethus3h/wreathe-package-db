@@ -3,52 +3,87 @@ dir /var/lib
 dir /var/lib/texmf
 dir /var/lib/texmf/web2c
 dir /var/lib/texmf/web2c/xetex
-obj /var/lib/texmf/web2c/xetex/cont-en.log 5843dfd1674c1f29854d7482ce517f4c 1465675008
-obj /var/lib/texmf/web2c/xetex/cont-en.fmt 28058ee1a727cb169f3cafeee182e31e 1465675008
+obj /var/lib/texmf/web2c/xetex/cont-en.log 218acdf0d73ee451a6bda7ee80bef50c 1484349012
+obj /var/lib/texmf/web2c/xetex/cont-en.fmt fcea10ed6a93c11ca1d83797f45464de 1484349012
 dir /var/lib/texmf/web2c/pdftex
-obj /var/lib/texmf/web2c/pdftex/cont-en.log 87efcb00c6271b1063a58e5ba0ad575d 1465675008
-obj /var/lib/texmf/web2c/pdftex/cont-en.fmt 0fd24b65cd6f69ae32dceb957c667300 1465675008
+obj /var/lib/texmf/web2c/pdftex/cont-en.log 79033b3977b4d87c5305a082750556e7 1484349012
+obj /var/lib/texmf/web2c/pdftex/cont-en.fmt c3de678ab2f77574ed306dffc4b05716 1484349012
 dir /etc
 dir /etc/texmf
 dir /etc/texmf/dvipdfm
 dir /etc/texmf/dvipdfm/config
 dir /etc/texmf/dvips.d
 dir /etc/texmf/fmtutil.d
-obj /etc/texmf/fmtutil.d/format.texlive-context.cnf b657c35b4ef9304c465cd7a60cf3e487 1465674997
+obj /etc/texmf/fmtutil.d/format.texlive-context.cnf b657c35b4ef9304c465cd7a60cf3e487 1484349007
 dir /etc/texmf/updmap.d
-obj /etc/texmf/updmap.d/texlive-context.cfg 794336baa98f0a0cdde75be559ceac15 1465675008
+obj /etc/texmf/updmap.d/texlive-context.cfg 794336baa98f0a0cdde75be559ceac15 1484349012
 dir /usr
 dir /usr/bin
+sym /usr/bin/mtxworks -> ../share/texmf-dist/scripts/context/stubs/unix/mtxworks 1484349024
+sym /usr/bin/texmfstart -> ../share/texmf-dist/scripts/context/stubs/unix/texmfstart 1484349024
+sym /usr/bin/contextjit -> ../share/texmf-dist/scripts/context/stubs/unix/contextjit 1484349024
+sym /usr/bin/context -> ../share/texmf-dist/scripts/context/stubs/unix/context 1484349024
+sym /usr/bin/mtxrunjit -> ../share/texmf-dist/scripts/context/stubs/unix/mtxrunjit 1484349024
+sym /usr/bin/luatools -> ../share/texmf-dist/scripts/context/stubs/unix/luatools 1484349024
+sym /usr/bin/metatex -> ../share/texmf-dist/scripts/context/stubs/unix/metatex 1484349024
+sym /usr/bin/texexec -> ../share/texmf-dist/scripts/context/stubs/unix/texexec 1484349024
+sym /usr/bin/mtxrun -> ../share/texmf-dist/scripts/context/stubs/unix/mtxrun 1484349024
 dir /usr/share
 dir /usr/share/tlpkg
 dir /usr/share/tlpkg/tlpobj
 obj /usr/share/tlpkg/tlpobj/context-rst.tlpobj fd840eb12cacd79ed4fc217fb3838ed8 1397781902
 obj /usr/share/tlpkg/tlpobj/context-transliterator.tlpobj 22f2c362cc336ad1b3ab5e3250708b9e 1397781909
+obj /usr/share/tlpkg/tlpobj/context-bnf.doc.tlpobj 9624cc80cc9d3a3d66459c53758a7f23 1397781895
+obj /usr/share/tlpkg/tlpobj/context-typearea.doc.tlpobj a5874d0696aa108b42a5434eb76ff870 1397781909
+obj /usr/share/tlpkg/tlpobj/context-cyrillicnumbers.doc.tlpobj dc542318a6f05f4e36ff6cc23cebab08 1397781896
+obj /usr/share/tlpkg/tlpobj/context-vim.doc.tlpobj cf78f032ee2bb6a830c51751774e2090 1408065901
 obj /usr/share/tlpkg/tlpobj/collection-context.tlpobj 2ab350d4a5d2b7683ee0401942f390ad 1397781794
 obj /usr/share/tlpkg/tlpobj/context-account.tlpobj ffa3823519b1a6e5e4e99058ac1ae768 1397781895
 obj /usr/share/tlpkg/tlpobj/context-vim.tlpobj af64b72bac4a92217cc0b0f6d32ab73c 1408065901
 obj /usr/share/tlpkg/tlpobj/context-gnuplot.tlpobj 4066ed7e49de977da4b4affb3690bcc9 1397781899
 obj /usr/share/tlpkg/tlpobj/context-typescripts.tlpobj 90e6902fd11d8fc6ed9276f65e87df4f 1397781909
+obj /usr/share/tlpkg/tlpobj/context-degrade.doc.tlpobj 6fa688abd950c7c3213066cd474afc6e 1397781897
 obj /usr/share/tlpkg/tlpobj/context-filter.tlpobj 7935bcdf04fa1d2bb8405922d38651a9 1397781897
+obj /usr/share/tlpkg/tlpobj/context-games.doc.tlpobj 432feb9f5c0762289135e46d78fbaa96 1397781898
+obj /usr/share/tlpkg/tlpobj/context-simplefonts.doc.tlpobj 9403d3e3bac96b49ef272549176eadd6 1397781903
 obj /usr/share/tlpkg/tlpobj/context-simpleslides.tlpobj 85b60c7c7222373e50ead76117c4659e 1403832440
+obj /usr/share/tlpkg/tlpobj/context-ruby.doc.tlpobj 52d8d08da8204d6af767a7fa2b926774 1397781903
 obj /usr/share/tlpkg/tlpobj/context-cyrillicnumbers.tlpobj d1f55e1c4e22de167fc652413335b67d 1397781897
 obj /usr/share/tlpkg/tlpobj/context.tlpobj 0c77ba5cbc02defa64bba773986d71fe 1400808281
+obj /usr/share/tlpkg/tlpobj/context-rst.doc.tlpobj 0a9fad924d37f571cd0794bdd1dd60de 1397781902
 obj /usr/share/tlpkg/tlpobj/context-construction-plan.tlpobj ec717994c6bf0530e3404887a7d0acd5 1397781896
 obj /usr/share/tlpkg/tlpobj/context-mathsets.tlpobj 0ca1c0b903efd0ab6e9073906fe92d03 1397781901
 obj /usr/share/tlpkg/tlpobj/context-fixme.tlpobj 0d048d7f43bfb0a6ca20a0e39638ae60 1397781897
+obj /usr/share/tlpkg/tlpobj/context-french.doc.tlpobj 30296fa8635cb05ec056c3da84f3e7ea 1397781897
+obj /usr/share/tlpkg/tlpobj/context-simpleslides.doc.tlpobj edcb7208963b246e02596d12563c8f63 1403832435
+obj /usr/share/tlpkg/tlpobj/context-fullpage.doc.tlpobj 35f75eacef3a33aea7b07b6f7309fdab 1397781898
 obj /usr/share/tlpkg/tlpobj/context-games.tlpobj 8b66ce78dd9f2a1d76692f914e7ac0d3 1397781898
 obj /usr/share/tlpkg/tlpobj/jmn.tlpobj c5bd83f17f09f53182000a59df9b3c95 1397783153
+obj /usr/share/tlpkg/tlpobj/context-construction-plan.doc.tlpobj fcfd0edb14fb21f1b93416c37b45aac4 1397781896
 obj /usr/share/tlpkg/tlpobj/context-french.tlpobj d6eea87ce029ff997ee42334b5654e97 1397781898
 obj /usr/share/tlpkg/tlpobj/context-gantt.tlpobj 4a3b53a3cccd63a26d179b9e024f166c 1397781899
 obj /usr/share/tlpkg/tlpobj/context-simplefonts.tlpobj 8f5a1742c74a74da82e3852a40b2d8b8 1397781903
+obj /usr/share/tlpkg/tlpobj/context-chromato.doc.tlpobj b1564f72c76eeac85f78d1efb7fb7f05 1397781896
+obj /usr/share/tlpkg/tlpobj/context-typescripts.doc.tlpobj 4bdc6b847b39477b5ca29c1ee05f150a 1397781909
 obj /usr/share/tlpkg/tlpobj/context-notes-zh-cn.tlpobj 245499caba18415b3fca3c1dbee360df 1397781902
+obj /usr/share/tlpkg/tlpobj/context-account.doc.tlpobj f1ee7e9c115f7bec0f565e8c1a605ad4 1397781895
+obj /usr/share/tlpkg/tlpobj/context-gantt.doc.tlpobj 58c1c63fe2c2770d011a879eaaa41b19 1397781898
+obj /usr/share/tlpkg/tlpobj/context-gnuplot.doc.tlpobj f4d4a7da4d8cffa7636e6fbb7fdc3754 1397781899
 obj /usr/share/tlpkg/tlpobj/context-bnf.tlpobj ab763e8663ef20fbcf914033aa9b23d2 1397781896
 obj /usr/share/tlpkg/tlpobj/context-chromato.tlpobj 9e61e57e0e616d3bef4fe3bcd34d45c9 1397781896
 obj /usr/share/tlpkg/tlpobj/context-ruby.tlpobj 696ea971fd976e493a4cc309cd4a9aab 1397781903
 obj /usr/share/tlpkg/tlpobj/context-lettrine.tlpobj b1e6ddeca041a0e39986e7574ffe8742 1397781900
+obj /usr/share/tlpkg/tlpobj/context.doc.tlpobj 5b274a4d3f9356973b27b5cbdb0af1ed 1400808279
+obj /usr/share/tlpkg/tlpobj/context-lilypond.doc.tlpobj b022effefb9fcdfdf27cfc07a6a6060f 1397781900
+obj /usr/share/tlpkg/tlpobj/context-transliterator.doc.tlpobj 571a5388745c0c835560dae1848b1d75 1397781908
 obj /usr/share/tlpkg/tlpobj/context-letter.tlpobj cdfea63373da61f292e0a260617dc2bc 1403832435
+obj /usr/share/tlpkg/tlpobj/context-filter.doc.tlpobj 67618328af6b4943c589f0626980b953 1397781897
+obj /usr/share/tlpkg/tlpobj/context-notes-zh-cn.doc.tlpobj aa748c5c5e03ec04fa85800865823451 1397781901
+obj /usr/share/tlpkg/tlpobj/context-lettrine.doc.tlpobj b7201cec04465b5d2ce0948be512638b 1397781900
+obj /usr/share/tlpkg/tlpobj/context-letter.doc.tlpobj 9b0f9c7ec9d4485dea0cb4b9b5b5bbe7 1403832435
 obj /usr/share/tlpkg/tlpobj/context-degrade.tlpobj 79fd894c5e43c2565d0ce5887d7dce05 1397781897
 obj /usr/share/tlpkg/tlpobj/context-lilypond.tlpobj 59b17457692255649122bc2ab2c8ab87 1397781901
+obj /usr/share/tlpkg/tlpobj/context-mathsets.doc.tlpobj 50e540829378c06eabd6ba21495b1de4 1397781901
 obj /usr/share/tlpkg/tlpobj/context-typearea.tlpobj e2dd26a1a30c9b97babdce41381dfece 1397781909
 obj /usr/share/tlpkg/tlpobj/context-fullpage.tlpobj 27dffdb519218f09395fc93a9f1139df 1397781898
 obj /usr/share/tlpkg/tlpobj/context-algorithmic.tlpobj 46730b7a3a1de39431e4671432c08f54 1397781895
@@ -2080,7 +2115,7 @@ obj /usr/share/texmf-dist/tex/context/base/x-res-03.mkii f12f2a6cfa0afcd3f66aff3
 obj /usr/share/texmf-dist/tex/context/base/x-physml.mkiv 60d63a0cc58b7b4fb625c0b9a653f0d9 1337017135
 obj /usr/share/texmf-dist/tex/context/base/strc-lnt.mkii 79f542d3a6caf161c61861d967ff766c 1337017135
 obj /usr/share/texmf-dist/tex/context/base/lang-def.lua 15cada8d44168882741f3df66ce67a87 1372030685
-obj /usr/share/texmf-dist/tex/context/base/data-res.lua 2650308bfd5f7d59633638430f8fab27 1465674996
+obj /usr/share/texmf-dist/tex/context/base/data-res.lua 2650308bfd5f7d59633638430f8fab27 1484349006
 obj /usr/share/texmf-dist/tex/context/base/m-steps.mkii ed0622ec7c5bd3774206af4cab958a1d 1337017135
 obj /usr/share/texmf-dist/tex/context/base/node-nut.lua 13d79e840a354ba7ed75360821fb2eba 1399321795
 obj /usr/share/texmf-dist/tex/context/base/rlxtools.rlx 69e68da7fae76118effbe938be334e97 1167218388
@@ -2350,7 +2385,7 @@ obj /usr/share/texmf-dist/tex/context/interface/cont-pe.xml fbea1d4aa1358aa79e6b
 obj /usr/share/texmf-dist/tex/context/interface/keys-en.xml 2b08f091cf3e86263fa8c6375f74e8b4 1400456186
 obj /usr/share/texmf-dist/tex/context/interface/keys-fr.xml a3a2013b01156c2bb8e3d4b6029e9c97 1400456186
 dir /usr/share/texmf-dist/fmtutil
-sym /usr/share/texmf-dist/fmtutil/format.texlive-context.cnf -> /etc/texmf/fmtutil.d/format.texlive-context.cnf 1465675013
+sym /usr/share/texmf-dist/fmtutil/format.texlive-context.cnf -> /etc/texmf/fmtutil.d/format.texlive-context.cnf 1484349025
 dir /usr/share/texmf-dist/scripts
 dir /usr/share/texmf-dist/scripts/context
 dir /usr/share/texmf-dist/scripts/context/ruby
@@ -2416,7 +2451,7 @@ obj /usr/share/texmf-dist/scripts/context/stubs/unix/mtxrunjit e55002352739eb678
 obj /usr/share/texmf-dist/scripts/context/stubs/unix/luatools 2ecaa44a6cb9bbd2fad1303ac859e60b 1306918461
 obj /usr/share/texmf-dist/scripts/context/stubs/unix/metatex df8e3a6f8f3e6d4e0e663b9b7043911f 1337017135
 obj /usr/share/texmf-dist/scripts/context/stubs/unix/texexec c86c2c8e946168941a883064bfd82f7e 1274709902
-obj /usr/share/texmf-dist/scripts/context/stubs/unix/mtxrun 5d6e6f6192ddfbd6221c220688c2853b 1465674996
+obj /usr/share/texmf-dist/scripts/context/stubs/unix/mtxrun 5d6e6f6192ddfbd6221c220688c2853b 1484349006
 dir /usr/share/texmf-dist/scripts/context/stubs/install
 obj /usr/share/texmf-dist/scripts/context/stubs/install/first-setup.sh 2ea9f4d9fde41dda2c23736d4f368afe 1400537543
 obj /usr/share/texmf-dist/scripts/context/stubs/install/first-setup.bat ab2e242dc49818bfad677c52b7f80102 1400456186
@@ -2450,7 +2485,7 @@ obj /usr/share/texmf-dist/scripts/context/lua/mtx-scite.lua 9f7e9aad5e0868031d85
 obj /usr/share/texmf-dist/scripts/context/lua/mtx-unzip.lua 61fad63555b34f6ad0e1c1b36b0454cc 1365381820
 obj /usr/share/texmf-dist/scripts/context/lua/mtx-server-ctx-help.lua fdce17846f74186a4c6963b542b55c8f 1399321795
 obj /usr/share/texmf-dist/scripts/context/lua/mtx-server.lua f48c63c7126b1db314606df2327ea180 1399321795
-obj /usr/share/texmf-dist/scripts/context/lua/mtxrun.lua 5d6e6f6192ddfbd6221c220688c2853b 1465674996
+obj /usr/share/texmf-dist/scripts/context/lua/mtxrun.lua 5d6e6f6192ddfbd6221c220688c2853b 1484349006
 obj /usr/share/texmf-dist/scripts/context/lua/mtx-metatex.lua b6f3ddf1fae0623c0ac31b6a5bd7ec74 1365381820
 obj /usr/share/texmf-dist/scripts/context/lua/mtx-tools.lua 76c42fc854db1a1d0424342ffcf5e632 1399321795
 obj /usr/share/texmf-dist/scripts/context/lua/mtx-context.lua e10a728e0ee9cf5af9260b8dc1929516 1400456186
@@ -2473,6 +2508,388 @@ obj /usr/share/texmf-dist/scripts/context/perl/texfont.pl aeb91264f229d5ad9ac880
 obj /usr/share/texmf-dist/scripts/context/perl/texfind.pl 5d3217000e5f6914836b106f571007f4 1136771649
 obj /usr/share/texmf-dist/scripts/context/perl/makempy.pl 35e35cea35a5521385048603da0becd1 1213267373
 obj /usr/share/texmf-dist/scripts/context/perl/path_tre.pm f6ce810f0c226045b0bafdba537980c2 1136771649
+dir /usr/share/texmf-dist/doc
+dir /usr/share/texmf-dist/doc/context
+dir /usr/share/texmf-dist/doc/context/document
+dir /usr/share/texmf-dist/doc/context/document/general
+dir /usr/share/texmf-dist/doc/context/document/general/manuals
+obj /usr/share/texmf-dist/doc/context/document/general/manuals/mreadme.pdf 52793f4cafb6da3ddf63f070a70fc55b 1243719999
+obj /usr/share/texmf-dist/doc/context/document/general/manuals/tiptrick.pdf 6c782004b723cceda0d5c5c724976841 1243719999
+dir /usr/share/texmf-dist/doc/context/third
+dir /usr/share/texmf-dist/doc/context/third/ruby
+obj /usr/share/texmf-dist/doc/context/third/ruby/README 489e1a7efd2866a70170c5d8cb60b9ad 1264641394
+dir /usr/share/texmf-dist/doc/context/third/bnf
+obj /usr/share/texmf-dist/doc/context/third/bnf/README f43390e7af0d9ee31d178ba2fa2b0e3b 1217343688
+obj /usr/share/texmf-dist/doc/context/third/bnf/t-bnf.pdf 34aef3a43259edda4be2a953b2694c5e 1243719999
+obj /usr/share/texmf-dist/doc/context/third/bnf/NEWS 5ecb39b6a165dc756b60b243e2d5c9ca 1217343688
+dir /usr/share/texmf-dist/doc/context/third/simpleslides
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/simpleslides.tex b7d87ebec527809e9220c42190313e92 1329179010
+dir /usr/share/texmf-dist/doc/context/third/simpleslides/styles
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/Boxed.pdf f187940c6b0cb07cd420302523393f4a 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/Shaded-green.pdf 27cd93bd862c5011ea81d0c54fb68ef3 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/ThickStripes.pdf 14c4aa483d822acea9e2a9cb80278661 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/Shaded-bluered.pdf 590122b0a6fe08f8c04fd97e6018355c 1317514601
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/Ellipse.pdf f0c206cedae547cf5910dbf54681a70f 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/NarrowStripes-green.pdf 7240935094f11bd7c9b6b85a9362d29a 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/BigNumber-blue.pdf 3158f7af22ffcfc7253133d020c32550 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/BigNumber-red.pdf 14571d69eb52ce573975dcd604536ab8 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/SideToc.pdf bab227e95ed7899496e81d04155b92c2 1265846345
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/RainbowStripe.pdf 56496e031ecf3e4df6498d4b75e2d36b 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/HorizontalStripes-red.pdf fd3598556ebc93ea986ff4e14fb726f8 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/HorizontalStripes-blue.pdf 528bd48bf2e6b88838733bff4a8872da 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/Swoosh.pdf e855ab922a45355eaa2990ce057d48d6 1265846345
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/BottomSquares.pdf d57b13f202963abfd68bd2f35307de50 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/Sunrise.pdf 16a196ce7e51ff30eb66a2cc5235dd9a 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/Rounded.pdf 31bc1adfc81500a1483eeda9a74c26c2 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/NarrowStripes-red.pdf ddb6674241417fa7da2804818b59a6a9 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/HorizontalStripes-green.pdf 03a9d9a599770f59a264b7293ab23fa9 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/Split.pdf 73551d454b7f646c61171e077860b1fc 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/NarrowStripes-blue.pdf 32a82ede9fb9e7d870100f0ef2dc3a0e 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/Framed-square.pdf 562ea8edc263e7a0c3a83b8b39f8efdb 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/Embossed.pdf 836e51adc7fa2f03fe9e4a32e438d330 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/Shaded-blue.pdf 74aebd8bafed5f2228be9374521cf2cb 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/SideSquares.pdf a5a4fa2799f0e7b5c5750cec12b90db9 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/Framed-stripe.pdf 7a4d369b0af923e65c41aee873f7afb6 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/styles/FramedTitle.pdf d44b69f49b923713644172b619a4dfec 1246231945
+dir /usr/share/texmf-dist/doc/context/third/simpleslides/solutions
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/solutions/generic-talk-15min-45min.tex e30458547284cd9dec75d785fc03bf77 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/solutions/style-template.tex f63a7ec428f2d0033f87a87e6863f306 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/solutions/speaker_introduction-2min.tex aca23531894dece33766cea7c53511ff 1246231945
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/example.pdf 8776d0961ce268c8fbab1b6d523d23eb 1317514601
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/example.tex bb8e87b02a7dd77c3b0df54d5114cd10 1317514601
+obj /usr/share/texmf-dist/doc/context/third/simpleslides/simpleslides.pdf f965e710251e59a86b02f831abe6ee11 1329179010
+dir /usr/share/texmf-dist/doc/context/third/games
+obj /usr/share/texmf-dist/doc/context/third/games/README fe8ea970ec3bdc44e82d92e57990d3fe 1233624497
+obj /usr/share/texmf-dist/doc/context/third/games/games-doc.pdf 594aa96340b21538d9e0c3c31c14bc0b 1233624497
+dir /usr/share/texmf-dist/doc/context/third/degrade
+obj /usr/share/texmf-dist/doc/context/third/degrade/degrade-demo.pdf 7f93cd28a936506c009181b01dc3081e 1243719999
+obj /usr/share/texmf-dist/doc/context/third/degrade/degrade-doc.pdf 2282408b67449a531437f30a75410be6 1243719999
+dir /usr/share/texmf-dist/doc/context/third/lettrine
+obj /usr/share/texmf-dist/doc/context/third/lettrine/lettrine-doc.tex 58296fbf1e6fdaefde03a59f4a393693 1217346449
+obj /usr/share/texmf-dist/doc/context/third/lettrine/W.pdf 26928f222d0916e79cd8b349fa624fa0 1243719999
+obj /usr/share/texmf-dist/doc/context/third/lettrine/lettrine-doc.pdf 7a15fbb9ac74864bf355f159225e9895 1243719999
+dir /usr/share/texmf-dist/doc/context/third/simplefonts
+obj /usr/share/texmf-dist/doc/context/third/simplefonts/README 6efc0de4f08f845aea44b14253ecba30 1294616427
+dir /usr/share/texmf-dist/doc/context/third/filter
+obj /usr/share/texmf-dist/doc/context/third/filter/filter.txt 2aa2d8e3ec79ed75167499fa01f2c1d4 1364856636
+dir /usr/share/texmf-dist/doc/context/third/gnuplot
+obj /usr/share/texmf-dist/doc/context/third/gnuplot/fullpage-example.pdf a7947119f4f199f403687b8f68f7dde3 1326842982
+obj /usr/share/texmf-dist/doc/context/third/gnuplot/example.plt f7a66d55f9bc2d36be0bb4909eaf86c6 1326842982
+obj /usr/share/texmf-dist/doc/context/third/gnuplot/gnuplot-context-doc.tex 5c2c134549686e1086fdddae7cb7d35b 1366375653
+obj /usr/share/texmf-dist/doc/context/third/gnuplot/fullpage-example.tex 091b322ccfda3af9c7dfd301e8b6faae 1326842982
+obj /usr/share/texmf-dist/doc/context/third/gnuplot/gnuplot-context-doc.pdf e01416be7a433b11eb3d892b74275018 1366375653
+dir /usr/share/texmf-dist/doc/context/third/letter
+obj /usr/share/texmf-dist/doc/context/third/letter/README 86355da3d70f068c6c0e651992572c0c 1324344308
+dir /usr/share/texmf-dist/doc/context/third/mathsets
+obj /usr/share/texmf-dist/doc/context/third/mathsets/mathsets-doc.pdf f12c2545195f9fc1974bf12ac0af1e8e 1243719999
+dir /usr/share/texmf-dist/doc/context/third/typescripts
+obj /usr/share/texmf-dist/doc/context/third/typescripts/README b33d84be0c470fafd24d3e86a56ab24e 1245277647
+dir /usr/share/texmf-dist/doc/context/third/vim
+obj /usr/share/texmf-dist/doc/context/third/vim/vim.txt b0b9f0c86e4811aab98f106a785b7467 1344806793
+dir /usr/share/texmf-dist/doc/context/third/fullpage
+obj /usr/share/texmf-dist/doc/context/third/fullpage/README 0b9067e8dc43f93aeec5193b87b84c2b 1294447621
+obj /usr/share/texmf-dist/doc/context/third/fullpage/fullpage-doc.pdf 164ae17167b9c703a703fccfd564a310 1296179662
+dir /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/README c55d2da70c3a20d75b479a86259c195c 1309301131
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/ctxnotes.pdf 5c688d112902756ca7407c4c4d59e631 1309301131
+dir /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/Makefile 0f6d1f8a93ccc3e3f0a79c351733d33b 1248306771
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/ctxnotes.tex 128f28ccee863739519729e5aa5c11f3 1309301131
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/project.tex bcefb9f67c287b98519507bc749294ee 1309301131
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/t-zhfonts.lua 231ca79124de9e6dbc8b60ff597cd0b4 1309301131
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/references.tex 10f9253f4e6b381c4fb1459576e51436 1309301131
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/t-layout.tex 1afd6ebfd803d9d12ffff45eaa9f747c 1309301131
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/fonts.tex 3c646e8bbb338b8ab51020fe67135f3f 1309301131
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/t-zhfonts.mkiv 8118ace0cb8623d9963f083b492365d6 1309301131
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/bibl-lyr.tex a1cd42a4b21fa2476f0ce31372450d73 1309301131
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/doc-env.tex 6b169ccd570d6d10e31f756764a4e280 1309301131
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/basis.tex 596ed1c842baa5d5db1dcb01c1e7ff9b 1309301131
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/metafun.tex 41439e1b0ddae5328eb74697831ada26 1248306771
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/layout.tex 923924d71faefc042b4cc21efaf66342 1309301131
+dir /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/figures
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/figures/cow.pdf 339054a0c4c8f2004405e86215444221 1248306771
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/figures/bookmark.png fe5093156616fb84a3b3eb10a97317f2 1248306771
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/figures/gardeninglion.jpg aeeeb2d015e3347c81302ae5aafce120 1248306771
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/figures/header.png 347fe02ee568937e7a7ea229cf9084d7 1248306771
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/bibliography.bib 2899e2824269045e0e420e17a68bb021 1309301131
+obj /usr/share/texmf-dist/doc/context/third/context-notes-zh-cn/src/t-zhspuncs.lua 64b031792de25601e926820ca127b7e8 1309301131
+dir /usr/share/texmf-dist/doc/context/third/rst
+obj /usr/share/texmf-dist/doc/context/third/rst/inc-third.rst 4935161c5a512cab629e63b93ff20160 1317770065
+obj /usr/share/texmf-dist/doc/context/third/rst/OMakefile.omc e0aee1269151081241171e5bad14cdcd 1393909673
+obj /usr/share/texmf-dist/doc/context/third/rst/inc-first.rst 0306c292efb74053f669230029c0b9a2 1317770065
+obj /usr/share/texmf-dist/doc/context/third/rst/moduletest.tex c651ef1138e5eab04c37ae88dcee4482 1304977421
+obj /usr/share/texmf-dist/doc/context/third/rst/manual.bib 4cd8d405f60759c803ba6132cdcf99a6 1317770065
+obj /usr/share/texmf-dist/doc/context/third/rst/inc-second.rst def5a9a98798bdb935c4c62f56d62481 1317770065
+obj /usr/share/texmf-dist/doc/context/third/rst/manual.tex b340963e8ce57da2deff91f07ab700f9 1393909673
+obj /usr/share/texmf-dist/doc/context/third/rst/inc.tex 909266716d81fac0ae346ff880398576 1317770065
+obj /usr/share/texmf-dist/doc/context/third/rst/manual.pdf c4c2934bf91b36c3295b5577570784a1 1393909673
+obj /usr/share/texmf-dist/doc/context/third/rst/OMakefile 3db48ddf1e9980808bb1efff7a808376 1393909673
+obj /usr/share/texmf-dist/doc/context/third/rst/hybridtest.tex 6dd6ab67f5c0b6bf28434db16259edd9 1304977421
+obj /usr/share/texmf-dist/doc/context/third/rst/documentation.rst 5a1f0fdf4c8ed7006c4b7e2794ae3bd6 1393909673
+dir /usr/share/texmf-dist/doc/context/third/construction-plan
+obj /usr/share/texmf-dist/doc/context/third/construction-plan/construction-plan-doc.pdf cd987d724b35853f8b87d9a0127eee4c 1243719999
+obj /usr/share/texmf-dist/doc/context/third/construction-plan/construction-plan-demo.pdf 2c11b215bd2146d3d61329913a98ce05 1243719999
+dir /usr/share/texmf-dist/doc/context/third/transliterator
+obj /usr/share/texmf-dist/doc/context/third/transliterator/transliterator.pdf 3338d7c9d09df66ad8c7af3d619c1830 1365527660
+obj /usr/share/texmf-dist/doc/context/third/transliterator/COPYING 47722bc3c560899560b724320110b281 1365527660
+obj /usr/share/texmf-dist/doc/context/third/transliterator/transliterator.tex 05fb2067e0dd25b6b7dee96df24d0dbe 1365527660
+dir /usr/share/texmf-dist/doc/context/third/french
+obj /usr/share/texmf-dist/doc/context/third/french/french-demo.pdf 92c28735e646be67de22c1dd0c3baef2 1321142058
+obj /usr/share/texmf-dist/doc/context/third/french/french-doc.pdf 6cd69bd7b1ff5fcf18efcf14e61098d3 1321142058
+dir /usr/share/texmf-dist/doc/context/third/gantt
+obj /usr/share/texmf-dist/doc/context/third/gantt/gantt.txt 30eba2194d64c2975c4892681f6da085 1316212606
+obj /usr/share/texmf-dist/doc/context/third/gantt/README 3a1d54e6bbc505e2c899cd2048008cc4 1331595314
+dir /usr/share/texmf-dist/doc/context/third/gantt/examples
+obj /usr/share/texmf-dist/doc/context/third/gantt/examples/gantt-5.tex 759305437b9ee1706b9316e201c7f598 1331595314
+obj /usr/share/texmf-dist/doc/context/third/gantt/examples/gantt-4.tex eebe8b31c6760d4bdb61f7dcb6ab5c69 1345502301
+obj /usr/share/texmf-dist/doc/context/third/gantt/examples/gantt-2.tex bd2efedf33c79ed553e42906866829b7 1316129361
+obj /usr/share/texmf-dist/doc/context/third/gantt/examples/gantt-1.tex 9a4ac408e0584fd3f5bb6116ab0082fd 1316129361
+obj /usr/share/texmf-dist/doc/context/third/gantt/examples/gantt-3.tex c660081cca5c51bfac1d007326f35ffd 1316129361
+dir /usr/share/texmf-dist/doc/context/third/typearea
+obj /usr/share/texmf-dist/doc/context/third/typearea/typearea-demo.pdf 8daa37b70f7239b6eed7fcd7d9155fcf 1243719999
+obj /usr/share/texmf-dist/doc/context/third/typearea/typearea-doc.pdf a6b954486912e3bbb14a1a07ee88b867 1243719999
+dir /usr/share/texmf-dist/doc/context/third/lilypond
+obj /usr/share/texmf-dist/doc/context/third/lilypond/demo.pdf 7df7b79c516fffd58450f0adee47613e 1268441141
+obj /usr/share/texmf-dist/doc/context/third/lilypond/t-lilypond.pdf 51bd344d9fc9bfd7d7dc9c37fb1a4da0 1268441141
+dir /usr/share/texmf-dist/doc/context/third/cyrillicnumbers
+obj /usr/share/texmf-dist/doc/context/third/cyrillicnumbers/cyrillicnumbers.pdf ea72518a89e89571d300f8ef120baa50 1365894284
+obj /usr/share/texmf-dist/doc/context/third/cyrillicnumbers/README.rst de8a523957299b0890c6c4685147db86 1365894284
+obj /usr/share/texmf-dist/doc/context/third/cyrillicnumbers/COPYING 150347513703bd67f8e9234dafee207b 1365894284
+obj /usr/share/texmf-dist/doc/context/third/cyrillicnumbers/cyrillicnumbers.tex d299a4a65274b632fc08286f7dbd12c3 1365894284
+dir /usr/share/texmf-dist/doc/context/third/chromato
+obj /usr/share/texmf-dist/doc/context/third/chromato/chromato-demo.pdf 12e1cf06600726ec3721c58a358d87ff 1243719999
+obj /usr/share/texmf-dist/doc/context/third/chromato/chromato-doc.pdf 74110f9797f6f9e0889d2a2a488e30f8 1243719999
+dir /usr/share/texmf-dist/doc/context/third/account
+obj /usr/share/texmf-dist/doc/context/third/account/README f0c59199b0eec5e805a257acb22a858b 1234056862
+obj /usr/share/texmf-dist/doc/context/third/account/account-doc.pdf 6fe8e2b836f442435ab1409bd3c98fa0 1243719999
+dir /usr/share/texmf-dist/doc/context/manuals
+dir /usr/share/texmf-dist/doc/context/manuals/allkind
+obj /usr/share/texmf-dist/doc/context/manuals/allkind/mkiv-publications-graph.bib b67308ecbecb564d0b1b9d391ed41da1 1400710439
+obj /usr/share/texmf-dist/doc/context/manuals/allkind/mkiv-publications.pdf fd05adf752c095293c135eb25a85b73e 1400710439
+obj /usr/share/texmf-dist/doc/context/manuals/allkind/mkiv-publications.tex f8f66c1ca779daa55c28ddc7d7dabbc6 1400710439
+obj /usr/share/texmf-dist/doc/context/manuals/allkind/mreadme.tex bfb2fff5a727618e36e174f56507630b 1163813872
+obj /usr/share/texmf-dist/doc/context/manuals/allkind/mcommon.tex 5cb04ad40dee78b39ca9afe2893f8f7b 1163813872
+obj /usr/share/texmf-dist/doc/context/manuals/allkind/mkiv-publications.bib 24695e00289513e26c793f2f7a82b333 1400710439
+obj /usr/share/texmf-dist/doc/context/manuals/allkind/publications-en.xml 48af347b474ac5fcf84ae75a469eeb6c 1400710439
+dir /usr/share/texmf-dist/doc/context/scripts
+dir /usr/share/texmf-dist/doc/context/scripts/mkii
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/mptopdf.html 87f17d93134f36a78ef18b3bba1c843e 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/texexec.html 5fbf14476151b1a28a3dc59c3a409b0f 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/xmltools.xml 293edd4bff03d662a576951304221160 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/rlxtools.man 620277dee5d4973be450ba453c5973a0 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/rlxtools.html 10bca5bb748903bf988f804dcd2d95b0 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/ctxtools.man 048331fce61823b80d284dc3b05777ea 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/pdftools.man b32f9c060592da3c345fe9d05f7522e3 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/pdftools.xml 4458bdaa51032750e23012ba42e8dc7b 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/pstopdf.xml 1ca83ad7665e2187834a990098effc32 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/textools.html 295bb95089d3e023d42e23e688f893e5 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/ctxtools.xml f44eff58ca24c686bdba708a8d78fd39 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/ctxtools.html 1cd1839c92450648d194d17d7e0a07d1 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/texutil.html f70795e2dd7fc70fc7effe67882d7b9a 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/texmfstart.xml 40af43efd7bc3697d09e98e433661be5 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/tmftools.xml 515fa4ef88a871e8399de812ab7a978c 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/imgtopdf.html d31433cf281610e1764b33482d03c170 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/pstopdf.man 5af644f622712757feab80363720e2b4 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/textools.xml d9fecc87b26cc02c1921d0956f784a61 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/texutil.man 0039f1fa6683e9b5004795b2cada6782 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/texexec.man f1c34d43baa204aab6a0ef6efafdfd44 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/texexec.xml 38881fc7da665987735050cef8bf1ec6 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/imgtopdf.man 62c7a3717aa1139c74e30f5660a82837 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/textools.man 4fba54ae9dbc678e41153352ef63f731 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/tmftools.man c8b864327f9f4c8803d60dbc0caa4832 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/mptopdf.xml dd6bbda6e36687fb876d282f29eecdc6 1399323536
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/pstopdf.html b68b9a020c6f36c80217b69988ab0627 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/xmltools.man 0a97d6847465e92729da8f2d54f04ed9 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/pdftools.html ebeb11476221e59dfe3e67f317166ac0 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/xmltools.html b785b1aa17721a838378c00398812934 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/imgtopdf.xml 00b0cef1263e54c684eb9201da7e5116 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/texmfstart.man 8e552c5b71bbdbcf5c0df2fd722a4992 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/texutil.xml d3d3492da8b35801e053aa05e2472a4e 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/tmftools.html 19b24bb47a58b403d6221f5831a00794 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/rlxtools.xml e5d62c387ab24fd31a4414d87c207e75 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkii/texmfstart.html 3d5c6245bc6739406bf8349ac38933e8 1399321795
+dir /usr/share/texmf-dist/doc/context/scripts/mkiv
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-metatex.man d8c40a3c83cd1c607a1255922aa1bc9e 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-check.xml cb6fb58c0258130e09cd74907f58c46f 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-context.html 87453aa77df81ecdadd915b1e8d76554 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-context.xml d1ed881b4dda6fbe4f9d2f26cc6dded5 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-texworks.xml 6aaa16e35e8d300793bf7f626903fd01 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-scite.xml 2eef2b89c0aa2cf10dfe1752f16bb9e7 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-plain.man f2b8a8096b2340fe99cb4cabb125eeae 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-fonts.html beb398aa63e44bf190df5802b5027ed4 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-watch.html 88f553a01835b7744c1945ebcdccfa5c 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-epub.html d4c39288a00e215825dd30833c9e600a 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-update.man ed8d53698a26b0fe0dbe2ec7c48057f8 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-scite.man 7d89f2c82571e04d7446738393e434ef 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-package.xml 1b83f44817f0e06be81898789e4cd02c 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-interface.xml 0cf9d089a88f226552c747a71fe01429 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-youless.html c7ea4602a93a8947c88a349bd0aef470 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-update.html bb24258ccf0462fea90f7dbe1df3dde1 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-modules.html ffe5939b67e7f852f08b378d3ebcdce6 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-rsync.html 99249ff360d85cb45690ebd33b19ed61 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-modules.xml 84e63db40d479f9fd6a137bb56869e51 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-flac.html 0f495b78b25dce5bb74ae820168efd00 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-timing.html 017076cc94b046f6fe49925c48722466 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-base.html 6922d51df128b42c0b05bd3e1e526108 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-pdf.html cb69b2fef087848aac6f64255e1cbb63 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-scite.html 0f3160466a3520b291c04057fa393a7d 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/luatools.xml 154c9e707345409c54d1701824e61f22 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-tools.man d615d4b94697f35907542f02b065e96a 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-timing.xml 3a729e11f855e2c44af466d5db91db96 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-colors.man 1d3ca6b8f5e3ca2c52eca2ea39ed06b1 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-base.man 8e18ff5ad977f95ecae5ad287ba90414 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-colors.xml 73d3a842c53fb3647391cbf7a87645c8 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-metatex.xml 76cbbeb56bd4b5f5305d97d534508864 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-check.man 107e72920c0f91cc893d8ca06b70853f 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-metapost.xml f691c64ec7174e755cf1412a2615ee42 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtxrun.html be22ed0dc5e2c7bbd0286cde88e35768 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-modules.man 9ca57ea79bfaef4f1beb051141e8d33b 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-chars.man 40d7946cc8fd48f5fc579075338d8583 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-unzip.html e4b43dc318d7aee07d361281b656f1a4 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-context.man 4d281932f76cf599d19320f2abb7a954 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-plain.html b1b7ec6ee793d60a6ff428363666caa6 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-texworks.man c4e9d03b69233faf99ac55b99875c5ff 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-grep.html 93165033594dfd2989075e189e29e560 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/context.html 87453aa77df81ecdadd915b1e8d76554 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-package.man b91bc05c46f441e8e940ee51f7a7fe30 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-check.html 53cd9a4954cd597057179cac3ec8036a 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtxrun.man 8e552c5b71bbdbcf5c0df2fd722a4992 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/luatools.man 420b5c514d2119332f09be1fea06248e 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-colors.html 1c70938faa2d7cc7141b705bfb3acd3d 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-grep.man a3028b84f97ca6c5f47bfa6898403195 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-babel.xml 71966fd8e8d6d47d56c5b3ffdffc7b88 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-cache.man 7b15dbe5fd1d0835f6191796d02abfee 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-fcd.xml de001a040242197d793c95df1b372216 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtxrun.xml 1eb51fecfa123c487d13406b663eb6d2 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-unzip.man f03b76fcbf7f29d8ac5c0fd3cb5ac7fb 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-server.html c9c4794beab361cf768b1ab514ce70b6 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-server.man 8558e4f155f9b5a1d829f4d6dd9ea1cb 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-profile.xml a4ba09d3d4cd564bbef03d271dcf2960 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-rsync.xml 03cd86d0fe4756bc9b393b54a9cc6767 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-chars.html fc2e8cc44c7232ba4c68a480d8bb667b 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-cache.xml 0b521981c333b6e79ce0d7a63d439f83 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-interface.man 467d4a3a3ee685157961f8db9db8598b 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-metatex.html 212843ccdb1cc9aecc935b9de1ff7a9e 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-server.xml 1702ca33e9aa598747f8d8900546a40d 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-watch.man 68cf277b5339c0c221d58098c1a5c2ad 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-update.xml 1e358b2973b9e239e7fca24b05cecf12 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-grep.xml 30fdca526a52207b68bc4f881db6bff0 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-profile.html c7b089071fbe6d080c4482803da45665 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-epub.xml 137ed91792fd95678149f1c7400fad10 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-base.xml d1d0daaf5f2c1c84c98df7a4be7c2cb6 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/context.xml d1ed881b4dda6fbe4f9d2f26cc6dded5 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-rsync.man e068bf37630b4c1938fadd154a2a976a 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-metapost.man fc82b141ec8c9df270610e4fbd579e46 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-chars.xml 4bb81db06b138746b9ec6837fcede246 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-package.html 722e6c228965757b3f9005c85b40509f 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-fonts.xml a46076dc039b83e44af9124265a5f829 1372030685
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-pdf.man 870ea2954406e94e27ba391c1d891a35 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-plain.xml 48ab49fcd40c90d05ab2ca1785650c6c 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-fcd.man f310c1264f3ac697eeb3d84f23420195 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-fonts.man e97e1f718ea864c31b72e635ddeb48aa 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-profile.man 3b6e5e2c0a4c0ebbe35c1e8a72d814b0 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-fcd.html 46a20e06fd287d4ae04f170211a006a7 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-timing.man a5caee3e24fceb662b986ad08df446fa 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-babel.html 1b9c2a3b827c46b7a178eed188c3c422 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-flac.xml 29f3dbf7ad987fa0abce4fcd2f3b9950 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-interface.html cbcae382b04431845ed9336fbcfcc7a7 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-youless.man 7c78e9a88c4e2b77655de6f1eaaf4027 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/context.man 4d281932f76cf599d19320f2abb7a954 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-patterns.xml add37b0b16f4ebb7a3991d56ce4a4ad0 1372030685
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-cache.html b34d612a16c79e3e5dc5a0d7440812ce 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/luatools.html 91c48998f008061367ac4a5c81acb4c2 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-texworks.html 1a4c39ad7fbc9857a27abbb61f530bb4 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-bibtex.xml 558004ede9c0ba39d0e7254924abe4b2 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-patterns.html ac2b17725a78cc3483ccdeafd0f72950 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-patterns.man eff173af665f8e8d11ce8d7948ea04e6 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-epub.man 12a181874e2ae802aaa586c2acae700b 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-tools.html ac42a270a6fbe7185c1f7489c97b2dc5 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-babel.man a5a18b9b2ca5cbf8ed0c2d3735d55aee 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-unzip.xml 3f3d967b16fb461877e0b729f9ccf76a 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-bibtex.html 1c6640f911b6d22282f406bbf78b19d1 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-youless.xml e650d03ba6c21c4baa54c21a24be1879 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-watch.xml 6d533b702f951ea36609e5a8b97fc375 1365381820
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-bibtex.man fb262c01104f9f458eaeadace31be5c4 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-tools.xml 892820c460d5f4c45f6d1613e9159a6c 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-metapost.html 3360f3c9a35f51956ed4b2e2e0e7ffb6 1399321795
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-pdf.xml 62c8a5f2cda2bfe45dc153ba9c4f452e 1372030685
+obj /usr/share/texmf-dist/doc/context/scripts/mkiv/mtx-flac.man 7ce6344cc7ef4ed5aaf943abc5b027a4 1399321795
+dir /usr/share/texmf-dist/doc/man
+dir /usr/share/texmf-dist/doc/man/man1
+obj /usr/share/texmf-dist/doc/man/man1/mtx-texworks.1 c4e9d03b69233faf99ac55b99875c5ff 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-modules.1 9ca57ea79bfaef4f1beb051141e8d33b 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/luatools.1 420b5c514d2119332f09be1fea06248e 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-context.1 4d281932f76cf599d19320f2abb7a954 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/texexec.1 f1c34d43baa204aab6a0ef6efafdfd44 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/texexec.man1.pdf dd8495e9b2e8d602a55e5095aeb61d96 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-check.1 107e72920c0f91cc893d8ca06b70853f 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/context.1 4d281932f76cf599d19320f2abb7a954 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-interface.1 467d4a3a3ee685157961f8db9db8598b 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-rsync.man1.pdf 0b0f8cefbff08a71aed11edee551b66c 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-profile.1 3b6e5e2c0a4c0ebbe35c1e8a72d814b0 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-pdf.man1.pdf 43244f4b3bbb1beb0011aedbab34b6db 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-tools.1 d615d4b94697f35907542f02b065e96a 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-pdf.1 870ea2954406e94e27ba391c1d891a35 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-base.man1.pdf 18e0db9932ae99a535814bc42f2bcd8a 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-epub.1 12a181874e2ae802aaa586c2acae700b 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-bibtex.1 fb262c01104f9f458eaeadace31be5c4 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-timing.1 a5caee3e24fceb662b986ad08df446fa 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-grep.man1.pdf 8353519b2ea4c5a4ce55c9a0480bc878 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-base.1 8e18ff5ad977f95ecae5ad287ba90414 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-tools.man1.pdf 3647d4e27eaf9bafc71d56218f6b4c77 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-unzip.man1.pdf 490d3287c7a760d17dba0a78148051d8 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-chars.man1.pdf e82943c5784e4465fe53559e0274723d 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/context.man1.pdf bd3212d9e9348e4b44c966dfc16a4176 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-fonts.man1.pdf 94726345d185ab5e89c0d17c1c62b61e 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-flac.man1.pdf 747af829574731fa9855fcd3e07f3e71 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-chars.1 40d7946cc8fd48f5fc579075338d8583 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-patterns.1 eff173af665f8e8d11ce8d7948ea04e6 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-check.man1.pdf d3e54a128489225e3f23d2e9308b4599 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-timing.man1.pdf e8db5996e62b6032266f4fd7235feb8e 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-interface.man1.pdf f0ffe06d107f195f8a7a1a7491380925 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-unzip.1 f03b76fcbf7f29d8ac5c0fd3cb5ac7fb 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-metapost.man1.pdf a84de40aaacd98a3c11dbf6d173c6b7f 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-metatex.man1.pdf 83c37a632105a4623ac518fb18d309e8 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-cache.1 7b15dbe5fd1d0835f6191796d02abfee 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-context.man1.pdf d278cf1bf138a88114f37564399dced6 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-metatex.1 d8c40a3c83cd1c607a1255922aa1bc9e 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-babel.1 a5a18b9b2ca5cbf8ed0c2d3735d55aee 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-update.1 ed8d53698a26b0fe0dbe2ec7c48057f8 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-plain.man1.pdf f5e0bfaac75aa86e4773a0f22306c21c 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-metapost.1 fc82b141ec8c9df270610e4fbd579e46 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtxrun.man1.pdf 4132da444399ccb9f2a9c4f13f261b4b 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-update.man1.pdf 0684a81e9f3838b5095bd772461a4ea5 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-profile.man1.pdf ea40ea4dd2d0601ed94a304ed449dc26 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-babel.man1.pdf af5b8e84abf82caf9784e1b6dc2317bf 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/texmfstart.man1.pdf 5209b96459802993429673a2da143c0a 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-patterns.man1.pdf 933566d0fc68fa9010316a73a1d07e33 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-grep.1 a3028b84f97ca6c5f47bfa6898403195 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-package.man1.pdf d78b7bb61051d7d73308b0cb3e5a5089 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-cache.man1.pdf b9bca5172dfeda82b8f1849982badb20 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-colors.man1.pdf 9ffb031c329f6073ee2ce2f3b5af64c7 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-scite.man1.pdf 9dd531f352ebf8829b8b8853fd430d7f 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-bibtex.man1.pdf f6aae0b34fe7ea90ef353bf0da7564c7 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/luatools.man1.pdf fbad08bf013d80a0fb61c7a9f1ce61f3 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-colors.1 1d3ca6b8f5e3ca2c52eca2ea39ed06b1 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-watch.man1.pdf 4b2a900fe4b9fbe51e9e635bee294568 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-watch.1 68cf277b5339c0c221d58098c1a5c2ad 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-texworks.man1.pdf 4f521895b9449aca4d3c8f4023657dfb 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-rsync.1 e068bf37630b4c1938fadd154a2a976a 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-package.1 b91bc05c46f441e8e940ee51f7a7fe30 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-server.1 8558e4f155f9b5a1d829f4d6dd9ea1cb 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-plain.1 f2b8a8096b2340fe99cb4cabb125eeae 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-epub.man1.pdf ddff2ddbcf22fa11875d524f62ba4d68 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtxrun.1 8e552c5b71bbdbcf5c0df2fd722a4992 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-flac.1 7ce6344cc7ef4ed5aaf943abc5b027a4 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-modules.man1.pdf d849cbfe50458af688dbd13d5cb0829a 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-fcd.man1.pdf 93db8e27a0c326132251424fc100e27e 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-youless.man1.pdf 2d60a42d20b1d0865bf052f5bbb75501 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-fcd.1 f310c1264f3ac697eeb3d84f23420195 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/texmfstart.1 8e552c5b71bbdbcf5c0df2fd722a4992 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-scite.1 7d89f2c82571e04d7446738393e434ef 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-server.man1.pdf 8fcf0b2a634af8c3fe424465e13670b0 1400710439
+obj /usr/share/texmf-dist/doc/man/man1/mtx-youless.1 7c78e9a88c4e2b77655de6f1eaaf4027 1399321795
+obj /usr/share/texmf-dist/doc/man/man1/mtx-fonts.1 e97e1f718ea864c31b72e635ddeb48aa 1399321795
 dir /usr/share/texmf-dist/fonts
 dir /usr/share/texmf-dist/fonts/map
 dir /usr/share/texmf-dist/fonts/map/luatex
@@ -2654,12 +3071,3 @@ obj /usr/share/texmf-dist/context/data/texfont/type-tmf.dat b3b8aea4963800b6a326
 obj /usr/share/texmf-dist/context/data/texfont/type-fsf.dat 3adcb6622b5f955cf6cad046764a524b 1251025892
 obj /usr/share/texmf-dist/context/data/texfont/type-buy.dat e0f9eb4a6af1d9036baa080ea5cb85da 1251025892
 obj /usr/share/texmf-dist/context/data/texfont/type-ghz.dat ca2b8778b5041593845b506aacb7cfe1 1251025892
-sym /usr/bin/mtxrun -> ../share/texmf-dist/scripts/context/stubs/unix/mtxrun 1465675013
-sym /usr/bin/texexec -> ../share/texmf-dist/scripts/context/stubs/unix/texexec 1465675013
-sym /usr/bin/metatex -> ../share/texmf-dist/scripts/context/stubs/unix/metatex 1465675013
-sym /usr/bin/luatools -> ../share/texmf-dist/scripts/context/stubs/unix/luatools 1465675013
-sym /usr/bin/mtxrunjit -> ../share/texmf-dist/scripts/context/stubs/unix/mtxrunjit 1465675013
-sym /usr/bin/context -> ../share/texmf-dist/scripts/context/stubs/unix/context 1465675013
-sym /usr/bin/contextjit -> ../share/texmf-dist/scripts/context/stubs/unix/contextjit 1465675013
-sym /usr/bin/texmfstart -> ../share/texmf-dist/scripts/context/stubs/unix/texmfstart 1465675013
-sym /usr/bin/mtxworks -> ../share/texmf-dist/scripts/context/stubs/unix/mtxworks 1465675013
