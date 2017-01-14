@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -13,7 +13,7 @@ DESCRIPTION="A C++ crypto library"
 HOMEPAGE="http://botan.randombit.net/"
 SRC_URI="http://botan.randombit.net/releases/${MY_P}.tgz"
 
-KEYWORDS="amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc x86 ~ppc-macos"
+KEYWORDS="amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 sparc x86 ~ppc-macos"
 SLOT="0"
 LICENSE="BSD"
 IUSE="bindist doc python bzip2 gmp ssl static-libs threads zlib"
@@ -27,6 +27,10 @@ RDEPEND="bzip2? ( >=app-arch/bzip2-1.0.5 )
 	ssl? ( >=dev-libs/openssl-0.9.8g:*[bindist=] )"
 DEPEND="${RDEPEND}
 	doc? ( dev-python/sphinx )"
+
+PATCHES=(
+	"${FILESDIR}/${P}-build.patch"
+)
 
 src_prepare() {
 	default
