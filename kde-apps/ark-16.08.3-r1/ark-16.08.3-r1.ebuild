@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -12,7 +12,7 @@ inherit kde5
 DESCRIPTION="KDE Archiving tool"
 HOMEPAGE="https://www.kde.org/applications/utilities/ark
 https://utils.kde.org/projects/ark"
-KEYWORDS="amd64 x86"
+KEYWORDS="amd64 ~x86"
 IUSE="bzip2 lzma zlib"
 
 RDEPEND="
@@ -44,6 +44,8 @@ DEPEND="${RDEPEND}
 
 # bug #560548, last checked with 16.04.1
 RESTRICT="test"
+
+PATCHES=( "${FILESDIR}/${PN}-16.12.0-disable-executables.patch" )
 
 src_configure() {
 	local mycmakeargs=(

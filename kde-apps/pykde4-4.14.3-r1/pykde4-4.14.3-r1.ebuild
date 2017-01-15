@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -11,7 +11,7 @@ CMAKE_MAKEFILE_GENERATOR="emake"
 WEBKIT_REQUIRED="always"
 inherit python-r1 portability kde4-base multilib eutils
 
-DESCRIPTION="Python bindings for KDE4"
+DESCRIPTION="Python bindings for KDE SC 4"
 KEYWORDS="amd64 ~arm x86 ~amd64-linux ~x86-linux"
 IUSE="akonadi debug doc examples test"
 HOMEPAGE="https://techbase.kde.org/Development/Languages/Python"
@@ -20,9 +20,9 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="
 	${PYTHON_DEPS}
-	>=dev-python/PyQt4-4.11.1[${PYTHON_USEDEP},dbus,declarative,script,sql,svg,webkit,X]
-	>=dev-python/sip-4.16.2:=[${PYTHON_USEDEP}]
-	$(add_kdebase_dep kdelibs 'opengl')
+	<dev-python/PyQt4-4.12[${PYTHON_USEDEP},dbus,declarative,script,sql,svg,webkit,X]
+	<dev-python/sip-4.19:=[${PYTHON_USEDEP}]
+	kde-frameworks/kdelibs:4[opengl]
 	akonadi? ( $(add_kdeapps_dep kdepimlibs) )
 "
 DEPEND="${RDEPEND}
