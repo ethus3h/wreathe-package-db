@@ -93,7 +93,6 @@ src_configure() {
 }
 
 src_install() {
-	addpredict /root/.trinity
 	trinity-base_src_install
 
 	dodir /etc/env.d
@@ -138,7 +137,7 @@ pkg_postinst () {
 		einfo "Remember sudo use flag sets only the defauld value"
 		einfo "It can be overriden on a user-level by adding:"
 		einfo "  [super-user-command]"
-		einfo "	super-user-command=su"
+		einfo "    super-user-command=su"
 		einfo "To the kdeglobal config file which is should be usually"
 		einfo "located in the ~/.trinity/share/config/ directory."
 	fi
