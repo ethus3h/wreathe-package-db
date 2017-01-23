@@ -13,8 +13,3 @@ EGIT_REPO_URI="https://github.com/gentoo/gentoo-gitmig-20150809-draft.git"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS=""
-
-src_unpack() {
-	echo "(nothing to do)"
-	mkdir "${S}"
-}
