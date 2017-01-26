@@ -1,7 +1,7 @@
 /usr/bin/akonadi_kdeaccounts_resource libakonadi-kde.so.4,libQtCore.so.4,libQtDBus.so.4,libkabc.so.4,libkio.so.5,libkdeui.so.5,libkdecore.so.5,libQtGui.so.4,libstdc++.so.6,libgcc_s.so.1,libc.so.6
 /usr/bin/akonadi_nntp_resource libakonadi-kmime.so.4,libQtCore.so.4,libQtDBus.so.4,libkmime.so.4,libakonadi-kde.so.4,libkio.so.5,libkdeui.so.5,libkdecore.so.5,libQtGui.so.4,libstdc++.so.6,libgcc_s.so.1,libc.so.6
 /usr/bin/akonadi_vcarddir_resource libakonadi-kde.so.4,libQtCore.so.4,libkabc.so.4,libkio.so.5,libkdeui.so.5,libkdecore.so.5,libQtDBus.so.4,libQtGui.so.4,libstdc++.so.6,libgcc_s.so.1,libc.so.6
-/usr/bin/akonadi_newmailnotifier_agent libakonadi-kmime.so.4,libQtCore.so.4,libQtDBus.so.4,libknotifyconfig.so.4,libakonadi-contact.so.4,libkpimidentities.so.4,libakonadi-kde.so.4,libkabc.so.4,libkpimutils.so.4,libkmime.so.4,libkdeui.so.5,libkdecore.so.5,libQtGui.so.4,libstdc++.so.6,libgcc_s.so.1,libc.so.6
+/usr/bin/akonadi_newmailnotifier_agent libakonadi-kmime.so.4,libQtCore.so.4,libQtDBus.so.4,libknotifyconfig.so.4,libakonadi-contact.so.4,libkpimidentities.so.4,libakonadi-kde.so.4,libkabc.so.4,libkpimutils.so.4,libkmime.so.4,libkdeui.so.5,libQtGui.so.4,libkdecore.so.5,libstdc++.so.6,libgcc_s.so.1,libc.so.6
 /usr/bin/kjotsmigrator libQtXml.so.4,libkpimtextedit.so.4,libakonadi-kde.so.4,libkmime.so.4,libkdeui.so.5,libkdecore.so.5,libQtDBus.so.4,libQtCore.so.4,libQtGui.so.4,libstdc++.so.6,libgcc_s.so.1,libc.so.6
 /usr/bin/knotes-migrator libakonadi-kde.so.4,libkcal.so.4,libQtGui.so.4,libkmime.so.4,libkdeui.so.5,libkdecore.so.5,libQtDBus.so.4,libQtCore.so.4,libstdc++.so.6,libgcc_s.so.1,libc.so.6
 /usr/bin/accountwizard libmailtransport.so.4,libkrosscore.so.4,libkpimidentities.so.4,libQtGui.so.4,libknewstuff3.so.4,libakonadi-kde.so.4,libkpimutils.so.4,libkmime.so.4,libkio.so.5,libQtXml.so.4,libkdeui.so.5,libkdecore.so.5,libQtDBus.so.4,libQtCore.so.4,libstdc++.so.6,libgcc_s.so.1,libc.so.6
@@ -36,11 +36,11 @@
 /usr/lib64/kde4/akonadi_serializer_kcalcore.so libkcalutils.so.4,libkcalcore.so.4,libakonadi-kde.so.4,libkdecore.so.5,libQtCore.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
 /usr/lib64/kde4/akonadi_serializer_kalarm.so libkalarmcal.so.2,libkcalutils.so.4,libakonadi-kde.so.4,libQtGui.so.4,libkcalcore.so.4,libkdecore.so.5,libQtCore.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
 /usr/lib64/kde4/kio_akonadi.so libakonadi-kde.so.4,libkio.so.5,libkdeui.so.5,libkdecore.so.5,libQtCore.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
-/usr/lib64/kde4/kcm_akonadi_resources.so libakonadi-kde.so.4,libkdeui.so.5,libkdecore.so.5,libQtGui.so.4,libQtCore.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
+/usr/lib64/kde4/kcm_akonadi_resources.so libakonadi-kde.so.4,libkdeui.so.5,libQtGui.so.4,libkdecore.so.5,libQtCore.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
 /usr/lib64/kde4/akonadi_serializer_contactgroup.so libakonadi-contact.so.4,libkabc.so.4,libakonadi-kde.so.4,libkdecore.so.5,libQtCore.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
 /usr/lib64/kde4/accountwizard_plugin.so libmailtransport.so.4,libkrosscore.so.4,libkpimidentities.so.4,libQtGui.so.4,libknewstuff3.so.4,libakonadi-kde.so.4,libkpimutils.so.4,libkmime.so.4,libkio.so.5,libQtXml.so.4,libkdeui.so.5,libkdecore.so.5,libQtDBus.so.4,libQtCore.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
 /usr/lib64/kde4/akonadi_contacts_resource.so libakonadi-kde.so.4,libQtCore.so.4,libkabc.so.4,libkio.so.5,libkdeui.so.5,libkdecore.so.5,libQtDBus.so.4,libQtGui.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
-/usr/lib64/kde4/akonadi_kalarm_dir_resource.so libkalarmcal.so.2,libakonadi-kde.so.4,libkcalcore.so.4,libQtDBus.so.4,libkio.so.5,libkdeui.so.5,libkdecore.so.5,libQtCore.so.4,libQtGui.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
+/usr/lib64/kde4/akonadi_kalarm_dir_resource.so libkalarmcal.so.2,libakonadi-kde.so.4,libkcalcore.so.4,libQtDBus.so.4,libkio.so.5,libkdeui.so.5,libQtGui.so.4,libkdecore.so.5,libQtCore.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
 /usr/lib64/kde4/akonadi_akonotes_resource.so libmaildir.so.4,libQtDBus.so.4,libfolderarchivesettings.so.4,libakonadi-kmime.so.4,libakonadi-kde.so.4,libkio.so.5,libkdeui.so.5,libQtGui.so.4,libkmime.so.4,libkdecore.so.5,libQtCore.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
 /usr/lib64/kde4/kcm_akonadi.so libkcmutils.so.4,libkdeui.so.5,libkdecore.so.5,libQtCore.so.4,libQtGui.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
 /usr/lib64/kde4/kcm_akonadi_server.so libakonadi-kde.so.4,libakonadiprotocolinternals.so.1,libkio.so.5,libkdeui.so.5,libkdecore.so.5,libQtGui.so.4,libQtCore.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
@@ -48,7 +48,7 @@
 /usr/lib64/kde4/imports/org/kde/libkdeqmlplugin.so libkdeui.so.5,libQtDeclarative.so.4,libQtScript.so.4,libkdecore.so.5,libQtCore.so.4,libQtGui.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
 /usr/lib64/kde4/akonadi_mbox_resource.so libkmbox.so.4,libakonadi-kmime.so.4,libQtDBus.so.4,libakonadi-kde.so.4,libkio.so.5,libkmime.so.4,libkdeui.so.5,libQtGui.so.4,libkdecore.so.5,libQtCore.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
 /usr/lib64/kde4/akonadi_vcard_resource.so libakonadi-kde.so.4,libQtCore.so.4,libQtDBus.so.4,libkabc.so.4,libkio.so.5,libkdeui.so.5,libkdecore.so.5,libQtGui.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
-/usr/lib64/kde4/akonadi_kalarm_resource.so libkalarmcal.so.2,libakonadi-kde.so.4,libkcalcore.so.4,libQtDBus.so.4,libkio.so.5,libkdeui.so.5,libkdecore.so.5,libQtCore.so.4,libQtGui.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
+/usr/lib64/kde4/akonadi_kalarm_resource.so libkalarmcal.so.2,libakonadi-kde.so.4,libkcalcore.so.4,libQtDBus.so.4,libkio.so.5,libkdeui.so.5,libQtGui.so.4,libkdecore.so.5,libQtCore.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
 /usr/lib64/kde4/akonadi_serializer_addressee.so libkabc.so.4,libakonadi-kabc.so.4,libakonadi-kde.so.4,libkdecore.so.5,libQtCore.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
 /usr/lib64/kde4/akonadi_serializer_microblog.so libakonadi-kde.so.4,libQtCore.so.4,libmicroblog.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
 /usr/lib64/kde4/akonadi_serializer_bookmark.so libakonadi-kde.so.4,libkio.so.5,libQtXml.so.4,libQtCore.so.4,libstdc++.so.6,libc.so.6,libgcc_s.so.1
