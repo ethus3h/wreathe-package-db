@@ -1,11 +1,13 @@
 dir /usr
 dir /usr/lib64
-obj /usr/lib64/libkleopatraclientgui.so.0.3.0 86a9dd81d71caca4c9f7393da05b0891 1468135132
-obj /usr/lib64/libkleopatraclientcore.so.0.3.0 d42ddcd312fe01f62cda49427f9ed8ea 1468135132
-sym /usr/lib64/libkleopatraclientgui.so.0 -> libkleopatraclientgui.so.0.3.0 1468135135
-sym /usr/lib64/libkleopatraclientgui.so -> libkleopatraclientgui.so.0 1468135135
+sym /usr/lib64/libkleopatraclientcore.so.0 -> libkleopatraclientcore.so.0.3.0 1485674523
+obj /usr/lib64/libkleopatraclientgui.so.0.3.0 86a9dd81d71caca4c9f7393da05b0891 1485674506
+sym /usr/lib64/libkleopatraclientcore.so -> libkleopatraclientcore.so.0 1485674523
+obj /usr/lib64/libkleopatraclientcore.so.0.3.0 eb42eb0d18f22af66a1edc8162e1c2be 1485674506
+sym /usr/lib64/libkleopatraclientgui.so.0 -> libkleopatraclientgui.so.0.3.0 1485674523
+sym /usr/lib64/libkleopatraclientgui.so -> libkleopatraclientgui.so.0 1485674523
 dir /usr/lib64/kde4
-obj /usr/lib64/kde4/kcm_kleopatra.so 57eb9a473da16f478deae8f2cb7bd0df 1468135132
+obj /usr/lib64/kde4/kcm_kleopatra.so e00c76cb3490225a68d0e5e7c999b312 1485674506
 dir /usr/include
 dir /usr/include/libkleopatraclient
 obj /usr/include/libkleopatraclient/kleopatraclient_export.h 24fd6443c4abc17bcc4efd1cd4b51779 1454938197
@@ -18,21 +20,21 @@ obj /usr/include/libkleopatraclient/core/initialization.h ac4abe11d1a1cc534fc760
 obj /usr/include/libkleopatraclient/core/command.h 114c58a958c6cbf055fb5ee129c6dccb 1454938197
 obj /usr/include/libkleopatraclient/core/decryptverifyfilescommand.h 98ae8d77d45b930fdd3a0f955c200437 1454938197
 dir /usr/bin
-obj /usr/bin/kgpgconf 92e5f2e4430e38654e4da80a2d3e11b9 1468135132
-obj /usr/bin/kwatchgnupg 152b3b6778bd7909e49a9780bca2e7d4 1468135132
-obj /usr/bin/kleopatra 1178d21c020aaafc94f49f5e00e1b059 1468135132
+obj /usr/bin/kgpgconf 92e5f2e4430e38654e4da80a2d3e11b9 1485674506
+obj /usr/bin/kwatchgnupg 152b3b6778bd7909e49a9780bca2e7d4 1485674506
+obj /usr/bin/kleopatra 3514ea24c0b99026ec2de31addcc5edc 1485674506
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/HTML
 dir /usr/share/doc/HTML/en
 dir /usr/share/doc/HTML/en/kwatchgnupg
-sym /usr/share/doc/HTML/en/kwatchgnupg/common -> /usr/share/doc/HTML/en/common 1468135135
+sym /usr/share/doc/HTML/en/kwatchgnupg/common -> /usr/share/doc/HTML/en/common 1485674523
 obj /usr/share/doc/HTML/en/kwatchgnupg/index.docbook 524abca6008d8884e325a7b3fa2d456b 1454938197
-obj /usr/share/doc/HTML/en/kwatchgnupg/index.cache.bz2 db4fdfb47ab8b471b0b9af9c9f04ee77 1468135128
+obj /usr/share/doc/HTML/en/kwatchgnupg/index.cache.bz2 db4fdfb47ab8b471b0b9af9c9f04ee77 1485674353
 dir /usr/share/doc/HTML/en/kleopatra
-sym /usr/share/doc/HTML/en/kleopatra/common -> /usr/share/doc/HTML/en/common 1468135135
+sym /usr/share/doc/HTML/en/kleopatra/common -> /usr/share/doc/HTML/en/common 1485674523
 obj /usr/share/doc/HTML/en/kleopatra/index.docbook 0c4c44dd71bc15004036974815ee0028 1454938197
-obj /usr/share/doc/HTML/en/kleopatra/index.cache.bz2 18b783bd4dec4d81e4359cc6514a0558 1468135127
+obj /usr/share/doc/HTML/en/kleopatra/index.cache.bz2 b9ede9e13ee74c53be5a720f70641028 1485674354
 dir /usr/share/applications
 dir /usr/share/applications/kde4
 obj /usr/share/applications/kde4/kleopatra.desktop 667ac35c07257e1fab83da234d3fac83 1454938197
@@ -89,5 +91,3 @@ obj /usr/share/icons/hicolor/64x64/apps/kleopatra.png ca4c7c7c20677e2a3e544e6031
 dir /usr/share/icons/hicolor/22x22
 dir /usr/share/icons/hicolor/22x22/apps
 obj /usr/share/icons/hicolor/22x22/apps/kleopatra.png 53b2bf9f0af99ecc6aabd4b0c500ed15 1454938197
-sym /usr/lib64/libkleopatraclientcore.so.0 -> libkleopatraclientcore.so.0.3.0 1468135135
-sym /usr/lib64/libkleopatraclientcore.so -> libkleopatraclientcore.so.0 1468135135

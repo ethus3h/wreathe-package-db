@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -12,7 +12,7 @@ SRC_URI="mirror://gnu/${PN}/${P}.tar.gz
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="alpha amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc x86 ~x86-fbsd ~x86-freebsd ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos"
+KEYWORDS="~alpha amd64 ~arm hppa ~ia64 ~mips ~ppc ppc64 ~s390 ~sh ~sparc x86 ~x86-fbsd ~x86-freebsd ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos"
 IUSE="emacs latex linguas_ja nls static-libs userland_BSD userland_GNU vanilla"
 
 RESTRICT=test
@@ -74,6 +74,9 @@ src_prepare() {
 
 	# fix CVE-2014-0466, bug 506352
 	eapply "${FILESDIR}"/${P}-CVE-2014-0466.patch
+
+	# fix CVE-2001-1593, bug 507024
+	eapply "${FILESDIR}"/${P}-CVE-2001-1593.patch
 
 	# fix building with sys-devel/automake >= 1.12, bug 420503
 	rm -f {.,ogonkify}/aclocal.m4 || die
