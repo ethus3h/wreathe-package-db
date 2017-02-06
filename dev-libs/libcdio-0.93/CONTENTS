@@ -1,100 +1,100 @@
 dir /usr
-dir /usr/bin
-obj /usr/bin/cd-drive 0b4e178e8519ffbf274f5154890c02ef 1482633631
-obj /usr/bin/cd-info 1991f8012297bcd5619abc16bee35b6d 1482633631
-obj /usr/bin/cd-read 396ac4cd5d9d9f4b6ab76cd6e12ffc9d 1482633631
-obj /usr/bin/cdda-player 5d5e41cff3f19f2617b5e6ffc2e9b514 1482633631
-obj /usr/bin/iso-info 03ab23347203ad43cb92220f29b7660e 1482633631
-obj /usr/bin/iso-read cc4d867b7a9ae1c4250dd4efdcd0acd0 1482633631
-obj /usr/bin/mmc-tool 780b4a7fa9fe89035b6a6d2ea71a15ae 1482633631
+dir /usr/lib64
+obj /usr/lib64/libcdio++.so.0.0.2 642f8161a3b806ddccc6d52368989cd7 1486344717
+obj /usr/lib64/libcdio.so.16.0.0 70a2b6b6e5e0965947cdf053e1df86f1 1486344717
+sym /usr/lib64/libudf.so -> libudf.so.0.0.0 1486344720
+sym /usr/lib64/libcdio++.so -> libcdio++.so.0.0.2 1486344720
+obj /usr/lib64/libiso9660++.so.0.0.0 30369c89793e8d9367be4039bea7d32e 1486344717
+sym /usr/lib64/libiso9660++.so -> libiso9660++.so.0.0.0 1486344720
+sym /usr/lib64/libudf.so.0 -> libudf.so.0.0.0 1486344720
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libiso9660.pc 042a07be349ff6bef881e2897ba97852 1486344716
+obj /usr/lib64/pkgconfig/libiso9660++.pc a8fdbe4b94cdef3b584b0a8411645329 1486344716
+obj /usr/lib64/pkgconfig/libcdio.pc dca1c1cc89601f41228ac2ccecc48ad5 1486344716
+obj /usr/lib64/pkgconfig/libudf.pc 683244f22f30ca3137404795f621e772 1486344716
+obj /usr/lib64/pkgconfig/libcdio++.pc 077e839c12774c6219518cfe495402ef 1486344716
+sym /usr/lib64/libiso9660++.so.0 -> libiso9660++.so.0.0.0 1486344720
+sym /usr/lib64/libcdio++.so.0 -> libcdio++.so.0.0.2 1486344720
+sym /usr/lib64/libcdio.so -> libcdio.so.16.0.0 1486344720
+sym /usr/lib64/libcdio.so.16 -> libcdio.so.16.0.0 1486344720
+sym /usr/lib64/libiso9660.so -> libiso9660.so.10.0.0 1486344720
+obj /usr/lib64/libudf.so.0.0.0 3c75eaebe804841f1b50185d8006711d 1486344717
+sym /usr/lib64/libiso9660.so.10 -> libiso9660.so.10.0.0 1486344720
+obj /usr/lib64/libiso9660.so.10.0.0 11165e9a789387d540c096852ed8587f 1486344717
 dir /usr/include
-dir /usr/include/cdio
-dir /usr/include/cdio++
-obj /usr/include/cdio++/cdio.hpp a372fda696a10c73c0d6b371a220321f 1482633629
-obj /usr/include/cdio++/cdtext.hpp f9c59ecb5a7cdcfc124f8e0b23274ad2 1482633629
-obj /usr/include/cdio++/device.hpp e06121cc744c5c790228e3aff5467b73 1482633629
-obj /usr/include/cdio++/devices.hpp 9b8d34864d7d62b1e5501f0bee0ee45d 1482633629
-obj /usr/include/cdio++/disc.hpp c57fdee0d26e2c159f95ef4872affaf3 1482633629
-obj /usr/include/cdio++/enum.hpp f2f73dd915061a0e0a4873224ca3bc75 1482633629
-obj /usr/include/cdio++/iso9660.hpp 7a41971fa50413d00d95f96cb16ee61e 1482633629
-obj /usr/include/cdio++/mmc.hpp a9c98235e94430f67b478b07fb3b9ea0 1482633629
-obj /usr/include/cdio++/read.hpp 2ae363d9418dbd969279b71f0fede8e7 1482633629
-obj /usr/include/cdio++/track.hpp efc40ebe82587c5c2dd9eac43ec9453d 1482633629
-obj /usr/include/cdio/audio.h 0a92ca1a10d42d0e8e2b621c935375e4 1482633629
-obj /usr/include/cdio/bytesex.h 18b46c2f2f4c80796bf0896ba83bc93f 1482633629
-obj /usr/include/cdio/bytesex_asm.h deb30feff730c8512247aa5bb08f6c74 1482633629
-obj /usr/include/cdio/cd_types.h d7d8601e550c328e67251616ba11455b 1482633629
-obj /usr/include/cdio/cdio.h 5e32e9d9223d49c4841bdb1422e8e229 1482633629
-obj /usr/include/cdio/cdio_config.h 76ccdade8bd25e3f402cc32831a60a62 1482633630
-obj /usr/include/cdio/cdtext.h 53bf6cb45bf517b3087e27c020f21d18 1482633629
-obj /usr/include/cdio/device.h eeb54594e1c2b5b29462dde6f83bd43d 1482633629
-obj /usr/include/cdio/disc.h 3602bebc94c933755827f5c9b65fa40d 1482633629
-obj /usr/include/cdio/ds.h ae5f5b3da73d69991506c8b4e76f6dd1 1482633629
-obj /usr/include/cdio/dvd.h d4aa15f5bb7c4164287817a460224c1b 1482633629
-obj /usr/include/cdio/ecma_167.h e27e4d0387faa67e6d2e6d5a41eb5d73 1482633629
-obj /usr/include/cdio/iso9660.h 8c4978e76cc3b46a3b60ad8c360febea 1482633629
-obj /usr/include/cdio/logging.h 7efbbbda935d594f22f3446392a54357 1482633629
-obj /usr/include/cdio/memory.h d2823620af868c9c3161c3178f2cb88c 1482633629
-obj /usr/include/cdio/mmc.h 1bb7d4873b385307c0a7f89f256bbfa5 1482633629
-obj /usr/include/cdio/mmc_cmds.h 77f2f12265986dd9aa8e0b56fbc69e08 1482633629
-obj /usr/include/cdio/mmc_hl_cmds.h 12ce0ffb1d43cc4ade818ad06cd7d46c 1482633629
-obj /usr/include/cdio/mmc_ll_cmds.h 48e4803de96125dfb964b6ea7052ad1e 1482633629
-obj /usr/include/cdio/mmc_util.h a0d12db9526cbc8398aeacf4c82eee46 1482633629
-obj /usr/include/cdio/posix.h 31c7f7b2e1d9ad4ddc214b8ba825edb3 1482633629
-obj /usr/include/cdio/read.h 8f6c917481fbfdb94f44494aeafa5715 1482633629
-obj /usr/include/cdio/rock.h d8fe57ced0f947ab7084a8877424f7d8 1482633629
-obj /usr/include/cdio/sector.h ab40af73041176945b27ce9f66c7eb3f 1482633629
-obj /usr/include/cdio/track.h 88321ef2d9eae800329f1a894108d327 1482633629
-obj /usr/include/cdio/types.h 183c363225345e6a5f74d56084024b67 1482633629
-obj /usr/include/cdio/udf.h d8d3eba8211f4781bb30ba6221d53039 1482633629
-obj /usr/include/cdio/udf_file.h 8a6f019ceb7134d1eadfd4294c06cd95 1482633629
-obj /usr/include/cdio/udf_time.h 5a84a5b6b6d1d7b4823f3a934a15df14 1482633629
-obj /usr/include/cdio/utf8.h 467b43890887556f33b5db95668810b9 1482633629
-obj /usr/include/cdio/util.h a8854caa46633dcbefc93a3c034026a6 1482633629
-obj /usr/include/cdio/version.h 2c61463c1a8cc1d9bcee59b94480160a 1482633630
-obj /usr/include/cdio/xa.h 77bf558ed17df65641ed72c7df04b481 1482633629
 dir /usr/include/x86_64-pc-linux-gnu
 dir /usr/include/x86_64-pc-linux-gnu/cdio
-obj /usr/include/x86_64-pc-linux-gnu/cdio/cdio_config.h 646946126272da8289c15e85570622df 1482633629
-obj /usr/include/x86_64-pc-linux-gnu/cdio/version.h 28847fd36155da237e12e3f3f5fbd043 1482633629
-dir /usr/lib64
-sym /usr/lib64/libcdio++.so -> libcdio++.so.0.0.2 1482633633
-sym /usr/lib64/libcdio++.so.0 -> libcdio++.so.0.0.2 1482633633
-obj /usr/lib64/libcdio++.so.0.0.2 642f8161a3b806ddccc6d52368989cd7 1482633631
-sym /usr/lib64/libcdio.so -> libcdio.so.16.0.0 1482633633
-sym /usr/lib64/libcdio.so.16 -> libcdio.so.16.0.0 1482633633
-obj /usr/lib64/libcdio.so.16.0.0 70a2b6b6e5e0965947cdf053e1df86f1 1482633631
-sym /usr/lib64/libiso9660++.so -> libiso9660++.so.0.0.0 1482633633
-sym /usr/lib64/libiso9660++.so.0 -> libiso9660++.so.0.0.0 1482633633
-obj /usr/lib64/libiso9660++.so.0.0.0 30369c89793e8d9367be4039bea7d32e 1482633631
-sym /usr/lib64/libiso9660.so -> libiso9660.so.10.0.0 1482633633
-sym /usr/lib64/libiso9660.so.10 -> libiso9660.so.10.0.0 1482633633
-obj /usr/lib64/libiso9660.so.10.0.0 11165e9a789387d540c096852ed8587f 1482633631
-sym /usr/lib64/libudf.so -> libudf.so.0.0.0 1482633633
-sym /usr/lib64/libudf.so.0 -> libudf.so.0.0.0 1482633633
-obj /usr/lib64/libudf.so.0.0.0 3c75eaebe804841f1b50185d8006711d 1482633631
-dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/libcdio++.pc 077e839c12774c6219518cfe495402ef 1482633630
-obj /usr/lib64/pkgconfig/libcdio.pc dca1c1cc89601f41228ac2ccecc48ad5 1482633630
-obj /usr/lib64/pkgconfig/libiso9660++.pc a8fdbe4b94cdef3b584b0a8411645329 1482633630
-obj /usr/lib64/pkgconfig/libiso9660.pc 042a07be349ff6bef881e2897ba97852 1482633630
-obj /usr/lib64/pkgconfig/libudf.pc 683244f22f30ca3137404795f621e772 1482633630
+obj /usr/include/x86_64-pc-linux-gnu/cdio/cdio_config.h 646946126272da8289c15e85570622df 1486344715
+obj /usr/include/x86_64-pc-linux-gnu/cdio/version.h 28847fd36155da237e12e3f3f5fbd043 1486344715
+dir /usr/include/cdio
+obj /usr/include/cdio/types.h 183c363225345e6a5f74d56084024b67 1486344715
+obj /usr/include/cdio/dvd.h d4aa15f5bb7c4164287817a460224c1b 1486344715
+obj /usr/include/cdio/util.h a8854caa46633dcbefc93a3c034026a6 1486344715
+obj /usr/include/cdio/posix.h 31c7f7b2e1d9ad4ddc214b8ba825edb3 1486344715
+obj /usr/include/cdio/disc.h 3602bebc94c933755827f5c9b65fa40d 1486344715
+obj /usr/include/cdio/udf_file.h 8a6f019ceb7134d1eadfd4294c06cd95 1486344715
+obj /usr/include/cdio/mmc_ll_cmds.h 48e4803de96125dfb964b6ea7052ad1e 1486344715
+obj /usr/include/cdio/cdio_config.h 76ccdade8bd25e3f402cc32831a60a62 1486344716
+obj /usr/include/cdio/utf8.h 467b43890887556f33b5db95668810b9 1486344715
+obj /usr/include/cdio/rock.h d8fe57ced0f947ab7084a8877424f7d8 1486344715
+obj /usr/include/cdio/mmc_cmds.h 77f2f12265986dd9aa8e0b56fbc69e08 1486344715
+obj /usr/include/cdio/mmc_hl_cmds.h 12ce0ffb1d43cc4ade818ad06cd7d46c 1486344715
+obj /usr/include/cdio/logging.h 7efbbbda935d594f22f3446392a54357 1486344715
+obj /usr/include/cdio/xa.h 77bf558ed17df65641ed72c7df04b481 1486344715
+obj /usr/include/cdio/ecma_167.h e27e4d0387faa67e6d2e6d5a41eb5d73 1486344715
+obj /usr/include/cdio/audio.h 0a92ca1a10d42d0e8e2b621c935375e4 1486344715
+obj /usr/include/cdio/bytesex.h 18b46c2f2f4c80796bf0896ba83bc93f 1486344715
+obj /usr/include/cdio/sector.h ab40af73041176945b27ce9f66c7eb3f 1486344715
+obj /usr/include/cdio/bytesex_asm.h deb30feff730c8512247aa5bb08f6c74 1486344715
+obj /usr/include/cdio/track.h 88321ef2d9eae800329f1a894108d327 1486344715
+obj /usr/include/cdio/mmc.h 1bb7d4873b385307c0a7f89f256bbfa5 1486344715
+obj /usr/include/cdio/iso9660.h 8c4978e76cc3b46a3b60ad8c360febea 1486344715
+obj /usr/include/cdio/version.h 2c61463c1a8cc1d9bcee59b94480160a 1486344716
+obj /usr/include/cdio/device.h eeb54594e1c2b5b29462dde6f83bd43d 1486344715
+obj /usr/include/cdio/cdtext.h 53bf6cb45bf517b3087e27c020f21d18 1486344715
+obj /usr/include/cdio/udf_time.h 5a84a5b6b6d1d7b4823f3a934a15df14 1486344715
+obj /usr/include/cdio/cd_types.h d7d8601e550c328e67251616ba11455b 1486344715
+obj /usr/include/cdio/ds.h ae5f5b3da73d69991506c8b4e76f6dd1 1486344715
+obj /usr/include/cdio/memory.h d2823620af868c9c3161c3178f2cb88c 1486344715
+obj /usr/include/cdio/read.h 8f6c917481fbfdb94f44494aeafa5715 1486344715
+obj /usr/include/cdio/cdio.h 5e32e9d9223d49c4841bdb1422e8e229 1486344715
+obj /usr/include/cdio/mmc_util.h a0d12db9526cbc8398aeacf4c82eee46 1486344715
+obj /usr/include/cdio/udf.h d8d3eba8211f4781bb30ba6221d53039 1486344715
+dir /usr/include/cdio++
+obj /usr/include/cdio++/mmc.hpp a9c98235e94430f67b478b07fb3b9ea0 1486344715
+obj /usr/include/cdio++/read.hpp 2ae363d9418dbd969279b71f0fede8e7 1486344715
+obj /usr/include/cdio++/track.hpp efc40ebe82587c5c2dd9eac43ec9453d 1486344715
+obj /usr/include/cdio++/disc.hpp c57fdee0d26e2c159f95ef4872affaf3 1486344715
+obj /usr/include/cdio++/device.hpp e06121cc744c5c790228e3aff5467b73 1486344715
+obj /usr/include/cdio++/devices.hpp 9b8d34864d7d62b1e5501f0bee0ee45d 1486344715
+obj /usr/include/cdio++/cdio.hpp a372fda696a10c73c0d6b371a220321f 1486344715
+obj /usr/include/cdio++/cdtext.hpp f9c59ecb5a7cdcfc124f8e0b23274ad2 1486344715
+obj /usr/include/cdio++/enum.hpp f2f73dd915061a0e0a4873224ca3bc75 1486344715
+obj /usr/include/cdio++/iso9660.hpp 7a41971fa50413d00d95f96cb16ee61e 1486344715
+dir /usr/bin
+obj /usr/bin/mmc-tool 780b4a7fa9fe89035b6a6d2ea71a15ae 1486344717
+obj /usr/bin/cd-read 396ac4cd5d9d9f4b6ab76cd6e12ffc9d 1486344717
+obj /usr/bin/iso-info 03ab23347203ad43cb92220f29b7660e 1486344717
+obj /usr/bin/cd-drive 0b4e178e8519ffbf274f5154890c02ef 1486344717
+obj /usr/bin/cdda-player 3c275ad9ba69f32a008eaa3a0168fabb 1486344717
+obj /usr/bin/cd-info 1991f8012297bcd5619abc16bee35b6d 1486344717
+obj /usr/bin/iso-read cc4d867b7a9ae1c4250dd4efdcd0acd0 1486344717
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/libcdio-0.93
-obj /usr/share/doc/libcdio-0.93/AUTHORS dcb25e780d8849ac94199666de58e196 1482633630
-obj /usr/share/doc/libcdio-0.93/ChangeLog.bz2 23de0c0a6091dbaf3149e01bd2c3fc38 1482633630
-obj /usr/share/doc/libcdio-0.93/NEWS.bz2 5ee998a1015ab760ba59b99a790ce3dd 1482633630
-obj /usr/share/doc/libcdio-0.93/README.bz2 a511f90752c0c8a9f363d2eb34a7944a 1482633630
-obj /usr/share/doc/libcdio-0.93/README.libcdio.bz2 5ab0786ed41d6fc8123982eee1d04346 1482633630
-obj /usr/share/doc/libcdio-0.93/THANKS.bz2 678ccda2adc71a547c979b875b3eba20 1482633630
-obj /usr/share/doc/libcdio-0.93/TODO.bz2 a575a2362e7a8fc5caeb3a4ed31c7635 1482633630
+obj /usr/share/doc/libcdio-0.93/README.libcdio.bz2 5ab0786ed41d6fc8123982eee1d04346 1486344716
+obj /usr/share/doc/libcdio-0.93/NEWS.bz2 5ee998a1015ab760ba59b99a790ce3dd 1486344716
+obj /usr/share/doc/libcdio-0.93/README.bz2 a511f90752c0c8a9f363d2eb34a7944a 1486344716
+obj /usr/share/doc/libcdio-0.93/AUTHORS dcb25e780d8849ac94199666de58e196 1486344716
+obj /usr/share/doc/libcdio-0.93/ChangeLog.bz2 23de0c0a6091dbaf3149e01bd2c3fc38 1486344716
+obj /usr/share/doc/libcdio-0.93/TODO.bz2 a575a2362e7a8fc5caeb3a4ed31c7635 1486344716
+obj /usr/share/doc/libcdio-0.93/THANKS.bz2 678ccda2adc71a547c979b875b3eba20 1486344716
 dir /usr/share/info
-obj /usr/share/info/libcdio.info.bz2 4dbc934f21e83aa1746d26936e96612b 1482633629
+obj /usr/share/info/libcdio.info.bz2 4dbc934f21e83aa1746d26936e96612b 1486344715
 dir /usr/share/man
 dir /usr/share/man/man1
-obj /usr/share/man/man1/cd-drive.1.bz2 08fb13cb05148921be384f1237548481 1482633630
-obj /usr/share/man/man1/cd-info.1.bz2 f757dc9a3a24dcaf4c761602da3643b5 1482633630
-obj /usr/share/man/man1/cd-read.1.bz2 c13e0a5b22a870f22c6d9de8bd6c7c25 1482633630
-obj /usr/share/man/man1/iso-info.1.bz2 03a4611a5a941a9af4dd7eb12a127c70 1482633630
-obj /usr/share/man/man1/iso-read.1.bz2 8f2e23c77d581da206400c72f62a0342 1482633630
+obj /usr/share/man/man1/cd-read.1.bz2 c13e0a5b22a870f22c6d9de8bd6c7c25 1486344716
+obj /usr/share/man/man1/cd-info.1.bz2 f757dc9a3a24dcaf4c761602da3643b5 1486344716
+obj /usr/share/man/man1/iso-read.1.bz2 8f2e23c77d581da206400c72f62a0342 1486344716
+obj /usr/share/man/man1/cd-drive.1.bz2 08fb13cb05148921be384f1237548481 1486344716
+obj /usr/share/man/man1/iso-info.1.bz2 03a4611a5a941a9af4dd7eb12a127c70 1486344716

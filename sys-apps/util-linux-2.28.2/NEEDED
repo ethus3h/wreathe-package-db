@@ -7,7 +7,7 @@
 /usr/sbin/rtcwake libc.so.6
 /usr/sbin/partx libblkid.so.1,libsmartcols.so.1,libc.so.6
 /usr/bin/colrm libc.so.6
-/usr/bin/pg libncursesw.so.5,libc.so.6
+/usr/bin/pg libncursesw.so.6,libc.so.6
 /usr/bin/unshare libc.so.6
 /usr/bin/hexdump libc.so.6
 /usr/bin/taskset libc.so.6
@@ -16,7 +16,7 @@
 /usr/bin/colcrt libc.so.6
 /usr/bin/setarch libc.so.6
 /usr/bin/scriptreplay libc.so.6
-/usr/bin/cal libncursesw.so.5,libc.so.6
+/usr/bin/cal libncursesw.so.6,libc.so.6
 /usr/bin/prlimit libsmartcols.so.1,libc.so.6
 /usr/bin/renice libc.so.6
 /usr/bin/rename libc.so.6
@@ -33,7 +33,7 @@
 /usr/bin/flock librt.so.1,libc.so.6
 /usr/bin/col libc.so.6
 /usr/bin/column libc.so.6
-/usr/bin/setterm libncursesw.so.5,libc.so.6
+/usr/bin/setterm libncursesw.so.6,libc.so.6
 /usr/bin/lslocks libmount.so.1,libsmartcols.so.1,libc.so.6
 /usr/bin/eject libmount.so.1,librt.so.1,libc.so.6
 /usr/bin/tailf libc.so.6
@@ -41,7 +41,7 @@
 /usr/bin/ionice libc.so.6
 /usr/bin/script librt.so.1,libutil.so.1,libc.so.6
 /usr/bin/utmpdump libc.so.6
-/usr/bin/ul libncursesw.so.5,libc.so.6
+/usr/bin/ul libncursesw.so.6,libc.so.6
 /usr/bin/isosize libc.so.6
 /usr/bin/ipcs libc.so.6
 /usr/bin/lscpu libsmartcols.so.1,libc.so.6
@@ -70,7 +70,7 @@
 /sbin/pivot_root libc.so.6
 /sbin/swapon libblkid.so.1,libmount.so.1,libsmartcols.so.1,libc.so.6
 /sbin/swaplabel libblkid.so.1,libuuid.so.1,libc.so.6
-/sbin/cfdisk libsmartcols.so.1,libfdisk.so.1,libblkid.so.1,libmount.so.1,libncursesw.so.5,libc.so.6
+/sbin/cfdisk libsmartcols.so.1,libfdisk.so.1,libblkid.so.1,libmount.so.1,libncursesw.so.6,libc.so.6
 /sbin/fsck.minix libc.so.6
 /sbin/blockdev libc.so.6
 /sbin/mkfs.bfs libc.so.6
@@ -94,7 +94,7 @@
 /bin/mountpoint libmount.so.1,libc.so.6
 /bin/wdctl libsmartcols.so.1,libc.so.6
 /bin/lsblk libblkid.so.1,libmount.so.1,libsmartcols.so.1,libudev.so.1,libc.so.6
-/bin/more libncursesw.so.5,libc.so.6
+/bin/more libncursesw.so.6,libc.so.6
 /bin/umount libmount.so.1,libc.so.6
 /bin/findmnt libmount.so.1,libsmartcols.so.1,libudev.so.1,libc.so.6
 /lib64/libmount.so.1.1.0 libblkid.so.1,librt.so.1,libc.so.6,ld-linux-x86-64.so.2
