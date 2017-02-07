@@ -8,7 +8,7 @@
 /sbin/service librc.so.1,libeinfo.so.1,libc.so.6
 /sbin/openrc-run libutil.so.1,librc.so.1,libeinfo.so.1,libdl.so.2,libc.so.6
 /bin/rc-status librc.so.1,libeinfo.so.1,libc.so.6
-/lib64/libeinfo.so.1 libncurses.so.5,libc.so.6
+/lib64/libeinfo.so.1 libncurses.so.6,libc.so.6
 /lib64/rc/sbin/mark_service_starting librc.so.1,libeinfo.so.1,libc.so.6
 /lib64/rc/sbin/mark_service_wasinactive librc.so.1,libeinfo.so.1,libc.so.6
 /lib64/rc/sbin/mark_service_started librc.so.1,libeinfo.so.1,libc.so.6
