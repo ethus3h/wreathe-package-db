@@ -1,10 +1,10 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
 EAPI=5
 
-PYTHON_COMPAT=( python2_7 python3_{4,5} pypy)
+PYTHON_COMPAT=( python{2_7,3_4} pypy )
 PYTHON_REQ_USE="threads(+)"
 
 inherit distutils-r1 eutils versionator
@@ -18,28 +18,21 @@ SRC_URI="mirror://pypi/${MY_PN:0:1}/${MY_PN}/${MY_P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="alpha amd64 arm ~arm64 hppa ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~ia64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos"
+KEYWORDS="alpha amd64 arm hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos"
 IUSE="doc latex test"
 
+# Split the jinja dep to allow different slots to satisfy it
 RDEPEND="
-	=dev-python/alabaster-0.7*[${PYTHON_USEDEP}]
-	>=dev-python/docutils-0.11[${PYTHON_USEDEP}]
+	<dev-python/docutils-0.13[${PYTHON_USEDEP}]
 	>=dev-python/jinja-2.3[${PYTHON_USEDEP}]
-	>=dev-python/pygments-2.0.1-r1[${PYTHON_USEDEP}]
-	>=dev-python/six-1.4[${PYTHON_USEDEP}]
-	>=dev-python/Babel-1.3[${PYTHON_USEDEP}]
-	>=dev-python/snowballstemmer-1.1[${PYTHON_USEDEP}]
-	dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}]
+	>=dev-python/pygments-1.2[${PYTHON_USEDEP}]
+	dev-python/setuptools[${PYTHON_USEDEP}]
 	latex? (
 		dev-texlive/texlive-latexextra
 		app-text/dvipng
 	)"
-DEPEND="${RDEPEND}
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	test? (
-		dev-python/nose[${PYTHON_USEDEP}]
-		$(python_gen_cond_dep 'dev-python/mock[${PYTHON_USEDEP}]' python2_7 pypy)
-	)"
+DEPEND="${DEPEND}
+	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
 
 S="${WORKDIR}/${MY_P}"
 
@@ -51,8 +44,7 @@ python_compile() {
 	# to trust USE=test really running all the tests, especially
 	# with FEATURES=test-fail-continue.
 	pushd "${BUILD_DIR}"/lib > /dev/null || die
-	"${PYTHON}" -m sphinx.pycode.__init__ \
-		|| die "Grammar generation failed."
+	"${PYTHON}" -m sphinx.pycode.__init__ || die "Grammar generation failed."
 	popd > /dev/null || die
 }
 
@@ -61,8 +53,6 @@ python_compile_all() {
 }
 
 python_test() {
-	mkdir -p "${BUILD_DIR}/sphinx_tempdir" || die
-	export SPHINX_TEST_TEMPDIR="${BUILD_DIR}/sphinx_tempdir"
 	cp -r -l tests "${BUILD_DIR}"/ || die
 
 	if $(python_is_python3); then
