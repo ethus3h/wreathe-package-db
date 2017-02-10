@@ -3,35 +3,28 @@ dir /usr/local
 dir /usr/local/var
 dir /usr/local/var/crystallize
 dir /usr/local/etc
-obj /usr/local/etc/crystallize.conf 716d6d3267e2dc340c6102f87e27845a 1486689421
+obj /usr/local/etc/crystallize.conf 716d6d3267e2dc340c6102f87e27845a 1486696274
 dir /usr/local/bin
-obj /usr/local/bin/smallify 2e3d103e8051b06c5ce54e5b7926b39c 1486689421
-obj /usr/local/bin/decrystallize-pointer b9885a29202c02655d7ea04016e1decf 1486689421
-obj /usr/local/bin/biggify 5a8187ae5696a06448a6f27829c5805b 1486689421
-obj /usr/local/bin/decrystallize 9baaab572a83a5f99435fc72022de243 1486689421
-obj /usr/local/bin/smallify-internal 1123214ffebac9bcc69c52ef5f34e7d7 1486689421
-obj /usr/local/bin/crystallize-update bfbb9852949d29587c93e0aa6411a8ee 1486689421
-obj /usr/local/bin/s3-streaming-upload e58a776f037e47e86ccf449f10d41305 1486689421
-obj /usr/local/bin/smallify-files 057145a9a526309be655ec16ade9af90 1486689421
-obj /usr/local/bin/decrystallize-logsession f54b7b32dde4ce772da16c38908f35bf 1486689421
-obj /usr/local/bin/crystallize-internal-xz-b 36853e387b98a1d6e458669bea7fca8d 1486689421
-obj /usr/local/bin/crystallize-logsession 3d6b277c3a37a4174fa887fd7b50ff93 1486689421
-obj /usr/local/bin/disk-size-in-bytes 3b61aee5b05e8b2fcb8d9073807ff10f 1486689421
-obj /usr/local/bin/crystallize-internal-ia df4d91e32638b985f091a9ef9863e90e 1486689421
-obj /usr/local/bin/sstream-precache 44958fa0f5486f811604d7ce5cf066b7 1486689421
-obj /usr/local/bin/dequicklify a4579c89b1f7a29f2586e518b4636a97 1486689421
-obj /usr/local/bin/sstream-dircache 914be47b078d764892b075c6826c85e9 1486689421
-obj /usr/local/bin/biggify-stream acf0d680e67f6a5ad313e29ecd0d30a3 1486689421
-obj /usr/local/bin/crystallize-getconf adb36c54045a1cb62512cd3d4c20cdc3 1486689421
-obj /usr/local/bin/rfdu c2c3f9f8221b50e5ad319a942f0302d1 1486689421
-obj /usr/local/bin/smallify-stream ff21a457160640af8936f5b3aa4ab1cd 1486689421
-obj /usr/local/bin/sstream-singlefsck 669c0c977fbaead7736b6afede448a4a 1486689421
-obj /usr/local/bin/quickliquid 81b37be1f8234b7fbd7efe6eeadea1cd 1486689421
-obj /usr/local/bin/crystallize a3ebbacd1b3199c76c9aa05117df216a 1486689421
-obj /usr/local/bin/rubberfs-bash_setup ad86ce63cc08c30705b8a8ca97fd7fbc 1486689421
-obj /usr/local/bin/sstream-fsck 6c30ed182122d7fa939097cdb731644c 1486689421
-obj /usr/local/bin/rubberfs d2285ef1dd3581f2f903d039f780d66c 1486689421
+obj /usr/local/bin/scache_store_files ebd8762e04672fcc1681790e753b69c3 1486696274
+obj /usr/local/bin/decrystallize 1c0343c899df02883d3b7f266e897fcc 1486696274
+obj /usr/local/bin/crystallize-update bfbb9852949d29587c93e0aa6411a8ee 1486696274
+obj /usr/local/bin/s3-streaming-upload e58a776f037e47e86ccf449f10d41305 1486696274
+obj /usr/local/bin/scache_read_stream 506081708a861789c1f9fa24f1f94b1d 1486696274
+obj /usr/local/bin/crystallize-internal-xz-b 36853e387b98a1d6e458669bea7fca8d 1486696274
+obj /usr/local/bin/scache_fsck 4b3fa93acd79df08f4acbdf748861a93 1486696274
+obj /usr/local/bin/crystallize-logsession 3d6b277c3a37a4174fa887fd7b50ff93 1486696274
+obj /usr/local/bin/disk-size-in-bytes 3b61aee5b05e8b2fcb8d9073807ff10f 1486696274
+obj /usr/local/bin/crystallize-internal-ia df4d91e32638b985f091a9ef9863e90e 1486696274
+obj /usr/local/bin/warn d1cbfea54f661310a1293cbb0c6a3455 1486696274
+obj /usr/local/bin/crystallize-bash_setup 1691c256ed3aaa4b08e0292ab12e3c03 1486696274
+obj /usr/local/bin/warn-timeout ec982f018f5e8b2bf051798558962df9 1486696274
+obj /usr/local/bin/crystallize-getconf adb36c54045a1cb62512cd3d4c20cdc3 1486696274
+obj /usr/local/bin/scache_store_stream cfb57424765500943429660af36e534e 1486696274
+obj /usr/local/bin/error-notify 3f6305f9201a63d4f54b40f56d657045 1486696274
+obj /usr/local/bin/scache_verify_entry 05775e07e966e929919217cf035fca8c 1486696274
+obj /usr/local/bin/crystallize 5d72a6b9f7242f5625abf3f5b14de74b 1486696274
+obj /usr/local/bin/rubberfs c97f7b29f39a3ff0c163f909bd434f71 1486696274
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/crystallize-9999
-obj /usr/share/doc/crystallize-9999/README.md.bz2 7d54c6dc5b08899d0fe5f8cb3f4ee1d8 1486689421
+obj /usr/share/doc/crystallize-9999/README.md.bz2 7d54c6dc5b08899d0fe5f8cb3f4ee1d8 1486696274
