@@ -4,7 +4,7 @@
 
 EAPI=5
 PYTHON_COMPAT=( python2_7 )
-USE_RUBY="ruby22 ruby21 ruby20"
+USE_RUBY="ruby23 ruby22 ruby21 ruby20"
 DISTUTILS_OPTIONAL=1
 WANT_AUTOMAKE="none"
 GENTOO_DEPEND_ON_PERL="no"
@@ -37,7 +37,7 @@ COMMON_DEPEND=">=dev-db/sqlite-3.7.12
 	python? ( ${PYTHON_DEPS} )
 	ruby? ( ${RUBY_DEPS} )
 	sasl? ( dev-libs/cyrus-sasl )
-	http? ( >=net-libs/serf-1.2.1 )"
+	http? ( >=net-libs/serf-1.3.4 )"
 RDEPEND="${COMMON_DEPEND}
 	apache2? ( www-servers/apache[apache2_modules_dav] )
 	java? ( >=virtual/jre-1.5 )
@@ -156,13 +156,6 @@ src_prepare() {
 		-i build-outputs.mk || die "sed failed"
 
 	if use python ; then
-		if [[ ${CHOST} == *-darwin* ]] ; then
-			# http://mail-archives.apache.org/mod_mbox/subversion-dev/201306.mbox/%3C20130614113003.GA19257@tarsus.local2%3E
-			# in short, we don't have gnome-keyring stuff here, patch
-			# borrowed from MacPorts
-			epatch "${FILESDIR}"/${PN}-1.8.5-swig-python-no-gnome-keyring.patch
-		fi
-
 		# XXX: make python_copy_sources accept path
 		S=${S}/subversion/bindings/swig/python python_copy_sources
 		rm -r "${S}"/subversion/bindings/swig/python || die
