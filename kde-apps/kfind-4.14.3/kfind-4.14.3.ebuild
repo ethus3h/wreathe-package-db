@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -10,7 +10,7 @@ inherit kde4-meta
 
 DESCRIPTION="KDE file finder utility"
 HOMEPAGE="https://www.kde.org/applications/utilities/kfind/"
-KEYWORDS="amd64 ~arm ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE="debug"
 
 DEPEND="

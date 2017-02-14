@@ -1,39 +1,46 @@
 dir /etc
 dir /etc/dbus-1
 dir /etc/dbus-1/system.d
-obj /etc/dbus-1/system.d/org.kde.baloo.filewatch.conf 7e1cf36968375abae064c1d5855792c7 1468124965
+obj /etc/dbus-1/system.d/org.kde.baloo.filewatch.conf 7e1cf36968375abae064c1d5855792c7 1487036937
 dir /usr
 dir /usr/lib64
-obj /usr/lib64/libbalooxapian.so.4.14.3 a1abdb922292860bd357e5b79b022aec 1468125543
-obj /usr/lib64/libbaloocore.so.4.14.3 10dab130d4e8ccf53d6e0bfbed12b363 1468125543
-sym /usr/lib64/libbalooxapian.so.4 -> libbalooxapian.so.4.14.3 1468125546
+sym /usr/lib64/libbaloofiles.so.4 -> libbaloofiles.so.4.14.3 1487037048
+sym /usr/lib64/libbalooxapian.so -> libbalooxapian.so.4 1487037048
+obj /usr/lib64/libbalooxapian.so.4.14.3 acd80c337915ec6ad985fd31aabde0b7 1487037046
+sym /usr/lib64/libbaloofiles.so -> libbaloofiles.so.4 1487037048
+sym /usr/lib64/libbaloopim.so -> libbaloopim.so.4 1487037048
+obj /usr/lib64/libbaloocore.so.4.14.3 33f4a1c75523e3fc45b1d128e57342ed 1487037046
+sym /usr/lib64/libbalooqueryparser.so.4 -> libbalooqueryparser.so.4.14.3 1487037048
+sym /usr/lib64/libbaloocore.so -> libbaloocore.so.4 1487037048
+sym /usr/lib64/libbalooxapian.so.4 -> libbalooxapian.so.4.14.3 1487037048
 dir /usr/lib64/cmake
 dir /usr/lib64/cmake/Baloo
-obj /usr/lib64/cmake/Baloo/BalooConfigVersion.cmake 21e7e763f586b8e1772f0e1b12f1a406 1468124966
-obj /usr/lib64/cmake/Baloo/BalooConfig.cmake 5b676efc56242b25f675c25a79c72662 1468124966
-obj /usr/lib64/cmake/Baloo/BalooTargetsWithPrefix.cmake d3de34b189bda5c3801703d947ed83fc 1468124966
-obj /usr/lib64/cmake/Baloo/BalooTargetsWithPrefix-gentoo.cmake 92139df759fdfa5dfbbc503c81bd1d6d 1468124966
-obj /usr/lib64/libbaloopim.so.4.14.3 7f110181c1eabb31d5a5bb44c3f5e619 1468125543
-obj /usr/lib64/libbalooqueryparser.so.4.14.3 852d408c26a4b8bbbdcf4642434914e0 1468125543
-obj /usr/lib64/libbaloofiles.so.4.14.3 a4810f7a3cafdb6d59a149eaef1a4c76 1468125543
-sym /usr/lib64/libbaloopim.so.4 -> libbaloopim.so.4.14.3 1468125546
+obj /usr/lib64/cmake/Baloo/BalooConfigVersion.cmake 21e7e763f586b8e1772f0e1b12f1a406 1487036937
+obj /usr/lib64/cmake/Baloo/BalooConfig.cmake 5b676efc56242b25f675c25a79c72662 1487036937
+obj /usr/lib64/cmake/Baloo/BalooTargetsWithPrefix.cmake 90b9744611dd0b7d2d21f47803a8e71d 1487036937
+obj /usr/lib64/cmake/Baloo/BalooTargetsWithPrefix-gentoo.cmake 92139df759fdfa5dfbbc503c81bd1d6d 1487036937
+obj /usr/lib64/libbaloopim.so.4.14.3 75d112dbce0414654954ee0fe467c94d 1487037046
+obj /usr/lib64/libbalooqueryparser.so.4.14.3 5646e6b1ef7d1595dddf3c3e2cf47ae4 1487037046
+sym /usr/lib64/libbalooqueryparser.so -> libbalooqueryparser.so.4 1487037048
+obj /usr/lib64/libbaloofiles.so.4.14.3 d4b25b8e7b7c3482549219f2a7fc83fd 1487037046
+sym /usr/lib64/libbaloopim.so.4 -> libbaloopim.so.4.14.3 1487037048
 dir /usr/lib64/kde4
-obj /usr/lib64/kde4/baloo_filesearchstore.so c5adda05d8e4b602cc2ac9b66e47b514 1468125543
-obj /usr/lib64/kde4/baloo_emailsearchstore.so e0ff640311260550c2c5cb9250833edd 1468125543
+obj /usr/lib64/kde4/baloo_filesearchstore.so 91fbb3b0b40eb6884643a7dde9228a5d 1487037046
+obj /usr/lib64/kde4/baloo_emailsearchstore.so bcc4fda301b7edfa7843932e2b73f927 1487037046
 dir /usr/lib64/kde4/libexec
-obj /usr/lib64/kde4/libexec/kde_baloo_filewatch_raiselimit fadc9eccb7214895c19e08b5bc6c954b 1468125543
-obj /usr/lib64/kde4/kio_timeline.so 9926e070de3a3320b84cd8de9e0c7376 1468125544
-obj /usr/lib64/kde4/baloo_notesearchstore.so a41010148e48f3fb33c970c02cf87786 1468125543
-obj /usr/lib64/kde4/baloo_contactsearchstore.so 340cf34698ee56b5440e7021b3d32966 1468125543
-obj /usr/lib64/kde4/kcm_baloofile.so 184045449c62853ea0780b7cfbde05be 1468125543
-obj /usr/lib64/kde4/krunner_baloosearchrunner.so 9bd9ba557571c69574169e5e163edd37 1468125544
-obj /usr/lib64/kde4/baloo_calendarsearchstore.so 85bd11f469e4e10f19763801d003c7f4 1468125543
-obj /usr/lib64/kde4/kio_baloosearch.so a3c4c85ff7921295a4529e8cca55f76f 1468125544
-obj /usr/lib64/kde4/kio_tags.so 5003c06064885d4b91fd33cad6e944a0 1468125544
+obj /usr/lib64/kde4/libexec/kde_baloo_filewatch_raiselimit fadc9eccb7214895c19e08b5bc6c954b 1487037046
+obj /usr/lib64/kde4/kio_timeline.so 0ce5634d5aaa73e00ddd1a9b0d52578d 1487037046
+obj /usr/lib64/kde4/baloo_notesearchstore.so a999ac13db275a784e7c1ad0549c384f 1487037046
+obj /usr/lib64/kde4/baloo_contactsearchstore.so d7609cdf22d4c5bba4dca71f3e708d43 1487037046
+obj /usr/lib64/kde4/kcm_baloofile.so 7bc4c27b01d1c7dd500686c6501bc739 1487037046
+obj /usr/lib64/kde4/krunner_baloosearchrunner.so 07ae75bad116292d33a9c8d5ecc189a9 1487037046
+obj /usr/lib64/kde4/baloo_calendarsearchstore.so 0f258602030a6906a0827b110d12edd1 1487037046
+obj /usr/lib64/kde4/kio_baloosearch.so 4864d767f644178a4a6eed2c939592c2 1487037046
+obj /usr/lib64/kde4/kio_tags.so fc24ec4773d3f66985a891970f7be278 1487037046
 dir /usr/lib64/kde4/akonadi
 obj /usr/lib64/kde4/akonadi/akonadibaloosearchplugin.desktop 66fe269510317388ec1c50a6fc9a0d56 1415275408
-obj /usr/lib64/kde4/akonadi/akonadi_baloo_searchplugin.so 81c38ae6e6cddbf72a19805bcdeaa1d5 1468125543
-sym /usr/lib64/libbaloocore.so.4 -> libbaloocore.so.4.14.3 1468125546
+obj /usr/lib64/kde4/akonadi/akonadi_baloo_searchplugin.so 8060d21e1f56bd71f4b5f0f59aec8b3f 1487037046
+sym /usr/lib64/libbaloocore.so.4 -> libbaloocore.so.4.14.3 1487037048
 dir /usr/include
 dir /usr/include/baloo
 obj /usr/include/baloo/indexerconfig.h a0551d4203b793497d7521ba6fb7e4ad 1415275408
@@ -62,7 +69,7 @@ obj /usr/include/baloo/queryrunnable.h dfe035aa416f37908ed97844bd9ba68b 14152754
 obj /usr/include/baloo/completionproposal.h c14b74d25238bb67bdb3a62b24d866de 1415275408
 obj /usr/include/baloo/core_export.h b20d03d79a1210222e5c6c174575b187 1415275408
 dir /usr/bin
-obj /usr/bin/akonadi_baloo_indexer 9547f68b81cc715b0309e557647ea67f 1468125543
+obj /usr/bin/akonadi_baloo_indexer ac18e09bc7b9ab8db3bd842668be54ad 1487037046
 dir /usr/share
 dir /usr/share/autostart
 obj /usr/share/autostart/baloo_file.desktop 24d1f493eaa9fe1ba72dafbc090ba934 1415275408
@@ -83,10 +90,3 @@ obj /usr/share/kde4/servicetypes/baloosearchstore.desktop bac631a1effc2a5f82c232
 dir /usr/share/akonadi
 dir /usr/share/akonadi/agents
 obj /usr/share/akonadi/agents/akonadibalooindexingagent.desktop 2857b3e14f51150adc172dad0d9c4f82 1415275408
-sym /usr/lib64/libbaloocore.so -> libbaloocore.so.4 1468125546
-sym /usr/lib64/libbalooqueryparser.so.4 -> libbalooqueryparser.so.4.14.3 1468125546
-sym /usr/lib64/libbaloopim.so -> libbaloopim.so.4 1468125546
-sym /usr/lib64/libbalooxapian.so -> libbalooxapian.so.4 1468125546
-sym /usr/lib64/libbaloofiles.so.4 -> libbaloofiles.so.4.14.3 1468125546
-sym /usr/lib64/libbaloofiles.so -> libbaloofiles.so.4 1468125546
-sym /usr/lib64/libbalooqueryparser.so -> libbalooqueryparser.so.4 1468125546
