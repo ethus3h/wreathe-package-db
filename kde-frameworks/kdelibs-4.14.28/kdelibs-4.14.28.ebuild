@@ -4,7 +4,6 @@
 
 EAPI=6
 
-CMAKE_MIN_VERSION="3.3.1-r1"
 CPPUNIT_REQUIRED="optional"
 DECLARATIVE_REQUIRED="always"
 KDE_HANDBOOK="optional"
@@ -12,13 +11,13 @@ OPENGL_REQUIRED="optional"
 WEBKIT_REQUIRED="optional"
 inherit kde4-base fdo-mime multilib toolchain-funcs flag-o-matic
 
-APPS_VERSION="16.08.1" # Don't forget to bump this
+APPS_VERSION="16.12.1" # Don't forget to bump this
 
 DESCRIPTION="KDE libraries needed by all KDE programs"
 [[ ${KDE_BUILD_TYPE} != live ]] && \
 SRC_URI="mirror://kde/stable/applications/${APPS_VERSION}/src/${P}.tar.xz"
 
-KEYWORDS="~amd64 ~arm ~x86"
+KEYWORDS="amd64 ~arm ~ppc ~ppc64 x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux"
 LICENSE="LGPL-2.1"
 IUSE="cpu_flags_x86_3dnow acl altivec +bzip2 +crypt debug doc fam jpeg2k
 kerberos libressl lzma cpu_flags_x86_mmx nls openexr +policykit spell
@@ -113,7 +112,7 @@ PDEPEND="
 		$(add_kdeapps_dep kfmclient '' 4.14.3)
 		x11-misc/xdg-utils
 	)
-	handbook? ( kde-apps/khelpcenter:= )
+	handbook? ( kde-apps/khelpcenter:* )
 	policykit? ( || (
 		>=sys-auth/polkit-kde-agent-0.99
 		kde-plasma/polkit-kde-agent
@@ -131,7 +130,6 @@ PATCHES=(
 	"${FILESDIR}/${PN}-4.9.3-werror.patch"
 	"${FILESDIR}/${PN}-4.10.0-udisks.patch"
 	"${FILESDIR}/${PN}-4.14.20-FindQt4.patch"
-	"${FILESDIR}/${PN}-4.14.20-strigi-optional.patch"
 	"${FILESDIR}/${PN}-4.14.22-webkit.patch"
 )
 
@@ -184,12 +182,12 @@ src_prepare() {
 src_configure() {
 	local mycmakeargs=(
 		-DWITH_HSPELL=OFF
-		-DWITH_ASPELL=ON
+		-DWITH_ASPELL=OFF
 		-DKDE_DEFAULT_HOME=.kde4
 		-DKAUTH_BACKEND=POLKITQT-1
-		-DWITH_Soprano=ON
-		-DWITH_SharedDesktopOntologies=ON
-		-DCMAKE_DISABLE_FIND_PACKAGE_Strigi=OFF
+		-DWITH_Soprano=OFF
+		-DWITH_SharedDesktopOntologies=OFF
+		-DCMAKE_DISABLE_FIND_PACKAGE_Strigi=ON
 		-DBUILD_doc=$(usex handbook)
 		-DHAVE_X86_3DNOW=$(usex cpu_flags_x86_3dnow)
 		-DHAVE_PPC_ALTIVEC=$(usex altivec)
