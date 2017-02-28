@@ -1,6 +1,6 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI="6"
 
@@ -17,16 +17,16 @@ RDEPEND="dev-lang/mono"
 DEPEND="${RDEPEND}"
 
 src_compile() {
-    xbuild ILSpyMac.sln
+	xbuild ILSpyMac.sln
 }
 
 src_install() {
-    insinto /Wreathe/Apps/ILSpy/
-    GLOBIGNORE="README.md:.git"
-    doins -r *
-    unset GLOBIGNORE
-    exeinto /usr/bin/
-    echo '#!/bin/bash' > ./ilspy
-    echo 'mono /Wreathe/Apps/ILSpy/ILSpyMac/bin/Debug/ILSpyMac.exe $@' > ./ilspy
-    doexe ilspy
+	insinto /Wreathe/Apps/ILSpy/
+	GLOBIGNORE="README.md:.git"
+	doins -r *
+	unset GLOBIGNORE
+	exeinto /usr/bin/
+	echo '#!/bin/bash' > ./ilspy
+	echo 'mono /Wreathe/Apps/ILSpy/ILSpyMac/bin/Debug/ILSpyMac.exe $@' > ./ilspy
+	doexe ilspy
 }
