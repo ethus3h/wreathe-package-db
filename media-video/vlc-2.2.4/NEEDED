@@ -31,6 +31,7 @@
 /usr/lib64/vlc/plugins/stream_out/libstream_out_standard_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/stream_out/libstream_out_autodel_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/stream_out/libstream_out_description_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
+/usr/lib64/vlc/plugins/stream_out/libstream_out_chromaprint_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libchromaprint.so.1,libc.so.6
 /usr/lib64/vlc/plugins/stream_out/libstream_out_transcode_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/stream_out/libstream_out_dummy_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/stream_out/libstream_out_setid_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
@@ -49,7 +50,7 @@
 /usr/lib64/vlc/plugins/stream_out/libstream_out_delay_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/video_chroma/libi420_rgb_sse2_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/video_chroma/libi420_rgb_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libc.so.6
-/usr/lib64/vlc/plugins/video_chroma/libswscale_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libswscale.so.3,libc.so.6
+/usr/lib64/vlc/plugins/video_chroma/libswscale_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libswscale.so.4,libc.so.6
 /usr/lib64/vlc/plugins/video_chroma/libi422_i420_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/video_chroma/libi420_yuy2_mmx_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/video_chroma/libi420_yuy2_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
@@ -93,7 +94,7 @@
 /usr/lib64/vlc/plugins/access/libfilesystem_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/access/libimem_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/access/libcdda_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
-/usr/lib64/vlc/plugins/access/libavio_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libavformat.so.56,libavutil.so.54,libc.so.6
+/usr/lib64/vlc/plugins/access/libavio_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libavformat.so.57,libavutil.so.55,libc.so.6
 /usr/lib64/vlc/plugins/access/libhttp_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libz.so.1,libc.so.6
 /usr/lib64/vlc/plugins/access/libpulsesrc_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libpulse.so.0,libc.so.6
 /usr/lib64/vlc/plugins/access/libdvdread_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libdvdread.so.4,libc.so.6
@@ -154,7 +155,7 @@
 /usr/lib64/vlc/plugins/demux/libes_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/demux/libflacsys_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/demux/libvoc_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
-/usr/lib64/vlc/plugins/demux/libavformat_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libavformat.so.56,libavcodec.so.56,libavutil.so.54,libm.so.6,libc.so.6
+/usr/lib64/vlc/plugins/demux/libavformat_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libavformat.so.57,libavcodec.so.57,libavutil.so.55,libm.so.6,libc.so.6
 /usr/lib64/vlc/plugins/demux/libhevc_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/demux/libdemux_cdg_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/demux/libh264_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
@@ -205,7 +206,7 @@
 /usr/lib64/vlc/plugins/packetizer/libpacketizer_hevc_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/packetizer/libpacketizer_vc1_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/packetizer/libpacketizer_mpeg4video_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
-/usr/lib64/vlc/plugins/packetizer/libpacketizer_avparser_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libavcodec.so.56,libavutil.so.54,libc.so.6
+/usr/lib64/vlc/plugins/packetizer/libpacketizer_avparser_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libavcodec.so.57,libavutil.so.55,libc.so.6
 /usr/lib64/vlc/plugins/packetizer/libpacketizer_copy_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/packetizer/libpacketizer_h264_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/packetizer/libpacketizer_mpegvideo_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
@@ -219,7 +220,7 @@
 /usr/lib64/vlc/plugins/stream_filter/libhttplive_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libdl.so.2,libm.so.6,libdbus-1.so.3,libgcrypt.so.20,libgpg-error.so.0,libpthread.so.0,libc.so.6
 /usr/lib64/vlc/plugins/gui/libncurses_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libncursesw.so.6,libm.so.6,libc.so.6
 /usr/lib64/vlc/plugins/gui/libqt4_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libQt5Widgets.so.5,libXi.so.6,libQt5X11Extras.so.5,libQt5Gui.so.5,libQt5Core.so.5,libX11.so.6,libstdc++.so.6,libm.so.6,libc.so.6,libgcc_s.so.1
-/usr/lib64/vlc/plugins/vdpau/libvdpau_avcodec_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libm.so.6,libdbus-1.so.3,libvlc_vdpau.so.0,libX11.so.6,libavcodec.so.56,libavutil.so.54,libc.so.6
+/usr/lib64/vlc/plugins/vdpau/libvdpau_avcodec_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libm.so.6,libdbus-1.so.3,libvlc_vdpau.so.0,libX11.so.6,libavcodec.so.57,libavutil.so.55,libc.so.6
 /usr/lib64/vlc/plugins/vdpau/libvdpau_display_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libm.so.6,libdbus-1.so.3,libvlc_vdpau.so.0,libX11.so.6,libxcb.so.1,libc.so.6
 /usr/lib64/vlc/plugins/vdpau/libvdpau_chroma_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libm.so.6,libdbus-1.so.3,libvlc_vdpau.so.0,libc.so.6
 /usr/lib64/vlc/plugins/vdpau/libvdpau_sharpen_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libm.so.6,libdbus-1.so.3,libvlc_vdpau.so.0,libc.so.6
@@ -237,7 +238,7 @@
 /usr/lib64/vlc/plugins/video_filter/libmotiondetect_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/video_filter/libripple_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libm.so.6,libc.so.6
 /usr/lib64/vlc/plugins/video_filter/libscale_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
-/usr/lib64/vlc/plugins/video_filter/libpostproc_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libpostproc.so.53,libc.so.6
+/usr/lib64/vlc/plugins/video_filter/libpostproc_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libpostproc.so.54,libc.so.6
 /usr/lib64/vlc/plugins/video_filter/libcolorthres_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libm.so.6,libc.so.6
 /usr/lib64/vlc/plugins/video_filter/libopencv_example_plugin.so libvlccore.so.8,libidn.so.11,libdbus-1.so.3,libopencv_core.so.2.4,libopencv_objdetect.so.2.4,libc.so.6
 /usr/lib64/vlc/plugins/video_filter/libsharpen_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
@@ -307,7 +308,7 @@
 /usr/lib64/vlc/plugins/codec/libadpcm_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/codec/libx265_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libx265.so.68,libc.so.6
 /usr/lib64/vlc/plugins/codec/liblibass_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libass.so.9,libc.so.6
-/usr/lib64/vlc/plugins/codec/libavcodec_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libavcodec.so.56,libavutil.so.54,libc.so.6
+/usr/lib64/vlc/plugins/codec/libavcodec_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libavcodec.so.57,libavutil.so.55,libc.so.6
 /usr/lib64/vlc/plugins/codec/libdts_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/codec/liblibmpeg2_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libmpeg2.so.0,libc.so.6
 /usr/lib64/vlc/plugins/codec/libsubsdec_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
@@ -324,7 +325,7 @@
 /usr/lib64/vlc/plugins/codec/libfluidsynth_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libfluidsynth.so.1,libc.so.6
 /usr/lib64/vlc/plugins/codec/libjpeg_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libjpeg.so.62,libc.so.6
 /usr/lib64/vlc/plugins/codec/liba52_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
-/usr/lib64/vlc/plugins/codec/libhwdummy_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libavcodec.so.56,libavutil.so.54,libc.so.6
+/usr/lib64/vlc/plugins/codec/libhwdummy_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libavcodec.so.57,libavutil.so.55,libc.so.6
 /usr/lib64/vlc/plugins/codec/libcdg_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
 /usr/lib64/vlc/plugins/codec/libx264_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libdbus-1.so.3,libx264.so.142,libc.so.6
 /usr/lib64/vlc/plugins/codec/libstl_plugin.so libvlccore.so.8,librt.so.1,libidn.so.11,libpthread.so.0,libdl.so.2,libm.so.6,libdbus-1.so.3,libc.so.6
