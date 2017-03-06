@@ -14,8 +14,15 @@ SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 
-RDEPEND="dev-lang/python:="
+RDEPEND="dev-lang/python:=
+	>=dev-python/certauth-1.1.0
+	dev-python/warctools
+	>=dev-python/kafka-python-1.0.1
+	>=dev-python/surt-0.3
+	dev-python/rethinkstuff
+	>=dev-python/doublethink-0.2.0_pre69"
+
 DEPEND="${RDEPEND}"
