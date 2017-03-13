@@ -1,6 +1,5 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 
@@ -22,7 +21,7 @@ IUSE="debug ldap prison"
 RESTRICT="test"
 
 DEPEND="
-	>=app-crypt/gpgme-1.1.6
+	>=app-crypt/gpgme-1.8.0
 	>=dev-libs/boost-1.35.0-r5:=
 	dev-libs/libgpg-error
 	>=dev-libs/libical-0.48-r2:=
@@ -43,6 +42,7 @@ RDEPEND="${DEPEND}
 PATCHES=(
 	"${FILESDIR}/${PN}-4.14.11-boostincludes.patch"
 	"${FILESDIR}/${PN}-CVE-2016-7966-r1.patch"
+	"${FILESDIR}/${PN}-4.14.11-gpgme-1.8.0.patch"
 )
 
 src_configure() {
