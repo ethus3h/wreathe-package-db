@@ -14,7 +14,7 @@ HOMEPAGE="http://trinitydesktop.org/"
 #SRC_URI="ftp://ftp.trolltech.com/tqt/source/tqt-x11-${SRCTYPE}-${PV}.tar.gz
 #	immtqt? ( mirror://gentoo/${IMMTQT_P}.diff.bz2 )
 #	immtqt-bc? ( mirror://gentoo/${IMMTQT_P}.diff.bz2 )"
-EGIT_REPO_URI="http://scm.trinitydesktop.org/scm/git/tqt3"
+EGIT_REPO_URI="http://mirror.git.trinitydesktop.org/cgit/tqt3"
 EGIT_PROJECT="trinity/tqt3"
 LICENSE="|| ( QPL-1.0 GPL-2 GPL-3 )"
 
