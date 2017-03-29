@@ -1,12 +1,12 @@
 dir /usr
 dir /usr/lib64
-obj /usr/lib64/libgldi.so.3.4.1 3af8ad72c64ad00d5ee680c2eb60c986 1478199918
+obj /usr/lib64/libgldi.so.3.4.1 1f63a32184acf136765fa103acb817c8 1490762814
 dir /usr/lib64/cairo-dock
-obj /usr/lib64/cairo-dock/libcd-Help.so bfb628fc25fee97d44f6bfc546d7425b 1478199918
+obj /usr/lib64/cairo-dock/libcd-Help.so 67faad28dd9b92124227c916725e9997 1490762814
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/gldi.pc 79ee95e0863e382c243e6e72634a1df7 1478199893
-sym /usr/lib64/libgldi.so.3 -> libgldi.so.3.4.1 1478199919
-sym /usr/lib64/libgldi.so -> libgldi.so.3 1478199919
+obj /usr/lib64/pkgconfig/gldi.pc 79ee95e0863e382c243e6e72634a1df7 1490762785
+sym /usr/lib64/libgldi.so.3 -> libgldi.so.3.4.1 1490762816
+sym /usr/lib64/libgldi.so -> libgldi.so.3 1490762816
 dir /usr/include
 dir /usr/include/cairo-dock
 obj /usr/include/cairo-dock/cairo-dock.h de701c137eca84adfd08603b4b00b145 1413382545
@@ -39,7 +39,7 @@ obj /usr/include/cairo-dock/gldit/cairo-dock-file-manager.h 2b1d3ec80a4483b82f07
 obj /usr/include/cairo-dock/gldit/cairo-dock-menu.h 218b184e681e1c8078a542da27570c30 1413382545
 obj /usr/include/cairo-dock/gldit/cairo-dock-applet-multi-instance.h 59d1302101c14f0ccdf191e0e1be5017 1413382545
 obj /usr/include/cairo-dock/gldit/cairo-dock-particle-system.h a31595e77ac5e0b87874c6c6bdbc5a72 1413382545
-obj /usr/include/cairo-dock/gldit/gldi-config.h f13cd1fd358d323a9a7cf00d654e1840 1478199893
+obj /usr/include/cairo-dock/gldit/gldi-config.h f13cd1fd358d323a9a7cf00d654e1840 1490762785
 obj /usr/include/cairo-dock/gldit/cairo-dock-manager.h 9d1d9a399e0572f84d69be62ded2e898 1413382545
 obj /usr/include/cairo-dock/gldit/cairo-dock-icon-factory.h c3fb88b49db7738f4f1b795eaebf98fe 1413382545
 obj /usr/include/cairo-dock/gldit/cairo-dock-log.h 5d679933df261a8a05d06c02e3266b68 1413382545
@@ -81,15 +81,15 @@ obj /usr/include/cairo-dock/implementations/cairo-dock-gauge.h 09d6a70976e5dfb63
 obj /usr/include/cairo-dock/implementations/cairo-dock-progressbar.h 627b31c231bcfa2915b7bf2515fa5f2e 1413382545
 obj /usr/include/cairo-dock/implementations/cairo-dock-graph.h a39851f57a7115ae16876d7471541253 1413382545
 dir /usr/bin
-obj /usr/bin/cairo-dock f29136be2a922611695f3133d8114828 1478199918
+obj /usr/bin/cairo-dock e6173583da2fbb2c7048890f796faf17 1490762814
 dir /usr/share
 dir /usr/share/cairo-dock
-obj /usr/share/cairo-dock/main-dock.conf 94f19fb7f165d36332b67141a8e00f7e 1478199893
-obj /usr/share/cairo-dock/container.desktop 69653b3f62e7731bfb6954265aeabfcd 1478199893
+obj /usr/share/cairo-dock/main-dock.conf 94f19fb7f165d36332b67141a8e00f7e 1490762785
+obj /usr/share/cairo-dock/container.desktop 69653b3f62e7731bfb6954265aeabfcd 1490762785
 obj /usr/share/cairo-dock/cairo-dock.svg 4e8fd0fd2c9e5d55aa23944a0ba86f94 1413382545
 dir /usr/share/cairo-dock/plug-ins
 dir /usr/share/cairo-dock/plug-ins/Help
-obj /usr/share/cairo-dock/plug-ins/Help/Help.conf 8cd599f31de9364ca375f2a7615063d1 1478199893
+obj /usr/share/cairo-dock/plug-ins/Help/Help.conf 8cd599f31de9364ca375f2a7615063d1 1490762785
 obj /usr/share/cairo-dock/plug-ins/Help/icon.svg d2a73e200f80205734483b316f60a909 1413382545
 dir /usr/share/cairo-dock/themes
 dir /usr/share/cairo-dock/themes/Default-Panel
@@ -221,7 +221,7 @@ obj /usr/share/cairo-dock/themes/Default-Single/launchers/01gnome-terminal.deskt
 obj /usr/share/cairo-dock/themes/Default-Single/launchers/01ooo-writer.desktop 7564588d323796d2cb5918b3531a7e9f 1413382545
 obj /usr/share/cairo-dock/themes/Default-Single/launchers/01ubuntu-software-center.desktop a9e54dbbe94762136662f4e9b3e97725 1413382545
 obj /usr/share/cairo-dock/themes/Default-Single/launchers/01pidgin.desktop c01add2d16c1bc4678b11fe9798950ed 1413382545
-obj /usr/share/cairo-dock/launcher.desktop 8a6b60cac082db4b2c6f3c59611f5c8b 1478199893
+obj /usr/share/cairo-dock/launcher.desktop 8a6b60cac082db4b2c6f3c59611f5c8b 1490762785
 dir /usr/share/cairo-dock/scripts
 obj /usr/share/cairo-dock/scripts/cairo-dock-package-theme.sh b48b863fe896a75d65cce330560c1df4 1424358000
 obj /usr/share/cairo-dock/scripts/initial-setup.sh 32f6c0aa3116221ad7119a56d631bc89 1413382545
@@ -230,8 +230,8 @@ dir /usr/share/cairo-dock/explosion
 obj /usr/share/cairo-dock/explosion/explosion.png 9b01e01480455c27e90fabd5a92d87a3 1413382545
 obj /usr/share/cairo-dock/readme-default-view cf2ac033e1772d5e95524c015d773887 1413382545
 obj /usr/share/cairo-dock/ChangeLog.txt 4941e407b5b4d13a42cea1df42063cfe 1413382545
-obj /usr/share/cairo-dock/themes.conf 8ae7798c3cfe97c992be6a0590b2c032 1478199893
-obj /usr/share/cairo-dock/cairo-dock.conf bad7ce4beb73479d694e59b7601d062b 1478199893
+obj /usr/share/cairo-dock/themes.conf 8ae7798c3cfe97c992be6a0590b2c032 1490762785
+obj /usr/share/cairo-dock/cairo-dock.conf bad7ce4beb73479d694e59b7601d062b 1490762785
 dir /usr/share/cairo-dock/gauges
 dir /usr/share/cairo-dock/gauges/Turbo-night-fuel
 obj /usr/share/cairo-dock/gauges/Turbo-night-fuel/readme 94127061e80bc88fc9120e596218a51c 1413382545
@@ -239,7 +239,7 @@ obj /usr/share/cairo-dock/gauges/Turbo-night-fuel/needle.svg a82cd5d74c81a18ec00
 obj /usr/share/cairo-dock/gauges/Turbo-night-fuel/background.svg 1a0fe799670df4883a0dde4a3d9b274b 1413382545
 obj /usr/share/cairo-dock/gauges/Turbo-night-fuel/theme.xml f5c146dc7dfb296cacf05b1d512cde92 1413382545
 obj /usr/share/cairo-dock/gauges/Turbo-night-fuel/foreground.svg fdc8387ac0c6f8234332b183436cd8f7 1413382545
-obj /usr/share/cairo-dock/cairo-dock-simple.conf 48cee6075ba8b428ca89b614637c0854 1478199893
+obj /usr/share/cairo-dock/cairo-dock-simple.conf 48cee6075ba8b428ca89b614637c0854 1490762785
 dir /usr/share/cairo-dock/images
 obj /usr/share/cairo-dock/images/cairo-dock-logo.png 437bdf78b8879f98fb0f0071e59650dc 1413382545
 obj /usr/share/cairo-dock/images/help-preview.jpg 7e0c2cc2dff43429145db8e1a3b2584c 1413382545
@@ -305,151 +305,151 @@ obj /usr/share/cairo-dock/icons/icon-all.svg 1b8d7c65a272c53c39c78baf465b0b1e 14
 obj /usr/share/cairo-dock/icons/icon-controler.svg ad9fe0750b2037b415fad490ea40ddd6 1413382545
 obj /usr/share/cairo-dock/icons/icon-maximize.svg 8fd2c48623407f4d6b7a2f360fe613d1 1413382545
 obj /usr/share/cairo-dock/icons/icon-position.svg a0331478800a78ed2efc6ad4e4c10c5a 1413382545
-obj /usr/share/cairo-dock/separator.desktop 90fdbf884ca19a6a1509881434ef94db 1478199893
+obj /usr/share/cairo-dock/separator.desktop 90fdbf884ca19a6a1509881434ef94db 1490762785
 dir /usr/share/doc
 dir /usr/share/doc/cairo-dock-3.4.1
-obj /usr/share/doc/cairo-dock-3.4.1/ChangeLog.bz2 8428a590a97f90322ffd9a941c3e2845 1478199917
+obj /usr/share/doc/cairo-dock-3.4.1/ChangeLog.bz2 8428a590a97f90322ffd9a941c3e2845 1490762812
 dir /usr/share/locale
 dir /usr/share/locale/sl
 dir /usr/share/locale/sl/LC_MESSAGES
-obj /usr/share/locale/sl/LC_MESSAGES/cairo-dock.mo 530f56d2b6ed6cc7ff1b4b95c1b7b5f8 1478199916
+obj /usr/share/locale/sl/LC_MESSAGES/cairo-dock.mo 530f56d2b6ed6cc7ff1b4b95c1b7b5f8 1490762811
 dir /usr/share/locale/hu
 dir /usr/share/locale/hu/LC_MESSAGES
-obj /usr/share/locale/hu/LC_MESSAGES/cairo-dock.mo 308c538a7c944f3a1c3d6323ee080970 1478199917
+obj /usr/share/locale/hu/LC_MESSAGES/cairo-dock.mo 308c538a7c944f3a1c3d6323ee080970 1490762811
 dir /usr/share/locale/uk
 dir /usr/share/locale/uk/LC_MESSAGES
-obj /usr/share/locale/uk/LC_MESSAGES/cairo-dock.mo 9826f86d6daa7a1f5f269d29e1980fd9 1478199917
+obj /usr/share/locale/uk/LC_MESSAGES/cairo-dock.mo 9826f86d6daa7a1f5f269d29e1980fd9 1490762812
 dir /usr/share/locale/nl
 dir /usr/share/locale/nl/LC_MESSAGES
-obj /usr/share/locale/nl/LC_MESSAGES/cairo-dock.mo 7a4ba54218ae98f7fc89140a7d702680 1478199916
+obj /usr/share/locale/nl/LC_MESSAGES/cairo-dock.mo 7a4ba54218ae98f7fc89140a7d702680 1490762811
 dir /usr/share/locale/bn
 dir /usr/share/locale/bn/LC_MESSAGES
-obj /usr/share/locale/bn/LC_MESSAGES/cairo-dock.mo dc229cb925d11daa34525495e6acc77b 1478199916
+obj /usr/share/locale/bn/LC_MESSAGES/cairo-dock.mo dc229cb925d11daa34525495e6acc77b 1490762811
 dir /usr/share/locale/he
 dir /usr/share/locale/he/LC_MESSAGES
-obj /usr/share/locale/he/LC_MESSAGES/cairo-dock.mo 35fe41106517a4c6e1ca014a9fcd2d40 1478199916
+obj /usr/share/locale/he/LC_MESSAGES/cairo-dock.mo 35fe41106517a4c6e1ca014a9fcd2d40 1490762811
 dir /usr/share/locale/sr
 dir /usr/share/locale/sr/LC_MESSAGES
-obj /usr/share/locale/sr/LC_MESSAGES/cairo-dock.mo 135f000baf4c7aa0ef1b3b231404e06e 1478199917
+obj /usr/share/locale/sr/LC_MESSAGES/cairo-dock.mo 135f000baf4c7aa0ef1b3b231404e06e 1490762812
 dir /usr/share/locale/be
 dir /usr/share/locale/be/LC_MESSAGES
-obj /usr/share/locale/be/LC_MESSAGES/cairo-dock.mo da69313675c4e9e60d21367ab985096a 1478199916
+obj /usr/share/locale/be/LC_MESSAGES/cairo-dock.mo da69313675c4e9e60d21367ab985096a 1490762811
 dir /usr/share/locale/tr
 dir /usr/share/locale/tr/LC_MESSAGES
-obj /usr/share/locale/tr/LC_MESSAGES/cairo-dock.mo a6592542248ea26d43b2f82091a9cbe0 1478199916
+obj /usr/share/locale/tr/LC_MESSAGES/cairo-dock.mo a6592542248ea26d43b2f82091a9cbe0 1490762812
 dir /usr/share/locale/it
 dir /usr/share/locale/it/LC_MESSAGES
-obj /usr/share/locale/it/LC_MESSAGES/cairo-dock.mo 06c36b68c2383eb75a98e99083a7e295 1478199917
+obj /usr/share/locale/it/LC_MESSAGES/cairo-dock.mo 06c36b68c2383eb75a98e99083a7e295 1490762811
 dir /usr/share/locale/bg
 dir /usr/share/locale/bg/LC_MESSAGES
-obj /usr/share/locale/bg/LC_MESSAGES/cairo-dock.mo 8e3db85cdac14ec2b254c16846a226c4 1478199916
+obj /usr/share/locale/bg/LC_MESSAGES/cairo-dock.mo 8e3db85cdac14ec2b254c16846a226c4 1490762811
 dir /usr/share/locale/pt
 dir /usr/share/locale/pt/LC_MESSAGES
-obj /usr/share/locale/pt/LC_MESSAGES/cairo-dock.mo 56200629c5f0c0e4135a6b49d417e07a 1478199916
+obj /usr/share/locale/pt/LC_MESSAGES/cairo-dock.mo 56200629c5f0c0e4135a6b49d417e07a 1490762811
 dir /usr/share/locale/id
 dir /usr/share/locale/id/LC_MESSAGES
-obj /usr/share/locale/id/LC_MESSAGES/cairo-dock.mo eb1903ae141bd42df60019452c2dae38 1478199916
+obj /usr/share/locale/id/LC_MESSAGES/cairo-dock.mo eb1903ae141bd42df60019452c2dae38 1490762811
 dir /usr/share/locale/ko
 dir /usr/share/locale/ko/LC_MESSAGES
-obj /usr/share/locale/ko/LC_MESSAGES/cairo-dock.mo 01e7d68e6882d478e071834221154e7a 1478199917
+obj /usr/share/locale/ko/LC_MESSAGES/cairo-dock.mo 01e7d68e6882d478e071834221154e7a 1490762811
 dir /usr/share/locale/eu
 dir /usr/share/locale/eu/LC_MESSAGES
-obj /usr/share/locale/eu/LC_MESSAGES/cairo-dock.mo 0d35a351b16d3371227d421dbbb43da5 1478199916
+obj /usr/share/locale/eu/LC_MESSAGES/cairo-dock.mo 0d35a351b16d3371227d421dbbb43da5 1490762811
 dir /usr/share/locale/pt_BR
 dir /usr/share/locale/pt_BR/LC_MESSAGES
-obj /usr/share/locale/pt_BR/LC_MESSAGES/cairo-dock.mo ebdaa52d2b124443a4bd1e36ddb63deb 1478199916
+obj /usr/share/locale/pt_BR/LC_MESSAGES/cairo-dock.mo ebdaa52d2b124443a4bd1e36ddb63deb 1490762811
 dir /usr/share/locale/fo
 dir /usr/share/locale/fo/LC_MESSAGES
-obj /usr/share/locale/fo/LC_MESSAGES/cairo-dock.mo ce29e708a5ad378e79b02ec0c03000cf 1478199916
+obj /usr/share/locale/fo/LC_MESSAGES/cairo-dock.mo ce29e708a5ad378e79b02ec0c03000cf 1490762811
 dir /usr/share/locale/de
 dir /usr/share/locale/de/LC_MESSAGES
-obj /usr/share/locale/de/LC_MESSAGES/cairo-dock.mo 6dadc1f9895c693b60eec018b91d42d5 1478199916
+obj /usr/share/locale/de/LC_MESSAGES/cairo-dock.mo 6dadc1f9895c693b60eec018b91d42d5 1490762811
 dir /usr/share/locale/nn
 dir /usr/share/locale/nn/LC_MESSAGES
-obj /usr/share/locale/nn/LC_MESSAGES/cairo-dock.mo 6c7b51be3f90e6d0ffeadb665986d663 1478199917
+obj /usr/share/locale/nn/LC_MESSAGES/cairo-dock.mo 6c7b51be3f90e6d0ffeadb665986d663 1490762811
 dir /usr/share/locale/es
 dir /usr/share/locale/es/LC_MESSAGES
-obj /usr/share/locale/es/LC_MESSAGES/cairo-dock.mo d17a5af6892d9f25a8d16c82338a32b8 1478199916
+obj /usr/share/locale/es/LC_MESSAGES/cairo-dock.mo d17a5af6892d9f25a8d16c82338a32b8 1490762811
 dir /usr/share/locale/nb
 dir /usr/share/locale/nb/LC_MESSAGES
-obj /usr/share/locale/nb/LC_MESSAGES/cairo-dock.mo 9d422cad09a1c158d8fa07db38d20f32 1478199916
+obj /usr/share/locale/nb/LC_MESSAGES/cairo-dock.mo 9d422cad09a1c158d8fa07db38d20f32 1490762811
 dir /usr/share/locale/uz
 dir /usr/share/locale/uz/LC_MESSAGES
-obj /usr/share/locale/uz/LC_MESSAGES/cairo-dock.mo cb8d31a137333d538e3ca5c93418d26b 1478199916
+obj /usr/share/locale/uz/LC_MESSAGES/cairo-dock.mo cb8d31a137333d538e3ca5c93418d26b 1490762812
 dir /usr/share/locale/ca
 dir /usr/share/locale/ca/LC_MESSAGES
-obj /usr/share/locale/ca/LC_MESSAGES/cairo-dock.mo ad71a1ef01fb6c3cfc8532b6b464493f 1478199917
+obj /usr/share/locale/ca/LC_MESSAGES/cairo-dock.mo ad71a1ef01fb6c3cfc8532b6b464493f 1490762811
 dir /usr/share/locale/vi
 dir /usr/share/locale/vi/LC_MESSAGES
-obj /usr/share/locale/vi/LC_MESSAGES/cairo-dock.mo 0a42796c3cbef399d34d7a621359197d 1478199916
+obj /usr/share/locale/vi/LC_MESSAGES/cairo-dock.mo 0a42796c3cbef399d34d7a621359197d 1490762812
 dir /usr/share/locale/en
 dir /usr/share/locale/en/LC_MESSAGES
-obj /usr/share/locale/en/LC_MESSAGES/cairo-dock.mo 817d6d7ff408b98c85d3a70944bf3bb3 1478199916
+obj /usr/share/locale/en/LC_MESSAGES/cairo-dock.mo 817d6d7ff408b98c85d3a70944bf3bb3 1490762811
 dir /usr/share/locale/ja
 dir /usr/share/locale/ja/LC_MESSAGES
-obj /usr/share/locale/ja/LC_MESSAGES/cairo-dock.mo f914cbf46a66c78b9ea070a2886dbf61 1478199917
+obj /usr/share/locale/ja/LC_MESSAGES/cairo-dock.mo f914cbf46a66c78b9ea070a2886dbf61 1490762811
 dir /usr/share/locale/ru
 dir /usr/share/locale/ru/LC_MESSAGES
-obj /usr/share/locale/ru/LC_MESSAGES/cairo-dock.mo 9b39fbc4d7bd16c799f9644da514ce5d 1478199916
+obj /usr/share/locale/ru/LC_MESSAGES/cairo-dock.mo 9b39fbc4d7bd16c799f9644da514ce5d 1490762811
 dir /usr/share/locale/sk
 dir /usr/share/locale/sk/LC_MESSAGES
-obj /usr/share/locale/sk/LC_MESSAGES/cairo-dock.mo 025725233730b18c266f58c6b4e1786e 1478199917
+obj /usr/share/locale/sk/LC_MESSAGES/cairo-dock.mo 025725233730b18c266f58c6b4e1786e 1490762811
 dir /usr/share/locale/et
 dir /usr/share/locale/et/LC_MESSAGES
-obj /usr/share/locale/et/LC_MESSAGES/cairo-dock.mo 7174b82044ba7a795ee7122e80bec9f2 1478199917
+obj /usr/share/locale/et/LC_MESSAGES/cairo-dock.mo 7174b82044ba7a795ee7122e80bec9f2 1490762811
 dir /usr/share/locale/zh_CN
 dir /usr/share/locale/zh_CN/LC_MESSAGES
-obj /usr/share/locale/zh_CN/LC_MESSAGES/cairo-dock.mo 75c16ee8c0b128c4a02cd9eae4253679 1478199916
+obj /usr/share/locale/zh_CN/LC_MESSAGES/cairo-dock.mo 75c16ee8c0b128c4a02cd9eae4253679 1490762812
 dir /usr/share/locale/eo
 dir /usr/share/locale/eo/LC_MESSAGES
-obj /usr/share/locale/eo/LC_MESSAGES/cairo-dock.mo 9edc8fc1bba76b8bd1e763e539675791 1478199916
+obj /usr/share/locale/eo/LC_MESSAGES/cairo-dock.mo 9edc8fc1bba76b8bd1e763e539675791 1490762811
 dir /usr/share/locale/el
 dir /usr/share/locale/el/LC_MESSAGES
-obj /usr/share/locale/el/LC_MESSAGES/cairo-dock.mo 93d295ae5de7e81908ebe5bf44e1a404 1478199916
+obj /usr/share/locale/el/LC_MESSAGES/cairo-dock.mo 93d295ae5de7e81908ebe5bf44e1a404 1490762811
 dir /usr/share/locale/sr@latin
 dir /usr/share/locale/sr@latin/LC_MESSAGES
-obj /usr/share/locale/sr@latin/LC_MESSAGES/cairo-dock.mo b3daed24a0b1781171ad42408d0198a0 1478199916
+obj /usr/share/locale/sr@latin/LC_MESSAGES/cairo-dock.mo b3daed24a0b1781171ad42408d0198a0 1490762812
 dir /usr/share/locale/fr
 dir /usr/share/locale/fr/LC_MESSAGES
-obj /usr/share/locale/fr/LC_MESSAGES/cairo-dock.mo 82b7053777edc3386c17d733def900a9 1478199916
+obj /usr/share/locale/fr/LC_MESSAGES/cairo-dock.mo 82b7053777edc3386c17d733def900a9 1490762811
 dir /usr/share/locale/zh_TW
 dir /usr/share/locale/zh_TW/LC_MESSAGES
-obj /usr/share/locale/zh_TW/LC_MESSAGES/cairo-dock.mo b78644905fe7dd66694820cf11b9e077 1478199917
+obj /usr/share/locale/zh_TW/LC_MESSAGES/cairo-dock.mo b78644905fe7dd66694820cf11b9e077 1490762812
 dir /usr/share/locale/lt
 dir /usr/share/locale/lt/LC_MESSAGES
-obj /usr/share/locale/lt/LC_MESSAGES/cairo-dock.mo beb0105acc033d72659c7ec940c8aa4a 1478199916
+obj /usr/share/locale/lt/LC_MESSAGES/cairo-dock.mo beb0105acc033d72659c7ec940c8aa4a 1490762811
 dir /usr/share/locale/ro
 dir /usr/share/locale/ro/LC_MESSAGES
-obj /usr/share/locale/ro/LC_MESSAGES/cairo-dock.mo 1afc27a99699707b562c5f69dd3d7fab 1478199916
+obj /usr/share/locale/ro/LC_MESSAGES/cairo-dock.mo 1afc27a99699707b562c5f69dd3d7fab 1490762811
 dir /usr/share/locale/gl
 dir /usr/share/locale/gl/LC_MESSAGES
-obj /usr/share/locale/gl/LC_MESSAGES/cairo-dock.mo 6fb5de69ecc4419842ab0f281943907b 1478199916
+obj /usr/share/locale/gl/LC_MESSAGES/cairo-dock.mo 6fb5de69ecc4419842ab0f281943907b 1490762811
 dir /usr/share/locale/cs
 dir /usr/share/locale/cs/LC_MESSAGES
-obj /usr/share/locale/cs/LC_MESSAGES/cairo-dock.mo 58fc71c7000836effd6a7cdd6f6d93e6 1478199916
+obj /usr/share/locale/cs/LC_MESSAGES/cairo-dock.mo 58fc71c7000836effd6a7cdd6f6d93e6 1490762811
 dir /usr/share/locale/pl
 dir /usr/share/locale/pl/LC_MESSAGES
-obj /usr/share/locale/pl/LC_MESSAGES/cairo-dock.mo 488249939db2e176cf254e2cdfba7922 1478199917
+obj /usr/share/locale/pl/LC_MESSAGES/cairo-dock.mo 488249939db2e176cf254e2cdfba7922 1490762811
 dir /usr/share/locale/oc
 dir /usr/share/locale/oc/LC_MESSAGES
-obj /usr/share/locale/oc/LC_MESSAGES/cairo-dock.mo 9b5f7055f934451c3769e80ae5948c09 1478199916
+obj /usr/share/locale/oc/LC_MESSAGES/cairo-dock.mo 9b5f7055f934451c3769e80ae5948c09 1490762811
 dir /usr/share/locale/ar
 dir /usr/share/locale/ar/LC_MESSAGES
-obj /usr/share/locale/ar/LC_MESSAGES/cairo-dock.mo 90a5b3f05b53bcc3d503afd832a052cf 1478199917
+obj /usr/share/locale/ar/LC_MESSAGES/cairo-dock.mo 90a5b3f05b53bcc3d503afd832a052cf 1490762811
 dir /usr/share/locale/fi
 dir /usr/share/locale/fi/LC_MESSAGES
-obj /usr/share/locale/fi/LC_MESSAGES/cairo-dock.mo a26556a8dd20db87d018fb097e07fed3 1478199916
+obj /usr/share/locale/fi/LC_MESSAGES/cairo-dock.mo a26556a8dd20db87d018fb097e07fed3 1490762811
 dir /usr/share/locale/sv
 dir /usr/share/locale/sv/LC_MESSAGES
-obj /usr/share/locale/sv/LC_MESSAGES/cairo-dock.mo 88207b65fc74c35c8e7b87a4b3382ac0 1478199917
+obj /usr/share/locale/sv/LC_MESSAGES/cairo-dock.mo 88207b65fc74c35c8e7b87a4b3382ac0 1490762812
 dir /usr/share/locale/cy
 dir /usr/share/locale/cy/LC_MESSAGES
-obj /usr/share/locale/cy/LC_MESSAGES/cairo-dock.mo 366d280e9fee04651b4df16939df07c6 1478199917
+obj /usr/share/locale/cy/LC_MESSAGES/cairo-dock.mo 366d280e9fee04651b4df16939df07c6 1490762811
 dir /usr/share/pixmaps
 obj /usr/share/pixmaps/cairo-dock.svg 4e8fd0fd2c9e5d55aa23944a0ba86f94 1413382545
 dir /usr/share/man
 dir /usr/share/man/man1
-obj /usr/share/man/man1/cairo-dock.1.bz2 7a2e56ced87643dae5e8efae5607b507 1478199893
+obj /usr/share/man/man1/cairo-dock.1.bz2 7a2e56ced87643dae5e8efae5607b507 1490762785
 dir /usr/share/applications
 obj /usr/share/applications/cairo-dock-cairo.desktop 53ba4a35d98d58795aa5f51d0fdd3287 1413382545
 obj /usr/share/applications/cairo-dock.desktop c8dd6922f00fafbbcd433719fea403ca 1413382545

@@ -1,10 +1,7 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: virtual/liblash/liblash-1.ebuild, 2014/09/09 Exp $
 
-EAPI=5
-
-inherit multilib-build
+EAPI="5"
 
 DESCRIPTION="Virtual for LASH library"
 HOMEPAGE=""
@@ -16,4 +13,5 @@ KEYWORDS="~amd64 ~ppc ~x86"
 IUSE="python"
 
 DEPEND=""
-RDEPEND="|| ( media-sound/ladish[lash,python?] media-sound/lash[python?] )"
+RDEPEND="|| ( media-sound/ladish[lash] media-sound/lash )
+python? ( || ( media-sound/ladish[python] media-sound/lash[python] ) )"
