@@ -1,6 +1,5 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=5
 
@@ -15,7 +14,7 @@ AUTOTOOLS_AUTORECONF="yes"
 inherit autotools-multilib ${SCM} multilib
 
 DESCRIPTION="Video Acceleration (VA) API for Linux"
-HOMEPAGE="https://www.freedesktop.org/wiki/Software/vaapi"
+HOMEPAGE="https://01.org/linuxmedia/vaapi"
 if [ "${PV%9999}" != "${PV}" ] ; then # Live ebuild
 	SRC_URI=""
 	S="${WORKDIR}/${PN}"

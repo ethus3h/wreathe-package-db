@@ -1,6 +1,5 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 # Until bug #537330 glib is a reverse dependency of pkgconfig and, then
 # adding new dependencies end up making stage3 to grow. Every addition needs
@@ -28,7 +27,7 @@ REQUIRED_USE="
 	test? ( ${PYTHON_REQUIRED_USE} )
 "
 
-KEYWORDS="alpha amd64 ~arm ~arm64 hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc x86 ~amd64-fbsd ~sparc-fbsd ~x86-fbsd ~amd64-linux ~arm-linux ~x86-linux"
+KEYWORDS="alpha amd64 arm ~arm64 hppa ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-fbsd ~sparc-fbsd ~x86-fbsd ~amd64-linux ~arm-linux ~x86-linux"
 
 RDEPEND="
 	!<dev-util/gdbus-codegen-${PV}
@@ -68,7 +67,7 @@ PDEPEND="!<gnome-base/gvfs-1.6.4-r990
 # Earlier versions of gvfs do not work with glib
 
 MULTILIB_CHOST_TOOLS=(
-	/usr/bin/gio-querymodules
+	/usr/bin/gio-querymodules$(get_exeext)
 )
 
 pkg_setup() {
@@ -112,6 +111,8 @@ src_prepare() {
 		# Don't build tests, also prevents extra deps, bug #512022
 		sed -i -e 's/ tests//' {.,gio,glib}/Makefile.am || die
 	fi
+
+	eapply "${FILESDIR}"/${PN}-2.50.3-fix-gdatetime-tests.patch
 
 	# gdbus-codegen is a separate package
 	eapply "${FILESDIR}"/${PN}-2.40.0-external-gdbus-codegen.patch

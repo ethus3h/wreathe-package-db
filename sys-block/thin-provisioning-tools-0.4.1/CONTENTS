@@ -1,24 +1,26 @@
 dir /sbin
-obj /sbin/pdata_tools 2cd176e82d2ae8aa8f32a60455c21719 1465178658
-sym /sbin/cache_check -> pdata_tools 1465178660
-sym /sbin/cache_metadata_size -> pdata_tools 1465178660
-sym /sbin/thin_metadata_size -> pdata_tools 1465178660
-sym /sbin/thin_dump -> pdata_tools 1465178660
-sym /sbin/cache_dump -> pdata_tools 1465178660
-sym /sbin/thin_repair -> pdata_tools 1465178660
-sym /sbin/era_restore -> pdata_tools 1465178660
-sym /sbin/cache_repair -> pdata_tools 1465178660
-sym /sbin/cache_restore -> pdata_tools 1465178660
-sym /sbin/thin_check -> pdata_tools 1465178660
-sym /sbin/thin_rmap -> pdata_tools 1465178660
-sym /sbin/thin_restore -> pdata_tools 1465178660
-sym /sbin/era_check -> pdata_tools 1465178660
+sym /sbin/era_dump -> pdata_tools 1491051590
+sym /sbin/era_invalidate -> pdata_tools 1491051590
+obj /sbin/pdata_tools ac64d73f8ce199159d1042119e910938 1491051588
+sym /sbin/cache_check -> pdata_tools 1491051590
+sym /sbin/cache_metadata_size -> pdata_tools 1491051590
+sym /sbin/thin_metadata_size -> pdata_tools 1491051590
+sym /sbin/thin_dump -> pdata_tools 1491051590
+sym /sbin/cache_dump -> pdata_tools 1491051590
+sym /sbin/thin_repair -> pdata_tools 1491051590
+sym /sbin/era_restore -> pdata_tools 1491051590
+sym /sbin/cache_repair -> pdata_tools 1491051590
+sym /sbin/cache_restore -> pdata_tools 1491051590
+sym /sbin/thin_check -> pdata_tools 1491051590
+sym /sbin/thin_rmap -> pdata_tools 1491051590
+sym /sbin/thin_restore -> pdata_tools 1491051590
+sym /sbin/era_check -> pdata_tools 1491051590
 dir /usr
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/thin-provisioning-tools-0.4.1
-obj /usr/share/doc/thin-provisioning-tools-0.4.1/README.md.bz2 307a61fd7e8e7fd5d8085599ce7ba227 1465178657
-obj /usr/share/doc/thin-provisioning-tools-0.4.1/TODO.org.bz2 5df7d3a58c85fc9eb7a71320d8181c62 1465178657
+obj /usr/share/doc/thin-provisioning-tools-0.4.1/README.md.bz2 307a61fd7e8e7fd5d8085599ce7ba227 1491051588
+obj /usr/share/doc/thin-provisioning-tools-0.4.1/TODO.org.bz2 5df7d3a58c85fc9eb7a71320d8181c62 1491051588
 dir /usr/share/man
 dir /usr/share/man/man8
 obj /usr/share/man/man8/era_check.8.bz2 60d94e0b0d19d1f1a0067e493d4ecd22 1409827932
@@ -34,5 +36,3 @@ obj /usr/share/man/man8/cache_dump.8.bz2 5f683c7232a6ba457301e265619044ae 140982
 obj /usr/share/man/man8/cache_repair.8.bz2 b1ed6a7f0aa7d5f15d749ccebf5af3f4 1409827932
 obj /usr/share/man/man8/thin_metadata_size.8.bz2 d81f88a5a7224dcd40aafbbf943d4366 1409827932
 obj /usr/share/man/man8/thin_rmap.8.bz2 68e80b4dcb693c6193e71d2879aa85ed 1409827932
-sym /sbin/era_invalidate -> pdata_tools 1465178660
-sym /sbin/era_dump -> pdata_tools 1465178660

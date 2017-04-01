@@ -1,9 +1,11 @@
 dir /usr
 dir /usr/lib64
+sym /usr/lib64/libprison.so -> libprison.so.0 1491048363
 dir /usr/lib64/cmake
 dir /usr/lib64/cmake/Prison
-obj /usr/lib64/cmake/Prison/PrisonConfig.cmake c61e869174c476abdeb94353804c4772 1487036412
-obj /usr/lib64/libprison.so.0.1.0 d629ba38af01510b0530c7cbcb334538 1487036416
+obj /usr/lib64/cmake/Prison/PrisonConfig.cmake c61e869174c476abdeb94353804c4772 1491048357
+sym /usr/lib64/libprison.so.0 -> libprison.so.0.1.0 1491048363
+obj /usr/lib64/libprison.so.0.1.0 d629ba38af01510b0530c7cbcb334538 1491048361
 dir /usr/include
 dir /usr/include/prison
 obj /usr/include/prison/QRCodeBarcode 2c70ee5ee32ab3f827b7de8d893a5de3 1396729710
@@ -21,5 +23,3 @@ obj /usr/include/prison/Code39Barcode 799f16a3f67e5f8c58644c4710f07130 139672971
 obj /usr/include/prison/barcodewidget.h 36618b084d14efa28d899988b0fac847 1396729710
 obj /usr/include/prison/abstractbarcode.h 810dcfe48889750deeb27d42ddf17259 1396729710
 obj /usr/include/prison/code39barcode.h b90790f3b8e83e90364a812daedf3ff7 1396729710
-sym /usr/lib64/libprison.so.0 -> libprison.so.0.1.0 1487036420
-sym /usr/lib64/libprison.so -> libprison.so.0 1487036420
