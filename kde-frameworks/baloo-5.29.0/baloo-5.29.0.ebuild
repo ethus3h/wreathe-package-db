@@ -1,6 +1,5 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 
@@ -29,5 +28,5 @@ DEPEND="
 	>=dev-db/lmdb-0.9.17
 "
 RDEPEND="${DEPEND}
-	!kde-frameworks/baloo:4[-minimal]
+	!kde-frameworks/baloo:4[-minimal(+)]
 "
