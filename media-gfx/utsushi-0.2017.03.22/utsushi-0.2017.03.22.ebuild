@@ -1,19 +1,20 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=5
 
-inherit autotools eutils git-r3 multilib
+inherit eutils multilib
 
+myCommit="fc3b31ef2a8330df4abd0a2b863ec690d84aa692"
 DESCRIPTION="SANE backend driver for newer Epson scanners (DS, ET, PX, etc)"
 HOMEPAGE="https://github.com/utsushi/utsushi"
-EGIT_REPO_URI="https://github.com/utsushi/utsushi.git"
+SRC_URI="https://github.com/utsushi/utsushi/archive/${myCommit}.zip -> ${P}-${myCommit}.zip"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~x86 ~x64"
-IUSE="gtk imagemagick jpeg +network nls openmp tiff udev"
+KEYWORDS="~x86 ~amd64"
+IUSE="gtk imagemagick jpeg nls openmp tiff udev"
+S="${WORKDIR}/${PN}-${myCommit}"
 
 # These are needed by utsushi's 'bootstrap':
 #   dev-libs/gnulib
@@ -42,7 +43,6 @@ DEPEND="
 
 RDEPEND="
 	${DEPEND}
-	network?     ( media-gfx/epson-ds-plugins )
 "
 
 src_prepare() {
@@ -50,10 +50,10 @@ src_prepare() {
 	cp "${FILESDIR}"/ltmain.sh-2.4.diff "${S}"/sane/
 
 	# Ensure sane configuration is created if SANE confdir is set
-	epatch "${FILESDIR}"/${PF}-sane-makefile-fix.patch
+	epatch "${FILESDIR}/${PN}-9999-sane-makefile-fix.patch"
 
 	# utsushi requires using this bootstrap wrapper in lieu of autotools
-	${S}/bootstrap || die
+	"${S}/bootstrap" || die
 
 	# Create SANE configuration directory (used by sane/Makefile.am to create
 	# utsushi backend config)
