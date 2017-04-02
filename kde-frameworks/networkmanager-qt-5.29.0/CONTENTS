@@ -1,21 +1,21 @@
 dir /usr
 dir /usr/lib64
-sym /usr/lib64/libKF5NetworkManagerQt.so -> libKF5NetworkManagerQt.so.6 1486600822
-sym /usr/lib64/libKF5NetworkManagerQt.so.6 -> libKF5NetworkManagerQt.so.5.29.0 1486600822
+sym /usr/lib64/libKF5NetworkManagerQt.so -> libKF5NetworkManagerQt.so.6 1491118327
+sym /usr/lib64/libKF5NetworkManagerQt.so.6 -> libKF5NetworkManagerQt.so.5.29.0 1491118327
 dir /usr/lib64/qt5
 dir /usr/lib64/qt5/mkspecs
 dir /usr/lib64/qt5/mkspecs/modules
-obj /usr/lib64/qt5/mkspecs/modules/qt_NetworkManagerQt.pri 94eb8a1532c377d4f563c00a32ce4016 1486600635
+obj /usr/lib64/qt5/mkspecs/modules/qt_NetworkManagerQt.pri 94eb8a1532c377d4f563c00a32ce4016 1491118105
 dir /usr/lib64/cmake
 dir /usr/lib64/cmake/KF5NetworkManagerQt
-obj /usr/lib64/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtConfig.cmake cb0527e7785b54cac716ee7e8c57a7d1 1486600635
-obj /usr/lib64/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtTargets-gentoo.cmake 57ed1f3a7a542a0b741b48810262dd32 1486600635
-obj /usr/lib64/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtTargets.cmake c709ab86df8fef7327514a8447a737f2 1486600635
-obj /usr/lib64/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtConfigVersion.cmake e24832e1a031ced17186ad4ed0160f7f 1486600635
-obj /usr/lib64/libKF5NetworkManagerQt.so.5.29.0 894f655ffacfc8ecfcba1119cbe22e92 1486600820
+obj /usr/lib64/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtConfig.cmake cb0527e7785b54cac716ee7e8c57a7d1 1491118105
+obj /usr/lib64/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtTargets-gentoo.cmake 57ed1f3a7a542a0b741b48810262dd32 1491118105
+obj /usr/lib64/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtTargets.cmake c709ab86df8fef7327514a8447a737f2 1491118105
+obj /usr/lib64/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtConfigVersion.cmake e24832e1a031ced17186ad4ed0160f7f 1491118104
+obj /usr/lib64/libKF5NetworkManagerQt.so.5.29.0 894f655ffacfc8ecfcba1119cbe22e92 1491118320
 dir /usr/include
 dir /usr/include/KF5
-obj /usr/include/KF5/networkmanagerqt_version.h 1c205b091bb6e872e2f2dc6e1bd86e31 1486600635
+obj /usr/include/KF5/networkmanagerqt_version.h 1c205b091bb6e872e2f2dc6e1bd86e31 1491118104
 dir /usr/include/KF5/NetworkManagerQt
 dir /usr/include/KF5/NetworkManagerQt/networkmanagerqt
 obj /usr/include/KF5/NetworkManagerQt/networkmanagerqt/security8021xsetting.h aaa1a77f4707261cf421cb51a8a4c5b3 1480761639
@@ -33,7 +33,7 @@ obj /usr/include/KF5/NetworkManagerQt/networkmanagerqt/vlandevice.h 9954956d4d41
 obj /usr/include/KF5/NetworkManagerQt/networkmanagerqt/teamsetting.h 847a1d9748e58f3860ba9df2afd17fc1 1480761639
 obj /usr/include/KF5/NetworkManagerQt/networkmanagerqt/settings.h d758c8481fd512ef07b94d0cff39d44b 1480761639
 obj /usr/include/KF5/NetworkManagerQt/networkmanagerqt/connectionsettings.h 4ff7804c71a8a88f0bb235b1b2f06bfe 1480761639
-obj /usr/include/KF5/NetworkManagerQt/networkmanagerqt/networkmanagerqt_export.h a70550b90bc32dd0607633a514688066 1486600635
+obj /usr/include/KF5/NetworkManagerQt/networkmanagerqt/networkmanagerqt_export.h a70550b90bc32dd0607633a514688066 1491118105
 obj /usr/include/KF5/NetworkManagerQt/networkmanagerqt/gsmsetting.h 797fe6062c785992b7a67c46f303d7bd 1480761639
 obj /usr/include/KF5/NetworkManagerQt/networkmanagerqt/vpnsetting.h b8afb7adf7b547ec92b54cce26b47fc1 1480761639
 obj /usr/include/KF5/NetworkManagerQt/networkmanagerqt/ipv4setting.h 1ec4570da62aacfab2ffd8679ae3a643 1480761639
@@ -81,69 +81,69 @@ obj /usr/include/KF5/NetworkManagerQt/networkmanagerqt/wirelessnetwork.h 945a656
 obj /usr/include/KF5/NetworkManagerQt/networkmanagerqt/bridgedevice.h c55a4324324927ef8904611ae9ede53f 1480761639
 obj /usr/include/KF5/NetworkManagerQt/networkmanagerqt/generictypes.h 968bb5782da6ccfd9dd808880d539599 1480761639
 dir /usr/include/KF5/NetworkManagerQt/NetworkManagerQt
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/BondSetting a9125e81874e0cf6dfcdf7ec8229d531 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/GsmSetting 0c2a2a8541401571e5a82540f1415301 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/TunDevice 3eda351fb0c0c33f661c05be6e86a524 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/GenericDevice cea1c1fd8f0f83d1e949572ed1b1a27a 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/BridgePortSetting 091ce72056b1fc6db34d7ae54fecea22 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/OlpcMeshSetting 8defc4681764920bcaab855e05a911f8 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WimaxNsp 9515f383d7e325261dc68c65a1a96f23 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Device e60fb9b88b7538e35a48be1ca9fd72fc 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/IpAddress b03751c425dc5fbf5f9b38bf7ee798a0 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/InfinibandSetting 2a31cc51b68960633decec8b7fb8b989 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/SerialSetting f8cdebd544237b919d48ce2ae7bba2b5 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/MacVlanDevice 4559a94a6d8bc6bdbb2f131d622e3b8c 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/ActiveConnection e385487c15dc1e5f9fe2361dcf3e7369 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/BluetoothSetting ea4c42269113949a094b0157d7edd18f 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/IpConfig 355a37f8fb7b04aceeaa7bd2fb4c6352 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/PppSetting dcf8990704d577095c7d7872b14fe589 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Security8021xSetting 0953c60504ade4bd52aca778cdedc173 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WimaxSetting 368828a91c2172ba46c3128cb26dbed7 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/TeamSetting 81e34cd7bc084ebc8c4130224fd20793 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WiredSetting a1a796914cd72dd6630001fded267be4 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Utils 33d89ce40a4e526582d48d0a3a3a5c92 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/GreDevice 275d22f1a808ce772edd1dee682fc3f5 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Dhcp4Config e2cb8f612662f93bb30a2b6971cb5f08 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/AdslDevice 829649a0c53c7a1a3eeef1c2e528a643 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/VlanSetting 25ca6366abc19b23c0b8a11797cea7e3 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WimaxDevice 8549c696887c6db2e135724059b9bfca 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/VpnConnection 47173db0df265a81f96ef3825decf3cd 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Dhcp6Config 85bce9bbb4d71cdd5c30615955c0f5e9 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WirelessSecuritySetting fca7ff7fbf967e4dc2e0da7cc59a77d7 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/InfinibandDevice 160862cc9efff184019f4680d27217c7 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/BridgeDevice b37c202bd64f606376f1b944cdb6ce0b 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/TeamDevice fefeaad0afa70379362497901b1a67f9 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/GenericSetting f12314cea11860b86f9be90ea026f08b 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/BluetoothDevice 12da7503bb2f1fa134f856b21e1dc57e 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Ipv6Setting 7858bbeb444066dc2d2b98e43c035738 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WiredDevice 2ee6b478b4a1d8c7ae2e83b32ac7084c 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Setting 128858ff1c55b0a3925f2095eaa070e7 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/TunSetting 7a3ec381a8efa8d51861c6c43b702af9 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/PppoeSetting f4921991a867a29bb197deadfeffa623 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/IpRoute d59ec1bb0c285575db0b9a2f9cd81ce4 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WirelessNetwork 48ed2305d1dfc28a777cf9cd84f98b38 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Ipv4Setting 7faf7d2e53ba710f0510ee8c5adbd87a 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/VlanDevice 7334621d7f74f37ee8cca09966a4a0c9 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/VpnPlugin 94ad49b1689eb3c064a6becf6ac9c11a 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WirelessDevice 4a1096c3cea267dda963b831a8814139 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/AdslSetting b40b15014e4f9579a9151153b0332ebc 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/VethDevice 3c054dc21799fabe826c3167309f2ee8 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/AccessPoint 52dcad74c03db3fa21b005e2d7324fff 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/BondDevice 8aa59e410eb12a0d3e7b19152d019966 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WirelessSetting dbccf5fd5db3a68dabc17e960024fdf3 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Settings a5590fe5e737446ce9e67d0de4269edc 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/ConnectionSettings 23228e3b5b11d06dee8a453dc5a12d84 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/CdmaSetting 41b7292f86afb548bb758bbf91e99580 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/OlpcMeshDevice 4d112b4dd89fe2d7bce4f603137c5763 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/BridgeSetting 0fe8dccb8450c6935d91e8b902b58abe 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Manager d015ee8f4c16e401123b60e21e011826 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/GenericTypes 378ae3d3424098cc82e8f2b5b96cd333 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Connection 1e49957b7532b776db1a58d832b7180e 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/ModemDevice a3024c7d1bc3063191f81a84a2dc0b0b 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/VpnSetting cda003438d6809461746fdfc7ef127d5 1486600635
-obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/SecretAgent d93eb3c7fb7eac6336a9e934c7ea4b43 1486600635
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/BondSetting a9125e81874e0cf6dfcdf7ec8229d531 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/GsmSetting 0c2a2a8541401571e5a82540f1415301 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/TunDevice 3eda351fb0c0c33f661c05be6e86a524 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/GenericDevice cea1c1fd8f0f83d1e949572ed1b1a27a 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/BridgePortSetting 091ce72056b1fc6db34d7ae54fecea22 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/OlpcMeshSetting 8defc4681764920bcaab855e05a911f8 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WimaxNsp 9515f383d7e325261dc68c65a1a96f23 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Device e60fb9b88b7538e35a48be1ca9fd72fc 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/IpAddress b03751c425dc5fbf5f9b38bf7ee798a0 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/InfinibandSetting 2a31cc51b68960633decec8b7fb8b989 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/SerialSetting f8cdebd544237b919d48ce2ae7bba2b5 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/MacVlanDevice 4559a94a6d8bc6bdbb2f131d622e3b8c 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/ActiveConnection e385487c15dc1e5f9fe2361dcf3e7369 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/BluetoothSetting ea4c42269113949a094b0157d7edd18f 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/IpConfig 355a37f8fb7b04aceeaa7bd2fb4c6352 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/PppSetting dcf8990704d577095c7d7872b14fe589 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Security8021xSetting 0953c60504ade4bd52aca778cdedc173 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WimaxSetting 368828a91c2172ba46c3128cb26dbed7 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/TeamSetting 81e34cd7bc084ebc8c4130224fd20793 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WiredSetting a1a796914cd72dd6630001fded267be4 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Utils 33d89ce40a4e526582d48d0a3a3a5c92 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/GreDevice 275d22f1a808ce772edd1dee682fc3f5 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Dhcp4Config e2cb8f612662f93bb30a2b6971cb5f08 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/AdslDevice 829649a0c53c7a1a3eeef1c2e528a643 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/VlanSetting 25ca6366abc19b23c0b8a11797cea7e3 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WimaxDevice 8549c696887c6db2e135724059b9bfca 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/VpnConnection 47173db0df265a81f96ef3825decf3cd 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Dhcp6Config 85bce9bbb4d71cdd5c30615955c0f5e9 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WirelessSecuritySetting fca7ff7fbf967e4dc2e0da7cc59a77d7 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/InfinibandDevice 160862cc9efff184019f4680d27217c7 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/BridgeDevice b37c202bd64f606376f1b944cdb6ce0b 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/TeamDevice fefeaad0afa70379362497901b1a67f9 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/GenericSetting f12314cea11860b86f9be90ea026f08b 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/BluetoothDevice 12da7503bb2f1fa134f856b21e1dc57e 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Ipv6Setting 7858bbeb444066dc2d2b98e43c035738 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WiredDevice 2ee6b478b4a1d8c7ae2e83b32ac7084c 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Setting 128858ff1c55b0a3925f2095eaa070e7 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/TunSetting 7a3ec381a8efa8d51861c6c43b702af9 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/PppoeSetting f4921991a867a29bb197deadfeffa623 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/IpRoute d59ec1bb0c285575db0b9a2f9cd81ce4 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WirelessNetwork 48ed2305d1dfc28a777cf9cd84f98b38 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Ipv4Setting 7faf7d2e53ba710f0510ee8c5adbd87a 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/VlanDevice 7334621d7f74f37ee8cca09966a4a0c9 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/VpnPlugin 94ad49b1689eb3c064a6becf6ac9c11a 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WirelessDevice 4a1096c3cea267dda963b831a8814139 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/AdslSetting b40b15014e4f9579a9151153b0332ebc 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/VethDevice 3c054dc21799fabe826c3167309f2ee8 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/AccessPoint 52dcad74c03db3fa21b005e2d7324fff 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/BondDevice 8aa59e410eb12a0d3e7b19152d019966 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/WirelessSetting dbccf5fd5db3a68dabc17e960024fdf3 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Settings a5590fe5e737446ce9e67d0de4269edc 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/ConnectionSettings 23228e3b5b11d06dee8a453dc5a12d84 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/CdmaSetting 41b7292f86afb548bb758bbf91e99580 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/OlpcMeshDevice 4d112b4dd89fe2d7bce4f603137c5763 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/BridgeSetting 0fe8dccb8450c6935d91e8b902b58abe 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Manager d015ee8f4c16e401123b60e21e011826 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/GenericTypes 378ae3d3424098cc82e8f2b5b96cd333 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/Connection 1e49957b7532b776db1a58d832b7180e 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/ModemDevice a3024c7d1bc3063191f81a84a2dc0b0b 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/VpnSetting cda003438d6809461746fdfc7ef127d5 1491118105
+obj /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/SecretAgent d93eb3c7fb7eac6336a9e934c7ea4b43 1491118105
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/networkmanager-qt-5.29.0
-obj /usr/share/doc/networkmanager-qt-5.29.0/README.md.bz2 5a715ad6f24974fd24ede99a37d30d29 1486600819
-obj /usr/share/doc/networkmanager-qt-5.29.0/TODO.bz2 fe28613e14fecdd1fcff2c6018c99871 1486600819
+obj /usr/share/doc/networkmanager-qt-5.29.0/README.md.bz2 5a715ad6f24974fd24ede99a37d30d29 1491118319
+obj /usr/share/doc/networkmanager-qt-5.29.0/TODO.bz2 fe28613e14fecdd1fcff2c6018c99871 1491118319
