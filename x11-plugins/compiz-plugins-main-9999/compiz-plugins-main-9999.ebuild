@@ -8,7 +8,8 @@ inherit autotools eutils git-r3
 
 DESCRIPTION="Compiz Fusion Window Decorator Plugins"
 HOMEPAGE="https://github.com/compiz-reloaded"
-EGIT_REPO_URI="git://github.com/compiz-reloaded/compiz-plugins-main.git"
+EGIT_REPO_URI="git://github.com/ethus3h/compiz-plugins-main.git"
+EGIT_BRANCH="staticswitcher-2017apr11n2"
 
 LICENSE="GPL-2+"
 SLOT="0"
