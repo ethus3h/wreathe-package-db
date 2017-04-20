@@ -1,12 +1,11 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI="6"
 
 inherit git-r3
 
-DESCRIPTION="Desktop menu for Compiz"
+DESCRIPTION=" Helper utilities for debugging Compiz"
 HOMEPAGE="https://github.com/compiz-reloaded"
 EGIT_REPO_URI="git://github.com/compiz-reloaded/compiz-debug-utils.git"
 
@@ -24,4 +23,5 @@ src_install() {
 	GLOBIGNORE="COPYING:README.md:.git"
 	dobin *
 	dodoc README.md
+	unset GLOBIGNORE
 }
