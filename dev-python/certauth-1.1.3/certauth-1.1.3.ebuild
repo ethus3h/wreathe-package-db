@@ -1,6 +1,5 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 
@@ -17,8 +16,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 
-RDEPEND="dev-lang/python:=
-	dev-python/pyopenssl
-	test? ( dev-python/pytest dev-python/pytest-cov )"
+RDEPEND="dev-python/pyopenssl[${PYTHON_USEDEP}]"
 
-DEPEND="${RDEPEND}"
+DEPEND="${RDEPEND}
+	test? ( dev-python/pytest[${PYTHON_USEDEP}] dev-python/pytest-cov[${PYTHON_USEDEP}] )"
