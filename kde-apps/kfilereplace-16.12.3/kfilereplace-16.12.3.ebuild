@@ -1,12 +1,10 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
+
 KDE_HANDBOOK="optional"
-KMNAME="kdewebdev"
-KDE_SCM="svn"
-inherit kde4-meta
+inherit kde4-base
 
 DESCRIPTION="Powerful tool to search and replace in multiple files"
 HOMEPAGE="https://www.kde.org/applications/utilities/kfilereplace/"
