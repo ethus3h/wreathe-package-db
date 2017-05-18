@@ -53,17 +53,21 @@ DEPEND="${RDEPEND}
 # Won't build: SubjectEncoding
 # =dev-dotnet/log4net-1.2.15
 
-pkg_preinst() {
-	# Remove the temporary install prefix from scripts where it has been copied
-	tempdir="${D}"
-	export tempdir
-	tempdirEsc="$(perl -0777 -e 'print(quotemeta($ENV{tempdir}))')"
-	echo "Tempdir: $tempdir"
-	echo "TempdirEsc: $tempdirEsc"
+src_install() {
+	default
 	(
-		cd "$tempdir"
-		find . -name "behemmoth_server" -or -name "behemmoth_client" -exec echo {} \;
-		echo "Now operating on above files:"
-		find . -name "behemmoth_server" -or -name "behemmoth_client" -exec perl -0777 -p -i -e "s/$tempdirEsc/\//g" {} \;
+		source ember_bash_setup || exit 1
+		# Remove the temporary install prefix from scripts where it has been copied
+		tempdir="${D}"
+		export tempdir
+		tempdirEsc="$(perl -0777 -e 'print(quotemeta($ENV{tempdir}))')"
+		echo "Tempdir: $tempdir"
+		echo "TempdirEsc: $tempdirEsc"
+		(
+			cd "$tempdir"
+			find . -name "behemmoth_server" -or -name "behemmoth_client" -exec echo {} \;
+			echo "Now operating on above files:"
+			find . -name "behemmoth_server" -or -name "behemmoth_client" -exec perl -0777 -p -i -e "s/$tempdirEsc/\//g" {} \; || die
+		)
 	)
 }
