@@ -4,7 +4,6 @@
 EAPI="6"
 
 inherit git-r3
-#java-pkg-2 java-pkg-simple
 
 DESCRIPTION="BeHeMMOth bullet hell MMO game"
 HOMEPAGE="https://futuramerlin.com/"
@@ -13,13 +12,10 @@ EGIT_REPO_URI="git://github.com/ethus3h/BeHeMMOth.git"
 LICENSE="AGPL-3"
 SLOT="0"
 KEYWORDS="~amd64 -*"
-# Note that log4net-1.2.15 is the same as the version 2.0.5 of the NuGet package
-# Note also that currently 1.2.15 won't build on Wreathe (I think because Mono doesn't implement SubjectEncoding), so it's not depending on that version (hopefully it'll work anyway?)
 RDEPEND="
-	>=virtual/jdk-1.8.0
 	dev-db/phpmyadmin:=
-	=dev-dotnet/dotnetzip-semverd-1.9.2
-	=dev-dotnet/googlemaps-locationservices-0.9.8.5
+	dev-dotnet/dotnetzip-semverd
+	dev-dotnet/googlemaps-locationservices
 	dev-dotnet/log4net
 	dev-lang/mono
 	dev-lang/perl
@@ -35,10 +31,12 @@ DEPEND="${RDEPEND}
 #	dev-misc/flex-sdk-4.9.1
 #	dev-misc/air-sdk-15
 
-# =dev-dotnet/mailkit-0.97.0.0
+# MailKit and MimeKit depend on PCL reference assemblies. TODO: Once they're fully buildable as/using libre software, re-add them as deps and uncomment the code that uses them.
+# dev-dotnet/mailkit
+# dev-dotnet/mimekit
+
 # =dev-dotnet/markermetro-unity-ionic-zlib-2.0.0.6
 # =dev-dotnet/metroframework-1.3.0.0.1.3.0.0
-# =dev-dotnet/mimekit-0.96.0.0
 # =dev-dotnet/mysql-data-6.9.6
 # =dev-dotnet/nettopologysuite-1.13.0
 # =dev-dotnet/newtonsoft-json-9.0.1
@@ -49,9 +47,6 @@ DEPEND="${RDEPEND}
 
 # VS2003 project file format?
 # =dev-dotnet/bouncycastle-1.7.0
-
-# Won't build: SubjectEncoding
-# =dev-dotnet/log4net-1.2.15
 
 src_install() {
 	default
