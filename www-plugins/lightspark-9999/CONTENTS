@@ -1,92 +1,98 @@
 dir /etc
 dir /etc/xdg
-obj /etc/xdg/lightspark.conf 6592e6db99ee4696a1b54a9e4767386b 1494278653
+obj /etc/xdg/lightspark.conf 6592e6db99ee4696a1b54a9e4767386b 1496187267
 dir /usr
 dir /usr/lib
 dir /usr/lib/debug
 dir /usr/lib/debug/usr
+dir /usr/lib/debug/usr/lib
+dir /usr/lib/debug/usr/lib/PepperFlash
+obj /usr/lib/debug/usr/lib/PepperFlash/libpepflashplayer.so.debug 675290397ff11a77fef5f5d6793782e0 1496187758
 dir /usr/lib/debug/usr/lib64
 dir /usr/lib/debug/usr/lib64/lightspark
-obj /usr/lib/debug/usr/lib64/lightspark/liblightspark.so.0.7.2.debug 276e8c46669a48d57871c93692a7c31f 1494279010
+obj /usr/lib/debug/usr/lib64/lightspark/liblightspark.so.0.7.2.debug a60d68a202b97ff8c2c9bf57ac65935f 1496187757
 dir /usr/lib/debug/usr/lib64/lightspark/plugins
-obj /usr/lib/debug/usr/lib64/lightspark/plugins/liblightsparkplugin.so.debug 022aff109f0bb4101243a73f1a22683a 1494279010
+obj /usr/lib/debug/usr/lib64/lightspark/plugins/liblightsparkplugin.so.debug ab9c680b27c99f7b73367ade1f111a8f 1496187757
 dir /usr/lib/debug/usr/bin
-obj /usr/lib/debug/usr/bin/lightspark.debug 7232306831e8fec49bd987568c009134 1494279010
-obj /usr/lib/debug/usr/bin/tightspark.debug d51b4a4b77d226ee13d1e36a7c5f02bf 1494279010
+obj /usr/lib/debug/usr/bin/lightspark.debug 9557603841a14729617dd1002755db8f 1496187757
+obj /usr/lib/debug/usr/bin/tightspark.debug 7165baaa4ab4e0096b43b85e560ef4f7 1496187757
+dir /usr/lib/PepperFlash
+obj /usr/lib/PepperFlash/manifest.json dc30ae91d578ab2829dc833365c72ed3 1496187267
+obj /usr/lib/PepperFlash/libpepflashplayer.so 3b023e09e0f4ebfec4c14eb5c5da9952 1496187758
 dir /usr/lib64
 dir /usr/lib64/lightspark
-obj /usr/lib64/lightspark/liblightspark.so.0.7.2 7bc7cf0ccc8fcba7c6ee3ee80dd520e7 1494279011
-sym /usr/lib64/lightspark/liblightspark.so.0.7 -> liblightspark.so.0.7.2 1494279022
+obj /usr/lib64/lightspark/liblightspark.so.0.7.2 296ec54524d215c07d7f04bf53c4aacf 1496187759
+sym /usr/lib64/lightspark/liblightspark.so.0.7 -> liblightspark.so.0.7.2 1496187779
 dir /usr/lib64/lightspark/plugins
-obj /usr/lib64/lightspark/plugins/liblightsparkplugin.so 1fa4d87547125b3b2fdbe45039a5c0be 1494279010
-sym /usr/lib64/lightspark/liblightspark.so -> liblightspark.so.0.7 1494279022
+obj /usr/lib64/lightspark/plugins/liblightsparkplugin.so 50e7929b2ca1de58f6eac1316d3e0fe8 1496187758
+sym /usr/lib64/lightspark/liblightspark.so -> liblightspark.so.0.7 1496187779
 dir /usr/lib64/nsbrowser
 dir /usr/lib64/nsbrowser/plugins
-sym /usr/lib64/nsbrowser/plugins/liblightsparkplugin.so -> /usr/lib64/lightspark/plugins/liblightsparkplugin.so 1494279022
+sym /usr/lib64/nsbrowser/plugins/liblightsparkplugin.so -> /usr/lib64/lightspark/plugins/liblightsparkplugin.so 1496187779
 dir /usr/bin
-obj /usr/bin/lightspark 37765d40c6bcb3edc22f0a9f797dd17a 1494279010
-obj /usr/bin/tightspark 7636121750b19760a888da044b0d9f5e 1494279010
+obj /usr/bin/lightspark 44a41671e257cf5fed78f3386b6b8a12 1496187757
+obj /usr/bin/tightspark 53ad02fda2b40531dc1897fc407deaf9 1496187757
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/lightspark-9999
-obj /usr/share/doc/lightspark-9999/README.tests.bz2 9d034fdd2428d084741850076fb1c475 1494279009
-obj /usr/share/doc/lightspark-9999/README.win32.bz2 58b7d0779ff638cfd91831128502498a 1494279009
-obj /usr/share/doc/lightspark-9999/README.bz2 9e3ed2d19a2adef94f56796210050d4f 1494279009
-obj /usr/share/doc/lightspark-9999/README.GRAPHICS.bz2 dde948c86feb7d6cd7470f5a70affc6d 1494279009
-obj /usr/share/doc/lightspark-9999/ChangeLog.bz2 86124224caed391b5feda29043d711e0 1494279009
+obj /usr/share/doc/lightspark-9999/README.tests.bz2 9d034fdd2428d084741850076fb1c475 1496187754
+obj /usr/share/doc/lightspark-9999/README.win32.bz2 58b7d0779ff638cfd91831128502498a 1496187754
+obj /usr/share/doc/lightspark-9999/README.bz2 5847952b84247d9327a5f48695014039 1496187754
+obj /usr/share/doc/lightspark-9999/README.GRAPHICS.bz2 dde948c86feb7d6cd7470f5a70affc6d 1496187754
+obj /usr/share/doc/lightspark-9999/ChangeLog.bz2 88cf78bad19b56dcf1687d8eeb39a8c4 1496187754
 dir /usr/share/locale
 dir /usr/share/locale/zh_CN
 dir /usr/share/locale/zh_CN/LC_MESSAGES
-obj /usr/share/locale/zh_CN/LC_MESSAGES/lightspark.mo f5c83ec3658984e8b546c69b06d2334e 1494278662
+obj /usr/share/locale/zh_CN/LC_MESSAGES/lightspark.mo f5c83ec3658984e8b546c69b06d2334e 1496187276
 dir /usr/share/locale/fr
 dir /usr/share/locale/fr/LC_MESSAGES
-obj /usr/share/locale/fr/LC_MESSAGES/lightspark.mo 57aa5a2411aa098555415aa7f6b48665 1494278662
+obj /usr/share/locale/fr/LC_MESSAGES/lightspark.mo 57aa5a2411aa098555415aa7f6b48665 1496187276
 dir /usr/share/locale/pl
 dir /usr/share/locale/pl/LC_MESSAGES
-obj /usr/share/locale/pl/LC_MESSAGES/lightspark.mo 2e0ca79deb46052988e89598afd3586b 1494278662
+obj /usr/share/locale/pl/LC_MESSAGES/lightspark.mo 2e0ca79deb46052988e89598afd3586b 1496187276
 dir /usr/share/man
 dir /usr/share/man/man1
-obj /usr/share/man/man1/lightspark.1.bz2 29a94f0f50ff74125e22429d2db19b79 1494278653
+obj /usr/share/man/man1/lightspark.1.bz2 29a94f0f50ff74125e22429d2db19b79 1496187267
 dir /usr/share/applications
-obj /usr/share/applications/lightspark.desktop 4a838d4d01e4eaadc0a24e50e57134ce 1494278654
+obj /usr/share/applications/lightspark.desktop 4a838d4d01e4eaadc0a24e50e57134ce 1496187267
 dir /usr/share/icons
 dir /usr/share/icons/hicolor
 dir /usr/share/icons/hicolor/48x48
 dir /usr/share/icons/hicolor/48x48/apps
-obj /usr/share/icons/hicolor/48x48/apps/lightspark.png eb91a13f943ce7bf9b07c88ed88b837f 1494278653
+obj /usr/share/icons/hicolor/48x48/apps/lightspark.png eb91a13f943ce7bf9b07c88ed88b837f 1496187267
 dir /usr/share/icons/hicolor/32x32
 dir /usr/share/icons/hicolor/32x32/apps
-obj /usr/share/icons/hicolor/32x32/apps/lightspark.png 63598fb31fcc065eaf98bdbbf2c84c48 1494278653
+obj /usr/share/icons/hicolor/32x32/apps/lightspark.png 63598fb31fcc065eaf98bdbbf2c84c48 1496187267
 dir /usr/share/icons/hicolor/256x256
 dir /usr/share/icons/hicolor/256x256/apps
-obj /usr/share/icons/hicolor/256x256/apps/lightspark.png 1752a16ed9e8264ab16df2463d758ccf 1494278653
+obj /usr/share/icons/hicolor/256x256/apps/lightspark.png 1752a16ed9e8264ab16df2463d758ccf 1496187267
 dir /usr/share/icons/hicolor/192x192
 dir /usr/share/icons/hicolor/192x192/apps
-obj /usr/share/icons/hicolor/192x192/apps/lightspark.png c38d7c48875adf01ef2a98e273e5a07b 1494278653
+obj /usr/share/icons/hicolor/192x192/apps/lightspark.png c38d7c48875adf01ef2a98e273e5a07b 1496187267
 dir /usr/share/icons/hicolor/16x16
 dir /usr/share/icons/hicolor/16x16/apps
-obj /usr/share/icons/hicolor/16x16/apps/lightspark.png 4b99447023df9e25c5bd52cde687f0d3 1494278653
+obj /usr/share/icons/hicolor/16x16/apps/lightspark.png 4b99447023df9e25c5bd52cde687f0d3 1496187267
 dir /usr/share/icons/hicolor/128x128
 dir /usr/share/icons/hicolor/128x128/apps
-obj /usr/share/icons/hicolor/128x128/apps/lightspark.png b4e6dfadc6f21c8da1becace0d62e79d 1494278653
+obj /usr/share/icons/hicolor/128x128/apps/lightspark.png b4e6dfadc6f21c8da1becace0d62e79d 1496187267
 dir /usr/share/icons/hicolor/24x24
 dir /usr/share/icons/hicolor/24x24/apps
-obj /usr/share/icons/hicolor/24x24/apps/lightspark.png a8d355902a9486adb36358ed1fc7cf00 1494278653
+obj /usr/share/icons/hicolor/24x24/apps/lightspark.png a8d355902a9486adb36358ed1fc7cf00 1496187267
 dir /usr/share/icons/hicolor/72x72
 dir /usr/share/icons/hicolor/72x72/apps
-obj /usr/share/icons/hicolor/72x72/apps/lightspark.png 7befc04bab49b79c8ef8b87c6a0bbce5 1494278653
+obj /usr/share/icons/hicolor/72x72/apps/lightspark.png 7befc04bab49b79c8ef8b87c6a0bbce5 1496187267
 dir /usr/share/icons/hicolor/scalable
 dir /usr/share/icons/hicolor/scalable/apps
-obj /usr/share/icons/hicolor/scalable/apps/lightspark.svg 5479df29965e103d566bd1f291653ca1 1494278654
+obj /usr/share/icons/hicolor/scalable/apps/lightspark.svg 5479df29965e103d566bd1f291653ca1 1496187267
 dir /usr/share/icons/hicolor/64x64
 dir /usr/share/icons/hicolor/64x64/apps
-obj /usr/share/icons/hicolor/64x64/apps/lightspark.png 223328d0d829219d8583b046e765b201 1494278653
+obj /usr/share/icons/hicolor/64x64/apps/lightspark.png 223328d0d829219d8583b046e765b201 1496187267
 dir /usr/share/icons/hicolor/96x96
 dir /usr/share/icons/hicolor/96x96/apps
-obj /usr/share/icons/hicolor/96x96/apps/lightspark.png 6701a7585dadebada2cf08340f099bc3 1494278653
+obj /usr/share/icons/hicolor/96x96/apps/lightspark.png 6701a7585dadebada2cf08340f099bc3 1496187267
 dir /usr/share/icons/hicolor/36x36
 dir /usr/share/icons/hicolor/36x36/apps
-obj /usr/share/icons/hicolor/36x36/apps/lightspark.png f6ca0f5222a2cb0f67710b94bcd8260d 1494278653
+obj /usr/share/icons/hicolor/36x36/apps/lightspark.png f6ca0f5222a2cb0f67710b94bcd8260d 1496187267
 dir /usr/share/icons/hicolor/22x22
 dir /usr/share/icons/hicolor/22x22/apps
-obj /usr/share/icons/hicolor/22x22/apps/lightspark.png 2c5783cfc86d6d554f819e042bbe7718 1494278653
+obj /usr/share/icons/hicolor/22x22/apps/lightspark.png 2c5783cfc86d6d554f819e042bbe7718 1496187267
