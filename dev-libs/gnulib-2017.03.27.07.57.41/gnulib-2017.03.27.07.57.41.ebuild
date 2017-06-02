@@ -1,21 +1,20 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-inherit git-r3
+GIT_TAG="948db16eee9dc2f39c14ec297bb06adad5b344a6"
 
 DESCRIPTION="Gnulib is a library of common routines intended to be shared at the source level"
 HOMEPAGE="https://www.gnu.org/software/gnulib"
+SRC_URI="http://git.savannah.gnu.org/cgit/${PN}.git/snapshot/${PN}-${GIT_TAG}.tar.gz"
 
-EGIT_REPO_URI="
-	git://git.savannah.gnu.org/${PN}.git
-	http://git.savannah.gnu.org/r/${PN}.git
-"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE="doc"
+
+S="${WORKDIR}/${PN}-${GIT_TAG}"
 
 src_compile() {
 	if use doc; then
