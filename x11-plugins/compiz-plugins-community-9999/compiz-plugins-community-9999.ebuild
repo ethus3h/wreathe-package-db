@@ -1,9 +1,7 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI="6"
-
 
 if [[ "${PV}" == "9999" ]]; then
 	inherit autotools eutils git-r3
@@ -37,7 +35,6 @@ HOMEPAGE="http://futuramerlin.com/"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
 
 DEPEND="${RDEPEND}
 	>=dev-util/intltool-0.35
