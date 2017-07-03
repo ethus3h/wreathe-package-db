@@ -12,7 +12,6 @@ HOMEPAGE="https://addons.mozilla.org/en-GB/firefox/addon/dom-inspector-dm/versio
 KEYWORDS="~amd64 ~x86"
 SLOT="0"
 LICENSE="MPL-1.1"
-IUSE=""
 SRC_URI="https://addons.mozilla.org/firefox/downloads/file/523545/${addonName}-${PN}-fn+fx+sm+tb.xpi -> ${P}.zip"
 
 S="${WORKDIR}"
@@ -26,6 +25,13 @@ src_install() {
 		destDirName="${destDirName#*>}"
 		destDirName="${destDirName%%<*}"
 	fi
+	if [[ -z "$destDirName" ]]; then
+		destDirName="$(cat install.rdf | grep "<id>" | head -n 1)"
+		destDirName="${destDirName#*>}"
+		destDirName="${destDirName%%<*}"
+	fi
 	insinto "/usr/$(get_libdir)/firefox/browser/extensions/$destDirName"
+	doins -r ./
+	insinto "/usr/$(get_libdir)/thunderbird/extensions/$destDirName"
 	doins -r ./
 }
