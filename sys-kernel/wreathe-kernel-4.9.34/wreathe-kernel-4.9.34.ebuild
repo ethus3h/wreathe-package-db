@@ -33,6 +33,7 @@ src_compile() {
 	kernel-2_src_compile
 	if use compile; then
 		cp -r "${S}" "${WORKDIR}/kernel-src-dir"
+		cp -r "${S}" "${WORKDIR}/kernel-modsrc-dir"
 		(
 			mkdir -p "${WORKDIR}/kernel-build-dir/boot"
 			mkdir "${WORKDIR}/kernel-tmp-dir"
@@ -91,25 +92,33 @@ src_install() {
 				done
 			)
 		fi
-		insinto /
 		rm "${WORKDIR}/kernel-build-dir/lib/modules/4.9.34-wreathe-Wreathe/build"
 		rm "${WORKDIR}/kernel-build-dir/lib/modules/4.9.34-wreathe-Wreathe/source"
+		insinto /
 		(
 			shopt -s dotglob
 			doins -r "${WORKDIR}/kernel-build-dir"/*
 			shopt -u dotglob
 		)
 		cp "${WORKDIR}/kernel-src-dir/.config" "${S}/.config"
+		cp "${WORKDIR}/kernel-src-dir"/*.symvers "${S}"
 		rm -r "${WORKDIR}/kernel-build-dir"
-		rm -r "${WORKDIR}/kernel-src-dir"
 		rm -r "${WORKDIR}/kernel-tmp-dir"
+		rm -r "${WORKDIR}/kernel-src-dir"
 		(
-			cd "${S}" || die
+			cd "${WORKDIR}/kernel-modsrc-dir" || die
 			make oldconfig
 			make modules_prepare
 		)
 	fi
 	kernel-2_src_install
+	# rsync -a --ignore-existing "${WORKDIR}/kernel-modsrc-dir/" "${ED}/usr/src/linux-${PV}-wreathe"
+	insinto "/usr/src/linux-${PV}-wreathe"
+	(
+		shopt -s dotglob
+		doins -r "${WORKDIR}/kernel-modsrc-dir"/*
+		shopt -u dotglob
+	)
 }
 
 pkg_postinst() {
