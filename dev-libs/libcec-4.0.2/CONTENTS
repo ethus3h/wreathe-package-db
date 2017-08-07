@@ -1,0 +1,32 @@
+dir /usr
+dir /usr/lib
+dir /usr/lib/python3.4
+dir /usr/lib/python3.4/dist-packages
+dir /usr/lib/python3.4/dist-packages/cec
+obj /usr/lib/python3.4/dist-packages/cec/__init__.py a7be059d3cf366b07df0020286c235e5 1502078579
+obj /usr/lib/python3.4/dist-packages/cec/_cec.so 40b0954db62b085fb187fa1053a40ac6 1502078590
+dir /usr/lib64
+obj /usr/lib64/libcec.so.4.0.2 3a8f468c133c46763163a6023a7f710d 1502078590
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libcec.pc 3ae0dbf1c35354ae24edd04b2880ff05 1502078560
+sym /usr/lib64/libcec.so.4 -> libcec.so.4.0.2 1502078596
+sym /usr/lib64/libcec.so -> libcec.so.4 1502078596
+dir /usr/include
+dir /usr/include/libcec
+obj /usr/include/libcec/cecloader.h db4bd9aa1a3df0960192903324987841 1485643890
+obj /usr/include/libcec/cecc.h 2229361188740aa94f10086907377945 1485643890
+obj /usr/include/libcec/cectypes.h 0a8085116450deceb1743210fd3905b9 1485643890
+obj /usr/include/libcec/version.h a6393a84a362029e7bd4ec0d4574898c 1502078560
+obj /usr/include/libcec/cec.h c9ce4d152216860e737fbc8ac22df374 1485643890
+dir /usr/bin
+obj /usr/bin/cec-client-4.0.2 81ab0fbcb07266ba03329ec2924d337d 1502078590
+sym /usr/bin/cec-client -> cec-client-4.0.2 1502078596
+obj /usr/bin/cecc-client-4.0.2 0e4600f1dec3e00530c13ce1d233258e 1502078590
+obj /usr/bin/pyCecClient 87d49dfdca92d18d574b6d0b264dee5f 1485643890
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libcec-4.0.2
+obj /usr/share/doc/libcec-4.0.2/README.md.bz2 d3c26aae4f1fdece6eeb33f764428874 1502078589
+obj /usr/share/doc/libcec-4.0.2/ChangeLog be62dcbe3abfccf7b121d5e2347e5493 1502078589
+obj /usr/share/doc/libcec-4.0.2/AUTHORS.bz2 c755b85454b37ad446fcbb158931b053 1502078589
+sym /usr/bin/cecc-client -> cecc-client-4.0.2 1502078596
