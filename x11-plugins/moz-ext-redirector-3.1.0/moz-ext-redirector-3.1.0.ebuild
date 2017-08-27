@@ -3,12 +3,12 @@
 
 EAPI=6
 
-mozApps=(fx sm tb)
-mozId=621144
+mozApps=(fx an)
+mozId=478859
 
 inherit moz-ext
 
-HOMEPAGE="http://www.s3blog.org/s3menu-wizard.html"
+HOMEPAGE="http://einaregilsson.com/redirector/"
 
 KEYWORDS="~amd64 ~x86"
-LICENSE="MPL-2.0"
+LICENSE="MIT"
