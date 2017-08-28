@@ -14,6 +14,10 @@ LIBDVDREAD_COMMIT="17d99db97e7b8f23077b342369d3c22a6250affd"
 LIBDVDNAV_COMMIT="43b5f81f5fe30bceae3b7cecf2b0ca57fc930dac"
 FFMPEG_VERSION="3.1.6"
 CODENAME="Krypton"
+PATCHES=(
+	"${FILESDIR}/${P}-ftpparse_string.patch"
+	"${FILESDIR}/${P}-unrar-vulnerability.patch"
+)
 SRC_URI="https://github.com/xbmc/libdvdcss/archive/${LIBDVDCSS_COMMIT}.tar.gz -> libdvdcss-${LIBDVDCSS_COMMIT}.tar.gz
 	https://github.com/xbmc/libdvdread/archive/${LIBDVDREAD_COMMIT}.tar.gz -> libdvdread-${LIBDVDREAD_COMMIT}.tar.gz
 	https://github.com/xbmc/libdvdnav/archive/${LIBDVDNAV_COMMIT}.tar.gz -> libdvdnav-${LIBDVDNAV_COMMIT}.tar.gz
@@ -127,7 +131,7 @@ DEPEND="${COMMON_DEPEND}
 "
 case ${PV} in
 9999)
-	EGIT_REPO_URI="git://github.com/xbmc/xbmc.git"
+	EGIT_REPO_URI="https://github.com/xbmc/xbmc.git"
 	inherit git-r3
 	# Force java for latest git version to avoid having to hand maintain the
 	# generated addons package.  #488118
@@ -143,7 +147,7 @@ case ${PV} in
 	MY_P="${PN}-${MY_PV}"
 	SRC_URI+=" https://github.com/xbmc/xbmc/archive/${MY_PV}-${CODENAME}.tar.gz -> ${MY_P}.tar.gz
 		 !java? ( https://github.com/candrews/gentoo-kodi/raw/master/${MY_P}-generated-addons.tar.xz )"
-	KEYWORDS="amd64 x86"
+	KEYWORDS="amd64 ~x86"
 	IUSE+=" java"
 	DEPEND+="
 		java? ( virtual/jre )
