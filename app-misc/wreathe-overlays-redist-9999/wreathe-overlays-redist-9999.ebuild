@@ -1,13 +1,13 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="6"
+EAPI=6
 
 inherit git-r3
 
 DESCRIPTION="Third-party overlays used by Wreathe"
 HOMEPAGE="https://futuramerlin.com/"
-EGIT_REPO_URI="git://github.com/ethus3h/wreathe-overlays-redist.git"
+EGIT_REPO_URI="https://github.com/ethus3h/wreathe-overlays-redist.git"
 
 LICENSE="GPL-2"
 SLOT="0"
