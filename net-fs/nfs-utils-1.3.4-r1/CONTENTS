@@ -1,0 +1,117 @@
+dir /var
+dir /var/lib
+dir /var/lib/nfs
+dir /var/lib/nfs/v4recovery
+obj /var/lib/nfs/v4recovery/.keep_net-fs_nfs-utils-0 d41d8cd98f00b204e9800998ecf8427e 1507437679
+obj /var/lib/nfs/.keep_net-fs_nfs-utils-0 d41d8cd98f00b204e9800998ecf8427e 1507437679
+dir /etc
+obj /etc/exports a02eed87e5d581e56feb0f6dfd18e6df 1507437679
+dir /etc/init.d
+obj /etc/init.d/nfsclient 568d26c9a7e7a22fc9b97d39f1055466 1507437679
+obj /etc/init.d/rpc.idmapd c9259cded603864c5e20cd3fcc0d76bb 1507437679
+obj /etc/init.d/rpc.gssd 4e1f620bc74f956001ecee4faaa1f647 1507437679
+obj /etc/init.d/nfsmount 283b4ecc20f72da4ce19667b21f2ba3e 1507437679
+obj /etc/init.d/nfs 4a2afdf57720c446f7150ed5420b1489 1507437679
+obj /etc/init.d/rpc.statd 3de3fb2c055194aa791db96c6d8d9bdf 1507437679
+obj /etc/init.d/rpc.pipefs a89457da6145be3504bca159cfbb5d6f 1507437679
+obj /etc/init.d/rpc.svcgssd adadcb92c819c6ec67aa5a53a40a3f13 1507437679
+dir /etc/exports.d
+obj /etc/exports.d/.keep_net-fs_nfs-utils-0 d41d8cd98f00b204e9800998ecf8427e 1507437679
+dir /etc/request-key.d
+obj /etc/request-key.d/id_resolver.conf 902e178724c640cf5b0ac5b6f51e162e 1507437679
+dir /etc/conf.d
+obj /etc/conf.d/nfsclient 010009373d6ba5d7270cc93d3108ea77 1507437679
+obj /etc/conf.d/nfs baa6a40a4730fd9203c9dbd3384e1560 1507437679
+dir /sbin
+obj /sbin/osd_login 4c59c92ddd181cacf37ae7e0a62e1467 1507437678
+sym /sbin/umount.nfs -> mount.nfs 1507437686
+obj /sbin/rpc.statd ee75e4432ae529bed8e1fd85939e1f1e 1507437680
+obj /sbin/mount.nfs cd109b02ec8b53e732d5b682eaef29af 1507437680
+sym /sbin/mount.nfs4 -> mount.nfs 1507437686
+sym /sbin/umount.nfs4 -> mount.nfs 1507437686
+dir /usr
+dir /usr/lib
+dir /usr/lib/systemd
+dir /usr/lib/systemd/system
+obj /usr/lib/systemd/system/nfs-utils.service 90394b2646a562dc98b80bc99e64912c 1507437679
+obj /usr/lib/systemd/system/var-lib-nfs-rpc_pipefs.mount c9dc408a6c165854d1ed9efcf5572996 1507437679
+obj /usr/lib/systemd/system/nfs-mountd.service 7f7e349c8eeb5e64ec957152b526c291 1507437679
+obj /usr/lib/systemd/system/nfs-server.service 54693b4352c2b2c2eab8406a3902704f 1507437679
+obj /usr/lib/systemd/system/nfs-idmapd.service 38cfddd0b6fc54c0c0b425194e9cff29 1507437679
+obj /usr/lib/systemd/system/rpc-gssd.service 92a18e9c8f19c0c99e8f9ec703ab860a 1507437679
+obj /usr/lib/systemd/system/rpc-svcgssd.service ee9ef375f6364a8a809116850d438c88 1507437679
+obj /usr/lib/systemd/system/nfs-client.target 739bf7ec7e128a02d9cc986d1e5dad02 1507437679
+obj /usr/lib/systemd/system/rpc-statd.service b6a20b9f2d019173fcedfafaf2e98eb9 1507437679
+obj /usr/lib/systemd/system/proc-fs-nfsd.mount dde45a79288a1c45055445b8a1e8d726 1507437679
+obj /usr/lib/systemd/system/auth-rpcgss-module.service 3e0c9fbc6fdb17652786e29b6fcee64c 1507437679
+obj /usr/lib/systemd/system/rpc-statd-notify.service 215fc0838a4c9a9a39202bc4c684d5b6 1507437679
+dir /usr/lib64
+dir /usr/lib64/nfs
+obj /usr/lib64/nfs/xtab d41d8cd98f00b204e9800998ecf8427e 1507437678
+obj /usr/lib64/nfs/state d41d8cd98f00b204e9800998ecf8427e 1507437678
+dir /usr/lib64/nfs/sm.bak
+obj /usr/lib64/nfs/sm.bak/.keep_net-fs_nfs-utils-0 d41d8cd98f00b204e9800998ecf8427e 1507437679
+obj /usr/lib64/nfs/rmtab d41d8cd98f00b204e9800998ecf8427e 1507437678
+obj /usr/lib64/nfs/.keep_net-fs_nfs-utils-0 d41d8cd98f00b204e9800998ecf8427e 1507437679
+obj /usr/lib64/nfs/etab d41d8cd98f00b204e9800998ecf8427e 1507437678
+dir /usr/lib64/nfs/sm
+obj /usr/lib64/nfs/sm/.keep_net-fs_nfs-utils-0 d41d8cd98f00b204e9800998ecf8427e 1507437679
+dir /usr/sbin
+obj /usr/sbin/exportfs ddbf725eecbc00c86553f7a5ca75d864 1507437680
+obj /usr/sbin/nfsidmap bdcae01909c7e15206fcf3a05344e0f8 1507437680
+obj /usr/sbin/rpc.idmapd 59548a01a0354a8dc27419035c4147a7 1507437680
+obj /usr/sbin/rpc.mountd 990e34cd05d36711df8ba76c9e6a7578 1507437680
+obj /usr/sbin/rpc.gssd c5c93e487349f828d823570e879e95e7 1507437680
+obj /usr/sbin/nfsiostat 165c076b101ec9f05c13aecab89b2ca1 1507437678
+obj /usr/sbin/start-statd c430e39927bff62c47ac68a8c1161c10 1507437678
+obj /usr/sbin/mountstats c48c8711c6ce54107057687e54cf507f 1507437678
+obj /usr/sbin/sm-notify acdfd6160b12fafaba47cd902d139e8e 1507437680
+obj /usr/sbin/nfsstat 538543b653a0aa6e248592d132cab72a 1507437680
+obj /usr/sbin/rpc.nfsd e7041a356021dfd32427f433055dbeb9 1507437680
+obj /usr/sbin/showmount 14c68f0847e8b6f01be57d26bdf43bab 1507437680
+obj /usr/sbin/rpc.svcgssd 59a72937f51101daa3cce6606b5694cd 1507437680
+obj /usr/sbin/rpcdebug 4efa711295bf1e9b59e17402663d6ecc 1507437680
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/nfs-utils-1.3.4-r1
+obj /usr/share/doc/nfs-utils-1.3.4-r1/NEWS.bz2 8cf2cdd584ba88327c46266891824cd6 1507437679
+obj /usr/share/doc/nfs-utils-1.3.4-r1/README.bz2 a9e1e110ebc695a7ad9d135e6daff41e 1507437679
+dir /usr/share/doc/nfs-utils-1.3.4-r1/linux-nfs
+obj /usr/share/doc/nfs-utils-1.3.4-r1/linux-nfs/KNOWNBUGS.bz2 d9dc44b10cc7a3727eb1b0c537a9156d 1507437679
+obj /usr/share/doc/nfs-utils-1.3.4-r1/linux-nfs/README.bz2 407bd2a4ada135d92913a46f5eb93390 1507437679
+obj /usr/share/doc/nfs-utils-1.3.4-r1/linux-nfs/NEW.bz2 74ab1d8fe929dd2091c440130f11d58e 1507437679
+obj /usr/share/doc/nfs-utils-1.3.4-r1/linux-nfs/ChangeLog.bz2 2254a204acdd79f2c1b5b1ae79ae98b7 1507437679
+obj /usr/share/doc/nfs-utils-1.3.4-r1/linux-nfs/TODO.bz2 2dbc1197bf149845b885f0a86809eaaf 1507437679
+obj /usr/share/doc/nfs-utils-1.3.4-r1/linux-nfs/INSTALL.bz2 55286b0a886250351881f81888663bc1 1507437679
+obj /usr/share/doc/nfs-utils-1.3.4-r1/linux-nfs/THANKS.bz2 1fa40844f7aaebe40b4c53ea32b2f00e 1507437679
+dir /usr/share/man
+dir /usr/share/man/man7
+obj /usr/share/man/man7/nfsd.7.bz2 ed56b5a96999a9d751b12bc8b80cef5a 1507437678
+dir /usr/share/man/man8
+obj /usr/share/man/man8/showmount.8.bz2 a087177794e556676dd9735025238112 1507437678
+obj /usr/share/man/man8/gssd.8.bz2 67fc54a995b7ce0b468056dcf1c65921 1507437678
+obj /usr/share/man/man8/umount.nfs.8.bz2 1cad2d826914c561d7f476b88b866746 1507437678
+sym /usr/share/man/man8/rpc.statd.8.bz2 -> statd.8.bz2 1507437686
+sym /usr/share/man/man8/rpc.svcgssd.8.bz2 -> svcgssd.8.bz2 1507437686
+sym /usr/share/man/man8/rpc.mountd.8.bz2 -> mountd.8.bz2 1507437686
+sym /usr/share/man/man8/rpc.gssd.8.bz2 -> gssd.8.bz2 1507437686
+obj /usr/share/man/man8/nfsidmap.8.bz2 c21ce6c043bb76ecf921fea431a93fd1 1507437678
+obj /usr/share/man/man8/nfsstat.8.bz2 bdee4ad3ddbca5863f6a18e466534fd9 1507437678
+obj /usr/share/man/man8/svcgssd.8.bz2 a71085ce7bc6bacea0f9ae5e27533d5f 1507437678
+obj /usr/share/man/man8/idmapd.8.bz2 1f2627564c66f1ffb38fe182f9f8457e 1507437678
+obj /usr/share/man/man8/mountd.8.bz2 44cbad509f819e6a88266a842c490c0b 1507437678
+obj /usr/share/man/man8/mountstats.8.bz2 8132f6b25d759f967d702e964aec2a3a 1507437678
+sym /usr/share/man/man8/rpc.sm-notify.8.bz2 -> sm-notify.8.bz2 1507437686
+obj /usr/share/man/man8/exportfs.8.bz2 372f3354c654cad12b65d7b32cbecd32 1507437678
+obj /usr/share/man/man8/rpcdebug.8.bz2 8f52f06fe778b6de6702f40880cab6f3 1507437678
+obj /usr/share/man/man8/nfsiostat.8.bz2 f3ce460f17e12d5b7b5ee69cf6297f69 1507437678
+obj /usr/share/man/man8/sm-notify.8.bz2 6e54e31c26c14f43d64eb0cf3da78bb5 1507437678
+obj /usr/share/man/man8/nfsd.8.bz2 45f6c6c2b06bae55ab562185996f620b 1507437678
+sym /usr/share/man/man8/rpc.idmapd.8.bz2 -> idmapd.8.bz2 1507437686
+obj /usr/share/man/man8/mount.nfs.8.bz2 b739b7abeccba84fe67c8bfe87a7a0e3 1507437678
+sym /usr/share/man/man8/rpc.nfsd.8.bz2 -> nfsd.8.bz2 1507437686
+obj /usr/share/man/man8/statd.8.bz2 d7cded386020a01b02787e680ed1453a 1507437678
+dir /usr/share/man/man5
+obj /usr/share/man/man5/nfsmount.conf.5.bz2 5489f4d7de269af010129818fc09ac45 1507437678
+obj /usr/share/man/man5/nfs.5.bz2 ce63b5868b2c5761303f3ae76c62f288 1507437678
+obj /usr/share/man/man5/exports.5.bz2 9585395a8df1edf3f40d0b7f77e419d8 1507437678

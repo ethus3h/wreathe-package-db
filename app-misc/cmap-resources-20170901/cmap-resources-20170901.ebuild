@@ -12,5 +12,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 src_compile() {
-    true
+	# Access violations occur otherwise
+	true
 }

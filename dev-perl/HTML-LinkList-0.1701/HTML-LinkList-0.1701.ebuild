@@ -1,11 +1,10 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 
 MODULE_AUTHOR=RUBYKAT
-MODULE_VERSION=0.1701
+MODULE_VERSION="${PV}"
 inherit perl-module
 
 DESCRIPTION="HTML::LinkList - Create a 'smart' list of HTML links."

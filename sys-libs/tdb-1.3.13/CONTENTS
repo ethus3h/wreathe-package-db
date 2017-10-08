@@ -1,0 +1,31 @@
+dir /usr
+dir /usr/lib64
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/tdb.pc 8abe73bb989ff5f0f5522f4e3d6e2e5c 1507340368
+obj /usr/lib64/libtdb.so.1.3.13 f508c5965863493ba515adfc71c3b060 1507340409
+dir /usr/lib64/python2.7
+dir /usr/lib64/python2.7/site-packages
+obj /usr/lib64/python2.7/site-packages/tdb.so 2dd8cf66b8367ce0a3a07d9d93cf2cd0 1507340409
+obj /usr/lib64/python2.7/site-packages/_tdb_text.py 64541c01bb565c11b53674df528295d2 1437510752
+dir /usr/include
+obj /usr/include/tdb.h c1dda87ccc4730d33cc197dd1aaeaf72 1472537166
+dir /usr/lib32
+dir /usr/lib32/pkgconfig
+obj /usr/lib32/pkgconfig/tdb.pc 69d363b7a53b1bb886382e886b25f88b 1507340326
+obj /usr/lib32/libtdb.so.1.3.13 74ee3f78325d930d60b6ffdd4876bd7f 1507340409
+dir /usr/bin
+obj /usr/bin/tdbdump fe2a8f6c016477f7db0edb9963914808 1507340409
+obj /usr/bin/tdbrestore 03a1282a512c99861ee7b605486f4775 1507340409
+obj /usr/bin/tdbtool 99de32bce0209dce96a955c926554d3e 1507340409
+obj /usr/bin/tdbbackup 535e5e7b12668bcd8748413600d9ff56 1507340409
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/tdbrestore.8.bz2 4d1a0a2411e6cef33b564c7be3e6773f 1507340406
+obj /usr/share/man/man8/tdbdump.8.bz2 c34906111f073109bd3c407c61697b8c 1507340406
+obj /usr/share/man/man8/tdbbackup.8.bz2 0f142a19f81f4611be00ee22130cbee6 1507340407
+obj /usr/share/man/man8/tdbtool.8.bz2 20bc6a5167023371bff0baff6764a77e 1507340407
+sym /usr/lib32/libtdb.so -> libtdb.so.1.3.13 1507340413
+sym /usr/lib32/libtdb.so.1 -> libtdb.so.1.3.13 1507340413
+sym /usr/lib64/libtdb.so -> libtdb.so.1.3.13 1507340413
+sym /usr/lib64/libtdb.so.1 -> libtdb.so.1.3.13 1507340413

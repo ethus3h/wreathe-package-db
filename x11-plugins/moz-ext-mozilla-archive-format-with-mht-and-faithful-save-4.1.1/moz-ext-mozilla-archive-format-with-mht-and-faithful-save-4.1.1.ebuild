@@ -3,29 +3,13 @@
 
 EAPI=6
 
-addonName="${PN/moz-ext-/}"
-addonName="${addonName//-/_}"
+mozApps=(fx sm)
+mozId=662213
+
+inherit moz-ext
 
 DESCRIPTION="Mozilla extension: Mozilla Archive Format, with MHT and Faithful Save"
 HOMEPAGE="http://maf.mozdev.org/"
 
 KEYWORDS="~amd64 ~x86"
-SLOT="0"
 LICENSE="MPL-1.1"
-IUSE=""
-SRC_URI="https://addons.mozilla.org/firefox/downloads/file/662213/${addonName}-${PN}-fx+sm.xpi -> ${P}.zip"
-
-S="${WORKDIR}"
-
-src_install() {
-	destDirName="$(cat install.rdf | grep "em:id=\"" | head -n 1)"
-	destDirName="${destDirName#*\"}"
-	destDirName="${destDirName%%\"*}"
-	if [[ -z "$destDirName" ]]; then
-		destDirName="$(cat install.rdf | grep "<em:id>" | head -n 1)"
-		destDirName="${destDirName#*>}"
-		destDirName="${destDirName%%<*}"
-	fi
-	insinto "/usr/$(get_libdir)/firefox/browser/extensions/$destDirName"
-	doins -r ./
-}

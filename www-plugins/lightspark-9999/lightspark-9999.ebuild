@@ -1,12 +1,12 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="6"
+EAPI=6
 inherit cmake-utils nsplugins multilib toolchain-funcs git-r3
 
 DESCRIPTION="High performance flash player"
 HOMEPAGE="https://github.com/lightspark/lightspark"
-EGIT_REPO_URI="git://github.com/lightspark/lightspark.git"
+EGIT_REPO_URI="https://github.com/lightspark/lightspark.git"
 
 LICENSE="LGPL-3"
 SLOT="0"

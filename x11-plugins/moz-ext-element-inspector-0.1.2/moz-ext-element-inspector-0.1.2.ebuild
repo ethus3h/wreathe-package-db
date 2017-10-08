@@ -3,37 +3,14 @@
 
 EAPI=6
 
-addonName="${PN/moz-ext-/}"
-addonName="${addonName//-/_}"
+mozApps=(fx)
+mozId=616433
 
-DESCRIPTION="Mozilla extension: In the DOM Inspector,quickly navigate to the any elements"
+inherit moz-ext
+
+DESCRIPTION="Mozilla extension: In the DOM Inspector, quickly navigate to elements"
 HOMEPAGE="https://addons.mozilla.org/en-GB/firefox/addon/element-inspector/"
 
 KEYWORDS="~amd64 ~x86"
-SLOT="0"
 LICENSE="MPL-1.1"
-SRC_URI="https://addons.mozilla.org/firefox/downloads/file/616433/${addonName}-${PN}-fx.xpi -> ${P}.zip"
-
 DEPEND="x11-plugins/moz-ext-dom-inspector-plus-dm"
-
-S="${WORKDIR}"
-
-src_install() {
-	destDirName="$(cat install.rdf | grep "em:id=\"" | head -n 1)"
-	destDirName="${destDirName#*\"}"
-	destDirName="${destDirName%%\"*}"
-	if [[ -z "$destDirName" ]]; then
-		destDirName="$(cat install.rdf | grep "<em:id>" | head -n 1)"
-		destDirName="${destDirName#*>}"
-		destDirName="${destDirName%%<*}"
-	fi
-	if [[ -z "$destDirName" ]]; then
-		destDirName="$(cat install.rdf | grep "<id>" | head -n 1)"
-		destDirName="${destDirName#*>}"
-		destDirName="${destDirName%%<*}"
-	fi
-	insinto "/usr/$(get_libdir)/firefox/browser/extensions/$destDirName"
-	doins -r ./
-	insinto "/usr/$(get_libdir)/thunderbird/extensions/$destDirName"
-	doins -r ./
-}

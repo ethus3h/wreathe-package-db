@@ -1,17 +1,16 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=5
 inherit eutils toolchain-funcs
 
 DESCRIPTION="Collection of programs that can be used to automate common tasks in debian/rules"
-HOMEPAGE="http://packages.qa.debian.org/d/debhelper.html"
+HOMEPAGE="https://packages.qa.debian.org/d/debhelper.html"
 SRC_URI="mirror://debian/pool/main/d/${PN}/${P/-/_}.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="alpha amd64 ~arm hppa ~ia64 ~m68k ~ppc ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-linux"
+KEYWORDS="alpha amd64 arm hppa ia64 ~m68k ppc ppc64 ~s390 ~sh sparc x86 ~amd64-linux"
 IUSE="test"
 DH_LINGUAS=( de es fr )
 IUSE+=" ${DH_LINGUAS[@]/#/linguas_}"
@@ -26,9 +25,13 @@ RDEPEND="
 	dev-perl/TimeDate
 	virtual/perl-Getopt-Long
 "
-DEPEND="${RDEPEND}
+DEPEND="
+	${RDEPEND}
 	${NLS_DEPEND}
-	test? ( dev-perl/Test-Pod )
+	test? (
+		dev-perl/Test-Pod
+		sys-apps/fakeroot
+	)
 "
 
 S=${WORKDIR}/${PN}
