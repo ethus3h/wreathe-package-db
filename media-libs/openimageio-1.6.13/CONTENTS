@@ -1,11 +1,11 @@
 dir /usr
 dir /usr/lib64
-sym /usr/lib64/libOpenImageIO_Util.so -> libOpenImageIO_Util.so.1.6 1489373362
-sym /usr/lib64/libOpenImageIO_Util.so.1.6 -> libOpenImageIO_Util.so.1.6.13 1489373362
-obj /usr/lib64/libOpenImageIO_Util.so.1.6.13 2052683f1a7f902145c2c6f578d08d6c 1489373354
-sym /usr/lib64/libOpenImageIO.so.1.6 -> libOpenImageIO.so.1.6.13 1489373362
-sym /usr/lib64/libOpenImageIO.so -> libOpenImageIO.so.1.6 1489373362
-obj /usr/lib64/libOpenImageIO.so.1.6.13 37b99a0b40600832d68653ae2630cf17 1489373354
+sym /usr/lib64/libOpenImageIO_Util.so -> libOpenImageIO_Util.so.1.6 1507610457
+sym /usr/lib64/libOpenImageIO_Util.so.1.6 -> libOpenImageIO_Util.so.1.6.13 1507610457
+obj /usr/lib64/libOpenImageIO_Util.so.1.6.13 723b311623c90104cdc6370cc144239c 1507610450
+sym /usr/lib64/libOpenImageIO.so.1.6 -> libOpenImageIO.so.1.6.13 1507610457
+sym /usr/lib64/libOpenImageIO.so -> libOpenImageIO.so.1.6 1507610457
+obj /usr/lib64/libOpenImageIO.so.1.6.13 94b8acc76faafd95dceb37cfcb1032d5 1507610450
 dir /usr/include
 dir /usr/include/OpenImageIO
 obj /usr/include/OpenImageIO/string_view.h 831a4f6ad925830387c0087c3621838e 1462120422
@@ -15,7 +15,7 @@ obj /usr/include/OpenImageIO/imagebufalgo_util.h a7ad73f01998e94e29410b2d296194e
 obj /usr/include/OpenImageIO/argparse.h a9508220206dea27d2656693063c32d4 1462120422
 obj /usr/include/OpenImageIO/paramlist.h c4b0029bae87f2e1e766df590f040fac 1462120422
 obj /usr/include/OpenImageIO/tinyformat.h 0f78413400b0fd4128cabd35a266971c 1462120422
-obj /usr/include/OpenImageIO/oiioversion.h c37560860f07a2993e43e2a9e7c7cb2e 1489373058
+obj /usr/include/OpenImageIO/oiioversion.h c37560860f07a2993e43e2a9e7c7cb2e 1507610170
 obj /usr/include/OpenImageIO/imageio.h 0db34eff22fff8d269467f4bfff7ac5b 1462120422
 obj /usr/include/OpenImageIO/image_view.h b33fc7112907675958263f15facc7105 1462120422
 obj /usr/include/OpenImageIO/array_view.h 09eed00d187735734255509fa3048e80 1462120422
@@ -51,20 +51,20 @@ obj /usr/include/OpenImageIO/varyingref.h 1732b452dd16b093298279dd6f6cfe1d 14621
 obj /usr/include/OpenImageIO/fmath.h 18ea5815e43a5582524dc46d3fa04e80 1462120422
 obj /usr/include/OpenImageIO/coordinate.h 102f12fa932d7cbc9f1e6b0e1d1de2ca 1462120422
 dir /usr/bin
-obj /usr/bin/iv a729cb00e8bb4f982147e57cd02a0d0e 1489373354
-obj /usr/bin/idiff 7807bdfcc2770c099485d1eed40fbd6b 1489373354
-obj /usr/bin/iinfo ae571166e255519800dac3c51d7494c4 1489373354
-obj /usr/bin/igrep 7deff9557d497c6921b8dc6cefd1ad78 1489373354
-obj /usr/bin/oiiotool 840107d4aa3950525e6d9770b660d30a 1489373354
-obj /usr/bin/maketx 847360f020ca4d3f979f60845e4ea11e 1489373354
-obj /usr/bin/iconvert 64e86a180529a20c26d39fcbdeb66a3c 1489373354
+obj /usr/bin/iv a7fe7820e4ad0346e2237cdde3189cd0 1507610450
+obj /usr/bin/idiff 988f7cdb073dfc71d34017e9c5074ee1 1507610450
+obj /usr/bin/iinfo 96b23be5f5dbd18453c8b5d1ca280aa1 1507610450
+obj /usr/bin/igrep b484cbf25e73902523d8f2a11ac32878 1507610450
+obj /usr/bin/oiiotool 4bc83b134a7230b21fc9516a409a2da3 1507610450
+obj /usr/bin/maketx 436f94aaa5a006695296a2b45d96bae4 1507610450
+obj /usr/bin/iconvert 42bf1b9c70a336ce3abd9fd86ceeb810 1507610450
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/openimageio-1.6.13
-obj /usr/share/doc/openimageio-1.6.13/README.rst.bz2 79eb6892137493235b702aa8bfe3486d 1489373352
-obj /usr/share/doc/openimageio-1.6.13/CREDITS.bz2 6595e4bb4690be69caf0e8e11904c99c 1489373352
-obj /usr/share/doc/openimageio-1.6.13/CHANGES.bz2 aedfa414c9a9a5b7019fae9a78bab5a2 1489373352
-obj /usr/share/doc/openimageio-1.6.13/openimageio.pdf c18e1e08c6545818e524606e0dc86da9 1489373352
+obj /usr/share/doc/openimageio-1.6.13/README.rst.bz2 79eb6892137493235b702aa8bfe3486d 1507610449
+obj /usr/share/doc/openimageio-1.6.13/CREDITS.bz2 6595e4bb4690be69caf0e8e11904c99c 1507610449
+obj /usr/share/doc/openimageio-1.6.13/CHANGES.bz2 aedfa414c9a9a5b7019fae9a78bab5a2 1507610449
+obj /usr/share/doc/openimageio-1.6.13/openimageio.pdf c18e1e08c6545818e524606e0dc86da9 1507610449
 dir /usr/share/fonts
 dir /usr/share/fonts/oiio
 obj /usr/share/fonts/oiio/DroidSerif-Bold.ttf 41f991ed8f547d20821bef28215e5e76 1462120422
