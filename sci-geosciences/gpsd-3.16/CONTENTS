@@ -1,0 +1,115 @@
+dir /etc
+dir /etc/conf.d
+obj /etc/conf.d/gpsd 3610bae07fb1d2ec55c5cc0860ddf6f7 1507868586
+dir /etc/init.d
+obj /etc/init.d/gpsd a76f22806d03c5b777933faa79af8555 1507868586
+dir /lib
+dir /lib/udev
+obj /lib/udev/gpsd.hotplug 6b48940d3455f3b9fb3e9057fe3967a1 1507868586
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/25-gpsd.rules b06d5b725364857313193a26e267252a 1507868586
+dir /usr
+dir /usr/bin
+obj /usr/bin/cgps ed4c6c6d1b4a4a256ddae21dd21c2f42 1507868588
+sym /usr/bin/gegps -> ../lib/python-exec/python-exec2 1507868593
+obj /usr/bin/gps2udp e543ebe881478fdf7a13ab39e0655e00 1507868588
+sym /usr/bin/gpscat -> ../lib/python-exec/python-exec2 1507868593
+obj /usr/bin/gpsctl cec922b814b69a1026939c28c4adf61f 1507868588
+obj /usr/bin/gpsdecode cc3013e5c14d81fc2a8222ae0a4eb0aa 1507868588
+sym /usr/bin/gpsfake -> ../lib/python-exec/python-exec2 1507868593
+obj /usr/bin/gpsmon a368221e7ce1094d64003c5f34cc1cfd 1507868588
+obj /usr/bin/gpspipe ea351b01031ee559eaa829e95c05f3ec 1507868588
+sym /usr/bin/gpsprof -> ../lib/python-exec/python-exec2 1507868593
+obj /usr/bin/gpxlogger 61422c6cf6b8a6b775a83eaba6b1fab3 1507868588
+obj /usr/bin/lcdgps 768fdc1ff73c0ba1bc7aefc8fa353d15 1507868588
+obj /usr/bin/ntpshmmon 7f1d0bf31d001978d660b22806c97af9 1507868588
+sym /usr/bin/xgps -> ../lib/python-exec/python-exec2 1507868593
+sym /usr/bin/xgpsspeed -> ../lib/python-exec/python-exec2 1507868593
+dir /usr/include
+obj /usr/include/gps.h ee6233e5f0cb1c3e172c22f37759ff4c 1433081973
+obj /usr/include/libgpsmm.h ba5a6d83a022689523658d7ea4be9419 1427742239
+dir /usr/lib
+dir /usr/lib/python-exec
+dir /usr/lib/python-exec/python2.7
+obj /usr/lib/python-exec/python2.7/gegps e22a811b8722aa5c70c85a5f6a2dfafe 1507868582
+obj /usr/lib/python-exec/python2.7/gpscat ff1852dc16db6ffb77c514546f32432e 1507868582
+obj /usr/lib/python-exec/python2.7/gpsfake 2b263da38398af0ad9c70eee52bf81ce 1507868582
+obj /usr/lib/python-exec/python2.7/gpsprof 271bb1ef161e50c9bb12f07c01c76194 1507868582
+obj /usr/lib/python-exec/python2.7/xgps 13acfa1239923f872d67668df874babe 1507868582
+obj /usr/lib/python-exec/python2.7/xgpsspeed b79d0c036ee879f657f013065a3d3d16 1507868582
+dir /usr/lib64
+obj /usr/lib64/libQgpsmm.prl 11754ab57fc2713f1ece0fc0a028a49c 1507868586
+sym /usr/lib64/libQgpsmm.so -> libQgpsmm.so.22.0.0 1507868593
+sym /usr/lib64/libQgpsmm.so.22 -> libQgpsmm.so.22.0.0 1507868593
+obj /usr/lib64/libQgpsmm.so.22.0.0 65ce705ee16de7e6e2a622c35581ee7d 1507868588
+sym /usr/lib64/libgps.so -> libgps.so.22.0.0 1507868593
+sym /usr/lib64/libgps.so.21 -> libgps.so.21.0.0 1486343668
+obj /usr/lib64/libgps.so.21.0.0 48bf3c3468b9cb9cf4820bf4747e1220 1486343665
+sym /usr/lib64/libgps.so.22 -> libgps.so.22.0.0 1507868593
+obj /usr/lib64/libgps.so.22.0.0 3a992450402999c9c0ce1a59aa6e225a 1507868588
+sym /usr/lib64/libgpsd.so -> libgpsd.so.22.0.0 1507868593
+sym /usr/lib64/libgpsd.so.22 -> libgpsd.so.22.0.0 1507868593
+obj /usr/lib64/libgpsd.so.22.0.0 ba0eed9c97f1ae1350138b22c50c899e 1507868588
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/Qgpsmm.pc 5fa8025e5e193a231aee5e28aeb98660 1507868586
+obj /usr/lib64/pkgconfig/libgps.pc 95c1c31fb0f83bacc2c0ba8fe3f930e8 1507868580
+obj /usr/lib64/pkgconfig/libgpsd.pc 752bf78159232f1a3b14fc9b76c41241 1507868580
+dir /usr/lib64/python2.7
+dir /usr/lib64/python2.7/site-packages
+dir /usr/lib64/python2.7/site-packages/gps
+obj /usr/lib64/python2.7/site-packages/gps-3.16-py2.7.egg-info 791287fac94e88023ac0ecb8c16b9fe2 1507868586
+obj /usr/lib64/python2.7/site-packages/gps/__init__.py 5861313513a3325da287e2009af35609 1422038889
+obj /usr/lib64/python2.7/site-packages/gps/__init__.pyc d1eb34b020af39d3647a652a920a9aca 1507868586
+obj /usr/lib64/python2.7/site-packages/gps/__init__.pyo d1eb34b020af39d3647a652a920a9aca 1507868586
+obj /usr/lib64/python2.7/site-packages/gps/client.py f772b3e70b7e37f992a2d3b49f730e7c 1427662981
+obj /usr/lib64/python2.7/site-packages/gps/client.pyc 1d63ff19d4b02f62cc657d5270ee4e88 1507868586
+obj /usr/lib64/python2.7/site-packages/gps/client.pyo bcc7bfab7abfa55b818ec5fb01443baa 1507868586
+obj /usr/lib64/python2.7/site-packages/gps/clienthelpers.so 4d4b8e7d596c86943f49a9e7f0cc0ba8 1507868588
+obj /usr/lib64/python2.7/site-packages/gps/fake.py ededf61253d7667c9787163ed3af7f00 1427662903
+obj /usr/lib64/python2.7/site-packages/gps/fake.pyc a0a39433b420701d62f378ea8fb3703e 1507868586
+obj /usr/lib64/python2.7/site-packages/gps/fake.pyo 263d556562f8da8df2c657e11771d9d9 1507868586
+obj /usr/lib64/python2.7/site-packages/gps/gps.py 7e40ea5cf23367d1c0b8fbeb69960108 1428983548
+obj /usr/lib64/python2.7/site-packages/gps/gps.pyc 85a84239611eb0840d944edfe089ed38 1507868586
+obj /usr/lib64/python2.7/site-packages/gps/gps.pyo 9030f95a875d22cf70040b0e15a98bca 1507868586
+obj /usr/lib64/python2.7/site-packages/gps/misc.py 63a6f157173e68b1dc85bd7fd5da4f24 1423817746
+obj /usr/lib64/python2.7/site-packages/gps/misc.pyc 0c0ee4eb538650ca6d9e4321755ebef5 1507868586
+obj /usr/lib64/python2.7/site-packages/gps/misc.pyo 23328e1d5a2fa01c19dc00aa8ec721a9 1507868586
+obj /usr/lib64/python2.7/site-packages/gps/packet.so 5cb4a7953613ed6b18b3d8f5a43b6ace 1507868588
+dir /usr/sbin
+obj /usr/sbin/gpsd f9bf07bff80caa634862747d64718ebf 1507868588
+obj /usr/sbin/gpsdctl ea6d3f73cf8f88d6fce169c8d600205f 1507868588
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/gpsd-3.16
+obj /usr/share/doc/gpsd-3.16/AUTHORS.bz2 eff5713f5ff0f1cb1841988cfce821e4 1507868586
+obj /usr/share/doc/gpsd-3.16/NEWS.bz2 1a7413bdbd376413b963993b86074d76 1507868587
+obj /usr/share/doc/gpsd-3.16/README.bz2 23df6345a6134dbee25191a56156ac9d 1507868586
+obj /usr/share/doc/gpsd-3.16/TODO.bz2 a22673d42a6ff8511628a90dbe2405af 1507868587
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/cgps.1 c09663f7aa0b5b3880339697f527cc7f 1452276335
+obj /usr/share/man/man1/gegps.1 c09663f7aa0b5b3880339697f527cc7f 1452276335
+obj /usr/share/man/man1/gps.1.bz2 bda0f0b0e0eb3c5ddd66904ce1df1aa9 1452276335
+obj /usr/share/man/man1/gps2udp.1.bz2 c8776860f50478776e826e6e0481a613 1452276334
+obj /usr/share/man/man1/gpscat.1.bz2 d99f9bc9d0dc0ce7019c0c86c27ca137 1452276336
+obj /usr/share/man/man1/gpsctl.1.bz2 141d54ffa09f355a4fe2d6117e2f7798 1452276332
+obj /usr/share/man/man1/gpsdecode.1.bz2 e02d692c9c73b31563d80e0eaacb14e0 1452276335
+obj /usr/share/man/man1/gpsfake.1.bz2 be8bb53062dc00b01af761dcbd84924b 1452276336
+obj /usr/share/man/man1/gpsmon.1.bz2 7dd2db4810a106d3eaf189882c2b8e1d 1452276332
+obj /usr/share/man/man1/gpspipe.1.bz2 e99b5fcb68dd4cd124627e7e76d0e3f9 1452276333
+obj /usr/share/man/man1/gpsprof.1.bz2 54baf81efbecabf83bec11f76b68d48e 1452276336
+obj /usr/share/man/man1/lcdgps.1 c09663f7aa0b5b3880339697f527cc7f 1452276335
+obj /usr/share/man/man1/ntpshmmon.1.bz2 b204a10d62b79dbee7b52075b19394e6 1452276335
+obj /usr/share/man/man1/xgps.1 c09663f7aa0b5b3880339697f527cc7f 1452276335
+obj /usr/share/man/man1/xgpsspeed.1 c09663f7aa0b5b3880339697f527cc7f 1452276335
+dir /usr/share/man/man3
+obj /usr/share/man/man3/libQgpsmm.3 39fab21fe4476e3443560c1d48fb2409 1452276332
+obj /usr/share/man/man3/libgps.3.bz2 086951d0584679cdeb89c7338bc5ebe5 1452276334
+obj /usr/share/man/man3/libgpsmm.3.bz2 ff2de703a1c5ac70cdb87c8e80532f6f 1452276332
+dir /usr/share/man/man5
+obj /usr/share/man/man5/gpsd_json.5.bz2 8d7c77f70e351fd033cf74b9baca492e 1452276334
+obj /usr/share/man/man5/srec.5.bz2 e4ea0542c7c82355faee247eeb88cb3a 1452276334
+dir /usr/share/man/man8
+obj /usr/share/man/man8/gpsd.8.bz2 8626c25c2a81aed2e59c0cfd144fb2fa 1452276333
+obj /usr/share/man/man8/gpsdctl.8.bz2 7aa0fae7d0960f9508d89649dd883d7a 1452276333
+obj /usr/share/man/man8/gpsinit.8.bz2 ca9a1b1a0fdf42beeee60dba2cd877ed 1452276335

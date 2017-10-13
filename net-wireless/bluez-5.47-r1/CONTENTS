@@ -1,0 +1,120 @@
+dir /var
+dir /var/lib
+dir /var/lib/bluetooth
+obj /var/lib/bluetooth/.keep_net-wireless_bluez-0 d41d8cd98f00b204e9800998ecf8427e 1507866900
+dir /lib
+dir /lib/udev
+obj /lib/udev/hid2hci a2933a230c1d7efda34780d313bc98f7 1507866902
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/97-hid2hci.rules 1e4a3f3823e26d0cf25eedb8875cda01 1507866900
+dir /etc
+dir /etc/init.d
+obj /etc/init.d/rfcomm 94d600dd7a7e4c8eb3cd59cd2d409c51 1507866900
+obj /etc/init.d/bluetooth 4b2a4e6c3cd3fed451e257b8e8b8608c 1507866900
+dir /etc/bluetooth
+obj /etc/bluetooth/main.conf ba75c6d7bfc6bdfb614f963b2ad993dc 1507866900
+obj /etc/bluetooth/input.conf 9f85017f861ac34d983fa76fa715f9c3 1507866900
+obj /etc/bluetooth/network.conf 0c7497c405b963382ff71789d0730abd 1507866900
+dir /etc/dbus-1
+dir /etc/dbus-1/system.d
+obj /etc/dbus-1/system.d/bluetooth.conf d03b8a1d8a13fd9881b80ef838312fea 1507866900
+dir /usr
+dir /usr/lib
+dir /usr/lib/systemd
+dir /usr/lib/systemd/system
+obj /usr/lib/systemd/system/bluetooth.service 0100deb915c238f9be3dad7563750250 1507866900
+dir /usr/lib/systemd/user
+obj /usr/lib/systemd/user/obex.service 9ddf456c8b1aa061ce9292f9737ade2d 1507866900
+dir /usr/lib64
+obj /usr/lib64/libbluetooth.so.3.18.16 ea245a5d61facb73c23eceba7c05ba8c 1507866902
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/bluez.pc 9e10ed34efb6d7ae2bd52427b18a1a51 1507866900
+dir /usr/lib64/bluetooth
+dir /usr/lib64/bluetooth/plugins
+obj /usr/lib64/bluetooth/plugins/sixaxis.so 99f40da3ddb7aa871c02104954cf9f30 1507866902
+sym /usr/lib64/libbluetooth.so -> libbluetooth.so.3.18.16 1507866908
+sym /usr/lib64/libbluetooth.so.3 -> libbluetooth.so.3.18.16 1507866908
+dir /usr/libexec
+dir /usr/libexec/cups
+dir /usr/libexec/cups/backend
+obj /usr/libexec/cups/backend/bluetooth c9dc7c8999ec5090d04e28f543ba6739 1507866902
+dir /usr/libexec/bluetooth
+obj /usr/libexec/bluetooth/bluetoothd 91367c9c6616413b62fb83906d51a708 1507866902
+obj /usr/libexec/bluetooth/obexd 92b239e940b609fcbb8cfc7bacf18450 1507866902
+dir /usr/include
+dir /usr/include/bluetooth
+obj /usr/include/bluetooth/sdp_lib.h a4394de137f34c152e6831be56d40f13 1507866900
+obj /usr/include/bluetooth/hci_lib.h 6a33a1fe9ea7218ed5820df5d1fbc8f4 1507866900
+obj /usr/include/bluetooth/rfcomm.h 0abcd0f80bc37d41453ac935049c73d6 1507866900
+obj /usr/include/bluetooth/hci.h 891552439f0c1690b2aa915c9e76cf6c 1507866900
+obj /usr/include/bluetooth/l2cap.h 98e9767696924cce1282798a061eae84 1507866900
+obj /usr/include/bluetooth/bnep.h e64af5abefec457ec50e2eac654814e8 1507866900
+obj /usr/include/bluetooth/bluetooth.h 360bf949036b7a1355e12b7c9c45af0e 1507866900
+obj /usr/include/bluetooth/cmtp.h 6c57557977d030fb29c2024cf35d6bed 1507866900
+obj /usr/include/bluetooth/sco.h dd6fac08fed5247be6f616cacf0a5288 1507866900
+obj /usr/include/bluetooth/hidp.h 3c0d932234ffe3ea9ca699a54572518b 1507866900
+obj /usr/include/bluetooth/sdp.h 23edf552f2c12cd9a421015939491770 1507866900
+dir /usr/lib32
+obj /usr/lib32/libbluetooth.so.3.18.16 b07a9d3a509d7dc48a644fefb693bdf5 1507866902
+dir /usr/lib32/pkgconfig
+obj /usr/lib32/pkgconfig/bluez.pc ae133bc12f35858b77762ff2ff3bf048 1507866900
+sym /usr/lib32/libbluetooth.so -> libbluetooth.so.3.18.16 1507866908
+sym /usr/lib32/libbluetooth.so.3 -> libbluetooth.so.3.18.16 1507866908
+dir /usr/bin
+obj /usr/bin/bluetoothctl 8c34ac38939b8be53b92f267d5abf069 1507866902
+obj /usr/bin/mpris-proxy 06ed2a06ec7465b134dad3656f538a9c 1507866902
+obj /usr/bin/bccmd 279a2d956e78180500923229957cbcb8 1507866902
+obj /usr/bin/rctest 545129ea84651005e5242acd765fe407 1507866902
+obj /usr/bin/meshctl ab5a38a6c67a810e717a584e1afb4ddd 1507866902
+obj /usr/bin/btattach f609f55d9cc460aa13d46de3f9d8064c 1507866902
+obj /usr/bin/hex2hcd f70ad2665250b5b1d65a275b8a3f1381 1507866902
+obj /usr/bin/bluemoon 392fb7f272c33a30e3e6581119c4d7c7 1507866902
+obj /usr/bin/l2test eb9a44a4a63d71847d3796a8f6af27bf 1507866902
+obj /usr/bin/btmon 290e96d7c91d80a789f2b25c471392a3 1507866902
+obj /usr/bin/l2ping 8a1310490ec2c0a635f15abfd02f233b 1507866902
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/bluez-5.47-r1
+obj /usr/share/doc/bluez-5.47-r1/sap-api.txt.bz2 9d88fb52ecfb1783a7e392f915afe834 1507866901
+obj /usr/share/doc/bluez-5.47-r1/profile-api.txt.bz2 aec3bd7941566887064d1bc87d744850 1507866901
+obj /usr/share/doc/bluez-5.47-r1/advertising-api.txt.bz2 60ef79d1546b60488cf28dd545d2090f 1507866901
+obj /usr/share/doc/bluez-5.47-r1/agent-api.txt.bz2 d8c835c94232fa49e67578b915692d29 1507866901
+obj /usr/share/doc/bluez-5.47-r1/mgmt-api.txt.bz2 f5a3c585218fb9e9e02bf69d12f03a53 1507866901
+obj /usr/share/doc/bluez-5.47-r1/pts-opp.txt.bz2 3208011a8e4e61fdefaeac16b7dbb8d8 1507866901
+obj /usr/share/doc/bluez-5.47-r1/pics-opp.txt.bz2 5837082fbdb00a95f346e3058925863a 1507866901
+obj /usr/share/doc/bluez-5.47-r1/gatt-api.txt.bz2 2daf614e6e3cec6edc51480ff0793dc4 1507866901
+obj /usr/share/doc/bluez-5.47-r1/btsnoop.txt.bz2 1f84e975ef520e4bcc2ad100023be3c6 1507866901
+obj /usr/share/doc/bluez-5.47-r1/supported-features.txt.bz2 6e6e33d97127b639cc4b33d1aaa4f739 1507866901
+obj /usr/share/doc/bluez-5.47-r1/network-api.txt.bz2 d5eea3d0524dd557b777b5b9b8a121eb 1507866901
+obj /usr/share/doc/bluez-5.47-r1/settings-storage.txt.bz2 bd73478898f7980c834b7a2bd95ecc79 1507866901
+obj /usr/share/doc/bluez-5.47-r1/README.gentoo.bz2 824e2e3d2ef046e4de9c3aee80faaac9 1507866901
+obj /usr/share/doc/bluez-5.47-r1/README.bz2 ea10346f7275b2601ac8c55829b29678 1507866900
+obj /usr/share/doc/bluez-5.47-r1/AUTHORS.bz2 cb1bd9e4f7706cf87e56a067766c3c5b 1507866901
+obj /usr/share/doc/bluez-5.47-r1/assigned-numbers.txt.bz2 c4657ec892f42fbdb3dfaf441bf2dc80 1507866901
+obj /usr/share/doc/bluez-5.47-r1/obex-api.txt.bz2 c4589b6f29cc4e1fd1325bf2b5435ed7 1507866901
+obj /usr/share/doc/bluez-5.47-r1/test-coverage.txt.bz2 fbfdd5429dd8ca6d552e4443bbaa17f1 1507866901
+obj /usr/share/doc/bluez-5.47-r1/test-runner.txt.bz2 8214f8a818235b7cddaa98822051a652 1507866901
+obj /usr/share/doc/bluez-5.47-r1/input-api.txt.bz2 08b42cd11551ffacc82ced0924b88f59 1507866901
+obj /usr/share/doc/bluez-5.47-r1/media-api.txt.bz2 e3f0614b58ce227de6db370782c1f028 1507866901
+obj /usr/share/doc/bluez-5.47-r1/btmon.txt.bz2 7dbae156fec36bd2be08ccc17203e465 1507866901
+obj /usr/share/doc/bluez-5.47-r1/pixit-opp.txt.bz2 bde819397dae11a199352bed47af9f95 1507866901
+obj /usr/share/doc/bluez-5.47-r1/obex-agent-api.txt.bz2 8b6c625ba70f6ab1e1525c2d35a9309b 1507866901
+obj /usr/share/doc/bluez-5.47-r1/health-api.txt.bz2 716c3dcf40091b517e69ae3505783b1e 1507866901
+obj /usr/share/doc/bluez-5.47-r1/ChangeLog.bz2 ce6eed921689697662b0774d69a3cf00 1507866900
+obj /usr/share/doc/bluez-5.47-r1/TODO.bz2 97d0f52bbb449acc27f822541f3983b6 1507866901
+obj /usr/share/doc/bluez-5.47-r1/device-api.txt.bz2 bac38edf02e7a3adfc933afe4257eb9a 1507866901
+obj /usr/share/doc/bluez-5.47-r1/adapter-api.txt.bz2 525b21ec100c7946b272853dfd8b4d07 1507866901
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/bluetoothd.8.bz2 a7629efc501564ee68a77b311bae3643 1507866900
+dir /usr/share/man/man1
+obj /usr/share/man/man1/rctest.1.bz2 3126fe5f83ea20afd6d7200a9e5d4b1a 1507866900
+obj /usr/share/man/man1/l2ping.1.bz2 668fdceccf9de45d95beffa19771151e 1507866900
+obj /usr/share/man/man1/hid2hci.1.bz2 22b1e14667f7766e22e162baaaa99f0b 1507866900
+obj /usr/share/man/man1/bccmd.1.bz2 3c890f2c5ed6b37f43ce759df67fc891 1507866900
+obj /usr/share/man/man1/btattach.1.bz2 334c9729b2b645a25206a6a93942bd0a 1507866900
+dir /usr/share/dbus-1
+dir /usr/share/dbus-1/services
+obj /usr/share/dbus-1/services/org.bluez.obex.service 03d8a795f6f56828c8a6419415fd0672 1507866900
+dir /usr/share/dbus-1/system-services
+obj /usr/share/dbus-1/system-services/org.bluez.service 54c7de598327bf11d56592235d0702f4 1507866900

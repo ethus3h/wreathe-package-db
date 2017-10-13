@@ -1,8 +1,8 @@
 dir /usr
 dir /usr/lib64
-obj /usr/lib64/libmysqlcppconn.so.7.1.1.6 82689324b4ee8a891c5a5fdb8f635526 1485389388
-sym /usr/lib64/libmysqlcppconn.so.7 -> libmysqlcppconn.so.7.1.1.6 1485389392
-sym /usr/lib64/libmysqlcppconn.so -> libmysqlcppconn.so.7 1485389392
+obj /usr/lib64/libmysqlcppconn.so.7.1.1.6 9a6dd2c1c89f92c9f9c51f75b8d571a8 1507873228
+sym /usr/lib64/libmysqlcppconn.so.7 -> libmysqlcppconn.so.7.1.1.6 1507873230
+sym /usr/lib64/libmysqlcppconn.so -> libmysqlcppconn.so.7 1507873230
 dir /usr/include
 obj /usr/include/mysql_connection.h 29ff17b9e5142dc7c1d021387a0e5226 1433422710
 obj /usr/include/mysql_error.h e56400e7c67e5bcbed3b412fdad22008 1433422710
@@ -16,11 +16,11 @@ obj /usr/include/cppconn/resultset.h cfc1a9851682ba2b22bf6b5dceee269f 1433422710
 obj /usr/include/cppconn/driver.h b318d2831a53b294daccaa0678f80de4 1433422710
 obj /usr/include/cppconn/warning.h a8fcd1ecc8ac7c1dcb7db941258d2655 1433422710
 obj /usr/include/cppconn/metadata.h 6a19d266279a9a2adaf3f00ac2dac522 1433422710
-obj /usr/include/cppconn/config.h c2fbd36a162aaa12946c0343b926c24c 1485389365
+obj /usr/include/cppconn/config.h c2fbd36a162aaa12946c0343b926c24c 1507873211
 obj /usr/include/cppconn/datatype.h 6a58fb62389df1e1ef627149bd065c2e 1433422710
 obj /usr/include/cppconn/build_config.h 05f4500ede9514afd9b84768a37aca26 1433422710
 obj /usr/include/cppconn/resultset_metadata.h 2944cd4ca6de82bf15de8638bd4b6f62 1433422710
-obj /usr/include/cppconn/version_info.h ba83f7728c240e62de7d937e068e5e2c 1485389363
+obj /usr/include/cppconn/version_info.h 0156ca54318bd6c03bf425fadb1bd572 1507873210
 obj /usr/include/cppconn/connection.h 6f219258f22dad420a1106a516b5a9df 1433422710
 obj /usr/include/cppconn/parameter_metadata.h 7a7a1930c07c78df4d9961e25b56759c 1433422710
 obj /usr/include/cppconn/sqlstring.h 8c8cdb9814a12f45c0b2338bb77a37af 1433422710
@@ -29,7 +29,27 @@ dir /usr/share/doc
 dir /usr/share/doc/mysql-connector-c++-1.1.6
 obj /usr/share/doc/mysql-connector-c++-1.1.6/ANNOUNCEMENT.bz2 e9d9ccbce5c5416e09a92504d526641a 1433422710
 obj /usr/share/doc/mysql-connector-c++-1.1.6/Licenses_for_Third-Party_Components.txt.bz2 334076deee62de76b3a1a562a76da7cf 1433422710
-obj /usr/share/doc/mysql-connector-c++-1.1.6/README.bz2 3a065de31283f8f975fce0d9b4e59c81 1485389387
+obj /usr/share/doc/mysql-connector-c++-1.1.6/README.bz2 3a065de31283f8f975fce0d9b4e59c81 1507873227
 obj /usr/share/doc/mysql-connector-c++-1.1.6/COPYING.bz2 28960ae591f78fd5f47d29506e0d0387 1433422710
-obj /usr/share/doc/mysql-connector-c++-1.1.6/CHANGES.bz2 f912a0de7ee326df5dc71ed917c4e017 1485389387
+obj /usr/share/doc/mysql-connector-c++-1.1.6/CHANGES.bz2 f912a0de7ee326df5dc71ed917c4e017 1507873227
+dir /usr/share/doc/mysql-connector-c++-1.1.6/examples
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/connection_meta_schemaobj.cpp.bz2 69625cdfbeaf5d3dab5e662c90206c14 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/statement.cpp.bz2 6c024a4359aa962a9f41c4883e503d4e 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/cpp_trace_analyzer.php.bz2 784b97924d4509297398412b92237cb9 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/resultset_binary.cpp.bz2 847018d880b101791620d1a8daf0b2b6 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/resultset.cpp.bz2 113642efe72e252b9824090a5d61fbf3 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/exceptions.cpp.bz2 b6e37560a9366b8a4100010cca7b17aa 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/pthreads.cpp.bz2 e9458fcd0e555d0e896544466e565fa0 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/prepared_statement.cpp.bz2 658d22fdc051bf98c63644f6affd3b9b 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/README.bz2 7c21f70bafa7333410b0d99276101cc6 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/dynamic_load.cpp.bz2 2581a75d4a42c686c66f4bfb78d466de 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/resultset_types.cpp.bz2 ce8eee3c3f83de6c1d47e65df2617852 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/standalone_example_docs1.cpp.bz2 d8961f54c2d4b50e626acae8f01a94f3 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/standalone_example_docs2.cpp.bz2 7eb5b340d254ba0c9703a5b6aab65671 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/debug_output.cpp.bz2 cbdc884ade4f2fd11611f9879e7bbb9d 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/CMakeLists.txt.bz2 3ab651b903efffcd39d852ec2e4db7ec 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/resultset_meta.cpp.bz2 2637bcd94668ca3f8f5dc4bb9c49784c 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/examples.h.bz2 fcb93a0f52e4e7280ea7c2700a11069e 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/standalone_example.cpp.bz2 359f8ecba6719a4d71c8a9ded706ba4b 1507873227
+obj /usr/share/doc/mysql-connector-c++-1.1.6/examples/connect.cpp.bz2 7462df4a041cbdd61735445e6f93d8be 1507873227
 obj /usr/share/doc/mysql-connector-c++-1.1.6/INSTALL.bz2 b1289e8ab8de4b9529ad5f346ca8335c 1433422710
