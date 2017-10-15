@@ -1,734 +1,734 @@
 dir /lib
 dir /lib/udev
 dir /lib/udev/rules.d
-obj /lib/udev/rules.d/90-pulseaudio.rules e9f43b2501e424f6e483a1d17df9fe31 1495240556
+obj /lib/udev/rules.d/90-pulseaudio.rules e9f43b2501e424f6e483a1d17df9fe31 1508015508
 dir /etc
 dir /etc/pulse
-obj /etc/pulse/client.conf 16bb1fd7704eae3f0e7dde080b83e197 1495240556
-obj /etc/pulse/system.pa d506a717451b57190db339eec5956fa4 1495240556
-obj /etc/pulse/daemon.conf 8fbe3a076107b02024bbf66f2f255df3 1495240556
-obj /etc/pulse/default.pa afe6be233a258cb4735582b8164bcbd9 1495240559
+obj /etc/pulse/client.conf 16bb1fd7704eae3f0e7dde080b83e197 1508015509
+obj /etc/pulse/system.pa d506a717451b57190db339eec5956fa4 1508015509
+obj /etc/pulse/daemon.conf 8fbe3a076107b02024bbf66f2f255df3 1508015509
+obj /etc/pulse/default.pa afe6be233a258cb4735582b8164bcbd9 1508015516
 dir /etc/xdg
 dir /etc/xdg/autostart
-obj /etc/xdg/autostart/pulseaudio.desktop b8b5b35049270f2742fc8734a7af898e 1495240557
+obj /etc/xdg/autostart/pulseaudio.desktop b8b5b35049270f2742fc8734a7af898e 1508015509
 dir /etc/dbus-1
 dir /etc/dbus-1/system.d
 dir /usr
 dir /usr/lib
 dir /usr/lib/systemd
 dir /usr/lib/systemd/user
-obj /usr/lib/systemd/user/pulseaudio.socket 7c4bdc8b038b898d9beec5505b75e220 1495240557
-obj /usr/lib/systemd/user/pulseaudio.service e72e75213cee542f4bd1f9a95e66f835 1495240557
+obj /usr/lib/systemd/user/pulseaudio.socket 7c4bdc8b038b898d9beec5505b75e220 1508015509
+obj /usr/lib/systemd/user/pulseaudio.service e72e75213cee542f4bd1f9a95e66f835 1508015509
 dir /usr/lib64
 dir /usr/lib64/pulseaudio
-obj /usr/lib64/pulseaudio/libpulsedsp.so 2fad52deee50171a4b29c637a5fc2ac3 1495240562
-obj /usr/lib64/pulseaudio/libpulsecommon-10.0.so 66a99ad4b01b901d57d1f3b24912b08e 1495240561
-obj /usr/lib64/pulseaudio/libpulsecore-10.0.so b686250ec009b4843a27b7800bbb4803 1495240561
-sym /usr/lib64/libpulse-simple.so -> libpulse-simple.so.0.1.0 1495240569
-sym /usr/lib64/libpulse.so -> libpulse.so.0.20.1 1495240569
-sym /usr/lib64/libpulse-mainloop-glib.so -> libpulse-mainloop-glib.so.0.0.5 1495240569
-obj /usr/lib64/libpulse-mainloop-glib.so.0.0.5 12d67c3f0f70bf56d43429a3523e2cfd 1495240561
-obj /usr/lib64/libpulse-simple.so.0.1.0 d4a05f5c3ce7bc0f8f304f37ca6bb578 1495240561
+obj /usr/lib64/pulseaudio/libpulsedsp.so 3829c3119fe8fc7aa2577c55cfd4e86b 1508015517
+obj /usr/lib64/pulseaudio/libpulsecommon-10.0.so bb1f0150b9478f21e5c19899f7aadc1e 1508015517
+obj /usr/lib64/pulseaudio/libpulsecore-10.0.so afd9e6918335b62081be475d8aecdf27 1508015517
+sym /usr/lib64/libpulse-simple.so -> libpulse-simple.so.0.1.0 1508015523
+sym /usr/lib64/libpulse.so -> libpulse.so.0.20.1 1508015523
+sym /usr/lib64/libpulse-mainloop-glib.so -> libpulse-mainloop-glib.so.0.0.5 1508015523
+obj /usr/lib64/libpulse-mainloop-glib.so.0.0.5 1fe4d16dfc42e0e9b465b7ffa4a5fb88 1508015517
+obj /usr/lib64/libpulse-simple.so.0.1.0 bdc3544877d935daa04a19918165653c 1508015517
 dir /usr/lib64/cmake
 dir /usr/lib64/cmake/PulseAudio
-obj /usr/lib64/cmake/PulseAudio/PulseAudioConfigVersion.cmake 12991df46684a28d947352d41fa53fc0 1495240559
-obj /usr/lib64/cmake/PulseAudio/PulseAudioConfig.cmake 568e9940d4a5658611a7cecfccf4a47e 1495240559
-sym /usr/lib64/libpulse.so.0 -> libpulse.so.0.20.1 1495240569
+obj /usr/lib64/cmake/PulseAudio/PulseAudioConfigVersion.cmake 12991df46684a28d947352d41fa53fc0 1508015515
+obj /usr/lib64/cmake/PulseAudio/PulseAudioConfig.cmake 568e9940d4a5658611a7cecfccf4a47e 1508015515
+sym /usr/lib64/libpulse.so.0 -> libpulse.so.0.20.1 1508015523
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/libpulse-simple.pc 45936971994be6039ff0b7a588b97864 1495240559
-obj /usr/lib64/pkgconfig/libpulse-mainloop-glib.pc 8ec53213f5feef8d6eb44e8219db8b1a 1495240559
-obj /usr/lib64/pkgconfig/libpulse.pc af8f8ebc50eab5bec2349d92b2a01956 1495240559
+obj /usr/lib64/pkgconfig/libpulse-simple.pc 45936971994be6039ff0b7a588b97864 1508015515
+obj /usr/lib64/pkgconfig/libpulse-mainloop-glib.pc 8ec53213f5feef8d6eb44e8219db8b1a 1508015515
+obj /usr/lib64/pkgconfig/libpulse.pc af8f8ebc50eab5bec2349d92b2a01956 1508015515
 dir /usr/lib64/pulse-10.0
 dir /usr/lib64/pulse-10.0/modules
-obj /usr/lib64/pulse-10.0/modules/module-equalizer-sink.so 68a4101a46675dc7136158d1876457d6 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-null-source.so 596c5683ccd917d466fdc57d8e93a1fc 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-tunnel-source-new.so f106f836806551a0bcad18e930916ef8 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-rtp-send.so 6a2f19f0abd0b80331691d49dd3db9bf 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-sine-source.so af97f9716814aa0eced8c2863a13eeb7 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-combine.so 78f6de0de1c8556c5cf46164adfb842f 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-http-protocol-tcp.so 65ec352ae13e2c27b9952d465918fb1d 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-rescue-streams.so 6021643a25a14ca0e133d26992a884e8 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-alsa-source.so 62998a3f3d4054020eee89cebe3b8c75 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-echo-cancel.so 2592f7b7fbb416d894b0b4ba56a9609f 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-always-sink.so a93d348f5f113dda4a38c0b53a69a8f3 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-x11-cork-request.so 895c361d60d2c9ffcf59059bf60aaea1 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-switch-on-port-available.so 0c71bace7f7c4066bd01b9814edf57e8 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-cli-protocol-tcp.so 11cc34c189f614b7fbee8aef48a2c3bb 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-device-restore.so a28b62c161ab398603fd690e71c8eec7 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-virtual-source.so c5574a48e62b5e9bb2e16efbfbbc6893 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-default-device-restore.so b50e6c07f6e215283dad36295ce3ea16 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-simple-protocol-tcp.so e9ec76f66066e4029a01632c67d52895 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-console-kit.so 85913d901682ebbc037044d4fec4d5fa 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-device-manager.so 8343d4c41360c46cbc85ce13640555ab 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-jack-source.so 834e593102d258d04ec7bafa1e78e8ca 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-sine.so 8e30869cd5a9cda2284e4e07de6a3485 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-cli.so b8084d6e98a195504e2040f49d3d5f34 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-alsa-card.so afd212c0fd9a9d6a5542b804558f59f3 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-native-protocol-fd.so ca756ae8b77fe23ef0af465fabc97cd5 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-allow-passthrough.so 12dcf934421af096d2adbf3f849523cd 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-bluetooth-discover.so 48b6ec92846b79df3939515f0fc1cbb2 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-x11-bell.so 94fe5f59d3c80c4acc009ea277fd107b 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-suspend-on-idle.so a158a393e79c534e2d52ed24303a4a57 1495240561
-obj /usr/lib64/pulse-10.0/modules/librtp.so e6ec399af7cd67213a2d4d7ddfd29c5c 1495240561
-obj /usr/lib64/pulse-10.0/modules/libalsa-util.so acd03e08e3108b236b09c033bd34c4bf 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-pipe-source.so 93306e44b041a527d31fcde3a22b3b82 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-match.so 806a60fb61793813a28b6a82f99f9289 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-native-protocol-tcp.so 63b1bb7d301da87a63c3c0b33a8f3cad 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-x11-xsmp.so c808e5c7962ae4c5aec41775a348a3ed 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-bluez5-discover.so ea0a62e92ade9dc03fcf5915a028c256 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-raop-discover.so 913d84a69bdc4ac75e3ef4d1bd6e1d3e 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-raop-sink.so a561db486f943cd025b55001f3ecaeae 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-tunnel-sink-new.so 74cdb2701e9f5007e22e92a0e1fc5dc8 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-switch-on-connect.so 7f1721edab12cb985022beb110d9f9f8 1495240562
-obj /usr/lib64/pulse-10.0/modules/libavahi-wrap.so 61858b11cede180448976f59bc6a1716 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-card-restore.so 8d10da8629cfeb93a2052fcf48a6f99a 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-zeroconf-discover.so 92c0a814ff8dac5fff289006fb1bd920 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-null-sink.so f3d6c96f96ddd0bd5484159e092758fd 1495240561
-obj /usr/lib64/pulse-10.0/modules/libprotocol-cli.so f6794f941dcc9f71c5872a2d7f24fc0c 1495240561
-obj /usr/lib64/pulse-10.0/modules/libprotocol-simple.so 654fc436a139116a17818f95518eb9c1 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-pipe-sink.so cbdd7b202f128d2e60a874e966010cd7 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-virtual-surround-sink.so 86dddec0a45541e10b9f58aa60600112 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-tunnel-sink.so 26488e88136ccd677822dc2d00774ee3 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-filter-apply.so f374b912bbb9c0693f0d34917126b494 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-stream-restore.so 1783240d065a7c0620a0a6bf3d99add8 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-combine-sink.so c09d445a3ff73e598d6e66a9f2624026 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-bluez5-device.so 85f55d21472d2549d8c9884f3ed9bf6f 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-role-ducking.so 91a4a6c29f30913d5cf0f0d77bf353d2 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-detect.so b9e80a5ab33313e718c53396ce17fee2 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-role-cork.so d08d7d74a527c22a9da1c3b4b7a48bd1 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-x11-publish.so 2f0203d7e0cd390ecae017a230de620c 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-mmkbd-evdev.so 575b3f5f9895c9915cc60f021c12c9c5 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-http-protocol-unix.so 24960939e1bd882a9fca4df1b6eb77db 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-zeroconf-publish.so 152ec94cde90ecb281efe7efca892d1f 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-jackdbus-detect.so 9dbd9ee0cb37f4ef88378d9f82d42bab 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-gconf.so b73502183b47a1950a46f437ff3de7eb 1495240562
-obj /usr/lib64/pulse-10.0/modules/libraop.so 9edd674b6462bccbab09448faac2eaea 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-position-event-sounds.so 83e93a0a58cc9cfa47d8de9938eb8006 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-intended-roles.so bdc3aa78cca901888dcff6136edb447c 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-augment-properties.so c74cab630fcfd9a6f3697920f50379b1 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-native-protocol-unix.so bbcd2d86f27929a6e59f266f0af642f7 1495240562
-obj /usr/lib64/pulse-10.0/modules/libbluez5-util.so 3166b96b208af538bc52875bbf91fe5e 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-tunnel-source.so c255b1db9281710b8fd380be8853a90e 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-rtp-recv.so 434889e26264dc708361d875d3b3d01f 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-simple-protocol-unix.so 4c8f8170eb4918a34549f22b12c20519 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-virtual-sink.so c2cbc20eb9f17be960347c5478721758 1495240562
-obj /usr/lib64/pulse-10.0/modules/libprotocol-native.so 2d7bb891a1831cd719487a57f533a8eb 1495240561
-obj /usr/lib64/pulse-10.0/modules/libcli.so f32cecc2f8879775e3bb07a9c68a45da 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-alsa-sink.so 522fcca44f878933008683fefa810d08 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-jack-sink.so 4707bc8eabae89ea4dd301a1ba91cd3b 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-rygel-media-server.so 17d39ca0a4df04b1234cbdb3e509b167 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-dbus-protocol.so 234bf934f67da605ecb38c9091337366 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-ladspa-sink.so 8f119b09b87a95b78187f26974e43d84 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-remap-sink.so aa52604920947890e6933619c69c649a 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-loopback.so cfc5007845602ac630143151d2cede09 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-systemd-login.so 2320d0c037f12fb466aa241e0c602787 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-udev-detect.so abb063b84978bd47b847a2534ecf39e1 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-cli-protocol-unix.so 6cc6a16f100db5bc5dddee15a7985b5f 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-hal-detect.so f83f78bc92260d9060a486bf24cc3f98 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-bluetooth-policy.so db3a653aea9abe0739ab675857df0195 1495240562
-obj /usr/lib64/pulse-10.0/modules/libprotocol-http.so 7adb9c2df696ca0e9316f085011e7f44 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-lirc.so eaaf4518a52359cd809c46ee4ee2fcc7 1495240562
-obj /usr/lib64/pulse-10.0/modules/module-filter-heuristics.so 79c412cec1ed9c6a8a31ff0eb4b45336 1495240562
-obj /usr/lib64/pulse-10.0/modules/libwebrtc-util.so 10269f5802ec42df88f2a97c659e0458 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-remap-source.so fdb208ff9243342fba94a5c32fadaaa4 1495240561
-obj /usr/lib64/pulse-10.0/modules/module-volume-restore.so 0c13afc7d2431663d59120aa4186ba2a 1495240561
-sym /usr/lib64/libpulse-mainloop-glib.so.0 -> libpulse-mainloop-glib.so.0.0.5 1495240569
-sym /usr/lib64/libpulse-simple.so.0 -> libpulse-simple.so.0.1.0 1495240569
-obj /usr/lib64/libpulse.so.0.20.1 b39bc92e40535d04bfdeb45d2c56c0b8 1495240561
+obj /usr/lib64/pulse-10.0/modules/module-equalizer-sink.so ec46d8f0f88d114b908436cff9a61040 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-null-source.so c23f49ff6b72cd5ae873b03d26ceca3a 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-tunnel-source-new.so b8d5e8dd6d476e3611b6093b64a95cd6 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-rtp-send.so ba8f92a16d75391b07a880c3712a13a5 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-sine-source.so a9b6948b9392af971e961efb7e669732 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-combine.so 91081a13b3c8d056e4d762911f448b70 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-http-protocol-tcp.so 7a548b1abe26f6eb171b4c749750e61c 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-rescue-streams.so a853179e925166045ffd01efd51d7de5 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-alsa-source.so 4c0834c716ae4a1c87cecaa2e7a3360e 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-echo-cancel.so 3ca60fc83218d42d7de157f11b631de1 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-always-sink.so 97aac6a158ec428c6dd687415c1fd335 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-x11-cork-request.so 87eab31e72ed9908a3bdc61f3626c565 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-switch-on-port-available.so 20c72e7dd128ba11e5eafad5a2f9d9f8 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-cli-protocol-tcp.so 99bd01cbcfb0419658793b1e11c38f78 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-device-restore.so 43e58b6fa87f81bdff7b4b24c59c210c 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-virtual-source.so d78319dc51c5668f9fa2460e34fefc50 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-default-device-restore.so 86e08863c3f341f744e8004e3d850b49 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-simple-protocol-tcp.so 9e19cf37a45146e85c9d7f6b658992a2 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-console-kit.so 0e0edbfabd0275c463c86540cd5db594 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-device-manager.so 6b93bc681bc7cc319ad7624d4efbcae1 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-jack-source.so c782c3d34d0a5efb9ec498ba8df92150 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-sine.so 69eef71d6c1690ed0c66cb785e5707db 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-cli.so eb94c49f71ea61e751738e75c07251d2 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-alsa-card.so 63ae04ecf41e6cd68dcff741c181711a 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-native-protocol-fd.so 538fb3096509a07ecfae76001c4e4db7 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-allow-passthrough.so 40d1268ea12d6278564a4439c85e8c57 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-bluetooth-discover.so 03e920ee0da710e6b2c1796d0d757da0 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-x11-bell.so 4b6c428b8d95ba49824765b956102534 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-suspend-on-idle.so f750fa373a4eb04238f4279d217c961a 1508015518
+obj /usr/lib64/pulse-10.0/modules/librtp.so a135b7b3db11717674169df98b200d61 1508015518
+obj /usr/lib64/pulse-10.0/modules/libalsa-util.so e9d54da3ec8feac7a89ce51ccee66eff 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-pipe-source.so cd1bbf07aa18cbf588c89580a426eb60 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-match.so eededba4ea0dbf9c0f46cd85be37c90b 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-native-protocol-tcp.so 343e4ece9fc0eb10157fec00d39cb19a 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-x11-xsmp.so 3cbfa86cf6ef0e3c4e8056d29268d56e 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-bluez5-discover.so 411b253c070d885e92d56654113438d2 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-raop-discover.so 4941428c68517db04cf1909968955a8c 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-raop-sink.so de02fc6325a995fde6c7c39c83233f63 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-tunnel-sink-new.so 70479413bf7a5e52ed085f2f971b07ba 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-switch-on-connect.so 2a3f0b60e220652f08b609d34bf12935 1508015518
+obj /usr/lib64/pulse-10.0/modules/libavahi-wrap.so be8ec06a7e3d9bf0de5481e87beadea9 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-card-restore.so 1bc62056d032dcdefe98da8e2f2dc853 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-zeroconf-discover.so 26ff7a756f89c7e3a0937a29c700e1da 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-null-sink.so 1494895ee43da3515cc02cc00e1f28c3 1508015518
+obj /usr/lib64/pulse-10.0/modules/libprotocol-cli.so 9f224644f0d890465dcb99988b7ca11e 1508015518
+obj /usr/lib64/pulse-10.0/modules/libprotocol-simple.so 62630534fd699ea05adc5a6a8704be64 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-pipe-sink.so eaa1e0bd4d356bf0a9953d7d2954e3d8 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-virtual-surround-sink.so efa3404558ef261cc0af62c0ecd3d339 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-tunnel-sink.so 912867b821c805393bf303206d59b6e7 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-filter-apply.so 7a9a8b8c64919aa04648ea71b18b4f75 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-stream-restore.so d24411bfa780403062a486747ce6b20b 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-combine-sink.so e2586852d2cf778f5d6eb6a5b6a2bc84 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-bluez5-device.so 731a59effa64867e6c8b0adbbe3cabb7 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-role-ducking.so 4c1b32aa6765c7ee6021fb6f90909053 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-detect.so 045b46c52ec4a404c3c973f759b09eee 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-role-cork.so 1eee2693f138a1c8bad90cfbd1c4428f 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-x11-publish.so f63c5b978d4daf539e8c58241bd6b2b4 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-mmkbd-evdev.so 91d747f01829000d303c4d4eb1ae9d5f 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-http-protocol-unix.so d1cc36ce3c139d4478fffbec3512bb8b 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-zeroconf-publish.so 8a0c60ce77f635f811530bcd58910825 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-jackdbus-detect.so 5b700d02ee0416ded8ed1127eb50a6ea 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-gconf.so 0fb476bae16718dd13992781cfa9b45f 1508015518
+obj /usr/lib64/pulse-10.0/modules/libraop.so 02a84f913a7650c287380c81521af195 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-position-event-sounds.so 0b247bc81c39cf571e9992ddac4f192d 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-intended-roles.so 529e7a5d98ef391e3726f3b0d055ee45 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-augment-properties.so 58b92e122ff070684587074cda3ab0b8 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-native-protocol-unix.so 6cc08e26832138438a9875b83bb080aa 1508015518
+obj /usr/lib64/pulse-10.0/modules/libbluez5-util.so 3f71690c312b81a759d4c4c2fd3da188 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-tunnel-source.so 76927f5fa7bd3c078025418e5d60030e 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-rtp-recv.so 31126e18d543a7106402bbf398005706 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-simple-protocol-unix.so 6e8bfc5554169b0ce3352591255eeb66 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-virtual-sink.so e6bf69f4af4d4a47956ddb0a7742156e 1508015518
+obj /usr/lib64/pulse-10.0/modules/libprotocol-native.so 136fbc0c1697445a9238c8fef78897dd 1508015518
+obj /usr/lib64/pulse-10.0/modules/libcli.so c41b86d1f8c4f81563fececd507c0cbe 1508015517
+obj /usr/lib64/pulse-10.0/modules/module-alsa-sink.so 5eb72f033c25a3e5543a6b878787ff5e 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-jack-sink.so bae7c89fd22dbe4c38c8c61aca8438de 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-rygel-media-server.so 5822f5c2bebbf80d4685e88f08bf7a54 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-dbus-protocol.so 7d1b6ef52b955d043753d42a52154689 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-ladspa-sink.so 0d5d91c817debdfaaa7e95f8734ba8df 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-remap-sink.so 8b9de35a482db4d31aa6fd3b052e2fe6 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-loopback.so 947b9ab800dbfda73ef271fc72b02469 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-systemd-login.so c0e9983e8189953ebf144092c87304c2 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-udev-detect.so cdf67a07e62497cb0d004579076b313a 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-cli-protocol-unix.so aa0a95febf8816e6486e5db328c7d288 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-hal-detect.so 10bfa0ccedf2c6e7e8d9fa7d2033bd4c 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-bluetooth-policy.so 1146ddce81dfc71edfea5fff2508f1fc 1508015518
+obj /usr/lib64/pulse-10.0/modules/libprotocol-http.so 3d03fc6fed9cc5cacddeeefc0f609af8 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-lirc.so 6a7f7ff40c576acb2c97412c59d81760 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-filter-heuristics.so 37a3a39d6d064f2feec2ee058be21951 1508015518
+obj /usr/lib64/pulse-10.0/modules/libwebrtc-util.so 35b0554f9c9c066dd292b462898c0559 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-remap-source.so fd8760a6f761e89484e5a52fdcb6d606 1508015518
+obj /usr/lib64/pulse-10.0/modules/module-volume-restore.so e03c222b75a47a36f43464b66e354c61 1508015518
+sym /usr/lib64/libpulse-mainloop-glib.so.0 -> libpulse-mainloop-glib.so.0.0.5 1508015523
+sym /usr/lib64/libpulse-simple.so.0 -> libpulse-simple.so.0.1.0 1508015523
+obj /usr/lib64/libpulse.so.0.20.1 7c7e7bf44b1d8a714fe585ebf8769302 1508015517
 dir /usr/libexec
 dir /usr/libexec/pulse
-obj /usr/libexec/pulse/gconf-helper 6e3b6125b35b8ce833041ee7b8e8da3f 1495240562
+obj /usr/libexec/pulse/gconf-helper c5040055b0c5eb71b75f75d9d479ed34 1508015518
 dir /usr/include
 dir /usr/include/pulse
-obj /usr/include/pulse/error.h 64f2f48ca1d40a1c3235b2e605b3aefb 1495240556
-obj /usr/include/pulse/pulseaudio.h 794de438b7a7afe4e95d1a0d57bbc380 1495240556
-obj /usr/include/pulse/util.h 3ef421b475b55412a94a9c7400fa4cd6 1495240556
-obj /usr/include/pulse/ext-device-manager.h 1ee9630945a69ea769f61d9986138af1 1495240556
-obj /usr/include/pulse/cdecl.h d0412c0287dad88c303237bded8d5a42 1495240556
-obj /usr/include/pulse/mainloop.h 693df775291b7c196ba20a03570a7a41 1495240556
-obj /usr/include/pulse/volume.h de700748c2f1ad2aff478779342eb26d 1495240556
-obj /usr/include/pulse/utf8.h dba186b6cb3137094c29ee575c79a6b2 1495240556
-obj /usr/include/pulse/format.h eea6b758bcbfc2edc12a3525f913f3d4 1495240556
-obj /usr/include/pulse/proplist.h 49478179127e9f5d3c72194b19de6552 1495240556
-obj /usr/include/pulse/channelmap.h 5a5709f754e12bfac691e41bfbbd7be8 1495240556
-obj /usr/include/pulse/operation.h c75c943fc40a86620ea11497aad03a74 1495240556
-obj /usr/include/pulse/glib-mainloop.h eed0971e67d40644b326a63a5feeec78 1495240556
-obj /usr/include/pulse/simple.h 33c2c4de15cb51e468c19c10772848c1 1495240556
-obj /usr/include/pulse/context.h 53a71e5cf4756adc3e6cc813879adc1f 1495240556
-obj /usr/include/pulse/thread-mainloop.h 52608350d38f0d558d47bacbe620e4a4 1495240556
-obj /usr/include/pulse/version.h 02f4e0ef4f766a787aa7731f95742d8d 1495240556
-obj /usr/include/pulse/sample.h 80dc81b0b7e22256814456e94722d9c9 1495240556
-obj /usr/include/pulse/ext-device-restore.h f698f8616c006fe1f031f60f4d1c50a8 1495240556
-obj /usr/include/pulse/gccmacro.h 7e112c565ea3cc2bbe2d373a7247aa73 1495240556
-obj /usr/include/pulse/scache.h e539b03d2a50311df05343873a9d0cde 1495240556
-obj /usr/include/pulse/timeval.h e21bef9dff79a35f80011b9289cdca1f 1495240556
-obj /usr/include/pulse/mainloop-signal.h 843aac36048160f324c22f41dc4c87a1 1495240556
-obj /usr/include/pulse/def.h ad5f1dad6d43c3138365c24933a859e2 1495240556
-obj /usr/include/pulse/stream.h 289587849fdeb256f64fccab6c1ec2cd 1495240556
-obj /usr/include/pulse/ext-stream-restore.h 6528bff16f6f43687e0144b875b587c0 1495240556
-obj /usr/include/pulse/mainloop-api.h 0a416bae78db3a2ad00f60d2917b2cd3 1495240556
-obj /usr/include/pulse/introspect.h 7fe567c7b09652ed630c0c1482451df0 1495240556
-obj /usr/include/pulse/subscribe.h e8a5d7cbbbfc4d735cb936f365855451 1495240556
-obj /usr/include/pulse/rtclock.h 29806fb0d79ce30db32d2c278da14e06 1495240556
-obj /usr/include/pulse/direction.h cb12d69204c7b63bb0991079b0329e01 1495240556
-obj /usr/include/pulse/xmalloc.h b5dd2885bde4ffbad8a261c74f44e059 1495240556
+obj /usr/include/pulse/error.h 64f2f48ca1d40a1c3235b2e605b3aefb 1508015509
+obj /usr/include/pulse/pulseaudio.h 794de438b7a7afe4e95d1a0d57bbc380 1508015509
+obj /usr/include/pulse/util.h 3ef421b475b55412a94a9c7400fa4cd6 1508015509
+obj /usr/include/pulse/ext-device-manager.h 1ee9630945a69ea769f61d9986138af1 1508015509
+obj /usr/include/pulse/cdecl.h d0412c0287dad88c303237bded8d5a42 1508015509
+obj /usr/include/pulse/mainloop.h 693df775291b7c196ba20a03570a7a41 1508015509
+obj /usr/include/pulse/volume.h de700748c2f1ad2aff478779342eb26d 1508015509
+obj /usr/include/pulse/utf8.h dba186b6cb3137094c29ee575c79a6b2 1508015509
+obj /usr/include/pulse/format.h eea6b758bcbfc2edc12a3525f913f3d4 1508015509
+obj /usr/include/pulse/proplist.h 49478179127e9f5d3c72194b19de6552 1508015509
+obj /usr/include/pulse/channelmap.h 5a5709f754e12bfac691e41bfbbd7be8 1508015509
+obj /usr/include/pulse/operation.h c75c943fc40a86620ea11497aad03a74 1508015509
+obj /usr/include/pulse/glib-mainloop.h eed0971e67d40644b326a63a5feeec78 1508015509
+obj /usr/include/pulse/simple.h 33c2c4de15cb51e468c19c10772848c1 1508015509
+obj /usr/include/pulse/context.h 53a71e5cf4756adc3e6cc813879adc1f 1508015509
+obj /usr/include/pulse/thread-mainloop.h 52608350d38f0d558d47bacbe620e4a4 1508015509
+obj /usr/include/pulse/version.h 02f4e0ef4f766a787aa7731f95742d8d 1508015509
+obj /usr/include/pulse/sample.h 80dc81b0b7e22256814456e94722d9c9 1508015509
+obj /usr/include/pulse/ext-device-restore.h f698f8616c006fe1f031f60f4d1c50a8 1508015509
+obj /usr/include/pulse/gccmacro.h 7e112c565ea3cc2bbe2d373a7247aa73 1508015509
+obj /usr/include/pulse/scache.h e539b03d2a50311df05343873a9d0cde 1508015509
+obj /usr/include/pulse/timeval.h e21bef9dff79a35f80011b9289cdca1f 1508015509
+obj /usr/include/pulse/mainloop-signal.h 843aac36048160f324c22f41dc4c87a1 1508015509
+obj /usr/include/pulse/def.h ad5f1dad6d43c3138365c24933a859e2 1508015509
+obj /usr/include/pulse/stream.h 289587849fdeb256f64fccab6c1ec2cd 1508015509
+obj /usr/include/pulse/ext-stream-restore.h 6528bff16f6f43687e0144b875b587c0 1508015509
+obj /usr/include/pulse/mainloop-api.h 0a416bae78db3a2ad00f60d2917b2cd3 1508015509
+obj /usr/include/pulse/introspect.h 7fe567c7b09652ed630c0c1482451df0 1508015509
+obj /usr/include/pulse/subscribe.h e8a5d7cbbbfc4d735cb936f365855451 1508015509
+obj /usr/include/pulse/rtclock.h 29806fb0d79ce30db32d2c278da14e06 1508015509
+obj /usr/include/pulse/direction.h cb12d69204c7b63bb0991079b0329e01 1508015509
+obj /usr/include/pulse/xmalloc.h b5dd2885bde4ffbad8a261c74f44e059 1508015509
 dir /usr/lib32
 dir /usr/lib32/pulseaudio
-obj /usr/lib32/pulseaudio/libpulsedsp.so 0c0d8ea730e9529ec2d5921e377c42d9 1495240561
-obj /usr/lib32/pulseaudio/libpulsecommon-10.0.so c072e970575e9f4b9164d6d4443c7842 1495240561
-sym /usr/lib32/libpulse-simple.so -> libpulse-simple.so.0.1.0 1495240569
-sym /usr/lib32/libpulse.so -> libpulse.so.0.20.1 1495240569
-sym /usr/lib32/libpulse-mainloop-glib.so -> libpulse-mainloop-glib.so.0.0.5 1495240569
-obj /usr/lib32/libpulse-mainloop-glib.so.0.0.5 a62df65a95be44da17d15927eb459d78 1495240561
-obj /usr/lib32/libpulse-simple.so.0.1.0 fc93a32d8354ddb4b7a8c11bfa86f8cc 1495240561
-sym /usr/lib32/libpulse.so.0 -> libpulse.so.0.20.1 1495240569
+obj /usr/lib32/pulseaudio/libpulsedsp.so f069d899ac5010e411f0e628c8badbff 1508015517
+obj /usr/lib32/pulseaudio/libpulsecommon-10.0.so 7c696d2b702168eda3ac3cec133cef33 1508015517
+sym /usr/lib32/libpulse-simple.so -> libpulse-simple.so.0.1.0 1508015523
+sym /usr/lib32/libpulse.so -> libpulse.so.0.20.1 1508015523
+sym /usr/lib32/libpulse-mainloop-glib.so -> libpulse-mainloop-glib.so.0.0.5 1508015523
+obj /usr/lib32/libpulse-mainloop-glib.so.0.0.5 efc22e3693aedbcb26f38d2ba742fcaf 1508015517
+obj /usr/lib32/libpulse-simple.so.0.1.0 c911c7bd048c7d01a414ecaf1cdbda19 1508015517
+sym /usr/lib32/libpulse.so.0 -> libpulse.so.0.20.1 1508015523
 dir /usr/lib32/pkgconfig
-obj /usr/lib32/pkgconfig/libpulse-simple.pc 80c0734febc0c4f54aac60d349748b32 1495240516
-obj /usr/lib32/pkgconfig/libpulse-mainloop-glib.pc ed65ead52e473cc0191711fbca0e2b6b 1495240516
-obj /usr/lib32/pkgconfig/libpulse.pc 9a85da1564c43892d65f9a312d6396d1 1495240516
-sym /usr/lib32/libpulse-mainloop-glib.so.0 -> libpulse-mainloop-glib.so.0.0.5 1495240569
-sym /usr/lib32/libpulse-simple.so.0 -> libpulse-simple.so.0.1.0 1495240569
-obj /usr/lib32/libpulse.so.0.20.1 95a47dd0c099593e24bcb3df9e83fe4b 1495240561
+obj /usr/lib32/pkgconfig/libpulse-simple.pc 80c0734febc0c4f54aac60d349748b32 1508015471
+obj /usr/lib32/pkgconfig/libpulse-mainloop-glib.pc ed65ead52e473cc0191711fbca0e2b6b 1508015471
+obj /usr/lib32/pkgconfig/libpulse.pc 9a85da1564c43892d65f9a312d6396d1 1508015471
+sym /usr/lib32/libpulse-mainloop-glib.so.0 -> libpulse-mainloop-glib.so.0.0.5 1508015523
+sym /usr/lib32/libpulse-simple.so.0 -> libpulse-simple.so.0.1.0 1508015523
+obj /usr/lib32/libpulse.so.0.20.1 aa0ea273d3e4fba243867e80ff98336c 1508015517
 dir /usr/bin
-obj /usr/bin/pulseaudio 30edd841f2d4bb9f500c4c08b5eef270 1495240561
-obj /usr/bin/pax11publish bd5945c99b917bb75e3bceb4869e387d 1495240561
-obj /usr/bin/pacmd 17ed96d4a6f9d3616191ee866804bfbc 1495240561
-obj /usr/bin/padsp 12a7036b3091292d35842487a7a65491 1495240520
-obj /usr/bin/pasuspender c7eea77fd3e3e49cbbe3b2ec23774825 1495240561
-sym /usr/bin/pamon -> pacat 1495240569
-sym /usr/bin/parecord -> pacat 1495240569
-obj /usr/bin/pacat a56b39613521d68a3875d09165c99d5e 1495240561
-obj /usr/bin/qpaeq 68630d168be28477385b1d5045415bb1 1495240520
-obj /usr/bin/pactl f4f68b402ae16f47453261f0dd0336ed 1495240561
-sym /usr/bin/paplay -> pacat 1495240569
-obj /usr/bin/start-pulseaudio-x11 7b4cb967d7bc8a8377eee6d4a9b36b3b 1495240520
-obj /usr/bin/esdcompat 41931620be4c4e3bec2117890c96858f 1495240520
-sym /usr/bin/parec -> pacat 1495240569
+obj /usr/bin/pulseaudio b8f58c300db26d95db0a2a79effda09d 1508015517
+obj /usr/bin/pax11publish 18beda1b023246b912be773e0cef8bd1 1508015517
+obj /usr/bin/pacmd 68a3025d6838f77bb8b6c16aa8a1b56b 1508015517
+obj /usr/bin/padsp 12a7036b3091292d35842487a7a65491 1508015474
+obj /usr/bin/pasuspender 079a081da7baa3470ca6423c7e2bd8f6 1508015517
+sym /usr/bin/pamon -> pacat 1508015523
+sym /usr/bin/parecord -> pacat 1508015523
+obj /usr/bin/pacat 3b1f53ad93d3cc2d140a333217f70a92 1508015517
+obj /usr/bin/qpaeq 68630d168be28477385b1d5045415bb1 1508015474
+obj /usr/bin/pactl f1c92769f9c85b410f5ad85c3d580385 1508015517
+sym /usr/bin/paplay -> pacat 1508015523
+obj /usr/bin/start-pulseaudio-x11 7b4cb967d7bc8a8377eee6d4a9b36b3b 1508015474
+obj /usr/bin/esdcompat 41931620be4c4e3bec2117890c96858f 1508015474
+sym /usr/bin/parec -> pacat 1508015523
 dir /usr/share
 dir /usr/share/pulseaudio
 dir /usr/share/pulseaudio/alsa-mixer
 dir /usr/share/pulseaudio/alsa-mixer/profile-sets
-obj /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio6.conf 1341780ad2887db4f71bd71e1427d14d 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-audio4dj.conf abfd88b83ede3f0b08834cf60fb7fc4b 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-audio8dj.conf b98048862a8814095b4d5e49b783fc3a 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/profile-sets/kinect-audio.conf 5c101ef72604b5ab739cbb4291b70dea 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/profile-sets/sb-omni-surround-5.1.conf 1e2b7c2907dbdb57f11ada379e11a67e 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-korecontroller.conf f2a9f721c3447c7bfd4d06dddad39588 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/profile-sets/default.conf d6c12cebbafc2edd52fc2f0d1782adec 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/profile-sets/force-speaker-and-int-mic.conf f2ec38f442e0a1093bbe4b81f867084a 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/profile-sets/maudio-fasttrack-pro.conf 299571cdfc7b56d6a119b2814b37d2be 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktorkontrol-s4.conf 9509fc328c9819566064c98018ef9cb9 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/profile-sets/force-speaker.conf 5c7d9c0cd1ece17ad6cbf88b86121e61 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio10.conf 15acfe002fd1d90214dc854cb8efa3a0 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio2.conf 6555fce180df55031deaa9386b8f6ffb 1495240556
+obj /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio6.conf 1341780ad2887db4f71bd71e1427d14d 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-audio4dj.conf abfd88b83ede3f0b08834cf60fb7fc4b 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-audio8dj.conf b98048862a8814095b4d5e49b783fc3a 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/profile-sets/kinect-audio.conf 5c101ef72604b5ab739cbb4291b70dea 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/profile-sets/sb-omni-surround-5.1.conf 1e2b7c2907dbdb57f11ada379e11a67e 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-korecontroller.conf f2a9f721c3447c7bfd4d06dddad39588 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/profile-sets/default.conf d6c12cebbafc2edd52fc2f0d1782adec 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/profile-sets/force-speaker-and-int-mic.conf f2ec38f442e0a1093bbe4b81f867084a 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/profile-sets/maudio-fasttrack-pro.conf 299571cdfc7b56d6a119b2814b37d2be 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktorkontrol-s4.conf 9509fc328c9819566064c98018ef9cb9 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/profile-sets/force-speaker.conf 5c7d9c0cd1ece17ad6cbf88b86121e61 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio10.conf 15acfe002fd1d90214dc854cb8efa3a0 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/profile-sets/native-instruments-traktor-audio2.conf 6555fce180df55031deaa9386b8f6ffb 1508015508
 dir /usr/share/pulseaudio/alsa-mixer/paths
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-video.conf 22cfb30eb7cbb0bf26684102ceb0863a 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/iec958-stereo-output.conf ac40111b91df894be1849670963f1ff3 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-headset-mic.conf b29016e07dd9c70ed6c23cffd6f6e6d6 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output.conf.common c403391c7dfe0acee2859ae9a0db5ab5 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-rear-mic.conf a3c8d52fda21bc7f3f5db6ec4831396d 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-front-mic.conf d3253ea318740187c50557e89296d0cf 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-aux.conf 01c9bec90862529ef0cfc03230e07cbd 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input.conf.common 780219dfbe146b6e81e73d9b9d5aaf6d 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output-headphones-2.conf ed7ff23099053639e176d7ed858ca748 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic.conf c9c758a158aca197041375576d2a3861 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-7.conf 3b89385ae89c018aee60bcfdeca53858 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf 557cfe06acd609cce6524b6c1cf495d6 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-2.conf 933174c31e545a4c27eeb1533523f543 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf.common 727a3b3f6f8de050c82babb1c649b5b6 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-headphone-mic.conf 6fba61b3fd66f1b42a745d4f6885dd25 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output-speaker.conf 7e238b6fd3acbf194737a0860fea46e3 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output-lineout.conf 2f2f7de80eb35c9266d886510b38411e 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output-headphones.conf cbf323f5cb80d504a5eee5c4da645500 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-6.conf 6b5dfa8eb2b8d0f1e3130a377291dbd0 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-1.conf 94ad2d7f68a539e56b5a67e0e27f9037 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output-mono.conf 658164f871504e9258732711bd871ea0 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input.conf 478f53b49fc1eb8b4cc99d4681f4d008 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output-speaker-always.conf e3f9cf7a28a75fcd774a6c4584ef7a01 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-3.conf aafb9dedc0fcba08f1ec6a524a19e8e7 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-linein.conf c8c5447753f7728a5c0effa3ad5078fe 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-5.conf d9949cf5133a05064d63524a885aecda 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output.conf 77f6dd1d67fc970c5b5a923314b2e86c 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic-always.conf 58c4ec44a8ae4c2baa3494e1dd2ac965 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic-line.conf 8d0ec780a4863cf595ceb2c8aec0e109 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-4.conf 5ecdb0be055984d31b3fcfbe4cfa2b47 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-dock-mic.conf 817abd44777671d164bcc8ec0f8e3007 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-fm.conf b4796f9f7b5368564687f32b368960d7 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-tvtuner.conf 1633669b2fadc7bb0cb26302dc3288db 1495240556
-obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-0.conf 1c6df9a63c172b847f88095a25ab0135 1495240556
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-video.conf 22cfb30eb7cbb0bf26684102ceb0863a 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/iec958-stereo-output.conf ac40111b91df894be1849670963f1ff3 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-headset-mic.conf b29016e07dd9c70ed6c23cffd6f6e6d6 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output.conf.common c403391c7dfe0acee2859ae9a0db5ab5 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-rear-mic.conf a3c8d52fda21bc7f3f5db6ec4831396d 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-front-mic.conf d3253ea318740187c50557e89296d0cf 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-aux.conf 01c9bec90862529ef0cfc03230e07cbd 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input.conf.common 780219dfbe146b6e81e73d9b9d5aaf6d 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output-headphones-2.conf ed7ff23099053639e176d7ed858ca748 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic.conf c9c758a158aca197041375576d2a3861 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-7.conf 3b89385ae89c018aee60bcfdeca53858 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf 557cfe06acd609cce6524b6c1cf495d6 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-2.conf 933174c31e545a4c27eeb1533523f543 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf.common 727a3b3f6f8de050c82babb1c649b5b6 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-headphone-mic.conf 6fba61b3fd66f1b42a745d4f6885dd25 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output-speaker.conf 7e238b6fd3acbf194737a0860fea46e3 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output-lineout.conf 2f2f7de80eb35c9266d886510b38411e 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output-headphones.conf cbf323f5cb80d504a5eee5c4da645500 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-6.conf 6b5dfa8eb2b8d0f1e3130a377291dbd0 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-1.conf 94ad2d7f68a539e56b5a67e0e27f9037 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output-mono.conf 658164f871504e9258732711bd871ea0 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input.conf 478f53b49fc1eb8b4cc99d4681f4d008 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output-speaker-always.conf e3f9cf7a28a75fcd774a6c4584ef7a01 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-3.conf aafb9dedc0fcba08f1ec6a524a19e8e7 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-linein.conf c8c5447753f7728a5c0effa3ad5078fe 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-5.conf d9949cf5133a05064d63524a885aecda 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-output.conf 77f6dd1d67fc970c5b5a923314b2e86c 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic-always.conf 58c4ec44a8ae4c2baa3494e1dd2ac965 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic-line.conf 8d0ec780a4863cf595ceb2c8aec0e109 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-4.conf 5ecdb0be055984d31b3fcfbe4cfa2b47 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-dock-mic.conf 817abd44777671d164bcc8ec0f8e3007 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-fm.conf b4796f9f7b5368564687f32b368960d7 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/analog-input-tvtuner.conf 1633669b2fadc7bb0cb26302dc3288db 1508015508
+obj /usr/share/pulseaudio/alsa-mixer/paths/hdmi-output-0.conf 1c6df9a63c172b847f88095a25ab0135 1508015508
 dir /usr/share/doc
 dir /usr/share/doc/pulseaudio-10.0
-obj /usr/share/doc/pulseaudio-10.0/NEWS.bz2 ae35d73f858923d47cc2d43759ed6a27 1495240559
+obj /usr/share/doc/pulseaudio-10.0/NEWS.bz2 ae35d73f858923d47cc2d43759ed6a27 1508015516
 dir /usr/share/doc/pulseaudio-10.0/html
-obj /usr/share/doc/pulseaudio-10.0/html/simple_8h_source.html ed5f0356825cf43a308dced8c1b099d3 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_x.html e8e8a9b6cb0874830415e114f91b8667 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/navtree.css 279db12b0ba365d58f9cdc99fd317489 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__buffer__attr.js b0cd4e3fa83065e988fce3e5fd3ce8e4 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_e.html 31884ac9af301092f10ccabe1911ec61 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_t.html 87901ec7dbd574c412c45d0c9d4afe33 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions.html 48b671496481d38704fdc9e321643b68 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/ext-device-restore_8h.js d14f0845454cd9125ee5f21bb0f0beeb 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/def_8h.html ab485e9bf5e50d5746a7719acbbfe1b8 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/glib-mainloop_8h_source.html be6143f96973b39eec0e60ba436f8704 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/thread-mainloop_8h_source.html c2254e9d247b9bd5f0921ec0f8ccddea 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/stream_8h_source.html 444c258277a275d1ea5bc8cbdc8b0995 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__timing__info.js 77a82531f8cd5fd4cbe73d22139bb35b 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/sample_8h_source.html 5db130d89b5b4f759e4d5429b3329741 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_b.html 1271cdf1f2313777d83663614312b5ee 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_c.html e9ca1838dc80d2eb44fb7e977efa5b85 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/sync_on.png b1cc394ed471b4ab97be14f1e1a7cefa 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/simple.html e4baee3683c39c0b7c385888f63d5fed 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/mainloop-api_8h.html 996ed7c394d1a6d3f9fab7ec3824e96d 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_v.html d80db1431067acb1efd34c6f20706622 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/direction_8h.js a31de1ea7fc91ca3fbd00aba22335b27 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/ext-device-manager_8h.js 86839f5c66c3545f336b9792eb0e8f84 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_t.html b7a8bd823c67d9e34e0e56e715674f39 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_i.html 25ccfd091973404a84c677fdc0dd5899 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/version_8h.js 8be56fbd5576a270fdcb582e8d4e3c2d 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_l.html e9e067a2a76e8d2913d1ead670c9d3cb 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/tabs.css 5e5f3c33293bfd03386e623b17ef5e7b 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/volume_8h.js c7765db30bd625017a677ea7e89e8d3e 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/util_8h.js 6b6906726afc9bbd8fdedcedf34fa620 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_s.html 9229dd66c0d51e41dd61e01de3b8dbbc 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_u.html e83be5f19255919259c1b4d74e935af1 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/dynsections.js fbc22f07caf51cf90cbae1412067567c 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/version_8h.html 18e60c0e46199141d31081741d63fe07 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/dir_96bfddbb8c123bbdebd362bc56efe4d2.html cb5eb47a9821729f96c79c21fb2680d1 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/volume_8h_source.html 894ad5ed3c52a8c95022f69d316e93a8 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__source__output__info.html b17186ecf7c6112190ff260c8c30b58f 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/resize.js 08ef90313b274b426f9f34a5874c9510 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__timing__info.html 58f025bfdf926473c9852c6a55ad510b 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/format_8h_source.html 0ad2ddd65eab1d0e3b8e07c4fbe33ac0 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/operation_8h_source.html fe9fb331b5ec21188d17d5c467f1bad8 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__module__info.js 7dcba0d32fa7a382f0b0bf80c009cf83 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_v.html 43efaa59177df456481c02ba6b2ff6eb 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/annotated_dup.js a7ac754073706455079cf364e9285c48 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_w.html 2571d772ca0802c285600ff3560c2aba 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/nav_h.png 935f050f10b7fe425509491f207f574f 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__sink__info.html 3b80c50c32a63c67e4f00903320491e4 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals.html 4ebbfaca3f24743ad498bb89e507874d 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/mainloop-signal_8h_source.html 8d422a839a41165af8b7a1640ad79767 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_w.html 41632becebc2801d19ca0a527bdf410e 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__simple.html 3ece12bd6ac5d15b46755488bc4e0710 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_t.html 464114f03470dcd350d41d56abf46f11 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/folderclosed.png 0b7046d86103299b2a0306ddf33ec004 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__sink__info.js 13c009346ba571a06b4b8c3aa1bd0502 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_s.html 16e92c5ba6966575f97418ad68f088a0 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__source__port__info.js 9f0af7968c601d64b896f1dad5045dc7 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_eval_d.html 20ab80ae1fc5a7d70e94101c925aee43 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/navtreeindex3.js fc2e0f83fd2d325f1cdd5e2da6e0b713 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__info.js 4fcf72639b5e43e6c2a56e7a2845143a 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars.js 1189e2b97065909f3d60f43f51286b20 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_v.html 0db449792cfa7cc17352316687af0d92 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/subscribe_8h.js 4e00a07af52921220bfea344ab53e7f9 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/utf8_8h.html 173e577399b4c1b6172c33156a883252 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/proplist_8h.html b8cb68aed393ef43fe587af912cb34f6 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__profile__info.js d4ffd47a625af5defb4f5a411eae79b9 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__sample__spec.html 63e12cb5ac0b21a80540ea70729f3ae9 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/files.js 5dc894095629034d75c6d13118f44cc3 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/subscribe_8h.html c413cae282b28f789a7296c91634a604 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__client__info.js 0903c1229c3db36a33fba9b7987efd24 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_i.html 4d5e9a7e0123957cdde0b4971eb9648b 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/doxygen.png 4d8b8c8f1a68a4f320da8294a085f251 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/gccmacro_8h_source.html 9d5594ae4a14f237df3897b38d53f4a6 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/menudata.js a6df0b8c2a3b908d1cdd17c53c90881d 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/xmalloc_8h.js 1bc916be227afcb565ab60efa9c41dd0 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/deprecated.html 35a0dced86a3674c031c3e7b9d060ce5 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/operation_8h.js 2e96c79e634853b1e5547fb8d929d150 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_enum.html 1fd313763111eb0cfa4c769e8581d93b 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/pacat-simple_8c-example.html 945f44f84d547b5c99ba20f4e75bb1ea 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/context_8h.js 65833a83a8be87d5ed7c39a38ddee2c1 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/examples.html 3a02940a4393ab5f22290972e7b6f503 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__port__info.html 1e4c087d59a9f87b108cfd47878f712b 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/operation_8h.html cc1230f0e9240a4bf4a44991ce15309e 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_g.html b9e41d902182a10d80a4826c7b8e2edb 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/sample_8h.js 607559cefb17d6e9bfcc274a1635067b 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/index.html ce6316f5229a9644365cca4bfb849bf3 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/scache_8h_source.html 13bd64146fa006121d4b4d271e8d143e 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars.html f28e477d954516a943f2556a4f3cd8a4 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_c.html 0a06316257c7a5f64245577abcc6e256 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_c.html bb6d3d68798ba9d7cc536dfa66c9b453 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/files.html def42e8ef6009c1f12e9d7122515c6db 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_eval_p.html 2ffc231957ca00a4bfe6a917f2ceba6b 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_t.html d22a0059372f800da62a9d5569e75782 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/scache_8h.js 97346c106494afce8a391c1acdecc2cc 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_type.html fd387549e300ca813a2bc85521002d05 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/mainloop-api_8h_source.html 0453262483341cc087718567870013d0 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/introspect_8h.js 5be08d1f4ca9882a6cf3285e638a83b5 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__source__output__info.js 9dc79b76621c1e9614fdf540eae9c98b 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/channelmap.html cf37bbe3b96409d795236160e524077b 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_n.html 8a45b453628b211abd374170600f9fea 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_i.html e065c87e0faec728f0ec16087ffe6967 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_s.html c4aaa7cff8fb6f669dc41f21a3bfd0b1 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/ext-stream-restore_8h.html ecd6f536e572401df283fe34558b800e 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/format_8h.html 2fbc2f2279399a753228b7cd133165e4 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/proplist_8h_source.html 50bef7ff5f8b710883f271c9c316c708 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_u.html b88611c4e0f010fa4075e73b4e9b710f 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/gccmacro_8h.js f59e11f61eadea98b3a2eefb81221c3d 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/dir_80f7adb01badf4a865dd837c3af273de.html 3f94f55bf35468cf10bc024113ec3637 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_o.html a25e66955502a148f271a7660cda0639 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/menu.js 0214be704544abaa89713b78402e44f7 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/channelmap_8h.html a3d3996ebe5c8e565d910f2ef475e24c 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_defs.html 086a4b725cf67f459a439a807379ee04 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_u.html 02a9b1ec48cee5d9c912569c07071787 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__info.html 00605c967ee094cefcb45e77790e7440 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/navtreeindex5.js cebd2f3afd9b610fe30500ad0a094629 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/examples.js 0a4e14c6d184002163e36f29fba397e6 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__device__manager__role__priority__info.html c2155e92ec4602637377095ade95f994 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_q.html b465e472956f115512044214eb680903 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/dir_07c81441a70d3ee213e8b37fccc4e198.html fb40c692b0bbcb25602c92f4662ba16f 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/format_8h.js 81f2a335864420f74a51fa9c99cbde2f 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_d.html c028ac1b5171451d0f8367b18cfb11ab 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_dup.js 47d75ff2672863a0ed797be5d2905798 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/bc_s.png ceaaae73746596a7519cfe782d8aa065 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/def_8h.js cb271edac872c4613d5799a03112b932 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_l.html 0d572df89c2f713537f81efe00716081 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/introspect_8h_source.html b9ec010fb5e0cef71c6480f4350ca94a 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/navtreeindex2.js fa03bffa394f0ba3d94b7356a88cad17 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_b.html 17c493d9168e9fec74f6d50ff6bfd0cc 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/ext-device-restore_8h_source.html b9efa1e75130e557f29bd3971e65d61f 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/ext-device-restore_8h.html 62d0f276107b789bbd215464c3437e8d 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_g.html d6a164112e97c4f97aca906e4db0b3e1 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__server__info.html 0ba5c56ff15276bb5f0c8681e03d05ab 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func.js c47a089182135f86eaebda3f407d3534 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__buffer__attr.html c2e714af51001ec3ca609c14f139793b 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__mainloop__api.html 3eaaf684d00b64f1930b050de7ae44bf 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_p.html 3bb81ab1e8032adc1ff4b8fb7c2992ec 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/mainloop_8h_source.html f005a4260af3b7e8006e0885ddedb77c 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/simple_8h.js a7c04ac46d5f3fe57ddadbf077ccb362 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/sample.html f0e2e47373b4c195cb7e3c5ca890abfa 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_eval_i.html 87de5f9cbcfabac5aac96db979a8c7cb 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/open.png 468c228548b4a85dd54d544810bd0edd 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/introspect_8h.html 126d879a3cc8c1a19c44a3326166de1b 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__sample__spec.js 8a4168b468a3b4e87f1cffa3689059f8 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__stat__info.html f31df63f3484035a773d197534abede9 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/utf8_8h_source.html ee68fedc64c105b546831fb379bb4e86 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/navtree.js a2036b491036483e3dbbca23aa283dfa 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__module__info.html 9be97cfd55e58206d26f238795400412 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_m.html e3f2d80ef60faf4142897561edffb92d 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/ext-stream-restore_8h.js 632d9bbd7e4a0ece497b199d7204ce8f 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/xmalloc_8h.html cd04578d2ec2e7f455858a1413d3bd00 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__sink__input__info.html 4fd1c29f4502fe03f7628096d57470a9 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/splitbar.png 8d590f70c25a81e71b99f6c8246b067e 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_r.html 038719075f438a53385ae6f36e1a88df 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_eval_o.html a30b5255922e90b2dad7b6fc313ab0fd 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/tab_h.png 38c6c507f0ab91770a0ed9a668a03551 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_m.html 5ab81388a4a7f3a68306a187cf3582eb 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/pulseaudio_8h.html 489c41ccc1617eb407fbde9ad3d47df1 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_m.html 075a8f034d57f397cefd46e9e0be73f0 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_p.html eeecd0e6c3331aeeed31234a4ab970e0 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_n.html 78f0092511d083d7d8eb37f2456488ae 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__cvolume.js 31fd9767c23f9edae6d44c4409e3ac3d 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/simple_8h.html d07b49cc15a086929c04b9aeecbd024c 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__format__info.js 87e3e4334ad8adecbdb10712508b9d6f 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__sink__port__info.html 2c7f68d811e915a2418f8e76f39d9267 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__server__info.js a5fde73cadf9590992a43b198c3803e8 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_l.html e2424142cfa5484bc0c4c565543bece2 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/mainloop.html 9486355934c29e35463ae773deaa5dfb 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/doc.png 31ed05886f30a2be256e9df86a25586f 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_eval.js 7c39a1310c792b0e7067ed5658c23b8b 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/parec-simple_8c-example.html 9f8478bff3f7058fc76a457127b7e56f 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_v.html 6df7377ca7b4db2da4e9b02d33ccdac9 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/closed.png 3fa180a1c853204ee64235708fb8e162 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_l.html 732dd1aa19d4f16daa18b4f29bae2609 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_h.html caed178c13e07a4a00791e107593d90e 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_b.html dd06ff595836363c7aca421369f41364 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_f.html f528a78b6f98eda6d6690a89ace03bae 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_f.html 438040cbe1098a7a5e85f7eb2fc7e77c 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/introspect.html c55f8f6ec4e8feaf288fb2d860bc4c11 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__profile__info.html 27621b869554c9e748e364b07b31a13a 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_u.html f28be883d003cf4cd540731856cb2fe2 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/glib-mainloop_8h.html 2c22aaf099ca63d7b2ae640aeb557032 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/scache_8h.html aa2950d15d828131b88e4771c1f25cab 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/sample_8h.html 161292ac2260451cbed7248940fde1c3 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__client__info.html 616f0abc93a74582b04ac501c4eab3d4 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_n.html bc32887b36be9b4af572eaff89b5b07a 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/thread-mainloop_8h.html 5b2fe2f0256c22c1351e01e50230a98e 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_p.html 9c7bb6d4c73ff3fc2fc6b28e7ea81d51 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/streams.html c5dfb5febaf1261865c1458bf5a13d0c 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_r.html aea4eea5f82f3d61da011f7a499da7b5 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/mainloop_8h.js cda3c0314afa1b2d392fc2cc1948dc7a 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__device__restore__info.html e62c5f9990174bdd45d0560f9174e093 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_d.html 75dcef45cffe79ef50c9a87de66471a3 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/doxygen.css 3687cc95e3a2655c3a778a9128f90d92 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_f.html 96aa7c63c57068c84533dc197db1eae1 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__source__info.html 9f8e12e0298a3ab6a0d9d320fc59b26c 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/glib-mainloop_8h.js 0b13889b498bca04ec55daacdab54fd3 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/thread-mainloop_8h.js 9e20c69eb7dc354a465bb1232121ac3c 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/ext-device-manager_8h.html 12e27a5473a9536de588a9e045aa3df6 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/direction_8h.html 7c8bc902f07e95b6e5ce51943428f77a 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_o.html b6115e44c39a177e8bb3b4327ab2ffc9 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__profile__info2.html 8b963a30522f273e5545204bae1eb446 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/annotated.html 45c3f59c9377cbae7b4b6cf06de03460 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_eval_u.html accd23f1bd9b9c5877da975c0f478a90 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__channel__map.js 0c94deba54b4d3a9025f3d1ca349fbbb 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/error_8h_source.html a464904921d272573f6cb230f1e9c5c2 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_s.html 0c68148843394f1dab8b2b1fa68065aa 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/nav_g.png 6cf157aabeb91ae637a6d770b07c1011 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/context_8h_source.html a185ec366677274e79ce5fd491f68b4f 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/subscribe.html 7d868ac50811d2dd1d87ec7e7aa0bf3c 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_r.html 8800a4f6d6cdf243ecd9033a6de83488 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_e.html d296b7fa466d81f8a9febb6de45c065e 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/timeval_8h_source.html 448e8b8ffa4b5b3c0f5c2db99dd796ec 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/def_8h_source.html 526ed0cc8cc85e557dfdedb5078f1b80 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__device__manager__info.js f9e88fa91be849cb0013861f66505108 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_h.html 2b3892dddc6e24fe9bd8ced0d3227e04 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/navtreedata.js f40e9d135cc4c462feb82d51bdb3190c 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/stream_8h.js ad1ba23a608581a276cf8ffc2f6fd95d 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/jquery.js 390dbe00ac8bf9e8ebf1735f291773ab 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/utf8_8h.js d9d946dcb025767608aca13224ebed66 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/async.html 0d6857652b74d27b0dcaaca7c9ed0e74 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/async.js b0b13ff6d5bb7c271ba5bd65d7d60d9d 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/ext-device-manager_8h_source.html 6934e33b6365edb01c14526b1f8de84c 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/channelmap_8h.js 45c178b706c39c072563caa4443ac333 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_d.html 51e96203490a20c89814d47b6a8f3f2e 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_e.html a414907706da406d35b584038dbe3911 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_d.html e61de8650bbd3562368261e89d3bf1f5 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/volume_8h.html 377b6f620b162c06c509f1ac015780a1 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/rtclock_8h_source.html 3103863d3f687b98b01ca19dfee11166 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/navtreeindex4.js 324afbcfac069ed806b5a30ddf3bc564 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/gccmacro_8h.html b0b70da5747b2a35129525ff5ed7e8b3 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__sample__info.js 1d04e1f93101b7f5cc91741a2a620eed 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/tab_s.png d5a3e094c590d5113232b74cd902f58f 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__spawn__api.js 99aee10a58b5c0d5805ee556b373589a 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/mainloop-api_8h.js 7d6c28ff7bec5827a619bfe2b209b181 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/util_8h_source.html fb93bbc88c802f8576804a1829a6f56e 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_dup.js 5d1ac91f1722cdd5ab4c79df45219967 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/sync_off.png 12a5e283812e092b5a74b0d47e95e9a9 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/threaded_mainloop.html 906d1502485e6bb2f54331fa3c00e253 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_eval_e.html 0b00f35e1cf6f07167d76bd96a1cdaa0 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/subscribe_8h_source.html 26cdc4734386c5b8cf4c0f2aae8b79f8 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_m.html 8c0d45b3fd88d5188a988ab2f8a1e5f6 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/version_8h_source.html adaa34f1c2770d646ad4440fac666a85 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_r.html 3cd4cd497ea68374a47da4e99f4bd1e7 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_eval_s.html 6803623e804ab56798b077477544495f 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_o.html a1664d7db8fa02f41c2132cef88495d8 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/channelmap_8h_source.html 2a3e29026ee7420c2ec90f7acb208587 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__profile__info2.js 9d3fac6f31b2597a7442bceb89f6681e 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_c.html 86645af9e9a23168f6fb46d93197aab6 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__sample__info.html 747d43aa07ade1d5371144cb6e1b965a 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__source__port__info.html e08b6b6009eac48b73493ba3e7e63142 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__channel__map.html ad371e35945ed055da91eb5fd4989c15 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_o.html 8b98bc1b8a2e84679214f88bca473969 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__mainloop__api.js 8c4589a406cfebd30f6a7621a397fd49 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/pages.html 4840b2d128cacba905d90ad3c9d0fcef 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/bdwn.png 6249334b2e7fc28090f26abeb328eb78 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/rtclock_8h.js 108a1e37b9fa61af7a77ec2f14e4c4ad 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func.html 9505740fdc1499d4c95dd767bab9e464 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__cvolume.html c61d6cdb8d8421287fa3e1c3d75141fe 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__spawn__api.html 70c8ad1bfa4a00895c39e2b0d22e7073 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__stat__info.js bf8760584a4279dde5b89ebf2cd88c31 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__source__info.js 39211a5579facd291e548877e3fbe11c 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/mainloop-signal_8h.html 8cce7698f928e14e7e1c3e395a573090 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__port__info.js 76aa296291b8e4e568cb6c60dba52344 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/mainloop_8h.html bc4a36fc2dad2a460a5061c0abb2cfce 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/nav_f.png 4e4d8be23c6d6bbe0184fd891ff59e00 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__stream__restore__info.js 32378ed615cd858e127f16afdfef343a 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/glib-mainloop.html 774ed0d64b240ea074936de8cc2baaf7 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__sink__input__info.js 1127a10d007aaab5f8c6e14fe5fbbb5b 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_f.html 332cfb5b18bc8333d8f43f866314e44d 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/tab_b.png c7cd16cfabe8a14b9848f813df53fc2e 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/folderopen.png 9ff4412a8e93e25320b9e260951c6a04 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/volume.html 5cbd3f48719f09088b41ceeac70f66dc 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/context_8h.html 900cfa1696a575a9b58f93d39bacfaeb 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_p.html 091cad0c7aeed8f355411b3cb92bf0eb 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/proplist_8h.js bc6dbdcb5512f6b1c0d5f6981e7bac3d 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_e.html e639d68accfc1200cebff15a8256a1bc 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__device__manager__role__priority__info.js c7d449d25d0812abd71899b503218b0d 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/pulseaudio_8h_source.html 9a5a3054208a076b4769c2e44fefa55f 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/error_8h.js 1471175558f0317d2a2ddd74d0172972 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/direction_8h_source.html 6244d78387e3824bbd570f8ec6cac006 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/xmalloc_8h_source.html 2a95f929a2a68bf465f846173a272bc1 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/error_8h.html ec99f10c570090f390abeed4e9bcb333 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__device__restore__info.js b77c8ec241a81ccad50198774b5a3983 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/ext-stream-restore_8h_source.html f9e40ead94397ba4f947e798d2ec278c 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__format__info.html 585fba4aa08d388a2e888ece8eae9d98 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__device__manager__info.html d2b60edfbefa9105653781185274e138 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/tab_a.png 2a5327b5dfc494fd8688fd887991cdab 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/rtclock_8h.html be277223fa08b9fe5d2e184452ae12c7 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/functions_q.html c36a4155266036717d7835e834dbe781 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/timeval_8h.js 5b527ee50fd28d13649f3469c8e9adeb 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/navtreeindex0.js c2a90c9dcbb6d0ac8eb350d17386fbeb 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_func_b.html fc2daed1a788e0b946a9a64902a7ccad 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/classes.html 66f74b1a6e7c1fa09b95df109c9d8857 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/mainloop-signal_8h.js f236e01f77872e8c91da3c6bc8a9c2f4 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/navtreeindex1.js 9aaba291c15450016b410e9186ec2241 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__sink__port__info.js 312a6a0ece43c828442db39a0996f77e 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_x.html 0ef44c733d0c0f2567114bfa18c2a1c3 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/stream_8h.html 8809628177959b09a8d054e5c059aa1b 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/util_8h.html 0c161f7cfd083102034f7ea0e485cb0f 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/scache.html 7cce2ef85ea9769e7d22a26c3c0b3222 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/globals_eval.html efb2eedee4e07c353f3c4062f955a8af 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__stream__restore__info.html 1cfdac05113748019f60779ed9cc8c88 1495240559
-obj /usr/share/doc/pulseaudio-10.0/html/timeval_8h.html c86707ae2a8505713d68acfd7d21548e 1495240559
-obj /usr/share/doc/pulseaudio-10.0/README.bz2 e16e21f8d6a29f3915ecc0c8e248a379 1495240559
-obj /usr/share/doc/pulseaudio-10.0/todo.bz2 c00a3ab867f432dbb45fca21b14c6991 1495240559
+obj /usr/share/doc/pulseaudio-10.0/html/simple_8h_source.html ed5f0356825cf43a308dced8c1b099d3 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_x.html e8e8a9b6cb0874830415e114f91b8667 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/navtree.css 279db12b0ba365d58f9cdc99fd317489 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__buffer__attr.js b0cd4e3fa83065e988fce3e5fd3ce8e4 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_e.html 31884ac9af301092f10ccabe1911ec61 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_t.html 87901ec7dbd574c412c45d0c9d4afe33 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions.html 48b671496481d38704fdc9e321643b68 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/ext-device-restore_8h.js d14f0845454cd9125ee5f21bb0f0beeb 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/def_8h.html ab485e9bf5e50d5746a7719acbbfe1b8 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/glib-mainloop_8h_source.html be6143f96973b39eec0e60ba436f8704 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/thread-mainloop_8h_source.html c2254e9d247b9bd5f0921ec0f8ccddea 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/stream_8h_source.html 444c258277a275d1ea5bc8cbdc8b0995 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__timing__info.js 77a82531f8cd5fd4cbe73d22139bb35b 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/sample_8h_source.html 5db130d89b5b4f759e4d5429b3329741 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_b.html 1271cdf1f2313777d83663614312b5ee 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_c.html e9ca1838dc80d2eb44fb7e977efa5b85 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/sync_on.png b1cc394ed471b4ab97be14f1e1a7cefa 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/simple.html e4baee3683c39c0b7c385888f63d5fed 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/mainloop-api_8h.html 996ed7c394d1a6d3f9fab7ec3824e96d 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_v.html d80db1431067acb1efd34c6f20706622 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/direction_8h.js a31de1ea7fc91ca3fbd00aba22335b27 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/ext-device-manager_8h.js 86839f5c66c3545f336b9792eb0e8f84 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_t.html b7a8bd823c67d9e34e0e56e715674f39 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_i.html 25ccfd091973404a84c677fdc0dd5899 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/version_8h.js 8be56fbd5576a270fdcb582e8d4e3c2d 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_l.html e9e067a2a76e8d2913d1ead670c9d3cb 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/tabs.css 5e5f3c33293bfd03386e623b17ef5e7b 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/volume_8h.js c7765db30bd625017a677ea7e89e8d3e 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/util_8h.js 6b6906726afc9bbd8fdedcedf34fa620 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_s.html 9229dd66c0d51e41dd61e01de3b8dbbc 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_u.html e83be5f19255919259c1b4d74e935af1 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/dynsections.js fbc22f07caf51cf90cbae1412067567c 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/version_8h.html 18e60c0e46199141d31081741d63fe07 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/dir_96bfddbb8c123bbdebd362bc56efe4d2.html cb5eb47a9821729f96c79c21fb2680d1 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/volume_8h_source.html 894ad5ed3c52a8c95022f69d316e93a8 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__source__output__info.html b17186ecf7c6112190ff260c8c30b58f 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/resize.js 08ef90313b274b426f9f34a5874c9510 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__timing__info.html 58f025bfdf926473c9852c6a55ad510b 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/format_8h_source.html 0ad2ddd65eab1d0e3b8e07c4fbe33ac0 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/operation_8h_source.html fe9fb331b5ec21188d17d5c467f1bad8 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__module__info.js 7dcba0d32fa7a382f0b0bf80c009cf83 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_v.html 43efaa59177df456481c02ba6b2ff6eb 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/annotated_dup.js a7ac754073706455079cf364e9285c48 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_w.html 2571d772ca0802c285600ff3560c2aba 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/nav_h.png 935f050f10b7fe425509491f207f574f 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__sink__info.html 3b80c50c32a63c67e4f00903320491e4 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals.html 4ebbfaca3f24743ad498bb89e507874d 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/mainloop-signal_8h_source.html 8d422a839a41165af8b7a1640ad79767 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_w.html 41632becebc2801d19ca0a527bdf410e 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__simple.html 3ece12bd6ac5d15b46755488bc4e0710 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_t.html 464114f03470dcd350d41d56abf46f11 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/folderclosed.png 0b7046d86103299b2a0306ddf33ec004 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__sink__info.js 13c009346ba571a06b4b8c3aa1bd0502 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_s.html 16e92c5ba6966575f97418ad68f088a0 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__source__port__info.js 9f0af7968c601d64b896f1dad5045dc7 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_eval_d.html 20ab80ae1fc5a7d70e94101c925aee43 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/navtreeindex3.js fc2e0f83fd2d325f1cdd5e2da6e0b713 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__info.js 4fcf72639b5e43e6c2a56e7a2845143a 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars.js 1189e2b97065909f3d60f43f51286b20 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_v.html 0db449792cfa7cc17352316687af0d92 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/subscribe_8h.js 4e00a07af52921220bfea344ab53e7f9 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/utf8_8h.html 173e577399b4c1b6172c33156a883252 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/proplist_8h.html b8cb68aed393ef43fe587af912cb34f6 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__profile__info.js d4ffd47a625af5defb4f5a411eae79b9 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__sample__spec.html 63e12cb5ac0b21a80540ea70729f3ae9 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/files.js 5dc894095629034d75c6d13118f44cc3 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/subscribe_8h.html c413cae282b28f789a7296c91634a604 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__client__info.js 0903c1229c3db36a33fba9b7987efd24 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_i.html 4d5e9a7e0123957cdde0b4971eb9648b 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/doxygen.png 4d8b8c8f1a68a4f320da8294a085f251 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/gccmacro_8h_source.html 9d5594ae4a14f237df3897b38d53f4a6 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/menudata.js a6df0b8c2a3b908d1cdd17c53c90881d 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/xmalloc_8h.js 1bc916be227afcb565ab60efa9c41dd0 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/deprecated.html 35a0dced86a3674c031c3e7b9d060ce5 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/operation_8h.js 2e96c79e634853b1e5547fb8d929d150 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_enum.html 1fd313763111eb0cfa4c769e8581d93b 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/pacat-simple_8c-example.html 945f44f84d547b5c99ba20f4e75bb1ea 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/context_8h.js 65833a83a8be87d5ed7c39a38ddee2c1 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/examples.html 3a02940a4393ab5f22290972e7b6f503 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__port__info.html 1e4c087d59a9f87b108cfd47878f712b 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/operation_8h.html cc1230f0e9240a4bf4a44991ce15309e 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_g.html b9e41d902182a10d80a4826c7b8e2edb 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/sample_8h.js 607559cefb17d6e9bfcc274a1635067b 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/index.html ce6316f5229a9644365cca4bfb849bf3 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/scache_8h_source.html 13bd64146fa006121d4b4d271e8d143e 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars.html f28e477d954516a943f2556a4f3cd8a4 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_c.html 0a06316257c7a5f64245577abcc6e256 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_c.html bb6d3d68798ba9d7cc536dfa66c9b453 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/files.html def42e8ef6009c1f12e9d7122515c6db 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_eval_p.html 2ffc231957ca00a4bfe6a917f2ceba6b 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_t.html d22a0059372f800da62a9d5569e75782 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/scache_8h.js 97346c106494afce8a391c1acdecc2cc 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_type.html fd387549e300ca813a2bc85521002d05 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/mainloop-api_8h_source.html 0453262483341cc087718567870013d0 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/introspect_8h.js 5be08d1f4ca9882a6cf3285e638a83b5 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__source__output__info.js 9dc79b76621c1e9614fdf540eae9c98b 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/channelmap.html cf37bbe3b96409d795236160e524077b 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_n.html 8a45b453628b211abd374170600f9fea 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_i.html e065c87e0faec728f0ec16087ffe6967 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_s.html c4aaa7cff8fb6f669dc41f21a3bfd0b1 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/ext-stream-restore_8h.html ecd6f536e572401df283fe34558b800e 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/format_8h.html 2fbc2f2279399a753228b7cd133165e4 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/proplist_8h_source.html 50bef7ff5f8b710883f271c9c316c708 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_u.html b88611c4e0f010fa4075e73b4e9b710f 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/gccmacro_8h.js f59e11f61eadea98b3a2eefb81221c3d 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/dir_80f7adb01badf4a865dd837c3af273de.html 3f94f55bf35468cf10bc024113ec3637 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_o.html a25e66955502a148f271a7660cda0639 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/menu.js 0214be704544abaa89713b78402e44f7 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/channelmap_8h.html a3d3996ebe5c8e565d910f2ef475e24c 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_defs.html 086a4b725cf67f459a439a807379ee04 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_u.html 02a9b1ec48cee5d9c912569c07071787 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__info.html 00605c967ee094cefcb45e77790e7440 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/navtreeindex5.js cebd2f3afd9b610fe30500ad0a094629 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/examples.js 0a4e14c6d184002163e36f29fba397e6 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__device__manager__role__priority__info.html c2155e92ec4602637377095ade95f994 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_q.html b465e472956f115512044214eb680903 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/dir_07c81441a70d3ee213e8b37fccc4e198.html fb40c692b0bbcb25602c92f4662ba16f 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/format_8h.js 81f2a335864420f74a51fa9c99cbde2f 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_d.html c028ac1b5171451d0f8367b18cfb11ab 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_dup.js 47d75ff2672863a0ed797be5d2905798 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/bc_s.png ceaaae73746596a7519cfe782d8aa065 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/def_8h.js cb271edac872c4613d5799a03112b932 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_l.html 0d572df89c2f713537f81efe00716081 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/introspect_8h_source.html b9ec010fb5e0cef71c6480f4350ca94a 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/navtreeindex2.js fa03bffa394f0ba3d94b7356a88cad17 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_b.html 17c493d9168e9fec74f6d50ff6bfd0cc 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/ext-device-restore_8h_source.html b9efa1e75130e557f29bd3971e65d61f 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/ext-device-restore_8h.html 62d0f276107b789bbd215464c3437e8d 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_g.html d6a164112e97c4f97aca906e4db0b3e1 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__server__info.html 0ba5c56ff15276bb5f0c8681e03d05ab 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func.js c47a089182135f86eaebda3f407d3534 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__buffer__attr.html c2e714af51001ec3ca609c14f139793b 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__mainloop__api.html 3eaaf684d00b64f1930b050de7ae44bf 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_p.html 3bb81ab1e8032adc1ff4b8fb7c2992ec 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/mainloop_8h_source.html f005a4260af3b7e8006e0885ddedb77c 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/simple_8h.js a7c04ac46d5f3fe57ddadbf077ccb362 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/sample.html f0e2e47373b4c195cb7e3c5ca890abfa 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_eval_i.html 87de5f9cbcfabac5aac96db979a8c7cb 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/open.png 468c228548b4a85dd54d544810bd0edd 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/introspect_8h.html 126d879a3cc8c1a19c44a3326166de1b 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__sample__spec.js 8a4168b468a3b4e87f1cffa3689059f8 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__stat__info.html f31df63f3484035a773d197534abede9 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/utf8_8h_source.html ee68fedc64c105b546831fb379bb4e86 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/navtree.js a2036b491036483e3dbbca23aa283dfa 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__module__info.html 9be97cfd55e58206d26f238795400412 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_m.html e3f2d80ef60faf4142897561edffb92d 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/ext-stream-restore_8h.js 632d9bbd7e4a0ece497b199d7204ce8f 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/xmalloc_8h.html cd04578d2ec2e7f455858a1413d3bd00 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__sink__input__info.html 4fd1c29f4502fe03f7628096d57470a9 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/splitbar.png 8d590f70c25a81e71b99f6c8246b067e 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_r.html 038719075f438a53385ae6f36e1a88df 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_eval_o.html a30b5255922e90b2dad7b6fc313ab0fd 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/tab_h.png 38c6c507f0ab91770a0ed9a668a03551 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_m.html 5ab81388a4a7f3a68306a187cf3582eb 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/pulseaudio_8h.html 489c41ccc1617eb407fbde9ad3d47df1 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_m.html 075a8f034d57f397cefd46e9e0be73f0 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_p.html eeecd0e6c3331aeeed31234a4ab970e0 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_n.html 78f0092511d083d7d8eb37f2456488ae 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__cvolume.js 31fd9767c23f9edae6d44c4409e3ac3d 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/simple_8h.html d07b49cc15a086929c04b9aeecbd024c 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__format__info.js 87e3e4334ad8adecbdb10712508b9d6f 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__sink__port__info.html 2c7f68d811e915a2418f8e76f39d9267 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__server__info.js a5fde73cadf9590992a43b198c3803e8 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_l.html e2424142cfa5484bc0c4c565543bece2 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/mainloop.html 9486355934c29e35463ae773deaa5dfb 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/doc.png 31ed05886f30a2be256e9df86a25586f 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_eval.js 7c39a1310c792b0e7067ed5658c23b8b 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/parec-simple_8c-example.html 9f8478bff3f7058fc76a457127b7e56f 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_v.html 6df7377ca7b4db2da4e9b02d33ccdac9 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/closed.png 3fa180a1c853204ee64235708fb8e162 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_l.html 732dd1aa19d4f16daa18b4f29bae2609 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_h.html caed178c13e07a4a00791e107593d90e 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_b.html dd06ff595836363c7aca421369f41364 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_f.html f528a78b6f98eda6d6690a89ace03bae 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_f.html 438040cbe1098a7a5e85f7eb2fc7e77c 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/introspect.html c55f8f6ec4e8feaf288fb2d860bc4c11 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__profile__info.html 27621b869554c9e748e364b07b31a13a 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_u.html f28be883d003cf4cd540731856cb2fe2 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/glib-mainloop_8h.html 2c22aaf099ca63d7b2ae640aeb557032 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/scache_8h.html aa2950d15d828131b88e4771c1f25cab 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/sample_8h.html 161292ac2260451cbed7248940fde1c3 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__client__info.html 616f0abc93a74582b04ac501c4eab3d4 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_n.html bc32887b36be9b4af572eaff89b5b07a 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/thread-mainloop_8h.html 5b2fe2f0256c22c1351e01e50230a98e 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_p.html 9c7bb6d4c73ff3fc2fc6b28e7ea81d51 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/streams.html c5dfb5febaf1261865c1458bf5a13d0c 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_r.html aea4eea5f82f3d61da011f7a499da7b5 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/mainloop_8h.js cda3c0314afa1b2d392fc2cc1948dc7a 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__device__restore__info.html e62c5f9990174bdd45d0560f9174e093 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_d.html 75dcef45cffe79ef50c9a87de66471a3 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/doxygen.css 3687cc95e3a2655c3a778a9128f90d92 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_f.html 96aa7c63c57068c84533dc197db1eae1 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__source__info.html 9f8e12e0298a3ab6a0d9d320fc59b26c 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/glib-mainloop_8h.js 0b13889b498bca04ec55daacdab54fd3 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/thread-mainloop_8h.js 9e20c69eb7dc354a465bb1232121ac3c 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/ext-device-manager_8h.html 12e27a5473a9536de588a9e045aa3df6 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/direction_8h.html 7c8bc902f07e95b6e5ce51943428f77a 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_o.html b6115e44c39a177e8bb3b4327ab2ffc9 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__profile__info2.html 8b963a30522f273e5545204bae1eb446 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/annotated.html 45c3f59c9377cbae7b4b6cf06de03460 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_eval_u.html accd23f1bd9b9c5877da975c0f478a90 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__channel__map.js 0c94deba54b4d3a9025f3d1ca349fbbb 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/error_8h_source.html a464904921d272573f6cb230f1e9c5c2 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_s.html 0c68148843394f1dab8b2b1fa68065aa 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/nav_g.png 6cf157aabeb91ae637a6d770b07c1011 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/context_8h_source.html a185ec366677274e79ce5fd491f68b4f 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/subscribe.html 7d868ac50811d2dd1d87ec7e7aa0bf3c 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_r.html 8800a4f6d6cdf243ecd9033a6de83488 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_e.html d296b7fa466d81f8a9febb6de45c065e 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/timeval_8h_source.html 448e8b8ffa4b5b3c0f5c2db99dd796ec 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/def_8h_source.html 526ed0cc8cc85e557dfdedb5078f1b80 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__device__manager__info.js f9e88fa91be849cb0013861f66505108 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_h.html 2b3892dddc6e24fe9bd8ced0d3227e04 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/navtreedata.js f40e9d135cc4c462feb82d51bdb3190c 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/stream_8h.js ad1ba23a608581a276cf8ffc2f6fd95d 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/jquery.js 390dbe00ac8bf9e8ebf1735f291773ab 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/utf8_8h.js d9d946dcb025767608aca13224ebed66 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/async.html 0d6857652b74d27b0dcaaca7c9ed0e74 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/async.js b0b13ff6d5bb7c271ba5bd65d7d60d9d 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/ext-device-manager_8h_source.html 6934e33b6365edb01c14526b1f8de84c 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/channelmap_8h.js 45c178b706c39c072563caa4443ac333 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_d.html 51e96203490a20c89814d47b6a8f3f2e 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_e.html a414907706da406d35b584038dbe3911 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_d.html e61de8650bbd3562368261e89d3bf1f5 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/volume_8h.html 377b6f620b162c06c509f1ac015780a1 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/rtclock_8h_source.html 3103863d3f687b98b01ca19dfee11166 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/navtreeindex4.js 324afbcfac069ed806b5a30ddf3bc564 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/gccmacro_8h.html b0b70da5747b2a35129525ff5ed7e8b3 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__sample__info.js 1d04e1f93101b7f5cc91741a2a620eed 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/tab_s.png d5a3e094c590d5113232b74cd902f58f 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__spawn__api.js 99aee10a58b5c0d5805ee556b373589a 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/mainloop-api_8h.js 7d6c28ff7bec5827a619bfe2b209b181 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/util_8h_source.html fb93bbc88c802f8576804a1829a6f56e 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_dup.js 5d1ac91f1722cdd5ab4c79df45219967 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/sync_off.png 12a5e283812e092b5a74b0d47e95e9a9 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/threaded_mainloop.html 906d1502485e6bb2f54331fa3c00e253 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_eval_e.html 0b00f35e1cf6f07167d76bd96a1cdaa0 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/subscribe_8h_source.html 26cdc4734386c5b8cf4c0f2aae8b79f8 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_m.html 8c0d45b3fd88d5188a988ab2f8a1e5f6 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/version_8h_source.html adaa34f1c2770d646ad4440fac666a85 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_r.html 3cd4cd497ea68374a47da4e99f4bd1e7 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_eval_s.html 6803623e804ab56798b077477544495f 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_o.html a1664d7db8fa02f41c2132cef88495d8 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/channelmap_8h_source.html 2a3e29026ee7420c2ec90f7acb208587 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__profile__info2.js 9d3fac6f31b2597a7442bceb89f6681e 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_c.html 86645af9e9a23168f6fb46d93197aab6 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__sample__info.html 747d43aa07ade1d5371144cb6e1b965a 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__source__port__info.html e08b6b6009eac48b73493ba3e7e63142 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__channel__map.html ad371e35945ed055da91eb5fd4989c15 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_o.html 8b98bc1b8a2e84679214f88bca473969 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__mainloop__api.js 8c4589a406cfebd30f6a7621a397fd49 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/pages.html 4840b2d128cacba905d90ad3c9d0fcef 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/bdwn.png 6249334b2e7fc28090f26abeb328eb78 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/rtclock_8h.js 108a1e37b9fa61af7a77ec2f14e4c4ad 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func.html 9505740fdc1499d4c95dd767bab9e464 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__cvolume.html c61d6cdb8d8421287fa3e1c3d75141fe 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__spawn__api.html 70c8ad1bfa4a00895c39e2b0d22e7073 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__stat__info.js bf8760584a4279dde5b89ebf2cd88c31 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__source__info.js 39211a5579facd291e548877e3fbe11c 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/mainloop-signal_8h.html 8cce7698f928e14e7e1c3e395a573090 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__card__port__info.js 76aa296291b8e4e568cb6c60dba52344 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/mainloop_8h.html bc4a36fc2dad2a460a5061c0abb2cfce 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/nav_f.png 4e4d8be23c6d6bbe0184fd891ff59e00 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__stream__restore__info.js 32378ed615cd858e127f16afdfef343a 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/glib-mainloop.html 774ed0d64b240ea074936de8cc2baaf7 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__sink__input__info.js 1127a10d007aaab5f8c6e14fe5fbbb5b 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_vars_f.html 332cfb5b18bc8333d8f43f866314e44d 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/tab_b.png c7cd16cfabe8a14b9848f813df53fc2e 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/folderopen.png 9ff4412a8e93e25320b9e260951c6a04 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/volume.html 5cbd3f48719f09088b41ceeac70f66dc 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/context_8h.html 900cfa1696a575a9b58f93d39bacfaeb 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_p.html 091cad0c7aeed8f355411b3cb92bf0eb 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/proplist_8h.js bc6dbdcb5512f6b1c0d5f6981e7bac3d 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_e.html e639d68accfc1200cebff15a8256a1bc 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__device__manager__role__priority__info.js c7d449d25d0812abd71899b503218b0d 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/pulseaudio_8h_source.html 9a5a3054208a076b4769c2e44fefa55f 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/error_8h.js 1471175558f0317d2a2ddd74d0172972 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/direction_8h_source.html 6244d78387e3824bbd570f8ec6cac006 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/xmalloc_8h_source.html 2a95f929a2a68bf465f846173a272bc1 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/error_8h.html ec99f10c570090f390abeed4e9bcb333 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__device__restore__info.js b77c8ec241a81ccad50198774b5a3983 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/ext-stream-restore_8h_source.html f9e40ead94397ba4f947e798d2ec278c 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__format__info.html 585fba4aa08d388a2e888ece8eae9d98 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__device__manager__info.html d2b60edfbefa9105653781185274e138 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/tab_a.png 2a5327b5dfc494fd8688fd887991cdab 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/rtclock_8h.html be277223fa08b9fe5d2e184452ae12c7 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/functions_q.html c36a4155266036717d7835e834dbe781 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/timeval_8h.js 5b527ee50fd28d13649f3469c8e9adeb 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/navtreeindex0.js c2a90c9dcbb6d0ac8eb350d17386fbeb 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_func_b.html fc2daed1a788e0b946a9a64902a7ccad 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/classes.html 66f74b1a6e7c1fa09b95df109c9d8857 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/mainloop-signal_8h.js f236e01f77872e8c91da3c6bc8a9c2f4 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/navtreeindex1.js 9aaba291c15450016b410e9186ec2241 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__sink__port__info.js 312a6a0ece43c828442db39a0996f77e 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_x.html 0ef44c733d0c0f2567114bfa18c2a1c3 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/stream_8h.html 8809628177959b09a8d054e5c059aa1b 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/util_8h.html 0c161f7cfd083102034f7ea0e485cb0f 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/scache.html 7cce2ef85ea9769e7d22a26c3c0b3222 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/globals_eval.html efb2eedee4e07c353f3c4062f955a8af 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/structpa__ext__stream__restore__info.html 1cfdac05113748019f60779ed9cc8c88 1508015516
+obj /usr/share/doc/pulseaudio-10.0/html/timeval_8h.html c86707ae2a8505713d68acfd7d21548e 1508015516
+obj /usr/share/doc/pulseaudio-10.0/README.bz2 e16e21f8d6a29f3915ecc0c8e248a379 1508015516
+obj /usr/share/doc/pulseaudio-10.0/todo.bz2 c00a3ab867f432dbb45fca21b14c6991 1508015516
 dir /usr/share/locale
 dir /usr/share/locale/te
 dir /usr/share/locale/te/LC_MESSAGES
-obj /usr/share/locale/te/LC_MESSAGES/pulseaudio.mo ef3b58d9d796303c30ea6982ecbf78bc 1495240559
+obj /usr/share/locale/te/LC_MESSAGES/pulseaudio.mo ef3b58d9d796303c30ea6982ecbf78bc 1508015515
 dir /usr/share/locale/hu
 dir /usr/share/locale/hu/LC_MESSAGES
-obj /usr/share/locale/hu/LC_MESSAGES/pulseaudio.mo 19bc7766a5891fa9139abf894f2d85f6 1495240557
+obj /usr/share/locale/hu/LC_MESSAGES/pulseaudio.mo 19bc7766a5891fa9139abf894f2d85f6 1508015515
 dir /usr/share/locale/uk
 dir /usr/share/locale/uk/LC_MESSAGES
-obj /usr/share/locale/uk/LC_MESSAGES/pulseaudio.mo c1d6d1859a1b22d603b0b82e11a63ecb 1495240559
+obj /usr/share/locale/uk/LC_MESSAGES/pulseaudio.mo c1d6d1859a1b22d603b0b82e11a63ecb 1508015515
 dir /usr/share/locale/nl
 dir /usr/share/locale/nl/LC_MESSAGES
-obj /usr/share/locale/nl/LC_MESSAGES/pulseaudio.mo e8ed0cae0d82a821f64307e84e4087ff 1495240558
+obj /usr/share/locale/nl/LC_MESSAGES/pulseaudio.mo e8ed0cae0d82a821f64307e84e4087ff 1508015515
 dir /usr/share/locale/he
 dir /usr/share/locale/he/LC_MESSAGES
-obj /usr/share/locale/he/LC_MESSAGES/pulseaudio.mo 938347246d1789928e974128d4d7ca49 1495240557
+obj /usr/share/locale/he/LC_MESSAGES/pulseaudio.mo 938347246d1789928e974128d4d7ca49 1508015515
 dir /usr/share/locale/de_CH
 dir /usr/share/locale/de_CH/LC_MESSAGES
-obj /usr/share/locale/de_CH/LC_MESSAGES/pulseaudio.mo 4e7d3317cc7a68356bcd2794f11e27c5 1495240557
+obj /usr/share/locale/de_CH/LC_MESSAGES/pulseaudio.mo 4e7d3317cc7a68356bcd2794f11e27c5 1508015515
 dir /usr/share/locale/sr
 dir /usr/share/locale/sr/LC_MESSAGES
-obj /usr/share/locale/sr/LC_MESSAGES/pulseaudio.mo 49b4eb765798c4c4a46f2e1c424018be 1495240558
+obj /usr/share/locale/sr/LC_MESSAGES/pulseaudio.mo 49b4eb765798c4c4a46f2e1c424018be 1508015515
 dir /usr/share/locale/be
 dir /usr/share/locale/be/LC_MESSAGES
-obj /usr/share/locale/be/LC_MESSAGES/pulseaudio.mo fb7120bad4cb26b0b0375e50bd7e48ec 1495240557
+obj /usr/share/locale/be/LC_MESSAGES/pulseaudio.mo fb7120bad4cb26b0b0375e50bd7e48ec 1508015514
 dir /usr/share/locale/hi
 dir /usr/share/locale/hi/LC_MESSAGES
-obj /usr/share/locale/hi/LC_MESSAGES/pulseaudio.mo 3c6ed7e46fb185450ce301a85a0ea58a 1495240557
+obj /usr/share/locale/hi/LC_MESSAGES/pulseaudio.mo 3c6ed7e46fb185450ce301a85a0ea58a 1508015515
 dir /usr/share/locale/tr
 dir /usr/share/locale/tr/LC_MESSAGES
-obj /usr/share/locale/tr/LC_MESSAGES/pulseaudio.mo 04f65b7d486721064cfd7982117a7993 1495240559
+obj /usr/share/locale/tr/LC_MESSAGES/pulseaudio.mo 04f65b7d486721064cfd7982117a7993 1508015515
 dir /usr/share/locale/it
 dir /usr/share/locale/it/LC_MESSAGES
-obj /usr/share/locale/it/LC_MESSAGES/pulseaudio.mo f121e6c0744c958445391ba0477985b4 1495240558
+obj /usr/share/locale/it/LC_MESSAGES/pulseaudio.mo f121e6c0744c958445391ba0477985b4 1508015515
 dir /usr/share/locale/ta
 dir /usr/share/locale/ta/LC_MESSAGES
-obj /usr/share/locale/ta/LC_MESSAGES/pulseaudio.mo d4ad76e917b6dadb0026033792fb7a19 1495240559
+obj /usr/share/locale/ta/LC_MESSAGES/pulseaudio.mo d4ad76e917b6dadb0026033792fb7a19 1508015515
 dir /usr/share/locale/pt
 dir /usr/share/locale/pt/LC_MESSAGES
-obj /usr/share/locale/pt/LC_MESSAGES/pulseaudio.mo 4481912a4f39f0748732765e5c09d6b4 1495240558
+obj /usr/share/locale/pt/LC_MESSAGES/pulseaudio.mo 4481912a4f39f0748732765e5c09d6b4 1508015515
 dir /usr/share/locale/id
 dir /usr/share/locale/id/LC_MESSAGES
-obj /usr/share/locale/id/LC_MESSAGES/pulseaudio.mo bcd9dd1a1eecc516ebde4f60cf1a27ec 1495240558
+obj /usr/share/locale/id/LC_MESSAGES/pulseaudio.mo bcd9dd1a1eecc516ebde4f60cf1a27ec 1508015515
 dir /usr/share/locale/bn_IN
 dir /usr/share/locale/bn_IN/LC_MESSAGES
-obj /usr/share/locale/bn_IN/LC_MESSAGES/pulseaudio.mo 20cd8cf9aa724f99f8dca5ee16711468 1495240557
+obj /usr/share/locale/bn_IN/LC_MESSAGES/pulseaudio.mo 20cd8cf9aa724f99f8dca5ee16711468 1508015515
 dir /usr/share/locale/ko
 dir /usr/share/locale/ko/LC_MESSAGES
-obj /usr/share/locale/ko/LC_MESSAGES/pulseaudio.mo 82f2acadd876e490117accf0c0ac8f48 1495240558
+obj /usr/share/locale/ko/LC_MESSAGES/pulseaudio.mo 82f2acadd876e490117accf0c0ac8f48 1508015515
 dir /usr/share/locale/pa
 dir /usr/share/locale/pa/LC_MESSAGES
-obj /usr/share/locale/pa/LC_MESSAGES/pulseaudio.mo 007a13d037a70de1ebb1277c7c2d97db 1495240558
+obj /usr/share/locale/pa/LC_MESSAGES/pulseaudio.mo 007a13d037a70de1ebb1277c7c2d97db 1508015515
 dir /usr/share/locale/pt_BR
 dir /usr/share/locale/pt_BR/LC_MESSAGES
-obj /usr/share/locale/pt_BR/LC_MESSAGES/pulseaudio.mo 937f42aa3919deb2d38ab97e12da0447 1495240558
+obj /usr/share/locale/pt_BR/LC_MESSAGES/pulseaudio.mo 937f42aa3919deb2d38ab97e12da0447 1508015515
 dir /usr/share/locale/de
 dir /usr/share/locale/de/LC_MESSAGES
-obj /usr/share/locale/de/LC_MESSAGES/pulseaudio.mo 7879657084a39560dbc056ceaf5369a0 1495240557
+obj /usr/share/locale/de/LC_MESSAGES/pulseaudio.mo 7879657084a39560dbc056ceaf5369a0 1508015515
 dir /usr/share/locale/es
 dir /usr/share/locale/es/LC_MESSAGES
-obj /usr/share/locale/es/LC_MESSAGES/pulseaudio.mo 9b2f51d2ad74d96746c142f37b5768fd 1495240557
+obj /usr/share/locale/es/LC_MESSAGES/pulseaudio.mo 9b2f51d2ad74d96746c142f37b5768fd 1508015515
 dir /usr/share/locale/ca
 dir /usr/share/locale/ca/LC_MESSAGES
-obj /usr/share/locale/ca/LC_MESSAGES/pulseaudio.mo 8d18548b11bd13a2b8702a1c6f95379f 1495240557
+obj /usr/share/locale/ca/LC_MESSAGES/pulseaudio.mo 8d18548b11bd13a2b8702a1c6f95379f 1508015515
 dir /usr/share/locale/kn
 dir /usr/share/locale/kn/LC_MESSAGES
-obj /usr/share/locale/kn/LC_MESSAGES/pulseaudio.mo 5599e310e3ee0c113aaf3a2e085c6198 1495240558
+obj /usr/share/locale/kn/LC_MESSAGES/pulseaudio.mo 5599e310e3ee0c113aaf3a2e085c6198 1508015515
 dir /usr/share/locale/ja
 dir /usr/share/locale/ja/LC_MESSAGES
-obj /usr/share/locale/ja/LC_MESSAGES/pulseaudio.mo 71c63fbb7a474d19cf2ce4e548125df1 1495240558
+obj /usr/share/locale/ja/LC_MESSAGES/pulseaudio.mo 71c63fbb7a474d19cf2ce4e548125df1 1508015515
 dir /usr/share/locale/ru
 dir /usr/share/locale/ru/LC_MESSAGES
-obj /usr/share/locale/ru/LC_MESSAGES/pulseaudio.mo 570c62a6e8b35f5cf42c3c773a360526 1495240558
+obj /usr/share/locale/ru/LC_MESSAGES/pulseaudio.mo 570c62a6e8b35f5cf42c3c773a360526 1508015515
 dir /usr/share/locale/sk
 dir /usr/share/locale/sk/LC_MESSAGES
-obj /usr/share/locale/sk/LC_MESSAGES/pulseaudio.mo 8e12c143c14e71b437dde3f83cb8151a 1495240558
+obj /usr/share/locale/sk/LC_MESSAGES/pulseaudio.mo 8e12c143c14e71b437dde3f83cb8151a 1508015515
 dir /usr/share/locale/zh_CN
 dir /usr/share/locale/zh_CN/LC_MESSAGES
-obj /usr/share/locale/zh_CN/LC_MESSAGES/pulseaudio.mo ef9866e783313be17ccfa804ed04db07 1495240559
+obj /usr/share/locale/zh_CN/LC_MESSAGES/pulseaudio.mo ef9866e783313be17ccfa804ed04db07 1508015515
 dir /usr/share/locale/ml
 dir /usr/share/locale/ml/LC_MESSAGES
-obj /usr/share/locale/ml/LC_MESSAGES/pulseaudio.mo 663a9f5bc8a10fd31834756d345abe55 1495240558
+obj /usr/share/locale/ml/LC_MESSAGES/pulseaudio.mo 663a9f5bc8a10fd31834756d345abe55 1508015515
 dir /usr/share/locale/mr
 dir /usr/share/locale/mr/LC_MESSAGES
-obj /usr/share/locale/mr/LC_MESSAGES/pulseaudio.mo 4c6ab0296a8259029165ad503d1b39b1 1495240558
+obj /usr/share/locale/mr/LC_MESSAGES/pulseaudio.mo 4c6ab0296a8259029165ad503d1b39b1 1508015515
 dir /usr/share/locale/el
 dir /usr/share/locale/el/LC_MESSAGES
-obj /usr/share/locale/el/LC_MESSAGES/pulseaudio.mo 3d907306cd1aa6cef64d298bb7f084c2 1495240557
+obj /usr/share/locale/el/LC_MESSAGES/pulseaudio.mo 3d907306cd1aa6cef64d298bb7f084c2 1508015515
 dir /usr/share/locale/gu
 dir /usr/share/locale/gu/LC_MESSAGES
-obj /usr/share/locale/gu/LC_MESSAGES/pulseaudio.mo 7e39bb441e3cfaf7b35e057751f33808 1495240557
+obj /usr/share/locale/gu/LC_MESSAGES/pulseaudio.mo 7e39bb441e3cfaf7b35e057751f33808 1508015515
 dir /usr/share/locale/sr@latin
 dir /usr/share/locale/sr@latin/LC_MESSAGES
-obj /usr/share/locale/sr@latin/LC_MESSAGES/pulseaudio.mo 0c8487cd56c1413e96c0dd8f7cb2ec66 1495240558
+obj /usr/share/locale/sr@latin/LC_MESSAGES/pulseaudio.mo 0c8487cd56c1413e96c0dd8f7cb2ec66 1508015515
 dir /usr/share/locale/as
 dir /usr/share/locale/as/LC_MESSAGES
-obj /usr/share/locale/as/LC_MESSAGES/pulseaudio.mo 03a8b583a797689e8880eff0568a02ed 1495240557
+obj /usr/share/locale/as/LC_MESSAGES/pulseaudio.mo 03a8b583a797689e8880eff0568a02ed 1508015514
 dir /usr/share/locale/fr
 dir /usr/share/locale/fr/LC_MESSAGES
-obj /usr/share/locale/fr/LC_MESSAGES/pulseaudio.mo 51457ab8326f795f704aca64df1fbf34 1495240557
+obj /usr/share/locale/fr/LC_MESSAGES/pulseaudio.mo 51457ab8326f795f704aca64df1fbf34 1508015515
 dir /usr/share/locale/zh_TW
 dir /usr/share/locale/zh_TW/LC_MESSAGES
-obj /usr/share/locale/zh_TW/LC_MESSAGES/pulseaudio.mo 3dd7bb9268e3fccdf8aa099c3a3ebca9 1495240559
+obj /usr/share/locale/zh_TW/LC_MESSAGES/pulseaudio.mo 3dd7bb9268e3fccdf8aa099c3a3ebca9 1508015515
 dir /usr/share/locale/lt
 dir /usr/share/locale/lt/LC_MESSAGES
-obj /usr/share/locale/lt/LC_MESSAGES/pulseaudio.mo 195ca3d7c0ab261924b755f0c13568bd 1495240558
+obj /usr/share/locale/lt/LC_MESSAGES/pulseaudio.mo 195ca3d7c0ab261924b755f0c13568bd 1508015515
 dir /usr/share/locale/gl
 dir /usr/share/locale/gl/LC_MESSAGES
-obj /usr/share/locale/gl/LC_MESSAGES/pulseaudio.mo 550a21d3c763664ae0e70b68b4ba7134 1495240557
+obj /usr/share/locale/gl/LC_MESSAGES/pulseaudio.mo 550a21d3c763664ae0e70b68b4ba7134 1508015515
 dir /usr/share/locale/cs
 dir /usr/share/locale/cs/LC_MESSAGES
-obj /usr/share/locale/cs/LC_MESSAGES/pulseaudio.mo a8ddd6f1c1d8f09bd6bb69edd7d8e8a4 1495240557
+obj /usr/share/locale/cs/LC_MESSAGES/pulseaudio.mo a8ddd6f1c1d8f09bd6bb69edd7d8e8a4 1508015515
 dir /usr/share/locale/pl
 dir /usr/share/locale/pl/LC_MESSAGES
-obj /usr/share/locale/pl/LC_MESSAGES/pulseaudio.mo 921c261b05dd7ca4dbbd097e728a8239 1495240558
+obj /usr/share/locale/pl/LC_MESSAGES/pulseaudio.mo 921c261b05dd7ca4dbbd097e728a8239 1508015515
 dir /usr/share/locale/oc
 dir /usr/share/locale/oc/LC_MESSAGES
-obj /usr/share/locale/oc/LC_MESSAGES/pulseaudio.mo b61fc4fc8b8cb2ed0f7666b60c6b536e 1495240558
+obj /usr/share/locale/oc/LC_MESSAGES/pulseaudio.mo b61fc4fc8b8cb2ed0f7666b60c6b536e 1508015515
 dir /usr/share/locale/fi
 dir /usr/share/locale/fi/LC_MESSAGES
-obj /usr/share/locale/fi/LC_MESSAGES/pulseaudio.mo 65132eb7874c895ea1c1a8a29ab0779e 1495240557
+obj /usr/share/locale/fi/LC_MESSAGES/pulseaudio.mo 65132eb7874c895ea1c1a8a29ab0779e 1508015515
 dir /usr/share/locale/sv
 dir /usr/share/locale/sv/LC_MESSAGES
-obj /usr/share/locale/sv/LC_MESSAGES/pulseaudio.mo 64fcf6cc2d7f4af704bf298f77357f1c 1495240559
+obj /usr/share/locale/sv/LC_MESSAGES/pulseaudio.mo 64fcf6cc2d7f4af704bf298f77357f1c 1508015515
 dir /usr/share/locale/or
 dir /usr/share/locale/or/LC_MESSAGES
-obj /usr/share/locale/or/LC_MESSAGES/pulseaudio.mo 78f3c8b62bb6352a8b643e9e9b170dd2 1495240558
+obj /usr/share/locale/or/LC_MESSAGES/pulseaudio.mo 78f3c8b62bb6352a8b643e9e9b170dd2 1508015515
 dir /usr/share/zsh
 dir /usr/share/zsh/site-functions
-obj /usr/share/zsh/site-functions/_pulseaudio e9f5c9588f84c0931b4ab044e8a74ff5 1495240559
+obj /usr/share/zsh/site-functions/_pulseaudio e9f5c9588f84c0931b4ab044e8a74ff5 1508015515
 dir /usr/share/vala
 dir /usr/share/vala/vapi
-obj /usr/share/vala/vapi/libpulse-simple.deps 3e267e825e5f8bd09660e420ecc70afa 1495240559
-obj /usr/share/vala/vapi/libpulse-simple.vapi f027517ee60dc0f2581b14787baa17bc 1495240559
-obj /usr/share/vala/vapi/libpulse.vapi 87a748e0586d07a08983422c07e2bbe3 1495240559
-obj /usr/share/vala/vapi/libpulse.deps 5bbfe9d379e8319f29b1582be8e1f342 1495240559
-obj /usr/share/vala/vapi/libpulse-mainloop-glib.vapi 49d2a3fc637de68e65ddb82b9cb4de96 1495240559
-obj /usr/share/vala/vapi/libpulse-mainloop-glib.deps 3df65bfd9794bf187296c8b172d42a18 1495240559
+obj /usr/share/vala/vapi/libpulse-simple.deps 3e267e825e5f8bd09660e420ecc70afa 1508015515
+obj /usr/share/vala/vapi/libpulse-simple.vapi f027517ee60dc0f2581b14787baa17bc 1508015515
+obj /usr/share/vala/vapi/libpulse.vapi 87a748e0586d07a08983422c07e2bbe3 1508015515
+obj /usr/share/vala/vapi/libpulse.deps 5bbfe9d379e8319f29b1582be8e1f342 1508015515
+obj /usr/share/vala/vapi/libpulse-mainloop-glib.vapi 49d2a3fc637de68e65ddb82b9cb4de96 1508015515
+obj /usr/share/vala/vapi/libpulse-mainloop-glib.deps 3df65bfd9794bf187296c8b172d42a18 1508015515
 dir /usr/share/man
 dir /usr/share/man/man1
-obj /usr/share/man/man1/pax11publish.1.bz2 b822a06fd2f231c69ad2bdf663150975 1495240557
-sym /usr/share/man/man1/parec.1.bz2 -> pacat.1.bz2 1495240569
-obj /usr/share/man/man1/pacmd.1.bz2 d3ac2a5552b2344ffc4e1d3898899669 1495240557
-obj /usr/share/man/man1/padsp.1.bz2 08f08edb4968826eec3fc9d039990f78 1495240557
-obj /usr/share/man/man1/esdcompat.1.bz2 f37579de8525c23f094c9495cd81267e 1495240557
-obj /usr/share/man/man1/pulseaudio.1.bz2 99e882b7add46ba482a3687eadd79770 1495240557
-obj /usr/share/man/man1/start-pulseaudio-x11.1.bz2 b7d4488be01e0ee728219a8506253f3f 1495240557
-sym /usr/share/man/man1/pamon.1.bz2 -> pacat.1.bz2 1495240569
-sym /usr/share/man/man1/paplay.1.bz2 -> pacat.1.bz2 1495240569
-obj /usr/share/man/man1/pactl.1.bz2 dda0df23ca6c16c974e1a4afa74881d8 1495240557
-sym /usr/share/man/man1/parecord.1.bz2 -> pacat.1.bz2 1495240569
-obj /usr/share/man/man1/pacat.1.bz2 523d2f389087a97a66092c507587ca2b 1495240557
-obj /usr/share/man/man1/pasuspender.1.bz2 e549bbe86211a0bde3702552f58d24c9 1495240557
+obj /usr/share/man/man1/pax11publish.1.bz2 b822a06fd2f231c69ad2bdf663150975 1508015509
+sym /usr/share/man/man1/parec.1.bz2 -> pacat.1.bz2 1508015524
+obj /usr/share/man/man1/pacmd.1.bz2 d3ac2a5552b2344ffc4e1d3898899669 1508015509
+obj /usr/share/man/man1/padsp.1.bz2 08f08edb4968826eec3fc9d039990f78 1508015509
+obj /usr/share/man/man1/esdcompat.1.bz2 f37579de8525c23f094c9495cd81267e 1508015509
+obj /usr/share/man/man1/pulseaudio.1.bz2 99e882b7add46ba482a3687eadd79770 1508015509
+obj /usr/share/man/man1/start-pulseaudio-x11.1.bz2 b7d4488be01e0ee728219a8506253f3f 1508015509
+sym /usr/share/man/man1/pamon.1.bz2 -> pacat.1.bz2 1508015524
+sym /usr/share/man/man1/paplay.1.bz2 -> pacat.1.bz2 1508015524
+obj /usr/share/man/man1/pactl.1.bz2 dda0df23ca6c16c974e1a4afa74881d8 1508015509
+sym /usr/share/man/man1/parecord.1.bz2 -> pacat.1.bz2 1508015524
+obj /usr/share/man/man1/pacat.1.bz2 523d2f389087a97a66092c507587ca2b 1508015509
+obj /usr/share/man/man1/pasuspender.1.bz2 e549bbe86211a0bde3702552f58d24c9 1508015509
 dir /usr/share/man/man5
-obj /usr/share/man/man5/pulse-daemon.conf.5.bz2 c097f27fa9ca9368fb2aea4df36245d2 1495240557
-obj /usr/share/man/man5/default.pa.5.bz2 de85e8d8c1ff626fd46bd051754b4fe0 1495240557
-obj /usr/share/man/man5/pulse-client.conf.5.bz2 052db80831166c49bff2403a52c28b34 1495240557
-obj /usr/share/man/man5/pulse-cli-syntax.5.bz2 26b0050a1272219694118deec226b89c 1495240557
+obj /usr/share/man/man5/pulse-daemon.conf.5.bz2 c097f27fa9ca9368fb2aea4df36245d2 1508015509
+obj /usr/share/man/man5/default.pa.5.bz2 de85e8d8c1ff626fd46bd051754b4fe0 1508015509
+obj /usr/share/man/man5/pulse-client.conf.5.bz2 052db80831166c49bff2403a52c28b34 1508015509
+obj /usr/share/man/man5/pulse-cli-syntax.5.bz2 26b0050a1272219694118deec226b89c 1508015509
 dir /usr/share/bash-completion
 dir /usr/share/bash-completion/completions
-obj /usr/share/bash-completion/completions/pulseaudio 5e911128bd6f5ff43a05db70a81a5ac5 1495240559
-sym /usr/share/bash-completion/completions/pacmd -> pulseaudio 1495240569
-sym /usr/share/bash-completion/completions/padsp -> pulseaudio 1495240569
-sym /usr/share/bash-completion/completions/pasuspender -> pulseaudio 1495240569
-sym /usr/share/bash-completion/completions/parecord -> pulseaudio 1495240569
-sym /usr/share/bash-completion/completions/pacat -> pulseaudio 1495240569
-sym /usr/share/bash-completion/completions/pactl -> pulseaudio 1495240569
-sym /usr/share/bash-completion/completions/paplay -> pulseaudio 1495240569
-sym /usr/share/bash-completion/completions/parec -> pulseaudio 1495240569
+obj /usr/share/bash-completion/completions/pulseaudio 5e911128bd6f5ff43a05db70a81a5ac5 1508015515
+sym /usr/share/bash-completion/completions/pacmd -> pulseaudio 1508015524
+sym /usr/share/bash-completion/completions/padsp -> pulseaudio 1508015524
+sym /usr/share/bash-completion/completions/pasuspender -> pulseaudio 1508015524
+sym /usr/share/bash-completion/completions/parecord -> pulseaudio 1508015524
+sym /usr/share/bash-completion/completions/pacat -> pulseaudio 1508015524
+sym /usr/share/bash-completion/completions/pactl -> pulseaudio 1508015524
+sym /usr/share/bash-completion/completions/paplay -> pulseaudio 1508015524
+sym /usr/share/bash-completion/completions/parec -> pulseaudio 1508015524
