@@ -3,7 +3,7 @@
 
 EAPI="6"
 
-inherit eutils user
+inherit eutils systemd user
 
 myCommit="ea099613e81b08a693b1f601eb5b38b753bd575e"
 
@@ -15,15 +15,35 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~x86 ~amd64"
 
-IUSE="crypt +curl +captcha javascript qt4 ssl webinterface"
+IUSE="crypt +curl +captcha extra javascript qt4 ssl webinterface"
 RDEPEND=">=dev-lang/python-2.5[sqlite]
 	crypt? ( dev-python/pycrypto )
+	>=dev-python/jinja-2
+	<dev-python/jinja-3
+	dev-python/beaker
+	dev-python/colorama
+	dev-python/feedparser
+	dev-python/getch
+	dev-python/markupsafe
+	dev-python/MultipartPostHandler
+	dev-python/setuptools
+	dev-python/thrift
+	dev-python/WSGIserver
+	extra? (
+		dev-python/beautifulsoup
+		dev-python/bjoern
+		dev-python/colorlog
+		dev-python/flup
+		dev-python/notify-python
+		dev-python/simplejson
+	)
 	curl? ( dev-python/pycurl )
 	captcha? ( app-text/tesseract
 		dev-python/pillow
 		javascript? ( dev-lang/spidermonkey ) )
-	javascript? ( net-misc/pyload[captcha] )
-	qt4? ( dev-python/PyQt4 )
+	javascript? ( net-libs/nodejs
+		net-misc/pyload[captcha] )
+	qt4? ( dev-python/PyQt4[webkit] )
 	ssl? ( dev-python/pyopenssl )
 	webinterface? ( dev-python/bottle )"
 
@@ -38,16 +58,20 @@ pkg_setup() {
 }
 
 src_install() {
+	diropts -m0755
+	insopts -m0755
 	dodir "/usr/share/${PN}"
 	insinto "/usr/share/${PN}"
-	doins -r *
-	fowners -R pyload:pyload "/usr/share/${PN}"
-	fperms -R go-rwx "/usr/share/${PN}"
+	doins -r ./*
 	make_wrapper pyload "/usr/share/${PN}/pyLoadCore.py"
 	make_wrapper pyloadCli "/usr/share/${PN}/pyLoadCli.py"
-	if use qt4 ; then
-		make_wrapper pyloadGui "${D}/usr/share/${PN}/pyLoadGui.py"
+	if use qt4; then
+		make_wrapper pyloadGui "/usr/share/${PN}/pyLoadGui.py"
 		doicon icons/logo.png || die "doicon failed"
 		make_desktop_entry pyLoadGui PyLoad
 	fi
+	UNIT_DIR="$(systemd_get_systemunitdir)"
+	systemd_newunit "${FILESDIR}/pyload.service" 'pyload.service'
+	fowners -Rv pyload:pyload "/usr/share/${PN}"
+	stat "${D}/usr/share/${PN}/module"
 }
