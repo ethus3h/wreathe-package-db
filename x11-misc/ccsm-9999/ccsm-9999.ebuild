@@ -1,7 +1,7 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="6"
+EAPI=6
 
 PYTHON_COMPAT=( python2_7 )
 DISTUTILS_IN_SOURCE_BUILD=1
@@ -9,7 +9,7 @@ inherit distutils-r1 git-r3 gnome2-utils
 
 DESCRIPTION="A graphical manager for CompizConfig Plugin (libcompizconfig)"
 HOMEPAGE="https://github.com/compiz-reloaded"
-EGIT_REPO_URI="git://github.com/compiz-reloaded/ccsm.git"
+EGIT_REPO_URI="https://github.com/compiz-reloaded/ccsm.git"
 
 LICENSE="GPL-2+"
 SLOT="0"
