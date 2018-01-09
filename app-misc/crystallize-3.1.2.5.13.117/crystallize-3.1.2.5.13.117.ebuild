@@ -19,6 +19,8 @@ LICENSE="AGPL-3 BSD-2"
 SLOT="0"
 RDEPEND="app-misc/wreathe-base
 	app-misc/ember-shared
+	app-misc/futuramerlin-web-toolkit
+	>=app-arch/tar-1.30
 	dev-python/internetarchive
 	dev-python/fusepy
 	sys-fs/zfs
