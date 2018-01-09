@@ -14,7 +14,7 @@ HOMEPAGE="https://www.gnu.org/software/gnash/"
 if [[ ${PV} = 9999* ]]; then
 	SRC_URI=""
 	EGIT_REPO_URI="git://git.savannah.gnu.org/gnash.git"
-	inherit git-2
+	inherit git-r3
 else
 # Release tarball is b0rked, upstream #35612
 #	SRC_URI="mirror://gnu/${PN}/${PV}/${P}.tar.bz2"
@@ -83,7 +83,7 @@ RDEPEND="
 	)
 	sdl? ( media-libs/libsdl[X] )
 	sdl-sound? ( media-libs/libsdl )
-	media-libs/speex[ogg]
+	media-libs/speex[utils]
 	sys-libs/zlib
 	>=sys-devel/libtool-2.2
 	mysql? ( virtual/mysql )
@@ -102,6 +102,7 @@ DEPEND="${RDEPEND}
 	gnome? ( app-text/rarian )
 	nsplugin? ( net-misc/npapi-sdk )
 	test? ( dev-util/dejagnu )
+	${PYTHON_DEPS}
 "
 # Tests hang with sandbox, bug #321017
 RESTRICT="test"
