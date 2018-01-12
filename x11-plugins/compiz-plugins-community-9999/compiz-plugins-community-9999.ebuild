@@ -8,6 +8,8 @@ if [[ "${PV}" == "9999" ]]; then
 	EGIT_REPO_URI="https://github.com/ethus3h/${PN}.git"
 	KEYWORDS=""
 	RDEPEND="
+		app-misc/cwiid
+		media-libs/opencv
 		gnome-base/librsvg
 		virtual/jpeg:0
 		>=x11-libs/compiz-bcop-${PV}
@@ -33,7 +35,7 @@ fi
 DESCRIPTION="Compiz Fusion Window Decorator Community Plugins"
 HOMEPAGE="http://futuramerlin.com/"
 
-LICENSE="GPL-2+"
+LICENSE="GPL-2+ BSD"
 SLOT="0"
 
 DEPEND="${RDEPEND}

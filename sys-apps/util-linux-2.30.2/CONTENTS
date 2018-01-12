@@ -1,0 +1,525 @@
+dir /lib64
+sym /lib64/libuuid.so.1 -> libuuid.so.1.3.0 1515568079
+obj /lib64/libsmartcols.so.1.1.0 12d9cfc72689c952a1ad2ad189b9495c 1515568073
+obj /lib64/libblkid.so.1.1.0 ea06cc71c33bea5cfc5ba79f57521ed4 1515568073
+obj /lib64/libuuid.so.1.3.0 d13ae29631587bd331e588298f61dcf4 1515568073
+sym /lib64/libblkid.so.1 -> libblkid.so.1.1.0 1515568079
+sym /lib64/libsmartcols.so.1 -> libsmartcols.so.1.1.0 1515568079
+sym /lib64/libmount.so.1 -> libmount.so.1.1.0 1515568079
+obj /lib64/libmount.so.1.1.0 959a385ff44461a15b2716adaa5cccbd 1515568073
+dir /etc
+dir /etc/pam.d
+obj /etc/pam.d/runuser 7d06cc6270a3b444c8e4aca706558aa7 1515568071
+obj /etc/pam.d/runuser-l 1a27b525ac1ed42a2dae9dfd0c1bca0e 1515568071
+dir /bin
+obj /bin/findmnt 751b28c14913de898a30eecb5e879568 1515568073
+obj /bin/umount 837651cb0c52c10d20ff33a26a761897 1515568073
+obj /bin/more d92d4d7e03f8389fccd69f2e5c98f4ec 1515568073
+obj /bin/lsblk 8f8a9d397c81d1afc3dadad70a7cc9ba 1515568073
+obj /bin/wdctl 9d45aa47cf945f4fbaf28dedf1ff2af7 1515568073
+obj /bin/mountpoint 7532baaecfed87441574c90dfeb6ec7e 1515568073
+obj /bin/mount 87a4c4bf2ebe1eaeb27e9f9975885dcb 1515568073
+obj /bin/dmesg db071f93853cd2f2d88e0587426f8550 1515568073
+dir /sbin
+obj /sbin/mkswap 76311d474ced7375e847d40b25aac7b4 1515568073
+obj /sbin/sfdisk 6d5d1e3087ea554fdd63b5b2bdbe2b9d 1515568073
+obj /sbin/mkfs.minix db8bf51b59f6c6d404354e66075c0230 1515568073
+obj /sbin/fsck 04bf6214991ea340e0b5cd701fd27c2f 1515568073
+obj /sbin/chcpu e2393af8bf2a7fd438fcbbfcc8865df2 1515568073
+obj /sbin/blkid 606d8902250b0151f2bc80b3bb67a7f0 1515568073
+obj /sbin/hwclock f1da5bf445cfdb66001e8aa256d0c46c 1515568073
+obj /sbin/mkfs 7ada3ddc0a1e5ed4a97e24e6d8a1dc45 1515568073
+obj /sbin/switch_root d6c169bbcdfcd7ec105a03f4633d923a 1515568073
+obj /sbin/agetty 32245a93802d317a8c28143e4d11f323 1515568073
+obj /sbin/zramctl 159eba1a6537782fc92f32e10a32b7ac 1515568073
+obj /sbin/fstrim 385a78af68a0d101a1c44fb71dba7a60 1515568073
+obj /sbin/mkfs.cramfs b8b7106ca92d5c030c1c78259de3f335 1515568073
+obj /sbin/runuser 5b74785e874e8cc4062bf9e4a94b5eb7 1515568073
+obj /sbin/fsck.cramfs 857918356485e9b1997a571d17afa7f8 1515568073
+obj /sbin/mkfs.bfs 877bff5cb7d9dbdd1a8d89f8c2b98aa1 1515568073
+obj /sbin/blockdev 3e0f565764ef6359791f012028ad34ed 1515568073
+obj /sbin/fsck.minix 2940ad55346c55d2a80e1e1f1a5b71dc 1515568073
+obj /sbin/cfdisk a8b6f6d9bceae1c7b0909541de2db96e 1515568073
+obj /sbin/swaplabel f1a96df42fb489665000bbd69f40cd7b 1515568073
+obj /sbin/swapon 4285b3ac3cc5a7f7d33ef4b940521397 1515568073
+obj /sbin/pivot_root a708d79d885149d738eb271456ef31bc 1515568073
+obj /sbin/swapoff dbcdbb6913ccdf6da0c9bfa898c2b4a8 1515568073
+obj /sbin/sulogin b856c4b082d7da4ecac01840751557cc 1515568073
+obj /sbin/losetup 128209f0b8518adbbe707d194b957436 1515568073
+obj /sbin/blkdiscard 14f91f8ca381cb493db7ab5d40936fd1 1515568073
+obj /sbin/fdisk 33c6415be7619150c9909532e3e20846 1515568073
+obj /sbin/fsfreeze 15eb7a03b8ba4d976e121f2f01647bdb 1515568073
+obj /sbin/ctrlaltdel ab9a04ce5d9095ea2324d481246bdc3f 1515568073
+obj /sbin/findfs 56cde2874d9f19abe5a0fcf5028f8120 1515568073
+obj /sbin/wipefs 7e78caa463989ff8ec9ea28df3bfdcb3 1515568073
+obj /sbin/raw 5817ad7fc23489fc39463cc3f75c52af 1515568073
+dir /usr
+dir /usr/lib
+dir /usr/lib/systemd
+dir /usr/lib/systemd/system
+obj /usr/lib/systemd/system/fstrim.timer caf51b791efb4f5a93c785571ff61a0f 1515568070
+obj /usr/lib/systemd/system/uuidd.service 173df84b7c23df43b78e4b4430fd7485 1515568070
+obj /usr/lib/systemd/system/uuidd.socket c7248d3b951cb529b8536a841c438cfa 1515568070
+obj /usr/lib/systemd/system/fstrim.service 09dd1b9ffbccc022d910fead7943f01a 1515568070
+dir /usr/lib64
+dir /usr/lib64/python3.4
+dir /usr/lib64/python3.4/site-packages
+dir /usr/lib64/python3.4/site-packages/libmount
+dir /usr/lib64/python3.4/site-packages/libmount/__pycache__
+obj /usr/lib64/python3.4/site-packages/libmount/__pycache__/__init__.cpython-34.pyo 99fcc1fb57acb25dbef5762c1b815f75 1515568071
+obj /usr/lib64/python3.4/site-packages/libmount/__pycache__/__init__.cpython-34.pyc 99fcc1fb57acb25dbef5762c1b815f75 1515568071
+obj /usr/lib64/python3.4/site-packages/libmount/__init__.py 65056093efcbe6a73000a11907df99a2 1515568069
+obj /usr/lib64/python3.4/site-packages/libmount/pylibmount.so c9eaee03d56ac9f630efeecccd2762bb 1515568073
+sym /usr/lib64/libfdisk.so -> libfdisk.so.1.1.0 1515568079
+obj /usr/lib64/libsmartcols.so 5cd7f36668f3ee7f33e94ed8791dc0f0 1515568070
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/uuid.pc 9f8e025efc94cdaf0bdbe556b039f172 1515568070
+obj /usr/lib64/pkgconfig/fdisk.pc bfe70db2dfdfcfa6c1ad03865df4d26e 1515568070
+obj /usr/lib64/pkgconfig/mount.pc e83425ae0ebf3115c0a2c8d4ff5e1415 1515568070
+obj /usr/lib64/pkgconfig/smartcols.pc 70b58a087a1dbdeeadbf1e8c247d3995 1515568070
+obj /usr/lib64/pkgconfig/blkid.pc 336216ad85700109f58135f02fd14ed5 1515568070
+obj /usr/lib64/libblkid.so fc19326d33b046bf9dd05d2e83b8e568 1515568070
+obj /usr/lib64/libfdisk.so.1.1.0 5a432fa723b72b78c323177b184b8e1e 1515568073
+obj /usr/lib64/libmount.so 79e58e506854c493ce1517f47dd91027 1515568070
+obj /usr/lib64/libuuid.so ee15792f9ebb9e16af64788f1f148a6d 1515568070
+sym /usr/lib64/libfdisk.so.1 -> libfdisk.so.1.1.0 1515568079
+dir /usr/include
+dir /usr/include/uuid
+obj /usr/include/uuid/uuid.h f6e894be9c0035358bc6bf49d9a42502 1515568070
+dir /usr/include/blkid
+obj /usr/include/blkid/blkid.h cae3154bf74f804da0c61a7cfbc30ae4 1515568070
+dir /usr/include/libfdisk
+obj /usr/include/libfdisk/libfdisk.h de7c3eaf2c975f4c43e58bfe83e591db 1515568070
+dir /usr/include/libmount
+obj /usr/include/libmount/libmount.h a24b30c1770db2b3a37c6951d93a0524 1515568070
+dir /usr/include/libsmartcols
+obj /usr/include/libsmartcols/libsmartcols.h 3b3287df6404d3ee1ea930fb2e462be7 1515568070
+dir /usr/lib32
+sym /usr/lib32/libuuid.so.1 -> libuuid.so.1.3.0 1515568079
+obj /usr/lib32/libsmartcols.so.1.1.0 e755ce5a85dd9bbc225483d01068fecb 1515568073
+obj /usr/lib32/libblkid.so.1.1.0 8d10f1061ceb4307c6ff6493c66f57eb 1515568073
+sym /usr/lib32/libfdisk.so -> libfdisk.so.1.1.0 1515568079
+obj /usr/lib32/libuuid.so.1.3.0 7c335a1c7146e395447b76d196ae972e 1515568073
+sym /usr/lib32/libsmartcols.so -> libsmartcols.so.1.1.0 1515568079
+sym /usr/lib32/libblkid.so.1 -> libblkid.so.1.1.0 1515568079
+sym /usr/lib32/libsmartcols.so.1 -> libsmartcols.so.1.1.0 1515568079
+dir /usr/lib32/pkgconfig
+obj /usr/lib32/pkgconfig/uuid.pc 7c8b6336811b56ca44f66068029093c9 1515568067
+obj /usr/lib32/pkgconfig/fdisk.pc dbb0252167213dafca1f773d33e13465 1515568067
+obj /usr/lib32/pkgconfig/mount.pc 01a5f82b4abb5675eb485716e38d30fd 1515568067
+obj /usr/lib32/pkgconfig/smartcols.pc 0f5d4fb097376af5660bdebdb855007e 1515568067
+obj /usr/lib32/pkgconfig/blkid.pc 9b2843e6efa50460edde6f105b608bae 1515568067
+sym /usr/lib32/libblkid.so -> libblkid.so.1.1.0 1515568079
+obj /usr/lib32/libfdisk.so.1.1.0 6cac599f8ba216902f551fc55a8529e1 1515568073
+sym /usr/lib32/libmount.so.1 -> libmount.so.1.1.0 1515568079
+sym /usr/lib32/libmount.so -> libmount.so.1.1.0 1515568079
+sym /usr/lib32/libuuid.so -> libuuid.so.1.3.0 1515568079
+obj /usr/lib32/libmount.so.1.1.0 d6a382b4af6be28238d54b872bbe5002 1515568073
+sym /usr/lib32/libfdisk.so.1 -> libfdisk.so.1.1.0 1515568079
+dir /usr/bin
+obj /usr/bin/ipcmk 9bc9ef61d7f285c9126ab0df78fe2dec 1515568073
+obj /usr/bin/look 3df17d36d491acbbe363d34afd42b01b 1515568073
+obj /usr/bin/last ac58143a428f0002b58cf35f7333086c 1515568073
+obj /usr/bin/chmem 41a13fd848b3627f2d90b44a8efef563 1515568073
+sym /usr/bin/linux32 -> setarch 1515568079
+obj /usr/bin/setsid 961259c9171e07219e553de2783eb674 1515568073
+obj /usr/bin/ipcrm e1416b4774de312746573746740ef803 1515568073
+obj /usr/bin/lscpu a392805a2bb0324e8234defec52c1f27 1515568073
+obj /usr/bin/ipcs 4f76a4b04f9c989375d2be3a18af6855 1515568073
+obj /usr/bin/isosize 7d9ae9bb92ec80689a60c9db77f5827c 1515568073
+obj /usr/bin/ul 964cdeb19bdd5374b002a110375a91d1 1515568073
+obj /usr/bin/utmpdump 2841f789decec75e910ee01702c2350f 1515568073
+obj /usr/bin/fincore a6f380b334143cd6e1c9130a5f102b1d 1515568073
+sym /usr/bin/linux64 -> setarch 1515568079
+obj /usr/bin/script e050b39af703ffe8b63a98457075d328 1515568073
+obj /usr/bin/ionice 888a40219da8d35baa6ed41510c0bdb0 1515568073
+obj /usr/bin/fallocate 5a3fd75277d229608316513d020ef62b 1515568073
+obj /usr/bin/eject c6d5ab16f52c5e241cfb493e6d5f3880 1515568073
+obj /usr/bin/lslocks e57b38483c5107b79339d7ed250d945a 1515568073
+obj /usr/bin/setterm 4ec774087a34b3cd7a8ba5fa553abce3 1515568073
+obj /usr/bin/column 0a564d34c8e0f61f41ea6e5dbaa46df6 1515568073
+obj /usr/bin/col 7f78b02db1b79554b04e6bb1a15fd222 1515568073
+obj /usr/bin/flock e31e79f4cb975a309579a5c3023754ab 1515568073
+obj /usr/bin/getopt 6ff00f5d857a4a965a4be95b0437fd2c 1515568073
+obj /usr/bin/rev 86b0c965d2be2a7aa681f9d7e7d484fd 1515568073
+obj /usr/bin/logger 592c65c70d3aacbfe6721d3a8947b5b9 1515568073
+sym /usr/bin/uname26 -> setarch 1515568079
+obj /usr/bin/lsns a14fded4dd27f064d28855ceb1cc8622 1515568073
+obj /usr/bin/namei de4b0e813fa01893629c7ea8b6cb31fd 1515568073
+obj /usr/bin/whereis aaeda21c7e77daa3c75dc0831c8f968d 1515568073
+obj /usr/bin/lsmem f60b5caf087af2360c7211f5e4dcfce9 1515568073
+obj /usr/bin/nsenter 7ee817585539bb33e0d08f6c8df1ca3c 1515568073
+obj /usr/bin/uuidgen 8bb423b8acf56b141a6228816538ae6d 1515568073
+obj /usr/bin/line 6ad3c8f4f7e382ded45c71cf159b44aa 1515568073
+obj /usr/bin/chrt 1c18fddbcbfa6d30bddceb6702d9ce45 1515568073
+obj /usr/bin/mcookie 255c2324273fc9978115519913ae1a49 1515568073
+sym /usr/bin/x86_64 -> setarch 1515568079
+sym /usr/bin/lastb -> last 1515568079
+obj /usr/bin/rename 4583c991661ae3ce73cf45ed4c0598a8 1515568073
+obj /usr/bin/renice d35ab3a34f490446329b444e74df09c4 1515568073
+obj /usr/bin/prlimit 71463534bd37eb8dfba67b6abe558760 1515568073
+obj /usr/bin/cal 369874e098de1061e7a9a6b280be0467 1515568073
+obj /usr/bin/scriptreplay e366f4ce5a4bf074847999b8e70b24bd 1515568073
+sym /usr/bin/i386 -> setarch 1515568079
+obj /usr/bin/setarch a8de5ad2aa64a35d376e2a4d9cc35e30 1515568073
+obj /usr/bin/colcrt 3dc5ceae536199505cca09680bd9458c 1515568073
+obj /usr/bin/lsipc 25ff1cfdbb42f01ead9c3b829446a7dc 1515568073
+obj /usr/bin/lslogins f29a2fbbc32fa8d03c9ff65dd1520c32 1515568073
+obj /usr/bin/taskset 43dcfb9d27d44c3a6404e4b06d1f297b 1515568073
+obj /usr/bin/hexdump 12d4af7acc5346aa3b053b7319514160 1515568073
+obj /usr/bin/unshare c7672dd5033a28ccaa05826ba3dd0409 1515568073
+obj /usr/bin/colrm 6f22db79f9815414b60c2e57bd330b51 1515568073
+dir /usr/sbin
+obj /usr/sbin/partx 8e366018be433ecca1a721c88e89bb7a 1515568073
+obj /usr/sbin/rtcwake 8987e9eb8291f2805e8cc28bea60e9f7 1515568073
+obj /usr/sbin/addpart d406bb58075d331992834c1ecff9dce1 1515568073
+obj /usr/sbin/resizepart 41fb680bef96a04627322796cdcb05f1 1515568073
+obj /usr/sbin/ldattach 6d80a33e63f393bee9a70a51f2dcdd0a 1515568073
+obj /usr/sbin/delpart 41a99569615786fe0b49acdd5d116397 1515568073
+obj /usr/sbin/uuidd 79ed532f86d197e2dca7702e47c34e80 1515568073
+obj /usr/sbin/readprofile 40f5f42c02918a130166b4b5a0e4af4c 1515568073
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/util-linux-2.30.2
+obj /usr/share/doc/util-linux-2.30.2/v2.22-ReleaseNotes.bz2 abd3d1f31f03a35283a3899f56a88241 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.21-ReleaseNotes.bz2 2791403813cad4b8a675fc4b8c2d930e 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.30.1-ReleaseNotes.bz2 f83f40d8a0e81b248ba052d881eb301a 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.18-ReleaseNotes.bz2 9e58b8cd5d99ff64d4347a919ca12be5 1515568071
+obj /usr/share/doc/util-linux-2.30.2/col.txt.bz2 d5c5a6f4ca9091cecbbc26d1fd126142 1515568071
+obj /usr/share/doc/util-linux-2.30.2/getopt.txt.bz2 c0198de32d00d1ee53342e9f9a7d0eab 1515568071
+obj /usr/share/doc/util-linux-2.30.2/getopt_changelog.txt.bz2 51772ed0b73fe0578fc122220c10535c 1515568071
+obj /usr/share/doc/util-linux-2.30.2/hwclock.txt.bz2 0df8fe976b7a9a2b8b3cc47f2c6fe08f 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.30.2-ReleaseNotes.bz2 a647404701c8d20b1e9c78e8a251b3c7 1515568071
+obj /usr/share/doc/util-linux-2.30.2/howto-pull-request.txt.bz2 2f9d53b78bbc0963b64c892db0f5b1fb 1515568071
+obj /usr/share/doc/util-linux-2.30.2/NEWS.bz2 8b5278e431693ebae7578916b80fbf9c 1515568071
+obj /usr/share/doc/util-linux-2.30.2/deprecated.txt.bz2 4d4a15e13cefb13383005c65facae521 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.28-ReleaseNotes.bz2 2f5bd0e7011dd6d51fb862086be00424 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.26-ReleaseNotes.bz2 99411464783f06f3d03e7769a7ee9355 1515568071
+obj /usr/share/doc/util-linux-2.30.2/howto-compilation.txt.bz2 8c46e403600f60c5ea2535380f4b73c3 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.30-ReleaseNotes.bz2 a3a50b66cf1f7accaaedb5b524596962 1515568071
+obj /usr/share/doc/util-linux-2.30.2/poeigl.txt.bz2 23dbb9abc07becebfc68aa661446b1a4 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.25-ReleaseNotes.bz2 6b2351949e199cd8044c30c48e3dc492 1515568071
+obj /usr/share/doc/util-linux-2.30.2/README.bz2 8ee41b353c7e6e09c44e3577d9d65d8c 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.17-ReleaseNotes.bz2 199f9d9061ef164e8b3424fc4a59fb4d 1515568071
+obj /usr/share/doc/util-linux-2.30.2/parse-date.txt.bz2 a324d571c59f6c33068c6f3d095b3053 1515568071
+obj /usr/share/doc/util-linux-2.30.2/howto-contribute.txt.bz2 b2c8385c3ea88b3911f236034098417b 1515568071
+obj /usr/share/doc/util-linux-2.30.2/AUTHORS.bz2 c0e8d3e8bcdbd84e9407e192c742474f 1515568071
+dir /usr/share/doc/util-linux-2.30.2/getopt
+obj /usr/share/doc/util-linux-2.30.2/getopt/getopt-parse.bash.bz2 75ab991b28c065d82992edc96c63399d 1515568070
+obj /usr/share/doc/util-linux-2.30.2/getopt/getopt-parse.tcsh.bz2 e8e4bf9a9de0064c7360a008f018771b 1515568070
+obj /usr/share/doc/util-linux-2.30.2/00-about-docs.txt.bz2 7bcc2bbdc79ac430c20afe0dfbb95214 1515568071
+obj /usr/share/doc/util-linux-2.30.2/README.licensing.bz2 0fddb42d6987f7ecf9662dd62d1cf442 1515568071
+obj /usr/share/doc/util-linux-2.30.2/howto-man-page.txt.bz2 8e8fc1f18a6ea530fe0969ba88f5c0ba 1515568071
+obj /usr/share/doc/util-linux-2.30.2/modems-with-agetty.txt.bz2 da9910b6e92615ea9829638301d8f9cd 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.15-ReleaseNotes.bz2 1a24565f91816b988158a4fc288f417b 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.27-ReleaseNotes.bz2 ad9989207275eb00e7e3d46a7601fff8 1515568071
+obj /usr/share/doc/util-linux-2.30.2/cal.txt.bz2 b555409b2aa2cca37478b18c365c3b5f 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.16-ReleaseNotes.bz2 e26fc1084ef04a474f798d981c28806b 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.14-ReleaseNotes.bz2 7c3df3431b02ce3e102461e4f46aa735 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.24-ReleaseNotes.bz2 c4ffebc396e8b250dcb2248435276391 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.23-ReleaseNotes.bz2 c40bc994c2436d3badb8534f23f27a43 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.19-ReleaseNotes.bz2 219795439b866d94ab9f85c8a0a65d90 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.20-ReleaseNotes.bz2 ad7face600b49049a52a80c584c15c36 1515568071
+obj /usr/share/doc/util-linux-2.30.2/blkid.txt.bz2 726fb0d5c71934d9d00308d430e02306 1515568071
+obj /usr/share/doc/util-linux-2.30.2/PAM-configuration.txt.bz2 b29aee714b2cf578442e08de47e7cb67 1515568071
+obj /usr/share/doc/util-linux-2.30.2/howto-tests.txt.bz2 a0d2a97691a99b6953199c5757477444 1515568071
+obj /usr/share/doc/util-linux-2.30.2/howto-usage-function.txt.bz2 17685391b325239b6027a6621145ea0f 1515568071
+obj /usr/share/doc/util-linux-2.30.2/mount.txt.bz2 67ec82c14c74604173355b44acfd5cbb 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.13-ReleaseNotes.bz2 abeaa54c0db5c3dfe6c8de3637f331a1 1515568071
+obj /usr/share/doc/util-linux-2.30.2/v2.29-ReleaseNotes.bz2 955788dc8fab838a2e872e43f8ee407b 1515568071
+obj /usr/share/doc/util-linux-2.30.2/release-schedule.txt.bz2 cc96620873b5913203ccfdd97b086866 1515568071
+obj /usr/share/doc/util-linux-2.30.2/howto-debug.txt.bz2 804e4dcc8df36533f96f00df9a7be003 1515568071
+obj /usr/share/doc/util-linux-2.30.2/TODO.bz2 5359a8e2768c08758d2acc6b7e47d553 1515568071
+obj /usr/share/doc/util-linux-2.30.2/pg.txt.bz2 3c966e50f07eee19b7ac52a0bb21bdd7 1515568071
+obj /usr/share/doc/util-linux-2.30.2/howto-build-sys.txt.bz2 b200fd09ff9cbae703bd2bf14808c5ae 1515568071
+dir /usr/share/locale
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/util-linux.mo 30f29bddceae96fc17d9ec22c5681052 1515568069
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/util-linux.mo 367d502463c1bdbe62ef55d46a1351f2 1515568068
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/util-linux.mo 4cadfa5c27965a4f056e08c9131514fe 1515568069
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/util-linux.mo 9d3e917d72c297e98270eefa137c0e3e 1515568069
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/util-linux.mo b983d601ac719d361d05dee2bfd4bef7 1515568069
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/util-linux.mo 3716cac11cb8afa56629b00c34a60169 1515568069
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/util-linux.mo dbf5635673c3a1f6477beaae1b401b19 1515568069
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/util-linux.mo 65d7e10bbc3bd415acb19280d11ed582 1515568068
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/util-linux.mo b7f263d7ae570303bc2d820c5cafc813 1515568069
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/util-linux.mo 61dfbe2c55e05c06b643ba8497eed718 1515568068
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/util-linux.mo 84e68a8a2e904a2a02939972942eca6b 1515568068
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/util-linux.mo 89d5878ff731097f1f28ced694c97192 1515568068
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/util-linux.mo af995e786e7387f9e3dfc98947f60b90 1515568069
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/util-linux.mo fad6f492b65ca9b4927286fd23eb4cdd 1515568068
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/util-linux.mo b0b0092481b3d4b217b102e311122f85 1515568069
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/util-linux.mo a1a5c5f6af01a684cf9002bcb85c3dfe 1515568069
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/util-linux.mo 8a1cc58e10273156c61e0f4b348f1df2 1515568068
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/util-linux.mo a7e95adacfbeb6c8908323d10950a8e3 1515568069
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/util-linux.mo 8ec91d620548f8afbf54d1eef149212e 1515568068
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/util-linux.mo 14ae35b881c4e30978436336e943d85f 1515568069
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/util-linux.mo f16b03b519b51d1bf0175a0f16dcb1d9 1515568068
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/util-linux.mo 140281b0f4f42133b2a111d2c6421e27 1515568068
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/util-linux.mo 2f111c283b19382a21184a67c47ec543 1515568068
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/util-linux.mo 4208633eb9dcf30992311c7327f6d53f 1515568069
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/util-linux.mo 867d544105abe0350366d8c369afa701 1515568068
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/util-linux.mo d821185e8fded100e79376e8f55a68b3 1515568069
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/libblkid.3.bz2 5e3c7861e80f13f132755d4739d19493 1515568070
+obj /usr/share/man/man3/uuid.3.bz2 eaae59c205b3d0de57cc63dcd540d544 1515568070
+obj /usr/share/man/man3/uuid_parse.3.bz2 cc0a087d60d6de837610d328a251c49e 1515568070
+obj /usr/share/man/man3/uuid_clear.3.bz2 702285b38cff54c0efec13db58bedc70 1515568070
+obj /usr/share/man/man3/uuid_unparse.3.bz2 84df9aeb11536288d349b3739022f710 1515568070
+obj /usr/share/man/man3/uuid_time.3.bz2 332aac65fb8dd1b131e3337f73a5356a 1515568070
+obj /usr/share/man/man3/uuid_copy.3.bz2 b7fcdb6011f905664926827913a8e67c 1515568070
+obj /usr/share/man/man3/uuid_compare.3.bz2 cca0e70957ef7f82b6a7169c4bd0893c 1515568070
+obj /usr/share/man/man3/uuid_generate_random.3 543542f69b78886b8031cd96fd6ccf5f 1515568070
+obj /usr/share/man/man3/uuid_generate_time.3 543542f69b78886b8031cd96fd6ccf5f 1515568070
+obj /usr/share/man/man3/uuid_is_null.3.bz2 a37444d6e75a53a33807ccf7d02b2ede 1515568070
+obj /usr/share/man/man3/uuid_generate.3.bz2 6969cf751b2963f5f2ff04fcb706baf4 1515568070
+obj /usr/share/man/man3/uuid_generate_time_safe.3 543542f69b78886b8031cd96fd6ccf5f 1515568070
+dir /usr/share/man/man8
+obj /usr/share/man/man8/linux64.8 e9682c1ad21fcc0a75b950b333919851 1515568070
+obj /usr/share/man/man8/sfdisk.8.bz2 5d5d586fd77d31a3a96ad63b12338667 1515568070
+obj /usr/share/man/man8/i386.8 e9682c1ad21fcc0a75b950b333919851 1515568070
+obj /usr/share/man/man8/pivot_root.8.bz2 6f7864b72a4f8ee9d74f54853412bc4e 1515568070
+obj /usr/share/man/man8/blkid.8.bz2 f374d7edb2a97f9a4ae8005dc52a7f73 1515568070
+obj /usr/share/man/man8/addpart.8.bz2 2d393a5409f3446f5bc2d7af72e70004 1515568070
+obj /usr/share/man/man8/sulogin.8.bz2 0fd544c2530aad38d918662bb8771bbd 1515568070
+obj /usr/share/man/man8/losetup.8.bz2 aab416753fbab02e6782a3928eab5de7 1515568070
+obj /usr/share/man/man8/raw.8.bz2 a6639c528d94916d2dc3e348bdeed601 1515568070
+obj /usr/share/man/man8/mkfs.minix.8.bz2 53deb8618b901f4686244a167a55434a 1515568070
+obj /usr/share/man/man8/lsblk.8.bz2 1ba041193e9d5e06a841ef62e33120ab 1515568070
+obj /usr/share/man/man8/zramctl.8.bz2 11f7150384d3f4dfd47434386387acc3 1515568070
+obj /usr/share/man/man8/rtcwake.8.bz2 9bf4ea32dd1f6fe137231827747b7ffb 1515568070
+obj /usr/share/man/man8/swapoff.8 d8b16ed12ca9d7ea12c6346785e4f44d 1515568070
+obj /usr/share/man/man8/fsck.8.bz2 7545da7744d2c673c4db9035476cbf3e 1515568070
+obj /usr/share/man/man8/fsck.minix.8.bz2 72bddf899138ccc6d969be492ef101e3 1515568070
+obj /usr/share/man/man8/x86_64.8 e9682c1ad21fcc0a75b950b333919851 1515568070
+obj /usr/share/man/man8/delpart.8.bz2 7da9127eb85c0f6dca075ac9a1961657 1515568070
+obj /usr/share/man/man8/mkfs.cramfs.8.bz2 281e114b9dc531403bcbf15d196b107d 1515568070
+obj /usr/share/man/man8/setarch.8.bz2 14e6f39e33302004da79a6eb3940fc0b 1515568070
+obj /usr/share/man/man8/findfs.8.bz2 b8bb7b6bc42c64d5ccc437bf16ee127f 1515568070
+obj /usr/share/man/man8/isosize.8.bz2 ef868e290d576435ad0fefee917faf03 1515568070
+obj /usr/share/man/man8/mkfs.bfs.8.bz2 1129bc5a8df9de2e2f7a88a0293727ed 1515568070
+obj /usr/share/man/man8/resizepart.8.bz2 649be892e170d215c6bd5bc7b12bdb65 1515568070
+obj /usr/share/man/man8/swapon.8.bz2 9f668447a2ee323e5a5231a912f0b717 1515568070
+obj /usr/share/man/man8/fdisk.8.bz2 7a8068db47ff58f2ae785444dda80ed2 1515568070
+obj /usr/share/man/man8/mkswap.8.bz2 8f19ff5cfda755e46500fbfebea220d9 1515568070
+obj /usr/share/man/man8/cfdisk.8.bz2 ce8ebf1076410c2e5775bd1fd91372ec 1515568070
+obj /usr/share/man/man8/wdctl.8.bz2 25a0aab2b51ccb843e63fa958d42e106 1515568070
+obj /usr/share/man/man8/lsns.8.bz2 4d280b13f08cc33a4ce51750e8b487b9 1515568070
+obj /usr/share/man/man8/ctrlaltdel.8.bz2 2122e1c74194ae53a59ae6a0a6894abf 1515568070
+obj /usr/share/man/man8/mkfs.8.bz2 d9bb7c58d891d31aca596fe3b153ac44 1515568070
+obj /usr/share/man/man8/hwclock.8.bz2 30a9107b44714e44059cc4559d9edc86 1515568070
+obj /usr/share/man/man8/wipefs.8.bz2 47d44e6954bed13c8975387a2fd5e907 1515568070
+obj /usr/share/man/man8/lslocks.8.bz2 96cdabe3f5b9760202a7f4a4145c1149 1515568070
+obj /usr/share/man/man8/ldattach.8.bz2 76402a15f563d480672b7bfda8c75f60 1515568070
+obj /usr/share/man/man8/readprofile.8.bz2 fee6d759037273b4272cb38c9b49b61a 1515568070
+obj /usr/share/man/man8/fsck.cramfs.8.bz2 485ee60475edf06f67ca084d26096efb 1515568070
+obj /usr/share/man/man8/blockdev.8.bz2 0b0845e571cfc0855a99738cbae8912c 1515568070
+obj /usr/share/man/man8/findmnt.8.bz2 71578798b6ce4a3d4926d135cf47ef41 1515568070
+obj /usr/share/man/man8/switch_root.8.bz2 bf573c268bb3f87055f76bfaedaa1795 1515568070
+obj /usr/share/man/man8/agetty.8.bz2 4bd1fc20c2f41e2ec00ac9f92885f8f6 1515568070
+obj /usr/share/man/man8/chcpu.8.bz2 5c33744926c04e7955f8c8e5fb0b85ca 1515568070
+obj /usr/share/man/man8/mount.8.bz2 b1ac2640c11cfa48b822a3fead6a30ae 1515568070
+obj /usr/share/man/man8/uuidd.8.bz2 ec0ff664a95c62b5a0d9fc104bda147a 1515568070
+obj /usr/share/man/man8/partx.8.bz2 2319157f6a643e836804b4a629a19da5 1515568070
+obj /usr/share/man/man8/swaplabel.8.bz2 1309bf8f99a9b4eb3fd1a10ac3d3f2c7 1515568070
+obj /usr/share/man/man8/fstrim.8.bz2 dc33d23d9ab048731461eb32b5c8b38c 1515568070
+obj /usr/share/man/man8/chmem.8.bz2 ba9d479c74063a1510714298f5b74767 1515568070
+obj /usr/share/man/man8/linux32.8 e9682c1ad21fcc0a75b950b333919851 1515568070
+obj /usr/share/man/man8/fsfreeze.8.bz2 f46d776a4fd3cd7467e480d62bbbcfa1 1515568070
+obj /usr/share/man/man8/umount.8.bz2 de520511ad0a2dcd99e25dd47ecf63dd 1515568070
+obj /usr/share/man/man8/blkdiscard.8.bz2 c654d320ebe07593a258aa745cfb34de 1515568070
+obj /usr/share/man/man8/uname26.8 e9682c1ad21fcc0a75b950b333919851 1515568070
+dir /usr/share/man/man1
+obj /usr/share/man/man1/prlimit.1.bz2 53906edd00f41d1062f2975771dc5fe4 1515568070
+obj /usr/share/man/man1/namei.1.bz2 2d6e37936d7c00a76c0cb06c709ee585 1515568070
+obj /usr/share/man/man1/utmpdump.1.bz2 0a62776145f41bb5a3887523b436bb9b 1515568070
+obj /usr/share/man/man1/scriptreplay.1.bz2 e9df0e752526a89952863ebc0b98d2cc 1515568070
+obj /usr/share/man/man1/flock.1.bz2 44f00b8ff7b0d6b917667ef12ce91827 1515568070
+obj /usr/share/man/man1/runuser.1.bz2 1569d9ae2f0174f1ddabf97cdb2e7fa3 1515568070
+obj /usr/share/man/man1/uuidgen.1.bz2 6f902ee460661cab49c3dac7d1fc6af4 1515568070
+obj /usr/share/man/man1/logger.1.bz2 a74e9a00ead35ebda247830cdf0edf3c 1515568070
+obj /usr/share/man/man1/unshare.1.bz2 ca4a397edb73e3af8075404a7e77bf10 1515568070
+obj /usr/share/man/man1/line.1.bz2 67fc6a04e975d67c806db25225fa99ee 1515568070
+obj /usr/share/man/man1/ipcs.1.bz2 7554dd7ead66f6c07fb1e90ae7f0e9fb 1515568070
+obj /usr/share/man/man1/lscpu.1.bz2 68ca798d3515bba6d34dea38431e6b0c 1515568070
+obj /usr/share/man/man1/look.1.bz2 3850f3885cde555bb163945406f8de9b 1515568070
+obj /usr/share/man/man1/fincore.1.bz2 071c2073a87640eea411e117685b1544 1515568070
+obj /usr/share/man/man1/lslogins.1.bz2 29843012fc0208d102e5adba36ccd4ba 1515568070
+obj /usr/share/man/man1/setsid.1.bz2 cc8291a05101daf762821433bb7db667 1515568070
+obj /usr/share/man/man1/script.1.bz2 63779ccb9db44927dc2549db4a62baa8 1515568070
+obj /usr/share/man/man1/lsipc.1.bz2 4b04ecb9b35d724feeb0e26fd2acfe73 1515568070
+obj /usr/share/man/man1/rename.1.bz2 9d32922307cbac9f2c1953e281635dce 1515568070
+obj /usr/share/man/man1/cal.1.bz2 f6f58e1c872d7aa02a2d1920f9c3bf6a 1515568070
+obj /usr/share/man/man1/lastb.1 fb30cb85b5dbad8c10035d3f59c41f33 1515568070
+obj /usr/share/man/man1/getopt.1.bz2 3b3dce7d04f6c4b6f9f8a98d4e400c0d 1515568070
+obj /usr/share/man/man1/mcookie.1.bz2 68fb6b3e9a868c2b74535b1df0541714 1515568070
+obj /usr/share/man/man1/colrm.1.bz2 6bffcfe94b4e9c25bc5608295443130f 1515568070
+obj /usr/share/man/man1/lsmem.1.bz2 ae107be8e92dddb78a0276ad9dbcd14a 1515568070
+obj /usr/share/man/man1/col.1.bz2 55c8eab32b0ffcf1ac9675636f9acc31 1515568070
+obj /usr/share/man/man1/whereis.1.bz2 bcab58b3be179bdcfeb71830ba24f152 1515568070
+obj /usr/share/man/man1/ionice.1.bz2 53b9653f8202c8c99eaafac99f6f2652 1515568070
+obj /usr/share/man/man1/more.1.bz2 9a2a6c1ce95c2f72f5d76a02382bbf7a 1515568070
+obj /usr/share/man/man1/nsenter.1.bz2 888362d45c326229548667e3f2a58fdf 1515568070
+obj /usr/share/man/man1/hexdump.1.bz2 8707308bbf36cd800c6d1f4ae25e614b 1515568070
+obj /usr/share/man/man1/eject.1.bz2 5c704ccd255fd663b65c6d6487f77f57 1515568070
+obj /usr/share/man/man1/fallocate.1.bz2 e66ab46ae295319a83af0b01b1eaf9f3 1515568070
+obj /usr/share/man/man1/taskset.1.bz2 aefa709b9b2ac7298799a465e0d4c35a 1515568070
+obj /usr/share/man/man1/ipcrm.1.bz2 5c268c55b2a6586671b2eb8f37e64186 1515568070
+obj /usr/share/man/man1/rev.1.bz2 3b428569abec186338098d3b5b5199a0 1515568070
+obj /usr/share/man/man1/ul.1.bz2 84ba05a675e61bf2fa15f42ac2e48cc1 1515568070
+obj /usr/share/man/man1/setterm.1.bz2 e52ee86ad125e6eddadbb007d45ec524 1515568070
+obj /usr/share/man/man1/last.1.bz2 d638b8065f6e293ebb743e212418d076 1515568070
+obj /usr/share/man/man1/chrt.1.bz2 3760dd24aa94a882ba7571c7b7ac5e37 1515568070
+obj /usr/share/man/man1/colcrt.1.bz2 01d196b8bb12500c64ee5bb21537a478 1515568070
+obj /usr/share/man/man1/ipcmk.1.bz2 5febf2cca9aa23932dad55c77f3ef291 1515568070
+obj /usr/share/man/man1/mountpoint.1.bz2 2925aa4d120941c1f7001b91b9f2ccbc 1515568070
+obj /usr/share/man/man1/column.1.bz2 686ce0081a9948daaee41b73c92de7ae 1515568070
+obj /usr/share/man/man1/dmesg.1.bz2 0018ed1f47a0fce80a634979de789092 1515568070
+obj /usr/share/man/man1/renice.1.bz2 3aff78260c0ab11e65a30fb84a4c990c 1515568070
+dir /usr/share/man/man5
+obj /usr/share/man/man5/terminal-colors.d.5.bz2 d18b335c4d8cd72d0247fa93aecd1ee2 1515568070
+obj /usr/share/man/man5/fstab.5.bz2 45d18b3474a7a2331d476e2b080c517b 1515568070
+dir /usr/share/bash-completion
+dir /usr/share/bash-completion/completions
+obj /usr/share/bash-completion/completions/findmnt 3a1c1249f36fb21df2e7f5d73c5bd55d 1515568070
+obj /usr/share/bash-completion/completions/ipcmk 9c0f92933f7c22bdad5eb043a2fb4d1b 1515568070
+obj /usr/share/bash-completion/completions/look 99d6123a41107b0af97cf497753e13b1 1515568070
+obj /usr/share/bash-completion/completions/mkswap 714a78b8be4bd7a93cfbb2054079f002 1515568070
+obj /usr/share/bash-completion/completions/last 1cf5de014ea7f2c338bdab9d4b37d5a5 1515568070
+obj /usr/share/bash-completion/completions/sfdisk 6cd7cdc658ad0733a474e4366f7f25c9 1515568070
+obj /usr/share/bash-completion/completions/chmem ab89b574c72e2b07f808c5eacd52c373 1515568070
+obj /usr/share/bash-completion/completions/mkfs.minix a6b188ad50bdaa89a29548b4b272458d 1515568070
+obj /usr/share/bash-completion/completions/setsid 67d1a78fb6e0a2dbefbe26c6db3aef6a 1515568070
+obj /usr/share/bash-completion/completions/ipcrm 0e891be2f2b92548de3db2961170ae66 1515568070
+obj /usr/share/bash-completion/completions/fsck 2278f4ce6d25a5506e9f1dcbb09594cd 1515568070
+obj /usr/share/bash-completion/completions/chcpu e8a4d7516b6cc9ae9103a1802f31fd26 1515568070
+obj /usr/share/bash-completion/completions/lscpu 78a3e7778cc75eda99cd8618ed013c77 1515568070
+obj /usr/share/bash-completion/completions/ipcs ccb973b1a6bd0b550ac9c06eb31148ca 1515568070
+obj /usr/share/bash-completion/completions/isosize f5b29d1e692a84280d3ffc002d40107b 1515568070
+obj /usr/share/bash-completion/completions/blkid e5cc4a49bdb23469475db07c9f0b3e76 1515568070
+obj /usr/share/bash-completion/completions/ul 6c63f8ba7f4e07902cc0e3afd3d76d57 1515568070
+obj /usr/share/bash-completion/completions/utmpdump e5e08df29f3d46d637fb126b4611de88 1515568070
+obj /usr/share/bash-completion/completions/fincore 0dedde6fe9f2de312cf2fb4c6ffa369b 1515568070
+obj /usr/share/bash-completion/completions/hwclock 7b48f609fc4a1f7da4ff6106479b6547 1515568070
+obj /usr/share/bash-completion/completions/umount e7191caf081867a87ed4124830d95e4e 1515568070
+obj /usr/share/bash-completion/completions/mkfs 5287b35e67ea15eb57b3ec68112a6463 1515568070
+obj /usr/share/bash-completion/completions/script f214e0cbf6e7e102d4d0a7f4166b25e4 1515568070
+obj /usr/share/bash-completion/completions/ionice 8d8f3564c59586d1f938845fb6d854e8 1515568070
+obj /usr/share/bash-completion/completions/fallocate 4d95b7457fc190891a92045f8d036c92 1515568070
+obj /usr/share/bash-completion/completions/zramctl 60c623698b0423efceacc4d140aa593c 1515568070
+obj /usr/share/bash-completion/completions/fstrim bdb6b707da1a95823a25f4f3df63d801 1515568070
+obj /usr/share/bash-completion/completions/mkfs.cramfs 00656469ead0def56836106f31b04685 1515568070
+obj /usr/share/bash-completion/completions/runuser 95ffc2e14af623b18bc3f68335630a89 1515568070
+obj /usr/share/bash-completion/completions/fsck.cramfs 59c0d7c05ae3f3ca982b6b638b7c8d76 1515568070
+obj /usr/share/bash-completion/completions/eject 27784997c5bf5895aa471b89855e2769 1515568070
+obj /usr/share/bash-completion/completions/lslocks d682654c01aee42c1cec20923af8b76a 1515568070
+obj /usr/share/bash-completion/completions/partx 3494d794499e3966f08557567e334f2b 1515568070
+obj /usr/share/bash-completion/completions/setterm 8a8030b7c803beeeef30b15f210d1018 1515568070
+obj /usr/share/bash-completion/completions/rtcwake 95b48054ab4f6a2cbe9acb1b9361caad 1515568070
+obj /usr/share/bash-completion/completions/more 78c5c8ef7889393ea5f6c9d40d224e79 1515568070
+obj /usr/share/bash-completion/completions/column 8e6d35aa9556d371f89bfe693d8d1405 1515568070
+obj /usr/share/bash-completion/completions/col 866319ca7a52f312a7ff7e0c03a552aa 1515568070
+obj /usr/share/bash-completion/completions/addpart 01ed8f8c011a9a709180f7632f9eca9e 1515568070
+obj /usr/share/bash-completion/completions/flock dc5f9519eabc73ba49994b9a7e4c5c02 1515568070
+obj /usr/share/bash-completion/completions/getopt 4108e4e53c764a63f13edca5cce1b62d 1515568070
+obj /usr/share/bash-completion/completions/mkfs.bfs 984198850062a8d9c1ffcb0d8072f685 1515568070
+obj /usr/share/bash-completion/completions/rev 6ef5a3547b5bb7e12751a934a9eca9da 1515568070
+obj /usr/share/bash-completion/completions/blockdev a6776b053afa162b8adb0615475cec70 1515568070
+obj /usr/share/bash-completion/completions/logger cef6993dcff37806c8aed1c4b7cc97d0 1515568070
+obj /usr/share/bash-completion/completions/fsck.minix b4eb0e8e2f0220ff7ce4ee0dce0512db 1515568070
+obj /usr/share/bash-completion/completions/cfdisk 6774c257b207bfb0cc1b44613abe996b 1515568070
+obj /usr/share/bash-completion/completions/swaplabel 5f8483ea33ba62554b1cd911e107d82d 1515568070
+obj /usr/share/bash-completion/completions/lsblk 5c42ba54bb3e5b0995ed35c98ac3cd4b 1515568070
+obj /usr/share/bash-completion/completions/lsns b5a36649ce7d9499aa395e1cd9d4c19f 1515568070
+obj /usr/share/bash-completion/completions/namei cbde0f857141d18d3e92fa6c10a810c7 1515568070
+obj /usr/share/bash-completion/completions/swapon d89f1a40a3cdf2e63ec55228fb7fb7b7 1515568070
+obj /usr/share/bash-completion/completions/resizepart b72f614dc234786c66ca1728d84d6e1f 1515568070
+obj /usr/share/bash-completion/completions/pivot_root 5676a64e6ac089a1fe610cc254a83445 1515568070
+obj /usr/share/bash-completion/completions/whereis 6bbcdb5b278b854abe2ca1148dfe0df7 1515568070
+obj /usr/share/bash-completion/completions/lsmem 3f780887c2c7d130b07f96531b0403ce 1515568070
+obj /usr/share/bash-completion/completions/nsenter 73dfb796a965cab35341dd69f76e53f1 1515568070
+obj /usr/share/bash-completion/completions/swapoff 30690e8195997100bdbd13f85837ecde 1515568070
+obj /usr/share/bash-completion/completions/wdctl 7a014929a4cfcb72d08a43332bdf04a2 1515568070
+obj /usr/share/bash-completion/completions/ldattach 541ec3db05bb8f7362f484cbc418545d 1515568070
+obj /usr/share/bash-completion/completions/delpart a46e759c1545f1e8a523a07360db4649 1515568070
+obj /usr/share/bash-completion/completions/uuidgen db19ec33f809d62864f39aa5e0c341d1 1515568070
+obj /usr/share/bash-completion/completions/losetup b3c26e3750c1e77e543afd25f54f87d2 1515568070
+obj /usr/share/bash-completion/completions/blkdiscard a9006ac90bfa93529d3c923c309e4354 1515568070
+obj /usr/share/bash-completion/completions/uuidd 535cf39716afb4f68a61d2b6e3acf651 1515568070
+obj /usr/share/bash-completion/completions/chrt e5e26a7716efd36ab0bcf97388d33073 1515568070
+obj /usr/share/bash-completion/completions/mcookie edf667c11e7cdf8b7fbc51bbc2b42eb1 1515568070
+obj /usr/share/bash-completion/completions/rename ef81b2b0c4287bd3ac58acbaba6e753d 1515568070
+obj /usr/share/bash-completion/completions/renice f81d5a284b8f0e3539458c2287ed07c9 1515568070
+obj /usr/share/bash-completion/completions/mountpoint 14609c52e4eb5d263ca1e7b118327763 1515568070
+obj /usr/share/bash-completion/completions/prlimit 8f812b5f11996165bfbbec2c06de4729 1515568070
+obj /usr/share/bash-completion/completions/fdisk 168e253bcbafa4e18255045cdc4a5db3 1515568070
+obj /usr/share/bash-completion/completions/cal 5f84bd0a65bb1b99e6cac7ebe7b56fc6 1515568070
+obj /usr/share/bash-completion/completions/scriptreplay 85a55ebd89903d2f7711486dc671f748 1515568070
+obj /usr/share/bash-completion/completions/setarch ed28c8342906c24c0e9ad62be275def5 1515568070
+obj /usr/share/bash-completion/completions/fsfreeze 48a27f7032273b204e63616db07aec25 1515568070
+obj /usr/share/bash-completion/completions/ctrlaltdel a731d297f41ae7574661a9b0148dabb9 1515568070
+obj /usr/share/bash-completion/completions/colcrt baafdf714e300e778bcec44282ca55c1 1515568070
+obj /usr/share/bash-completion/completions/lsipc 4dc63e72c0f3dea4f01d4361588abe26 1515568070
+obj /usr/share/bash-completion/completions/lslogins ac86d45be0d88daf918a3a789b3dae8d 1515568070
+obj /usr/share/bash-completion/completions/mount 1aa0fae9f0a6e866238d6c2b0de34701 1515568070
+obj /usr/share/bash-completion/completions/taskset 7f97477e59e1606ce377b70d85fcf114 1515568070
+obj /usr/share/bash-completion/completions/hexdump 7b93c9401bf575194c6ccf26c2181068 1515568070
+obj /usr/share/bash-completion/completions/findfs 1737382da82d4b70b15c40171ecd820e 1515568070
+obj /usr/share/bash-completion/completions/unshare fd1d22bfb748008e558572a4473a646d 1515568070
+obj /usr/share/bash-completion/completions/dmesg f1399f32c8066bac2cfef26dfdca583c 1515568070
+obj /usr/share/bash-completion/completions/colrm 00d923213dcba1a06dcd1e8a23fe4d86 1515568070
+obj /usr/share/bash-completion/completions/readprofile 34b415c5a23e820da70f269f312407cc 1515568070
+obj /usr/share/bash-completion/completions/wipefs f2810c79101e984c32ef8f34ff2de3c3 1515568070
+obj /usr/share/bash-completion/completions/raw 3db96094e3266b0ae6c1980d12ad3f03 1515568070
