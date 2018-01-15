@@ -1,0 +1,24 @@
+dir /etc
+dir /etc/python-exec
+obj /etc/python-exec/python-exec.conf 7f3c895ce08caa5ecf40679346359467 1516003299
+dir /usr
+dir /usr/lib
+dir /usr/lib/python-exec
+obj /usr/lib/python-exec/python-exec2 7157717ea4b74eedcebcf2d33869972a 1516003293
+dir /usr/bin
+sym /usr/bin/python3-config -> ../lib/python-exec/python-exec2 1516003300
+obj /usr/bin/python-exec2c c230047530a9da21cb2984dabee71325 1516003294
+sym /usr/bin/2to3 -> ../lib/python-exec/python-exec2 1516003300
+sym /usr/bin/python-config -> ../lib/python-exec/python-exec2 1516003300
+sym /usr/bin/python -> python-exec2c 1516003300
+sym /usr/bin/pyvenv -> ../lib/python-exec/python-exec2 1516003300
+sym /usr/bin/idle -> ../lib/python-exec/python-exec2 1516003300
+sym /usr/bin/python2 -> python-exec2c 1516003300
+sym /usr/bin/pydoc -> ../lib/python-exec/python-exec2 1516003300
+sym /usr/bin/python3 -> python-exec2c 1516003300
+sym /usr/bin/python2-config -> ../lib/python-exec/python-exec2 1516003300
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/python-exec-2.4.5
+obj /usr/share/doc/python-exec-2.4.5/NEWS.bz2 49e039068cb83161705b3ad6fe2f8fe6 1516003293
+obj /usr/share/doc/python-exec-2.4.5/README.bz2 6db76e8429f3f75707060ca13609ae85 1516003293
