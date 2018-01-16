@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -9,21 +9,15 @@ SRC_URI=""
 
 LICENSE="metapackage"
 SLOT="0"
-KEYWORDS="alpha amd64 arm ~arm64 ~hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~arm-linux ~x86-linux"
+KEYWORDS="alpha amd64 arm ~arm64 hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~arm-linux ~x86-linux"
 
 IUSE_INPUT_DEVICES="
-	input_devices_acecad
-	input_devices_aiptek
 	input_devices_elographics
 	input_devices_evdev
-	input_devices_fpit
-	input_devices_hyperpen
 	input_devices_joystick
 	input_devices_keyboard
 	input_devices_libinput
 	input_devices_mouse
-	input_devices_mutouch
-	input_devices_penmount
 	input_devices_tslib
 	input_devices_vmmouse
 	input_devices_void
@@ -38,7 +32,6 @@ IUSE_VIDEO_CARDS="
 	video_cards_chips
 	video_cards_cirrus
 	video_cards_dummy
-	video_cards_epson
 	video_cards_fbdev
 	video_cards_freedreno
 	video_cards_geode
@@ -80,28 +73,22 @@ IUSE_VIDEO_CARDS="
 	video_cards_tseng
 	video_cards_vesa
 	video_cards_via
+	video_cards_vc4
 	video_cards_virtualbox
 	video_cards_vmware
 	video_cards_voodoo
-	video_cards_fglrx
 	video_cards_nvidia
 "
 
 IUSE="${IUSE_VIDEO_CARDS} ${IUSE_INPUT_DEVICES}"
 
 PDEPEND="
-	input_devices_acecad?      ( x11-drivers/xf86-input-acecad )
-	input_devices_aiptek?      ( x11-drivers/xf86-input-aiptek )
 	input_devices_elographics? ( x11-drivers/xf86-input-elographics )
 	input_devices_evdev?       ( x11-drivers/xf86-input-evdev )
-	input_devices_fpit?        ( x11-drivers/xf86-input-fpit )
-	input_devices_hyperpen?    ( x11-drivers/xf86-input-hyperpen )
 	input_devices_joystick?    ( x11-drivers/xf86-input-joystick )
 	input_devices_keyboard?    ( x11-drivers/xf86-input-keyboard )
 	input_devices_libinput?    ( x11-drivers/xf86-input-libinput )
 	input_devices_mouse?       ( x11-drivers/xf86-input-mouse )
-	input_devices_mutouch?     ( x11-drivers/xf86-input-mutouch )
-	input_devices_penmount?    ( x11-drivers/xf86-input-penmount )
 	input_devices_tslib?       ( x11-drivers/xf86-input-tslib )
 	input_devices_vmmouse?     ( x11-drivers/xf86-input-vmmouse )
 	input_devices_void?        ( x11-drivers/xf86-input-void )
@@ -133,7 +120,6 @@ PDEPEND="
 	video_cards_omap?          ( x11-drivers/xf86-video-omap )
 	video_cards_qxl?           ( x11-drivers/xf86-video-qxl )
 	video_cards_nvidia?        ( x11-drivers/nvidia-drivers )
-	video_cards_fglrx?         ( x11-drivers/ati-drivers )
 	video_cards_r128?          ( x11-drivers/xf86-video-r128 )
 	video_cards_radeon?        ( x11-drivers/xf86-video-ati )
 	video_cards_radeonsi?      ( x11-drivers/xf86-video-ati[glamor] )
@@ -155,6 +141,7 @@ PDEPEND="
 	video_cards_tga?           ( x11-drivers/xf86-video-tga )
 	video_cards_trident?       ( x11-drivers/xf86-video-trident )
 	video_cards_tseng?         ( x11-drivers/xf86-video-tseng )
+	video_cards_vc4?           ( >=x11-base/xorg-server-${PV}[glamor] )
 	video_cards_vesa?          ( x11-drivers/xf86-video-vesa )
 	video_cards_via?           ( x11-drivers/xf86-video-openchrome )
 	video_cards_virtualbox?    ( x11-drivers/xf86-video-virtualbox )
