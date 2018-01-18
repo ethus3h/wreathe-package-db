@@ -1,31 +1,15 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-addonName="${PN/moz-ext-/}"
-addonName="${addonName//-/_}"
+mozApps=(fx sm)
+mozId=609267
 
-DESCRIPTION="Mozilla extension: restores support for Gopher servers, plus CSO/ph searches, finger, whois and more!"
+inherit moz-ext
+
+DESCRIPTION="Mozilla extension: Gopher servers, CSO/ph searches, finger, whois, etc."
 HOMEPAGE="http://gopher.floodgap.com/overbite/"
 
 KEYWORDS="~amd64 ~x86"
-SLOT="0"
 LICENSE="MPL-1.1"
-IUSE=""
-SRC_URI="https://addons.mozilla.org/firefox/downloads/file/609267/${addonName}-${PN}-fx+sm.xpi -> ${P}.zip"
-
-S="${WORKDIR}"
-
-src_install() {
-	destDirName="$(cat install.rdf | grep "em:id=\"" | head -n 1)"
-	destDirName="${destDirName#*\"}"
-	destDirName="${destDirName%%\"*}"
-	if [[ -z "$destDirName" ]]; then
-		destDirName="$(cat install.rdf | grep "<em:id>" | head -n 1)"
-		destDirName="${destDirName#*>}"
-		destDirName="${destDirName%%<*}"
-	fi
-	insinto "/usr/$(get_libdir)/firefox/browser/extensions/$destDirName"
-	doins -r ./
-}

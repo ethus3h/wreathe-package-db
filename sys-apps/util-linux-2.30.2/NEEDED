@@ -64,7 +64,7 @@
 /sbin/findfs libblkid.so.1,libc.so.6
 /sbin/ctrlaltdel libc.so.6
 /sbin/fsfreeze libc.so.6
-/sbin/fdisk libfdisk.so.1,libsmartcols.so.1,libncursesw.so.6,libreadline.so.6,libc.so.6
+/sbin/fdisk libfdisk.so.1,libsmartcols.so.1,libncursesw.so.6,libreadline.so.7,libc.so.6
 /sbin/blkdiscard librt.so.1,libc.so.6
 /sbin/losetup libsmartcols.so.1,libc.so.6
 /sbin/sulogin libcrypt.so.1,libc.so.6
@@ -89,8 +89,9 @@
 /sbin/chcpu libc.so.6
 /sbin/fsck libmount.so.1,libblkid.so.1,librt.so.1,libc.so.6
 /sbin/mkfs.minix libc.so.6
-/sbin/sfdisk libfdisk.so.1,libsmartcols.so.1,libncursesw.so.6,libreadline.so.6,libc.so.6
+/sbin/sfdisk libfdisk.so.1,libsmartcols.so.1,libncursesw.so.6,libreadline.so.7,libc.so.6
 /sbin/mkswap libuuid.so.1,libblkid.so.1,libc.so.6
+/sbin/blkzone libc.so.6
 /bin/dmesg libncursesw.so.6,librt.so.1,libc.so.6
 /bin/mount libmount.so.1,libc.so.6
 /bin/mountpoint libmount.so.1,libc.so.6

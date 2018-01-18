@@ -1,33 +1,37 @@
 dir /usr
 dir /usr/lib64
-dir /usr/lib64/ghc-7.10.3
-dir /usr/lib64/ghc-7.10.3/gentoo
-obj /usr/lib64/ghc-7.10.3/gentoo/transformers-base-0.4.4.conf 56ac1524ae00acfc704bbf2c66e868ee 1484023961
-dir /usr/lib64/ghc-7.10.3/package.conf.d
-obj /usr/lib64/ghc-7.10.3/package.conf.d/transformers-base-0.4.4-fd5ba0bea8f0508cf96f74a59418bbab.conf 56ac1524ae00acfc704bbf2c66e868ee 1484023961
+dir /usr/lib64/ghc-8.0.2
+dir /usr/lib64/ghc-8.0.2/gentoo
+obj /usr/lib64/ghc-8.0.2/gentoo/transformers-base-0.4.4.conf f9a9e8911bb804efc29118813006c449 1516220730
+dir /usr/lib64/ghc-8.0.2/package.conf.d
+obj /usr/lib64/ghc-8.0.2/package.conf.d/transformers-base-0.4.4-4TDmCsR520d8z8kPwbm8YT.conf f9a9e8911bb804efc29118813006c449 1516220730
 dir /usr/lib64/transformers-base-0.4.4
 dir /usr/lib64/transformers-base-0.4.4/ghc-7.10.3
-obj /usr/lib64/transformers-base-0.4.4/ghc-7.10.3/libHStransformers-base-0.4.4-KNLcXYMml3U4NvFrsXH3kx.a b092e284c8d1d7c816a0be5065b6612d 1484023962
 obj /usr/lib64/transformers-base-0.4.4/ghc-7.10.3/libHStransformers-base-0.4.4-KNLcXYMml3U4NvFrsXH3kx-ghc7.10.3.so 501369a90fa1770113d1a60cf3c6cc33 1484023962
-dir /usr/lib64/transformers-base-0.4.4/ghc-7.10.3/Control
-dir /usr/lib64/transformers-base-0.4.4/ghc-7.10.3/Control/Monad
-obj /usr/lib64/transformers-base-0.4.4/ghc-7.10.3/Control/Monad/Base.dyn_hi 8f15a853b34bf804f6c672a3ab0ba7a7 1484023960
-obj /usr/lib64/transformers-base-0.4.4/ghc-7.10.3/Control/Monad/Base.hi bf3d89c99d3d119f201237c9e7d388fa 1484023960
+dir /usr/lib64/transformers-base-0.4.4/ghc-8.0.2
+dir /usr/lib64/transformers-base-0.4.4/ghc-8.0.2/Control
+dir /usr/lib64/transformers-base-0.4.4/ghc-8.0.2/Control/Monad
+obj /usr/lib64/transformers-base-0.4.4/ghc-8.0.2/Control/Monad/Base.dyn_hi 47c3184beb6ac5b6bdbef248b8c34fe8 1516220730
+obj /usr/lib64/transformers-base-0.4.4/ghc-8.0.2/Control/Monad/Base.hi fa3d8efa05eeb016b37cc181b087e4d5 1516220730
+obj /usr/lib64/transformers-base-0.4.4/ghc-8.0.2/libHStransformers-base-0.4.4-4TDmCsR520d8z8kPwbm8YT.a e620595ec765456cc7008dfc196bbdce 1516220731
+dir /usr/lib64/x86_64-linux-ghc-8.0.2
+obj /usr/lib64/x86_64-linux-ghc-8.0.2/libHStransformers-base-0.4.4-4TDmCsR520d8z8kPwbm8YT-ghc8.0.2.so 453d8aa005dcf7eb6020e649acb197be 1516220731
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/transformers-base-0.4.4
-obj /usr/share/doc/transformers-base-0.4.4/LICENSE.bz2 6b199ba25fc65f748007a16b3e99ec45 1484023960
+obj /usr/share/doc/transformers-base-0.4.4/LICENSE.bz2 6b199ba25fc65f748007a16b3e99ec45 1516220730
 dir /usr/share/doc/transformers-base-0.4.4/html
-obj /usr/share/doc/transformers-base-0.4.4/html/haddock-util.js efbe2fe0641bdc80f87090a7c5991d26 1484023960
-obj /usr/share/doc/transformers-base-0.4.4/html/synopsis.png f7936844cc05316ed73f6bf1d2e75434 1484023960
-obj /usr/share/doc/transformers-base-0.4.4/html/ocean.css 65a0a584ad793512df537ff353f931fc 1484023960
-obj /usr/share/doc/transformers-base-0.4.4/html/index.html 4cbb02463fa54ab7ccf0cba4fed91c3e 1484023960
-obj /usr/share/doc/transformers-base-0.4.4/html/mini_Control-Monad-Base.html 28f20af0654a4a2b227ffa07c908a171 1484023960
-obj /usr/share/doc/transformers-base-0.4.4/html/index-frames.html a230f3c430fe850fbbe6e71935e5792d 1484023960
-obj /usr/share/doc/transformers-base-0.4.4/html/plus.gif 42449a1b372fbc7ec465e2fb3694b614 1484023960
-obj /usr/share/doc/transformers-base-0.4.4/html/Control-Monad-Base.html d624dbbbcb031ae5b805731e09ae2587 1484023960
-obj /usr/share/doc/transformers-base-0.4.4/html/minus.gif c8ff9f25065fff4d6d7a30fd5463d5d8 1484023960
-obj /usr/share/doc/transformers-base-0.4.4/html/hslogo-16.png ce800224901ca06548bbec8a4680ab3d 1484023960
-obj /usr/share/doc/transformers-base-0.4.4/html/transformers-base.haddock 228f9c032d864354ff3aaea957031026 1484023960
-obj /usr/share/doc/transformers-base-0.4.4/html/doc-index.html 92d7e75cf1be3c14496c421744104613 1484023960
-obj /usr/share/doc/transformers-base-0.4.4/html/frames.html 35bfc999f900c7a84385013c180f4170 1484023960
+obj /usr/share/doc/transformers-base-0.4.4/html/Control-Monad-Base.html 960d0980a661c85252f1f6be667d89ea 1516220730
+obj /usr/share/doc/transformers-base-0.4.4/html/doc-index.html 0418212d6d9e5efb8bd1325cad01f367 1516220730
+obj /usr/share/doc/transformers-base-0.4.4/html/haddock-util.js 7f2a4aec77d09a5143b89cf35cc22f26 1516220730
+obj /usr/share/doc/transformers-base-0.4.4/html/hslogo-16.png ce800224901ca06548bbec8a4680ab3d 1516220730
+obj /usr/share/doc/transformers-base-0.4.4/html/index.html b87c59e37237785d95c47b82520e4b68 1516220730
+obj /usr/share/doc/transformers-base-0.4.4/html/mini_Control-Monad-Base.html aa1787d393d0105c80fcd54911550ed6 1516220730
+obj /usr/share/doc/transformers-base-0.4.4/html/minus.gif c8ff9f25065fff4d6d7a30fd5463d5d8 1516220730
+obj /usr/share/doc/transformers-base-0.4.4/html/ocean.css 7f0a317e109c53306621b60baf8504c4 1516220730
+obj /usr/share/doc/transformers-base-0.4.4/html/plus.gif 42449a1b372fbc7ec465e2fb3694b614 1516220730
+dir /usr/share/doc/transformers-base-0.4.4/html/src
+obj /usr/share/doc/transformers-base-0.4.4/html/src/Control-Monad-Base.html 01b017354c1553f9e4667faee9b1768a 1516220730
+obj /usr/share/doc/transformers-base-0.4.4/html/src/hscolour.css a16c385801b2e5cb5fe485f080e4aaee 1516220730
+obj /usr/share/doc/transformers-base-0.4.4/html/synopsis.png f7936844cc05316ed73f6bf1d2e75434 1516220730
+obj /usr/share/doc/transformers-base-0.4.4/html/transformers-base.haddock 52269f9dc459499c27bda93b77ea08ad 1516220730
