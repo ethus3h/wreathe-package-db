@@ -1,41 +1,40 @@
 dir /usr
 dir /usr/lib64
-dir /usr/lib64/ghc-7.10.3
-dir /usr/lib64/ghc-7.10.3/gentoo
-obj /usr/lib64/ghc-7.10.3/gentoo/hslua-0.3.6.1.conf 713089c2b53776f9fdf8070459727a6a 1494959134
-dir /usr/lib64/ghc-7.10.3/package.conf.d
-obj /usr/lib64/ghc-7.10.3/package.conf.d/hslua-0.3.6.1-2df9908ec0bf8be456ff3eba158443aa.conf 713089c2b53776f9fdf8070459727a6a 1494959134
 dir /usr/lib64/hslua-0.3.6.1
-dir /usr/lib64/hslua-0.3.6.1/ghc-7.10.3
-dir /usr/lib64/hslua-0.3.6.1/ghc-7.10.3/Scripting
-dir /usr/lib64/hslua-0.3.6.1/ghc-7.10.3/Scripting/Lua
-obj /usr/lib64/hslua-0.3.6.1/ghc-7.10.3/Scripting/Lua/ConfigFile.hi 90c493e595d56246c28b048cf8859e9f 1494959133
-obj /usr/lib64/hslua-0.3.6.1/ghc-7.10.3/Scripting/Lua/ConfigFile.dyn_hi 0e4140bad00ffad77c446d0f0437e06c 1494959133
-obj /usr/lib64/hslua-0.3.6.1/ghc-7.10.3/Scripting/Lua.dyn_hi 80f2666d57bd99ff47e039a20cc52c96 1494959133
-obj /usr/lib64/hslua-0.3.6.1/ghc-7.10.3/Scripting/Lua.hi cf30dc6392ed2254863d0d8488588439 1494959133
-obj /usr/lib64/hslua-0.3.6.1/ghc-7.10.3/libHShslua-0.3.6.1-EjWQ9fW2QgJ8QIDeFaQ7u4.a d5574b7a7b282f2acd4338666648bc22 1494959134
-obj /usr/lib64/hslua-0.3.6.1/ghc-7.10.3/libHShslua-0.3.6.1-EjWQ9fW2QgJ8QIDeFaQ7u4-ghc7.10.3.so 7a6e5a8326d4af94543b82e7fe395c17 1494959134
+dir /usr/lib64/hslua-0.3.6.1/ghc-8.0.2
+dir /usr/lib64/hslua-0.3.6.1/ghc-8.0.2/Scripting
+dir /usr/lib64/hslua-0.3.6.1/ghc-8.0.2/Scripting/Lua
+obj /usr/lib64/hslua-0.3.6.1/ghc-8.0.2/Scripting/Lua/ConfigFile.hi 57c42760f71a00a29cd7ba3fea5d2039 1516418301
+obj /usr/lib64/hslua-0.3.6.1/ghc-8.0.2/Scripting/Lua/ConfigFile.dyn_hi 2a85886f72efd7a84758af35e941be99 1516418301
+obj /usr/lib64/hslua-0.3.6.1/ghc-8.0.2/Scripting/Lua.dyn_hi 88b01bbd0fb0a6ec26e6822135c0a110 1516418301
+obj /usr/lib64/hslua-0.3.6.1/ghc-8.0.2/Scripting/Lua.hi 3a373a13864aaadbe300dff598f54fb5 1516418301
+obj /usr/lib64/hslua-0.3.6.1/ghc-8.0.2/libHShslua-0.3.6.1-9B0O2KWF1rBBvGYxDRVr3y.a 0f5883aa977934031c887e8a17c36f39 1516418303
+dir /usr/lib64/ghc-8.0.2
+dir /usr/lib64/ghc-8.0.2/gentoo
+obj /usr/lib64/ghc-8.0.2/gentoo/hslua-0.3.6.1.conf ae525c55c61ef5255c733032abfeac72 1516418302
+dir /usr/lib64/ghc-8.0.2/package.conf.d
+obj /usr/lib64/ghc-8.0.2/package.conf.d/hslua-0.3.6.1-9B0O2KWF1rBBvGYxDRVr3y.conf ae525c55c61ef5255c733032abfeac72 1516418302
+dir /usr/lib64/x86_64-linux-ghc-8.0.2
+obj /usr/lib64/x86_64-linux-ghc-8.0.2/libHShslua-0.3.6.1-9B0O2KWF1rBBvGYxDRVr3y-ghc8.0.2.so b9040fc7129fab9f9f152fdd7228b445 1516418303
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/hslua-0.3.6.1
 dir /usr/share/doc/hslua-0.3.6.1/html
-obj /usr/share/doc/hslua-0.3.6.1/html/Scripting-Lua-ConfigFile.html b476690089f4f59a3181532b601b2248 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/haddock-util.js efbe2fe0641bdc80f87090a7c5991d26 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/synopsis.png f7936844cc05316ed73f6bf1d2e75434 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/ocean.css 65a0a584ad793512df537ff353f931fc 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/index.html 4d31f4a74b23f8bba9b878d8d4ac00a4 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/Scripting-Lua.html 6e2b7c09b4beb3cfb8f4f01b6b981090 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/mini_Scripting-Lua.html 93909ac8890a962207738e7513b14871 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/index-frames.html a608e47bb9147e3261d77a9c7eaa9707 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/plus.gif 42449a1b372fbc7ec465e2fb3694b614 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/mini_Scripting-Lua-ConfigFile.html 7ac4faa70ede78ad6ba9a5cbe499c33b 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/minus.gif c8ff9f25065fff4d6d7a30fd5463d5d8 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/hslogo-16.png ce800224901ca06548bbec8a4680ab3d 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/hslua.haddock a29504902ffaf7ec75ee7529e45ae12d 1494959133
+obj /usr/share/doc/hslua-0.3.6.1/html/Scripting-Lua-ConfigFile.html b77cb9beb950b1a194860aed9d364eba 1516418301
+obj /usr/share/doc/hslua-0.3.6.1/html/haddock-util.js 7f2a4aec77d09a5143b89cf35cc22f26 1516418301
+obj /usr/share/doc/hslua-0.3.6.1/html/synopsis.png f7936844cc05316ed73f6bf1d2e75434 1516418301
+obj /usr/share/doc/hslua-0.3.6.1/html/ocean.css 7f0a317e109c53306621b60baf8504c4 1516418301
+obj /usr/share/doc/hslua-0.3.6.1/html/index.html 15a3ba87271abe9a63ae3afccea97a36 1516418301
+obj /usr/share/doc/hslua-0.3.6.1/html/Scripting-Lua.html 19cba2b746b4a409664ab0b72f34d8c0 1516418301
+obj /usr/share/doc/hslua-0.3.6.1/html/mini_Scripting-Lua.html 4499da075f3d5ee277f7c27562acc59e 1516418301
+obj /usr/share/doc/hslua-0.3.6.1/html/plus.gif 42449a1b372fbc7ec465e2fb3694b614 1516418301
+obj /usr/share/doc/hslua-0.3.6.1/html/mini_Scripting-Lua-ConfigFile.html 62da089425423c7b1c2bad4f0a45d745 1516418301
+obj /usr/share/doc/hslua-0.3.6.1/html/minus.gif c8ff9f25065fff4d6d7a30fd5463d5d8 1516418301
+obj /usr/share/doc/hslua-0.3.6.1/html/hslogo-16.png ce800224901ca06548bbec8a4680ab3d 1516418301
+obj /usr/share/doc/hslua-0.3.6.1/html/hslua.haddock 517b6af1a8c9de77e3c4eeed63a41d36 1516418301
 dir /usr/share/doc/hslua-0.3.6.1/html/src
-obj /usr/share/doc/hslua-0.3.6.1/html/src/Scripting-Lua-ConfigFile.html 62becec54e8574b2d9b44719f8f9c92b 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/src/hscolour.css a16c385801b2e5cb5fe485f080e4aaee 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/src/Scripting-Lua.html 4958eedf0497d5a82f5c7e95a4873365 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/doc-index.html 3f184291bbfcae5ae7d485970208d3d6 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/html/frames.html 35bfc999f900c7a84385013c180f4170 1494959133
-obj /usr/share/doc/hslua-0.3.6.1/COPYRIGHT.bz2 221939f36e1dbccfdbd4ddb0ae72e7c2 1494959133
+obj /usr/share/doc/hslua-0.3.6.1/html/src/Scripting-Lua-ConfigFile.html 62becec54e8574b2d9b44719f8f9c92b 1516418301
+obj /usr/share/doc/hslua-0.3.6.1/html/src/hscolour.css a16c385801b2e5cb5fe485f080e4aaee 1516418301
+obj /usr/share/doc/hslua-0.3.6.1/html/src/Scripting-Lua.html 4958eedf0497d5a82f5c7e95a4873365 1516418301
+obj /usr/share/doc/hslua-0.3.6.1/html/doc-index.html 0704fcc3758835ebfdb3c36d5e0e523a 1516418301
+obj /usr/share/doc/hslua-0.3.6.1/COPYRIGHT.bz2 221939f36e1dbccfdbd4ddb0ae72e7c2 1516418301
