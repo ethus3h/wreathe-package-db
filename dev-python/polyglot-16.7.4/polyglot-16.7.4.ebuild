@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -21,7 +21,7 @@ RDEPEND="dev-libs/icu
 	dev-python/pyicu[${PYTHON_USEDEP}]
 	dev-python/pycld2[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/futures[${PYTHON_USEDEP}]
+	virtual/python-futures[${PYTHON_USEDEP}]
 	dev-python/Morfessor[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]"
 
