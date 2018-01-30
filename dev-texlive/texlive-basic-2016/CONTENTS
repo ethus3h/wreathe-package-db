@@ -3,40 +3,42 @@ dir /var/lib
 dir /var/lib/texmf
 dir /var/lib/texmf/web2c
 dir /var/lib/texmf/web2c/tex
-obj /var/lib/texmf/web2c/tex/tex.fmt b2c91189afa1095c1badf02f7fa0a013 1507526198
-obj /var/lib/texmf/web2c/tex/tex.log d888ad6ebce28c03b80e71fa35579936 1507526198
+obj /var/lib/texmf/web2c/tex/tex.fmt 7f4ffbc85d60cb91c00518f5c3c845d2 1517187384
+obj /var/lib/texmf/web2c/tex/tex.log b264d4d633c48204e0b6451c5f49343a 1517187384
 dir /var/lib/texmf/web2c/luatex
-obj /var/lib/texmf/web2c/luatex/luatex.fmt cc45f6243364be7108405314876eec10 1507526198
-obj /var/lib/texmf/web2c/luatex/dviluatex.log 0b48eff9252a2223be90421a4d23dddb 1507526198
-obj /var/lib/texmf/web2c/luatex/dviluatex.fmt ac426ae71fb3bdeeec804c7502be3c8a 1507526198
-obj /var/lib/texmf/web2c/luatex/luatex.log ac2ca5ff3f19aaed90428b01333a0fc7 1507526198
+obj /var/lib/texmf/web2c/luatex/luatex.fmt 10105bb5e951cd531a2711e48750e6da 1517187384
+obj /var/lib/texmf/web2c/luatex/dviluatex.log 642ed4fc6e8788d0052895619d02e14a 1517187384
+obj /var/lib/texmf/web2c/luatex/dviluatex.fmt 8625ba48a64e62dc7505c5095dc552d9 1517187384
+obj /var/lib/texmf/web2c/luatex/luatex.log 51349d3f5289120e35e37d3a636bc1ec 1517187384
 dir /var/lib/texmf/web2c/pdftex
-obj /var/lib/texmf/web2c/pdftex/pdftex.fmt aba4901f6f0d6c9bf3c0c9fb474f51e8 1507526198
-obj /var/lib/texmf/web2c/pdftex/etex.log c5c034204a69932c228124f886d942e5 1507526198
-obj /var/lib/texmf/web2c/pdftex/etex.fmt 3a89d1a47bc364da8cb05842f29bbf91 1507526198
-obj /var/lib/texmf/web2c/pdftex/pdfetex.log c2617ac3071e577a2555c7c12a04b092 1507526198
-obj /var/lib/texmf/web2c/pdftex/pdftex.log cd133e1cebc513c5b83af53c2fededdf 1507526198
-obj /var/lib/texmf/web2c/pdftex/pdfetex.fmt 8937e27cb3c6a19f340498e30e8fa43d 1507526198
+obj /var/lib/texmf/web2c/pdftex/pdftex.fmt adbc82ecb25652289f9e9d9cc6aa0f4c 1517187384
+obj /var/lib/texmf/web2c/pdftex/etex.log 80a70c039ae2995b45d7710cac843437 1517187384
+obj /var/lib/texmf/web2c/pdftex/etex.fmt 868e116d49172178b9fd1870ed7cd446 1517187384
+obj /var/lib/texmf/web2c/pdftex/pdfetex.log ace32d055bfcc8e65b5f666377ee1a4a 1517187384
+obj /var/lib/texmf/web2c/pdftex/pdftex.log b2bef66b76ff305f7cf40f52d0c09eb5 1517187384
+obj /var/lib/texmf/web2c/pdftex/pdfetex.fmt 73a27eb083f22c38e08f6d3126bc9fcb 1517187384
 dir /var/lib/texmf/web2c/luajittex
-obj /var/lib/texmf/web2c/luajittex/luajittex.fmt 51284629f9f2381a9c00a89f837392d5 1507526198
-obj /var/lib/texmf/web2c/luajittex/luajittex.log 70e5c9dd6b8d80c6f0d48e9f1be6cc0c 1507526198
+obj /var/lib/texmf/web2c/luajittex/luajittex.fmt 60eabf4f9feb689d26b121347b6f3142 1517187384
+obj /var/lib/texmf/web2c/luajittex/luajittex.log 0624ac87251d997620902c4486866ec5 1517187384
 dir /var/lib/texmf/web2c/metafont
-obj /var/lib/texmf/web2c/metafont/mf.base 4775ad0d4e28bc9e964b89cb4e363c55 1507526198
-obj /var/lib/texmf/web2c/metafont/mf.log 0798e06e601c89b1c498a3fb98b3c12d 1507526198
+obj /var/lib/texmf/web2c/metafont/mf.base bf56106869a2b5fde42ee09f9d3ee731 1517187384
+obj /var/lib/texmf/web2c/metafont/mf.log ecd954d3f8668e2c46b739e1a509e0f6 1517187384
 dir /etc
 dir /etc/texmf
 dir /etc/texmf/dvipdfm
 dir /etc/texmf/dvipdfm/config
 dir /etc/texmf/dvips.d
 dir /etc/texmf/fmtutil.d
-obj /etc/texmf/fmtutil.d/format.texlive-basic.cnf 8af2634f61970875ecea3705544311d0 1507526196
+obj /etc/texmf/fmtutil.d/format.texlive-basic.cnf 8af2634f61970875ecea3705544311d0 1517187374
 dir /etc/texmf/updmap.d
-obj /etc/texmf/updmap.d/texlive-basic.cfg be044b4d71332a8ae52d0c51e2413e3d 1507526198
+obj /etc/texmf/updmap.d/texlive-basic.cfg be044b4d71332a8ae52d0c51e2413e3d 1517187384
 dir /usr
 dir /usr/bin
-sym /usr/bin/etex -> pdftex 1507526207
-sym /usr/bin/pdfetex -> pdftex 1507526207
-sym /usr/bin/dviluatex -> luatex 1507526207
+sym /usr/bin/etex -> pdftex 1517187403
+sym /usr/bin/simpdftex -> ../share/texmf-dist/scripts/simpdftex/simpdftex 1517187403
+sym /usr/bin/rungs -> ../share/texmf-dist/scripts/texlive/rungs.tlu 1517187403
+sym /usr/bin/pdfetex -> pdftex 1517187403
+sym /usr/bin/dviluatex -> luatex 1517187403
 dir /usr/share
 dir /usr/share/tlpkg
 dir /usr/share/tlpkg/tlpobj
@@ -352,7 +354,7 @@ obj /usr/share/texmf-dist/tex/plain/base/wlist.tex 2f193036b523fcd22966bc6bed63d
 obj /usr/share/texmf-dist/tex/plain/base/fontchart.tex 0731cd3f70aec4bf136ed4a2f166969b 1137109606
 obj /usr/share/texmf-dist/tex/plain/base/list.tex 477ec0ff1935ee7bece87534a5b0c9b7 1137109606
 dir /usr/share/texmf-dist/fmtutil
-sym /usr/share/texmf-dist/fmtutil/format.texlive-basic.cnf -> /etc/texmf/fmtutil.d/format.texlive-basic.cnf 1507526208
+sym /usr/share/texmf-dist/fmtutil/format.texlive-basic.cnf -> /etc/texmf/fmtutil.d/format.texlive-basic.cnf 1517187403
 dir /usr/share/texmf-dist/scripts
 dir /usr/share/texmf-dist/scripts/simpdftex
 obj /usr/share/texmf-dist/scripts/simpdftex/simpdftex c0492ac38e53579e3e22fa185f50074c 1363046501
@@ -1595,7 +1597,7 @@ obj /usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk ba2f638a41e
 obj /usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk b2079a83a8343543a9e18db5e6f47ade 1136849718
 obj /usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk c562fda04f99936b3380df8b485bf110 1136849718
 dir /usr/share/texmf-dist/web2c
-obj /usr/share/texmf-dist/web2c/texmfcnf.lua 3d4e7c74effcc971451d338fbb242da3 1507526195
+obj /usr/share/texmf-dist/web2c/texmfcnf.lua 3d4e7c74effcc971451d338fbb242da3 1517187374
 dir /usr/share/texmf-dist/mft
 dir /usr/share/texmf-dist/mft/knuth-local
 obj /usr/share/texmf-dist/mft/knuth-local/e.mft eaa66e6cfd2ddeb9966cd15d7efdcc73 1391450068
@@ -1628,5 +1630,3 @@ obj /usr/share/texmf-dist/metafont/config/mf.ini 2ff4166ae1bda7b8f7a20f014c51aad
 dir /usr/share/texmf-dist/metafont/base
 obj /usr/share/texmf-dist/metafont/base/mf.mf 8153f2ea78491094378d71fe55c2dd9a 1480098771
 obj /usr/share/texmf-dist/metafont/base/plain.mf 4d1e346a95e3a566786597499457f08c 1480098771
-sym /usr/bin/rungs -> ../share/texmf-dist/scripts/texlive/rungs.tlu 1507526208
-sym /usr/bin/simpdftex -> ../share/texmf-dist/scripts/simpdftex/simpdftex 1507526208
