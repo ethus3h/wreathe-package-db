@@ -11,8 +11,6 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
 
-DEPEND="
-	kde-apps/dolphin:4
-"
+DEPEND="kde-apps/dolphin:4"
 RDEPEND="${DEPEND}"
 PDEPEND="${DEPEND}"

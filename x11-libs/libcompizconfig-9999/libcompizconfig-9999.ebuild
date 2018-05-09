@@ -1,8 +1,8 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-inherit autotools eutils git-r3
+inherit autotools git-r3
 
 DESCRIPTION="CompizConfig plugin required for compizconfig-settings-manager"
 HOMEPAGE="https://github.com/compiz-reloaded"
@@ -22,7 +22,7 @@ DEPEND="${RDEPEND}
 	x11-proto/xproto
 "
 
-RESTRICT="test"
+#RESTRICT="test"
 
 src_prepare() {
 	default
@@ -37,5 +37,5 @@ src_configure() {
 
 src_install() {
 	default
-	prune_libtool_files --all
+	find "${D}" -name '*.la' -delete || die
 }
