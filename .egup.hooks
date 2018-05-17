@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -av --delete --checksum --progress --no-i-r --exclude '.egup.hooks' --exclude '.git' --exclude 'CODE_OF_CONDUCT.md' --exclude 'CONTRIBUTING.md' --exclude 'README.md' --exclude 'LICENSE.md' /var/db/pkg/ /Ember\ Library/Ember\ satellite\ projects/wreathe-package-db/ || exit 1
