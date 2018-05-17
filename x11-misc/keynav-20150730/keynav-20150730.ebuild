@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -13,7 +13,6 @@ SRC_URI="https://github.com/jordansissel/keynav/archive/${myCommit}.zip -> ${P}-
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
 
 S="${WORKDIR}/${PN}-${myCommit}"
 
@@ -21,7 +20,7 @@ RDEPEND="x11-libs/cairo[X]
 	x11-libs/libXinerama
 	>=x11-misc/xdotool-3.20160804
 	>=dev-libs/glib-2.0"
-DEPEND="x11-proto/xproto
+DEPEND="x11-base/xorg-proto
 	${RDEPEND}"
 
 src_prepare() {

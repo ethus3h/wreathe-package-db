@@ -1,27 +1,22 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-if [[ "${PV}" == "9999" ]]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/ethus3h/${PN}.git"
-	KEYWORDS=""
-else
-	SRC_URI="https://github.com/ethus3h/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
-fi
+inherit git-r3
 
 DESCRIPTION="Extra snowflake textures for Compiz"
 HOMEPAGE="https://futuramerlin.com/"
+EGIT_REPO_URI="https://github.com/ethus3h/${PN}.git"
 
 LICENSE="AGPL-3"
 SLOT="0"
-RDEPEND="x11-plugins/compiz-plugins-experimental"
+KEYWORDS=""
+
+RDEPEND=">=x11-plugins/compiz-plugins-experimental-${PV}"
 
 src_install() {
+	rm .egup.{branches,refs,remotes,tags} {CODE_OF_CONDUCT,CONTRIBUTING,LICENSE,README}.md || die
 	insinto /usr/share/compiz/snow/
-	GLOBIGNORE="README.md:.git:.egup.tags"
-	doins -r *
-	unset GLOBIGNORE
+	doins -r .
 }

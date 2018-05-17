@@ -1,10 +1,10 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 )
-inherit autotools eutils git-r3 python-r1
+PYTHON_COMPAT=( python2_7 python3_{4,5,6} )
+inherit autotools git-r3 python-r1
 
 DESCRIPTION="Python bindings for libraries/plugins for compizconfig-settings"
 HOMEPAGE="https://github.com/compiz-reloaded"
@@ -31,10 +31,6 @@ src_prepare(){
 }
 
 src_configure() {
-	local myeconfargs=(
-		--enable-fast-install
-		--disable-static
-	)
 	python_foreach_impl default
 }
 
@@ -44,5 +40,5 @@ src_compile() {
 
 src_install() {
 	python_foreach_impl default
-	prune_libtool_files --modules
+	find "${D}" -name '*.la' -delete || die
 }

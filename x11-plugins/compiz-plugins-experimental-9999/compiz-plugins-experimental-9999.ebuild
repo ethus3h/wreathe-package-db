@@ -1,11 +1,11 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
 inherit autotools eutils git-r3
 
-DESCRIPTION="Compiz Fusion Window Decorator Experimental Plugins"
+DESCRIPTION="Compiz Window Manager: Experimental Plugins"
 HOMEPAGE="https://github.com/compiz-reloaded"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz-plugins-experimental.git"
 
@@ -40,5 +40,5 @@ src_configure() {
 
 src_install() {
 	default
-	prune_libtool_files
+	find "${D}" -name '*.la' -delete || die
 }

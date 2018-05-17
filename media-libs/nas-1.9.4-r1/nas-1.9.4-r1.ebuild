@@ -1,6 +1,5 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=5
 inherit eutils multilib toolchain-funcs multilib-minimal
@@ -27,9 +26,9 @@ DEPEND="${RDEPEND}
 	app-text/rman
 	sys-devel/bison
 	sys-devel/flex
+	x11-base/xorg-proto
 	x11-misc/gccmakedep
-	x11-misc/imake
-	>=x11-proto/xproto-7.0.24[${MULTILIB_USEDEP}]"
+	x11-misc/imake"
 
 DOCS=( BUILDNOTES FAQ HISTORY README RELEASE TODO )
 

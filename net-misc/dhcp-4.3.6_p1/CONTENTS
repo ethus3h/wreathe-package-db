@@ -1,0 +1,85 @@
+dir /etc
+dir /etc/systemd
+dir /etc/systemd/system
+dir /etc/systemd/system/dhcrelay4.service.d
+obj /etc/systemd/system/dhcrelay4.service.d/00gentoo.conf 025777d958c625b7419d490149e06790 1526465992
+dir /etc/systemd/system/dhcrelay6.service.d
+obj /etc/systemd/system/dhcrelay6.service.d/00gentoo.conf 6320ef22b13c7fe70b2542efbf51803e 1526465992
+dir /etc/dhcp
+obj /etc/dhcp/dhcpd.conf c109beb726e16ec3e94c817f50d652c2 1465273929
+obj /etc/dhcp/dhclient.conf b3664279fd2ef80333cef21155831666 1472471039
+dir /etc/init.d
+obj /etc/init.d/dhcrelay 11e2282bee3f90159d1fc1268bbc1aaf 1526465992
+obj /etc/init.d/dhcpd 21642d28ae9452bce05679e0d12524c4 1526465992
+obj /etc/init.d/dhcrelay6 11e2282bee3f90159d1fc1268bbc1aaf 1526465992
+dir /etc/openldap
+dir /etc/openldap/schema
+obj /etc/openldap/schema/dhcp.schema c0fa7a1cd6a902ea6e685f3c4811f274 1526465991
+dir /etc/conf.d
+obj /etc/conf.d/dhcrelay e1892c0862c9b2cdcfbf68bb6d8992de 1526465991
+obj /etc/conf.d/dhcpd 026570f93fe76d2cdb0bbe6782b3ea5a 1526465991
+obj /etc/conf.d/dhcrelay6 586a3ccc71627b40c83b8e1624afe0cf 1526465991
+dir /sbin
+obj /sbin/dhclient-script 708e0d32371fbeddc49befaf76474ef4 1526465991
+obj /sbin/dhclient 914d72ad31135591eddb6ec7abfb4814 1526465993
+dir /usr
+dir /usr/lib
+dir /usr/lib/systemd
+dir /usr/lib/systemd/system
+obj /usr/lib/systemd/system/dhcrelay4.service 37190b99b1a979a4002a1784557a6916 1526465992
+obj /usr/lib/systemd/system/dhcpd4.service c1fa04bf64d3dc401ba423b6e254316e 1526465992
+obj /usr/lib/systemd/system/dhcpd6.service 608beb1d1d588f63be7457d6f586d813 1526465992
+obj /usr/lib/systemd/system/dhcrelay6.service c1b5f53c272ded4ae27a17ddd4b31015 1526465992
+dir /usr/lib/tmpfiles.d
+obj /usr/lib/tmpfiles.d/dhcpd.conf b7f8b070cfbcd527f11cfb809fddeb3a 1526465992
+dir /usr/lib64
+obj /usr/lib64/libomapi.a 35c1c749980614edaa25c95afc943fcd 1526465993
+obj /usr/lib64/libdhcpctl.a 1d940be675b81ed620c5ed67188881a1 1526465993
+dir /usr/include
+dir /usr/include/omapip
+obj /usr/include/omapip/alloc.h 7d1adb939fa684d060b528656658c977 1526465990
+obj /usr/include/omapip/trace.h 97cb93ee4ad4783a1933cf366d60f8d3 1526465990
+obj /usr/include/omapip/isclib.h 26388bf16f0ffc6b82cea99f331b98a6 1526465990
+obj /usr/include/omapip/buffer.h 56143ea0f617aaa785e55c8a379a85d3 1526465990
+obj /usr/include/omapip/omapip.h a7bbd95e1f16d5a8d44c666ecc2b6e02 1526465990
+obj /usr/include/omapip/convert.h 5c9539744161e68b6064d849fd7bedf6 1526465990
+obj /usr/include/omapip/result.h 8d23becd12ccd561eb2814e85be3548e 1526465990
+obj /usr/include/omapip/hash.h 10c7099501f2fc4967ed63143b4f915a 1526465990
+obj /usr/include/omapip/omapip_p.h 1224d49c16bd22284b8fd6fc360eb983 1526465990
+dir /usr/include/isc-dhcp
+obj /usr/include/isc-dhcp/dst.h a052313f58ac6007050c366307b5fad9 1526465990
+dir /usr/include/dhcpctl
+obj /usr/include/dhcpctl/dhcpctl.h 0295495b16eb798dd4a95a8596fa1083 1526465991
+dir /usr/bin
+obj /usr/bin/omshell c28db699759dd1db938cf55f94f743c9 1526465993
+dir /usr/sbin
+obj /usr/sbin/dhcrelay 8a0ac3875ac7e055f3d9a1cfb14b36c1 1526465993
+obj /usr/sbin/dhcpd ee610ea8a821f5ecb007faa8726c2abb 1526465993
+obj /usr/sbin/dhcpd-conf-to-ldap be3d9b1343812f5d264bf03a6f275e98 1526465991
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/dhcp-4.3.6_p1
+obj /usr/share/doc/dhcp-4.3.6_p1/api+protocol.bz2 f2fcd763c8eca64d8aff5ab4c79383ef 1526465991
+dir /usr/share/doc/dhcp-4.3.6_p1/html
+obj /usr/share/doc/dhcp-4.3.6_p1/html/References.html 3278e8265a70238077f13c81753d283a 1526465991
+obj /usr/share/doc/dhcp-4.3.6_p1/README.bz2 d706419857114a3da9f2115c10cb1246 1526465991
+obj /usr/share/doc/dhcp-4.3.6_p1/RELNOTES.bz2 ed22b06d63437d5463289bc56c1adf2b 1526465991
+obj /usr/share/doc/dhcp-4.3.6_p1/IANA-arp-parameters.bz2 eb3066b8147850adc7dab9e33af93996 1526465991
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/dhcpctl.3.bz2 dceeb7eb27a09c5c28a7003e502a1618 1526465991
+obj /usr/share/man/man3/omapi.3.bz2 8507508130a59f9bc204e3b8de51a0a2 1526465991
+dir /usr/share/man/man8
+obj /usr/share/man/man8/dhclient.8.bz2 33c75a8fbec0346b6c6d102631846603 1526465991
+obj /usr/share/man/man8/dhcrelay.8.bz2 191b3dd8593db5a227d8f7a96f82498a 1526465991
+obj /usr/share/man/man8/dhcpd.8.bz2 ad105be6452d1cbe35e281352a727644 1526465991
+obj /usr/share/man/man8/dhclient-script.8.bz2 c658f0e0d004677d7a897418cc3c5553 1526465991
+dir /usr/share/man/man1
+obj /usr/share/man/man1/omshell.1.bz2 27dc79050a687309e586e5c5923b6fd7 1526465991
+dir /usr/share/man/man5
+obj /usr/share/man/man5/dhcp-eval.5.bz2 e1a97535cf2e3a3f5417443f5ace357e 1526465990
+obj /usr/share/man/man5/dhcpd.leases.5.bz2 962fba11434f6321713c1b3ebf4f80e0 1526465991
+obj /usr/share/man/man5/dhclient.leases.5.bz2 c0af7a4ac2e5d969cfdee9efa3c02949 1526465991
+obj /usr/share/man/man5/dhclient.conf.5.bz2 128286d70a853716f76d730abe3380f9 1526465991
+obj /usr/share/man/man5/dhcp-options.5.bz2 97193c6f49795c2f0c3ca48018478f73 1526465990
+obj /usr/share/man/man5/dhcpd.conf.5.bz2 0f5c63f6e71ffad1a6dc32e4571a8728 1526465991

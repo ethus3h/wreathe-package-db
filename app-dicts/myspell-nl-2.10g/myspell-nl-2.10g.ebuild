@@ -1,8 +1,7 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
-EAPI=4
+EAPI=6
 
 MYSPELL_DICT=(
 	"nl_NL.aff"
@@ -31,10 +30,11 @@ SRC_URI="
 
 LICENSE="BSD-2 CC-BY-3.0"
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 ~mips ppc ppc64 ~sh sparc x86 ~amd64-fbsd ~x86-fbsd"
+KEYWORDS="alpha amd64 arm ~arm64 hppa ia64 ~mips ppc ppc64 ~sh sparc x86 ~amd64-fbsd ~x86-fbsd"
 IUSE=""
 
 src_prepare() {
+	default
 	# thesarus has ugly name
 	mv th_nl_v2.dat th_nl_NL_v2.dat || die
 	mv th_nl_v2.idx th_nl_NL_v2.idx || die

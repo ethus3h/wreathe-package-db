@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -26,7 +26,7 @@ src_configure() {
 
 src_install() {
 	default
-	
+
 	rm -f "${ED}"/usr/share/sounds/sf2/README-bank
 	newinitd "${FILESDIR}"/sfxload.initd sfxload
 	newconfd "${FILESDIR}"/sfxload.confd sfxload

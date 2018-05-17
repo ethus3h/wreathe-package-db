@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="5"
@@ -22,7 +22,7 @@ DEPEND="${RDEPEND}
 	virtual/pkgconfig"
 
 src_configure() {
-	econf --with-glib \
+	econf \
 	$(use_with zlib zlib) \
 	$(use_with bzip2 bzip2) \
 	$(use_with audiofile libaudiofile) \

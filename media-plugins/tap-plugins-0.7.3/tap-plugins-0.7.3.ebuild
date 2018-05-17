@@ -1,6 +1,5 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: media-plugins/tap-plugins/tap-plugins-9999.ebuild,v 1.2 2015/06/06 18:00:11 Exp $
 
 EAPI=5
 
@@ -8,7 +7,7 @@ case "${PV}" in
 	(9999*)
 		KEYWORDS=""
 		VCS_ECLASS=git-2
-		EGIT_REPO_URI="git://github.com/tomszilagyi/${PN}.git"
+		EGIT_REPO_URI="https://github.com/tomszilagyi/${PN}.git"
 		EGIT_PROJECT="${PN}.git"
 		;;
 	(*)
