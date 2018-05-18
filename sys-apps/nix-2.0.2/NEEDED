@@ -1,0 +1,17 @@
+/usr/bin/nix-channel libnixmain.so,libnixutil.so,libnixformat.so,libnixstore.so,libstdc++.so.6,libgcc_s.so.1,libc.so.6
+/usr/bin/nix-copy-closure libnixmain.so,libnixutil.so,libnixformat.so,libnixstore.so,libstdc++.so.6,libgcc_s.so.1,libc.so.6
+/usr/bin/nix-env libnixexpr.so,libgc.so.1,libnixmain.so,libnixstore.so,libnixutil.so,libnixformat.so,libstdc++.so.6,libgcc_s.so.1,libc.so.6
+/usr/bin/nix-collect-garbage libnixmain.so,libnixstore.so,libnixutil.so,libnixformat.so,libstdc++.so.6,libgcc_s.so.1,libc.so.6,ld-linux-x86-64.so.2
+/usr/bin/nix-daemon libnixmain.so,libnixstore.so,libnixutil.so,libnixformat.so,libstdc++.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-x86-64.so.2
+/usr/bin/nix-prefetch-url libnixmain.so,libnixexpr.so,libnixstore.so,libnixutil.so,libnixformat.so,libstdc++.so.6,libgcc_s.so.1,libc.so.6
+/usr/bin/nix-store libsodium.so.18,libnixmain.so,libnixstore.so,libnixutil.so,libnixformat.so,libstdc++.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6
+/usr/bin/nix-build libnixmain.so,libnixexpr.so,libgc.so.1,libnixstore.so,libnixutil.so,libnixformat.so,libstdc++.so.6,libgcc_s.so.1,libc.so.6
+/usr/bin/nix libnixexpr.so,libgc.so.1,libnixmain.so,libnixstore.so,libnixutil.so,libnixformat.so,libstdc++.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-x86-64.so.2
+/usr/bin/nix-instantiate libnixexpr.so,libgc.so.1,libnixmain.so,libnixstore.so,libnixutil.so,libnixformat.so,libstdc++.so.6,libgcc_s.so.1,libc.so.6
+/usr/libexec/nix/buildenv libnixmain.so,libnixutil.so,libnixformat.so,libstdc++.so.6,libgcc_s.so.1,libc.so.6
+/usr/libexec/nix/build-remote libnixmain.so,libnixutil.so,libnixformat.so,libnixstore.so,libstdc++.so.6,libgcc_s.so.1,libc.so.6
+/usr/lib64/libnixmain.so libcrypto.so.1.0.0,libnixstore.so,libnixutil.so,libnixformat.so,libstdc++.so.6,libgcc_s.so.1,libc.so.6
+/usr/lib64/libnixexpr.so libdl.so.2,libgc.so.1,libnixutil.so,libnixstore.so,libnixformat.so,libstdc++.so.6,libgcc_s.so.1,libc.so.6,ld-linux-x86-64.so.2
+/usr/lib64/libnixutil.so liblzma.so.5,libbz2.so.1,libcrypto.so.1.0.0,libbrotlienc.so.1,libbrotlidec.so.1,libnixformat.so,libstdc++.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-x86-64.so.2
+/usr/lib64/libnixformat.so libstdc++.so.6,libgcc_s.so.1,libc.so.6
+/usr/lib64/libnixstore.so libsqlite3.so.0,libcurl.so.4,libsodium.so.18,libdl.so.2,libseccomp.so.2,libnixutil.so,libnixformat.so,libstdc++.so.6,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-x86-64.so.2
