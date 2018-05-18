@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -67,6 +67,9 @@ pkg_setup() {
 }
 
 src_configure() {
+	QT_SELECT="4"
+	export QT_SELECT
+
 	# Fix for missing pthread.h linking
 	# NOTE: temporarily fix until a better cmake files patch will be provided.
 	use elibc_FreeBSD && append-flags -pthread
