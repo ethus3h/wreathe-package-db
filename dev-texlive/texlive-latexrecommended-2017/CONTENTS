@@ -9,7 +9,8 @@ dir /etc/texmf/dvips.d
 dir /etc/texmf/updmap.d
 dir /usr
 dir /usr/bin
-sym /usr/bin/thumbpdf -> ../share/texmf-dist/scripts/thumbpdf/thumbpdf.pl 1526430025
+sym /usr/bin/lwarpmk -> ../share/texmf-dist/scripts/lwarp/lwarpmk.lua 1526796264
+sym /usr/bin/thumbpdf -> ../share/texmf-dist/scripts/thumbpdf/thumbpdf.pl 1526796264
 dir /usr/share
 dir /usr/share/tlpkg
 dir /usr/share/tlpkg/tlpobj
@@ -1326,7 +1327,7 @@ dir /usr/share/texmf-dist/scripts
 dir /usr/share/texmf-dist/scripts/lwarp
 obj /usr/share/texmf-dist/scripts/lwarp/lwarpmk.lua 0acb86414f3e5a9dc64a30f3ef1ce5a3 1494882875
 dir /usr/share/texmf-dist/scripts/thumbpdf
-obj /usr/share/texmf-dist/scripts/thumbpdf/thumbpdf.pl a8061892784b940b91bad1ef96024b17 1526430000
+obj /usr/share/texmf-dist/scripts/thumbpdf/thumbpdf.pl a8061892784b940b91bad1ef96024b17 1526796242
 dir /usr/share/texmf-dist/dvips
 dir /usr/share/texmf-dist/dvips/psfrag
 obj /usr/share/texmf-dist/dvips/psfrag/psfrag.pro 8c3e2ed7f53fb67422639838636ad272 1136768462
@@ -1797,4 +1798,3 @@ dir /usr/share/texmf-dist/makeindex/index
 obj /usr/share/texmf-dist/makeindex/index/bibref.ist 17928f86cfe7d69777db7b574288ddbb 1136768471
 dir /usr/share/texmf-dist/makeindex/memoir
 obj /usr/share/texmf-dist/makeindex/memoir/basic.gst 6126e8127ea6332f7cc86c24de400fe6 1463430985
-sym /usr/bin/lwarpmk -> ../share/texmf-dist/scripts/lwarp/lwarpmk.lua 1526430026

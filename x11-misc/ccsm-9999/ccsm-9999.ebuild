@@ -1,9 +1,9 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 )
+PYTHON_COMPAT=( python2_7  python3_{4,5,6} )
 DISTUTILS_IN_SOURCE_BUILD=1
 inherit distutils-r1 git-r3 gnome2-utils
 
@@ -40,9 +40,9 @@ python_prepare_all() {
 
 python_configure_all() {
 	mydistutilsargs=(
-		build \
-		--prefix=/usr \
-		--with-gtk=$(usex gtk3 3.0 2.0)
+		build
+		"--prefix=/usr"
+		"--with-gtk=$(usex gtk3 3.0 2.0)"
 	)
 }
 

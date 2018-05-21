@@ -3,34 +3,34 @@ dir /var/lib
 dir /var/lib/texmf
 dir /var/lib/texmf/web2c
 dir /var/lib/texmf/web2c/luatex
-obj /var/lib/texmf/web2c/luatex/dvilualatex.log 22af7e38e991324e66063f2eac91c3cf 1526428360
-obj /var/lib/texmf/web2c/luatex/lualatex.log 1b704a553f9fbcba904df31c7652a99b 1526428360
-obj /var/lib/texmf/web2c/luatex/dvilualatex.fmt 2bade24ac648f808b64341c0bd7fe93c 1526428360
-obj /var/lib/texmf/web2c/luatex/lualatex.fmt 6e7322d0b5538897ce522844f080c31b 1526428360
+obj /var/lib/texmf/web2c/luatex/dvilualatex.log 006d229417bcf0c9085deb99d0b382d4 1526762000
+obj /var/lib/texmf/web2c/luatex/lualatex.log d7e36255e4adb88f975162e5ef6067aa 1526762000
+obj /var/lib/texmf/web2c/luatex/dvilualatex.fmt c56f9957fc62e6fe367de890db4de0b2 1526762000
+obj /var/lib/texmf/web2c/luatex/lualatex.fmt bc13220532045d8a4c77317b2e71de0d 1526762000
 dir /var/lib/texmf/web2c/pdftex
-obj /var/lib/texmf/web2c/pdftex/pdflatex.log bb98f59135e03de5c34f7c766cf2695f 1526428360
-obj /var/lib/texmf/web2c/pdftex/latex.fmt e74a47d597fb5e9491c3ee61216adff3 1526428360
-obj /var/lib/texmf/web2c/pdftex/mptopdf.fmt 6ed63111985f5f0f6a9174edc10948b1 1526428360
-obj /var/lib/texmf/web2c/pdftex/mptopdf.log 6a6f1e9ddedf5bef23db948ecde332ec 1526428360
-obj /var/lib/texmf/web2c/pdftex/pdflatex.fmt eb5a1d926811dfa38e87c6941798778a 1526428360
-obj /var/lib/texmf/web2c/pdftex/latex.log 7d8562baceeda9178c865d9fc792a4d7 1526428360
+obj /var/lib/texmf/web2c/pdftex/pdflatex.log e1180dd6989d89ab1a27e828b84cad55 1526762000
+obj /var/lib/texmf/web2c/pdftex/latex.fmt f780ee63f1f757495c82bd4bade8f657 1526762000
+obj /var/lib/texmf/web2c/pdftex/mptopdf.fmt 1e0ae9f38c697fbdb78224b9cd4fbc90 1526762000
+obj /var/lib/texmf/web2c/pdftex/mptopdf.log 6b7d3a76af7fc13d1414cd999fe864c0 1526762000
+obj /var/lib/texmf/web2c/pdftex/pdflatex.fmt 1807af382b2c0fc5a7022e7fecd8c504 1526762000
+obj /var/lib/texmf/web2c/pdftex/latex.log 87f611668de60b2e1e694794cb992b8b 1526762000
 dir /etc
 dir /etc/texmf
 dir /etc/texmf/dvipdfm
 dir /etc/texmf/dvipdfm/config
 dir /etc/texmf/dvips.d
 dir /etc/texmf/fmtutil.d
-obj /etc/texmf/fmtutil.d/format.texlive-latex.cnf 92cc23e41c7ba2a3fbee96f563478719 1526428356
+obj /etc/texmf/fmtutil.d/format.texlive-latex.cnf 92cc23e41c7ba2a3fbee96f563478719 1526761994
 dir /etc/texmf/updmap.d
-obj /etc/texmf/updmap.d/texlive-latex.cfg f6f39ac9c54b33adb209611a95d73cb3 1526428360
+obj /etc/texmf/updmap.d/texlive-latex.cfg f6f39ac9c54b33adb209611a95d73cb3 1526762000
 dir /usr
 dir /usr/bin
-sym /usr/bin/latex -> pdftex 1526428377
-sym /usr/bin/lualatex -> luatex 1526428377
-sym /usr/bin/pdfatfi -> ../share/texmf-dist/scripts/oberdiek/pdfatfi.pl 1526428377
-sym /usr/bin/dvilualatex -> luatex 1526428377
-sym /usr/bin/mptopdf -> ../share/texmf-dist/scripts/context/perl/mptopdf.pl 1526428377
-sym /usr/bin/pdflatex -> pdftex 1526428377
+sym /usr/bin/latex -> pdftex 1526762017
+sym /usr/bin/lualatex -> luatex 1526762017
+sym /usr/bin/pdfatfi -> ../share/texmf-dist/scripts/oberdiek/pdfatfi.pl 1526762017
+sym /usr/bin/dvilualatex -> luatex 1526762017
+sym /usr/bin/mptopdf -> ../share/texmf-dist/scripts/context/perl/mptopdf.pl 1526762017
+sym /usr/bin/pdflatex -> pdftex 1526762017
 dir /usr/share
 dir /usr/share/tlpkg
 dir /usr/share/tlpkg/tlpobj
@@ -1421,7 +1421,7 @@ obj /usr/share/texmf-dist/tex/context/base/mkii/supp-mpe.mkii ee713f21ff767e04dd
 obj /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii 94eb9990bed73c364d7f53f960cc8c5b 1461363279
 obj /usr/share/texmf-dist/tex/context/base/mkii/supp-mis.mkii baa253c6c74f54c3e378ab4c2f00dec9 1461363279
 dir /usr/share/texmf-dist/fmtutil
-sym /usr/share/texmf-dist/fmtutil/format.texlive-latex.cnf -> /etc/texmf/fmtutil.d/format.texlive-latex.cnf 1526428377
+sym /usr/share/texmf-dist/fmtutil/format.texlive-latex.cnf -> /etc/texmf/fmtutil.d/format.texlive-latex.cnf 1526762017
 dir /usr/share/texmf-dist/scripts
 dir /usr/share/texmf-dist/scripts/oberdiek
 obj /usr/share/texmf-dist/scripts/oberdiek/luacolor-pre065.lua 48370c302ac5d44d2c3fbe36880278ca 1480098773

@@ -3,22 +3,22 @@ dir /var/lib
 dir /var/lib/texmf
 dir /var/lib/texmf/web2c
 dir /var/lib/texmf/web2c/tex
-obj /var/lib/texmf/web2c/tex/lollipop.log c235f3c38e695e78b9f3e293f79f1de8 1526514359
-obj /var/lib/texmf/web2c/tex/lollipop.fmt bba6507e1798105a0d0dc77be0b3f3f8 1526514359
+obj /var/lib/texmf/web2c/tex/lollipop.log 9f1882ea792e60698e95aeeda1c9d839 1526812488
+obj /var/lib/texmf/web2c/tex/lollipop.fmt e2ff89250972f41958c96abb0fbfb2d2 1526812488
 dir /var/lib/texmf/web2c/aleph
-obj /var/lib/texmf/web2c/aleph/lamed.log 14ce470933b43a68135d066391d29f40 1526514359
-obj /var/lib/texmf/web2c/aleph/lamed.fmt 9bfb65af6db736f26f28ecc837187a7c 1526514359
-obj /var/lib/texmf/web2c/aleph/aleph.fmt f9695e6a9199dbdba59a6bcf7b3e6eec 1526514359
-obj /var/lib/texmf/web2c/aleph/aleph.log d7b9b6a447a77a4f047683b186ee66b6 1526514359
+obj /var/lib/texmf/web2c/aleph/lamed.log 9d0755a2ac2fd1569c6833f9ceb05b07 1526812488
+obj /var/lib/texmf/web2c/aleph/lamed.fmt 192baa755514d76dff081158f4b3c3d1 1526812488
+obj /var/lib/texmf/web2c/aleph/aleph.fmt eaa664daa11827bb0b665da0bb62e5ba 1526812488
+obj /var/lib/texmf/web2c/aleph/aleph.log fc51621d9902d1dced6b046b04047dfe 1526812488
 dir /var/lib/texmf/web2c/pdftex
-obj /var/lib/texmf/web2c/pdftex/texsis.log eda4e1a19a5b55bd9642c4b192e94ba9 1526514359
-obj /var/lib/texmf/web2c/pdftex/mltex.fmt 1273948bfbc4870d5144287e38881dc4 1526514359
-obj /var/lib/texmf/web2c/pdftex/mllatex.fmt e2273559eb736a74bcba1955daa18a8d 1526514359
-obj /var/lib/texmf/web2c/pdftex/mllatex.log 0553a068ef8db91f98277f4fdf0f1b8e 1526514359
-obj /var/lib/texmf/web2c/pdftex/mltex.log e827d591106f98b3920314ea20bbe892 1526514359
-obj /var/lib/texmf/web2c/pdftex/texsis.fmt e78c9784aab3ed0f5ef5815327de4e0b 1526514359
-obj /var/lib/texmf/web2c/pdftex/eplain.fmt d20d0ed782bd40804b51a2a980d0f330 1526514359
-obj /var/lib/texmf/web2c/pdftex/eplain.log bb4da6be7e20530804b3c93c16835cb8 1526514358
+obj /var/lib/texmf/web2c/pdftex/texsis.log 6cfa5ed3a47fbb0e42a8380c1d84099d 1526812488
+obj /var/lib/texmf/web2c/pdftex/mltex.fmt e6325de7824273b340349c69c9f7e419 1526812488
+obj /var/lib/texmf/web2c/pdftex/mllatex.fmt 8b5dbd42d2c3f1d7acb350f2a035fa2d 1526812488
+obj /var/lib/texmf/web2c/pdftex/mllatex.log 243eb013bd5b2598e1da0c3120bdd0a6 1526812488
+obj /var/lib/texmf/web2c/pdftex/mltex.log 019f1d73d6711a549040a845d3e4db40 1526812488
+obj /var/lib/texmf/web2c/pdftex/texsis.fmt defde4d3179ec84f10a2dab175f2c7df 1526812488
+obj /var/lib/texmf/web2c/pdftex/eplain.fmt 2eec56db08a0c887d90f5655473a4d88 1526812488
+obj /var/lib/texmf/web2c/pdftex/eplain.log 29b97dad7da83663153bf3a1408eae24 1526812488
 dir /etc
 dir /etc/texmf
 dir /etc/texmf/dvipdfm
@@ -28,17 +28,17 @@ dir /etc/texmf/dvips
 dir /etc/texmf/dvips/omega.d
 obj /etc/texmf/dvips/omega.d/omega.cfg 20f3291d20f52a0af681cea63d491f22 1136768462
 dir /etc/texmf/fmtutil.d
-obj /etc/texmf/fmtutil.d/format.texlive-formatsextra.cnf bc3eb28eec769330aa99648d0f9c1cbe 1526514353
+obj /etc/texmf/fmtutil.d/format.texlive-formatsextra.cnf bc3eb28eec769330aa99648d0f9c1cbe 1526812483
 dir /etc/texmf/updmap.d
-obj /etc/texmf/updmap.d/texlive-formatsextra.cfg f085faf60408ec7bad4c45e886f6e5cd 1526514359
+obj /etc/texmf/updmap.d/texlive-formatsextra.cfg f085faf60408ec7bad4c45e886f6e5cd 1526812488
 dir /usr
 dir /usr/bin
-sym /usr/bin/eplain -> pdftex 1526514367
-sym /usr/bin/texsis -> pdftex 1526514367
-sym /usr/bin/lollipop -> tex 1526514367
-sym /usr/bin/mltex -> pdftex 1526514367
-sym /usr/bin/lamed -> aleph 1526514367
-sym /usr/bin/mllatex -> pdftex 1526514367
+sym /usr/bin/eplain -> pdftex 1526812494
+sym /usr/bin/texsis -> pdftex 1526812494
+sym /usr/bin/lollipop -> tex 1526812494
+sym /usr/bin/mltex -> pdftex 1526812494
+sym /usr/bin/lamed -> aleph 1526812494
+sym /usr/bin/mllatex -> pdftex 1526812494
 dir /usr/share
 dir /usr/share/tlpkg
 dir /usr/share/tlpkg/tlpobj
@@ -323,11 +323,11 @@ dir /usr/share/texmf-dist/tex/plain/omega
 obj /usr/share/texmf-dist/tex/plain/omega/grlccode.tex c00476f52899c09545df06ceed5dd699 1137109606
 obj /usr/share/texmf-dist/tex/plain/omega/omega.tex aa700bcb958cbbe1f95d8bfd8696c073 1137109606
 dir /usr/share/texmf-dist/fmtutil
-sym /usr/share/texmf-dist/fmtutil/format.texlive-formatsextra.cnf -> /etc/texmf/fmtutil.d/format.texlive-formatsextra.cnf 1526514367
+sym /usr/share/texmf-dist/fmtutil/format.texlive-formatsextra.cnf -> /etc/texmf/fmtutil.d/format.texlive-formatsextra.cnf 1526812494
 dir /usr/share/texmf-dist/dvips
 dir /usr/share/texmf-dist/dvips/omega
 obj /usr/share/texmf-dist/dvips/omega/config.omega 20f3291d20f52a0af681cea63d491f22 1136768462
-sym /usr/share/texmf-dist/dvips/omega/omega.cfg -> /etc/texmf/dvips/omega.d/omega.cfg 1526514367
+sym /usr/share/texmf-dist/dvips/omega/omega.cfg -> /etc/texmf/dvips/omega.d/omega.cfg 1526812494
 dir /usr/share/texmf-dist/doc
 dir /usr/share/texmf-dist/doc/latex
 dir /usr/share/texmf-dist/doc/latex/otibet

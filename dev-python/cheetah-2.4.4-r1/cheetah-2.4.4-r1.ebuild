@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="5"
@@ -10,12 +10,12 @@ MY_PN="Cheetah"
 MY_P="${MY_PN}-${PV/_}"
 
 DESCRIPTION="Python-powered template engine and code generator"
-HOMEPAGE="http://www.cheetahtemplate.org/ https://rtyler.github.com/cheetah/ https://pypi.python.org/pypi/Cheetah"
+HOMEPAGE="http://www.cheetahtemplate.org/ https://rtyler.github.com/cheetah/ https://pypi.org/project/Cheetah/"
 SRC_URI="mirror://pypi/${MY_P:0:1}/${MY_PN}/${MY_P}.tar.gz"
 
 LICENSE="MIT"
 IUSE=""
-KEYWORDS="alpha amd64 ~arm ia64 ppc sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos"
+KEYWORDS="alpha amd64 ~arm ia64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos"
 SLOT="0"
 
 RDEPEND="dev-python/markdown[${PYTHON_USEDEP}]"

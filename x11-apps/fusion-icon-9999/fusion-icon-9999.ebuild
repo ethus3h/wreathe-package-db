@@ -1,8 +1,8 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-PYTHON_COMPAT=( python2_7 )
+PYTHON_COMPAT=( python2_7 python3_{4,5,6} )
 
 inherit distutils-r1 eutils git-r3 gnome2-utils
 
@@ -23,13 +23,10 @@ RDEPEND="
 	>=x11-wm/compiz-${PV}
 	gtk2? (
 		dev-libs/libappindicator:2
-		x11-wm/compiz[-gtk3]
 	)
 	gtk3? (
 		dev-libs/libappindicator:3
-		x11-wm/compiz[gtk3]
 	)
-	!gtk3? ( x11-wm/compiz[gtk(+),-gtk3] )
 	qt4? ( dev-python/PyQt4[${PYTHON_USEDEP}] )
 	qt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 "
@@ -42,13 +39,14 @@ python_prepare_all(){
 
 python_configure_all() {
 	mydistutilsargs=(
-	build \
+		build \
 		--with-gtk=$(usex gtk3 3.0 2.0)
 	)
 }
 
 python_install_all() {
-	mydistutilsargs=( install \
+	mydistutilsargs=(
+		install \
 		--prefix=/usr/local
 	)
 	distutils-r1_python_install_all

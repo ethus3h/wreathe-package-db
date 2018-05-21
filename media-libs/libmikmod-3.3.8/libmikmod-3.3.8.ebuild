@@ -1,6 +1,5 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=5
 inherit eutils multilib-minimal
@@ -11,7 +10,7 @@ SRC_URI="mirror://sourceforge/mikmod/${P}.tar.gz"
 
 LICENSE="LGPL-2+ LGPL-2.1"
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ~ia64 ~mips ~ppc ppc64 ~sh ~sparc ~x86 ~x86-fbsd ~x86-freebsd ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos"
+KEYWORDS="alpha amd64 arm hppa ia64 ~mips ppc ppc64 ~sh sparc x86 ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos"
 IUSE="+alsa altivec coreaudio debug nas openal oss pulseaudio cpu_flags_x86_sse2 static-libs +threads"
 
 REQUIRED_USE="|| ( alsa coreaudio nas openal oss pulseaudio )"
@@ -20,9 +19,7 @@ RDEPEND="alsa? ( >=media-libs/alsa-lib-1.0.27.2:=[${MULTILIB_USEDEP}] )
 	nas? ( >=media-libs/nas-1.9.4:=[${MULTILIB_USEDEP}] )
 	openal? ( >=media-libs/openal-1.15.1-r1[${MULTILIB_USEDEP}] )
 	pulseaudio? ( >=media-sound/pulseaudio-5.0[${MULTILIB_USEDEP}] )
-	!${CATEGORY}/${PN}:2
-	abi_x86_32? ( !<=app-emulation/emul-linux-x86-soundlibs-20130224-r3
-					!app-emulation/emul-linux-x86-soundlibs[-abi_x86_32(-)] )"
+	!${CATEGORY}/${PN}:2"
 DEPEND="${RDEPEND}
 	sys-apps/texinfo
 	oss? ( virtual/os-headers )"
@@ -36,7 +33,7 @@ multilib_src_configure() {
 	if use ppc || use ppc64 || use ppc-macos; then
 		mysimd="$(use_enable altivec simd)"
 	fi
-	if use amd64 || use x86 || use x86-fbsd || use x86-freebsd || use amd64-linux || use x86-linux || use x86-macos; then
+	if use amd64 || use x86 || use x86-fbsd || use amd64-linux || use x86-linux || use x86-macos || use x64-macos; then
 		mysimd="$(use_enable cpu_flags_x86_sse2 simd)"
 	fi
 
