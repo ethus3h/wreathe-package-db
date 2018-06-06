@@ -19,6 +19,7 @@ REQUIRED_USE="
 
 # cairo[-qt4] is needed because of bug 454066
 RDEPEND="
+	net-libs/libtirpc
 	app-eselect/eselect-qtgraphicssystem
 	~dev-qt/qtcore-${PV}[aqua=,debug=,glib=,qt3support=,${MULTILIB_USEDEP}]
 	~dev-qt/qtscript-${PV}[aqua=,debug=,${MULTILIB_USEDEP}]
