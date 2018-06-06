@@ -1,0 +1,50 @@
+dir /lib64
+sym /lib64/libbz2.so.1 -> libbz2.so.1.0.6 1528235640
+sym /lib64/libbz2.so.1.0 -> libbz2.so.1.0.6 1528235640
+obj /lib64/libbz2.so.1.0.6 8242ce575892c634dd29ea07ce1db6ef 1528235637
+dir /bin
+obj /bin/bzip2 eb7299b4721214fb783a0cb1cc7cb402 1528235637
+sym /bin/bzcat -> bzip2 1528235640
+sym /bin/bunzip2 -> bzip2 1528235640
+dir /usr
+dir /usr/lib64
+obj /usr/lib64/libbz2.so 46a0c5dc7a32a7f6f3ff8c1fab1802f5 1528235635
+dir /usr/include
+obj /usr/include/bzlib.h ee6d6cd40ee1d4b342811a455bdae4ae 1528235636
+dir /usr/lib32
+sym /usr/lib32/libbz2.so -> libbz2.so.1.0.6 1528235640
+sym /usr/lib32/libbz2.so.1 -> libbz2.so.1.0.6 1528235640
+sym /usr/lib32/libbz2.so.1.0 -> libbz2.so.1.0.6 1528235640
+obj /usr/lib32/libbz2.so.1.0.6 7894d73470b7438d67cf542992bba0d5 1528235637
+dir /usr/bin
+obj /usr/bin/bzmore 81d379d5a10e88f28d2733c10fbdd3ed 1528235636
+sym /usr/bin/bzless -> bzmore 1528235640
+sym /usr/bin/bzfgrep -> bzgrep 1528235640
+sym /usr/bin/bzcmp -> bzdiff 1528235640
+sym /usr/bin/bzegrep -> bzgrep 1528235640
+obj /usr/bin/bzgrep 36d54c33ff30de95156ea06431d8f6aa 1528235636
+obj /usr/bin/bzip2recover d001aca7b717b89495138a0f0116ef4b 1528235637
+obj /usr/bin/bzdiff fc15271b1df9d9e574e200d7cc625802 1528235636
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/bzip2-1.0.6-r9
+dir /usr/share/doc/bzip2-1.0.6-r9/html
+obj /usr/share/doc/bzip2-1.0.6-r9/html/manual.html eafd9164547f1c491434a9a23ede7e3d 1528235636
+obj /usr/share/doc/bzip2-1.0.6-r9/README.COMPILATION.PROBLEMS.bz2 5c9c44a6513ab1bdc7f949175069c513 1528235636
+obj /usr/share/doc/bzip2-1.0.6-r9/README.bz2 36821337748176c36b9e9e6044e30325 1528235636
+obj /usr/share/doc/bzip2-1.0.6-r9/README.XML.STUFF.bz2 6ef0e1a83554f49c4f935c902db5020a 1528235636
+obj /usr/share/doc/bzip2-1.0.6-r9/CHANGES.bz2 5529731d7fff006cebfd2325f2c6cada 1528235636
+obj /usr/share/doc/bzip2-1.0.6-r9/manual.pdf ab972624312ea1a908a86ff3709231b6 1528235636
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/bzmore.1.bz2 d0705680dbdafef86eeec2c1e6ff7daa 1528235636
+sym /usr/share/man/man1/bzcmp.1.bz2 -> bzdiff.1.bz2 1528235640
+sym /usr/share/man/man1/bzless.1.bz2 -> bzmore.1.bz2 1528235640
+obj /usr/share/man/man1/bzdiff.1.bz2 cb1eadff2911a891636fdb94fa891ed7 1528235636
+sym /usr/share/man/man1/bzcat.1.bz2 -> bzip2.1.bz2 1528235640
+sym /usr/share/man/man1/bzfgrep.1.bz2 -> bzgrep.1.bz2 1528235640
+obj /usr/share/man/man1/bzgrep.1.bz2 d98329ae8760444eb2e15754b2f62288 1528235636
+sym /usr/share/man/man1/bunzip2.1.bz2 -> bzip2.1.bz2 1528235640
+obj /usr/share/man/man1/bzip2.1.bz2 ea12ced945c84fab5f051abfa586c6c7 1528235636
+sym /usr/share/man/man1/bzip2recover.1.bz2 -> bzip2.1.bz2 1528235640
+sym /usr/share/man/man1/bzegrep.1.bz2 -> bzgrep.1.bz2 1528235640
