@@ -2,64 +2,67 @@ dir /usr
 dir /usr/lib
 dir /usr/lib/debug
 dir /usr/lib/debug/usr
-dir /usr/lib/debug/usr/lib64
-obj /usr/lib/debug/usr/lib64/libkdeinit4_dolphin.so.debug bf851a1229ad1c7b83fbfc6a7f27ed46 1525769099
-obj /usr/lib/debug/usr/lib64/libdolphinprivate.so.4.14.37.debug bb6cab2a171c094b52a0e7e61115984d 1525769099
-dir /usr/lib/debug/usr/lib64/kde4
-obj /usr/lib/debug/usr/lib64/kde4/kcm_dolphinservices.so.debug f56a6792358e6f08ea1280f65601d7a3 1525769099
-obj /usr/lib/debug/usr/lib64/kde4/kio_filenamesearch.so.debug 96ad6e4130385f50e2b6d6956a0dcda6 1525769099
-obj /usr/lib/debug/usr/lib64/kde4/kcm_dolphinnavigation.so.debug c08be1d936fff4f7ba987bee29f8a548 1525769099
-obj /usr/lib/debug/usr/lib64/kde4/kcm_dolphingeneral.so.debug b039c1bcc435a8c8c901caa74280e900 1525769099
-obj /usr/lib/debug/usr/lib64/kde4/kcm_dolphinviewmodes.so.debug aa1817845bd30703eb7579c467b18a35 1525769099
-obj /usr/lib/debug/usr/lib64/kde4/dolphinpart.so.debug 92a9ff4dd83bbec17c614c9e6e38913f 1525769098
-dir /usr/lib/debug/usr/bin
-obj /usr/lib/debug/usr/bin/dolphin.debug e51f6e3e2df9cf9687008252e33ec6b8 1525769099
-dir /usr/lib64
-obj /usr/lib64/libkdeinit4_dolphin.so c3f9b623c16248d66c9ca4497f09b878 1525769099
-sym /usr/lib64/libdolphinprivate.so.4 -> libdolphinprivate.so.4.14.37 1525769111
-sym /usr/lib64/libdolphinprivate.so -> libdolphinprivate.so.4 1525769111
-obj /usr/lib64/libdolphinprivate.so.4.14.37 53d02075f02da2553fdc174730f3ce9d 1525769099
-dir /usr/lib64/kde4
-obj /usr/lib64/kde4/kcm_dolphingeneral.so d4e3c83552424315e3db650195e22f39 1525769099
-obj /usr/lib64/kde4/kcm_dolphinservices.so ef92e8115821fe361f92faa1b4c291ea 1525769099
-obj /usr/lib64/kde4/dolphinpart.so 223c648c0aefda23cd2c584ebc6061b7 1525769099
-obj /usr/lib64/kde4/kio_filenamesearch.so 6f5cef55d1361830fce2517fd0767706 1525769099
-obj /usr/lib64/kde4/kcm_dolphinnavigation.so d905bb67da93980641c4df5b534dc014 1525769099
-obj /usr/lib64/kde4/kcm_dolphinviewmodes.so 3131bec9c45e76c042433970b9df2abf 1525769099
-dir /usr/bin
-obj /usr/bin/servicemenuinstallation fb9095d449835456aadec770a0c0bd8c 1515991227
-obj /usr/bin/servicemenudeinstallation eb66a501733cbf2ba6fa91351546d4ad 1515991227
-obj /usr/bin/dolphin e418041ce9dee3dbda903bcc41509db9 1525769099
+dir /usr/lib/debug/usr/kde4
+dir /usr/lib/debug/usr/kde4/lib64
+obj /usr/lib/debug/usr/kde4/lib64/libkdeinit4_dolphin.so.debug 53b5daeba26e90f8098ec06469fa1269 1529217137
+obj /usr/lib/debug/usr/kde4/lib64/libdolphinprivate.so.4.14.37.debug e1a16b3e73d5dc6ccf4266b7758e65cd 1529217137
+dir /usr/lib/debug/usr/kde4/lib64/kde4
+obj /usr/lib/debug/usr/kde4/lib64/kde4/kcm_dolphinservices.so.debug 9eea3d3038aa326c28acf58321dd98e8 1529217138
+obj /usr/lib/debug/usr/kde4/lib64/kde4/kio_filenamesearch.so.debug a64897e2b4a411a52d78587303044017 1529217138
+obj /usr/lib/debug/usr/kde4/lib64/kde4/kcm_dolphinnavigation.so.debug 665391f66aa8b23621e740fc34cdd50b 1529217138
+obj /usr/lib/debug/usr/kde4/lib64/kde4/kcm_dolphingeneral.so.debug 3f424dfb60bfdbb2e46b965495d69c60 1529217138
+obj /usr/lib/debug/usr/kde4/lib64/kde4/kcm_dolphinviewmodes.so.debug b44b1faa39ca22c85e79ccd121c971a3 1529217138
+obj /usr/lib/debug/usr/kde4/lib64/kde4/dolphinpart.so.debug 16d3864f8a439c18a677d61bb4a3d430 1529217137
+dir /usr/lib/debug/usr/kde4/bin
+obj /usr/lib/debug/usr/kde4/bin/dolphin.debug 2629828c54e78f48510c044a69cb9eb0 1529217138
+dir /usr/kde4
+dir /usr/kde4/lib64
+obj /usr/kde4/lib64/libkdeinit4_dolphin.so 5e7cc2d6a9133e8e5a562ff6b58b0f1f 1529217138
+sym /usr/kde4/lib64/libdolphinprivate.so.4 -> libdolphinprivate.so.4.14.37 1529217144
+sym /usr/kde4/lib64/libdolphinprivate.so -> libdolphinprivate.so.4 1529217144
+obj /usr/kde4/lib64/libdolphinprivate.so.4.14.37 e59dc84f2d0a6c4400e7aafa1f9d455b 1529217138
+dir /usr/kde4/lib64/kde4
+obj /usr/kde4/lib64/kde4/kcm_dolphingeneral.so 553cc949371b32c58eecb04393e249c2 1529217138
+obj /usr/kde4/lib64/kde4/kcm_dolphinservices.so 435a0a5c18035c9369ed410cb7d33c88 1529217138
+obj /usr/kde4/lib64/kde4/dolphinpart.so 2f5ef56f537a66e4eed0f3714307e345 1529217137
+obj /usr/kde4/lib64/kde4/kio_filenamesearch.so bc933ce9c12353b30602881e197772c3 1529217138
+obj /usr/kde4/lib64/kde4/kcm_dolphinnavigation.so ed34837a83adb107951b66af1661188f 1529217138
+obj /usr/kde4/lib64/kde4/kcm_dolphinviewmodes.so a4ffb419626d776c82a53449f2253845 1529217138
+dir /usr/kde4/bin
+obj /usr/kde4/bin/servicemenuinstallation fb9095d449835456aadec770a0c0bd8c 1515991227
+obj /usr/kde4/bin/servicemenudeinstallation eb66a501733cbf2ba6fa91351546d4ad 1515991227
+obj /usr/kde4/bin/dolphin 1fd458cb38b119b2b0e711fb890b2f65 1529217138
+dir /usr/kde4/share
+dir /usr/kde4/share/config
+obj /usr/kde4/share/config/servicemenu.knsrc af653a4d7aaf87af4b0c7f4b0d87504f 1515991227
+dir /usr/kde4/share/config.kcfg
+obj /usr/kde4/share/config.kcfg/dolphin_detailsmodesettings.kcfg 7deeba12440a7f17b81642dab886346f 1515991227
+obj /usr/kde4/share/config.kcfg/dolphin_generalsettings.kcfg 67a1ee4f2a5f4bfb98f78bd88bc5eb4d 1515991227
+obj /usr/kde4/share/config.kcfg/dolphin_versioncontrolsettings.kcfg 41c4c78859f8893cd807bed053288dd8 1515991227
+obj /usr/kde4/share/config.kcfg/dolphin_directoryviewpropertysettings.kcfg 7ac44163092159adf58e7789ed6e97c9 1515991227
+obj /usr/kde4/share/config.kcfg/dolphin_iconsmodesettings.kcfg 5ff3cffa98c516c1fa21473b75cb3adc 1515991227
+obj /usr/kde4/share/config.kcfg/dolphin_columnmodesettings.kcfg 68579907a310de587b9701800713e22e 1515991227
+dir /usr/kde4/share/applications
+dir /usr/kde4/share/applications/kde4
+obj /usr/kde4/share/applications/kde4/dolphin.desktop 0c7152094a90652a202631b09eee019c 1515991227
+dir /usr/kde4/share/apps
+dir /usr/kde4/share/apps/dolphinpart
+obj /usr/kde4/share/apps/dolphinpart/dolphinpart.rc 59a80f8aa32b90f1605be8b8df6a4829 1515991227
+dir /usr/kde4/share/apps/dolphin
+obj /usr/kde4/share/apps/dolphin/dolphinui.rc a17b5c8b948578c5894fed8fea678f84 1515991227
+dir /usr/kde4/share/kde4
+dir /usr/kde4/share/kde4/services
+obj /usr/kde4/share/kde4/services/filenamesearch.protocol 33e868fa587ae11158c54255a2b53cb8 1515991227
+obj /usr/kde4/share/kde4/services/kcmdolphinnavigation.desktop 3f661d2db8712363c43fea4871ab76a3 1515991227
+obj /usr/kde4/share/kde4/services/kcmdolphinviewmodes.desktop 54cce276fd245fb4ac345e15761cab39 1515991227
+obj /usr/kde4/share/kde4/services/kcmdolphingeneral.desktop e846dca6c614fc5d7c871aeee49bfcf6 1515991227
+obj /usr/kde4/share/kde4/services/kcmdolphinservices.desktop 5832e4ea1b55777aded6c4eb0f624d70 1515991227
+obj /usr/kde4/share/kde4/services/dolphinpart.desktop 28a209937447b5111dfdae9f3fcbaaf7 1515991227
+dir /usr/kde4/share/kde4/servicetypes
+obj /usr/kde4/share/kde4/servicetypes/fileviewversioncontrolplugin.desktop 8e89a652cd493b490382a62e5f05b2a8 1515991227
 dir /usr/share
-dir /usr/share/config
-obj /usr/share/config/servicemenu.knsrc af653a4d7aaf87af4b0c7f4b0d87504f 1515991227
-dir /usr/share/config.kcfg
-obj /usr/share/config.kcfg/dolphin_detailsmodesettings.kcfg 7deeba12440a7f17b81642dab886346f 1515991227
-obj /usr/share/config.kcfg/dolphin_generalsettings.kcfg 67a1ee4f2a5f4bfb98f78bd88bc5eb4d 1515991227
-obj /usr/share/config.kcfg/dolphin_versioncontrolsettings.kcfg 41c4c78859f8893cd807bed053288dd8 1515991227
-obj /usr/share/config.kcfg/dolphin_directoryviewpropertysettings.kcfg 7ac44163092159adf58e7789ed6e97c9 1515991227
-obj /usr/share/config.kcfg/dolphin_iconsmodesettings.kcfg 5ff3cffa98c516c1fa21473b75cb3adc 1515991227
-obj /usr/share/config.kcfg/dolphin_columnmodesettings.kcfg 68579907a310de587b9701800713e22e 1515991227
 dir /usr/share/doc
 dir /usr/share/doc/dolphin-4.7.4.7.3_pre11
-obj /usr/share/doc/dolphin-4.7.4.7.3_pre11/README.md.bz2 518a95e779dd8aa77540e1e336fc2707 1525769095
-obj /usr/share/doc/dolphin-4.7.4.7.3_pre11/README.bz2 52a7ce128c12a0c67e211061d0877e50 1525769097
-obj /usr/share/doc/dolphin-4.7.4.7.3_pre11/AUTHORS.bz2 87d8b66ac1456646fa6be179b1f5403f 1525769095
-dir /usr/share/applications
-dir /usr/share/applications/kde4
-obj /usr/share/applications/kde4/dolphin.desktop 0c7152094a90652a202631b09eee019c 1515991227
-dir /usr/share/apps
-dir /usr/share/apps/dolphinpart
-obj /usr/share/apps/dolphinpart/dolphinpart.rc 59a80f8aa32b90f1605be8b8df6a4829 1515991227
-dir /usr/share/apps/dolphin
-obj /usr/share/apps/dolphin/dolphinui.rc a17b5c8b948578c5894fed8fea678f84 1515991227
-dir /usr/share/kde4
-dir /usr/share/kde4/services
-obj /usr/share/kde4/services/filenamesearch.protocol 33e868fa587ae11158c54255a2b53cb8 1515991227
-obj /usr/share/kde4/services/kcmdolphinnavigation.desktop 3f661d2db8712363c43fea4871ab76a3 1515991227
-obj /usr/share/kde4/services/kcmdolphinviewmodes.desktop 54cce276fd245fb4ac345e15761cab39 1515991227
-obj /usr/share/kde4/services/kcmdolphingeneral.desktop e846dca6c614fc5d7c871aeee49bfcf6 1515991227
-obj /usr/share/kde4/services/kcmdolphinservices.desktop 5832e4ea1b55777aded6c4eb0f624d70 1515991227
-obj /usr/share/kde4/services/dolphinpart.desktop 28a209937447b5111dfdae9f3fcbaaf7 1515991227
-dir /usr/share/kde4/servicetypes
-obj /usr/share/kde4/servicetypes/fileviewversioncontrolplugin.desktop 8e89a652cd493b490382a62e5f05b2a8 1515991227
+obj /usr/share/doc/dolphin-4.7.4.7.3_pre11/README.md.bz2 518a95e779dd8aa77540e1e336fc2707 1529217136
+obj /usr/share/doc/dolphin-4.7.4.7.3_pre11/README.bz2 52a7ce128c12a0c67e211061d0877e50 1529217137
+obj /usr/share/doc/dolphin-4.7.4.7.3_pre11/AUTHORS.bz2 87d8b66ac1456646fa6be179b1f5403f 1529217136

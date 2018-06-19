@@ -2,39 +2,40 @@ dir /usr
 dir /usr/lib64
 dir /usr/lib64/cmake
 dir /usr/lib64/cmake/OpenColorIO
-obj /usr/lib64/cmake/OpenColorIO/OpenColorIOConfig.cmake 482daffe02a0258db424d26e99f09422 1528228710
-obj /usr/lib64/cmake/OpenColorIO/OpenColorIO.cmake 1b4964529ac6ffe9d1c295302990b86a 1528228710
-obj /usr/lib64/cmake/OpenColorIO/OpenColorIO-gentoo.cmake 37579fdbc4c15430f633dd65eb46ce75 1528228710
+obj /usr/lib64/cmake/OpenColorIO/OpenColorIOConfig.cmake 482daffe02a0258db424d26e99f09422 1529114122
+obj /usr/lib64/cmake/OpenColorIO/OpenColorIO.cmake 1b4964529ac6ffe9d1c295302990b86a 1529114122
+obj /usr/lib64/cmake/OpenColorIO/OpenColorIO-gentoo.cmake 37579fdbc4c15430f633dd65eb46ce75 1529114122
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/OpenColorIO.pc 27eb4182cfcfeec72c5fb90b73588965 1528228710
-obj /usr/lib64/libOpenColorIO.so.1.1.0 3889852eeef398c4627bf5bcb12620cd 1528228806
+obj /usr/lib64/pkgconfig/OpenColorIO.pc 27eb4182cfcfeec72c5fb90b73588965 1529114122
+sym /usr/lib64/libOpenColorIO.so.1 -> libOpenColorIO.so.1.1.0 1529114254
+obj /usr/lib64/libOpenColorIO.so.1.1.0 0165f9232cfb683dd072f3d28b5df76d 1529114247
 dir /usr/lib64/python3.5
 dir /usr/lib64/python3.5/site-packages
-obj /usr/lib64/python3.5/site-packages/PyOpenColorIO.so 5d9b1b8412ac12ec7789127022e433c0 1528228806
-sym /usr/lib64/libOpenColorIO.so -> libOpenColorIO.so.1 1528228817
+obj /usr/lib64/python3.5/site-packages/PyOpenColorIO.so 5d9b1b8412ac12ec7789127022e433c0 1529114247
+sym /usr/lib64/libOpenColorIO.so -> libOpenColorIO.so.1 1529114254
 dir /usr/include
 dir /usr/include/PyOpenColorIO
 obj /usr/include/PyOpenColorIO/PyOpenColorIO.h 910114f92a57f8b6a029b510c9750ccb 1515116307
 dir /usr/include/OpenColorIO
-obj /usr/include/OpenColorIO/OpenColorABI.h 9cc93c542b793f5a52ad900727aafda4 1528228710
+obj /usr/include/OpenColorIO/OpenColorABI.h 9cc93c542b793f5a52ad900727aafda4 1529114122
 obj /usr/include/OpenColorIO/OpenColorTransforms.h 9d9b53344da2694d7623db7d7732aaa0 1515116307
 obj /usr/include/OpenColorIO/OpenColorTypes.h 4b1105e70519d8a3a9866c93c3676088 1515116307
 obj /usr/include/OpenColorIO/OpenColorIO.h bd942079817e846d450468e3624e3575 1515116307
 dir /usr/bin
-obj /usr/bin/ocioconvert d2648d037bc1d1f4108934c1a163b71c 1528228806
-obj /usr/bin/ociolutimage 19c262334a73ee0861b576f88261d01d 1528228806
-obj /usr/bin/ociocheck b2026b29bf51bef5d0b862222d148256 1528228806
-obj /usr/bin/ociobakelut 940e3770f2bced1d24140ea2538aaafe 1528228806
-obj /usr/bin/ociodisplay f8727f78c1f02d1d391ca330eac79e16 1528228806
+obj /usr/bin/ocioconvert 4da07b48740a754bf4fd3dcb353cf24f 1529114247
+obj /usr/bin/ociolutimage 1fbb3bca9436cb6b8c44c09cad423b64 1529114247
+obj /usr/bin/ociocheck e7d82fe1743a0d49fdda81cc40828e0b 1529114247
+obj /usr/bin/ociobakelut b9bc9c92e66f70593f8475847fea3717 1529114247
+obj /usr/bin/ociodisplay 2846159f8f4102e6104341f687ee662a 1529114247
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/opencolorio-1.1.0-r1
-obj /usr/share/doc/opencolorio-1.1.0-r1/README.md.bz2 b39ebf85565324f9185ccfcee4f27c01 1528228802
+obj /usr/share/doc/opencolorio-1.1.0-r1/README.md.bz2 b39ebf85565324f9185ccfcee4f27c01 1529114246
 dir /usr/share/doc/opencolorio-1.1.0-r1/html
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/searchindex.js fa3b447a08eb7cf7df611ce277c5dfc0 1528228802
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/downloads.html d8d6462055a04df3e54b6237035226c0 1528228794
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/index.html 84c161ad268b580a3ef7893fbf2e8a77 1528228801
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/ChangeLog.html 4a88d525f41010cd32088f013c546258 1528228787
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/searchindex.js fa3b447a08eb7cf7df611ce277c5dfc0 1529114246
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/downloads.html d8d6462055a04df3e54b6237035226c0 1529114242
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/index.html 84c161ad268b580a3ef7893fbf2e8a77 1529114245
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/ChangeLog.html 4a88d525f41010cd32088f013c546258 1529114240
 dir /usr/share/doc/opencolorio-1.1.0-r1/html/_images
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_images/psicc_open_current_profile.png 160bfe073054d7bce8ecf9c8969e02a9 1515116307
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_images/psicc_select_profile.png 45b30280443190818b03303e0946e6c4 1515116307
@@ -46,20 +47,20 @@ obj /usr/share/doc/opencolorio-1.1.0-r1/html/_images/lgf_to_linear_light.jpeg 9e
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_images/gnf_to_linear_light.jpeg 06306aee31b5f1539f17f14f96aa9412 1515116307
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_images/lg8_to_vd8.jpeg 3f50d4342b7ffa85c37785029dbe0369 1515116307
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_images/psicc_itworks.png 91f791be878f9757550f19d9a9d7a2d6 1515116307
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/License.html baa53980a74aba96501230f91db46ba4 1528228788
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/objects.inv 34673b4948f6c682d31dfbd47ddaa808 1528228802
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/installation.html 12d920cec6659e35173cda53019448e8 1528228794
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/genindex.html cd2a4d89e31167d18782e033b9cf0a5a 1528228802
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/introduction.html ea9afdc3dc8324b8981da58ecfc138a6 1528228794
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/License.html baa53980a74aba96501230f91db46ba4 1529114240
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/objects.inv 34673b4948f6c682d31dfbd47ddaa808 1529114246
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/installation.html 12d920cec6659e35173cda53019448e8 1529114242
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/genindex.html cd2a4d89e31167d18782e033b9cf0a5a 1529114246
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/introduction.html ea9afdc3dc8324b8981da58ecfc138a6 1529114242
 dir /usr/share/doc/opencolorio-1.1.0-r1/html/userguide
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/userguide/baking_luts.html 77d9c57059677308ff223e98d76c836f 1528228794
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/userguide/index.html 79e2de77df5cbd50d479ef3120627816 1528228795
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/userguide/looks.html 5729c0264b03abe9169a46fd74d93611 1528228795
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/userguide/contexts.html 69374bbc8cfce26d8f72301a579d33de 1528228795
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/userguide/config_syntax.html 352febe03eb9d3d0d1ac448b0e1a3d21 1528228795
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/userguide/tool_overview.html be2d65366eeb85ad7db6bab1573b9ffb 1528228795
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/FAQ.html 8d786ba1f4717541089740edf05f0f6c 1528228788
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/CompatibleSoftware.html ecafb11287db8938e7b4175e591544bb 1528228788
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/userguide/baking_luts.html 77d9c57059677308ff223e98d76c836f 1529114242
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/userguide/index.html 79e2de77df5cbd50d479ef3120627816 1529114243
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/userguide/looks.html 5729c0264b03abe9169a46fd74d93611 1529114243
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/userguide/contexts.html 69374bbc8cfce26d8f72301a579d33de 1529114243
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/userguide/config_syntax.html 352febe03eb9d3d0d1ac448b0e1a3d21 1529114243
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/userguide/tool_overview.html be2d65366eeb85ad7db6bab1573b9ffb 1529114243
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/FAQ.html 8d786ba1f4717541089740edf05f0f6c 1529114240
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/CompatibleSoftware.html ecafb11287db8938e7b4175e591544bb 1529114240
 dir /usr/share/doc/opencolorio-1.1.0-r1/html/_sources
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_sources/CompatibleSoftware.rst.txt e296359d2fcea771a8a11be495b171c2 1515116307
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_sources/installation.rst.txt 224decdc684075f9f94171db2121e4fd 1515116307
@@ -97,21 +98,21 @@ obj /usr/share/doc/opencolorio-1.1.0-r1/html/_sources/developers/bindings/Python
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_sources/developers/bindings/PythonTypes.rst.txt 9c2e9af1470c036e3b3ebfa9c480b1de 1515116307
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_sources/developers/bindings/PythonAPI.rst.txt 812e80c2ff7421ce077524c27c88507f 1515116307
 dir /usr/share/doc/opencolorio-1.1.0-r1/html/_sources/developers/api
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/_sources/developers/api/OpenColorTypes.rst.txt db415e528290c01bd988f3cc38336e6a 1528228780
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/_sources/developers/api/OpenColorIO.rst.txt 7ef339d9d2870537a5711092eece036e 1528228780
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/_sources/developers/api/OpenColorTransforms.rst.txt 270caaabf5d159b5b65d9f45826ac81b 1528228780
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/_sources/developers/api/OpenColorTypes.rst.txt db415e528290c01bd988f3cc38336e6a 1529114234
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/_sources/developers/api/OpenColorIO.rst.txt 7ef339d9d2870537a5711092eece036e 1529114234
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/_sources/developers/api/OpenColorTransforms.rst.txt 270caaabf5d159b5b65d9f45826ac81b 1529114234
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_sources/developers/api/index.rst.txt ccf89d50cdf307e5c2c2218216180698 1515116307
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/search.html 59d7123d03d9cf166a11c47ae4bd9c0f 1528228802
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/search.html 59d7123d03d9cf166a11c47ae4bd9c0f 1529114246
 dir /usr/share/doc/opencolorio-1.1.0-r1/html/_static
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/alert_warning_32.png f8d47ed29a9827e59087005c58a9cb0b 1515116307
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/doctools.js 1c81e390f4add6f06ea8569d542d0f40 1528228802
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/doctools.js 1c81e390f4add6f06ea8569d542d0f40 1529114246
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/comment-bright.png ca43c60728796aa9160b7027b36e01a6 1508671197
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/clo_res19_lnf.0101.jpg 941ef8c98d31e85dbc43019b7b722100 1515116307
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/down.png 24b6890f892eae0f6f71df68c0debbce 1508671197
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/comment.png 7ed0c2b7fb278cc440c76768afe74662 1508671197
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/underscore.js b538b8a3ed2c5519b19409eace25c38b 1508671197
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/jquery-3.1.0.js 8777f761b8463a858236c246bedbce92 1508671197
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/ocio.css 6dda2b0cf35ff33e70bdd8be12e53a64 1528228802
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/ocio.css 6dda2b0cf35ff33e70bdd8be12e53a64 1529114246
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/clo_res19_vd16.0101.jpg d58a9552892b93accea5bbdb23dade15 1515116307
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/down-pressed.png b7476a4885b1414399e86b671db699a2 1508671197
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/up-pressed.png e4c170583ce14925793a311aa18476a8 1508671197
@@ -125,38 +126,37 @@ obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/bg-page.png 969afc1dd384768
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/up.png 996d2339e806acfcace088fcc2f66228 1508671197
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/bullet_orange.png 8b89eef0393f704b65f7c642d588a726 1515116307
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/ajax-loader.gif ae6667053ad118020b8e68ccf307b519 1504019479
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/pygments.css d333af43c416a54be77c5a73aca6437c 1528228802
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/pygments.css d333af43c416a54be77c5a73aca6437c 1529114246
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/jquery.js 05e51b1db558320f1939f9789ccf5c8f 1508671197
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/basic.css 4f1dcc2f59834c39ba7f548dc3543af5 1528228802
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/basic.css 4f1dcc2f59834c39ba7f548dc3543af5 1529114246
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/plus.png 0d7849fd4d4148b7f78cab60a087633a 1508671197
 obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/websupport.js 61b267b9cb02b36638e40fa9834bd0da 1508728659
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/searchtools.js 5f5b05f310233e9582fe45a51947158f 1528228802
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/_static/searchtools.js 5f5b05f310233e9582fe45a51947158f 1529114246
 dir /usr/share/doc/opencolorio-1.1.0-r1/html/configurations
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/configurations/nuke_default.html 737d6ea0f933ce4b73e4828199ae8a64 1528228788
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/configurations/spi_vfx.html c37c0f1beb2766b575ecb556870eb26c 1528228788
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/configurations/index.html f030c2473f72cc358c2b1f0c05cd16cd 1528228788
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/configurations/aces_1.0.3.html 5bec2303a0b68e0d92fbc3348a086ecb 1528228788
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/configurations/spi_anim.html d3fdd209f6f5b59f0cc653e1a1bc6abf 1528228788
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/configurations/allocation_vars.html d02366bfa29b8c7abf8bba5532856d5d 1528228788
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/configurations/nuke_default.html 737d6ea0f933ce4b73e4828199ae8a64 1529114240
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/configurations/spi_vfx.html c37c0f1beb2766b575ecb556870eb26c 1529114240
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/configurations/index.html f030c2473f72cc358c2b1f0c05cd16cd 1529114240
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/configurations/aces_1.0.3.html 5bec2303a0b68e0d92fbc3348a086ecb 1529114240
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/configurations/spi_anim.html d3fdd209f6f5b59f0cc653e1a1bc6abf 1529114240
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/configurations/allocation_vars.html d02366bfa29b8c7abf8bba5532856d5d 1529114240
 dir /usr/share/doc/opencolorio-1.1.0-r1/html/developers
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/index.html 0432f2f835cd5aaa2726979fdbe6a033 1528228801
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/usage_examples.html 5d4d606034e843040a8ebb59b74f80d6 1528228794
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/coding_guidelines.html e31df686eef0ba50ba3da0783202f754 1528228792
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/documentation_guidelines.html 9926b89f45bee17fd026dc99c790ac3b 1528228792
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/submitting_changes.html a1c07727e1f995fd99e59979fc72d74c 1528228793
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/index.html 0432f2f835cd5aaa2726979fdbe6a033 1529114245
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/usage_examples.html 5d4d606034e843040a8ebb59b74f80d6 1529114242
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/coding_guidelines.html e31df686eef0ba50ba3da0783202f754 1529114242
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/documentation_guidelines.html 9926b89f45bee17fd026dc99c790ac3b 1529114242
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/submitting_changes.html a1c07727e1f995fd99e59979fc72d74c 1529114242
 dir /usr/share/doc/opencolorio-1.1.0-r1/html/developers/bindings
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/bindings/PythonAPI.html a19e33749262a5484fa8e1e88868c520 1528228790
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/bindings/PythonTransforms.html 83a74018bb4043c5e0cd6759b6472b9c 1528228791
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/bindings/PythonTypes.html e557e2e87306e5c39524e3940272cfce 1528228801
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/internal_architecture.html 773698465020efd2b0b61171cefa092e 1528228793
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/getting_started.html f153b2ffd8140db6da54b90487eda047 1528228792
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/issues.html 1eac7c26f861b40aec452c73c6a6de1b 1528228793
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/bindings/PythonAPI.html a19e33749262a5484fa8e1e88868c520 1529114241
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/bindings/PythonTransforms.html 83a74018bb4043c5e0cd6759b6472b9c 1529114241
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/bindings/PythonTypes.html e557e2e87306e5c39524e3940272cfce 1529114245
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/internal_architecture.html 773698465020efd2b0b61171cefa092e 1529114242
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/getting_started.html f153b2ffd8140db6da54b90487eda047 1529114242
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/issues.html 1eac7c26f861b40aec452c73c6a6de1b 1529114242
 dir /usr/share/doc/opencolorio-1.1.0-r1/html/developers/api
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/api/index.html 43e1b087e75dbf9a7d4c3b2d5d2235c0 1528228790
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/api/OpenColorTransforms.html fc8ccddd41df68bbffa214ae67284339 1528228790
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/api/OpenColorIO.html 89355e66603159c9f2f3fdba4231695e 1528228789
-obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/api/OpenColorTypes.html 2377a1ab3def2369dbef6441ff1135cb 1528228790
-obj /usr/share/doc/opencolorio-1.1.0-r1/ChangeLog.bz2 e4ef7f494e0d9732085b78aac28af9c1 1528228803
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/api/index.html 43e1b087e75dbf9a7d4c3b2d5d2235c0 1529114241
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/api/OpenColorTransforms.html fc8ccddd41df68bbffa214ae67284339 1529114241
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/api/OpenColorIO.html 89355e66603159c9f2f3fdba4231695e 1529114241
+obj /usr/share/doc/opencolorio-1.1.0-r1/html/developers/api/OpenColorTypes.html 2377a1ab3def2369dbef6441ff1135cb 1529114241
+obj /usr/share/doc/opencolorio-1.1.0-r1/ChangeLog.bz2 e4ef7f494e0d9732085b78aac28af9c1 1529114246
 dir /usr/share/ocio
-obj /usr/share/ocio/setup_ocio.sh 1ae8aae6fb797a1f5552a49b6ebb8fd9 1528228710
-sym /usr/lib64/libOpenColorIO.so.1 -> libOpenColorIO.so.1.1.0 1528228817
+obj /usr/share/ocio/setup_ocio.sh 1ae8aae6fb797a1f5552a49b6ebb8fd9 1529114122

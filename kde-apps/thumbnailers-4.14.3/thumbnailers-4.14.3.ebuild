@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -7,7 +7,7 @@ KMNAME="kdegraphics-thumbnailers"
 inherit kde4-base
 
 DESCRIPTION="KDE 4 thumbnail generators for PDF/PS files"
-KEYWORDS="~amd64 ~arm ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="debug"
 SLOT="4"
 

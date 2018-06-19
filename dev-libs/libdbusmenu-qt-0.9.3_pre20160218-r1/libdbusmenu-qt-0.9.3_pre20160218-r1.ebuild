@@ -17,24 +17,19 @@ if [[ ${PV} != 9999* ]] ; then
 fi
 
 LICENSE="LGPL-2"
-SLOT="0"
+SLOT="4"
 IUSE="debug qt4"
 
 RDEPEND="
-	dev-qt/qtcore:5
-	dev-qt/qtdbus:5
-	dev-qt/qtgui:5
-	dev-qt/qtwidgets:5
-	qt4? (
-		>=dev-qt/qtcore-4.8.6:4[${MULTILIB_USEDEP}]
-		>=dev-qt/qtdbus-4.8.6:4[${MULTILIB_USEDEP}]
-		>=dev-qt/qtgui-4.8.6:4[${MULTILIB_USEDEP}]
-	)
+	dev-libs/libdbusmenu-qt:0
+	>=dev-qt/qtcore-4.8.6:4[${MULTILIB_USEDEP}]
+	>=dev-qt/qtdbus-4.8.6:4[${MULTILIB_USEDEP}]
+	>=dev-qt/qtgui-4.8.6:4[${MULTILIB_USEDEP}]
 "
 DEPEND="${RDEPEND}
 	test? (
-		dev-qt/qttest:5
-		qt4? ( >=dev-qt/qttest-4.8.6:4[${MULTILIB_USEDEP}] )
+		dev-libs/libdbusmenu-qt:0[test]
+		>=dev-qt/qttest-4.8.6:4[${MULTILIB_USEDEP}]
 	)
 "
 
@@ -46,7 +41,7 @@ DOCS=( NEWS README )
 RESTRICT="test"
 
 pkg_setup() {
-	MULTIBUILD_VARIANTS=( $(usex qt4 4) 5 )
+	MULTIBUILD_VARIANTS=( 4 )
 }
 
 src_prepare() {
@@ -69,10 +64,9 @@ multilib_src_configure() {
 src_configure() {
 	myconfigure() {
 		local QT_MULTIBUILD_VARIANT=${MULTIBUILD_VARIANT}
+
 		if [[ ${MULTIBUILD_VARIANT} = 4 ]] ; then
 			cmake-multilib_src_configure
-		elif [[ ${MULTIBUILD_VARIANT} = 5 ]] ; then
-			multilib_src_configure
 		fi
 	}
 
@@ -83,8 +77,6 @@ src_compile() {
 	mycompile() {
 		if [[ ${MULTIBUILD_VARIANT} = 4 ]] ; then
 			cmake-multilib_src_compile
-		elif [[ ${MULTIBUILD_VARIANT} = 5 ]] ; then
-			cmake-utils_src_compile
 		fi
 	}
 
@@ -95,8 +87,6 @@ src_install() {
 	myinstall() {
 		if [[ ${MULTIBUILD_VARIANT} = 4 ]] ; then
 			cmake-multilib_src_install
-		elif [[ ${MULTIBUILD_VARIANT} = 5 ]] ; then
-			cmake-utils_src_install
 		fi
 	}
 
@@ -107,8 +97,6 @@ src_test() {
 	mytest() {
 		if [[ ${MULTIBUILD_VARIANT} = 4 ]] ; then
 			cmake-multilib_src_test
-		elif [[ ${MULTIBUILD_VARIANT} = 5 ]] ; then
-			multilib_src_test
 		fi
 	}
 

@@ -1,20 +1,19 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=5
 
 inherit kde4-base
 
 DESCRIPTION="Extra Dolphin plugins"
-KEYWORDS="amd64 ~arm ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~x86"
 IUSE="debug bazaar git mercurial subversion"
 
 DEPEND="
 	$(add_kdeapps_dep libkonq)
 "
 RDEPEND="${DEPEND}
-	kde-apps/kompare
+	kde-apps/kompare:*
 	bazaar? ( dev-vcs/bzr )
 	git? ( dev-vcs/git )
 	mercurial? ( dev-vcs/mercurial )

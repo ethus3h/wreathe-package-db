@@ -1,228 +1,233 @@
 dir /etc
 dir /etc/dbus-1
 dir /etc/dbus-1/system.d
-obj /etc/dbus-1/system.d/org.kde.nepomuk.filewatch.conf f78dc3477b77033fcb1c67684d7ba7d6 1526837448
+obj /etc/dbus-1/system.d/org.kde.nepomuk.filewatch.conf f78dc3477b77033fcb1c67684d7ba7d6 1529216751
 dir /usr
+dir /usr/kde4
+dir /usr/kde4/bin
+obj /usr/kde4/bin/nepomuk-simpleresource-rcgen cb477308b2a9414d903b070889864e17 1414221416
+obj /usr/kde4/bin/nepomuk2-rcgen e0d54e0b06eb70ccdc229742f2d9add8 1529216867
+obj /usr/kde4/bin/nepomukbackup fa6050eaf6ac9aa611d122ad7463c747 1529216867
+obj /usr/kde4/bin/nepomukcleaner f4912edb5d845b1e55d2189397cd8486 1529216868
+obj /usr/kde4/bin/nepomukcmd a682b12955cbf2155db184d79b8b38c2 1529216868
+obj /usr/kde4/bin/nepomukctl 1271e36dcf14210dd9c4dc46b370ab16 1529216868
+obj /usr/kde4/bin/nepomukfileindexer 77144ab3a8568da7d824aace8087b0c8 1529216868
+obj /usr/kde4/bin/nepomukfilewatch 9f7fb36a4a8bb4ccbcd9427f577f52d1 1529216868
+obj /usr/kde4/bin/nepomukindexer f42bfb52dc418e17a357fdf8540cccb4 1529216868
+obj /usr/kde4/bin/nepomukmigrator e9984f8de3209719b6eca6ac3a31b37f 1529216867
+obj /usr/kde4/bin/nepomuksearch a4b806e369f8f63e85959c3d7873f0ce 1529216868
+obj /usr/kde4/bin/nepomukserver 07460cbb91efd2c82ec6c3b316346f0c 1529216867
+obj /usr/kde4/bin/nepomukservicestub 2fae42d3dbe691078afbe16ff91f5567 1529216868
+obj /usr/kde4/bin/nepomukshow 0f6283a86b73f5a87be0bdcde35ed7e8 1529216868
+obj /usr/kde4/bin/nepomukstorage 73d2296d0e1c60da4f51c16208183ba4 1529216867
+dir /usr/kde4/include
+dir /usr/kde4/include/Nepomuk2
+obj /usr/kde4/include/Nepomuk2/CreateResourceJob 0a3d932ce33c30c819555416ef223778 1414221416
+obj /usr/kde4/include/Nepomuk2/DataManagement 94f59cae914ef399c34d96b85cf55844 1414221416
+obj /usr/kde4/include/Nepomuk2/DescribeResourcesJob 25857df95821245a457e6fd6c942e7b6 1414221416
+obj /usr/kde4/include/Nepomuk2/File b54ea22dd6ee5b73b686f8a173a014cf 1414221416
+dir /usr/kde4/include/Nepomuk2/Query
+obj /usr/kde4/include/Nepomuk2/Query/AndTerm f59d5928179318b5af36eee132a24074 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/ComparisonTerm 9cc2d8354aa0db57cf89c84bd5535529 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/FileQuery 178d497649c69549b9e4298b4681fe12 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/GroupTerm 55aa9db21b57db359a094c1c16c25773 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/LiteralTerm 1f4479217b630abf9b9b010456a08e5c 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/NegationTerm 9d8224ed80c3d89d6f708d9e6008c942 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/OptionalTerm c337a2931b3b9ab8ff2539e06126e33e 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/OrTerm 60e70c7db2642dab4d918b4aaa176452 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/Query a3e61ce90c0d284d2fb124d7cd57a3e0 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/QueryParser fd799536680d11fcd42b6a5096cf8d01 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/QueryServiceClient 22525be2a7e838394797d7e8d37b3b00 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/ResourceTerm e4ff8ac83ceafaf3b097f5e39eb3ef78 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/ResourceTypeTerm c0c0372b7b9eaba67324c80a75008094 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/Result e2ddfb47e2aafe6089689d1e6f810eab 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/ResultIterator 9101c57fdd0b63a4c42e0ef7423b0d70 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/SimpleTerm 2a2c0cf955ae88ebdaf5c47fd7ad7ea3 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/StandardQuery d72ab95309efece299dcda697b8d5b7e 1414221416
+obj /usr/kde4/include/Nepomuk2/Query/Term 5e4ad86277a31fca774c3d43f8d2585d 1414221416
+obj /usr/kde4/include/Nepomuk2/Resource 9a1759b195c3f083a5e12542b8e10e78 1414221416
+obj /usr/kde4/include/Nepomuk2/ResourceManager a4524084ef4425e39e3943cf2ac96b2f 1414221416
+obj /usr/kde4/include/Nepomuk2/ResourceWatcher e19d47cbf7a9c3628aba7c0194c03a6f 1414221416
+obj /usr/kde4/include/Nepomuk2/Service ea655e57c1481ff24305b05fdd6d37b6 1414221416
+obj /usr/kde4/include/Nepomuk2/SimpleResource 0a1cfdb27455e78835230ee9f1f224c1 1414221416
+obj /usr/kde4/include/Nepomuk2/SimpleResourceGraph 9dfb80232de207ba1708c47b95c7e3da 1414221416
+obj /usr/kde4/include/Nepomuk2/StoreResourcesJob 2106cde41c81a40ea060af740be58f6b 1414221416
+obj /usr/kde4/include/Nepomuk2/Tag 8bb1296c27bc3d1ad3aef2defbea590c 1414221416
+dir /usr/kde4/include/Nepomuk2/Types
+obj /usr/kde4/include/Nepomuk2/Types/Class 7c9748a6b35cd55f3649fc2d06ba4133 1414221416
+obj /usr/kde4/include/Nepomuk2/Types/Literal 2e3949ec5b0d688e2150fbf648e0c25e 1414221416
+obj /usr/kde4/include/Nepomuk2/Types/Ontology 9da5e08037fef792ed0a41473a92217d 1414221416
+obj /usr/kde4/include/Nepomuk2/Types/Property 4219101cb293e1f1e8e01cd1837bcff2 1414221416
+obj /usr/kde4/include/Nepomuk2/Variant cf3761933fa0dcb9221de62f08ad7e13 1414221416
+dir /usr/kde4/include/Nepomuk2/Vocabulary
+obj /usr/kde4/include/Nepomuk2/Vocabulary/NCAL b0b0b687540f313fb9d410caa43540e1 1414221416
+obj /usr/kde4/include/Nepomuk2/Vocabulary/NCO a7f46412e908cace4663432ea54e1e0f 1414221416
+obj /usr/kde4/include/Nepomuk2/Vocabulary/NDO 48a38fa371b72aaeb39ec9aefdd2f1d3 1414221416
+obj /usr/kde4/include/Nepomuk2/Vocabulary/NEXIF 0e59e6bba36d8c34110925834eaaf722 1414221416
+obj /usr/kde4/include/Nepomuk2/Vocabulary/NFO 5925f87fbdbc90fa084fb6898ed5ace9 1414221416
+obj /usr/kde4/include/Nepomuk2/Vocabulary/NIE eb7afc0b246753064d8d44e9e42233e5 1414221416
+obj /usr/kde4/include/Nepomuk2/Vocabulary/NMM 022eeb8e2e50309671c5e1a8278d7481 1414221416
+obj /usr/kde4/include/Nepomuk2/Vocabulary/NMO a156aa54aa976b18814556281f049f4c 1414221416
+obj /usr/kde4/include/Nepomuk2/Vocabulary/NUAO 5e2f622a04ed812a258d93353eef9437 1414221416
+obj /usr/kde4/include/Nepomuk2/Vocabulary/PIMO db1b2760d80563e548be5c49dd786589 1414221416
+obj /usr/kde4/include/Nepomuk2/Vocabulary/TMO 38ac3306a9c1fe7882be6855b8850d3e 1414221416
+dir /usr/kde4/include/nepomuk2
+obj /usr/kde4/include/nepomuk2/andterm.h 27c904b032cdd262266323c7a99ae2fa 1414221416
+obj /usr/kde4/include/nepomuk2/class.h ed5f25fce5c2ff38cfd334ca8e0bbf7b 1414221416
+obj /usr/kde4/include/nepomuk2/cleaningjob.h 3bc53249529fb759f9a6425e44e02239 1414221416
+obj /usr/kde4/include/nepomuk2/comparisonterm.h 2565d230bfe2bd2e246d4d4ab6ef450a 1414221416
+obj /usr/kde4/include/nepomuk2/createresourcejob.h b4d6850bf2d61fff110f3b99ae7ca77d 1414221416
+obj /usr/kde4/include/nepomuk2/datamanagement.h aff3fe84a1664e2c84ed56d23a946e82 1414221416
+obj /usr/kde4/include/nepomuk2/describeresourcesjob.h 5334bc5a1576147b725474fdc510e598 1414221416
+obj /usr/kde4/include/nepomuk2/entity.h 3bd566454e822da4253809a598e6a95e 1414221416
+obj /usr/kde4/include/nepomuk2/file.h e78c5f526d68a2e2affde2f1f5e50fea 1414221416
+obj /usr/kde4/include/nepomuk2/filequery.h 9aa6059fefdf907e88a55bd94a6d45ea 1414221416
+obj /usr/kde4/include/nepomuk2/groupterm.h f2b4ad6ba72981fcdfdcbe650251b9f5 1414221416
+obj /usr/kde4/include/nepomuk2/literal.h be5d97791210b0c3e1d53d4505c50332 1414221416
+obj /usr/kde4/include/nepomuk2/literalterm.h ca3f165076595d86aebcc386e8955c28 1414221416
+obj /usr/kde4/include/nepomuk2/ncal.h a2171c55ece51da4bf8377e36abb0bc1 1529216754
+obj /usr/kde4/include/nepomuk2/nco.h eeb6912a55398f486235d9a029c17c69 1529216755
+obj /usr/kde4/include/nepomuk2/ndo.h 6db39f57cfc1c6ec6814f7fe6820c29a 1529216754
+obj /usr/kde4/include/nepomuk2/negationterm.h a14989da85135ae3e864557184bdbdac 1414221416
+obj /usr/kde4/include/nepomuk2/nepomuk_export.h 8c95350709a0fa457f5661a3c22b293e 1414221416
+obj /usr/kde4/include/nepomuk2/nepomukservice.h 39e07546c8b21d1283e46abf2d95bb9b 1414221416
+obj /usr/kde4/include/nepomuk2/nepomukversion.h 7bf991d5189e187d2870104728b3279f 1529216751
+obj /usr/kde4/include/nepomuk2/nexif.h 0a10fd06a9c390b75d99de737bcad0d5 1529216755
+obj /usr/kde4/include/nepomuk2/nfo.h afe17959f21a3194189f019498504086 1529216754
+obj /usr/kde4/include/nepomuk2/nie.h 961bec7b2de864e79ccb13293d953c70 1529216754
+obj /usr/kde4/include/nepomuk2/nmm.h 5f855c5472b4a3b90481d2e421c60789 1529216755
+obj /usr/kde4/include/nepomuk2/nmo.h 49b609f57432d81ffc756009fc2b1eea 1529216755
+obj /usr/kde4/include/nepomuk2/nuao.h 9f90c7e95062b084a8a91b413515ac14 1529216755
+obj /usr/kde4/include/nepomuk2/ontology.h 1a6520c0a85705db605c1ab9bd81a29c 1414221416
+obj /usr/kde4/include/nepomuk2/optionalterm.h 10bae4611394ab507fc2d23667d2ee6c 1414221416
+obj /usr/kde4/include/nepomuk2/orterm.h 1f58b30c07eff620694c10d9a2f96266 1414221416
+obj /usr/kde4/include/nepomuk2/pimo.h d1727089be3bf2964da863e9c60dffe4 1529216755
+obj /usr/kde4/include/nepomuk2/property.h 604a0314517e9f8bf91468c6ea2198f3 1414221416
+obj /usr/kde4/include/nepomuk2/query.h 1fb8befd65477cc2b9c441e50bf21315 1414221416
+obj /usr/kde4/include/nepomuk2/queryinterface.h bf45fb1c3d2edf085194879d65a5b152 1529216755
+obj /usr/kde4/include/nepomuk2/queryparser.h bf1191d92ac7e0db5561c791b05d2180 1414221416
+obj /usr/kde4/include/nepomuk2/queryserviceclient.h 09aa7341268cbe6354b3829b587012a3 1414221416
+obj /usr/kde4/include/nepomuk2/queryserviceinterface.h 6c079aeda267542037e950ad2d784d7f 1529216755
+obj /usr/kde4/include/nepomuk2/resource.h edb06e662437922d12da5d8d135b515d 1414221416
+obj /usr/kde4/include/nepomuk2/resourcemanager.h 93ced4e98b0908553ea74247a74bdb96 1414221416
+obj /usr/kde4/include/nepomuk2/resourceterm.h 561d80c1cfa5e395f2309b3edb6a9c81 1414221416
+obj /usr/kde4/include/nepomuk2/resourcetypeterm.h 0ffb3dbaf74e80e2e5e5163c2f66afa9 1414221416
+obj /usr/kde4/include/nepomuk2/resourcewatcher.h c5f8418454c17bc923f6600b80bc37d9 1414221416
+obj /usr/kde4/include/nepomuk2/result.h 4b0fb26b1f7e0fc25abb8e071dd32153 1414221416
+obj /usr/kde4/include/nepomuk2/resultiterator.h e63eb90b1d7814012fa28f79dbcfcbb4 1414221416
+obj /usr/kde4/include/nepomuk2/service2.h 7ccf32c9f2a875e4fab926b20d93eed2 1414221416
+obj /usr/kde4/include/nepomuk2/simpleresource.h d1cbb793da59eae33638b4a74298a51b 1414221416
+obj /usr/kde4/include/nepomuk2/simpleresourcegraph.h e6e6ccac332037b826c4680980db4c5b 1414221416
+obj /usr/kde4/include/nepomuk2/simpleterm.h 1e349307df0d8fc1783b502469c32ac6 1414221416
+obj /usr/kde4/include/nepomuk2/standardqueries.h 11c3800b4e76cb9a66d8a7df491e9857 1414221416
+obj /usr/kde4/include/nepomuk2/storeresourcesjob.h 92decae992aa627cde857504b1e31c3b 1414221416
+obj /usr/kde4/include/nepomuk2/tag.h 5301c9a7a65f46d8bcb1bdceb01f3511 1414221416
+obj /usr/kde4/include/nepomuk2/term.h 5a2c52190e59d56c12e1df8f5317f21e 1414221416
+obj /usr/kde4/include/nepomuk2/tmo.h 32d43cccf5f0a0f2db2bcc7698ed6d9e 1529216755
+obj /usr/kde4/include/nepomuk2/utils.h 3d63d2e37cf4b2c09af35c9ee1434c4f 1414221416
+obj /usr/kde4/include/nepomuk2/variant.h f5f36b911038c71e87b8e46af478990a 1414221416
+obj /usr/kde4/include/nepomuk2/vocabulary.h 5888498fc4e62b3c2e2f1f9ff239bc42 1414221416
+dir /usr/kde4/lib64
+dir /usr/kde4/lib64/cmake
+dir /usr/kde4/lib64/cmake/NepomukCore
+obj /usr/kde4/lib64/cmake/NepomukCore/Nepomuk2AddOntologyClasses.cmake d70461b41f204e3d89d8653c3caf40f0 1414221416
+obj /usr/kde4/lib64/cmake/NepomukCore/NepomukCoreConfig.cmake 63404f658e3f179b30caac3fa48e1d23 1529216751
+obj /usr/kde4/lib64/cmake/NepomukCore/NepomukCoreConfigVersion.cmake b6bae78af44219fe74048eccce42b878 1529216751
+obj /usr/kde4/lib64/cmake/NepomukCore/NepomukCoreTargetsWithPrefix-gentoo.cmake 4d170ff8e8c788532323149f294b13ee 1529216751
+obj /usr/kde4/lib64/cmake/NepomukCore/NepomukCoreTargetsWithPrefix.cmake 71c9133c058666684522cab86ecc087d 1529216751
+dir /usr/kde4/lib64/kde4
+dir /usr/kde4/lib64/kde4/libexec
+obj /usr/kde4/lib64/kde4/libexec/kde_nepomuk_filewatch_raiselimit 385831b9e9f65f2ea4ec6cc4bb5fdb88 1529216868
+obj /usr/kde4/lib64/kde4/nepomukepubextractor.so 7f19c19f12db4471c776ae3a0047fcf8 1529216868
+obj /usr/kde4/lib64/kde4/nepomukexiv2extractor.so e7d292a6b31ffe17439362a2389464e7 1529216868
+obj /usr/kde4/lib64/kde4/nepomukffmpegextractor.so c6b88baa6ebbbb978228a80acbccbc62 1529216868
+obj /usr/kde4/lib64/kde4/nepomukmobiextractor.so 443b142ae78c0f78ffc6231d66589a50 1529216868
+obj /usr/kde4/lib64/kde4/nepomukodfextractor.so dcd63a068feba9d9acbcbc220bc0f755 1529216868
+obj /usr/kde4/lib64/kde4/nepomukoffice2007extractor.so e17df2d23db607fa73e8761f2366c9e0 1529216868
+obj /usr/kde4/lib64/kde4/nepomukofficeextractor.so 1bef524a991a0de8e76c476333d729ff 1529216868
+obj /usr/kde4/lib64/kde4/nepomukplaintextextractor.so e03d940921b82d5f11ea9101086a7856 1529216868
+obj /usr/kde4/lib64/kde4/nepomuktaglibextractor.so a9fa080f10d8b049ee5f9acd4db4b2bb 1529216868
+obj /usr/kde4/lib64/libkdeinit4_nepomukserver.so db42b905a16de1cb134e2de3497276c8 1529216867
+sym /usr/kde4/lib64/libnepomukcleaner.so -> libnepomukcleaner.so.4 1529216870
+sym /usr/kde4/lib64/libnepomukcleaner.so.4 -> libnepomukcleaner.so.4.14.37 1529216870
+obj /usr/kde4/lib64/libnepomukcleaner.so.4.14.37 2d543dd2f9b1ca60831fa9a1e864c22c 1529216868
+obj /usr/kde4/lib64/libnepomukcommon.so 1506ca9e7cd07821ea10fe8f92f32bbd 1529216867
+sym /usr/kde4/lib64/libnepomukcore.so -> libnepomukcore.so.4 1529216870
+sym /usr/kde4/lib64/libnepomukcore.so.4 -> libnepomukcore.so.4.14.37 1529216870
+obj /usr/kde4/lib64/libnepomukcore.so.4.14.37 e7a7f2dffb5494b768e981959c611717 1529216867
+obj /usr/kde4/lib64/libnepomukextractor.so 456360b42f84b04cf9834a4df3f8730f 1529216868
+dir /usr/kde4/share
+dir /usr/kde4/share/applications
+dir /usr/kde4/share/applications/kde4
+obj /usr/kde4/share/applications/kde4/nepomukbackup.desktop a253b4cff82c52da5413aae75b04021f 1414221416
+obj /usr/kde4/share/applications/kde4/nepomukcleaner.desktop 6eab22572cb823f531a380e8e541f103 1414221416
+dir /usr/kde4/share/apps
+dir /usr/kde4/share/apps/fileindexerservice
+obj /usr/kde4/share/apps/fileindexerservice/nepomukfileindexer.notifyrc 4f4f90d35b268707cea788500c5e7cb4 1414221416
+dir /usr/kde4/share/apps/nepomukfilewatch
+obj /usr/kde4/share/apps/nepomukfilewatch/nepomukfilewatch.notifyrc 99a021854d0fe3c18342efe49db7c7ad 1414221416
+dir /usr/kde4/share/apps/nepomukstorage
+obj /usr/kde4/share/apps/nepomukstorage/nepomukstorage.notifyrc 6c8c33e95b42647478f84360ed4a9ce0 1414221416
+dir /usr/kde4/share/autostart
+obj /usr/kde4/share/autostart/nepomukserver.desktop 6974449d1a0b68130f100d8fe00b7826 1414221416
+dir /usr/kde4/share/dbus-1
+dir /usr/kde4/share/dbus-1/interfaces
+obj /usr/kde4/share/dbus-1/interfaces/org.kde.NepomukServer.xml e548418ba3a9086c48e3cfb1c50ac78f 1414221416
+obj /usr/kde4/share/dbus-1/interfaces/org.kde.nepomuk.BackupManager.xml 02d5918e7db437f228dc8eb04b6ecb25 1414221416
+obj /usr/kde4/share/dbus-1/interfaces/org.kde.nepomuk.DataManagement.xml dbbb7ce53759ac5ce420e3a6058fb2d2 1414221416
+obj /usr/kde4/share/dbus-1/interfaces/org.kde.nepomuk.FileIndexer.xml 07f09a19f687e58b96340648d2176097 1414221416
+obj /usr/kde4/share/dbus-1/interfaces/org.kde.nepomuk.FileWatch.xml c36e4a1bfaa29b0238d21916b3ae2559 1414221416
+obj /usr/kde4/share/dbus-1/interfaces/org.kde.nepomuk.OntologyManager.xml 39de67e99ef83beb485cbc04006b139f 1414221416
+obj /usr/kde4/share/dbus-1/interfaces/org.kde.nepomuk.Query.xml e4afc3d9da626f9ae221192024de2942 1414221416
+obj /usr/kde4/share/dbus-1/interfaces/org.kde.nepomuk.QueryService.xml 0fcf325a9ea7234bda2512191fab0c6e 1414221416
+obj /usr/kde4/share/dbus-1/interfaces/org.kde.nepomuk.ResourceWatcher.xml f054ee4f8ee6154941566dd65b43b662 1414221416
+obj /usr/kde4/share/dbus-1/interfaces/org.kde.nepomuk.ResourceWatcherConnection.xml 8dc7e9f7ccdb2e662cd98e9f97fec40a 1414221416
+obj /usr/kde4/share/dbus-1/interfaces/org.kde.nepomuk.ServiceControl.xml 58c50f4a64354ec73d98e38e6b125bba 1414221416
+obj /usr/kde4/share/dbus-1/interfaces/org.kde.nepomuk.ServiceManager.xml f1d4cd188d3c76a7b93ddae24f70d3d4 1414221416
+obj /usr/kde4/share/dbus-1/interfaces/org.kde.nepomuk.Storage.xml a8c2e2b3e3e11839359a8883481bdb86 1414221416
+dir /usr/kde4/share/dbus-1/system-services
+obj /usr/kde4/share/dbus-1/system-services/org.kde.nepomuk.filewatch.service 6f93be3ab6df9343a57292807aee80fb 1529216751
+dir /usr/kde4/share/kde4
+dir /usr/kde4/share/kde4/services
+obj /usr/kde4/share/kde4/services/nepomukactivitiesservice.desktop d80b349e70d155d171cac22892bf6671 1414221416
+obj /usr/kde4/share/kde4/services/nepomukbackupsync.desktop d80b349e70d155d171cac22892bf6671 1414221416
+obj /usr/kde4/share/kde4/services/nepomukepubextractor.desktop 585dfbc5620ae55cbdf0a74ff733d6a0 1414221416
+obj /usr/kde4/share/kde4/services/nepomukexiv2extractor.desktop c3fb1ba9ae3b52906930f3980d71489d 1414221416
+obj /usr/kde4/share/kde4/services/nepomukffmpegextractor.desktop d3a886d91b845b749656441ed2664f5d 1414221416
+obj /usr/kde4/share/kde4/services/nepomukfileindexer.desktop 4e18f26087330a11d0a21fedbba8f180 1414221416
+obj /usr/kde4/share/kde4/services/nepomukfilewatch.desktop 4efc10b24f3d636b3ec82dce150a8b4b 1414221416
+obj /usr/kde4/share/kde4/services/nepomukmobiextractor.desktop 5caa6238c4a48326404a8d97e1fa9aae 1414221416
+obj /usr/kde4/share/kde4/services/nepomukodfextractor.desktop f3bda0db7e258f877900f7187df7d2c8 1414221416
+obj /usr/kde4/share/kde4/services/nepomukoffice2007extractor.desktop d0abd4cae7e2f3c6048d60243e9209e9 1414221416
+obj /usr/kde4/share/kde4/services/nepomukofficeextractor.desktop 726e0ffff7e29db5943a790a325d0239 1414221416
+obj /usr/kde4/share/kde4/services/nepomukontologyloader.desktop d80b349e70d155d171cac22892bf6671 1414221416
+obj /usr/kde4/share/kde4/services/nepomukplaintextextractor.desktop 040ec910371c5fbfaab531d00573afe8 1414221416
+obj /usr/kde4/share/kde4/services/nepomukqueryservice.desktop d80b349e70d155d171cac22892bf6671 1414221416
+obj /usr/kde4/share/kde4/services/nepomukremovablestorageservice.desktop d80b349e70d155d171cac22892bf6671 1414221416
+obj /usr/kde4/share/kde4/services/nepomukstorage.desktop d16f7a5c8183b3b79058d26b4b180339 1414221416
+obj /usr/kde4/share/kde4/services/nepomukstrigiservice.desktop d80b349e70d155d171cac22892bf6671 1414221416
+obj /usr/kde4/share/kde4/services/nepomuktaglibextractor.desktop 9a277f7cdb71138aa314e27385eb7310 1414221416
+dir /usr/kde4/share/kde4/servicetypes
+obj /usr/kde4/share/kde4/servicetypes/nepomukcleaningjob.desktop df7c98c4ee2a374f37cfc2dcf35c3e21 1414221416
+obj /usr/kde4/share/kde4/servicetypes/nepomukextractor.desktop 789633d04696b0459429678dbc7c2d24 1414221416
+obj /usr/kde4/share/kde4/servicetypes/nepomukservice.desktop 5ae30680e6b0ace58a935badbb5a71a6 1414221416
+obj /usr/kde4/share/kde4/servicetypes/nepomukservice2.desktop 7a0460c276ebf3d0c91d88aebdf72914 1414221416
+dir /usr/kde4/share/ontology
+dir /usr/kde4/share/ontology/kde
+obj /usr/kde4/share/ontology/kde/kext.ontology bb64f74b19aed8f2267dbc23487d57c9 1529216751
+obj /usr/kde4/share/ontology/kde/kext.trig 0ae869dafd923731eedad806e9e1acce 1414221416
+obj /usr/kde4/share/ontology/kde/kuvo.ontology fa2c0dea614faf2a62a48bfd5b06cba3 1529216751
+obj /usr/kde4/share/ontology/kde/kuvo.trig a4e66df0834ad7302ee77406e3a30d15 1414221416
+obj /usr/kde4/share/ontology/kde/nrio.ontology 03cce851ba5820e9aacb080484d245da 1529216751
+obj /usr/kde4/share/ontology/kde/nrio.trig 58c6894729ad34df07ddd46d7ee8e936 1414221416
+dir /usr/kde4/share/polkit-1
+dir /usr/kde4/share/polkit-1/actions
+obj /usr/kde4/share/polkit-1/actions/org.kde.nepomuk.filewatch.policy 1df7a563f533728ecb57e26efe1261e7 1529216753
 dir /usr/lib64
-obj /usr/lib64/libnepomukcleaner.so.4.14.37 f19aacaef5469903fe987f3613e4b219 1526837558
 sym /usr/lib64/libnepomukcore.so.4 -> libnepomukcore.so.4.14.37 1526837562
-dir /usr/lib64/cmake
-dir /usr/lib64/cmake/NepomukCore
-obj /usr/lib64/cmake/NepomukCore/NepomukCoreTargetsWithPrefix.cmake 4946c6b23436b1a88852a055bf355c54 1526837448
-obj /usr/lib64/cmake/NepomukCore/NepomukCoreTargetsWithPrefix-gentoo.cmake 5ccaf5dfce548a652c465b5a6f1aeb38 1526837448
-obj /usr/lib64/cmake/NepomukCore/NepomukCoreConfigVersion.cmake b6bae78af44219fe74048eccce42b878 1526837448
-obj /usr/lib64/cmake/NepomukCore/NepomukCoreConfig.cmake b5d09044137a0eae2c8bc0937b0f7016 1526837448
-obj /usr/lib64/cmake/NepomukCore/Nepomuk2AddOntologyClasses.cmake d70461b41f204e3d89d8653c3caf40f0 1414221416
-obj /usr/lib64/libkdeinit4_nepomukserver.so 2ae32727f790660f68cd5ca8085eac0b 1526837558
-sym /usr/lib64/libnepomukcleaner.so.4 -> libnepomukcleaner.so.4.14.37 1526837562
-sym /usr/lib64/libnepomukcore.so -> libnepomukcore.so.4 1526837562
-obj /usr/lib64/libnepomukextractor.so 1197bcc1bfcf8d7b12d21d13248c2ac6 1526837558
-sym /usr/lib64/libnepomukcleaner.so -> libnepomukcleaner.so.4 1526837562
 obj /usr/lib64/libnepomukcore.so.4.14.37 3618a8a3047585071b14567669cb2cde 1526837558
-dir /usr/lib64/kde4
-obj /usr/lib64/kde4/nepomukodfextractor.so 776980afb6946e6cd82a216a95a2c4e1 1526837558
-obj /usr/lib64/kde4/nepomukmobiextractor.so 443b142ae78c0f78ffc6231d66589a50 1526837558
-obj /usr/lib64/kde4/nepomukoffice2007extractor.so 084425b135c85a96f9d99cca6b63e541 1526837558
-obj /usr/lib64/kde4/nepomukplaintextextractor.so f319181209ba5ca6ef4cf6a66fb1f62d 1526837558
-dir /usr/lib64/kde4/libexec
-obj /usr/lib64/kde4/libexec/kde_nepomuk_filewatch_raiselimit 063f51df13d8e6eeebc1f2ac549f62c1 1526837558
-obj /usr/lib64/kde4/nepomukffmpegextractor.so a07b955a6a110ca5833769fa6c962b4b 1526837558
-obj /usr/lib64/kde4/nepomukexiv2extractor.so 1914bd31c5f87f931b3d1197dff2d1ca 1526837558
-obj /usr/lib64/kde4/nepomukofficeextractor.so 0003c56593f1d42f327453bc508139e1 1526837558
-obj /usr/lib64/kde4/nepomukepubextractor.so eb278d10dcb53730271a190bca556301 1526837558
-obj /usr/lib64/kde4/nepomuktaglibextractor.so e8a970c4663dabd6e81f145c5007a0be 1526837558
-obj /usr/lib64/libnepomukcommon.so cd9fa0d68672ee2408eeb125e4110d20 1526837558
-dir /usr/include
-dir /usr/include/Nepomuk2
-obj /usr/include/Nepomuk2/Resource 9a1759b195c3f083a5e12542b8e10e78 1414221416
-obj /usr/include/Nepomuk2/DescribeResourcesJob 25857df95821245a457e6fd6c942e7b6 1414221416
-obj /usr/include/Nepomuk2/File b54ea22dd6ee5b73b686f8a173a014cf 1414221416
-obj /usr/include/Nepomuk2/StoreResourcesJob 2106cde41c81a40ea060af740be58f6b 1414221416
-obj /usr/include/Nepomuk2/SimpleResource 0a1cfdb27455e78835230ee9f1f224c1 1414221416
-obj /usr/include/Nepomuk2/DataManagement 94f59cae914ef399c34d96b85cf55844 1414221416
-obj /usr/include/Nepomuk2/Tag 8bb1296c27bc3d1ad3aef2defbea590c 1414221416
-dir /usr/include/Nepomuk2/Vocabulary
-obj /usr/include/Nepomuk2/Vocabulary/NCAL b0b0b687540f313fb9d410caa43540e1 1414221416
-obj /usr/include/Nepomuk2/Vocabulary/NFO 5925f87fbdbc90fa084fb6898ed5ace9 1414221416
-obj /usr/include/Nepomuk2/Vocabulary/NIE eb7afc0b246753064d8d44e9e42233e5 1414221416
-obj /usr/include/Nepomuk2/Vocabulary/NCO a7f46412e908cace4663432ea54e1e0f 1414221416
-obj /usr/include/Nepomuk2/Vocabulary/NDO 48a38fa371b72aaeb39ec9aefdd2f1d3 1414221416
-obj /usr/include/Nepomuk2/Vocabulary/NEXIF 0e59e6bba36d8c34110925834eaaf722 1414221416
-obj /usr/include/Nepomuk2/Vocabulary/NUAO 5e2f622a04ed812a258d93353eef9437 1414221416
-obj /usr/include/Nepomuk2/Vocabulary/NMM 022eeb8e2e50309671c5e1a8278d7481 1414221416
-obj /usr/include/Nepomuk2/Vocabulary/PIMO db1b2760d80563e548be5c49dd786589 1414221416
-obj /usr/include/Nepomuk2/Vocabulary/NMO a156aa54aa976b18814556281f049f4c 1414221416
-obj /usr/include/Nepomuk2/Vocabulary/TMO 38ac3306a9c1fe7882be6855b8850d3e 1414221416
-obj /usr/include/Nepomuk2/Service ea655e57c1481ff24305b05fdd6d37b6 1414221416
-obj /usr/include/Nepomuk2/ResourceWatcher e19d47cbf7a9c3628aba7c0194c03a6f 1414221416
-obj /usr/include/Nepomuk2/ResourceManager a4524084ef4425e39e3943cf2ac96b2f 1414221416
-obj /usr/include/Nepomuk2/SimpleResourceGraph 9dfb80232de207ba1708c47b95c7e3da 1414221416
-obj /usr/include/Nepomuk2/CreateResourceJob 0a3d932ce33c30c819555416ef223778 1414221416
-obj /usr/include/Nepomuk2/Variant cf3761933fa0dcb9221de62f08ad7e13 1414221416
-dir /usr/include/Nepomuk2/Query
-obj /usr/include/Nepomuk2/Query/QueryServiceClient 22525be2a7e838394797d7e8d37b3b00 1414221416
-obj /usr/include/Nepomuk2/Query/ResourceTypeTerm c0c0372b7b9eaba67324c80a75008094 1414221416
-obj /usr/include/Nepomuk2/Query/QueryParser fd799536680d11fcd42b6a5096cf8d01 1414221416
-obj /usr/include/Nepomuk2/Query/NegationTerm 9d8224ed80c3d89d6f708d9e6008c942 1414221416
-obj /usr/include/Nepomuk2/Query/SimpleTerm 2a2c0cf955ae88ebdaf5c47fd7ad7ea3 1414221416
-obj /usr/include/Nepomuk2/Query/GroupTerm 55aa9db21b57db359a094c1c16c25773 1414221416
-obj /usr/include/Nepomuk2/Query/StandardQuery d72ab95309efece299dcda697b8d5b7e 1414221416
-obj /usr/include/Nepomuk2/Query/ResultIterator 9101c57fdd0b63a4c42e0ef7423b0d70 1414221416
-obj /usr/include/Nepomuk2/Query/ResourceTerm e4ff8ac83ceafaf3b097f5e39eb3ef78 1414221416
-obj /usr/include/Nepomuk2/Query/OptionalTerm c337a2931b3b9ab8ff2539e06126e33e 1414221416
-obj /usr/include/Nepomuk2/Query/Term 5e4ad86277a31fca774c3d43f8d2585d 1414221416
-obj /usr/include/Nepomuk2/Query/ComparisonTerm 9cc2d8354aa0db57cf89c84bd5535529 1414221416
-obj /usr/include/Nepomuk2/Query/LiteralTerm 1f4479217b630abf9b9b010456a08e5c 1414221416
-obj /usr/include/Nepomuk2/Query/Result e2ddfb47e2aafe6089689d1e6f810eab 1414221416
-obj /usr/include/Nepomuk2/Query/OrTerm 60e70c7db2642dab4d918b4aaa176452 1414221416
-obj /usr/include/Nepomuk2/Query/FileQuery 178d497649c69549b9e4298b4681fe12 1414221416
-obj /usr/include/Nepomuk2/Query/Query a3e61ce90c0d284d2fb124d7cd57a3e0 1414221416
-obj /usr/include/Nepomuk2/Query/AndTerm f59d5928179318b5af36eee132a24074 1414221416
-dir /usr/include/Nepomuk2/Types
-obj /usr/include/Nepomuk2/Types/Property 4219101cb293e1f1e8e01cd1837bcff2 1414221416
-obj /usr/include/Nepomuk2/Types/Class 7c9748a6b35cd55f3649fc2d06ba4133 1414221416
-obj /usr/include/Nepomuk2/Types/Literal 2e3949ec5b0d688e2150fbf648e0c25e 1414221416
-obj /usr/include/Nepomuk2/Types/Ontology 9da5e08037fef792ed0a41473a92217d 1414221416
-dir /usr/include/nepomuk2
-obj /usr/include/nepomuk2/pimo.h d1727089be3bf2964da863e9c60dffe4 1526837450
-obj /usr/include/nepomuk2/term.h 5a2c52190e59d56c12e1df8f5317f21e 1414221416
-obj /usr/include/nepomuk2/createresourcejob.h b4d6850bf2d61fff110f3b99ae7ca77d 1414221416
-obj /usr/include/nepomuk2/resourceterm.h 561d80c1cfa5e395f2309b3edb6a9c81 1414221416
-obj /usr/include/nepomuk2/resultiterator.h e63eb90b1d7814012fa28f79dbcfcbb4 1414221416
-obj /usr/include/nepomuk2/property.h 604a0314517e9f8bf91468c6ea2198f3 1414221416
-obj /usr/include/nepomuk2/queryserviceinterface.h 76c0ea318b371b4d65907ebb83f8940d 1526837450
-obj /usr/include/nepomuk2/ontology.h 1a6520c0a85705db605c1ab9bd81a29c 1414221416
-obj /usr/include/nepomuk2/vocabulary.h 5888498fc4e62b3c2e2f1f9ff239bc42 1414221416
-obj /usr/include/nepomuk2/resourcemanager.h 93ced4e98b0908553ea74247a74bdb96 1414221416
-obj /usr/include/nepomuk2/nco.h eeb6912a55398f486235d9a029c17c69 1526837450
-obj /usr/include/nepomuk2/ndo.h 6db39f57cfc1c6ec6814f7fe6820c29a 1526837450
-obj /usr/include/nepomuk2/orterm.h 1f58b30c07eff620694c10d9a2f96266 1414221416
-obj /usr/include/nepomuk2/describeresourcesjob.h 5334bc5a1576147b725474fdc510e598 1414221416
-obj /usr/include/nepomuk2/andterm.h 27c904b032cdd262266323c7a99ae2fa 1414221416
-obj /usr/include/nepomuk2/service2.h 7ccf32c9f2a875e4fab926b20d93eed2 1414221416
-obj /usr/include/nepomuk2/queryparser.h bf1191d92ac7e0db5561c791b05d2180 1414221416
-obj /usr/include/nepomuk2/nexif.h 0a10fd06a9c390b75d99de737bcad0d5 1526837450
-obj /usr/include/nepomuk2/variant.h f5f36b911038c71e87b8e46af478990a 1414221416
-obj /usr/include/nepomuk2/result.h 4b0fb26b1f7e0fc25abb8e071dd32153 1414221416
-obj /usr/include/nepomuk2/class.h ed5f25fce5c2ff38cfd334ca8e0bbf7b 1414221416
-obj /usr/include/nepomuk2/comparisonterm.h 2565d230bfe2bd2e246d4d4ab6ef450a 1414221416
-obj /usr/include/nepomuk2/optionalterm.h 10bae4611394ab507fc2d23667d2ee6c 1414221416
-obj /usr/include/nepomuk2/queryinterface.h da1d4262e0e61c7cda71c1ba555c63ea 1526837450
-obj /usr/include/nepomuk2/file.h e78c5f526d68a2e2affde2f1f5e50fea 1414221416
-obj /usr/include/nepomuk2/nepomuk_export.h 8c95350709a0fa457f5661a3c22b293e 1414221416
-obj /usr/include/nepomuk2/queryserviceclient.h 09aa7341268cbe6354b3829b587012a3 1414221416
-obj /usr/include/nepomuk2/nie.h 961bec7b2de864e79ccb13293d953c70 1526837450
-obj /usr/include/nepomuk2/simpleterm.h 1e349307df0d8fc1783b502469c32ac6 1414221416
-obj /usr/include/nepomuk2/nepomukversion.h 7bf991d5189e187d2870104728b3279f 1526837447
-obj /usr/include/nepomuk2/nmo.h 49b609f57432d81ffc756009fc2b1eea 1526837450
-obj /usr/include/nepomuk2/utils.h 3d63d2e37cf4b2c09af35c9ee1434c4f 1414221416
-obj /usr/include/nepomuk2/datamanagement.h aff3fe84a1664e2c84ed56d23a946e82 1414221416
-obj /usr/include/nepomuk2/query.h 1fb8befd65477cc2b9c441e50bf21315 1414221416
-obj /usr/include/nepomuk2/resourcetypeterm.h 0ffb3dbaf74e80e2e5e5163c2f66afa9 1414221416
-obj /usr/include/nepomuk2/standardqueries.h 11c3800b4e76cb9a66d8a7df491e9857 1414221416
-obj /usr/include/nepomuk2/entity.h 3bd566454e822da4253809a598e6a95e 1414221416
-obj /usr/include/nepomuk2/simpleresourcegraph.h e6e6ccac332037b826c4680980db4c5b 1414221416
-obj /usr/include/nepomuk2/tmo.h 32d43cccf5f0a0f2db2bcc7698ed6d9e 1526837450
-obj /usr/include/nepomuk2/literal.h be5d97791210b0c3e1d53d4505c50332 1414221416
-obj /usr/include/nepomuk2/storeresourcesjob.h 92decae992aa627cde857504b1e31c3b 1414221416
-obj /usr/include/nepomuk2/nuao.h 9f90c7e95062b084a8a91b413515ac14 1526837450
-obj /usr/include/nepomuk2/literalterm.h ca3f165076595d86aebcc386e8955c28 1414221416
-obj /usr/include/nepomuk2/ncal.h a2171c55ece51da4bf8377e36abb0bc1 1526837450
-obj /usr/include/nepomuk2/simpleresource.h d1cbb793da59eae33638b4a74298a51b 1414221416
-obj /usr/include/nepomuk2/nepomukservice.h 39e07546c8b21d1283e46abf2d95bb9b 1414221416
-obj /usr/include/nepomuk2/negationterm.h a14989da85135ae3e864557184bdbdac 1414221416
-obj /usr/include/nepomuk2/cleaningjob.h 3bc53249529fb759f9a6425e44e02239 1414221416
-obj /usr/include/nepomuk2/tag.h 5301c9a7a65f46d8bcb1bdceb01f3511 1414221416
-obj /usr/include/nepomuk2/filequery.h 9aa6059fefdf907e88a55bd94a6d45ea 1414221416
-obj /usr/include/nepomuk2/groupterm.h f2b4ad6ba72981fcdfdcbe650251b9f5 1414221416
-obj /usr/include/nepomuk2/resource.h edb06e662437922d12da5d8d135b515d 1414221416
-obj /usr/include/nepomuk2/resourcewatcher.h c5f8418454c17bc923f6600b80bc37d9 1414221416
-obj /usr/include/nepomuk2/nmm.h 5f855c5472b4a3b90481d2e421c60789 1526837450
-obj /usr/include/nepomuk2/nfo.h afe17959f21a3194189f019498504086 1526837450
-dir /usr/bin
-obj /usr/bin/nepomuk2-rcgen c236e925d313ab52d19358ab2c76c714 1526837558
-obj /usr/bin/nepomukfilewatch 8a9b81d6aac3b58e57ffe11c1730cd45 1526837558
-obj /usr/bin/nepomukservicestub 0e2e971ed8fc189816e2674b5119fa63 1526837558
-obj /usr/bin/nepomukserver ea8f1de538f5fc87e30f9d17467ef495 1526837558
-obj /usr/bin/nepomukmigrator 9142694697d0e16dde5539b261fc677c 1526837558
-obj /usr/bin/nepomukcleaner 956e737f3c43ea2d049e985e88cc4cd3 1526837558
-obj /usr/bin/nepomukctl 1ec21a27aa4c33b714a35fd444226543 1526837559
-obj /usr/bin/nepomukstorage 8778969aa49e4913f8e6ce36a0735d3b 1526837558
-obj /usr/bin/nepomukcmd 51dd63cd6a2342027dbeccd046048b07 1526837559
-obj /usr/bin/nepomuksearch 6629b35c511223998425d2c319e8d39f 1526837559
-obj /usr/bin/nepomukshow 47d58f28b7bb1467de78e1c7693ccbfd 1526837559
-obj /usr/bin/nepomukfileindexer d63a2211e8a452bb8af0dcd4af4bbb0e 1526837558
-obj /usr/bin/nepomukindexer bcd9889448d4c9f59276d7842bd01d90 1526837558
-obj /usr/bin/nepomukbackup e2272ffd2dd5915aceaabd76fb0286b4 1526837558
-obj /usr/bin/nepomuk-simpleresource-rcgen cb477308b2a9414d903b070889864e17 1414221416
 dir /usr/share
-dir /usr/share/autostart
-obj /usr/share/autostart/nepomukserver.desktop 6974449d1a0b68130f100d8fe00b7826 1414221416
 dir /usr/share/doc
 dir /usr/share/doc/nepomuk-core-4.14.3
-obj /usr/share/doc/nepomuk-core-4.14.3/ontologies.README.bz2 1d8f5cca713332223fe3aa5ae863aae1 1526837553
-obj /usr/share/doc/nepomuk-core-4.14.3/autotests.README.bz2 2dd13d343b6026094271b2a8673e2cb5 1526837553
-dir /usr/share/polkit-1
-dir /usr/share/polkit-1/actions
-obj /usr/share/polkit-1/actions/org.kde.nepomuk.filewatch.policy 1df7a563f533728ecb57e26efe1261e7 1526837449
-dir /usr/share/ontology
-dir /usr/share/ontology/kde
-obj /usr/share/ontology/kde/kext.trig 0ae869dafd923731eedad806e9e1acce 1414221416
-obj /usr/share/ontology/kde/nrio.ontology 4813e385ef46da5b1fe6ad3130bebf3b 1526837447
-obj /usr/share/ontology/kde/kext.ontology 84635f038fe0bc348292bc521da473f6 1526837447
-obj /usr/share/ontology/kde/kuvo.trig a4e66df0834ad7302ee77406e3a30d15 1414221416
-obj /usr/share/ontology/kde/kuvo.ontology 3aa9c4d5591b099a46f233f5701b1c9c 1526837447
-obj /usr/share/ontology/kde/nrio.trig 58c6894729ad34df07ddd46d7ee8e936 1414221416
-dir /usr/share/applications
-dir /usr/share/applications/kde4
-obj /usr/share/applications/kde4/nepomukcleaner.desktop 6eab22572cb823f531a380e8e541f103 1414221416
-obj /usr/share/applications/kde4/nepomukbackup.desktop a253b4cff82c52da5413aae75b04021f 1414221416
-dir /usr/share/apps
-dir /usr/share/apps/nepomukfilewatch
-obj /usr/share/apps/nepomukfilewatch/nepomukfilewatch.notifyrc 99a021854d0fe3c18342efe49db7c7ad 1414221416
-dir /usr/share/apps/nepomukstorage
-obj /usr/share/apps/nepomukstorage/nepomukstorage.notifyrc 6c8c33e95b42647478f84360ed4a9ce0 1414221416
-dir /usr/share/apps/fileindexerservice
-obj /usr/share/apps/fileindexerservice/nepomukfileindexer.notifyrc 4f4f90d35b268707cea788500c5e7cb4 1414221416
-dir /usr/share/dbus-1
-dir /usr/share/dbus-1/system-services
-obj /usr/share/dbus-1/system-services/org.kde.nepomuk.filewatch.service cc206d179b0eb7478db4e0bc902fe0f2 1526837448
-dir /usr/share/dbus-1/interfaces
-obj /usr/share/dbus-1/interfaces/org.kde.nepomuk.Storage.xml a8c2e2b3e3e11839359a8883481bdb86 1414221416
-obj /usr/share/dbus-1/interfaces/org.kde.nepomuk.FileIndexer.xml 07f09a19f687e58b96340648d2176097 1414221416
-obj /usr/share/dbus-1/interfaces/org.kde.NepomukServer.xml e548418ba3a9086c48e3cfb1c50ac78f 1414221416
-obj /usr/share/dbus-1/interfaces/org.kde.nepomuk.QueryService.xml 0fcf325a9ea7234bda2512191fab0c6e 1414221416
-obj /usr/share/dbus-1/interfaces/org.kde.nepomuk.OntologyManager.xml 39de67e99ef83beb485cbc04006b139f 1414221416
-obj /usr/share/dbus-1/interfaces/org.kde.nepomuk.FileWatch.xml c36e4a1bfaa29b0238d21916b3ae2559 1414221416
-obj /usr/share/dbus-1/interfaces/org.kde.nepomuk.Query.xml e4afc3d9da626f9ae221192024de2942 1414221416
-obj /usr/share/dbus-1/interfaces/org.kde.nepomuk.ServiceManager.xml f1d4cd188d3c76a7b93ddae24f70d3d4 1414221416
-obj /usr/share/dbus-1/interfaces/org.kde.nepomuk.ResourceWatcherConnection.xml 8dc7e9f7ccdb2e662cd98e9f97fec40a 1414221416
-obj /usr/share/dbus-1/interfaces/org.kde.nepomuk.ResourceWatcher.xml f054ee4f8ee6154941566dd65b43b662 1414221416
-obj /usr/share/dbus-1/interfaces/org.kde.nepomuk.BackupManager.xml 02d5918e7db437f228dc8eb04b6ecb25 1414221416
-obj /usr/share/dbus-1/interfaces/org.kde.nepomuk.ServiceControl.xml 58c50f4a64354ec73d98e38e6b125bba 1414221416
-obj /usr/share/dbus-1/interfaces/org.kde.nepomuk.DataManagement.xml dbbb7ce53759ac5ce420e3a6058fb2d2 1414221416
-dir /usr/share/kde4
-dir /usr/share/kde4/services
-obj /usr/share/kde4/services/nepomukfileindexer.desktop 4e18f26087330a11d0a21fedbba8f180 1414221416
-obj /usr/share/kde4/services/nepomukoffice2007extractor.desktop d0abd4cae7e2f3c6048d60243e9209e9 1414221416
-obj /usr/share/kde4/services/nepomukstorage.desktop d16f7a5c8183b3b79058d26b4b180339 1414221416
-obj /usr/share/kde4/services/nepomukofficeextractor.desktop 726e0ffff7e29db5943a790a325d0239 1414221416
-obj /usr/share/kde4/services/nepomukodfextractor.desktop f3bda0db7e258f877900f7187df7d2c8 1414221416
-obj /usr/share/kde4/services/nepomukffmpegextractor.desktop d3a886d91b845b749656441ed2664f5d 1414221416
-obj /usr/share/kde4/services/nepomukstrigiservice.desktop d80b349e70d155d171cac22892bf6671 1414221416
-obj /usr/share/kde4/services/nepomukontologyloader.desktop d80b349e70d155d171cac22892bf6671 1414221416
-obj /usr/share/kde4/services/nepomukfilewatch.desktop 4efc10b24f3d636b3ec82dce150a8b4b 1414221416
-obj /usr/share/kde4/services/nepomukexiv2extractor.desktop c3fb1ba9ae3b52906930f3980d71489d 1414221416
-obj /usr/share/kde4/services/nepomukepubextractor.desktop 585dfbc5620ae55cbdf0a74ff733d6a0 1414221416
-obj /usr/share/kde4/services/nepomukbackupsync.desktop d80b349e70d155d171cac22892bf6671 1414221416
-obj /usr/share/kde4/services/nepomukmobiextractor.desktop 5caa6238c4a48326404a8d97e1fa9aae 1414221416
-obj /usr/share/kde4/services/nepomukremovablestorageservice.desktop d80b349e70d155d171cac22892bf6671 1414221416
-obj /usr/share/kde4/services/nepomukqueryservice.desktop d80b349e70d155d171cac22892bf6671 1414221416
-obj /usr/share/kde4/services/nepomukactivitiesservice.desktop d80b349e70d155d171cac22892bf6671 1414221416
-obj /usr/share/kde4/services/nepomuktaglibextractor.desktop 9a277f7cdb71138aa314e27385eb7310 1414221416
-obj /usr/share/kde4/services/nepomukplaintextextractor.desktop 040ec910371c5fbfaab531d00573afe8 1414221416
-dir /usr/share/kde4/servicetypes
-obj /usr/share/kde4/servicetypes/nepomukextractor.desktop 789633d04696b0459429678dbc7c2d24 1414221416
-obj /usr/share/kde4/servicetypes/nepomukcleaningjob.desktop df7c98c4ee2a374f37cfc2dcf35c3e21 1414221416
-obj /usr/share/kde4/servicetypes/nepomukservice.desktop 5ae30680e6b0ace58a935badbb5a71a6 1414221416
-obj /usr/share/kde4/servicetypes/nepomukservice2.desktop 7a0460c276ebf3d0c91d88aebdf72914 1414221416
+obj /usr/share/doc/nepomuk-core-4.14.3/autotests.README.bz2 2dd13d343b6026094271b2a8673e2cb5 1529216861
+obj /usr/share/doc/nepomuk-core-4.14.3/ontologies.README.bz2 1d8f5cca713332223fe3aa5ae863aae1 1529216861
