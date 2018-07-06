@@ -1,0 +1,42 @@
+dir /var
+dir /var/lib
+dir /var/lib/dhcpcd
+dir /lib
+dir /lib/dhcpcd
+obj /lib/dhcpcd/dhcpcd-run-hooks ed37e547b19af96fe2d933794649700a 1529428818
+dir /lib/dhcpcd/dhcpcd-hooks
+obj /lib/dhcpcd/dhcpcd-hooks/02-dump 1b55442301138ed2c3a51385f4f03091 1529428818
+obj /lib/dhcpcd/dhcpcd-hooks/30-hostname 7f9cceba3d6171fd1579dc64f1dee5d0 1529428818
+obj /lib/dhcpcd/dhcpcd-hooks/20-resolv.conf f56e416a7fbcfcedffe838f4b6962d0f 1529428818
+obj /lib/dhcpcd/dhcpcd-hooks/50-yp.conf 41afd5f483fbfa728f3bd9c6f463d8f8 1529428818
+obj /lib/dhcpcd/dhcpcd-hooks/01-test 52c1e3cc24d175597067b9f5c0d33e9e 1529428818
+obj /lib/dhcpcd/dhcpcd-hooks/50-ntp.conf 67861ad2964df1c2db97df068d204d31 1529428818
+dir /lib/systemd
+dir /lib/systemd/system
+obj /lib/systemd/system/dhcpcd.service 69b33f4c9f360c2cdfc77d3beebaa6f6 1529428818
+dir /lib64
+dir /lib64/dhcpcd
+dir /lib64/dhcpcd/dev
+obj /lib64/dhcpcd/dev/udev.so 2b5d1253ddc83af8efab650571e6ae2d 1529428819
+dir /etc
+obj /etc/dhcpcd.conf 5acc451717b6bd883a6cabeebb3f5b8e 1529428818
+dir /etc/init.d
+obj /etc/init.d/dhcpcd 5cd5809d11b77b30f21df8418729d70b 1529428818
+dir /sbin
+obj /sbin/dhcpcd f441bc8fddaa984609bfbb3bdb754386 1529428819
+dir /usr
+dir /usr/share
+dir /usr/share/dhcpcd
+dir /usr/share/dhcpcd/hooks
+obj /usr/share/dhcpcd/hooks/15-timezone 237bbac3134f9c9a74474cf119862cfa 1529428818
+obj /usr/share/dhcpcd/hooks/10-wpa_supplicant fc17dfdf6b3f788e30f008e527eb59b3 1529428818
+obj /usr/share/dhcpcd/hooks/29-lookup-hostname 026765c18992cdcae5478a37b6896d25 1529428818
+dir /usr/share/doc
+dir /usr/share/doc/dhcpcd-7.0.1
+obj /usr/share/doc/dhcpcd-7.0.1/README.md.bz2 95012628c8a2bf285bad7c197b14825b 1529428818
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/dhcpcd.8.bz2 45f5ae431d176ded71f421af968a72e4 1529428818
+obj /usr/share/man/man8/dhcpcd-run-hooks.8.bz2 9e6e9f6e84ef2693bc9dce6c60d414f4 1529428818
+dir /usr/share/man/man5
+obj /usr/share/man/man5/dhcpcd.conf.5.bz2 1837644dafa2e30b5a6f71979b490e51 1529428818

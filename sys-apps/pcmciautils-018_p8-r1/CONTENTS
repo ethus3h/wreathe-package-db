@@ -1,0 +1,22 @@
+dir /lib
+dir /lib/udev
+obj /lib/udev/pcmcia-socket-startup ff0ae062f199aed3375dcd4ca32663d5 1529418845
+obj /lib/udev/pcmcia-check-broken-cis 52e783eba004571b51c10e7090515704 1529418845
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/60-pcmcia.rules 67348238b72ff879ddf2ecf3cd6ea255 1529418843
+dir /etc
+dir /etc/pcmcia
+obj /etc/pcmcia/config.opts c3a71f12e19abdae6babff2331f1df7f 1529418843
+dir /usr
+dir /usr/bin
+obj /usr/bin/pccardctl e1e0e12c8ac587185d69167a0cbb8e57 1529418845
+sym /usr/bin/lspcmcia -> pccardctl 1529418849
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/pcmciautils-018_p8-r1
+obj /usr/share/doc/pcmciautils-018_p8-r1/mini-howto.txt.bz2 2713cb805fcaef22423a3288e89779cb 1529418843
+obj /usr/share/doc/pcmciautils-018_p8-r1/cardmgr-to-pcmciautils.txt.bz2 d73e47a5fd9f4271f9793b62827504d7 1529418843
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/pccardctl.8.bz2 9865bbca232ee284c8f838a15e783349 1529418843
+sym /usr/share/man/man8/lspcmcia.8.bz2 -> pccardctl.8.bz2 1529418849

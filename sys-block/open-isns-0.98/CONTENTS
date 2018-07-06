@@ -1,0 +1,46 @@
+dir /var
+dir /var/lib
+dir /var/lib/isns
+dir /etc
+dir /etc/isns
+obj /etc/isns/isnsd.conf a1d4edbb9a25e10ade05bd945107ce91 1529420795
+obj /etc/isns/isnsadm.conf a4eeec346d5dda19005211deafaa5665 1529420795
+obj /etc/isns/isnsdd.conf cfd03691b07d0cd2529ea767a32b4734 1529420795
+dir /usr
+dir /usr/lib
+dir /usr/lib/systemd
+dir /usr/lib/systemd/system
+obj /usr/lib/systemd/system/isnsd.socket d1ef9c0081e8292b8fcf659d3a2a395d 1529420795
+obj /usr/lib/systemd/system/isnsd.service 2bbcd2972ae47d773ad9ebb49afd1f69 1529420795
+dir /usr/lib64
+sym /usr/lib64/libisns.so -> libisns.so.0 1529420798
+obj /usr/lib64/libisns.so.0 02761108a515522cf6ba7cea6a39d866 1529420796
+obj /usr/lib64/libisns.a 51b3c9a185dd06ec5cc51e63a1ff4852 1529420796
+dir /usr/include
+dir /usr/include/libisns
+obj /usr/include/libisns/types.h f8813ab3dfde62f082fe3d327214887b 1529420795
+obj /usr/include/libisns/util.h 8b684fadbebb2524c9b5c46ff2fa8da0 1529420795
+obj /usr/include/libisns/isns.h 2d89b89eff3d30cb1b93988b69350563 1529420795
+obj /usr/include/libisns/buffer.h 9417b46f33057abb54cdee870cc4c291 1529420795
+obj /usr/include/libisns/attrs.h 1e48d7bb527edc4da589d136bfe98f8e 1529420795
+obj /usr/include/libisns/isns-proto.h c628e74bc69cc30c6b2d33fbd4e25d11 1529420795
+obj /usr/include/libisns/message.h 9ccafce161109cedd231b023562659cb 1529420795
+obj /usr/include/libisns/paths.h e911cbc95cd340ca1f657b61f43c6010 1529420795
+obj /usr/include/libisns/source.h 1e1bc498a2ff99d6534d456af25b1412 1529420795
+dir /usr/sbin
+obj /usr/sbin/isnsd 0876bc7cc28c904a5d6eb47f5039f00b 1529420796
+obj /usr/sbin/isnsdd c40407c2cd8368d9dc78fb33879375d9 1529420796
+obj /usr/sbin/isnsadm 1fcd92e674d01dcbf425de26daacccbc 1529420796
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/open-isns-0.98
+obj /usr/share/doc/open-isns-0.98/README.bz2 98138883d9d34bce225529aaa97dcc1b 1529420795
+obj /usr/share/doc/open-isns-0.98/ChangeLog.bz2 9706b976ff735e4209fc3f3dcfee4961 1529420795
+obj /usr/share/doc/open-isns-0.98/TODO.bz2 a24bc4b93eb2dbf7decf7660b0904a14 1529420795
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/isnsadm.8.bz2 4ebca62536876cb852b0a1c4f3cbd44b 1529420795
+obj /usr/share/man/man8/isnsdd.8.bz2 54cbccf013e3175262e7ed6ffbdb84e6 1529420795
+obj /usr/share/man/man8/isnsd.8.bz2 1a1fdac08d004ede9d056ed9566d2e12 1529420795
+dir /usr/share/man/man5
+obj /usr/share/man/man5/isns_config.5.bz2 739365ecfb3e649d3019481a3c211de2 1529420795
