@@ -1,20 +1,19 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-inherit autotools eutils git-r3 gnome2-utils
+inherit autotools git-r3 gnome2-utils
 
 DESCRIPTION="OpenGL window and compositing manager"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz.git"
 
 LICENSE="GPL-2+ LGPL-2.1 MIT"
 SLOT="0"
-IUSE="+cairo compizconfig dbus fuse gsettings +gtk gtk3 inotify +svg marco mate"
-REQUIRED_USE="compizconfig? ( gtk )
-	gsettings? ( gtk )
-	marco? ( gsettings )" #338071
+IUSE="+cairo dbus fuse gsettings +gtk gtk3 inotify marco mate +svg"
+REQUIRED_USE="marco? ( gsettings )
+	gsettings? ( gtk )"
 
 COMMONDEPEND="
 	>=dev-libs/glib-2
@@ -36,7 +35,6 @@ COMMONDEPEND="
 	virtual/glu
 	x11-libs/pango
 	cairo? ( >=x11-libs/cairo-1.4[X] )
-	compizconfig? (	>=x11-libs/libcompizconfig-${PV} )
 	dbus? (
 		sys-apps/dbus
 		dev-libs/dbus-glib
@@ -62,8 +60,7 @@ COMMONDEPEND="
 
 DEPEND="${COMMONDEPEND}
 	virtual/pkgconfig
-	x11-proto/damageproto
-	x11-proto/xineramaproto
+	x11-base/xorg-proto
 "
 
 RDEPEND="${COMMONDEPEND}"
@@ -74,42 +71,42 @@ src_prepare() {
 }
 
 src_configure() {
-	local myconf=""
-	if use gtk;
-		then myconf=" --with-gtk=$(usex gtk3 3.0 2.0)"
+	local myconf=( )
+	if use gtk; then
+		myconf+=( "--with-gtk=$(usex gtk3 3.0 2.0)" )
 	else
-		myconf=" --disable-gtk"
+		myconf+=( "--disable-gtk" )
 	fi
 
-	econf \
-		--enable-fast-install \
-		--disable-static \
-		$(use_enable cairo annotate) \
-		$(use_enable compizconfig) \
-		$(use_enable dbus) \
-		$(use_enable dbus dbus-glib) \
-		$(use_enable fuse) \
-		$(use_enable gsettings) \
-		$(use_enable inotify) \
-		$(use_enable svg librsvg) \
-		$(use_enable marco) \
-		$(use_enable mate) \
-		${myconf}
+	myconf+=(
+		--enable-fast-install
+		--disable-static
+		$(use_enable cairo annotate)
+		$(use_enable dbus)
+		$(use_enable dbus dbus-glib)
+		$(use_enable fuse)
+		$(use_enable gsettings)
+		$(use_enable inotify)
+		$(use_enable svg librsvg)
+		$(use_enable marco)
+		$(use_enable mate)
+	)
+
+	econf "${myconf[@]}"
 }
 
 src_install() {
 	default
-	prune_libtool_files --all
-}
-
-pkg_preinst() {
-	use gsettings && gnome2_schemas_savelist
+	rm "${D}"/usr/share/compiz/icons/hicolor/icon-theme.cache || die
+	find "${D}" -name '*.la' -delete || die
 }
 
 pkg_postinst() {
+	gnome2_icon_cache_update
 	use gsettings && gnome2_schemas_update
 }
 
 pkg_postrm() {
+	gnome2_icon_cache_update
 	use gsettings && gnome2_schemas_update
 }

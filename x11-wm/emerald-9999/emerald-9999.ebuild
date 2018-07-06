@@ -3,10 +3,10 @@
 
 EAPI=6
 
-inherit autotools git-r3
+inherit autotools gnome2-utils git-r3
 
 DESCRIPTION="Emerald Window Decorator"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/emerald.git"
 
 LICENSE="GPL-2+"
@@ -34,9 +34,6 @@ DEPEND="${RDEPEND}
 "
 
 src_prepare() {
-	# fix build with gtk+-2.22 - bug 341143
-	sed -i -e '/#define G[DT]K_DISABLE_DEPRECATED/s:^://:' \
-		include/emerald.h || die
 	default
 	eautoreconf
 }

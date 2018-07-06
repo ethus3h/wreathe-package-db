@@ -1,151 +1,122 @@
 dir /etc
 dir /etc/speech-dispatcher
 dir /etc/speech-dispatcher/clients
-obj /etc/speech-dispatcher/clients/emacs.conf 1e4a735e3fe42e5f24703200e77c8ce0 1528675469
-obj /etc/speech-dispatcher/speechd.conf 90ab0821b7ec75ef3499a45f4408656d 1528675469
+obj /etc/speech-dispatcher/clients/emacs.conf 1e4a735e3fe42e5f24703200e77c8ce0 1530504184
+obj /etc/speech-dispatcher/speechd.conf 90ab0821b7ec75ef3499a45f4408656d 1530504184
 dir /etc/speech-dispatcher/modules
-obj /etc/speech-dispatcher/modules/llia_phon-generic.conf 03017ee31d9b483a63508792b0ecd342 1528675469
-obj /etc/speech-dispatcher/modules/espeak-mbrola-generic.conf 81847cfc6ec251b6119bec467999be46 1528675469
-obj /etc/speech-dispatcher/modules/ibmtts.conf 6d3215ed4ba1eeeac28828aa315ca07b 1528675469
-obj /etc/speech-dispatcher/modules/espeak-ng.conf 287a668b09722b32e01c8e8f3bbb0dbf 1528675469
-obj /etc/speech-dispatcher/modules/dtk-generic.conf 5e3c1164de36daa0aa1a48209402c4f6 1528675469
-obj /etc/speech-dispatcher/modules/cicero.conf b023c096829fc6f65727e261fbd4627d 1528675469
-obj /etc/speech-dispatcher/modules/espeak-generic.conf 0bf1cf3780c3df8e3304203933712f22 1528675469
-obj /etc/speech-dispatcher/modules/epos-generic.conf 10e1c73204d433165464223aca882181 1528675469
-obj /etc/speech-dispatcher/modules/pico-generic.conf ad4904e73d32e7c8cb647a829bd359ca 1528675469
-obj /etc/speech-dispatcher/modules/flite.conf efe8cb1e0584b68f6ca36a039c206f16 1528675469
-obj /etc/speech-dispatcher/modules/espeak.conf 287a668b09722b32e01c8e8f3bbb0dbf 1528675469
-obj /etc/speech-dispatcher/modules/swift-generic.conf d994780bb35f2e58f68bb5306adbe032 1528675469
-obj /etc/speech-dispatcher/modules/festival.conf cfd2100f11ec05ee88bf32dd633e4452 1528675469
-obj /etc/speech-dispatcher/modules/ivona.conf 9e5b8c645badedaa921e7c2a8494c4ac 1528675469
+obj /etc/speech-dispatcher/modules/llia_phon-generic.conf 03017ee31d9b483a63508792b0ecd342 1530504184
+obj /etc/speech-dispatcher/modules/espeak-mbrola-generic.conf 81847cfc6ec251b6119bec467999be46 1530504184
+obj /etc/speech-dispatcher/modules/ibmtts.conf 6d3215ed4ba1eeeac28828aa315ca07b 1530504184
+obj /etc/speech-dispatcher/modules/espeak-ng.conf 287a668b09722b32e01c8e8f3bbb0dbf 1530504184
+obj /etc/speech-dispatcher/modules/dtk-generic.conf 5e3c1164de36daa0aa1a48209402c4f6 1530504184
+obj /etc/speech-dispatcher/modules/cicero.conf b023c096829fc6f65727e261fbd4627d 1530504184
+obj /etc/speech-dispatcher/modules/espeak-generic.conf 0bf1cf3780c3df8e3304203933712f22 1530504184
+obj /etc/speech-dispatcher/modules/epos-generic.conf 10e1c73204d433165464223aca882181 1530504184
+obj /etc/speech-dispatcher/modules/pico-generic.conf ad4904e73d32e7c8cb647a829bd359ca 1530504184
+obj /etc/speech-dispatcher/modules/flite.conf efe8cb1e0584b68f6ca36a039c206f16 1530504184
+obj /etc/speech-dispatcher/modules/espeak.conf 287a668b09722b32e01c8e8f3bbb0dbf 1530504184
+obj /etc/speech-dispatcher/modules/swift-generic.conf d994780bb35f2e58f68bb5306adbe032 1530504184
+obj /etc/speech-dispatcher/modules/festival.conf cfd2100f11ec05ee88bf32dd633e4452 1530504184
+obj /etc/speech-dispatcher/modules/ivona.conf 9e5b8c645badedaa921e7c2a8494c4ac 1530504184
 dir /usr
 dir /usr/lib
 dir /usr/lib/python-exec
-dir /usr/lib/python-exec/python3.6
-obj /usr/lib/python-exec/python3.6/spd-conf 8e4cf2fcb3367265f94c5c8da917f01d 1528675475
 dir /usr/lib/python-exec/python3.5
-obj /usr/lib/python-exec/python3.5/spd-conf 5d29301a0a3a0e0b49e9ce4464c3fe0b 1528675475
+obj /usr/lib/python-exec/python3.5/spd-conf 5d29301a0a3a0e0b49e9ce4464c3fe0b 1530504192
 dir /usr/lib64
-sym /usr/lib64/libspeechd.so -> libspeechd.so.2.6.0 1528675478
+sym /usr/lib64/libspeechd.so -> libspeechd.so.2.6.0 1530504198
 dir /usr/lib64/speech-dispatcher-modules
-obj /usr/lib64/speech-dispatcher-modules/sd_espeak 43e377de09c1f6cd604567b8f3bbc8c0 1528675476
-obj /usr/lib64/speech-dispatcher-modules/sd_flite 8c2ac99af139a957e871466adc582d0a 1528675476
-obj /usr/lib64/speech-dispatcher-modules/sd_festival ea62ef3f53caa1307e1ef4eedc75d86b 1528675476
-obj /usr/lib64/speech-dispatcher-modules/sd_dummy a397cfa78abfcbed25fa1adc3474d6d5 1528675476
-obj /usr/lib64/speech-dispatcher-modules/sd_cicero 9989023decfca62d06dbed8baf84826f 1528675476
-obj /usr/lib64/speech-dispatcher-modules/sd_generic bb61de152b4dd2245f249d324a982945 1528675476
+obj /usr/lib64/speech-dispatcher-modules/sd_espeak 6457b65059b06ee424982ad1b5b83e19 1530504193
+obj /usr/lib64/speech-dispatcher-modules/sd_flite aa3c8cee94dd35cbea50c9d8382f5472 1530504193
+obj /usr/lib64/speech-dispatcher-modules/sd_festival b22d1d7230d3d58a62dc0159f10e0497 1530504193
+obj /usr/lib64/speech-dispatcher-modules/sd_dummy 0a39a94f4dd929b6cb629682d0901782 1530504193
+obj /usr/lib64/speech-dispatcher-modules/sd_cicero 97a5aed82d11493b77e1a5d1d2e78e2c 1530504193
+obj /usr/lib64/speech-dispatcher-modules/sd_generic 98a987fd886c13a9d6ca087337de60e7 1530504193
 dir /usr/lib64/speech-dispatcher
-obj /usr/lib64/speech-dispatcher/spd_alsa.so 77045adf1d35674ac29f03d8130a0936 1528675476
-obj /usr/lib64/speech-dispatcher/spd_pulse.so 85bce9e268e0b749344dcf11f591e7ee 1528675476
-obj /usr/lib64/speech-dispatcher/spd_nas.so a46ec43af9bd7c69c2cfda6b93ea628b 1528675476
-obj /usr/lib64/speech-dispatcher/spd_oss.so 0100f606212ebc367c6ae0906441ce72 1528675476
+obj /usr/lib64/speech-dispatcher/spd_alsa.so 5406f01eb0a80a5a2322435da8f77256 1530504193
+obj /usr/lib64/speech-dispatcher/spd_pulse.so a8885c8c74f956e1658a4ea657ce5481 1530504193
+obj /usr/lib64/speech-dispatcher/spd_nas.so dd9b7dd09a5c6c5bddcb32b4688978ed 1530504193
+obj /usr/lib64/speech-dispatcher/spd_oss.so 2cdddceec4864ba73aa78b08023414d1 1530504193
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/speech-dispatcher.pc 2a2c5181f2aba19f18f9cd98bab77b0c 1528675474
-sym /usr/lib64/libspeechd.so.2 -> libspeechd.so.2.6.0 1528675478
-dir /usr/lib64/python3.6
-dir /usr/lib64/python3.6/site-packages
-dir /usr/lib64/python3.6/site-packages/speechd
-dir /usr/lib64/python3.6/site-packages/speechd/__pycache__
-obj /usr/lib64/python3.6/site-packages/speechd/__pycache__/__init__.cpython-36.pyc 40ff31fe87230124218f8691de3e80fd 1528675474
-obj /usr/lib64/python3.6/site-packages/speechd/__pycache__/client.cpython-36.pyc 27fac932e61c2129a6e61fb0d3c2a4e0 1528675474
-obj /usr/lib64/python3.6/site-packages/speechd/__pycache__/_test.cpython-36.pyc f1ddaaab7cda8548692729b18577be82 1528675474
-obj /usr/lib64/python3.6/site-packages/speechd/__pycache__/paths.cpython-36.opt-1.pyc db8a62bcf05e2f7810c2fddf43634e42 1528675474
-obj /usr/lib64/python3.6/site-packages/speechd/__pycache__/__init__.cpython-36.opt-1.pyc 40ff31fe87230124218f8691de3e80fd 1528675474
-obj /usr/lib64/python3.6/site-packages/speechd/__pycache__/paths.cpython-36.pyc db8a62bcf05e2f7810c2fddf43634e42 1528675474
-obj /usr/lib64/python3.6/site-packages/speechd/__pycache__/client.cpython-36.opt-1.pyc ecad99c40b73d90e0e9349df6d550523 1528675474
-obj /usr/lib64/python3.6/site-packages/speechd/__pycache__/_test.cpython-36.opt-1.pyc 8e747f0410f37bb95ba9cc0f119623b0 1528675474
-obj /usr/lib64/python3.6/site-packages/speechd/_test.py 738d0f74193824a134c8acac6ed22395 1528675474
-obj /usr/lib64/python3.6/site-packages/speechd/__init__.py 9a5c0f9cc0bd5d5bc39300d20737acd1 1528675474
-obj /usr/lib64/python3.6/site-packages/speechd/paths.py e3d95991485a44576f665de33872ee36 1528675474
-obj /usr/lib64/python3.6/site-packages/speechd/client.py 0caf9016283ed94343aea474fdccb2b0 1528675474
-dir /usr/lib64/python3.6/site-packages/speechd_config
-dir /usr/lib64/python3.6/site-packages/speechd_config/__pycache__
-obj /usr/lib64/python3.6/site-packages/speechd_config/__pycache__/__init__.cpython-36.pyc 8c80e33922768b2402f18080d909de2b 1528675475
-obj /usr/lib64/python3.6/site-packages/speechd_config/__pycache__/config.cpython-36.opt-1.pyc 3d9128a01078b41c19e27136dea5e663 1528675475
-obj /usr/lib64/python3.6/site-packages/speechd_config/__pycache__/paths.cpython-36.opt-1.pyc aa461c6e1acade3cec7598e6a41b41ea 1528675475
-obj /usr/lib64/python3.6/site-packages/speechd_config/__pycache__/__init__.cpython-36.opt-1.pyc 8c80e33922768b2402f18080d909de2b 1528675475
-obj /usr/lib64/python3.6/site-packages/speechd_config/__pycache__/paths.cpython-36.pyc aa461c6e1acade3cec7598e6a41b41ea 1528675475
-obj /usr/lib64/python3.6/site-packages/speechd_config/__pycache__/config.cpython-36.pyc 3d9128a01078b41c19e27136dea5e663 1528675475
-obj /usr/lib64/python3.6/site-packages/speechd_config/__init__.py 9f2346de12d579b004fbf2f982ca2359 1528675474
-obj /usr/lib64/python3.6/site-packages/speechd_config/paths.py 73e72d4db1b5f276f4c1daa480c71f7c 1528675474
-obj /usr/lib64/python3.6/site-packages/speechd_config/config.py 5f5f27ecda6a8b7e4a356cf5f5c47996 1528675474
+obj /usr/lib64/pkgconfig/speech-dispatcher.pc 2a2c5181f2aba19f18f9cd98bab77b0c 1530504192
+sym /usr/lib64/libspeechd.so.2 -> libspeechd.so.2.6.0 1530504198
 dir /usr/lib64/python3.5
 dir /usr/lib64/python3.5/site-packages
 dir /usr/lib64/python3.5/site-packages/speechd
 dir /usr/lib64/python3.5/site-packages/speechd/__pycache__
-obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/_test.cpython-35.opt-1.pyc b2692a1d85e7e4ebfce95e76889d2e9f 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/__init__.cpython-35.opt-1.pyc b8e36a9d631a95970bb3c4de3d06382e 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/__init__.cpython-35.pyc b8e36a9d631a95970bb3c4de3d06382e 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/paths.cpython-35.opt-1.pyc a80c94cb4b8a2f37ff0df4985e3d0115 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/client.cpython-35.pyc 0f1136e04116980c68fe8178de90c5dc 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/client.cpython-35.opt-1.pyc 67744e008e62f2cff6a7c5fafdfa38c6 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/paths.cpython-35.pyc a80c94cb4b8a2f37ff0df4985e3d0115 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/_test.cpython-35.pyc 4a8c805238ccb051bef90ba0d4880f7d 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd/_test.py 738d0f74193824a134c8acac6ed22395 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd/__init__.py 9a5c0f9cc0bd5d5bc39300d20737acd1 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd/paths.py e3d95991485a44576f665de33872ee36 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd/client.py 0caf9016283ed94343aea474fdccb2b0 1528675474
+obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/_test.cpython-35.opt-1.pyc 42e16d43400e16190f1d51a6f31f48ee 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/__init__.cpython-35.opt-1.pyc b6d03ab103b18eff75e8ae944e57e70c 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/__init__.cpython-35.pyc b6d03ab103b18eff75e8ae944e57e70c 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/paths.cpython-35.opt-1.pyc 76ff3e2c78348df16bded92fa1f250ac 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/client.cpython-35.pyc 149154d542701443ad6877a5aa0c85e2 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/client.cpython-35.opt-1.pyc 187280d217ca9f8f84b068d8ffe05a4b 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/paths.cpython-35.pyc 76ff3e2c78348df16bded92fa1f250ac 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd/__pycache__/_test.cpython-35.pyc c72a54822376eb1df130213874bce8cb 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd/_test.py 738d0f74193824a134c8acac6ed22395 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd/__init__.py 9a5c0f9cc0bd5d5bc39300d20737acd1 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd/paths.py e3d95991485a44576f665de33872ee36 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd/client.py 0caf9016283ed94343aea474fdccb2b0 1530504192
 dir /usr/lib64/python3.5/site-packages/speechd_config
 dir /usr/lib64/python3.5/site-packages/speechd_config/__pycache__
-obj /usr/lib64/python3.5/site-packages/speechd_config/__pycache__/config.cpython-35.pyc 7b28b87804d698f46846e58f338fa8a5 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd_config/__pycache__/__init__.cpython-35.opt-1.pyc 9d33bf64b4af8f65d6b13b8ec44c3ba2 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd_config/__pycache__/__init__.cpython-35.pyc 9d33bf64b4af8f65d6b13b8ec44c3ba2 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd_config/__pycache__/paths.cpython-35.opt-1.pyc 4c77c4498a23d5467ecccdb96ef4d4df 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd_config/__pycache__/paths.cpython-35.pyc 4c77c4498a23d5467ecccdb96ef4d4df 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd_config/__pycache__/config.cpython-35.opt-1.pyc 7b28b87804d698f46846e58f338fa8a5 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd_config/__init__.py 9f2346de12d579b004fbf2f982ca2359 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd_config/paths.py 73e72d4db1b5f276f4c1daa480c71f7c 1528675474
-obj /usr/lib64/python3.5/site-packages/speechd_config/config.py 5f5f27ecda6a8b7e4a356cf5f5c47996 1528675474
-obj /usr/lib64/libspeechd.so.2.6.0 f9eff6ba33d822785fc226aea857132d 1528675476
+obj /usr/lib64/python3.5/site-packages/speechd_config/__pycache__/config.cpython-35.pyc 397db13ba5702e4423c578c542c0bc5f 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd_config/__pycache__/__init__.cpython-35.opt-1.pyc c6aca955fca83830747bf04065fad9c7 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd_config/__pycache__/__init__.cpython-35.pyc c6aca955fca83830747bf04065fad9c7 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd_config/__pycache__/paths.cpython-35.opt-1.pyc 4f544757dc7af7a4ebe4bfaf80776b80 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd_config/__pycache__/paths.cpython-35.pyc 4f544757dc7af7a4ebe4bfaf80776b80 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd_config/__pycache__/config.cpython-35.opt-1.pyc 397db13ba5702e4423c578c542c0bc5f 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd_config/__init__.py 9f2346de12d579b004fbf2f982ca2359 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd_config/paths.py 73e72d4db1b5f276f4c1daa480c71f7c 1530504192
+obj /usr/lib64/python3.5/site-packages/speechd_config/config.py 5f5f27ecda6a8b7e4a356cf5f5c47996 1530504192
+obj /usr/lib64/libspeechd.so.2.6.0 f892ba5ea1cd1660796e08659857d936 1530504193
 dir /usr/include
 dir /usr/include/speech-dispatcher
-obj /usr/include/speech-dispatcher/libspeechd_version.h 94c04d8284feacccd31bea34a4e977ff 1528675468
-obj /usr/include/speech-dispatcher/speechd_types.h 193511ce2e5e025bd800b023906e3c25 1528675468
-obj /usr/include/speech-dispatcher/libspeechd.h 38d65edb8f49022831ad6d9925ed7afd 1528675468
-obj /usr/include/speech-dispatcher/speechd_defines.h a3fc67b2498ad4a4f612e62718f3d525 1528675468
-obj /usr/include/speech-dispatcher/spd_audio_plugin.h ed9f551e99dde1714fb3410c61c50609 1528675468
+obj /usr/include/speech-dispatcher/libspeechd_version.h 94c04d8284feacccd31bea34a4e977ff 1530504184
+obj /usr/include/speech-dispatcher/speechd_types.h 193511ce2e5e025bd800b023906e3c25 1530504184
+obj /usr/include/speech-dispatcher/libspeechd.h 38d65edb8f49022831ad6d9925ed7afd 1530504184
+obj /usr/include/speech-dispatcher/speechd_defines.h a3fc67b2498ad4a4f612e62718f3d525 1530504184
+obj /usr/include/speech-dispatcher/spd_audio_plugin.h ed9f551e99dde1714fb3410c61c50609 1530504184
 dir /usr/bin
-obj /usr/bin/spd-say 34dd25a4e166ff75c3de474a00d67599 1528675476
-obj /usr/bin/speech-dispatcher e0f82cdc91508fef0a30ea516581570d 1528675476
-obj /usr/bin/spdsend f1b8f3c2f65bd3de4b1ccb8bbe55383e 1528675476
-sym /usr/bin/spd-conf -> ../lib/python-exec/python-exec2 1528675478
+obj /usr/bin/spd-say 4a0d82b412ad3d26d09dcaf6ec1ba7a6 1530504193
+obj /usr/bin/speech-dispatcher c1d6f62036c16da48672d81f84c6374d 1530504193
+obj /usr/bin/spdsend 8451c0d8841e504cf865944cdf8899e7 1530504193
+sym /usr/bin/spd-conf -> ../lib/python-exec/python-exec2 1530504198
 dir /usr/share
 dir /usr/share/speech-dispatcher
 dir /usr/share/speech-dispatcher/conf
 dir /usr/share/speech-dispatcher/conf/clients
-obj /usr/share/speech-dispatcher/conf/clients/emacs.conf 1e4a735e3fe42e5f24703200e77c8ce0 1528675469
-obj /usr/share/speech-dispatcher/conf/speechd.conf 90ab0821b7ec75ef3499a45f4408656d 1528675469
+obj /usr/share/speech-dispatcher/conf/clients/emacs.conf 1e4a735e3fe42e5f24703200e77c8ce0 1530504184
+obj /usr/share/speech-dispatcher/conf/speechd.conf 90ab0821b7ec75ef3499a45f4408656d 1530504184
 dir /usr/share/speech-dispatcher/conf/modules
-obj /usr/share/speech-dispatcher/conf/modules/espeak-ng.conf 287a668b09722b32e01c8e8f3bbb0dbf 1528675469
-obj /usr/share/speech-dispatcher/conf/modules/cicero.conf b023c096829fc6f65727e261fbd4627d 1528675469
-obj /usr/share/speech-dispatcher/conf/modules/espeak.conf 287a668b09722b32e01c8e8f3bbb0dbf 1528675469
-obj /usr/share/speech-dispatcher/conf/modules/festival.conf cfd2100f11ec05ee88bf32dd633e4452 1528675469
+obj /usr/share/speech-dispatcher/conf/modules/espeak-ng.conf 287a668b09722b32e01c8e8f3bbb0dbf 1530504184
+obj /usr/share/speech-dispatcher/conf/modules/cicero.conf b023c096829fc6f65727e261fbd4627d 1530504184
+obj /usr/share/speech-dispatcher/conf/modules/espeak.conf 287a668b09722b32e01c8e8f3bbb0dbf 1530504184
+obj /usr/share/speech-dispatcher/conf/modules/festival.conf cfd2100f11ec05ee88bf32dd633e4452 1530504184
 dir /usr/share/speech-dispatcher/conf/desktop
-obj /usr/share/speech-dispatcher/conf/desktop/speechd.desktop 034b812d90fae713e454bae043379b38 1528675474
+obj /usr/share/speech-dispatcher/conf/desktop/speechd.desktop 034b812d90fae713e454bae043379b38 1530504192
 dir /usr/share/doc
 dir /usr/share/doc/speech-dispatcher-0.8.7
-obj /usr/share/doc/speech-dispatcher-0.8.7/README.style.bz2 f6c7dc76f599d69c332acdcb3a96ae87 1528675474
-obj /usr/share/doc/speech-dispatcher-0.8.7/ANNOUNCE.bz2 b4120bc0830fd986dd951a14b57bdb85 1528675474
-obj /usr/share/doc/speech-dispatcher-0.8.7/README.packagers.bz2 d40c03309b3de985b671190486b80905 1528675474
-obj /usr/share/doc/speech-dispatcher-0.8.7/NEWS.bz2 0c2fa197341415d716ab50c14e8c3d6b 1528675474
-obj /usr/share/doc/speech-dispatcher-0.8.7/README.bz2 32be38934fa8ab086ecc5e71c7cff52c 1528675474
-obj /usr/share/doc/speech-dispatcher-0.8.7/AUTHORS.bz2 9095fc7e46db11295997d0551fc006c6 1528675474
-obj /usr/share/doc/speech-dispatcher-0.8.7/FAQ.bz2 0e8daa8e29e10b8f58ab59ad8ef4bc6c 1528675474
-obj /usr/share/doc/speech-dispatcher-0.8.7/README.translators.bz2 91eed5652c4bb1a0ecff3a4b2c648742 1528675474
-obj /usr/share/doc/speech-dispatcher-0.8.7/BUGS.bz2 59757ef8f00d227a1808aabe2626aaf4 1528675474
+obj /usr/share/doc/speech-dispatcher-0.8.7/README.style.bz2 f6c7dc76f599d69c332acdcb3a96ae87 1530504192
+obj /usr/share/doc/speech-dispatcher-0.8.7/ANNOUNCE.bz2 b4120bc0830fd986dd951a14b57bdb85 1530504192
+obj /usr/share/doc/speech-dispatcher-0.8.7/README.packagers.bz2 d40c03309b3de985b671190486b80905 1530504192
+obj /usr/share/doc/speech-dispatcher-0.8.7/NEWS.bz2 0c2fa197341415d716ab50c14e8c3d6b 1530504192
+obj /usr/share/doc/speech-dispatcher-0.8.7/README.bz2 32be38934fa8ab086ecc5e71c7cff52c 1530504192
+obj /usr/share/doc/speech-dispatcher-0.8.7/AUTHORS.bz2 9095fc7e46db11295997d0551fc006c6 1530504192
+obj /usr/share/doc/speech-dispatcher-0.8.7/FAQ.bz2 0e8daa8e29e10b8f58ab59ad8ef4bc6c 1530504192
+obj /usr/share/doc/speech-dispatcher-0.8.7/README.translators.bz2 91eed5652c4bb1a0ecff3a4b2c648742 1530504192
+obj /usr/share/doc/speech-dispatcher-0.8.7/BUGS.bz2 59757ef8f00d227a1808aabe2626aaf4 1530504192
 dir /usr/share/sounds
 dir /usr/share/sounds/speech-dispatcher
-obj /usr/share/sounds/speech-dispatcher/test.wav aba42fc88716b34e1b3303b201521c64 1528675474
-obj /usr/share/sounds/speech-dispatcher/dummy-message.wav 3b09574d875be05450657d15b50f9862 1528675468
+obj /usr/share/sounds/speech-dispatcher/test.wav aba42fc88716b34e1b3303b201521c64 1530504192
+obj /usr/share/sounds/speech-dispatcher/dummy-message.wav 3b09574d875be05450657d15b50f9862 1530504184
 dir /usr/share/locale
 dir /usr/share/locale/hu
 dir /usr/share/locale/hu/LC_MESSAGES
-obj /usr/share/locale/hu/LC_MESSAGES/speech-dispatcher.mo 40edce8dbf4fbeb7f7539f15b6bbcf82 1528675473
+obj /usr/share/locale/hu/LC_MESSAGES/speech-dispatcher.mo 40edce8dbf4fbeb7f7539f15b6bbcf82 1530504192
 dir /usr/share/locale/cs
 dir /usr/share/locale/cs/LC_MESSAGES
-obj /usr/share/locale/cs/LC_MESSAGES/speech-dispatcher.mo 7b2e5461f365957ad3c9affa837612f9 1528675473
+obj /usr/share/locale/cs/LC_MESSAGES/speech-dispatcher.mo 7b2e5461f365957ad3c9affa837612f9 1530504192
 dir /usr/share/info
-obj /usr/share/info/speech-dispatcher.info.bz2 d2b095a4cc842216ac01ca52fe4a697b 1528675469
-obj /usr/share/info/speech-dispatcher-cs.info.bz2 7e1a75dff7fd20adeb06da5a40fca683 1528675469
-obj /usr/share/info/spd-say.info.bz2 9859502bd72d274a683179b79d57535f 1528675469
-obj /usr/share/info/ssip.info.bz2 f983bda52df30939462af166d3f6cf19 1528675469
+obj /usr/share/info/speech-dispatcher.info.bz2 d2b095a4cc842216ac01ca52fe4a697b 1530504184
+obj /usr/share/info/speech-dispatcher-cs.info.bz2 7e1a75dff7fd20adeb06da5a40fca683 1530504184
+obj /usr/share/info/spd-say.info.bz2 9859502bd72d274a683179b79d57535f 1530504184
+obj /usr/share/info/ssip.info.bz2 f983bda52df30939462af166d3f6cf19 1530504184

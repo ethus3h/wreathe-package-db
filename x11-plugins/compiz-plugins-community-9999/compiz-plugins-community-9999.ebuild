@@ -3,10 +3,10 @@
 
 EAPI=6
 
-inherit autotools eutils git-r3
+inherit autotools eutils git-r3 gnome2-utils
 
 DESCRIPTION="Compiz Window Manager: Community Plugins"
-HOMEPAGE="http://futuramerlin.com/"
+HOMEPAGE="https://wiki.gentoo.org/wiki/No_homepage"
 EGIT_REPO_URI="https://github.com/ethus3h/${PN}.git"
 
 LICENSE="GPL-2+ BSD"
@@ -19,13 +19,13 @@ RDEPEND="
 	>=x11-libs/compiz-bcop-${PV}
 	>=x11-plugins/compiz-plugins-experimental-${PV}
 	>=x11-wm/compiz-${PV}
+	x11-libs/cairo
 "
 
 DEPEND="${RDEPEND}
 	>=dev-util/intltool-0.35
 	>=sys-devel/gettext-0.15
 	virtual/pkgconfig
-	x11-libs/cairo
 "
 
 src_prepare(){
@@ -35,7 +35,12 @@ src_prepare(){
 	enotify "The wiimote and wiitrack plugins are not built."
 	sed -i '/wiimote/d' {src,icons}/Makefile.am || die
 	sed -i '/wiitrack/d' {src,icons}/Makefile.am || die
-	sed -i '$ s/ \\//g' {src,icons}/Makefile.am || die
+	tac src/Makefile.am | sed '0,/\(\w\)[ \t]*\\/s//\1/' > src/Makefile.am.tmp || die
+	tac src/Makefile.am.tmp > src/Makefile.am || die
+	rm src/Makefile.am.tmp || die
+	tac icons/Makefile.am | sed '0,/\.svg[ \t]*\\/s//.svg/' > icons/Makefile.am.tmp || die
+	tac icons/Makefile.am.tmp > icons/Makefile.am || die
+	rm icons/Makefile.am.tmp || die
 
 	default
 	eautoreconf
@@ -50,4 +55,12 @@ src_configure() {
 src_install() {
 	default
 	find "${D}" -name '*.la' -delete || die
+}
+
+pkg_postinst() {
+	gnome2_icon_cache_update
+}
+
+pkg_postrm() {
+	gnome2_icon_cache_update
 }

@@ -5,10 +5,11 @@ EAPI=6
 
 PYTHON_COMPAT=( python2_7  python3_{4,5,6} )
 DISTUTILS_IN_SOURCE_BUILD=1
+DISTUTILS_SINGLE_IMPL=1
 inherit distutils-r1 git-r3 gnome2-utils
 
 DESCRIPTION="A graphical manager for CompizConfig Plugin (libcompizconfig)"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/ccsm.git"
 
 LICENSE="GPL-2+"
@@ -23,9 +24,6 @@ RDEPEND="
 "
 
 python_prepare_all() {
-	# return error if wrong arguments passed to setup.py
-	sed -i -e 's/raise SystemExit/\0(1)/' setup.py || die 'sed on setup.py failed'
-
 	# correct gettext behavior
 	if [[ -n "${LINGUAS+x}" ]] ; then
 		for i in $(cd po ; echo *po | sed 's/\.po//g') ; do

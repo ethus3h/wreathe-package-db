@@ -3,10 +3,10 @@
 
 EAPI=6
 
-inherit autotools eutils git-r3
+inherit autotools eutils git-r3 gnome2-utils
 
 DESCRIPTION="Compiz Window Manager: Plugins"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz-plugins-main.git"
 
 LICENSE="GPL-2+"
@@ -18,7 +18,7 @@ RDEPEND="
 	virtual/glu
 	>=x11-libs/compiz-bcop-${PV}
 	>=x11-wm/compiz-${PV}
-	x11-libs/cairo
+	x11-libs/cairo[X]
 "
 
 DEPEND="${RDEPEND}
@@ -40,5 +40,14 @@ src_configure() {
 
 src_install() {
 	default
+	rm "${D}"/usr/share/compiz/icons/hicolor/icon-theme.cache || die
 	find "${D}" -name '*.la' -delete || die
+}
+
+pkg_postinst() {
+	gnome2_icon_cache_update
+}
+
+pkg_postrm() {
+	gnome2_icon_cache_update
 }

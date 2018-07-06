@@ -1,12 +1,11 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
-EAPI=3
+EAPI=6
 
-inherit games confutils
+inherit eutils xdg
 
-DESCRIPTION="A programming environment for creating and sharing interactive stories, animations, games, music, and art."
+DESCRIPTION="Programming environment for creative/artistic work"
 HOMEPAGE="http://scratch.mit.edu/"
 SRC_URI="http://download.scratch.mit.edu/${P}.src.tar.gz"
 
@@ -14,6 +13,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="alsa oss pulseaudio v4l"
+REQUIRED_USE="?? ( alsa oss pulseaudio )"
 
 DEPEND="
 	>=x11-libs/cairo-1.8.6
@@ -26,13 +26,6 @@ RDEPEND="${DEPEND}"
 S="${WORKDIR}/${P}.src"
 ABI="x86"
 
-pkg_setup() {
-	# Is the a convenience function for "zero or one"?
-	confutils_require_one alsa oss pulseaudio
-
-	games_pkg_setup
-}
-
 src_prepare() {
 	if ! use v4l; then
 		sed -i '/\/camera/d' "${S}/Makefile"
@@ -40,15 +33,41 @@ src_prepare() {
 	use alsa       || rm -f Plugins/vm-sound-ALSA
 	use oss        || rm -f Plugins/vm-sound-OSS
 	use pulseaudio || rm -f Plugins/vm-sound-pulse
+	default
+}
+
+datadir="/usr/share/${PN}"
+libdir="${datadir}/lib"
+
+install_runner() {
+	if   use alsa;       then squeak_sound_plugin="ALSA"
+	elif use oss;        then squeak_sound_plugin="OSS"
+	elif use pulseaudio; then squeak_sound_plugin="pulse"
+	else                      squeak_sound_plugin="null"
+	fi
+
+	local tmpexe=$(emktemp)
+	cat << EOF > "${tmpexe}"
+#!/bin/sh
+cd
+exec \
+	"${libdir}/scratch_squeak_vm"	 \\
+	-plugins "${libdir}/Plugins" \\
+	-vm-sound-${squeak_sound_plugin}				  \\
+	"${libdir}/Scratch.image"	\\
+	"${@}"
+EOF
+	chmod go+rx "${tmpexe}"
+	newbin "${tmpexe}" "${PN}" || die
 }
 
 src_install() {
-	local libdir="$(games_get_libdir)/${PN}"
-	local datadir="/usr/share/${PN}"
-	local icondir="/usr/share/icons/hicolor"
-	dodir "${libdir}" "${datadir}"
-	cp -r Scratch.* Plugins "${D}${libdir}"
-	cp -r Help locale Media Projects "${D}${datadir}"
+	icondir="/usr/share/icons/hicolor"
+	insinto "${libdir}"
+	doins -r Scratch.* Plugins
+	insinto "${datadir}"
+	doins -r Help locale Media Projects
+	gunzip src/man/*.gz
 	doman src/man/*
 	dodoc ACKNOWLEDGEMENTS KNOWN-BUGS README
 	exeinto /usr/bin
@@ -68,26 +87,4 @@ src_install() {
 	)
 	install_runner
 	make_desktop_entry scratch Scratch scratch "Education;Development" "MimeType=application/x-scratch-project"
-}
-
-install_runner() {
-	if   use alsa;       then squeak_sound_plugin="ALSA"
-	elif use oss;        then squeak_sound_plugin="OSS"
-	elif use pulseaudio; then squeak_sound_plugin="pulse"
-	else                      squeak_sound_plugin="null"
-	fi
-
-	local tmpexe=$(emktemp)
-	cat << EOF > "${tmpexe}"
-#!/bin/sh
-cd
-exec \
-	"$(games_get_libdir)/${PN}/scratch_squeak_vm"     \\
-    -plugins "$(games_get_libdir)/${PN}/Plugins" \\
-    -vm-sound-${squeak_sound_plugin}                  \\
-	"$(games_get_libdir)/${PN}/Scratch.image"    \\
-    "${@}"
-EOF
-	chmod go+rx "${tmpexe}"
-	newbin "${tmpexe}" "${PN}" || die
 }

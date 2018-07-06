@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{4,5,6} )
 inherit git-r3 python-single-r1
 
 DESCRIPTION="Helper utilities for debugging Compiz"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz-debug-utils.git"
 
 LICENSE="GPL-2+"
@@ -18,8 +18,7 @@ IUSE="test"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="${PYTHON_DEPS}
-		>=dev-lang/python-3:*
-		=x11-wm/compiz-${PV}[dbus]
+		>=x11-wm/compiz-${PV}[dbus]
 "
 DEPEND="${RDEPEND}"
 

@@ -1,6 +1,5 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI="5"
 
@@ -17,7 +16,7 @@ RDEPEND="x11-libs/libX11
 	guile? ( >=dev-scheme/guile-1.8.4[deprecated] )
 	tk? ( dev-lang/tk )"
 DEPEND="${RDEPEND}
-	x11-proto/xproto"
+	x11-base/xorg-proto"
 
 src_configure() {
 	econf \

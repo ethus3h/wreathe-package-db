@@ -23,6 +23,8 @@ DEPEND="kde-frameworks/kdelibs:4
 	semantic-desktop? ( kde-frameworks/nepomuk )
 	thumbnail? ( || ( kde-apps/thumbnailers:4 ) || ( kde-apps/ffmpegthumbs:4 kde-apps/mplayerthumbs:4 ) )
 	kde-apps/kfind
+	kde-frameworks/kio
+	kde-apps/kio-extras
 	media-gfx/icoutils
 	app-misc/strigi
 	app-misc/wreathe-base"
@@ -39,4 +41,9 @@ src_unpack() {
 	default_src_unpack
 	rm -rv "${WORKDIR}/kde-baseapps-${baseappsVersion}/${PN}"
 	rsync -av --checksum --progress "${WORKDIR}/wreathe-file-manager-${PV}/" "${WORKDIR}/kde-baseapps-${baseappsVersion}/${PN}"
+}
+
+src_install() {
+	kde4-meta_src_install
+	dosym /usr/kde4/bin/dolphin /usr/bin/dolphin4
 }

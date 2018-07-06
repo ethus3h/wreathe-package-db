@@ -1,44 +1,49 @@
 dir /usr
 dir /usr/lib64
-obj /usr/lib64/libreiserfs-0.3.so.0.0.1 273dd7b0acf10c45461bc9aaae31ea89 1474249596
-sym /usr/lib64/libreiserfs-0.3.so.0 -> libreiserfs-0.3.so.0.0.1 1474249600
-sym /usr/lib64/libreiserfs.so -> libreiserfs-0.3.so.0.0.1 1474249600
-obj /usr/lib64/libdal-0.3.so.0.0.1 f9409944f490a434b0f9b9749abe4014 1474249596
+obj /usr/lib64/libreiserfs-0.3.so.0.0.1 7080f710d7cf423e943946e15be89210 1529427566
+sym /usr/lib64/libdal.so -> libdal-0.3.so.0.0.1 1529427568
+sym /usr/lib64/libreiserfs-0.3.so.0 -> libreiserfs-0.3.so.0.0.1 1529427568
+sym /usr/lib64/libreiserfs.so -> libreiserfs-0.3.so.0.0.1 1529427568
+sym /usr/lib64/libdal-0.3.so.0 -> libdal-0.3.so.0.0.1 1529427568
+obj /usr/lib64/libdal-0.3.so.0.0.1 7db1a893c3deaf0f7c85a2e5e188145b 1529427566
 dir /usr/include
 dir /usr/include/dal
-obj /usr/include/dal/dal.h 230b295cc94aa0baa9a10b0e80ae0c55 1474249593
-obj /usr/include/dal/file.h 896d0d3f2a97dda4b6c7dca19f30e833 1474249593
+obj /usr/include/dal/dal.h 230b295cc94aa0baa9a10b0e80ae0c55 1529427565
+obj /usr/include/dal/file.h 896d0d3f2a97dda4b6c7dca19f30e833 1529427565
 dir /usr/include/reiserfs
-obj /usr/include/reiserfs/filesystem.h 6e0b001ea314fac81a2c141a7ca3a002 1474249593
-obj /usr/include/reiserfs/core.h e8c81a1cf54c7e71c9154a7c47fe3707 1474249594
-obj /usr/include/reiserfs/tools.h e61b89de9ec1f586d581513f27e0b7f5 1474249593
-obj /usr/include/reiserfs/dir.h 28c0b01e4edc3c0342de4b34f04abe16 1474249594
-obj /usr/include/reiserfs/exception.h 883b59181c440483ca6dd244acf02ef0 1474249593
-obj /usr/include/reiserfs/segment.h cd9e524ef5902a3d90f687b799f59d39 1474249594
-obj /usr/include/reiserfs/file.h c0014cdca3b960eebafdbb901367bff3 1474249594
-obj /usr/include/reiserfs/path.h cf0b41841cd54d29cea0427f4ed46d6a 1474249594
-obj /usr/include/reiserfs/bitmap.h 38c67b6924494401fce24baa189bca61 1474249593
-obj /usr/include/reiserfs/tree.h c9ed51eec69f236cb808eeb7e5da8599 1474249594
-obj /usr/include/reiserfs/block.h 1370a333de19e12d02460812a383469b 1474249593
-obj /usr/include/reiserfs/node.h 83ab5ddacbeb789b509f5a9d960f8e12 1474249594
-obj /usr/include/reiserfs/endian.h c4042ee11c211182be37fc50d87ffd7c 1474249594
-obj /usr/include/reiserfs/reiserfs.h ec7f2616763afe11bfed0282d24972f5 1474249593
-obj /usr/include/reiserfs/hashes.h 3dce657f93aec1ccaee3db7bc67633f0 1474249593
-obj /usr/include/reiserfs/object.h a97b0e79ad7e087ae95b63f0d2a3b8be 1474249594
-obj /usr/include/reiserfs/gauge.h 12b0da9c7a80f3c1e72ff2f2597cf35f 1474249594
-obj /usr/include/reiserfs/key.h 15567a284a271a839c0e4b15ac90be93 1474249593
-obj /usr/include/reiserfs/journal.h bee7c679def170645aa3ab6f6b36fbf6 1474249593
+obj /usr/include/reiserfs/filesystem.h 6e0b001ea314fac81a2c141a7ca3a002 1529427565
+obj /usr/include/reiserfs/core.h e8c81a1cf54c7e71c9154a7c47fe3707 1529427565
+obj /usr/include/reiserfs/tools.h e61b89de9ec1f586d581513f27e0b7f5 1529427565
+obj /usr/include/reiserfs/dir.h 28c0b01e4edc3c0342de4b34f04abe16 1529427565
+obj /usr/include/reiserfs/exception.h 883b59181c440483ca6dd244acf02ef0 1529427565
+obj /usr/include/reiserfs/segment.h cd9e524ef5902a3d90f687b799f59d39 1529427565
+obj /usr/include/reiserfs/file.h c0014cdca3b960eebafdbb901367bff3 1529427565
+obj /usr/include/reiserfs/path.h cf0b41841cd54d29cea0427f4ed46d6a 1529427565
+obj /usr/include/reiserfs/bitmap.h 38c67b6924494401fce24baa189bca61 1529427565
+obj /usr/include/reiserfs/tree.h c9ed51eec69f236cb808eeb7e5da8599 1529427565
+obj /usr/include/reiserfs/block.h 1370a333de19e12d02460812a383469b 1529427565
+obj /usr/include/reiserfs/node.h 83ab5ddacbeb789b509f5a9d960f8e12 1529427565
+obj /usr/include/reiserfs/endian.h c4042ee11c211182be37fc50d87ffd7c 1529427565
+obj /usr/include/reiserfs/reiserfs.h ec7f2616763afe11bfed0282d24972f5 1529427565
+obj /usr/include/reiserfs/hashes.h 3dce657f93aec1ccaee3db7bc67633f0 1529427565
+obj /usr/include/reiserfs/object.h a97b0e79ad7e087ae95b63f0d2a3b8be 1529427565
+obj /usr/include/reiserfs/gauge.h 12b0da9c7a80f3c1e72ff2f2597cf35f 1529427565
+obj /usr/include/reiserfs/key.h 15567a284a271a839c0e4b15ac90be93 1529427565
+obj /usr/include/reiserfs/journal.h bee7c679def170645aa3ab6f6b36fbf6 1529427565
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/progsreiserfs-0.3.1_rc8
-obj /usr/share/doc/progsreiserfs-0.3.1_rc8/BUGS 99f078e85e03085ce4db7c9a37ca53f6 1474249594
-obj /usr/share/doc/progsreiserfs-0.3.1_rc8/NEWS.bz2 8c48e987535a0a3936ed280079824ea8 1474249594
-obj /usr/share/doc/progsreiserfs-0.3.1_rc8/README.bz2 a71d08f438af37002faae62406158617 1474249594
-obj /usr/share/doc/progsreiserfs-0.3.1_rc8/AUTHORS.bz2 9705d1cfc35aedb17a5fea7040721ed8 1474249594
-obj /usr/share/doc/progsreiserfs-0.3.1_rc8/TODO acf3153c997da0e51d2dead40b6430b6 1474249594
-obj /usr/share/doc/progsreiserfs-0.3.1_rc8/ChangeLog.bz2 65b2081111a5857af5b243aa899b5302 1474249594
-obj /usr/share/doc/progsreiserfs-0.3.1_rc8/THANKS.bz2 f0303a1978bac2410242f40681c3ca5a 1474249594
+obj /usr/share/doc/progsreiserfs-0.3.1_rc8/BUGS 99f078e85e03085ce4db7c9a37ca53f6 1529427565
+obj /usr/share/doc/progsreiserfs-0.3.1_rc8/NEWS.bz2 8c48e987535a0a3936ed280079824ea8 1529427565
+obj /usr/share/doc/progsreiserfs-0.3.1_rc8/README.bz2 a71d08f438af37002faae62406158617 1529427565
+obj /usr/share/doc/progsreiserfs-0.3.1_rc8/AUTHORS.bz2 9705d1cfc35aedb17a5fea7040721ed8 1529427565
+obj /usr/share/doc/progsreiserfs-0.3.1_rc8/TODO acf3153c997da0e51d2dead40b6430b6 1529427565
+dir /usr/share/doc/progsreiserfs-0.3.1_rc8/examples
+obj /usr/share/doc/progsreiserfs-0.3.1_rc8/examples/ls.c.bz2 3b47b4e524224597a3fc83ce20a745ce 1529427565
+obj /usr/share/doc/progsreiserfs-0.3.1_rc8/examples/lookup.c.bz2 0a19562343a2af5c8fd760a1a79dd94a 1529427565
+obj /usr/share/doc/progsreiserfs-0.3.1_rc8/examples/cat.c.bz2 c525379904931dabdf9525d7385b2166 1529427565
+obj /usr/share/doc/progsreiserfs-0.3.1_rc8/examples/traverse.c.bz2 c3639e95c2da39d428c748851c7c4166 1529427565
+obj /usr/share/doc/progsreiserfs-0.3.1_rc8/ChangeLog.bz2 65b2081111a5857af5b243aa899b5302 1529427565
+obj /usr/share/doc/progsreiserfs-0.3.1_rc8/THANKS.bz2 f0303a1978bac2410242f40681c3ca5a 1529427565
 dir /usr/share/aclocal
-obj /usr/share/aclocal/progsreiserfs.m4 b4cd9e9be06025a0022b6613678aae99 1474249594
-sym /usr/lib64/libdal-0.3.so.0 -> libdal-0.3.so.0.0.1 1474249600
-sym /usr/lib64/libdal.so -> libdal-0.3.so.0.0.1 1474249600
+obj /usr/share/aclocal/progsreiserfs.m4 b4cd9e9be06025a0022b6613678aae99 1529427565
