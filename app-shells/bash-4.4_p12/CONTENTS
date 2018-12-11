@@ -1,376 +1,412 @@
 dir /etc
 dir /etc/bash
-obj /etc/bash/bashrc de46ed8f069d75d6982c5ea2fc8458f4 1517186356
+obj /etc/bash/bashrc de46ed8f069d75d6982c5ea2fc8458f4 1544490728
 dir /etc/bash/bashrc.d
-obj /etc/bash/bashrc.d/.keep_app-shells_bash-0 d41d8cd98f00b204e9800998ecf8427e 1517186356
-obj /etc/bash/bash_logout 229ccc2980a94877f2e87f957e9da7bf 1517186356
+obj /etc/bash/bashrc.d/.keep_app-shells_bash-0 d41d8cd98f00b204e9800998ecf8427e 1544490727
+obj /etc/bash/bash_logout 229ccc2980a94877f2e87f957e9da7bf 1544490727
 dir /etc/skel
-obj /etc/skel/.bash_profile d3322040528c46743ea8e4b0b9a186bc 1517186356
-obj /etc/skel/.bashrc d210b9cd7fc07420736480f2062d7d7f 1517186356
-obj /etc/skel/.bash_logout 7d8a8ef90c1818a0cd66808ac2740638 1517186356
+obj /etc/skel/.bash_profile d3322040528c46743ea8e4b0b9a186bc 1544490727
+obj /etc/skel/.bashrc d210b9cd7fc07420736480f2062d7d7f 1544490728
+obj /etc/skel/.bash_logout 7d8a8ef90c1818a0cd66808ac2740638 1544490727
 dir /bin
-sym /bin/rbash -> bash 1517186362
-obj /bin/bash 8b41fa59ea0c748e63bbbf7fd17cd1c4 1517186358
+sym /bin/rbash -> bash 1544490745
+obj /bin/bash 9dfb96ad0982c0db3dd414a94429ccea 1544490730
 dir /usr
+dir /usr/lib
+dir /usr/lib/debug
+dir /usr/lib/debug/bin
+obj /usr/lib/debug/bin/bash.debug b77a810c3f5d616d462c227aad187dd6 1544490730
+dir /usr/lib/debug/usr
+dir /usr/lib/debug/usr/lib64
+dir /usr/lib/debug/usr/lib64/bash
+obj /usr/lib/debug/usr/lib64/bash/whoami.debug 89bcffb909eb9d3ae94e19a37e838a2b 1544490731
+obj /usr/lib/debug/usr/lib64/bash/ln.debug 4be50ca3e793c9c9b27e69b855818908 1544490731
+obj /usr/lib/debug/usr/lib64/bash/basename.debug 80b6730ca415da1f55a3ce65e7c16eba 1544490730
+obj /usr/lib/debug/usr/lib64/bash/rmdir.debug ecc8e540004fa7f2418632444b3ecdba 1544490730
+obj /usr/lib/debug/usr/lib64/bash/push.debug 6a4cd51291c6272e11739f7e9201dad5 1544490731
+obj /usr/lib/debug/usr/lib64/bash/id.debug 0110527abd8f4132b419a273acc438a0 1544490730
+obj /usr/lib/debug/usr/lib64/bash/head.debug a79ec2e0c72e165e29318b1167d40e4d 1544490730
+obj /usr/lib/debug/usr/lib64/bash/tee.debug 892d3a2021506d3dbabdc55b695b84bb 1544490730
+obj /usr/lib/debug/usr/lib64/bash/print.debug 23547b2d7ffcaeed4199eb0c83ae73e5 1544490730
+obj /usr/lib/debug/usr/lib64/bash/hello.debug 8aea9a2cbf06bdfd80c1f7ac0e7e17d0 1544490731
+obj /usr/lib/debug/usr/lib64/bash/unlink.debug e962fdea71f50c294fccd39be6960988 1544490731
+obj /usr/lib/debug/usr/lib64/bash/tty.debug 450f627a62771dc909f95186ffa350c0 1544490730
+obj /usr/lib/debug/usr/lib64/bash/mkdir.debug 6ad4b419ad950f8cbdc79c413026c866 1544490730
+obj /usr/lib/debug/usr/lib64/bash/sync.debug bae4db9a70c56c93ded2b3461fce51f7 1544490731
+obj /usr/lib/debug/usr/lib64/bash/sleep.debug 314f502bd90a77a0a2540588617edde4 1544490730
+obj /usr/lib/debug/usr/lib64/bash/mypid.debug f9e07f55713f0635889c1577a227a53a 1544490731
+obj /usr/lib/debug/usr/lib64/bash/printenv.debug 5adbc1d043f8804064a127caf4490731 1544490730
+obj /usr/lib/debug/usr/lib64/bash/cat.debug 5145db654dcec9cec893af060045a247 1544490731
+obj /usr/lib/debug/usr/lib64/bash/uname.debug b3055957cb048d10668f39ff45aec58f 1544490731
+obj /usr/lib/debug/usr/lib64/bash/finfo.debug eaca74229cb88df3869d5777a2c7596e 1544490730
+obj /usr/lib/debug/usr/lib64/bash/necho.debug 5254ff481bec4f7892cc4ef228f3d8ec 1544490731
+obj /usr/lib/debug/usr/lib64/bash/pathchk.debug f3cbf3c7035939be99f8331df4725dc0 1544490730
+obj /usr/lib/debug/usr/lib64/bash/strftime.debug d5de8f8d4d4d0824d5fc6d6ca33dd86b 1544490731
+obj /usr/lib/debug/usr/lib64/bash/truefalse.debug 99bea48bcc97889a01d7dcb79472bd53 1544490730
+obj /usr/lib/debug/usr/lib64/bash/dirname.debug 3ebca9cee11720c1954fe999db1ae487 1544490730
+obj /usr/lib/debug/usr/lib64/bash/setpgid.debug c22a9a03e9b8a209cb33386b5e91ab0a 1544490731
+obj /usr/lib/debug/usr/lib64/bash/realpath.debug a4dec601ceada772dfce5a34a92fbf8d 1544490731
+obj /usr/lib/debug/usr/lib64/bash/logname.debug 62b42d9b51508354da1bbaf9deeec86a 1544490730
+obj /usr/lib/debug/usr/lib64/bash/pushd.debug e8bd9bc7276b62f8e79d98e42ae20ebe 1544490731
 dir /usr/lib64
 dir /usr/lib64/bash
-obj /usr/lib64/bash/necho de9252b176aa6f283c4724d98dc11716 1517186358
-obj /usr/lib64/bash/logname 6a4d9b8d4d405b876aa2d8efc9edec61 1517186358
-obj /usr/lib64/bash/tee ddd1a45cb135b60f7e14ccdb18f7e931 1517186358
-obj /usr/lib64/bash/head 5c675b689da02c84910e02af50af6894 1517186358
-obj /usr/lib64/bash/hello d7bf790e03f31c109970e0b1dd0d0352 1517186358
-obj /usr/lib64/bash/pushd d03d4881381068a9d9d4a925e7f33fe8 1517186358
-obj /usr/lib64/bash/id c46b799518c2b32bad036e1d842d4820 1517186358
-obj /usr/lib64/bash/whoami 0d635b7aae660f4769bd9e20c5fa1682 1517186358
-obj /usr/lib64/bash/mkdir 886cddb99159fe7cc2bde42a76bf5e66 1517186358
-obj /usr/lib64/bash/setpgid 663c0322912b9cc8c5f4fabf40c3057b 1517186358
-obj /usr/lib64/bash/tty 9c830d638b3d45401e625267811223d7 1517186358
-obj /usr/lib64/bash/finfo 476e6582ac2c6fb4d33d4b251eaadcac 1517186358
-obj /usr/lib64/bash/Makefile.inc 3a658c25d2d38937bcd0fb41732c037e 1517186355
-obj /usr/lib64/bash/ln 4a70556bcc0b223255451a5344583e5f 1517186358
-obj /usr/lib64/bash/rmdir e5c4b338da16d59124558ecee772b233 1517186358
-obj /usr/lib64/bash/unlink bfd800852dec06e0ec8b61f5dedd9af2 1517186358
-obj /usr/lib64/bash/realpath 6b05ebf16d7568ad8298c10e077f4e6c 1517186358
-obj /usr/lib64/bash/cat 37c5864d6fd4c9a795f782ef824f3246 1517186358
-obj /usr/lib64/bash/truefalse 2d4980c1eb86c89c37c2476e6ac9c488 1517186358
-obj /usr/lib64/bash/print 4d7ff4122d573240ccb66822e96905ab 1517186358
-obj /usr/lib64/bash/pathchk 5345372be8cd5799d1f195ff103ecf8a 1517186358
-obj /usr/lib64/bash/uname b9ed1befe1c4e1814ac5a314c2ce8ce6 1517186358
-obj /usr/lib64/bash/dirname 674f2582a751a1a4fe7991c60c514329 1517186358
-obj /usr/lib64/bash/push e654d6ee7dffd20876f2948f5e3cbe03 1517186358
-obj /usr/lib64/bash/sync ef0d921290b99e0fb2fd6050ff9db6a0 1517186358
-obj /usr/lib64/bash/basename 176a3a1765d42cbb340e2822f955f715 1517186358
-obj /usr/lib64/bash/sleep 506a63c01663ed759855043e0442d0e9 1517186358
-obj /usr/lib64/bash/printenv 9d08d17e2953cf156a1370ed30c61543 1517186358
-obj /usr/lib64/bash/strftime 4bc3210bcbd26bf702b687b9b08e4523 1517186358
-obj /usr/lib64/bash/mypid 26cb08e65c687c5fbe6b465d77e1a530 1517186358
+obj /usr/lib64/bash/necho 66e89113acb95e4d1ce8c87b4eacb9de 1544490731
+obj /usr/lib64/bash/logname 817cd4c61e4265b508ace89cad6da5b0 1544490730
+obj /usr/lib64/bash/tee 3ce4ea50154782a2fb3c6db102d2010e 1544490730
+obj /usr/lib64/bash/head 6066f4199fd2c2ca82243981c8b861dd 1544490730
+obj /usr/lib64/bash/hello e06040b23c91b0ca474c0f4c83203390 1544490731
+obj /usr/lib64/bash/pushd c5c5aec96e3f94b32d56cfcef068d8dc 1544490731
+obj /usr/lib64/bash/id 23c2010680e4739984fd1d98c9ca41a8 1544490731
+obj /usr/lib64/bash/whoami 4b8357e5c7c8ed10e99d3372bc29339c 1544490731
+obj /usr/lib64/bash/mkdir db22808ce5a490bbf1474140aaef2583 1544490730
+obj /usr/lib64/bash/setpgid 93fac9606384c33f8d64a40f7fa81dad 1544490731
+obj /usr/lib64/bash/tty eee4b14a6d20a44b484c03f368ac5dbc 1544490730
+obj /usr/lib64/bash/finfo 0e35ac0346e1d9bb942c3e1c6e7d29f9 1544490730
+obj /usr/lib64/bash/Makefile.inc 0167cb835455730f12569614a9fed852 1544490725
+obj /usr/lib64/bash/ln 7738c89bed7b7319d7eaad79438ee60f 1544490731
+obj /usr/lib64/bash/rmdir ae11c3d36f3ffa8c2514fde1bbf13771 1544490730
+obj /usr/lib64/bash/unlink 6a5366fb9b463991079259f7dfb1be38 1544490731
+obj /usr/lib64/bash/realpath afcf05d081615def431195c1a5fbc2c2 1544490731
+obj /usr/lib64/bash/cat cd754ea4ffc0618bfbf6644cc8e3a565 1544490731
+obj /usr/lib64/bash/truefalse d5387e50c00ca5384b6f76d72bea2601 1544490730
+obj /usr/lib64/bash/print 5dcd54b2f9b85ab07ecfddabc3bb949d 1544490730
+obj /usr/lib64/bash/pathchk 92051f398bd4cf59afc95bb1627e5303 1544490730
+obj /usr/lib64/bash/uname 60851adaa03435dd2dc1426a088e5e1f 1544490731
+obj /usr/lib64/bash/dirname 1035a5c24e39a619927dfa4dbf0be4c4 1544490730
+obj /usr/lib64/bash/push afbb58f728fed8d618b422d6090f1197 1544490731
+obj /usr/lib64/bash/sync b87e8e7599ef8573769a0bc431b10f40 1544490731
+obj /usr/lib64/bash/basename 7514df38b02a41f8a17d917c9f62aeaf 1544490730
+obj /usr/lib64/bash/sleep 775c6f75867d8a1e0fcc6352f42926bf 1544490730
+obj /usr/lib64/bash/printenv 421ac20d18e3144d5bafb1720dddf9b3 1544490730
+obj /usr/lib64/bash/strftime 5720d6d4654cb4063f0285f9bc325004 1544490731
+obj /usr/lib64/bash/mypid 4fad711c03533a0165630c3313da2e7b 1544490731
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/bash.pc 58aaf1a5d544d91dfed4117efd9665e9 1517186355
+obj /usr/lib64/pkgconfig/bash.pc 58aaf1a5d544d91dfed4117efd9665e9 1544490726
 dir /usr/include
 dir /usr/include/bash
-obj /usr/include/bash/error.h 9e9f0658e9c2cb2ac556e5525f91aa92 1517186355
-obj /usr/include/bash/conftypes.h 4d0531e12cd8d0aa8ca4ef90b1e7eac2 1517186355
-obj /usr/include/bash/pathnames.h db0940bf175bf920ca9d7a610238007e 1517186355
-obj /usr/include/bash/shell.h 2b6093330e9860db777bff5552f287df 1517186355
-obj /usr/include/bash/bashintl.h 4ab406dd3fa582ebc96e367f75f366f1 1517186355
-obj /usr/include/bash/syntax.h 0e3b2899739a36e425bb3625b2f3826b 1517186355
-obj /usr/include/bash/assoc.h 83792432519ac91241ff7fce999a7149 1517186355
-obj /usr/include/bash/config-top.h 851aebf6749d3605f110e18aa819e414 1517186355
-obj /usr/include/bash/jobs.h 1548a3005ef389fafe852c215cf487c4 1517186355
-obj /usr/include/bash/variables.h 9100afab7f5e200ead61fa40eeac3c9d 1517186355
-obj /usr/include/bash/bashansi.h 000716de09ee39440a027c1c5bf0e3e0 1517186355
-obj /usr/include/bash/siglist.h aae58ac47462e00e61ecb599a952221d 1517186355
+obj /usr/include/bash/error.h 9e9f0658e9c2cb2ac556e5525f91aa92 1544490726
+obj /usr/include/bash/conftypes.h 4d0531e12cd8d0aa8ca4ef90b1e7eac2 1544490726
+obj /usr/include/bash/pathnames.h db0940bf175bf920ca9d7a610238007e 1544490726
+obj /usr/include/bash/shell.h 2b6093330e9860db777bff5552f287df 1544490726
+obj /usr/include/bash/bashintl.h 4ab406dd3fa582ebc96e367f75f366f1 1544490726
+obj /usr/include/bash/syntax.h 0e3b2899739a36e425bb3625b2f3826b 1544490726
+obj /usr/include/bash/assoc.h 83792432519ac91241ff7fce999a7149 1544490726
+obj /usr/include/bash/config-top.h 851aebf6749d3605f110e18aa819e414 1544490726
+obj /usr/include/bash/jobs.h 1548a3005ef389fafe852c215cf487c4 1544490726
+obj /usr/include/bash/variables.h 9100afab7f5e200ead61fa40eeac3c9d 1544490726
+obj /usr/include/bash/bashansi.h 000716de09ee39440a027c1c5bf0e3e0 1544490726
+obj /usr/include/bash/siglist.h aae58ac47462e00e61ecb599a952221d 1544490726
 dir /usr/include/bash/builtins
-obj /usr/include/bash/builtins/getopt.h e3d0a5ed55f475eaef6e96d6baed8d60 1517186355
-obj /usr/include/bash/builtins/builtext.h 65f8d6d304f807ca5ecb9dcdd79e0f30 1517186355
-obj /usr/include/bash/builtins/common.h 7db108bf5834b91391cbd9b8c4cf9f18 1517186355
-obj /usr/include/bash/builtins/bashgetopt.h d8bf5b257ebce5879a39606ae44d320c 1517186355
-obj /usr/include/bash/sig.h f175076a8c1f769e332f337ddc8b4071 1517186355
-obj /usr/include/bash/quit.h 5bddbe681e2cb5da1a92fd242ad20904 1517186355
-obj /usr/include/bash/version.h c8c98597d44588a03dea07e48d98ca45 1517186355
-obj /usr/include/bash/config.h 13ce862f51b29905fe4910af02cfc507 1517186355
-obj /usr/include/bash/arrayfunc.h c9faab30599cc4266c9551e589513a6c 1517186355
+obj /usr/include/bash/builtins/getopt.h e3d0a5ed55f475eaef6e96d6baed8d60 1544490726
+obj /usr/include/bash/builtins/builtext.h 65f8d6d304f807ca5ecb9dcdd79e0f30 1544490726
+obj /usr/include/bash/builtins/common.h 7db108bf5834b91391cbd9b8c4cf9f18 1544490726
+obj /usr/include/bash/builtins/bashgetopt.h d8bf5b257ebce5879a39606ae44d320c 1544490726
+obj /usr/include/bash/sig.h f175076a8c1f769e332f337ddc8b4071 1544490726
+obj /usr/include/bash/quit.h 5bddbe681e2cb5da1a92fd242ad20904 1544490726
+obj /usr/include/bash/version.h c8c98597d44588a03dea07e48d98ca45 1544490726
+obj /usr/include/bash/config.h 13ce862f51b29905fe4910af02cfc507 1544490726
+obj /usr/include/bash/arrayfunc.h c9faab30599cc4266c9551e589513a6c 1544490726
 dir /usr/include/bash/include
-obj /usr/include/bash/include/unionwait.h 8436a85731753611120227793df301f8 1517186355
-obj /usr/include/bash/include/maxpath.h b7cc29abb842067003718f7227a10e69 1517186355
-obj /usr/include/bash/include/shmbchar.h 2546690c34260a715116fe3eab0915f8 1517186355
-obj /usr/include/bash/include/posixwait.h c20ee4b5b7778b1f4974385050e5dc21 1517186355
-obj /usr/include/bash/include/filecntl.h e432eaad8585f2fa09a77aa015aab5b4 1517186355
-obj /usr/include/bash/include/posixjmp.h 077a15ba01bd498f5b9f0f520e0bf8b3 1517186355
-obj /usr/include/bash/include/posixtime.h 8c5f3b85028035de9ecde19c447edff5 1517186355
-obj /usr/include/bash/include/shtty.h 23313a93f210490dd1100b28694b37e6 1517186355
-obj /usr/include/bash/include/chartypes.h 2bbed2eff2f7e9402a6c662afa7d7525 1517186355
-obj /usr/include/bash/include/stdc.h 0afdd127412a9c2e69b8e520f41519b3 1517186355
-obj /usr/include/bash/include/systimes.h 70202b4c5e22a7fd28840b56aa96b164 1517186355
-obj /usr/include/bash/include/posixstat.h e432eb4df2399ef6aaf7f85e5e8f9d5e 1517186355
-obj /usr/include/bash/include/shmbutil.h 1543f2148c790106a78826ec0330ecd5 1517186355
-obj /usr/include/bash/include/memalloc.h 1e7a06238c6b2c7d1aa818432360f7b3 1517186355
-obj /usr/include/bash/include/typemax.h b05ea0f1d1b5991560ff2e4f1b0746e2 1517186355
-obj /usr/include/bash/include/stat-time.h 7f29ae0fb90e5f5633ffc75974cd5042 1517186355
-obj /usr/include/bash/include/ocache.h 3a9ee15f7d1ead5a00e2c643873afb5f 1517186355
-obj /usr/include/bash/include/ansi_stdlib.h 0bab71b938eb344efbe8916f3d57bc65 1517186355
-obj /usr/include/bash/include/gettext.h 2a4cb87d31d5e6577e8a06dafdb31557 1517186355
-obj /usr/include/bash/include/posixdir.h 620c7e85b5587e6fb2729b9e9140ba68 1517186355
-obj /usr/include/bash/hashlib.h 2ccbfa50aad635ebfc000d0406353940 1517186355
-obj /usr/include/bash/config-bot.h da31094c885702f9ef29c6fb0a29db1e 1517186355
-obj /usr/include/bash/externs.h 8f84b1b947a373bd6b512a52dba633b6 1517186355
-obj /usr/include/bash/bashtypes.h 508d67ad6e5de2e0e69505e0f8b72d37 1517186355
-obj /usr/include/bash/make_cmd.h 3f3d440b02aeefab4bafc3352737823d 1517186355
-obj /usr/include/bash/general.h 033e1397360363791de7dea71a3d2b90 1517186355
-obj /usr/include/bash/array.h bdb00facfa627ccc16b868650bbcdf05 1517186355
-obj /usr/include/bash/signames.h e0aeb3b958710adbc19fd3533c3ab1b9 1517186355
-obj /usr/include/bash/bashjmp.h fe9182a72e1b27fe03749c596d8991a2 1517186355
-obj /usr/include/bash/command.h 0b27b53f20ddc620396a1630afcd0346 1517186355
-obj /usr/include/bash/unwind_prot.h aa9b36b2325d32c41ddc39750c70e978 1517186355
-obj /usr/include/bash/alias.h f32e1319899a9295b29b07bc41204097 1517186355
-obj /usr/include/bash/y.tab.h 05e9d000c01a7ce4657234ba6531f613 1517186355
-obj /usr/include/bash/subst.h 45a973f1a41f5aa595fe2ec687ccfc1a 1517186355
-obj /usr/include/bash/xmalloc.h 4f47db65aede19a663e3f89fb10509da 1517186355
-obj /usr/include/bash/builtins.h 254ebba6bd4d97d97ac68315be53e377 1517186355
-obj /usr/include/bash/dispose_cmd.h c8e8ecb30963bd68ddd93748ff6f2fc4 1517186355
+obj /usr/include/bash/include/unionwait.h 8436a85731753611120227793df301f8 1544490726
+obj /usr/include/bash/include/maxpath.h b7cc29abb842067003718f7227a10e69 1544490726
+obj /usr/include/bash/include/shmbchar.h 2546690c34260a715116fe3eab0915f8 1544490726
+obj /usr/include/bash/include/posixwait.h c20ee4b5b7778b1f4974385050e5dc21 1544490726
+obj /usr/include/bash/include/filecntl.h e432eaad8585f2fa09a77aa015aab5b4 1544490726
+obj /usr/include/bash/include/posixjmp.h 077a15ba01bd498f5b9f0f520e0bf8b3 1544490726
+obj /usr/include/bash/include/posixtime.h 8c5f3b85028035de9ecde19c447edff5 1544490726
+obj /usr/include/bash/include/shtty.h 23313a93f210490dd1100b28694b37e6 1544490726
+obj /usr/include/bash/include/chartypes.h 2bbed2eff2f7e9402a6c662afa7d7525 1544490726
+obj /usr/include/bash/include/stdc.h 0afdd127412a9c2e69b8e520f41519b3 1544490726
+obj /usr/include/bash/include/systimes.h 70202b4c5e22a7fd28840b56aa96b164 1544490726
+obj /usr/include/bash/include/posixstat.h e432eb4df2399ef6aaf7f85e5e8f9d5e 1544490726
+obj /usr/include/bash/include/shmbutil.h 1543f2148c790106a78826ec0330ecd5 1544490726
+obj /usr/include/bash/include/memalloc.h 1e7a06238c6b2c7d1aa818432360f7b3 1544490726
+obj /usr/include/bash/include/typemax.h b05ea0f1d1b5991560ff2e4f1b0746e2 1544490726
+obj /usr/include/bash/include/stat-time.h 7f29ae0fb90e5f5633ffc75974cd5042 1544490726
+obj /usr/include/bash/include/ocache.h 3a9ee15f7d1ead5a00e2c643873afb5f 1544490726
+obj /usr/include/bash/include/ansi_stdlib.h 0bab71b938eb344efbe8916f3d57bc65 1544490726
+obj /usr/include/bash/include/gettext.h 2a4cb87d31d5e6577e8a06dafdb31557 1544490726
+obj /usr/include/bash/include/posixdir.h 620c7e85b5587e6fb2729b9e9140ba68 1544490726
+obj /usr/include/bash/hashlib.h 2ccbfa50aad635ebfc000d0406353940 1544490726
+obj /usr/include/bash/config-bot.h da31094c885702f9ef29c6fb0a29db1e 1544490726
+obj /usr/include/bash/externs.h 8f84b1b947a373bd6b512a52dba633b6 1544490726
+obj /usr/include/bash/bashtypes.h 508d67ad6e5de2e0e69505e0f8b72d37 1544490726
+obj /usr/include/bash/make_cmd.h 3f3d440b02aeefab4bafc3352737823d 1544490726
+obj /usr/include/bash/general.h 033e1397360363791de7dea71a3d2b90 1544490726
+obj /usr/include/bash/array.h bdb00facfa627ccc16b868650bbcdf05 1544490726
+obj /usr/include/bash/signames.h e0aeb3b958710adbc19fd3533c3ab1b9 1544490726
+obj /usr/include/bash/bashjmp.h fe9182a72e1b27fe03749c596d8991a2 1544490726
+obj /usr/include/bash/command.h 0b27b53f20ddc620396a1630afcd0346 1544490726
+obj /usr/include/bash/unwind_prot.h aa9b36b2325d32c41ddc39750c70e978 1544490726
+obj /usr/include/bash/alias.h f32e1319899a9295b29b07bc41204097 1544490726
+obj /usr/include/bash/y.tab.h 05e9d000c01a7ce4657234ba6531f613 1544490726
+obj /usr/include/bash/subst.h 45a973f1a41f5aa595fe2ec687ccfc1a 1544490726
+obj /usr/include/bash/xmalloc.h 4f47db65aede19a663e3f89fb10509da 1544490726
+obj /usr/include/bash/builtins.h 254ebba6bd4d97d97ac68315be53e377 1544490726
+obj /usr/include/bash/dispose_cmd.h c8e8ecb30963bd68ddd93748ff6f2fc4 1544490726
 dir /usr/include/bash-plugins
-obj /usr/include/bash-plugins/error.h 9e9f0658e9c2cb2ac556e5525f91aa92 1517186356
-obj /usr/include/bash-plugins/unionwait.h 8436a85731753611120227793df301f8 1517186356
-obj /usr/include/bash-plugins/maxpath.h b7cc29abb842067003718f7227a10e69 1517186356
-obj /usr/include/bash-plugins/conftypes.h 4d0531e12cd8d0aa8ca4ef90b1e7eac2 1517186356
-obj /usr/include/bash-plugins/pathnames.h db0940bf175bf920ca9d7a610238007e 1517186356
-obj /usr/include/bash-plugins/shmbchar.h 2546690c34260a715116fe3eab0915f8 1517186356
-obj /usr/include/bash-plugins/posixwait.h c20ee4b5b7778b1f4974385050e5dc21 1517186356
-obj /usr/include/bash-plugins/shell.h 2b6093330e9860db777bff5552f287df 1517186356
-obj /usr/include/bash-plugins/filecntl.h e432eaad8585f2fa09a77aa015aab5b4 1517186356
-obj /usr/include/bash-plugins/findcmd.h 613de6139f60aed09b915af37baef282 1517186356
-obj /usr/include/bash-plugins/bashintl.h 4ab406dd3fa582ebc96e367f75f366f1 1517186356
-obj /usr/include/bash-plugins/syntax.h 0e3b2899739a36e425bb3625b2f3826b 1517186356
-obj /usr/include/bash-plugins/tilde.h 4b810af2c83168d3cd86815a6bbeaaff 1517186356
-obj /usr/include/bash-plugins/assoc.h 83792432519ac91241ff7fce999a7149 1517186356
-obj /usr/include/bash-plugins/posixjmp.h 077a15ba01bd498f5b9f0f520e0bf8b3 1517186356
-obj /usr/include/bash-plugins/config-top.h 851aebf6749d3605f110e18aa819e414 1517186356
-obj /usr/include/bash-plugins/jobs.h 1548a3005ef389fafe852c215cf487c4 1517186356
-obj /usr/include/bash-plugins/posixtime.h 8c5f3b85028035de9ecde19c447edff5 1517186356
-obj /usr/include/bash-plugins/variables.h 9100afab7f5e200ead61fa40eeac3c9d 1517186356
-obj /usr/include/bash-plugins/shtty.h 23313a93f210490dd1100b28694b37e6 1517186356
-obj /usr/include/bash-plugins/parser.h fd90a2a4c1cba1d499fb994ef7b1f202 1517186356
-obj /usr/include/bash-plugins/chartypes.h 2bbed2eff2f7e9402a6c662afa7d7525 1517186356
-obj /usr/include/bash-plugins/flags.h e9de8d957e91213cb53963993a2af1ac 1517186356
-obj /usr/include/bash-plugins/bashansi.h 000716de09ee39440a027c1c5bf0e3e0 1517186356
-obj /usr/include/bash-plugins/pathexp.h 5e3ca3d3c05407a7f97e3a96c7eff057 1517186356
-obj /usr/include/bash-plugins/hashcmd.h 8d36cf739d418f4450bd28a789840f1b 1517186356
-obj /usr/include/bash-plugins/stdc.h 0afdd127412a9c2e69b8e520f41519b3 1517186356
-obj /usr/include/bash-plugins/bashline.h 8774f80a20ac65dc436fa3eaeb2336b2 1517186356
-obj /usr/include/bash-plugins/siglist.h aae58ac47462e00e61ecb599a952221d 1517186356
-obj /usr/include/bash-plugins/getopt.h e3d0a5ed55f475eaef6e96d6baed8d60 1517186356
-obj /usr/include/bash-plugins/builtext.h 65f8d6d304f807ca5ecb9dcdd79e0f30 1517186356
-obj /usr/include/bash-plugins/sig.h f175076a8c1f769e332f337ddc8b4071 1517186356
-obj /usr/include/bash-plugins/quit.h 5bddbe681e2cb5da1a92fd242ad20904 1517186356
-obj /usr/include/bash-plugins/systimes.h 70202b4c5e22a7fd28840b56aa96b164 1517186356
-obj /usr/include/bash-plugins/common.h 7db108bf5834b91391cbd9b8c4cf9f18 1517186356
-obj /usr/include/bash-plugins/posixstat.h e432eb4df2399ef6aaf7f85e5e8f9d5e 1517186356
-obj /usr/include/bash-plugins/version.h c8c98597d44588a03dea07e48d98ca45 1517186356
-obj /usr/include/bash-plugins/shmbutil.h 1543f2148c790106a78826ec0330ecd5 1517186356
-obj /usr/include/bash-plugins/config.h 13ce862f51b29905fe4910af02cfc507 1517186356
-obj /usr/include/bash-plugins/bashgetopt.h d8bf5b257ebce5879a39606ae44d320c 1517186356
-obj /usr/include/bash-plugins/arrayfunc.h c9faab30599cc4266c9551e589513a6c 1517186356
-obj /usr/include/bash-plugins/memalloc.h 1e7a06238c6b2c7d1aa818432360f7b3 1517186356
-obj /usr/include/bash-plugins/mailcheck.h 28e1778e3d812c05b8fc47bf7bc16a14 1517186356
-obj /usr/include/bash-plugins/test.h 36c2201542d63d35e9ab6ec755e95edd 1517186356
-obj /usr/include/bash-plugins/input.h f2c455f5e731c8d89529d86d91b4ec96 1517186356
-obj /usr/include/bash-plugins/hashlib.h 2ccbfa50aad635ebfc000d0406353940 1517186356
-obj /usr/include/bash-plugins/config-bot.h da31094c885702f9ef29c6fb0a29db1e 1517186356
-obj /usr/include/bash-plugins/pipesize.h 9897380ba96817634e1b619d08f7a296 1517186356
-obj /usr/include/bash-plugins/execute_cmd.h 3884746e2be42d61f93528c04882cee5 1517186356
-obj /usr/include/bash-plugins/pcomplete.h 880cdb0bd75f2893ec428f8645c38ab3 1517186356
-obj /usr/include/bash-plugins/externs.h 8f84b1b947a373bd6b512a52dba633b6 1517186356
-obj /usr/include/bash-plugins/typemax.h b05ea0f1d1b5991560ff2e4f1b0746e2 1517186356
-obj /usr/include/bash-plugins/trap.h 774ab9f7da9b87497d7b37a93c8976f4 1517186356
-obj /usr/include/bash-plugins/posixselect.h e8cf9ce0ae23eb40b5e2b191515ce1e9 1517186356
-obj /usr/include/bash-plugins/stat-time.h 7f29ae0fb90e5f5633ffc75974cd5042 1517186356
-obj /usr/include/bash-plugins/bashtypes.h 508d67ad6e5de2e0e69505e0f8b72d37 1517186356
-obj /usr/include/bash-plugins/make_cmd.h 3f3d440b02aeefab4bafc3352737823d 1517186356
-obj /usr/include/bash-plugins/general.h 033e1397360363791de7dea71a3d2b90 1517186356
-obj /usr/include/bash-plugins/array.h bdb00facfa627ccc16b868650bbcdf05 1517186356
-obj /usr/include/bash-plugins/ocache.h 3a9ee15f7d1ead5a00e2c643873afb5f 1517186356
-obj /usr/include/bash-plugins/ansi_stdlib.h 0bab71b938eb344efbe8916f3d57bc65 1517186356
-obj /usr/include/bash-plugins/signames.h e0aeb3b958710adbc19fd3533c3ab1b9 1517186356
-obj /usr/include/bash-plugins/patchlevel.h 505e826a229dbe8cf480c46acfcd7130 1517186356
-obj /usr/include/bash-plugins/bashjmp.h fe9182a72e1b27fe03749c596d8991a2 1517186356
-obj /usr/include/bash-plugins/command.h 0b27b53f20ddc620396a1630afcd0346 1517186356
-obj /usr/include/bash-plugins/gettext.h 2a4cb87d31d5e6577e8a06dafdb31557 1517186356
-obj /usr/include/bash-plugins/lsignames.h e0aeb3b958710adbc19fd3533c3ab1b9 1517186356
-obj /usr/include/bash-plugins/unwind_prot.h aa9b36b2325d32c41ddc39750c70e978 1517186356
-obj /usr/include/bash-plugins/alias.h f32e1319899a9295b29b07bc41204097 1517186356
-obj /usr/include/bash-plugins/bashhist.h 57255bed61df644f4ebc0e025e9b6d2f 1517186356
-obj /usr/include/bash-plugins/y.tab.h 05e9d000c01a7ce4657234ba6531f613 1517186356
-obj /usr/include/bash-plugins/glob.h 46224d4b83cdedbf7912877380a42b13 1517186356
-obj /usr/include/bash-plugins/posixdir.h 620c7e85b5587e6fb2729b9e9140ba68 1517186356
-obj /usr/include/bash-plugins/subst.h 45a973f1a41f5aa595fe2ec687ccfc1a 1517186356
-obj /usr/include/bash-plugins/xmalloc.h 4f47db65aede19a663e3f89fb10509da 1517186356
-obj /usr/include/bash-plugins/builtins.h 254ebba6bd4d97d97ac68315be53e377 1517186356
-obj /usr/include/bash-plugins/dispose_cmd.h c8e8ecb30963bd68ddd93748ff6f2fc4 1517186356
-obj /usr/include/bash-plugins/redir.h 1290fef00cbdf1607ccf01d971ac50b9 1517186356
+obj /usr/include/bash-plugins/error.h 9e9f0658e9c2cb2ac556e5525f91aa92 1544490728
+obj /usr/include/bash-plugins/unionwait.h 8436a85731753611120227793df301f8 1544490728
+obj /usr/include/bash-plugins/maxpath.h b7cc29abb842067003718f7227a10e69 1544490728
+obj /usr/include/bash-plugins/conftypes.h 4d0531e12cd8d0aa8ca4ef90b1e7eac2 1544490728
+obj /usr/include/bash-plugins/pathnames.h db0940bf175bf920ca9d7a610238007e 1544490728
+obj /usr/include/bash-plugins/shmbchar.h 2546690c34260a715116fe3eab0915f8 1544490728
+obj /usr/include/bash-plugins/posixwait.h c20ee4b5b7778b1f4974385050e5dc21 1544490728
+obj /usr/include/bash-plugins/shell.h 2b6093330e9860db777bff5552f287df 1544490728
+obj /usr/include/bash-plugins/filecntl.h e432eaad8585f2fa09a77aa015aab5b4 1544490728
+obj /usr/include/bash-plugins/findcmd.h 613de6139f60aed09b915af37baef282 1544490728
+obj /usr/include/bash-plugins/bashintl.h 4ab406dd3fa582ebc96e367f75f366f1 1544490728
+obj /usr/include/bash-plugins/syntax.h 0e3b2899739a36e425bb3625b2f3826b 1544490728
+obj /usr/include/bash-plugins/tilde.h 4b810af2c83168d3cd86815a6bbeaaff 1544490728
+obj /usr/include/bash-plugins/assoc.h 83792432519ac91241ff7fce999a7149 1544490728
+obj /usr/include/bash-plugins/posixjmp.h 077a15ba01bd498f5b9f0f520e0bf8b3 1544490728
+obj /usr/include/bash-plugins/config-top.h 851aebf6749d3605f110e18aa819e414 1544490728
+obj /usr/include/bash-plugins/jobs.h 1548a3005ef389fafe852c215cf487c4 1544490728
+obj /usr/include/bash-plugins/posixtime.h 8c5f3b85028035de9ecde19c447edff5 1544490728
+obj /usr/include/bash-plugins/variables.h 9100afab7f5e200ead61fa40eeac3c9d 1544490728
+obj /usr/include/bash-plugins/shtty.h 23313a93f210490dd1100b28694b37e6 1544490728
+obj /usr/include/bash-plugins/parser.h fd90a2a4c1cba1d499fb994ef7b1f202 1544490728
+obj /usr/include/bash-plugins/chartypes.h 2bbed2eff2f7e9402a6c662afa7d7525 1544490728
+obj /usr/include/bash-plugins/flags.h e9de8d957e91213cb53963993a2af1ac 1544490728
+obj /usr/include/bash-plugins/bashansi.h 000716de09ee39440a027c1c5bf0e3e0 1544490728
+obj /usr/include/bash-plugins/pathexp.h 5e3ca3d3c05407a7f97e3a96c7eff057 1544490728
+obj /usr/include/bash-plugins/hashcmd.h 8d36cf739d418f4450bd28a789840f1b 1544490728
+obj /usr/include/bash-plugins/stdc.h 0afdd127412a9c2e69b8e520f41519b3 1544490728
+obj /usr/include/bash-plugins/bashline.h 8774f80a20ac65dc436fa3eaeb2336b2 1544490728
+obj /usr/include/bash-plugins/siglist.h aae58ac47462e00e61ecb599a952221d 1544490728
+obj /usr/include/bash-plugins/getopt.h e3d0a5ed55f475eaef6e96d6baed8d60 1544490728
+obj /usr/include/bash-plugins/builtext.h 65f8d6d304f807ca5ecb9dcdd79e0f30 1544490728
+obj /usr/include/bash-plugins/sig.h f175076a8c1f769e332f337ddc8b4071 1544490728
+obj /usr/include/bash-plugins/quit.h 5bddbe681e2cb5da1a92fd242ad20904 1544490728
+obj /usr/include/bash-plugins/systimes.h 70202b4c5e22a7fd28840b56aa96b164 1544490728
+obj /usr/include/bash-plugins/common.h 7db108bf5834b91391cbd9b8c4cf9f18 1544490728
+obj /usr/include/bash-plugins/posixstat.h e432eb4df2399ef6aaf7f85e5e8f9d5e 1544490728
+obj /usr/include/bash-plugins/version.h c8c98597d44588a03dea07e48d98ca45 1544490728
+obj /usr/include/bash-plugins/shmbutil.h 1543f2148c790106a78826ec0330ecd5 1544490728
+obj /usr/include/bash-plugins/config.h 13ce862f51b29905fe4910af02cfc507 1544490728
+obj /usr/include/bash-plugins/bashgetopt.h d8bf5b257ebce5879a39606ae44d320c 1544490728
+obj /usr/include/bash-plugins/arrayfunc.h c9faab30599cc4266c9551e589513a6c 1544490728
+obj /usr/include/bash-plugins/memalloc.h 1e7a06238c6b2c7d1aa818432360f7b3 1544490728
+obj /usr/include/bash-plugins/mailcheck.h 28e1778e3d812c05b8fc47bf7bc16a14 1544490728
+obj /usr/include/bash-plugins/test.h 36c2201542d63d35e9ab6ec755e95edd 1544490728
+obj /usr/include/bash-plugins/input.h f2c455f5e731c8d89529d86d91b4ec96 1544490728
+obj /usr/include/bash-plugins/hashlib.h 2ccbfa50aad635ebfc000d0406353940 1544490728
+obj /usr/include/bash-plugins/config-bot.h da31094c885702f9ef29c6fb0a29db1e 1544490728
+obj /usr/include/bash-plugins/pipesize.h 9897380ba96817634e1b619d08f7a296 1544490728
+obj /usr/include/bash-plugins/execute_cmd.h 3884746e2be42d61f93528c04882cee5 1544490728
+obj /usr/include/bash-plugins/pcomplete.h 880cdb0bd75f2893ec428f8645c38ab3 1544490728
+obj /usr/include/bash-plugins/externs.h 8f84b1b947a373bd6b512a52dba633b6 1544490728
+obj /usr/include/bash-plugins/typemax.h b05ea0f1d1b5991560ff2e4f1b0746e2 1544490728
+obj /usr/include/bash-plugins/trap.h 774ab9f7da9b87497d7b37a93c8976f4 1544490728
+obj /usr/include/bash-plugins/posixselect.h e8cf9ce0ae23eb40b5e2b191515ce1e9 1544490728
+obj /usr/include/bash-plugins/stat-time.h 7f29ae0fb90e5f5633ffc75974cd5042 1544490728
+obj /usr/include/bash-plugins/bashtypes.h 508d67ad6e5de2e0e69505e0f8b72d37 1544490728
+obj /usr/include/bash-plugins/make_cmd.h 3f3d440b02aeefab4bafc3352737823d 1544490728
+obj /usr/include/bash-plugins/general.h 033e1397360363791de7dea71a3d2b90 1544490728
+obj /usr/include/bash-plugins/array.h bdb00facfa627ccc16b868650bbcdf05 1544490728
+obj /usr/include/bash-plugins/ocache.h 3a9ee15f7d1ead5a00e2c643873afb5f 1544490728
+obj /usr/include/bash-plugins/ansi_stdlib.h 0bab71b938eb344efbe8916f3d57bc65 1544490728
+obj /usr/include/bash-plugins/signames.h e0aeb3b958710adbc19fd3533c3ab1b9 1544490728
+obj /usr/include/bash-plugins/patchlevel.h 505e826a229dbe8cf480c46acfcd7130 1544490728
+obj /usr/include/bash-plugins/bashjmp.h fe9182a72e1b27fe03749c596d8991a2 1544490728
+obj /usr/include/bash-plugins/command.h 0b27b53f20ddc620396a1630afcd0346 1544490728
+obj /usr/include/bash-plugins/gettext.h 2a4cb87d31d5e6577e8a06dafdb31557 1544490728
+obj /usr/include/bash-plugins/lsignames.h e0aeb3b958710adbc19fd3533c3ab1b9 1544490728
+obj /usr/include/bash-plugins/unwind_prot.h aa9b36b2325d32c41ddc39750c70e978 1544490728
+obj /usr/include/bash-plugins/alias.h f32e1319899a9295b29b07bc41204097 1544490728
+obj /usr/include/bash-plugins/bashhist.h 57255bed61df644f4ebc0e025e9b6d2f 1544490728
+obj /usr/include/bash-plugins/y.tab.h 05e9d000c01a7ce4657234ba6531f613 1544490728
+obj /usr/include/bash-plugins/glob.h 46224d4b83cdedbf7912877380a42b13 1544490728
+obj /usr/include/bash-plugins/posixdir.h 620c7e85b5587e6fb2729b9e9140ba68 1544490728
+obj /usr/include/bash-plugins/subst.h 45a973f1a41f5aa595fe2ec687ccfc1a 1544490728
+obj /usr/include/bash-plugins/xmalloc.h 4f47db65aede19a663e3f89fb10509da 1544490728
+obj /usr/include/bash-plugins/builtins.h 254ebba6bd4d97d97ac68315be53e377 1544490728
+obj /usr/include/bash-plugins/dispose_cmd.h c8e8ecb30963bd68ddd93748ff6f2fc4 1544490728
+obj /usr/include/bash-plugins/redir.h 1290fef00cbdf1607ccf01d971ac50b9 1544490728
 dir /usr/bin
-obj /usr/bin/bashbug 530a199aa8416c70d8331d6985209c76 1517186355
+obj /usr/bin/bashbug e328f7dd8637d951aae395b6ff7215c1 1544490725
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/bash-4.4_p12
-obj /usr/share/doc/bash-4.4_p12/POSIX.bz2 b0775619c07d1c1e1499b5e81adf89af 1517186355
-obj /usr/share/doc/bash-4.4_p12/COMPAT.bz2 98fe32b626a3d32e568f33d6c2cf02c9 1517186355
-obj /usr/share/doc/bash-4.4_p12/INTRO.bz2 0adb1e98d3ad2a3a012d696ea17e5547 1517186355
-obj /usr/share/doc/bash-4.4_p12/NEWS.bz2 91265b542f03a160da810ceaadea9ba0 1517186356
+obj /usr/share/doc/bash-4.4_p12/POSIX.bz2 b0775619c07d1c1e1499b5e81adf89af 1544490725
+obj /usr/share/doc/bash-4.4_p12/COMPAT.bz2 98fe32b626a3d32e568f33d6c2cf02c9 1544490725
+obj /usr/share/doc/bash-4.4_p12/INTRO.bz2 0adb1e98d3ad2a3a012d696ea17e5547 1544490725
+obj /usr/share/doc/bash-4.4_p12/NEWS.bz2 91265b542f03a160da810ceaadea9ba0 1544490727
 dir /usr/share/doc/bash-4.4_p12/html
-obj /usr/share/doc/bash-4.4_p12/html/bash.html 0f0ac8b9fe84d2b4eea5b70cc22cb1e2 1517186355
-obj /usr/share/doc/bash-4.4_p12/html/bashref.html f0b4a5de246defd76b7e70e7c0ed1b27 1517186355
-obj /usr/share/doc/bash-4.4_p12/README.bz2 c0ca2da4709cedc22e6cd2de6b1e0202 1517186356
-obj /usr/share/doc/bash-4.4_p12/AUTHORS.bz2 65f88febe33195919919139655121a7f 1517186356
-obj /usr/share/doc/bash-4.4_p12/FAQ.bz2 9e5ccebbf4184a087962fdb7916e0070 1517186355
-obj /usr/share/doc/bash-4.4_p12/RBASH.bz2 186ce9e929bbdae0610329d2ed8b0866 1517186355
-obj /usr/share/doc/bash-4.4_p12/CHANGES.bz2 90497d0564cd628e219e573c7e1f91a2 1517186356
+obj /usr/share/doc/bash-4.4_p12/html/bash.html 0f0ac8b9fe84d2b4eea5b70cc22cb1e2 1544490725
+obj /usr/share/doc/bash-4.4_p12/html/bashref.html f0b4a5de246defd76b7e70e7c0ed1b27 1544490725
+obj /usr/share/doc/bash-4.4_p12/README.bz2 c0ca2da4709cedc22e6cd2de6b1e0202 1544490727
+obj /usr/share/doc/bash-4.4_p12/AUTHORS.bz2 65f88febe33195919919139655121a7f 1544490727
+obj /usr/share/doc/bash-4.4_p12/FAQ.bz2 9e5ccebbf4184a087962fdb7916e0070 1544490725
+obj /usr/share/doc/bash-4.4_p12/RBASH.bz2 186ce9e929bbdae0610329d2ed8b0866 1544490725
+obj /usr/share/doc/bash-4.4_p12/CHANGES.bz2 90497d0564cd628e219e573c7e1f91a2 1544490727
 dir /usr/share/doc/bash-4.4_p12/examples
 dir /usr/share/doc/bash-4.4_p12/examples/misc
-obj /usr/share/doc/bash-4.4_p12/examples/misc/aliasconv.bash.bz2 f26dc49e09a22908466f760d706b9002 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/misc/cshtobash.bz2 85c8d106ce812f9453b1887235bcdea2 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/misc/aliasconv.sh.bz2 30ec148e8b4a36ddc46f62034983dce5 1517186357
+obj /usr/share/doc/bash-4.4_p12/examples/misc/aliasconv.bash.bz2 f26dc49e09a22908466f760d706b9002 1544490729
+obj /usr/share/doc/bash-4.4_p12/examples/misc/cshtobash.bz2 85c8d106ce812f9453b1887235bcdea2 1544490729
+obj /usr/share/doc/bash-4.4_p12/examples/misc/aliasconv.sh.bz2 30ec148e8b4a36ddc46f62034983dce5 1544490729
 dir /usr/share/doc/bash-4.4_p12/examples/scripts
-obj /usr/share/doc/bash-4.4_p12/examples/scripts/inpath.bz2 b9a8220ad8c9bb385d8b04a9556fd93d 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/scripts/xterm_title.bz2 30930978af1a2501914f8156e18fb075 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/scripts/cat.sh 19caa1fba7a3bfd48eefb68d7ea5a049 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/scripts/shprompt.bz2 705a2492dfbd01ba052d838989f431d7 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/scripts/zprintf.bz2 b911062b0a933d547bfa393b37953b70 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/scripts/center.bz2 1e5678788dc5d515641aea9e615dc07d 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/scripts/spin.bash.bz2 02b802c60c468691a90fcf353d7e46b9 1517186357
+obj /usr/share/doc/bash-4.4_p12/examples/scripts/inpath.bz2 b9a8220ad8c9bb385d8b04a9556fd93d 1544490729
+obj /usr/share/doc/bash-4.4_p12/examples/scripts/xterm_title.bz2 30930978af1a2501914f8156e18fb075 1544490729
+obj /usr/share/doc/bash-4.4_p12/examples/scripts/cat.sh 19caa1fba7a3bfd48eefb68d7ea5a049 1544490729
+obj /usr/share/doc/bash-4.4_p12/examples/scripts/shprompt.bz2 705a2492dfbd01ba052d838989f431d7 1544490729
+obj /usr/share/doc/bash-4.4_p12/examples/scripts/zprintf.bz2 b911062b0a933d547bfa393b37953b70 1544490729
+obj /usr/share/doc/bash-4.4_p12/examples/scripts/center.bz2 1e5678788dc5d515641aea9e615dc07d 1544490729
+obj /usr/share/doc/bash-4.4_p12/examples/scripts/spin.bash.bz2 02b802c60c468691a90fcf353d7e46b9 1544490729
 dir /usr/share/doc/bash-4.4_p12/examples/startup-files
-obj /usr/share/doc/bash-4.4_p12/examples/startup-files/Bashrc.bfox.bz2 3e77dd50e2b1f4480835caf93d2ef7f6 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/startup-files/Bash_aliases.bz2 db4744d6f394ef16242fb622abd07c6a 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/startup-files/bashrc.bz2 fe05f3454a807b9abecd58f1cdb394fa 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/startup-files/README.bz2 433252008c6c92a4ebd9ca797f53c22f 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/startup-files/bash-profile.bz2 7345f610b58a330190c14ad0231fe8f4 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/startup-files/Bash_profile.bz2 20f43acb65652f28f87a61483010ea2f 1517186357
+obj /usr/share/doc/bash-4.4_p12/examples/startup-files/Bashrc.bfox.bz2 3e77dd50e2b1f4480835caf93d2ef7f6 1544490729
+obj /usr/share/doc/bash-4.4_p12/examples/startup-files/Bash_aliases.bz2 db4744d6f394ef16242fb622abd07c6a 1544490729
+obj /usr/share/doc/bash-4.4_p12/examples/startup-files/bashrc.bz2 fe05f3454a807b9abecd58f1cdb394fa 1544490729
+obj /usr/share/doc/bash-4.4_p12/examples/startup-files/README.bz2 433252008c6c92a4ebd9ca797f53c22f 1544490729
+obj /usr/share/doc/bash-4.4_p12/examples/startup-files/bash-profile.bz2 7345f610b58a330190c14ad0231fe8f4 1544490729
+obj /usr/share/doc/bash-4.4_p12/examples/startup-files/Bash_profile.bz2 20f43acb65652f28f87a61483010ea2f 1544490729
 dir /usr/share/doc/bash-4.4_p12/examples/functions
-obj /usr/share/doc/bash-4.4_p12/examples/functions/inpath.bz2 88d05a53bfef78a95059749323922f16 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/which.bz2 68eea559a04e2e3343e677b2ec7924e3 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/ksh-cd.bz2 aadfac8743644e7ece5e7e03d2ea5826 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/substr2.bz2 6b9e6ac40228f015bb8e022a6a94574a 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/fact.bz2 c1408addfe206758cfce75c433fff817 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/shcat b66d2256006f8176af5f7fc97c61af78 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/isnum2.bz2 47f8f7e8c7ea48535806e5b1b5f7f6fa 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/array-to-string.bz2 83d823dc8f4d8139472f7f7102e16b53 1517186356
-obj /usr/share/doc/bash-4.4_p12/examples/functions/autoload.v2.bz2 4262cdaa47e4180427260fa4705edf2b 1517186356
-obj /usr/share/doc/bash-4.4_p12/examples/functions/whatis.bz2 6c314271c7c5389aa1b70064e7ec5075 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/seq2.bz2 7ec4b1a42a5fa497f0237cd3e7448ac9 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/func.bz2 2543f6a961f277c76f3c7d31df0829dd 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/kshenv.bz2 588b5c6a874e02e5e96b1bf74e23d5c6 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/shcat2.bz2 9e891fb102a7d6bb532909a68760f1d3 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/autoload.bz2 0115d4e930b92c844df35c8d6db7d63b 1517186356
-obj /usr/share/doc/bash-4.4_p12/examples/functions/fstty.bz2 192283427366313d368faf5d1d2850cd 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/whence.bz2 cabae0af578287c47685400fda346fc7 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/basename.bz2 ebe92d0ce087da6baa9a1c3f4e7fd00f 1517186356
-obj /usr/share/doc/bash-4.4_p12/examples/functions/seq.bz2 3cf929e9df448ff2453c32afe9734fbb 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/ksh-compat-test.bz2 663f1a460185ad3c3290b18c9a51ddb1 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/notify.bash.bz2 d84c8a8fc20a6a80064959f322783f5c 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/login 76c6f826cf49808988a1bb4660a55482 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/external.bz2 76785353f247dc8833ed7ca703b8f7a1 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/dirstack.bz2 596727940e97e271b1b991437a2e6bd2 1517186356
-obj /usr/share/doc/bash-4.4_p12/examples/functions/autoload.v3.bz2 44501c28ac84e9c01dc2d09d721408db 1517186356
-obj /usr/share/doc/bash-4.4_p12/examples/functions/exitstat.bz2 067498c491298338e978f43b51950d16 1517186356
-obj /usr/share/doc/bash-4.4_p12/examples/functions/dirname.bz2 20f50029d180d866d7064f311c9eac0b 1517186356
-obj /usr/share/doc/bash-4.4_p12/examples/functions/substr.bz2 a8e36caeac6e0bb0222777d7bc9c825a 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/isvalidip.bz2 73063193e496ec6a0323f71b97ecd5a4 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/array-stuff.bz2 5f82d16efbb7937a0ee07804d8cf26a5 1517186356
-obj /usr/share/doc/bash-4.4_p12/examples/functions/inetaddr.bz2 318ad46fd3c051ac32623d4f386950cb 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/sort-pos-params.bz2 bb2bef9592ee23b9d01dba8cc7e3e47e 1517186357
-obj /usr/share/doc/bash-4.4_p12/examples/functions/csh-compat.bz2 937abfdccff9f174a2030bcc13fd44e7 1517186356
-obj /usr/share/doc/bash-4.4_p12/ChangeLog.bz2 18be01005cfbe3a8ec3ade7f826510dc 1517186357
+obj /usr/share/doc/bash-4.4_p12/examples/functions/inpath.bz2 88d05a53bfef78a95059749323922f16 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/which.bz2 68eea559a04e2e3343e677b2ec7924e3 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/ksh-cd.bz2 aadfac8743644e7ece5e7e03d2ea5826 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/substr2.bz2 6b9e6ac40228f015bb8e022a6a94574a 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/fact.bz2 c1408addfe206758cfce75c433fff817 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/shcat b66d2256006f8176af5f7fc97c61af78 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/isnum2.bz2 47f8f7e8c7ea48535806e5b1b5f7f6fa 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/array-to-string.bz2 83d823dc8f4d8139472f7f7102e16b53 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/autoload.v2.bz2 4262cdaa47e4180427260fa4705edf2b 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/whatis.bz2 6c314271c7c5389aa1b70064e7ec5075 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/seq2.bz2 7ec4b1a42a5fa497f0237cd3e7448ac9 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/func.bz2 2543f6a961f277c76f3c7d31df0829dd 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/kshenv.bz2 588b5c6a874e02e5e96b1bf74e23d5c6 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/shcat2.bz2 9e891fb102a7d6bb532909a68760f1d3 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/autoload.bz2 0115d4e930b92c844df35c8d6db7d63b 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/fstty.bz2 192283427366313d368faf5d1d2850cd 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/whence.bz2 cabae0af578287c47685400fda346fc7 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/basename.bz2 ebe92d0ce087da6baa9a1c3f4e7fd00f 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/seq.bz2 3cf929e9df448ff2453c32afe9734fbb 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/ksh-compat-test.bz2 663f1a460185ad3c3290b18c9a51ddb1 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/notify.bash.bz2 d84c8a8fc20a6a80064959f322783f5c 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/login 76c6f826cf49808988a1bb4660a55482 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/external.bz2 76785353f247dc8833ed7ca703b8f7a1 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/dirstack.bz2 596727940e97e271b1b991437a2e6bd2 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/autoload.v3.bz2 44501c28ac84e9c01dc2d09d721408db 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/exitstat.bz2 067498c491298338e978f43b51950d16 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/dirname.bz2 20f50029d180d866d7064f311c9eac0b 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/substr.bz2 a8e36caeac6e0bb0222777d7bc9c825a 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/isvalidip.bz2 73063193e496ec6a0323f71b97ecd5a4 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/array-stuff.bz2 5f82d16efbb7937a0ee07804d8cf26a5 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/inetaddr.bz2 318ad46fd3c051ac32623d4f386950cb 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/sort-pos-params.bz2 bb2bef9592ee23b9d01dba8cc7e3e47e 1544490728
+obj /usr/share/doc/bash-4.4_p12/examples/functions/csh-compat.bz2 937abfdccff9f174a2030bcc13fd44e7 1544490728
+obj /usr/share/doc/bash-4.4_p12/ChangeLog.bz2 18be01005cfbe3a8ec3ade7f826510dc 1544490729
 dir /usr/share/locale
 dir /usr/share/locale/sl
 dir /usr/share/locale/sl/LC_MESSAGES
-obj /usr/share/locale/sl/LC_MESSAGES/bash.mo 70863c54e2afd14279ef56533839a348 1517186355
+obj /usr/share/locale/sl/LC_MESSAGES/bash.mo 70863c54e2afd14279ef56533839a348 1544490725
 dir /usr/share/locale/hu
 dir /usr/share/locale/hu/LC_MESSAGES
-obj /usr/share/locale/hu/LC_MESSAGES/bash.mo d894f16d5c3d1df6ee890acd1fb68bdd 1517186355
+obj /usr/share/locale/hu/LC_MESSAGES/bash.mo d894f16d5c3d1df6ee890acd1fb68bdd 1544490725
 dir /usr/share/locale/uk
 dir /usr/share/locale/uk/LC_MESSAGES
-obj /usr/share/locale/uk/LC_MESSAGES/bash.mo bedd282c9d1c91979a0ca61b556283ce 1517186355
+obj /usr/share/locale/uk/LC_MESSAGES/bash.mo bedd282c9d1c91979a0ca61b556283ce 1544490725
 dir /usr/share/locale/nl
 dir /usr/share/locale/nl/LC_MESSAGES
-obj /usr/share/locale/nl/LC_MESSAGES/bash.mo 9e46ff47323e90ae06a3d6bca048272e 1517186355
+obj /usr/share/locale/nl/LC_MESSAGES/bash.mo 9e46ff47323e90ae06a3d6bca048272e 1544490725
 dir /usr/share/locale/sr
 dir /usr/share/locale/sr/LC_MESSAGES
-obj /usr/share/locale/sr/LC_MESSAGES/bash.mo 123101974934c1739603380ff64c34fb 1517186355
+obj /usr/share/locale/sr/LC_MESSAGES/bash.mo 123101974934c1739603380ff64c34fb 1544490725
 dir /usr/share/locale/tr
 dir /usr/share/locale/tr/LC_MESSAGES
-obj /usr/share/locale/tr/LC_MESSAGES/bash.mo 9263814b39d2c82190f73dc8e53873b5 1517186355
+obj /usr/share/locale/tr/LC_MESSAGES/bash.mo 9263814b39d2c82190f73dc8e53873b5 1544490725
 dir /usr/share/locale/it
 dir /usr/share/locale/it/LC_MESSAGES
-obj /usr/share/locale/it/LC_MESSAGES/bash.mo e4cd256316092bc484fc7c1643b0642b 1517186355
+obj /usr/share/locale/it/LC_MESSAGES/bash.mo e4cd256316092bc484fc7c1643b0642b 1544490725
 dir /usr/share/locale/bg
 dir /usr/share/locale/bg/LC_MESSAGES
-obj /usr/share/locale/bg/LC_MESSAGES/bash.mo 5fa98a9e7839eaffb678029b63d29ac2 1517186355
+obj /usr/share/locale/bg/LC_MESSAGES/bash.mo 5fa98a9e7839eaffb678029b63d29ac2 1544490725
 dir /usr/share/locale/id
 dir /usr/share/locale/id/LC_MESSAGES
-obj /usr/share/locale/id/LC_MESSAGES/bash.mo 2e3a6b6569e3d63dbee7ccb27369d919 1517186355
+obj /usr/share/locale/id/LC_MESSAGES/bash.mo 2e3a6b6569e3d63dbee7ccb27369d919 1544490725
 dir /usr/share/locale/af
 dir /usr/share/locale/af/LC_MESSAGES
-obj /usr/share/locale/af/LC_MESSAGES/bash.mo 41c37d8a87fef0c492736c69719e6c6d 1517186355
+obj /usr/share/locale/af/LC_MESSAGES/bash.mo 41c37d8a87fef0c492736c69719e6c6d 1544490725
 dir /usr/share/locale/pt_BR
 dir /usr/share/locale/pt_BR/LC_MESSAGES
-obj /usr/share/locale/pt_BR/LC_MESSAGES/bash.mo e4b8c7f219da7133b54651397ae9492e 1517186355
+obj /usr/share/locale/pt_BR/LC_MESSAGES/bash.mo e4b8c7f219da7133b54651397ae9492e 1544490725
 dir /usr/share/locale/de
 dir /usr/share/locale/de/LC_MESSAGES
-obj /usr/share/locale/de/LC_MESSAGES/bash.mo 99ac10426e2a7f53f466132a416c3c74 1517186355
+obj /usr/share/locale/de/LC_MESSAGES/bash.mo 99ac10426e2a7f53f466132a416c3c74 1544490725
 dir /usr/share/locale/es
 dir /usr/share/locale/es/LC_MESSAGES
-obj /usr/share/locale/es/LC_MESSAGES/bash.mo 904fe5b6516f8f826221189a2fe441c9 1517186355
+obj /usr/share/locale/es/LC_MESSAGES/bash.mo 904fe5b6516f8f826221189a2fe441c9 1544490725
 dir /usr/share/locale/nb
 dir /usr/share/locale/nb/LC_MESSAGES
-obj /usr/share/locale/nb/LC_MESSAGES/bash.mo 63bb59bf3116e89f6a0de715b13bee2d 1517186355
+obj /usr/share/locale/nb/LC_MESSAGES/bash.mo 63bb59bf3116e89f6a0de715b13bee2d 1544490725
 dir /usr/share/locale/ca
 dir /usr/share/locale/ca/LC_MESSAGES
-obj /usr/share/locale/ca/LC_MESSAGES/bash.mo f8f6318563af78500bdcd343da9fb5bd 1517186355
+obj /usr/share/locale/ca/LC_MESSAGES/bash.mo f8f6318563af78500bdcd343da9fb5bd 1544490725
 dir /usr/share/locale/vi
 dir /usr/share/locale/vi/LC_MESSAGES
-obj /usr/share/locale/vi/LC_MESSAGES/bash.mo f5358a7d46ab199cd60a1092e50ed51a 1517186355
+obj /usr/share/locale/vi/LC_MESSAGES/bash.mo f5358a7d46ab199cd60a1092e50ed51a 1544490725
 dir /usr/share/locale/hr
 dir /usr/share/locale/hr/LC_MESSAGES
-obj /usr/share/locale/hr/LC_MESSAGES/bash.mo 37b44cc4f316c9caa93d528481d33101 1517186355
+obj /usr/share/locale/hr/LC_MESSAGES/bash.mo 37b44cc4f316c9caa93d528481d33101 1544490725
 dir /usr/share/locale/ja
 dir /usr/share/locale/ja/LC_MESSAGES
-obj /usr/share/locale/ja/LC_MESSAGES/bash.mo dd347d2692940ec86da0997939c92456 1517186355
+obj /usr/share/locale/ja/LC_MESSAGES/bash.mo dd347d2692940ec86da0997939c92456 1544490725
 dir /usr/share/locale/ru
 dir /usr/share/locale/ru/LC_MESSAGES
-obj /usr/share/locale/ru/LC_MESSAGES/bash.mo 41500366236f08a546b04089e15eb7ac 1517186355
+obj /usr/share/locale/ru/LC_MESSAGES/bash.mo 41500366236f08a546b04089e15eb7ac 1544490725
 dir /usr/share/locale/sk
 dir /usr/share/locale/sk/LC_MESSAGES
-obj /usr/share/locale/sk/LC_MESSAGES/bash.mo da1a183b7424ed2763e4b57cca9f81c5 1517186355
+obj /usr/share/locale/sk/LC_MESSAGES/bash.mo da1a183b7424ed2763e4b57cca9f81c5 1544490725
 dir /usr/share/locale/et
 dir /usr/share/locale/et/LC_MESSAGES
-obj /usr/share/locale/et/LC_MESSAGES/bash.mo 9021bbbc713985bdf7a083e29e0bf895 1517186355
+obj /usr/share/locale/et/LC_MESSAGES/bash.mo 9021bbbc713985bdf7a083e29e0bf895 1544490725
 dir /usr/share/locale/ga
 dir /usr/share/locale/ga/LC_MESSAGES
-obj /usr/share/locale/ga/LC_MESSAGES/bash.mo cba1736115ba3cfca171bd107a5e15c8 1517186355
+obj /usr/share/locale/ga/LC_MESSAGES/bash.mo cba1736115ba3cfca171bd107a5e15c8 1544490725
 dir /usr/share/locale/zh_CN
 dir /usr/share/locale/zh_CN/LC_MESSAGES
-obj /usr/share/locale/zh_CN/LC_MESSAGES/bash.mo 982f68ff89ba75cb1a26ee4b1576a77e 1517186355
+obj /usr/share/locale/zh_CN/LC_MESSAGES/bash.mo 982f68ff89ba75cb1a26ee4b1576a77e 1544490725
 dir /usr/share/locale/eo
 dir /usr/share/locale/eo/LC_MESSAGES
-obj /usr/share/locale/eo/LC_MESSAGES/bash.mo f73eab965f06f39bebeebea9823dbd65 1517186355
+obj /usr/share/locale/eo/LC_MESSAGES/bash.mo f73eab965f06f39bebeebea9823dbd65 1544490725
 dir /usr/share/locale/el
 dir /usr/share/locale/el/LC_MESSAGES
-obj /usr/share/locale/el/LC_MESSAGES/bash.mo bdf88cf8bf58ac0e68e06d875f8e9f9f 1517186355
+obj /usr/share/locale/el/LC_MESSAGES/bash.mo bdf88cf8bf58ac0e68e06d875f8e9f9f 1544490725
 dir /usr/share/locale/fr
 dir /usr/share/locale/fr/LC_MESSAGES
-obj /usr/share/locale/fr/LC_MESSAGES/bash.mo c83ca2e7b7f1e26e0ed099f2954d81ca 1517186355
+obj /usr/share/locale/fr/LC_MESSAGES/bash.mo c83ca2e7b7f1e26e0ed099f2954d81ca 1544490725
 dir /usr/share/locale/zh_TW
 dir /usr/share/locale/zh_TW/LC_MESSAGES
-obj /usr/share/locale/zh_TW/LC_MESSAGES/bash.mo 3be163bd6ff115f158152008b38ac969 1517186355
+obj /usr/share/locale/zh_TW/LC_MESSAGES/bash.mo 3be163bd6ff115f158152008b38ac969 1544490725
 dir /usr/share/locale/lt
 dir /usr/share/locale/lt/LC_MESSAGES
-obj /usr/share/locale/lt/LC_MESSAGES/bash.mo d7f88bb2d27036603108ca63a1242877 1517186355
+obj /usr/share/locale/lt/LC_MESSAGES/bash.mo d7f88bb2d27036603108ca63a1242877 1544490725
 dir /usr/share/locale/ro
 dir /usr/share/locale/ro/LC_MESSAGES
-obj /usr/share/locale/ro/LC_MESSAGES/bash.mo 081cb1677de385da8f8f6a33530a1e27 1517186355
+obj /usr/share/locale/ro/LC_MESSAGES/bash.mo 081cb1677de385da8f8f6a33530a1e27 1544490725
 dir /usr/share/locale/gl
 dir /usr/share/locale/gl/LC_MESSAGES
-obj /usr/share/locale/gl/LC_MESSAGES/bash.mo 09bf9ea4c06650fec7297d652d452072 1517186355
+obj /usr/share/locale/gl/LC_MESSAGES/bash.mo 09bf9ea4c06650fec7297d652d452072 1544490725
 dir /usr/share/locale/da
 dir /usr/share/locale/da/LC_MESSAGES
-obj /usr/share/locale/da/LC_MESSAGES/bash.mo 17911605b0dfce2cbcec904385562bc5 1517186355
+obj /usr/share/locale/da/LC_MESSAGES/bash.mo 17911605b0dfce2cbcec904385562bc5 1544490725
 dir /usr/share/locale/cs
 dir /usr/share/locale/cs/LC_MESSAGES
-obj /usr/share/locale/cs/LC_MESSAGES/bash.mo 0d37f682297cf2058d299c9a609b1776 1517186355
+obj /usr/share/locale/cs/LC_MESSAGES/bash.mo 0d37f682297cf2058d299c9a609b1776 1544490725
 dir /usr/share/locale/pl
 dir /usr/share/locale/pl/LC_MESSAGES
-obj /usr/share/locale/pl/LC_MESSAGES/bash.mo f29f6495aa95493baa76c3db6c44a46b 1517186355
+obj /usr/share/locale/pl/LC_MESSAGES/bash.mo f29f6495aa95493baa76c3db6c44a46b 1544490725
 dir /usr/share/locale/fi
 dir /usr/share/locale/fi/LC_MESSAGES
-obj /usr/share/locale/fi/LC_MESSAGES/bash.mo 93ecb14eb6818e7ec4d0e71ce8dfb46b 1517186355
+obj /usr/share/locale/fi/LC_MESSAGES/bash.mo 93ecb14eb6818e7ec4d0e71ce8dfb46b 1544490725
 dir /usr/share/locale/sv
 dir /usr/share/locale/sv/LC_MESSAGES
-obj /usr/share/locale/sv/LC_MESSAGES/bash.mo b66c7adfda290a08b3e72ac6f9cd8945 1517186355
+obj /usr/share/locale/sv/LC_MESSAGES/bash.mo b66c7adfda290a08b3e72ac6f9cd8945 1544490725
 dir /usr/share/info
-obj /usr/share/info/bash.info.bz2 e96f21c53fd71a8b9f392eae611c8393 1517186355
-sym /usr/share/info/bashref.info.bz2 -> bash.info.bz2 1517186363
+obj /usr/share/info/bash.info.bz2 e96f21c53fd71a8b9f392eae611c8393 1544490725
+sym /usr/share/info/bashref.info.bz2 -> bash.info.bz2 1544490745
 dir /usr/share/man
 dir /usr/share/man/man1
-obj /usr/share/man/man1/bashbug.1.bz2 214100b4439c2b3fddc8afcdd176afc4 1517186357
-obj /usr/share/man/man1/bash.1.bz2 167fbcd505b4ab3517c1f902e4e7b0fd 1517186357
-obj /usr/share/man/man1/rbash.1.bz2 c8370af7d2cba6984a624f80a9f75bb1 1517186357
-obj /usr/share/man/man1/builtins.1.bz2 5a135e368c236f17d1d98f8b3f170898 1517186357
+obj /usr/share/man/man1/bashbug.1.bz2 214100b4439c2b3fddc8afcdd176afc4 1544490729
+obj /usr/share/man/man1/bash.1.bz2 167fbcd505b4ab3517c1f902e4e7b0fd 1544490729
+obj /usr/share/man/man1/rbash.1.bz2 c8370af7d2cba6984a624f80a9f75bb1 1544490729
+obj /usr/share/man/man1/builtins.1.bz2 5a135e368c236f17d1d98f8b3f170898 1544490729
