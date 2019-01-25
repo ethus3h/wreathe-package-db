@@ -1,0 +1,476 @@
+dir /lib
+dir /lib/udev
+obj /lib/udev/vdev_id ab18d8f3a728d9aa24eca99778c7abe2 1548373723
+obj /lib/udev/zvol_id bd2545c09106c2512f3651ac9103faef 1548373725
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/60-zvol.rules d6510b456fd0cc18124f75bd257530a6 1548373716
+obj /lib/udev/rules.d/69-vdev.rules 767fb07735f067152ca55f14934253c7 1548373716
+obj /lib/udev/rules.d/90-zfs.rules 45afd1e65df3c7c24a67e782943fdad5 1548373716
+dir /lib/systemd
+dir /lib/systemd/system
+obj /lib/systemd/system/zfs-import.target e3db397ff72dc675305fff8a3b21d593 1548373716
+obj /lib/systemd/system/zfs-share.service 3425e49e3b9280930d4238e8a6947234 1548373716
+obj /lib/systemd/system/zfs-zed.service c96dac1ec4695095fdb5bb35634945f6 1548373716
+obj /lib/systemd/system/zfs-import-cache.service 78174f4e0df23f05ed4f05ced3e94a08 1548373716
+obj /lib/systemd/system/zfs-mount.service 279c968217939350d519b04e21133c99 1548373716
+obj /lib/systemd/system/zfs.target 6575bf500ee3834a3b28310788116f8b 1548373716
+obj /lib/systemd/system/zfs.service 4d66d3d1859053b7ff12df883a9cade9 1548373724
+obj /lib/systemd/system/zfs-import-scan.service c539570449de154a56944728efded196 1548373716
+dir /lib/systemd/system-preset
+obj /lib/systemd/system-preset/50-zfs.preset b1b8afaff381170628085c54d1d4a37a 1548373716
+dir /lib64
+sym /lib64/libzfs.so.2 -> libzfs.so.2.0.0 1548373732
+sym /lib64/libnvpair.so.1 -> libnvpair.so.1.0.1 1548373732
+obj /lib64/libnvpair.so.1.0.1 df98ccc429c94c6dee7fd7a46767d515 1548373725
+sym /lib64/libzpool.so.2 -> libzpool.so.2.0.0 1548373732
+obj /lib64/libzpool.so.2.0.0 383ed5d41932f936bf70772d91e29666 1548373725
+obj /lib64/libzfs_core.so.1.0.0 c3c75027c46c854fca13412d117b80d7 1548373725
+obj /lib64/libzfs.so.2.0.0 c6d0a1181349937d579b86c3e596fd9f 1548373725
+sym /lib64/libzfs_core.so.1 -> libzfs_core.so.1.0.0 1548373732
+obj /lib64/libuutil.so.1.0.1 8e18c7f7ffb9890fbcc6a64bea116e15 1548373725
+sym /lib64/libuutil.so.1 -> libuutil.so.1.0.1 1548373732
+dir /etc
+dir /etc/init.d
+obj /etc/init.d/zfs-share 7d0224439051e2d5b8e54a906bde614d 1548373716
+obj /etc/init.d/zfs-import dab42e739381fe9e01d382da1f823369 1548373716
+obj /etc/init.d/zfs-zed 09afdda621f63f81f38a723790bca5e3 1548373716
+obj /etc/init.d/zfs-mount 5c235ec583e083d0eac63c5060856c42 1548373716
+dir /etc/zfs
+dir /etc/zfs/zed.d
+sym /etc/zfs/zed.d/statechange-notify.sh -> /usr/libexec/zfs/zed.d/statechange-notify.sh 1548373732
+sym /etc/zfs/zed.d/scrub_finish-notify.sh -> /usr/libexec/zfs/zed.d/scrub_finish-notify.sh 1548373732
+sym /etc/zfs/zed.d/statechange-led.sh -> /usr/libexec/zfs/zed.d/statechange-led.sh 1548373732
+sym /etc/zfs/zed.d/pool_import-led.sh -> /usr/libexec/zfs/zed.d/pool_import-led.sh 1548373732
+obj /etc/zfs/zed.d/zed-functions.sh e8d50bf9e8b13dd17fd1124ec694d01c 1548373723
+sym /etc/zfs/zed.d/all-syslog.sh -> /usr/libexec/zfs/zed.d/all-syslog.sh 1548373732
+sym /etc/zfs/zed.d/vdev_attach-led.sh -> /usr/libexec/zfs/zed.d/vdev_attach-led.sh 1548373732
+sym /etc/zfs/zed.d/resilver_finish-notify.sh -> /usr/libexec/zfs/zed.d/resilver_finish-notify.sh 1548373732
+sym /etc/zfs/zed.d/resilver_finish-start-scrub.sh -> /usr/libexec/zfs/zed.d/resilver_finish-start-scrub.sh 1548373732
+sym /etc/zfs/zed.d/data-notify.sh -> /usr/libexec/zfs/zed.d/data-notify.sh 1548373732
+sym /etc/zfs/zed.d/vdev_clear-led.sh -> /usr/libexec/zfs/zed.d/vdev_clear-led.sh 1548373732
+obj /etc/zfs/zed.d/zed.rc 050e088c394cb4fff77103911c2e6292 1548373723
+obj /etc/zfs/zfs-functions b71459818f6a0ef27aead3a4c2de53d2 1548373716
+obj /etc/zfs/vdev_id.conf.sas_direct.example 36c2376a1a1bdc5cc6bcc6c4899633a2 1548373716
+obj /etc/zfs/vdev_id.conf.sas_switch.example 212b46da696e40e79ce426b22b98137b 1548373716
+obj /etc/zfs/vdev_id.conf.alias.example 9faedd7e47ddb330eddcd56ac7809949 1548373716
+dir /etc/zfs/zpool.d
+sym /etc/zfs/zpool.d/test_progress -> /usr/libexec/zfs/zpool.d/test_progress 1548373732
+sym /etc/zfs/zpool.d/rep_ucor -> /usr/libexec/zfs/zpool.d/rep_ucor 1548373732
+sym /etc/zfs/zpool.d/media -> /usr/libexec/zfs/zpool.d/media 1548373732
+sym /etc/zfs/zpool.d/upath -> /usr/libexec/zfs/zpool.d/upath 1548373732
+sym /etc/zfs/zpool.d/smart_test -> /usr/libexec/zfs/zpool.d/smart_test 1548373732
+sym /etc/zfs/zpool.d/test_status -> /usr/libexec/zfs/zpool.d/test_status 1548373732
+sym /etc/zfs/zpool.d/model -> /usr/libexec/zfs/zpool.d/model 1548373732
+sym /etc/zfs/zpool.d/ata_err -> /usr/libexec/zfs/zpool.d/ata_err 1548373732
+sym /etc/zfs/zpool.d/nonmed -> /usr/libexec/zfs/zpool.d/nonmed 1548373732
+sym /etc/zfs/zpool.d/iostat -> /usr/libexec/zfs/zpool.d/iostat 1548373732
+sym /etc/zfs/zpool.d/hours_on -> /usr/libexec/zfs/zpool.d/hours_on 1548373732
+sym /etc/zfs/zpool.d/serial -> /usr/libexec/zfs/zpool.d/serial 1548373732
+sym /etc/zfs/zpool.d/realloc -> /usr/libexec/zfs/zpool.d/realloc 1548373732
+sym /etc/zfs/zpool.d/temp -> /usr/libexec/zfs/zpool.d/temp 1548373732
+sym /etc/zfs/zpool.d/nvme_err -> /usr/libexec/zfs/zpool.d/nvme_err 1548373732
+sym /etc/zfs/zpool.d/encdev -> /usr/libexec/zfs/zpool.d/encdev 1548373732
+sym /etc/zfs/zpool.d/slaves -> /usr/libexec/zfs/zpool.d/slaves 1548373732
+sym /etc/zfs/zpool.d/vendor -> /usr/libexec/zfs/zpool.d/vendor 1548373732
+sym /etc/zfs/zpool.d/slot -> /usr/libexec/zfs/zpool.d/slot 1548373732
+sym /etc/zfs/zpool.d/locate_led -> /usr/libexec/zfs/zpool.d/locate_led 1548373732
+sym /etc/zfs/zpool.d/fault_led -> /usr/libexec/zfs/zpool.d/fault_led 1548373732
+sym /etc/zfs/zpool.d/r_ucor -> /usr/libexec/zfs/zpool.d/r_ucor 1548373732
+sym /etc/zfs/zpool.d/lsblk -> /usr/libexec/zfs/zpool.d/lsblk 1548373732
+sym /etc/zfs/zpool.d/test_ended -> /usr/libexec/zfs/zpool.d/test_ended 1548373732
+sym /etc/zfs/zpool.d/smart -> /usr/libexec/zfs/zpool.d/smart 1548373732
+sym /etc/zfs/zpool.d/size -> /usr/libexec/zfs/zpool.d/size 1548373732
+sym /etc/zfs/zpool.d/smartx -> /usr/libexec/zfs/zpool.d/smartx 1548373732
+sym /etc/zfs/zpool.d/w_proc -> /usr/libexec/zfs/zpool.d/w_proc 1548373732
+sym /etc/zfs/zpool.d/enc -> /usr/libexec/zfs/zpool.d/enc 1548373732
+sym /etc/zfs/zpool.d/label -> /usr/libexec/zfs/zpool.d/label 1548373732
+sym /etc/zfs/zpool.d/test_type -> /usr/libexec/zfs/zpool.d/test_type 1548373732
+sym /etc/zfs/zpool.d/iostat-1s -> /usr/libexec/zfs/zpool.d/iostat-1s 1548373732
+sym /etc/zfs/zpool.d/defect -> /usr/libexec/zfs/zpool.d/defect 1548373732
+sym /etc/zfs/zpool.d/ses -> /usr/libexec/zfs/zpool.d/ses 1548373732
+sym /etc/zfs/zpool.d/health -> /usr/libexec/zfs/zpool.d/health 1548373732
+sym /etc/zfs/zpool.d/pwr_cyc -> /usr/libexec/zfs/zpool.d/pwr_cyc 1548373732
+sym /etc/zfs/zpool.d/off_ucor -> /usr/libexec/zfs/zpool.d/off_ucor 1548373732
+sym /etc/zfs/zpool.d/r_proc -> /usr/libexec/zfs/zpool.d/r_proc 1548373732
+sym /etc/zfs/zpool.d/cmd_to -> /usr/libexec/zfs/zpool.d/cmd_to 1548373732
+sym /etc/zfs/zpool.d/pend_sec -> /usr/libexec/zfs/zpool.d/pend_sec 1548373732
+sym /etc/zfs/zpool.d/w_ucor -> /usr/libexec/zfs/zpool.d/w_ucor 1548373732
+sym /etc/zfs/zpool.d/iostat-10s -> /usr/libexec/zfs/zpool.d/iostat-10s 1548373732
+obj /etc/zfs/vdev_id.conf.multipath.example 52a130efc2fb368156419045686a696c 1548373716
+dir /etc/sudoers.d
+obj /etc/sudoers.d/zfs 52b9d065b78b313aa33f09c50c9e5483 1548373716
+dir /etc/conf.d
+obj /etc/conf.d/zfs 5483fced1e3de63c0d35f433131c4f26 1548373716
+dir /bin
+obj /bin/arc_summary.py eb70618033ecdd837358fba540df5bbe 1548373723
+obj /bin/zgenhostid ac460378988d0360e5c08daf35babe35 1548373723
+obj /bin/arcstat.py 551a937a6063e5e7e1282920aa06add4 1548373723
+obj /bin/dbufstat.py f9c1559382f7971b79dd139de5f64d93 1548373723
+obj /bin/raidz_test bd717c1802758a29b4e16d845a8c35f9 1548373725
+dir /sbin
+obj /sbin/zpios 1892df4f8f6959fa2082ffce20039efc 1548373725
+obj /sbin/zdb 8d46fb914901384da009f7692df1d1a3 1548373725
+obj /sbin/zpool 23d48149d22ec83b3ba595df570a2154 1548373725
+obj /sbin/zinject 8c072942121a4b08efa69d34005978d7 1548373725
+obj /sbin/mount.zfs 24ecb7967d2f2f1e60633eb790fd7d27 1548373725
+obj /sbin/zhack 3dc905a36144b5f9ff73e3a8eb636502 1548373725
+obj /sbin/ztest b30dfb277602e859b43a07cdaf2f44ce 1548373725
+obj /sbin/fsck.zfs edf37a4067b9fad92c3f4868423656a9 1548373723
+obj /sbin/zfs 1dad37f6e44240499f508292b0ff1bdc 1548373725
+obj /sbin/zed 5ab3609dcc10c67eb2bcb21b831fcf85 1548373725
+obj /sbin/zstreamdump 65959cefd484a7659c7fe88693d74edf 1548373725
+dir /usr
+dir /usr/lib
+dir /usr/lib/modules-load.d
+obj /usr/lib/modules-load.d/zfs.conf 4e615c836003bbd7ecd178e1be02eb1d 1548373716
+dir /usr/lib/dracut
+dir /usr/lib/dracut/modules.d
+dir /usr/lib/dracut/modules.d/90zfs
+obj /usr/lib/dracut/modules.d/90zfs/module-setup.sh d5294f49fdb2771f9ad1789cdaaf12c7 1548373723
+obj /usr/lib/dracut/modules.d/90zfs/zfs-lib.sh e7907bbf17eba5b32d0cf5fff8f6fc1b 1548373723
+obj /usr/lib/dracut/modules.d/90zfs/zfs-generator.sh 85085a40cb61aad7383391963df0297a 1548373723
+obj /usr/lib/dracut/modules.d/90zfs/zfs-needshutdown.sh 022be4af1ae1a165ea93de3ead6d31f2 1548373723
+obj /usr/lib/dracut/modules.d/90zfs/export-zfs.sh c6e537ccf10ca07ee392272292bfedc2 1548373723
+obj /usr/lib/dracut/modules.d/90zfs/parse-zfs.sh 5c7771709101afcbf5026b672964af38 1548373723
+obj /usr/lib/dracut/modules.d/90zfs/mount-zfs.sh 671347c2f1ad7bb48dc728f8eebc320a 1548373723
+dir /usr/lib/dracut/modules.d/02zfsexpandknowledge
+obj /usr/lib/dracut/modules.d/02zfsexpandknowledge/module-setup.sh 5c4274dae7decddccb52d47a67128997 1548373723
+dir /usr/lib64
+obj /usr/lib64/libzfs_core.so c2a7f5a138ea46ac4a5c9e02595ff20a 1548373723
+obj /usr/lib64/libzpool.so 91ac924365edf9ff552be9d15abaf966 1548373723
+obj /usr/lib64/libuutil.so d4c6dfc3ec68d8cad2fa68ab391fe01e 1548373723
+obj /usr/lib64/libnvpair.so 097575865fe82931da06df9db1f87735 1548373723
+obj /usr/lib64/libzfs.so 02f6686cc027d55b5066d95954bb9df1 1548373723
+dir /usr/libexec
+obj /usr/libexec/zfs-init.sh fdb7bc851ade1ee2452a8c8ae5f1acee 1548373724
+dir /usr/libexec/zfs
+dir /usr/libexec/zfs/zed.d
+obj /usr/libexec/zfs/zed.d/all-debug.sh e7181c2257086e9d8fb834cdfcec3bb9 1548373723
+obj /usr/libexec/zfs/zed.d/statechange-notify.sh 51a880be9d3d735095e8da1d4453dd58 1548373723
+obj /usr/libexec/zfs/zed.d/scrub_finish-notify.sh bddff250b950d5a83df57149ada77c1c 1548373723
+obj /usr/libexec/zfs/zed.d/statechange-led.sh b548e07ce491f26833c8755832da0bcb 1548373723
+obj /usr/libexec/zfs/zed.d/pool_import-led.sh b548e07ce491f26833c8755832da0bcb 1548373723
+obj /usr/libexec/zfs/zed.d/all-syslog.sh dce2975882b462bd99c7d95bbc386fac 1548373723
+obj /usr/libexec/zfs/zed.d/vdev_attach-led.sh b548e07ce491f26833c8755832da0bcb 1548373723
+obj /usr/libexec/zfs/zed.d/resilver_finish-notify.sh bddff250b950d5a83df57149ada77c1c 1548373723
+obj /usr/libexec/zfs/zed.d/resilver_finish-start-scrub.sh dd6e83d9c7008437c9042617f27c8070 1548373723
+obj /usr/libexec/zfs/zed.d/generic-notify.sh 66e6ae57fd0c6c332a55ec56f6e50be6 1548373723
+obj /usr/libexec/zfs/zed.d/data-notify.sh 2645fa1ae5cc47beedf8f64752229d4e 1548373723
+obj /usr/libexec/zfs/zed.d/vdev_clear-led.sh b548e07ce491f26833c8755832da0bcb 1548373723
+dir /usr/libexec/zfs/zpool.d
+obj /usr/libexec/zfs/zpool.d/test_progress c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/rep_ucor c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/media 77d6af7b91e9fa08ed657c6fa7b18b3a 1548373722
+obj /usr/libexec/zfs/zpool.d/upath 31a45e8c1e4e3bca949aed5796cbe80b 1548373722
+obj /usr/libexec/zfs/zpool.d/smart_test c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/test_status c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/model 68f487694e78e869e9243c11347aa2b0 1548373722
+obj /usr/libexec/zfs/zpool.d/ata_err c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/nonmed c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/iostat 87328c6f3e4fa941fea5685b078731c2 1548373722
+obj /usr/libexec/zfs/zpool.d/hours_on c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/serial c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/realloc c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/temp c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/nvme_err c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/encdev 749a6f11f38c1a8c895cf3f7534a7419 1548373722
+obj /usr/libexec/zfs/zpool.d/slaves 07459f73519665451b1b2c9510c95d06 1548373722
+obj /usr/libexec/zfs/zpool.d/vendor 68f487694e78e869e9243c11347aa2b0 1548373722
+obj /usr/libexec/zfs/zpool.d/slot 749a6f11f38c1a8c895cf3f7534a7419 1548373722
+obj /usr/libexec/zfs/zpool.d/locate_led 749a6f11f38c1a8c895cf3f7534a7419 1548373722
+obj /usr/libexec/zfs/zpool.d/fault_led 749a6f11f38c1a8c895cf3f7534a7419 1548373722
+obj /usr/libexec/zfs/zpool.d/r_ucor c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/lsblk 68f487694e78e869e9243c11347aa2b0 1548373722
+obj /usr/libexec/zfs/zpool.d/test_ended c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/smart c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/size 68f487694e78e869e9243c11347aa2b0 1548373722
+obj /usr/libexec/zfs/zpool.d/smartx c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/w_proc c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/enc 749a6f11f38c1a8c895cf3f7534a7419 1548373722
+obj /usr/libexec/zfs/zpool.d/label 68f487694e78e869e9243c11347aa2b0 1548373722
+obj /usr/libexec/zfs/zpool.d/test_type c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/iostat-1s 87328c6f3e4fa941fea5685b078731c2 1548373722
+obj /usr/libexec/zfs/zpool.d/defect c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/ses 749a6f11f38c1a8c895cf3f7534a7419 1548373722
+obj /usr/libexec/zfs/zpool.d/health c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/pwr_cyc c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/off_ucor c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/r_proc c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/cmd_to c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/pend_sec c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/w_ucor c94cda01d86d1d1dfb2998e874ede8a2 1548373722
+obj /usr/libexec/zfs/zpool.d/iostat-10s 87328c6f3e4fa941fea5685b078731c2 1548373722
+dir /usr/include
+dir /usr/include/libspl
+obj /usr/include/libspl/devid.h 92b0048f673472101f922ce5f672748a 1548373716
+obj /usr/include/libspl/tzfile.h 39efc8aaab8c7bc5377cadce40277f1e 1548373716
+obj /usr/include/libspl/stdlib.h cdcebbda139d42cfed9b30b370b0e505 1548373716
+obj /usr/include/libspl/assert.h 40373d5d8e18637b76b75a0a6fd52358 1548373716
+obj /usr/include/libspl/libdevinfo.h 5b37110ec20cbf41b102d942dddad0ac 1548373716
+obj /usr/include/libspl/libshare.h f6c2e52fcd6562d40343a1472595d685 1548373716
+dir /usr/include/libspl/rpc
+obj /usr/include/libspl/rpc/xdr.h b498262ad31d35cf3b0d96020f07b44a 1548373716
+obj /usr/include/libspl/sscanf.h 270c4f3ef6ff0165006ed545d42ac445 1548373716
+obj /usr/include/libspl/limits.h 107b7acf2448dc37520fc90b66886498 1548373716
+obj /usr/include/libspl/stdio.h 746c3a57a1b0b75760a62abeca902756 1548373716
+obj /usr/include/libspl/strings.h 85d4382dfd0bd22864f3fc1a16fa4ca6 1548373716
+obj /usr/include/libspl/attr.h 36889bc6f61bc8b11d2f038c8f960627 1548373716
+obj /usr/include/libspl/note.h 6589a4d90438eb1e5883fc7a9092bc38 1548373716
+dir /usr/include/libspl/ia32
+dir /usr/include/libspl/ia32/sys
+obj /usr/include/libspl/ia32/sys/asm_linkage.h f0882fdb4ee8be0ef78a43999e712594 1548373716
+obj /usr/include/libspl/string.h 39dc15a4b670cbfa8b28be0494c08410 1548373716
+obj /usr/include/libspl/locale.h bc5a8e620ed07013828abf03c717832f 1548373716
+obj /usr/include/libspl/umem.h 5788d61edfc33e103992a13a9a554678 1548373716
+obj /usr/include/libspl/ucred.h ceeb80ff8d251ab540c30bf12aae4989 1548373716
+obj /usr/include/libspl/thread.h 2d707d3df1c503c867ea8adc6c7c51b8 1548373716
+obj /usr/include/libspl/libgen.h d1402e746fe9f336b6ad99cff0a7f35e 1548373716
+obj /usr/include/libspl/atomic.h daf8e1eec9e457fee625404a6993b292 1548373716
+obj /usr/include/libspl/zone.h b844a8c0df2808d3f580cf5bef218ac7 1548373716
+obj /usr/include/libspl/unistd.h 27e620666e17c0a7a3e32008abfbd07c 1548373716
+obj /usr/include/libspl/statcommon.h 7ced51be34e854d8498379706b968a77 1548373716
+dir /usr/include/libspl/sys
+obj /usr/include/libspl/sys/types.h 9e7be5311307f8e4da30c1f5a28244e2 1548373716
+obj /usr/include/libspl/sys/param.h d8f19108d2313af30dc781e9f57192b3 1548373716
+obj /usr/include/libspl/sys/priv.h ced22dabf497748c4b05ea11781ac9cf 1548373716
+obj /usr/include/libspl/sys/processor.h 19f5e3af9771e37fad0ab33662315818 1548373716
+obj /usr/include/libspl/sys/uio.h 6f4e9fe700702cfdddad61bca2d10f37 1548373716
+obj /usr/include/libspl/sys/dklabel.h 3c2d5304e542585e4a2bde06b7614a19 1548373716
+obj /usr/include/libspl/sys/tzfile.h f6a28131ac6cc0a4b28a9785a1b59066 1548373716
+obj /usr/include/libspl/sys/stat.h 47da9e40f26b0fe5bdfb0ad5e197818b 1548373716
+obj /usr/include/libspl/sys/kstat.h e09d160c0860303638e428732c2c7230 1548373716
+obj /usr/include/libspl/sys/inttypes.h c7d2b6358dec2f184f1ff2268f4655df 1548373716
+obj /usr/include/libspl/sys/list_impl.h 575cdefb0df1e5c51af2ec680a2c44bb 1548373716
+obj /usr/include/libspl/sys/frame.h 2240acf4c4573df0daebab258f41ad6c 1548373716
+obj /usr/include/libspl/sys/mkdev.h d3947bc96036424945232adf9920852b 1548373716
+obj /usr/include/libspl/sys/vnode.h 937d4b6a44abc45f5abe380dd103fb99 1548373716
+obj /usr/include/libspl/sys/systeminfo.h 6eae829ff479251408c35179b9ebd750 1548373716
+obj /usr/include/libspl/sys/mount.h 56bd9c6405322a14a5aea1dac43c4039 1548373716
+obj /usr/include/libspl/sys/file.h b7cbaa7377749ccf935c2a0ff8fd228e 1548373716
+obj /usr/include/libspl/sys/bitmap.h 1724221da9389b68ca52a09da59ebb1e 1548373716
+obj /usr/include/libspl/sys/int_limits.h 38610d434a324dbbc5e7d09b8694d415 1548373716
+obj /usr/include/libspl/sys/va_list.h 3505bca6ce436e7d4131185572350971 1548373716
+obj /usr/include/libspl/sys/byteorder.h 400a9b4f20b3d6a4b8af3cea05d934ae 1548373716
+obj /usr/include/libspl/sys/signal.h 66cd34ac21c0456857f7803b2a1b9551 1548373716
+obj /usr/include/libspl/sys/kmem.h b018632cfe878acd444e1bc67e400e19 1548373716
+obj /usr/include/libspl/sys/varargs.h eaa97fab5d8bb12c0ec419f8475f342f 1548373716
+obj /usr/include/libspl/sys/isa_defs.h fa82c8e4ba2a22941406b17a21baa170 1548373716
+obj /usr/include/libspl/sys/types32.h ab28d9ed569fdb02774328345bb30537 1548373716
+obj /usr/include/libspl/sys/vtoc.h 189e3e22fa4d2ed17b7eecb58c08e3fc 1548373716
+obj /usr/include/libspl/sys/compress.h 16dd8a1a9b9f8a6bc356e02acc1b9229 1548373716
+obj /usr/include/libspl/sys/sunddi.h 0ccfa44146ef46183c1a26496853bdbe 1548373716
+obj /usr/include/libspl/sys/note.h 017657f4dd3e8c3a5f648d3effc49ee7 1548373716
+obj /usr/include/libspl/sys/policy.h a74ddf59d4137a1688f856132812d59d 1548373716
+obj /usr/include/libspl/sys/int_types.h dae58060525a2f8f1e4fb5e285a14b72 1548373716
+obj /usr/include/libspl/sys/systm.h 5b40136bba68ed4616dc58aa3722dee5 1548373716
+obj /usr/include/libspl/sys/list.h 9a76cd6bce14190c769f22cd7e1172af 1548373716
+obj /usr/include/libspl/sys/cred.h 32e22e7beb839cd23ef8bfa04d44fd44 1548373716
+obj /usr/include/libspl/sys/cmn_err.h f0ae9d4e984a3b4618925f51a4512ce1 1548373716
+obj /usr/include/libspl/sys/mhd.h a6dba6abc55651945c15cc5b128127ff 1548373716
+obj /usr/include/libspl/sys/dkio.h 753ee99257ededae6903a70cc4b4d069 1548373716
+obj /usr/include/libspl/sys/feature_tests.h 3c21d160a8ff8b82d2fdfbc9561f7bcf 1548373716
+obj /usr/include/libspl/sys/stack.h ab9432b9149c0fbdd3cc3a7bb8982067 1548373716
+obj /usr/include/libspl/sys/acl.h 23f35b7230f7ddce2a7258c7684caf18 1548373716
+obj /usr/include/libspl/sys/debug.h b4146e0105d8ff7031a0707f5873cd01 1548373716
+obj /usr/include/libspl/sys/poll.h 5bd37025ff4227456c68ef33494b951e 1548373716
+obj /usr/include/libspl/sys/errno.h e248fcb77b92071aab14ab9d30d148b8 1548373716
+obj /usr/include/libspl/sys/zone.h 18bce13eb819b095ecc5160d1672ddb4 1548373716
+obj /usr/include/libspl/sys/acl_impl.h 33e48c34fdeb6741e334dec3a89f73f0 1548373716
+obj /usr/include/libspl/sys/sysmacros.h f13cce7d01e3ac2c1e9171a307a6f357 1548373716
+obj /usr/include/libspl/sys/mnttab.h 40597f30e115fdade7e660d88b80874d 1548373716
+dir /usr/include/libspl/sys/dktp
+obj /usr/include/libspl/sys/dktp/fdisk.h 71ddf913a353b641523235f8212bc63b 1548373716
+obj /usr/include/libspl/sys/time.h 84f740988a55e39c274516d30d4a8bd1 1548373716
+obj /usr/include/libspl/sys/stropts.h 0bec1f19336f56f972edd0ae7df769d2 1548373716
+obj /usr/include/libspl/sys/callb.h cc6658369e3651ec6468de621d1b889a 1548373716
+obj /usr/include/libspl/stropts.h cba77a32a42cb2802420559ac1f4110f 1548373716
+obj /usr/include/libspl/synch.h 9930e2c29b64e945cdad5a9300f2b521 1548373716
+dir /usr/include/libzfs
+dir /usr/include/libzfs/linux
+obj /usr/include/libzfs/libzfs_impl.h a1a08e4829e3322baebc914f1580d263 1548373716
+obj /usr/include/libzfs/zpios-ctl.h f879dc57ccb60b702e35a26a91be5dd7 1548373716
+obj /usr/include/libzfs/zfs_prop.h dd2a6578ce5ac2db96715237a271d8f6 1548373716
+obj /usr/include/libzfs/libzfs_core.h 2a1a1b065d78b1b630457dfe037be6a6 1548373716
+obj /usr/include/libzfs/zfs_deleg.h 7f5c884a22a16bbd9ab4101ae7199dfb 1548373716
+obj /usr/include/libzfs/zfeature_common.h 0f2cb7ef7240f3ec635c4a0b9a917d4c 1548373716
+obj /usr/include/libzfs/zfs_fletcher.h 7cb3185a98ecee446f326b9d1c07609d 1548373716
+obj /usr/include/libzfs/libuutil.h e333210e666dc4fd287afb923e91dc49 1548373716
+obj /usr/include/libzfs/libzfs.h c43f95f92b368ac222babe3de1cd62bb 1548373716
+obj /usr/include/libzfs/zfs_comutil.h 86913df884f7d668ff5b739d421c1206 1548373716
+obj /usr/include/libzfs/libnvpair.h dbb77fcf8e828e3e378c68069ed9bad1 1548373716
+obj /usr/include/libzfs/zfs_namecheck.h 26a80f793d457aab930d3a2db320e60b 1548373716
+obj /usr/include/libzfs/libuutil_common.h 5c8b3ece56ca123ed80cf77d07f8c238 1548373716
+dir /usr/include/libzfs/sys
+obj /usr/include/libzfs/sys/xvattr.h e30045d71cebc688bbff93d5e453e884 1548373716
+obj /usr/include/libzfs/sys/spa_checksum.h 7ba4c58889960638e208dafd4b096442 1548373716
+obj /usr/include/libzfs/sys/trace_txg.h 3ee957336515ab83fd235c7f627b4bd1 1548373716
+obj /usr/include/libzfs/sys/dmu_tx.h 4e53c81bd2c668c7459798595fc01adb 1548373716
+obj /usr/include/libzfs/sys/txg.h 17278cfac833d9afda4b2c43807ba50a 1548373716
+obj /usr/include/libzfs/sys/zap_impl.h 5073bc33f5cd3c244730d216cb27b8dc 1548373716
+obj /usr/include/libzfs/sys/zfs_vfsops.h cfd5db2f210d60a4a224f834c1ed3190 1548373716
+obj /usr/include/libzfs/sys/trace.h 49c7740266576f24afc814fd98de9604 1548373716
+obj /usr/include/libzfs/sys/mntent.h 21aeacc50b4b33d2ba57022f75e10ae0 1548373716
+obj /usr/include/libzfs/sys/spa.h eadbdea0535036a0ad723a104c174ee5 1548373716
+obj /usr/include/libzfs/sys/uberblock.h 3b0b696c82c90c7dd6070f6e9e5212f1 1548373716
+obj /usr/include/libzfs/sys/dsl_bookmark.h 1cdd3fecf35f22e3114f4709337c81d7 1548373716
+obj /usr/include/libzfs/sys/dsl_dir.h 0761e72d8cd794f643a8148dccff4ecb 1548373716
+obj /usr/include/libzfs/sys/metaslab.h b64d3f477b0e04f8797a08e57ca8ab14 1548373716
+obj /usr/include/libzfs/sys/abd.h cf61c571c63ef782e82e66ba8f976db1 1548373716
+obj /usr/include/libzfs/sys/spa_boot.h bbdb2b53978a98cf62d7b5760e770727 1548373716
+obj /usr/include/libzfs/sys/vdev.h 4048b894f139bcdc1b5d5d76709ac19b 1548373716
+obj /usr/include/libzfs/sys/dsl_synctask.h aad37ad1f27415d191ab2b94e15ebbd8 1548373716
+obj /usr/include/libzfs/sys/zfs_znode.h caec3ca7baac773fb63c30e02e48122a 1548373716
+obj /usr/include/libzfs/sys/uuid.h 8240b0be701cadf9e7338136b70ef7c6 1548373716
+obj /usr/include/libzfs/sys/vdev_disk.h 8a434d9d7d7d4a17df0d8a2702688591 1548373716
+obj /usr/include/libzfs/sys/dnode.h 830258bfe6fef205f4c24fb725b0fbad 1548373716
+obj /usr/include/libzfs/sys/refcount.h 5f76e4503f119f8e9d2a9332586b281c 1548373716
+obj /usr/include/libzfs/sys/zfs_debug.h 3a62a9e46d2a6bd469d6b5583fe57b05 1548373716
+obj /usr/include/libzfs/sys/dmu_impl.h f7a9fcc575bc69624716c30d2d4f691f 1548373716
+obj /usr/include/libzfs/sys/dsl_destroy.h 29771d31a2ac41bec83d53979654463e 1548373716
+obj /usr/include/libzfs/sys/trace_zio.h 3d97bf986cd7d3f2d07fc30254ce01ac 1548373716
+obj /usr/include/libzfs/sys/blkptr.h 976767e11299b3d64a3924c016db2087 1548373716
+obj /usr/include/libzfs/sys/space_reftree.h 3b52c4a9bb117b66e39c1f64f1d2ae21 1548373716
+obj /usr/include/libzfs/sys/trace_dmu.h acc88e0bea205f00aa5fd1b4e85c8425 1548373716
+obj /usr/include/libzfs/sys/vdev_file.h 406c74eee4d588ad9fed805a770ce03a 1548373716
+obj /usr/include/libzfs/sys/zio.h 7a34b426eb0b8be55655c62b6971a3c2 1548373716
+obj /usr/include/libzfs/sys/range_tree.h 3c1f66f3f70191126b5a0ccbbcf1baa8 1548373716
+dir /usr/include/libzfs/sys/fm
+obj /usr/include/libzfs/sys/fm/util.h 25a4fd9aee49582746a3ea5edb338c54 1548373716
+obj /usr/include/libzfs/sys/fm/protocol.h 16f5d5028bf86601825a8ce23769d516 1548373716
+dir /usr/include/libzfs/sys/fm/fs
+obj /usr/include/libzfs/sys/fm/fs/zfs.h 3082840432b65ebe5b98cd47227fa48e 1548373716
+obj /usr/include/libzfs/sys/zfs_vnops.h 8f4eb38a17a3b056cd168e2bfbf22390 1548373716
+obj /usr/include/libzfs/sys/trace_arc.h 917d6b0b669f8b52a99b71e63fff7b85 1548373716
+obj /usr/include/libzfs/sys/zfs_fuid.h dc8f499f5debf6394399f64fa5b82b43 1548373716
+obj /usr/include/libzfs/sys/avl_impl.h fb0d1cd06440402454bea51803de6553 1548373716
+obj /usr/include/libzfs/sys/dbuf.h 92fb541121df96ca11846c8e583676cc 1548373716
+obj /usr/include/libzfs/sys/txg_impl.h 2adf67f0049ee4b44c8223670a25b5f1 1548373716
+obj /usr/include/libzfs/sys/trace_dbuf.h c36c8561da9bc74e1b10c8c0642065bc 1548373716
+obj /usr/include/libzfs/sys/trace_common.h 235a8ee07ec408fcf076d8441225e9d5 1548373716
+obj /usr/include/libzfs/sys/bpobj.h 8e176448d74afad0cb2b5d7a6e8cef55 1548373716
+obj /usr/include/libzfs/sys/trace_zil.h e6e48ab94ab621eadc3721ccc65da250 1548373716
+obj /usr/include/libzfs/sys/unique.h a7f55a6fa894b19756084e1bf756394f 1548373716
+obj /usr/include/libzfs/sys/dmu_send.h c84597868e27539f6e8b953d41594557 1548373716
+obj /usr/include/libzfs/sys/zil.h bddc2e75212c3979ad342fae77b6da66 1548373716
+obj /usr/include/libzfs/sys/nvpair_impl.h 713ae0d444958695b772a13bf4062f6f 1548373716
+obj /usr/include/libzfs/sys/zfeature.h 06da3ac986185ecdc74e2bad9e30d18d 1548373716
+obj /usr/include/libzfs/sys/trace_acl.h 5fc1c4456d7c14f1e625365dc96172cc 1548373716
+obj /usr/include/libzfs/sys/dsl_dataset.h 09b14f472c86b80efc4cacc24f72370e 1548373716
+obj /usr/include/libzfs/sys/trace_zrlock.h 9f7b652d6a0bbf9dc95a1807b061e0c6 1548373716
+obj /usr/include/libzfs/sys/bqueue.h 60b0274f57481aa0369197444e9b0d60 1548373716
+obj /usr/include/libzfs/sys/dsl_pool.h 504472486c61895c7e7a04fd56545a2d 1548373716
+obj /usr/include/libzfs/sys/skein.h 24d804bb33fb6fdb3a7ed68567332df9 1548373716
+obj /usr/include/libzfs/sys/zfs_context.h 2faba93efbdb0a80e385ed6fbbc94b2f 1548373716
+obj /usr/include/libzfs/sys/pathname.h 05216b8b40b3cb6c9ae2590b62d10b1f 1548373716
+obj /usr/include/libzfs/sys/vdev_raidz.h 0ac59db8a26eb6fed5a22e1f39ea0952 1548373716
+obj /usr/include/libzfs/sys/sha2.h d4ae8c65b76ca6e78c7ac487db7c32f0 1548373716
+obj /usr/include/libzfs/sys/zap.h e150251c29e3820b3f0f0ebf03d5f579 1548373716
+obj /usr/include/libzfs/sys/dsl_userhold.h 0fd701662178303cb771ab09e2b35d34 1548373716
+obj /usr/include/libzfs/sys/zil_impl.h 5f50dff23684f961093603d319fe6d9c 1548373716
+obj /usr/include/libzfs/sys/zfs_stat.h ab3bf4d7a9784a0cb1d8cff58836824f 1548373716
+obj /usr/include/libzfs/sys/edonr.h e400c58a4ac96c912beaf98601524c29 1548373716
+obj /usr/include/libzfs/sys/uio_impl.h 7bba8673bb6790e4e4b2c12bb243ea54 1548373716
+obj /usr/include/libzfs/sys/zfs_ctldir.h 1100666e4ed19cc86d45ade02765f74b 1548373716
+obj /usr/include/libzfs/sys/dmu_zfetch.h 808ba3335395c2517c67edad92ece3b8 1548373716
+dir /usr/include/libzfs/sys/fs
+obj /usr/include/libzfs/sys/fs/zfs.h 7731960db440dd64a4a7f7269f885129 1548373716
+obj /usr/include/libzfs/sys/efi_partition.h 8f971c3b78c0feb512176a4f3c35487f 1548373716
+obj /usr/include/libzfs/sys/dmu_objset.h f2d8d41e5b94dbf7b48822475e932a50 1548373716
+obj /usr/include/libzfs/sys/trace_dbgmsg.h 17e3f0acbb86edfd53ded63fb45d390e 1548373716
+obj /usr/include/libzfs/sys/avl.h 575177dc2fe8851d0c01d9e9991a2fbd 1548373716
+obj /usr/include/libzfs/sys/policy.h 87f273b17d35f7849231bcd9c8c6de7c 1548373716
+obj /usr/include/libzfs/sys/zfs_dir.h fcb078ee87051bc2175e08adf5d34105 1548373716
+obj /usr/include/libzfs/sys/sdt.h 38f20a15780548769f79bcc005159f9f 1548373716
+obj /usr/include/libzfs/sys/multilist.h 002fe0b4c3612ad1f79e641225917959 1548373716
+obj /usr/include/libzfs/sys/trace_dnode.h 40c68d7640f957c133c2c9922cf2ff4c 1548373716
+obj /usr/include/libzfs/sys/zio_checksum.h 158d4d7dac16e51edecfac1c044ff878 1548373716
+dir /usr/include/libzfs/sys/sysevent
+obj /usr/include/libzfs/sys/sysevent/eventdefs.h 459ea4fbc1fbc624d9adac7335072b59 1548373716
+obj /usr/include/libzfs/sys/sysevent/dev.h b83da55a0e2f50306c9c5f0b17e60541 1548373716
+obj /usr/include/libzfs/sys/arc_impl.h 9a568bbff23f68e5f2e9fa13d2f7d8ac 1548373716
+obj /usr/include/libzfs/sys/vdev_raidz_impl.h 21cc9be7b1530b6fb9ea22f152fe1e1d 1548373716
+obj /usr/include/libzfs/sys/dsl_deleg.h 0cb274ce95a0c692e5d260a50437e487 1548373716
+obj /usr/include/libzfs/sys/arc.h dd0a062510faa936cdb705148d3ea09f 1548373716
+obj /usr/include/libzfs/sys/bplist.h 8838d72824ec83ebe94e7bf98e61a98c 1548373716
+obj /usr/include/libzfs/sys/sa.h 4b82b6151040c6b903db9a67e7201afe 1548373716
+obj /usr/include/libzfs/sys/u8_textprep.h ddf283e45b783a1b4ab62f6bec53972c 1548373716
+obj /usr/include/libzfs/sys/dsl_deadlist.h 505fb111d9f17d816f09a74c66290d59 1548373716
+obj /usr/include/libzfs/sys/metaslab_impl.h b108feb14473a63502933a2caba3e8a0 1548373716
+obj /usr/include/libzfs/sys/zio_impl.h e4d447980aee08670ecd606fedc77bcf 1548373716
+obj /usr/include/libzfs/sys/zfs_ratelimit.h e286b1a5815be526402d9b8001e8d728 1548373716
+obj /usr/include/libzfs/sys/zrlock.h 6121c931d62bfd4c295072e3bca8e3a6 1548373716
+obj /usr/include/libzfs/sys/bptree.h 0d76bebc1e6107ab7846f7b0f6a847d1 1548373716
+obj /usr/include/libzfs/sys/ddt.h 7d824582d3cfe8e17a97d70e0070a990 1548373716
+obj /usr/include/libzfs/sys/rrwlock.h 3a55b7d1d9f691d50357def536bb4270 1548373716
+obj /usr/include/libzfs/sys/zio_priority.h b99231376360f483dcdadab760b82916 1548373716
+obj /usr/include/libzfs/sys/vdev_impl.h 26bf54e919220acfe633a234ee12c8c8 1548373716
+obj /usr/include/libzfs/sys/zfs_sa.h d0b885198c1d5ff3dc30d423557323f1 1548373716
+obj /usr/include/libzfs/sys/nvpair.h e89b93aea582aa3ca6d04b691cebac76 1548373716
+obj /usr/include/libzfs/sys/space_map.h 60c1f6f0e4d31a744e421b8d7f84bbd6 1548373716
+obj /usr/include/libzfs/sys/sysevent.h 5d0ad8bb63c9902bcf59551488294c28 1548373716
+obj /usr/include/libzfs/sys/sa_impl.h e3b382e60e9c5ad0dd479bcce1b9261a 1548373716
+obj /usr/include/libzfs/sys/dmu_traverse.h 95c4e564ba0b97002470a50ccbbe3b47 1548373716
+obj /usr/include/libzfs/sys/mmp.h b1fd204d90dbd379b015792ef97418b7 1548373716
+obj /usr/include/libzfs/sys/u8_textprep_data.h 8676e3bbd09b76775a96bf2c08cc43b3 1548373716
+obj /usr/include/libzfs/sys/trace_multilist.h 64b5789cfed88ac42e45e46364fbda49 1548373716
+obj /usr/include/libzfs/sys/zfs_acl.h 3c00682b45044c6c1b976089036deb57 1548373716
+obj /usr/include/libzfs/sys/zfs_delay.h bbdf1f914ed20b8f71c9fe13725b81eb 1548373716
+obj /usr/include/libzfs/sys/spa_impl.h b7bf07dd912165e92288098ac13f0998 1548373716
+dir /usr/include/libzfs/sys/crypto
+obj /usr/include/libzfs/sys/crypto/common.h b1bba847c1779081c0627e6650446b33 1548373716
+obj /usr/include/libzfs/sys/crypto/api.h 956477df530efd7b5d98a293647793bf 1548373716
+obj /usr/include/libzfs/sys/crypto/icp.h 9baf52a81d23b392b12db3f93c3847cb 1548373716
+obj /usr/include/libzfs/sys/zio_compress.h d6112dbf5b2750bcbfa438b0434b231f 1548373716
+obj /usr/include/libzfs/sys/zfs_rlock.h f69d629555ca510bd6bc1dc3626e3c03 1548373716
+obj /usr/include/libzfs/sys/zap_leaf.h 9ff4f77410e287ad8fd3eb1d5be99282 1548373716
+obj /usr/include/libzfs/sys/uberblock_impl.h c7b9179b50e336bcc36bb2515026396d 1548373716
+obj /usr/include/libzfs/sys/dmu.h 553950e8cf6dad85e94b4fcbdac94fd7 1548373716
+obj /usr/include/libzfs/sys/dsl_prop.h b35def0231eefd654e8768c2f2dee646 1548373716
+obj /usr/include/libzfs/sys/dsl_scan.h aceaddc3d449f7df0e1ad1860df7dbcc 1548373716
+obj /usr/include/libzfs/libuutil_impl.h 15f22a5326a8c9abb2bcc97aacd85ad6 1548373716
+dir /usr/share
+dir /usr/share/pkgconfig
+obj /usr/share/pkgconfig/libzfs_core.pc e66af99504f192f0751b413fbd93fbf4 1548373717
+obj /usr/share/pkgconfig/libzfs.pc c305c20f31a18d142a783c868d533334 1548373717
+dir /usr/share/doc
+dir /usr/share/doc/zfs-0.7.9
+obj /usr/share/doc/zfs-0.7.9/README.markdown.bz2 812c09edc2422798b25a7a98ec558606 1548373723
+obj /usr/share/doc/zfs-0.7.9/AUTHORS.bz2 edab0509216c178242bf6d829ba68c1f 1548373723
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/zed.8.bz2 191a46dfb74ba4db7d0ce0e902ffb6a2 1548373716
+obj /usr/share/man/man8/zdb.8.bz2 a879fac1f89cb8ed5530148ca46227bd 1548373716
+obj /usr/share/man/man8/zinject.8.bz2 caf26472914346d7b8db1680eec033d3 1548373716
+obj /usr/share/man/man8/zfs.8.bz2 fbd0d2be9c89a08f2bc4f2f29493e705 1548373716
+obj /usr/share/man/man8/vdev_id.8.bz2 3e1b8e68b44cd8551f72fe6656abc776 1548373716
+obj /usr/share/man/man8/zgenhostid.8.bz2 b3e1b52cf944146ed7e806973fdafa06 1548373716
+obj /usr/share/man/man8/fsck.zfs.8.bz2 89fab29bc65defa525e79e9ba5eb86a9 1548373716
+obj /usr/share/man/man8/zstreamdump.8.bz2 16dca46b10c83f217f0f8b0ecf39fd0f 1548373716
+obj /usr/share/man/man8/zpool.8.bz2 d684327777638d9681f2119d212746f7 1548373716
+obj /usr/share/man/man8/mount.zfs.8.bz2 b1e6faf8eeff2b6addff8ded98ea8a43 1548373716
+dir /usr/share/man/man1
+obj /usr/share/man/man1/test-runner.1.bz2 d80852e60969bd4946da31b74ee05f31 1548373717
+obj /usr/share/man/man1/zhack.1.bz2 b07dd58e31783127dce70bdeb274623e 1548373716
+obj /usr/share/man/man1/zpios.1.bz2 c27a8b4033633c6923f4e9aaa3703272 1548373716
+obj /usr/share/man/man1/ztest.1.bz2 838833d3548eeaadd04ba233e74fc536 1548373716
+obj /usr/share/man/man1/raidz_test.1.bz2 b09c617bad6bd52ff318cc9d0e5a2d76 1548373716
+dir /usr/share/man/man5
+obj /usr/share/man/man5/zpool-features.5.bz2 84de3833edd003921209c0d1b87f494e 1548373716
+obj /usr/share/man/man5/zfs-module-parameters.5.bz2 977118fc1b845571ab1f7d2daeceb102 1548373716
+obj /usr/share/man/man5/zfs-events.5.bz2 716afeef9ce0e10e2af571cfa5a64ba3 1548373716
+obj /usr/share/man/man5/vdev_id.conf.5.bz2 088a946047bd16518928ced0e697bb2c 1548373716
+dir /usr/share/initramfs-tools
+dir /usr/share/initramfs-tools/hooks
+obj /usr/share/initramfs-tools/hooks/zfs fece7ff656a61ce6d7cade44f06b09f8 1548373723
+dir /usr/share/initramfs-tools/scripts
+obj /usr/share/initramfs-tools/scripts/zfs bbf42adc681420b5495970a5e1056265 1548373723
+dir /usr/share/initramfs-tools/scripts/local-top
+obj /usr/share/initramfs-tools/scripts/local-top/zfs eff658fc292503fcf527df0475197c70 1548373723
+dir /usr/share/initramfs-tools/conf-hooks.d
+obj /usr/share/initramfs-tools/conf-hooks.d/zfs aae152a488cd650982caaf317507e43d 1548373723
+dir /usr/share/initramfs-tools/conf.d
+obj /usr/share/initramfs-tools/conf.d/zfs 635110c7e74a56181b546e49c13b573e 1548373723
+dir /usr/share/bash-completion
+dir /usr/share/bash-completion/completions
+sym /usr/share/bash-completion/completions/zpool -> zfs 1548373733
+obj /usr/share/bash-completion/completions/zfs 9ddb0c8a94861f929d0fa741fdc49950 1548373724
