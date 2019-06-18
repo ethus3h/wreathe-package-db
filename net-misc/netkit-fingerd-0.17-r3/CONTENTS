@@ -1,21 +1,21 @@
 dir /etc
 dir /etc/xinetd.d
-obj /etc/xinetd.d/fingerd e15ba7285c1de6655afb00ad7d7ebfe6 1468712131
+obj /etc/xinetd.d/fingerd e15ba7285c1de6655afb00ad7d7ebfe6 1548454212
 dir /usr
 dir /usr/bin
-obj /usr/bin/finger 6424734dc143314ef6d12fa249428ad5 1468712133
+obj /usr/bin/finger c00695da04e8b25d9afdeec1d03d3c57 1548454213
 dir /usr/sbin
-obj /usr/sbin/fingerd a55438e2d97643b3dd7d4f3387101631 1468712133
-sym /usr/sbin/in.fingerd -> fingerd 1468712135
+obj /usr/sbin/fingerd f5e087e216343b6342ef4fa50e2dc5a2 1548454213
+sym /usr/sbin/in.fingerd -> fingerd 1548454220
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/netkit-fingerd-0.17-r3
-obj /usr/share/doc/netkit-fingerd-0.17-r3/README.bz2 484c2df341bd3c7e9a6e8f8949784a80 1468712131
-obj /usr/share/doc/netkit-fingerd-0.17-r3/ChangeLog.bz2 025e2566bb3f875ec0005e4d36532c5b 1468712131
-obj /usr/share/doc/netkit-fingerd-0.17-r3/BUGS.bz2 c9704993647a4c57202181d42162213c 1468712131
+obj /usr/share/doc/netkit-fingerd-0.17-r3/README.bz2 484c2df341bd3c7e9a6e8f8949784a80 1548454211
+obj /usr/share/doc/netkit-fingerd-0.17-r3/ChangeLog.bz2 025e2566bb3f875ec0005e4d36532c5b 1548454211
+obj /usr/share/doc/netkit-fingerd-0.17-r3/BUGS.bz2 c9704993647a4c57202181d42162213c 1548454211
 dir /usr/share/man
 dir /usr/share/man/man8
-obj /usr/share/man/man8/fingerd.8.bz2 25b316e6ce9633a6bd8f9245e00a4c62 1468712131
+sym /usr/share/man/man8/in.fingerd.8.bz2 -> fingerd.8.bz2 1548454220
+obj /usr/share/man/man8/fingerd.8.bz2 25b316e6ce9633a6bd8f9245e00a4c62 1548454211
 dir /usr/share/man/man1
-obj /usr/share/man/man1/finger.1.bz2 fca947528fc6fe27213d5a1adeacb614 1468712131
-sym /usr/share/man/man8/in.fingerd.8.bz2 -> fingerd.8.bz2 1468712135
+obj /usr/share/man/man1/finger.1.bz2 fca947528fc6fe27213d5a1adeacb614 1548454211

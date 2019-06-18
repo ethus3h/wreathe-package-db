@@ -29,19 +29,6 @@ DEPEND="${RDEPEND}
 "
 
 src_prepare(){
-	# app-misc/cwiid is not available in Portage, so disable the plugins that depend on it.
-	# Ideally, the configure script of compiz-plugins-community would do this automatically,
-	# but I don't know how to do that yet.
-	#enotify "The wiimote and wiitrack plugins are not built."
-	#sed -i '/wiimote/d' {src,icons}/Makefile.am || die
-	#sed -i '/wiitrack/d' {src,icons}/Makefile.am || die
-	#tac src/Makefile.am | sed '0,/\(\w\)[ \t]*\\/s//\1/' > src/Makefile.am.tmp || die
-	#tac src/Makefile.am.tmp > src/Makefile.am || die
-	#rm src/Makefile.am.tmp || die
-	#tac icons/Makefile.am | sed '0,/\.svg[ \t]*\\/s//.svg/' > icons/Makefile.am.tmp || die
-	#tac icons/Makefile.am.tmp > icons/Makefile.am || die
-	#rm icons/Makefile.am.tmp || die
-
 	default
 	eautoreconf
 }
@@ -58,31 +45,31 @@ src_install() {
 }
 
 compiz_icon_cache_update() {
-    # Needed because compiz needs its own icon cache.
-    # Based on https://gitweb.gentoo.org/repo/gentoo.git/tree/eclass/gnome2-utils.eclass#n241
-    local dir="${EROOT}/usr/share/compiz/icons/hicolor"
-    local updater="${EROOT}/usr/bin/gtk-update-icon-cache"
-    if [[ -n "$(ls "$dir")" ]]; then
-        "${updater}" -q -f -t "${dir}"
-        rv=$?
+	# Needed because compiz needs its own icon cache.
+	# Based on https://gitweb.gentoo.org/repo/gentoo.git/tree/eclass/gnome2-utils.eclass#n241
+	local dir="${EROOT}/usr/share/compiz/icons/hicolor"
+	local updater="${EROOT}/usr/bin/gtk-update-icon-cache"
+	if [[ -n "$(ls "$dir")" ]]; then
+		"${updater}" -q -f -t "${dir}"
+		rv=$?
 
-        if [[ ! $rv -eq 0 ]] ; then
-            debug-print "Updating cache failed on ${dir}"
+		if [[ ! $rv -eq 0 ]] ; then
+			debug-print "Updating cache failed on ${dir}"
 
-            # Add to the list of failures
-            fails+=( "${dir}" )
+			# Add to the list of failures
+			fails+=( "${dir}" )
 
-            retval=2
-        fi
-    elif [[ $(ls "${dir}") = "icon-theme.cache" ]]; then
-        # Clear stale cache files after theme uninstallation
-        rm "${dir}/icon-theme.cache"
-    fi
+			retval=2
+		fi
+	elif [[ $(ls "${dir}") = "icon-theme.cache" ]]; then
+		# Clear stale cache files after theme uninstallation
+		rm "${dir}/icon-theme.cache"
+	fi
 
-    if [[ -z $(ls "${dir}") ]]; then
-        # Clear empty theme directories after theme uninstallation
-        rmdir "${dir}"
-    fi
+	if [[ -z $(ls "${dir}") ]]; then
+		# Clear empty theme directories after theme uninstallation
+		rmdir "${dir}"
+	fi
 }
 
 pkg_postinst() {

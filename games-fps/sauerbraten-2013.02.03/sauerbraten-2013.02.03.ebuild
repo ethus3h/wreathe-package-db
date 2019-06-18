@@ -1,18 +1,17 @@
 # Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=5
 inherit eutils flag-o-matic gnome2-utils games
 
 EDITION="collect_edition"
-DESCRIPTION="Cube 2: Sauerbraten is an open source game engine (Cube 2) with freeware game data (Sauerbraten)"
+DESCRIPTION="Sauerbraten is a FOSS game engine (Cube 2) with freeware game data (Sauerbraten)"
 HOMEPAGE="http://sauerbraten.org/"
 SRC_URI="mirror://sourceforge/sauerbraten/sauerbraten/2013_02_03/sauerbraten_${PV//./_}_${EDITION}_linux.tar.bz2"
 
 LICENSE="ZLIB freedist"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="debug dedicated server"
 
 RDEPEND="

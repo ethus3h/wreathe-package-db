@@ -6,6 +6,7 @@ inherit cmake-utils nsplugins multilib toolchain-funcs git-r3
 
 DESCRIPTION="High performance flash player"
 HOMEPAGE="https://github.com/lightspark/lightspark"
+EGIT_CLONE_TYPE="shallow"
 EGIT_REPO_URI="https://github.com/lightspark/lightspark.git"
 
 LICENSE="LGPL-3"
@@ -45,8 +46,7 @@ RDEPEND=">=dev-cpp/libxmlpp-2.33.1:2.6
 	rtmp? (
 		media-video/rtmpdump
 	)
-	virtual/jpeg:=
-	www-plugins/gnash[gtk]"
+	virtual/jpeg:="
 DEPEND="${RDEPEND}
 	>=sys-devel/gcc-4.6.0:=[cxx]
 	sys-devel/llvm
