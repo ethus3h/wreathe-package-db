@@ -1,0 +1,74 @@
+dir /lib
+dir /lib/udev
+dir /lib/udev/hwdb.d
+obj /lib/udev/hwdb.d/69-libmtp.hwdb ef9a67302b152be235ec9473d009f1bd 1574346907
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/69-libmtp.rules 9de8e1a3a764e4bd3742ee9354925b53 1574346907
+obj /lib/udev/mtp-probe 141a5ca07c258bc957348425fd43513e 1574346908
+dir /usr
+dir /usr/lib64
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libmtp.pc 9671a13ac72b9518e0c3619d9ce58918 1574346907
+obj /usr/lib64/libmtp.so.9.4.0 51e4148dda9d7f3908692a5113684dea 1574346908
+dir /usr/include
+obj /usr/include/libmtp.h 788480f99666c71cf4833bd6db395f49 1574346905
+dir /usr/bin
+sym /usr/bin/mtp-getfile -> mtp-connect 1574346913
+obj /usr/bin/mtp-hotplug ce5fb944d68c301e18e70e04486af0bc 1574346908
+obj /usr/bin/mtp-playlists d10b51447d08ffa74e708138d3188f00 1574346908
+sym /usr/bin/mtp-delfile -> mtp-connect 1574346913
+obj /usr/bin/mtp-emptyfolders c0befb26f14df4f176f0985c91832d09 1574346908
+obj /usr/bin/mtp-tracks 5057d33f67fd4d75445ed5a711d2dfc2 1574346908
+obj /usr/bin/mtp-newplaylist ac0e11ea538ac074ea0fe2cd5b7df79b 1574346908
+obj /usr/bin/mtp-filetree c65fde2da1e06865984efac9d996f92e 1574346908
+obj /usr/bin/mtp-thumb d43177482ac636daf62e6f6a1ed9be69 1574346908
+obj /usr/bin/mtp-albumart c4e4cbce7e4d722f9f88dcec456517a9 1574346908
+sym /usr/bin/mtp-newfolder -> mtp-connect 1574346913
+obj /usr/bin/mtp-folders a10124e03c0ebe2c8d791bcf80a51360 1574346908
+obj /usr/bin/mtp-getplaylist 2579f4de728b02716f70ef47cdefaa95 1574346908
+obj /usr/bin/mtp-format 5be6023d2a872f8b271be7dc26f4d244 1574346908
+obj /usr/bin/mtp-albums 26b821b11929b41e25023f1a788af027 1574346908
+sym /usr/bin/mtp-sendfile -> mtp-connect 1574346913
+obj /usr/bin/mtp-reset 6a16a0f9447192bc8da5ba683e1477a5 1574346908
+obj /usr/bin/mtp-files f5008a39595e5f825e6cbadef3d08570 1574346908
+sym /usr/bin/mtp-sendtr -> mtp-connect 1574346913
+obj /usr/bin/mtp-connect ea286eb42bfe41be5f20e95dc0e8467b 1574346908
+obj /usr/bin/mtp-trexist 375fb96039f7dd2226aed6a3e660849f 1574346908
+obj /usr/bin/mtp-detect 43fde07cd71b1940d8a801999c12f086 1574346908
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libmtp-1.1.16
+obj /usr/share/doc/libmtp-1.1.16/README.bz2 2fa5311c7adfce7d128b48887c49d852 1574346907
+obj /usr/share/doc/libmtp-1.1.16/AUTHORS.bz2 1b4d51c1497b525023fb7a5aff8738e8 1574346907
+dir /usr/share/doc/libmtp-1.1.16/examples
+obj /usr/share/doc/libmtp-1.1.16/examples/evolution-sync.sh.bz2 217736d8fbcb410d932c482889c2ac67 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/detect.c.bz2 7518686126dfb1abc101963c764fb2a2 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/playlists.c.bz2 f7b8e8cc6ca9ed51a02d56b489917fbe 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/files.c.bz2 3a1bc8ac6871a26dd54bce412d20ced9 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/getfile.c.bz2 cf6a615909b2e57cde441ec10bfe34ce 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/trexist.c.bz2 efb4cbd5d3565fdaa327c4cc1fbad9cf 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/newplaylist.c.bz2 915703675285215e3a80ec5097e211f5 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/pathutils.c.bz2 0b798cef1f25eafdceceb56082ed76ad 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/util.h.bz2 72f113f6c22cfbdaa067a884fbb594dc 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/reset.c.bz2 47482fcb32ba3a9f9c4bed66ae521519 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/getplaylist.c.bz2 7bda137bd941cd57673a074b96e99f46 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/tracks.c.bz2 2bd0604ec498ec21689a3c56c02993cd 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/folders.c.bz2 0b17a33b7cdc2cbe1ef3d8285da12df0 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/emptyfolders.c.bz2 302fb2ba9b3d3e2404b85dccc9b48879 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/filetree.c.bz2 275ffff7a8a197ffa4fb55eb59e1e4c8 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/newfolder.c.bz2 78844d07f1dffc96bba93add57819806 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/thumb.c.bz2 d43b1baf2a4872f4d3a3e4bc1df25166 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/sendtr.c.bz2 fa861d72ea4a699b645aafbdc4bde581 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/pathutils.h.bz2 30f1d74b14cb9cbacd67b2223229c998 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/delfile.c.bz2 45c04beb332878663428b86b3209f6c0 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/albums.c.bz2 d7d3231fe42cce3d40dba2216f330368 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/connect.c.bz2 d8d1428d3a548e8c15bedbe4f15d0653 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/util.c.bz2 1f944e346536fc8e493f39be829c7252 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/common.h.bz2 50606e93253c2596c187593fa41e03b7 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/albumart.c.bz2 2522e2ecbf3d6bd5c62dbbb418465386 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/connect.h.bz2 1cb7f631849905c1c774eff23022f4c2 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/format.c.bz2 8781b1926b26d590dbeb3a41ea1d6e41 1574346907
+obj /usr/share/doc/libmtp-1.1.16/examples/sendfile.c.bz2 fc77eeb49ae3dc68fc630722f36e8ddd 1574346907
+obj /usr/share/doc/libmtp-1.1.16/TODO.bz2 05efe247fd3f6de7d1f11c33c3d43ad6 1574346907
+sym /usr/lib64/libmtp.so -> libmtp.so.9.4.0 1574346913
+sym /usr/lib64/libmtp.so.9 -> libmtp.so.9.4.0 1574346913

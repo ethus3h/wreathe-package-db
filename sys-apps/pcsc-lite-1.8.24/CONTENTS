@@ -1,0 +1,55 @@
+dir /lib
+dir /lib/udev
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/99-pcscd-hotplug.rules d23d72fc54e90a485e4c8d7aa4235272 1574529371
+dir /lib/systemd
+dir /lib/systemd/system
+obj /lib/systemd/system/pcscd.service 53ff756be4e9810630cee76eb9b4d917 1574529371
+obj /lib/systemd/system/pcscd.socket 60ac810b46c490010e112cddaffed490 1574529371
+dir /etc
+dir /etc/init.d
+obj /etc/init.d/pcscd e05353d2f47f435838dc9261ca597ddf 1574529371
+dir /usr
+dir /usr/lib64
+obj /usr/lib64/libpcscspy.so.0.0.0 fae948c227eec6a4a06cabc22523e749 1574529372
+sym /usr/lib64/libpcscspy.so -> libpcscspy.so.0.0.0 1574529378
+sym /usr/lib64/libpcsclite.so -> libpcsclite.so.1.0.0 1574529378
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libpcsclite.pc 3c6f75af691726c9a49ea9cff193fb56 1574529371
+obj /usr/lib64/libpcsclite.la 6f1cdf8d44aa0f7a34d356912d771711 1574529371
+obj /usr/lib64/libpcscspy.la c55ff9f2b076cb7a2c0614dfd73c1764 1574529371
+sym /usr/lib64/libpcscspy.so.0 -> libpcscspy.so.0.0.0 1574529378
+obj /usr/lib64/libpcsclite.so.1.0.0 0a1fa9880cc857d895ac40b6d4cc2ec8 1574529372
+sym /usr/lib64/libpcsclite.so.1 -> libpcsclite.so.1.0.0 1574529378
+dir /usr/include
+dir /usr/include/PCSC
+obj /usr/include/PCSC/debuglog.h 8b2501276fdece30b727e68570d4c518 1574529371
+obj /usr/include/PCSC/winscard.h f10617ddc6c2516fda71bb0c325da4c2 1574529371
+obj /usr/include/PCSC/pcsclite.h 46e321f8b1be9e57ee2c12d02649070a 1574529371
+obj /usr/include/PCSC/reader.h 466290bd429d8c6387f2aef928c72e0d 1574529371
+obj /usr/include/PCSC/wintypes.h f1c6b0fefd78cbf38c73917cab2240cf 1574529371
+obj /usr/include/PCSC/ifdhandler.h d210015be607258fbc02245fa7f23d60 1574529371
+dir /usr/bin
+obj /usr/bin/pcsc-spy 5ecfda7d2e9e57fa5a8569cee3e56c23 1574529371
+dir /usr/sbin
+obj /usr/sbin/pcscd a204c95753588af637976ec9c42cf8e1 1574529372
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/pcsc-lite-1.8.24
+obj /usr/share/doc/pcsc-lite-1.8.24/SECURITY.bz2 64c3421ad524103b49a21658e095aa0b 1574529371
+obj /usr/share/doc/pcsc-lite-1.8.24/README.polkit.bz2 9638652f42edc5bec18546eb9aa36140 1574529371
+obj /usr/share/doc/pcsc-lite-1.8.24/README.bz2 96e104c19b9613b58e24a977cbb60ccc 1574529371
+obj /usr/share/doc/pcsc-lite-1.8.24/AUTHORS.bz2 8d2772a8d9af5a832642865cf2025df9 1574529371
+obj /usr/share/doc/pcsc-lite-1.8.24/HELP.bz2 2c303de92985361b2a684c5206ba287b 1574529371
+obj /usr/share/doc/pcsc-lite-1.8.24/ChangeLog.bz2 63781f78411dbf88ba32910c667afc32 1574529371
+obj /usr/share/doc/pcsc-lite-1.8.24/README.DAEMON.bz2 111daa108d92e50fbf929af3759ed338 1574529371
+dir /usr/share/polkit-1
+dir /usr/share/polkit-1/actions
+obj /usr/share/polkit-1/actions/org.debian.pcsc-lite.policy d56d2e00eb097e514cb91bc524eed744 1574529371
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/pcscd.8.bz2 aaa3fb3405c3038d5d47c0f35f0dcba1 1574529371
+dir /usr/share/man/man1
+obj /usr/share/man/man1/pcsc-spy.1.bz2 f0b7cd72f766e38f803c1f0b0ff52204 1574529371
+dir /usr/share/man/man5
+obj /usr/share/man/man5/reader.conf.5.bz2 db96737210845e1481369f61468ff890 1574529371

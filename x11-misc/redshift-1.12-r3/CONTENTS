@@ -1,0 +1,166 @@
+dir /etc
+dir /etc/apparmor.d
+obj /etc/apparmor.d/usr.bin.redshift 1c09873b114a3619086e4d756b6296fa 1578262378
+dir /usr
+dir /usr/lib
+dir /usr/lib/python-exec
+dir /usr/lib/python-exec/python3.6
+obj /usr/lib/python-exec/python3.6/redshift-gtk bbe899269ea53f1f90e92a4f81ed7c26 1578262379
+dir /usr/lib/systemd
+dir /usr/lib/systemd/user
+obj /usr/lib/systemd/user/redshift-gtk.service 9a9705585b263c981d202eeb7877231f 1578262378
+obj /usr/lib/systemd/user/redshift.service 6566c9a2732f9e6d720468131cc1e21f 1578262378
+dir /usr/lib64
+dir /usr/lib64/python3.6
+dir /usr/lib64/python3.6/site-packages
+dir /usr/lib64/python3.6/site-packages/redshift_gtk
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/defs.py 72547e80e2b451eab7c55cbb9d5cba12 1578262378
+dir /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__/controller.cpython-36.pyc 59c396cbda82de910af3de0a90dd230e 1578262379
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__/statusicon.cpython-36.opt-2.pyc 6a3e6d513a055eb7bbc841fed5151707 1578262379
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__/__init__.cpython-36.pyc c7fcd620cb2e0d4b84e2ea7784073916 1578262379
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__/controller.cpython-36.opt-1.pyc 59c396cbda82de910af3de0a90dd230e 1578262379
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__/__init__.cpython-36.opt-2.pyc c7fcd620cb2e0d4b84e2ea7784073916 1578262379
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__/defs.cpython-36.pyc 625a6c8da2bbc4cbfda0e211e7a03656 1578262379
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__/statusicon.cpython-36.pyc d380db07bb6009ee084419fccc6c474c 1578262379
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__/utils.cpython-36.opt-1.pyc c383c4e2f92fd796c1ec82a67cff9439 1578262379
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__/utils.cpython-36.opt-2.pyc 27c43cb2fe09cca64321cb061c717268 1578262379
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__/defs.cpython-36.opt-2.pyc 625a6c8da2bbc4cbfda0e211e7a03656 1578262379
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__/defs.cpython-36.opt-1.pyc 625a6c8da2bbc4cbfda0e211e7a03656 1578262379
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__/__init__.cpython-36.opt-1.pyc c7fcd620cb2e0d4b84e2ea7784073916 1578262379
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__/controller.cpython-36.opt-2.pyc e1bc41325607eaaee0e22f1785525864 1578262379
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__/statusicon.cpython-36.opt-1.pyc d380db07bb6009ee084419fccc6c474c 1578262379
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__pycache__/utils.cpython-36.pyc c383c4e2f92fd796c1ec82a67cff9439 1578262379
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/__init__.py bca225e4e5eeec3d3c7a40e22844d74e 1578262378
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/controller.py 2326f027df7ebac1ff0dc2733bceab76 1578262378
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/statusicon.py 2037c05cecbd0a4f1925de1af418ba89 1578262378
+obj /usr/lib64/python3.6/site-packages/redshift_gtk/utils.py 1c0f3e2df781ad6fb99f14b7bc110967 1578262378
+dir /usr/bin
+sym /usr/bin/redshift-gtk -> ../lib/python-exec/python-exec2 1578262384
+sym /usr/bin/gtk-redshift -> redshift-gtk 1578262384
+obj /usr/bin/redshift b62a9057af8f8450bf44372609f70300 1578262380
+dir /usr/share
+dir /usr/share/appdata
+obj /usr/share/appdata/redshift-gtk.appdata.xml d410f6f809385cc1c07b35b2dc9050a0 1578262378
+dir /usr/share/locale
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/redshift.mo 110feff1e340b40e2a73fbd35b87d53d 1578262378
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/redshift.mo 4ec543bfeb3e2356f9c018a2628ec45c 1578262378
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/redshift.mo 364e372daae2f8dddc907196262ff382 1578262378
+dir /usr/share/locale/he
+dir /usr/share/locale/he/LC_MESSAGES
+obj /usr/share/locale/he/LC_MESSAGES/redshift.mo f8c907e94719878bd85c735677110e04 1578262378
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/redshift.mo 4b4800897044c412c6efec02504fd6dc 1578262378
+dir /usr/share/locale/be
+dir /usr/share/locale/be/LC_MESSAGES
+obj /usr/share/locale/be/LC_MESSAGES/redshift.mo 3079342cd44a6fcc20cee9f39222d9d2 1578262377
+dir /usr/share/locale/hi
+dir /usr/share/locale/hi/LC_MESSAGES
+obj /usr/share/locale/hi/LC_MESSAGES/redshift.mo edbf40d43114360883f49be61b5cfb87 1578262378
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/redshift.mo 0458854c08b84e37659044ce882ef462 1578262378
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/redshift.mo 5c57337e5efa87a1610fc6f5af118d68 1578262378
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/redshift.mo 2ab44b4fc1fa3b75eb3537155aa81635 1578262377
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/redshift.mo 174ace9ffc1079e77cc87155c7f2172c 1578262378
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/redshift.mo caba38e38d12997503f44cc830fde201 1578262377
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/redshift.mo 16d822baacb404841ca0ea378967a09f 1578262378
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/redshift.mo 1af33a2628837de54c3a60d253fe2e3e 1578262377
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/redshift.mo 5375da80824e798cb941cefb643f52e1 1578262377
+dir /usr/share/locale/nb
+dir /usr/share/locale/nb/LC_MESSAGES
+obj /usr/share/locale/nb/LC_MESSAGES/redshift.mo 75e4dbe1ef864945ce99eca849d54066 1578262378
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/redshift.mo f6843ed67d8e64ad40c2c4830df691b2 1578262377
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/redshift.mo cfcdce60a6ab6276135df3a1b4ad26b0 1578262378
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/redshift.mo fb4fbfbc645b88aaae71c56f19482bee 1578262378
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/redshift.mo d0c89d599a4acfb56783add1d89475d7 1578262378
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/redshift.mo bfb6cad427330e5ecc1da7428bc10bd3 1578262377
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/redshift.mo f694ef4a57f97dad72a760d9089da105 1578262378
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/redshift.mo 4f9dc8a52c4ab230e1b650716a6761da 1578262377
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/redshift.mo bcffc3d61fe7bdbf14e6e3253b65344a 1578262377
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/redshift.mo a3ed80ed44a403a7443f3907ed68e59a 1578262378
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/redshift.mo 8e2740881720025bd0a56f5e2edca57b 1578262378
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/redshift.mo 17b4d0f00fce20df6a8e5b0a40f5326c 1578262378
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/redshift.mo 18c7bd6efefaa9923ab65d5c3063e0e9 1578262377
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/redshift.mo b091ae8b906660cd891dbb1c64ff860e 1578262377
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/redshift.mo be05273cbcc8b5baa19c38fbbd43f5a3 1578262377
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/redshift.mo 481ba16e63cc5818746a9820d4cea777 1578262378
+dir /usr/share/locale/en_GB
+dir /usr/share/locale/en_GB/LC_MESSAGES
+obj /usr/share/locale/en_GB/LC_MESSAGES/redshift.mo 1a2c1ef1fd1aff2702940a02af050058 1578262377
+dir /usr/share/locale/ar
+dir /usr/share/locale/ar/LC_MESSAGES
+obj /usr/share/locale/ar/LC_MESSAGES/redshift.mo 90d82d74ae1c1c2347fec1290de9fb11 1578262377
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/redshift.mo e0d3082ca1bdcdbc7dbdeb29b3421d11 1578262377
+dir /usr/share/locale/ka
+dir /usr/share/locale/ka/LC_MESSAGES
+obj /usr/share/locale/ka/LC_MESSAGES/redshift.mo f957fbf1728f1a4ca1ada2a1c1f332a1 1578262378
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/redshift.mo d3cb5d0a89b721305e15ed312bb7fb47 1578262378
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/redshift.1.bz2 66be71caeeeaf8f16c170dc1b4f76d2f 1578262378
+dir /usr/share/applications
+obj /usr/share/applications/redshift.desktop f0ca8a17f7ee2578bab3b88589e39775 1578262378
+obj /usr/share/applications/redshift-gtk.desktop 5eaadef6206761da5bf6efcd4cf2790d 1578262378
+dir /usr/share/icons
+dir /usr/share/icons/hicolor
+dir /usr/share/icons/hicolor/scalable
+dir /usr/share/icons/hicolor/scalable/apps
+obj /usr/share/icons/hicolor/scalable/apps/redshift-status-on.svg add513475ce422b0d9fb9625db1123ac 1578262378
+obj /usr/share/icons/hicolor/scalable/apps/redshift.svg add513475ce422b0d9fb9625db1123ac 1578262378
+obj /usr/share/icons/hicolor/scalable/apps/redshift-status-off.svg 0930abd4dd7a0a3b8495ccc75b7df0fb 1578262378

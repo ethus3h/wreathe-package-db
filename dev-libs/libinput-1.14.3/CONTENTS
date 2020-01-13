@@ -1,0 +1,80 @@
+dir /lib
+dir /lib/udev
+obj /lib/udev/libinput-fuzz-override af3c4913eb63870b120a65a1d8ae9942 1574744087
+obj /lib/udev/libinput-device-group f52b2f82a342a1f1e7a7d1ad4a0d7439 1574744087
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/80-libinput-device-groups.rules 612edb41c1eaee20b730da893b729750 1574744076
+obj /lib/udev/rules.d/90-libinput-fuzz-override.rules 3f3f7188694dee131f634ceb05950f12 1574744076
+dir /usr
+dir /usr/lib64
+obj /usr/lib64/libinput.so.10.13.0 6dd69497b2f3faf0188bb6aaf4963740 1574744087
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libinput.pc 3e67d390986020f6ae475b06006cd3b8 1574744076
+sym /usr/lib64/libinput.so.10 -> libinput.so.10.13.0 1574744090
+sym /usr/lib64/libinput.so -> libinput.so.10 1574744090
+dir /usr/libexec
+dir /usr/libexec/libinput
+obj /usr/libexec/libinput/libinput-debug-events 2eccc1e7cd201e70402958a9ff365a38 1574744087
+obj /usr/libexec/libinput/libinput-measure-touchpad-pressure a85ace5f1033d9dea5f10314ad753128 1574744076
+obj /usr/libexec/libinput/libinput-replay 31530d790d18d563f5a4146d326ee1e5 1572236585
+obj /usr/libexec/libinput/libinput-measure 3b32d93bb0a2416946ea92f90a35e2d5 1574744087
+obj /usr/libexec/libinput/libinput-measure-touch-size 20a7a8a37da455537bcd5526124dff04 1574744076
+obj /usr/libexec/libinput/libinput-list-devices 5dd7b397b2b5a49f3c0cc232883ffdef 1574744087
+obj /usr/libexec/libinput/libinput-measure-touchpad-tap bfacbd25aa57ad0afeed1798ca5e2dad 1574744076
+obj /usr/libexec/libinput/libinput-record be77d7ac7bd2a7945e73f0e4347919cd 1574744087
+obj /usr/libexec/libinput/libinput-measure-fuzz e86a461da7d321722c416e4e8a1d1cad 1574744076
+obj /usr/libexec/libinput/libinput-quirks 4d3a17fac5d902d99523f635197b1c8c 1574744087
+dir /usr/include
+obj /usr/include/libinput.h bb4173906226ff58acb0171c1ff9cd3e 1572236585
+dir /usr/bin
+obj /usr/bin/libinput 67e0c5083be24560a14319b0ab00a175 1574744087
+dir /usr/share
+dir /usr/share/libinput
+obj /usr/share/libinput/10-generic-lid.quirks ef1ca4da981092a3a89b69ddbf887589 1572236585
+obj /usr/share/libinput/50-system-google.quirks e6a9befe7ca34118813ec5311c36d1e7 1572236585
+obj /usr/share/libinput/50-system-chicony.quirks 75503caf39771186b47989cc1c1a5ee3 1572236585
+obj /usr/share/libinput/50-system-lenovo.quirks 3fa41d9abd6290e38c2e11322c97d0cf 1572236585
+obj /usr/share/libinput/50-system-hp.quirks 65cd6d2509fba8c2b798f1504add94d0 1572236585
+obj /usr/share/libinput/30-vendor-elantech.quirks 211614c9e460dca6313c9fadd98c42df 1572236585
+obj /usr/share/libinput/30-vendor-synaptics.quirks 4d3cc0ce328fcc3837dc1d975b89fb51 1572236585
+obj /usr/share/libinput/30-vendor-razer.quirks 61faa446986ad1da803891cd585cc350 1572236585
+obj /usr/share/libinput/50-system-asus.quirks 40c32e973f782c154100a28520b6cb02 1572236585
+obj /usr/share/libinput/30-vendor-cypress.quirks 98afb61f260c183e6f9020c7257e6900 1572236585
+obj /usr/share/libinput/30-vendor-vmware.quirks c3d7d7de5d97582acd3a13102dbf8e32 1572236585
+obj /usr/share/libinput/30-vendor-logitech.quirks f5e312800a21a3e344a9321cf9bb7594 1572236585
+obj /usr/share/libinput/50-system-toshiba.quirks 8eb425d52452abb3ba6d8abae22d1899 1572236585
+obj /usr/share/libinput/30-vendor-wacom.quirks b6001bc61ff84af23aab3158a23754d1 1572236585
+obj /usr/share/libinput/30-vendor-contour.quirks 2517c87d68ab3778f3253790084d0cc5 1572236585
+obj /usr/share/libinput/50-system-system76.quirks 8fe35b4b8a285a41b35b7dd9da9ccfa1 1572236585
+obj /usr/share/libinput/30-vendor-ibm.quirks 7e6720306c4e91420cc7cd862f9d6e7f 1572236585
+obj /usr/share/libinput/30-vendor-alps.quirks 439e9c6dc344f9f9b059a06a37e6800c 1572236585
+obj /usr/share/libinput/50-system-acer.quirks 1b812c8f018714ddaa9489e4cb134ef7 1572236585
+obj /usr/share/libinput/10-generic-trackball.quirks 1b7839c109086068e25e225dc1f2d308 1572236585
+obj /usr/share/libinput/50-system-apple.quirks 44c993e2c99a09951c007f4b0df78f83 1572236585
+obj /usr/share/libinput/30-vendor-kensington.quirks 64da0462e3a66b81b590285d53ece585 1572236585
+obj /usr/share/libinput/30-vendor-aiptek.quirks c7f1eeab0121c2503ceab0e3a988b54f 1572236585
+obj /usr/share/libinput/10-generic-keyboard.quirks 9b2b538c4116d586ad3ccc232cb77f38 1572236585
+obj /usr/share/libinput/50-system-dell.quirks 4e9def4a45b0f5e0e037e64aa450f279 1572236585
+obj /usr/share/libinput/50-system-cyborg.quirks 6c9ac69899d98b2b4bebd30484f6a65c 1572236585
+obj /usr/share/libinput/30-vendor-microsoft.quirks e6805444ef517bd047e37d5cb225a55c 1572236585
+dir /usr/share/doc
+dir /usr/share/doc/libinput-1.14.3
+obj /usr/share/doc/libinput-1.14.3/README.md.bz2 6f5c2d40dea31ac94b0ed20f4789675a 1574744085
+dir /usr/share/zsh
+dir /usr/share/zsh/site-functions
+obj /usr/share/zsh/site-functions/_libinput 4c4307135bba898e1e3f0dd4a805145e 1572236585
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/libinput-list-devices.1.bz2 d97aee4b6538595687e5a9ff6bbc0650 1574744076
+obj /usr/share/man/man1/libinput-measure-touchpad-tap.1.bz2 3dc2b93bf956b6db464442bde626ad58 1574744076
+obj /usr/share/man/man1/libinput-measure-fuzz.1.bz2 a86b4b2a6f71960fe0ad2586ba80e8af 1574744076
+obj /usr/share/man/man1/libinput-quirks-validate.1.bz2 662678b28af8a9d213f479dc0b4fcf8a 1574744076
+obj /usr/share/man/man1/libinput-measure-touchpad-pressure.1.bz2 52478d74cb05d32e0bc23f617eaa3378 1574744076
+obj /usr/share/man/man1/libinput-quirks-list.1.bz2 662678b28af8a9d213f479dc0b4fcf8a 1574744076
+obj /usr/share/man/man1/libinput-debug-events.1.bz2 be9d2c03de3af1dceafac094112029a0 1574744076
+obj /usr/share/man/man1/libinput.1.bz2 a521b8c539aee9ca3010f6e89a491a3e 1574744076
+obj /usr/share/man/man1/libinput-record.1.bz2 2bf20f6cf4cd9bae343c9905f93150c1 1574744076
+obj /usr/share/man/man1/libinput-quirks.1.bz2 662678b28af8a9d213f479dc0b4fcf8a 1574744076
+obj /usr/share/man/man1/libinput-measure-touch-size.1.bz2 83f5d50462c1bf5f1e7a44d202af3c92 1574744076
+obj /usr/share/man/man1/libinput-replay.1.bz2 c419e965906c066982fbaa3cbe4bab6a 1574744076
+obj /usr/share/man/man1/libinput-measure.1.bz2 9fadd8c19d587d9c34e2fba9738b1f7e 1574744076

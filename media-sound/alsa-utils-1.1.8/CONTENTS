@@ -1,0 +1,107 @@
+dir /var
+dir /var/lib
+dir /var/lib/alsa
+obj /var/lib/alsa/.keep_media-sound_alsa-utils-0.9 d41d8cd98f00b204e9800998ecf8427e 1574333800
+dir /lib
+dir /lib/udev
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/90-alsa-restore.rules eda73c697e00c5f0394429047d949cf6 1574333799
+obj /lib/udev/rules.d/89-alsa-ucm.rules f9db1cbcf4e97e8727d4c449ad42b35d 1574333800
+dir /lib/systemd
+dir /lib/systemd/system
+obj /lib/systemd/system/alsa-state.service 6ef404fac5a9bb5f605114fd71a66447 1574333799
+obj /lib/systemd/system/alsa-restore.service ad016a6c2fae7efd7358d3d4d5c86458 1574333799
+dir /lib/systemd/system/sound.target.wants
+sym /lib/systemd/system/sound.target.wants/alsa-state.service -> ../alsa-state.service 1574333805
+sym /lib/systemd/system/sound.target.wants/alsa-restore.service -> ../alsa-restore.service 1574333805
+dir /etc
+dir /etc/modprobe.d
+obj /etc/modprobe.d/alsa.conf ccc2347c7466759e6155c3cdba15ec49 1574333800
+dir /etc/init.d
+obj /etc/init.d/alsasound 9dc2e0e5955116bd671d6985d8cae893 1574333800
+dir /etc/conf.d
+obj /etc/conf.d/alsasound a30ad1df6f85eca2d5615cd3bb72b699 1574333800
+dir /usr
+dir /usr/bin
+obj /usr/bin/alsaloop 45aba838c08dc32289569a0bd5890065 1574333802
+obj /usr/bin/amixer a6fab80a1b4e4eb847e66664e01e8e30 1574333802
+obj /usr/bin/alsatplg 5ed97293022d5c4c0e0f71baf22e0f8a 1574333802
+obj /usr/bin/axfer a1a4ed1e6de29585478551a792ee365d 1574333802
+obj /usr/bin/aconnect 4d19539a4ccb045cb0ba10da1720fc35 1574333802
+obj /usr/bin/iecset 5941b08fbfbe1d7d96160a6d21602ec9 1574333802
+obj /usr/bin/aplaymidi 2dcdcfc92acc2c349f6f4e8e8a87a540 1574333802
+obj /usr/bin/aseqnet d61cf18c793c2c9269f9693d841c37b0 1574333802
+obj /usr/bin/arecordmidi 1a49a3c08423b57bd65d7e5f40324b3c 1574333802
+obj /usr/bin/aplay 409e3f2a5ba8f40b23e06c21ad1f4248 1574333802
+obj /usr/bin/alsaucm 0527320a71d9a08a8760e5d3b54b526e 1574333802
+obj /usr/bin/amidi 53c61c7116d1a9a2d6543cf018fdbafd 1574333802
+obj /usr/bin/speaker-test 0fa2a8f47bc477cd536539f7f8bef851 1574333802
+sym /usr/bin/arecord -> aplay 1574333805
+obj /usr/bin/alsamixer 86286c1cfadecf8fa1a531c6e033bc4f 1574333801
+obj /usr/bin/aseqdump 5c5e8c2bbab3cd51194afee93e7cfdce 1574333802
+dir /usr/sbin
+obj /usr/sbin/alsactl 5e331f458c60e9f4eaca2540e8711d02 1574333801
+obj /usr/sbin/alsa-info.sh f4f82df6ef99d173e6ae12be0a76a052 1574333799
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/alsa-utils-1.1.8
+obj /usr/share/doc/alsa-utils-1.1.8/README.md.bz2 846eaa95d56f62720b20274e37853e45 1574333800
+obj /usr/share/doc/alsa-utils-1.1.8/README.aconnect.bz2 70f8fc56ef82565dbde2b8435db60db4 1574333800
+obj /usr/share/doc/alsa-utils-1.1.8/README.aseqnet.bz2 57eefcbba260ca786387921b5034649a 1574333800
+obj /usr/share/doc/alsa-utils-1.1.8/ChangeLog.bz2 01db0369d8c5b7022da161d18e697e87 1574333800
+obj /usr/share/doc/alsa-utils-1.1.8/TODO.bz2 47ceb7afaae5d78b4f04854ab25150f5 1574333800
+dir /usr/share/sounds
+dir /usr/share/sounds/alsa
+obj /usr/share/sounds/alsa/Side_Left.wav 61b2bee54ce016bef4934b7e71da13c8 1574333799
+obj /usr/share/sounds/alsa/Front_Center.wav 916147ce6ced50877c27c5570626a54d 1574333799
+obj /usr/share/sounds/alsa/Front_Left.wav 31215ca9ec7ddb07343927570604a21f 1574333799
+obj /usr/share/sounds/alsa/Rear_Right.wav b3a26327752d20729edfb1709c80e6e2 1574333799
+obj /usr/share/sounds/alsa/Side_Right.wav cc2f857156dd6a9359a0a0e4c66a8814 1574333799
+obj /usr/share/sounds/alsa/Rear_Center.wav f4f15e1d071759f201a089f91c8f2fb6 1574333799
+obj /usr/share/sounds/alsa/Rear_Left.wav c86cfb060fc01dc923cac53b7189eee8 1574333799
+obj /usr/share/sounds/alsa/Noise.wav 82a15bb64a71472ac1352e9ee6bfcf80 1574333799
+obj /usr/share/sounds/alsa/Front_Right.wav 22ffa2e708e1af92f2e21111ebf0c8da 1574333799
+dir /usr/share/locale
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/alsa-utils.mo 98774207c29da203b9ff360b5141e6fe 1574333799
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/alsa-utils.mo 876f36d7e5119ddc0b3bc378231b541e 1574333799
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/alsa-utils.mo 50ad9af1765aff4d34a78852fe669ad4 1574333799
+dir /usr/share/man
+dir /usr/share/man/man7
+dir /usr/share/man/man1
+sym /usr/share/man/man1/arecord.1.bz2 -> aplay.1.bz2 1574333805
+obj /usr/share/man/man1/aseqdump.1.bz2 57c9fdf61ea5b0521fb13177c269a7b5 1574333800
+obj /usr/share/man/man1/aplaymidi.1.bz2 2328a484ca80179a4abe446683637e4e 1574333800
+obj /usr/share/man/man1/arecordmidi.1.bz2 a28d52ca18f6e6da7a38186086563b80 1574333800
+obj /usr/share/man/man1/alsactl.1.bz2 2fc43b11505d45202b19dfa02e6964c9 1574333799
+obj /usr/share/man/man1/aconnect.1.bz2 1f0c66620f2157aa0062e4b3319a9ae1 1574333799
+obj /usr/share/man/man1/alsamixer.1.bz2 38a64ad5adb7717404f3d2804c897d45 1574333799
+obj /usr/share/man/man1/aseqnet.1.bz2 dc6ff206307918ccc05a1f2fdeac189f 1574333800
+obj /usr/share/man/man1/speaker-test.1.bz2 96b29e212234c7da2b115f516d63e84d 1574333799
+obj /usr/share/man/man1/amidi.1.bz2 0c9ce5e02942e8c999abbf155af18f63 1574333799
+obj /usr/share/man/man1/axfer.1.bz2 fd900274856971420ffd6dad690445d0 1574333799
+obj /usr/share/man/man1/axfer-list.1.bz2 73c8da1f07639b7899097fa12bb758c5 1574333799
+obj /usr/share/man/man1/amixer.1.bz2 06093c16500ce27ede81de98d18c4328 1574333799
+obj /usr/share/man/man1/aplay.1.bz2 c3635e4289a32a3b864048646faac7b8 1574333799
+obj /usr/share/man/man1/alsaloop.1.bz2 9d9a868f27f6b1d64959ab8912ebf3ec 1574333799
+obj /usr/share/man/man1/axfer-transfer.1.bz2 692281f53ed3230e6ae70e04deb187e6 1574333799
+obj /usr/share/man/man1/alsa-info.sh.1.bz2 b16daca64295ba8c4ee8801b1dcb6c6f 1574333799
+obj /usr/share/man/man1/iecset.1.bz2 20f12dc1ce58cabecf7ab90b391cb195 1574333799
+dir /usr/share/alsa
+dir /usr/share/alsa/init
+obj /usr/share/alsa/init/ca0106 6cb822c5baa87c0112813be59ad7ff67 1574333799
+obj /usr/share/alsa/init/00main 897306b2f40bf7f1366aaf80001ddc8e 1574333799
+obj /usr/share/alsa/init/default 84b05375889f2213644e3ac24820c5c4 1574333799
+obj /usr/share/alsa/init/help 1aefd1542930af5f60dfd687685896d8 1574333799
+obj /usr/share/alsa/init/hda 11eeee86df9bfb1edcd2f5ac558ed871 1574333799
+obj /usr/share/alsa/init/info cfd25aeec5652fae1e7148eaf49666ce 1574333799
+obj /usr/share/alsa/init/test 2ba852ea108988355e997fd7f485b15e 1574333799
+dir /usr/share/alsa/speaker-test
+obj /usr/share/alsa/speaker-test/sample_map.csv 3e1714fbe385fd21c95c75237766055d 1574333799
+dir /usr/share/alsa/ucm
+obj /usr/share/alsa/ucm/.keep_media-sound_alsa-utils-0.9 d41d8cd98f00b204e9800998ecf8427e 1574333800

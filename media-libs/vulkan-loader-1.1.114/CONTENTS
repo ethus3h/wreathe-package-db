@@ -1,0 +1,21 @@
+dir /etc
+dir /etc/vulkan
+dir /etc/vulkan/icd.d
+obj /etc/vulkan/icd.d/.keep_media-libs_vulkan-loader-0 d41d8cd98f00b204e9800998ecf8427e 1574541320
+dir /usr
+dir /usr/lib64
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/vulkan.pc 87fba930ebea1ef2bc6cce9523c893f1 1574541309
+obj /usr/lib64/libvulkan.so.1.1.114 30b14897858dd668ca0769b7b40eb4a1 1574541322
+sym /usr/lib64/libvulkan.so -> libvulkan.so.1 1574541327
+dir /usr/lib32
+dir /usr/lib32/pkgconfig
+obj /usr/lib32/pkgconfig/vulkan.pc 52288b4ed348b0acec4bb4b6c044ecb6 1574541307
+obj /usr/lib32/libvulkan.so.1.1.114 eda8657376620f047bf0419488cb5d1a 1574541322
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/vulkan-loader-1.1.114
+obj /usr/share/doc/vulkan-loader-1.1.114/README.md.bz2 3bbf6993975dfbe259b1238c62430c18 1574541321
+sym /usr/lib32/libvulkan.so.1 -> libvulkan.so.1.1.114 1574541327
+sym /usr/lib64/libvulkan.so.1 -> libvulkan.so.1.1.114 1574541327
+sym /usr/lib32/libvulkan.so -> libvulkan.so.1 1574541327

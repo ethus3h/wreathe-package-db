@@ -1,0 +1,46 @@
+dir /etc
+dir /etc/init.d
+obj /etc/init.d/pciparm 6dc100dc1d3a0a935baa7215f90bdf3a 1574443127
+dir /etc/conf.d
+obj /etc/conf.d/pciparm ef920c23349a80a5af86a5cc2851ce97 1574443127
+dir /usr
+dir /usr/lib64
+obj /usr/lib64/libpci.so.3.5.6 d2eba9a1cd16f0a2ec023a00a6d0568d 1574443128
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libpci.pc 93fe53c2f88603bb5fc5dde87a4b42a4 1574443127
+sym /usr/lib64/libpci.so.3 -> libpci.so.3.5.6 1574443132
+sym /usr/lib64/libpci.so -> libpci.so.3 1574443132
+dir /usr/include
+dir /usr/include/pci
+obj /usr/include/pci/types.h dc061d7941d96c8a0b2dc995f8d7a716 1574443127
+obj /usr/include/pci/pci.h 47fb11085372ac9a5cb1d8c445586d7d 1574443127
+obj /usr/include/pci/header.h a1a7931c1dbe0a018004cd90e27ae4e2 1574443127
+obj /usr/include/pci/config.h ca9b788626ff5749dbb0f4abbeab51da 1574443127
+dir /usr/include/x86_64-pc-linux-gnu
+dir /usr/include/x86_64-pc-linux-gnu/pci
+obj /usr/include/x86_64-pc-linux-gnu/pci/config.h 3babee1443cefd897cdfc86350a6a602 1574443127
+dir /usr/include/i686-pc-linux-gnu
+dir /usr/include/i686-pc-linux-gnu/pci
+obj /usr/include/i686-pc-linux-gnu/pci/config.h a9a3081e50867c7c05e66949646b282f 1574443127
+dir /usr/lib32
+obj /usr/lib32/libpci.so.3.5.6 378bc58f1fa92dbd79ab08ab32e1c6c0 1574443128
+dir /usr/lib32/pkgconfig
+obj /usr/lib32/pkgconfig/libpci.pc ccd8d250ceb0a2abd8876da722bae8f9 1574443127
+sym /usr/lib32/libpci.so.3 -> libpci.so.3.5.6 1574443132
+sym /usr/lib32/libpci.so -> libpci.so.3 1574443132
+dir /usr/sbin
+obj /usr/sbin/setpci 0aca624c3b4bb116b8717ce002c5396d 1574443128
+obj /usr/sbin/lspci 3f4d0b3a6a5286ed1e56ea6a26ac142d 1574443128
+dir /usr/share
+dir /usr/share/misc
+dir /usr/share/doc
+dir /usr/share/doc/pciutils-3.5.6-r1
+obj /usr/share/doc/pciutils-3.5.6-r1/README.bz2 2701edb0c6ad3a8ca6b3e6191a36fcd9 1574443127
+obj /usr/share/doc/pciutils-3.5.6-r1/ChangeLog.bz2 450328240d6aec8358501d44d0126ba3 1574443127
+obj /usr/share/doc/pciutils-3.5.6-r1/TODO.bz2 af2db5159afdb41d9d73ee3a6b8938de 1574443127
+dir /usr/share/man
+dir /usr/share/man/man7
+obj /usr/share/man/man7/pcilib.7.bz2 8e6154a20b2a0a1ff4b37b8649e71cef 1574443127
+dir /usr/share/man/man8
+obj /usr/share/man/man8/lspci.8.bz2 80560a14cca68e3bb9638bd1f607e136 1574443127
+obj /usr/share/man/man8/setpci.8.bz2 5a6296f41a8622277b2300319bde5201 1574443127

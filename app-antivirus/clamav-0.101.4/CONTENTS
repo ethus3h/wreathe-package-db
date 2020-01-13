@@ -1,0 +1,149 @@
+dir /var
+dir /var/lib
+dir /var/lib/clamav
+obj /var/lib/clamav/.keep_app-antivirus_clamav-0 d41d8cd98f00b204e9800998ecf8427e 1574347682
+dir /var/log
+dir /var/log/clamav
+obj /var/log/clamav/.keep_app-antivirus_clamav-0 d41d8cd98f00b204e9800998ecf8427e 1574347682
+dir /lib
+dir /lib/systemd
+dir /lib/systemd/system
+obj /lib/systemd/system/clamav-daemon.service 82d6034aa225360f4fd73ac8dd3e4535 1574347681
+obj /lib/systemd/system/clamav-daemon.socket fbb1480d6293ae81756720e5ef4839bf 1574347681
+obj /lib/systemd/system/freshclamd.service d33d41995064eab3ac3db8f6d69a0ec1 1574347682
+obj /lib/systemd/system/clamd.service 3a2087fc831bd851c6a7d2192a230044 1574347682
+obj /lib/systemd/system/clamav-freshclam.service 0f910a5a8c61e0770d978331632640b7 1574347681
+obj /lib/systemd/system/clamd@.service 5b710bd1603d1d9da99b6474aba16f7d 1574347682
+dir /etc
+obj /etc/freshclam.conf a6ca49810ec073571de3d03647ab0a0c 1574347683
+dir /etc/init.d
+obj /etc/init.d/clamd 228bcab9995f084d0087cb23f327afe5 1574347682
+dir /etc/logrotate.d
+obj /etc/logrotate.d/clamav 73670171015374e391e32a8ebe5adaea 1574347683
+obj /etc/clamd.conf 2c5abb09d0d42f0b1e9a3b193f3132f6 1574347683
+dir /etc/conf.d
+obj /etc/conf.d/clamd af1226accc2fc562fbbb88101fc9f61e 1574347682
+dir /usr
+dir /usr/lib
+dir /usr/lib/tmpfiles.d
+obj /usr/lib/tmpfiles.d/clamav.conf 987b36ccdc3739ef1fe14955cd0d129c 1574347682
+dir /usr/lib64
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libclamav.pc 850c70a53be80c08f169d0b659bb1f55 1574347682
+obj /usr/lib64/libclamav.so.9.0.4 ea115723d79cfde1f757768eb2a30c0a 1574347684
+obj /usr/lib64/libclamunrar_iface.so.9.0.4 5eeab34978ad9684b981b9310daa77d2 1574347684
+sym /usr/lib64/libclamunrar_iface.so -> libclamunrar_iface.so.9.0.4 1574347689
+sym /usr/lib64/libclamav.so.9 -> libclamav.so.9.0.4 1574347689
+sym /usr/lib64/libclamav.so -> libclamav.so.9.0.4 1574347689
+obj /usr/lib64/libclamunrar.so.9.0.4 da44ca3b810d06a17110716ebfdea135 1574347684
+dir /usr/include
+obj /usr/include/clamav.h 241a55b4467de9ed64f7fc23d21ffb56 1574347680
+obj /usr/include/clamav-types.h 30452e709c4afe54d9daa2916fcd8b59 1574347682
+dir /usr/bin
+obj /usr/bin/clambc 75849f3e46ce98c3cab3d8672bfdb486 1574347685
+obj /usr/bin/clamav-config 4ce0926c2bbda8036cd02b028d076371 1574347682
+obj /usr/bin/freshclam 23d2077b80334051a75e63cd5f975729 1574347684
+obj /usr/bin/clamscan e2f3ac77f1874c3e033b2560eaea4dbe 1574347684
+obj /usr/bin/clamconf 22099ee8b6c63b5ae46fcaada68aa4dd 1574347685
+obj /usr/bin/sigtool 382dce1a64cd57fead94d4acba9bb9d9 1574347685
+obj /usr/bin/clamdscan 64a32cf8e31576b01b2463b008bd929c 1574347684
+dir /usr/sbin
+obj /usr/sbin/clamd 21162ad78ecbec0c93a54bc68a62978b 1574347685
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/clamav-0.101.4
+dir /usr/share/doc/clamav-0.101.4/UserManual
+obj /usr/share/doc/clamav-0.101.4/UserManual/Installation-Unix.md.bz2 ed54986e99fbeeb51d43979ddd22c08e 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Introduction.md.bz2 ea060399163c1b63e564c41e278a0c98 1574347682
+dir /usr/share/doc/clamav-0.101.4/UserManual/Signatures
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/EncryptedArchives.md.bz2 5b9705cc4114474305f949c29d25b8f4 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/ExtendedSignatures.md.bz2 2e8f9707545d8db5499a875a4b632b73 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/ContainerMetadata.md.bz2 35cb5f03d8dd06ad195e9a4f23aa2254 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/AuthenticodeRules.md.bz2 bafc1217e7148b679a9dbea80cfd72fd 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/LogicalSignatures.md.bz2 2bb6dcab8e986e9152ee27d41fcd2495 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/FunctionalityLevels.md.bz2 2d5bd6ffdccacd35c458e87b5232b522 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/DynamicConfig.md.bz2 03a0a1d8255dba389ddb7c6035a9cd1b 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/Whitelists.md.bz2 99d204c5b645e00c31d978304136668d 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/YaraRules.md.bz2 ce4c058649ea72ac66213eac752a8ab1 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/PhishSigs.md.bz2 968206b3cc0a22627c27dc27e56d0a42 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/HashSignatures.md.bz2 f73a020b9aa697779f614bb7d2721ade 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/DatabaseInfo.md.bz2 3babee2b88e0a2f91b5554cd5c38a32e 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/BodySignatureFormat.md.bz2 8ae3abb0fe28c322329f9b76badea2ed 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/FileTypeMagic.md.bz2 b88b94c265ea95aa249a4d7e7f887767 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/BytecodeSignatures.md.bz2 0a9d622124438530b28e06ea4fba0b26 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures/FileTypes.md.bz2 322b519a128d0ad5084d457ef06cffdb 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/libclamav.md.bz2 453aaca4892da5a53761cdfc0c34bbc6 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/OnAccess.md.bz2 0237b98cf5728d07060bc9de16a47968 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Signatures.md.bz2 a5e6b8ed8423825bfee95156630592dc 1574347682
+dir /usr/share/doc/clamav-0.101.4/UserManual/Installation-Unix
+obj /usr/share/doc/clamav-0.101.4/UserManual/Installation-Unix/Steps-Redhat-CentOS.md.bz2 ce03a9240154e4cc2a8bbad78e37827c 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Installation-Unix/Steps-macOS.md.bz2 28c67974428a3cf4f5dd978949565962 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Installation-Unix/Steps-Debian-Ubuntu.md.bz2 2402a2363f22040f81f856eeecc34ba6 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Usage.md.bz2 adffc2a2d7f03f300bba48d442881707 1574347682
+dir /usr/share/doc/clamav-0.101.4/UserManual/Usage
+obj /usr/share/doc/clamav-0.101.4/UserManual/Usage/Scanning.md.bz2 a4f0de1bcd6046e8772916e782e5305d 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Usage/SignatureManagement.md.bz2 b73cc40ad51d37a043aea5af5db4b728 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Usage/Configuration.md.bz2 2049838da108f68d5efe776d6c33dfe6 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/development.md.bz2 b6de911ed762386e706f0b8ed385c9b6 1574347682
+dir /usr/share/doc/clamav-0.101.4/UserManual/images
+obj /usr/share/doc/clamav-0.101.4/UserManual/images/demon.png c0df4edeb0195db381356f8dbfd38ade 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual/Installation-Windows.md.bz2 6b059db8090dacfdaef9f79d30c9bce9 1574347682
+dir /usr/share/doc/clamav-0.101.4/html
+dir /usr/share/doc/clamav-0.101.4/html/html
+dir /usr/share/doc/clamav-0.101.4/html/html/UserManual
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/libclamav.html 9017272dd6c3bb89d46585988812caaa 1574347682
+dir /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/YaraRules.html cabcd58b08efcbd8f9d08d0bf2f03609 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/HashSignatures.html 9fd44a409780a02125bed8fcaf155ed9 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/DynamicConfig.html 12152ca980d1206add8d099904e0b4bd 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/LogicalSignatures.html 8107f4174fadbb719b9f6f58ad0d4ce5 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/EncryptedArchives.html 0ab99b91dd9fa8cd8834222af6c04285 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/BodySignatureFormat.html dda965df3dd78dda611ddfb4c6c0e069 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/FileTypeMagic.html f6143fbbc1207297839852eabb38dc1b 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/DatabaseInfo.html 2ce7cda830afcd27be42125075596f38 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/PhishSigs.html b6ca4d624ef898f2433918a4207416d3 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/ExtendedSignatures.html c398acca80c0d6c1ecdf40e3c4a7f486 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/FileTypes.html 7c453caffe7bddda3045dce0cc803794 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/FunctionalityLevels.html 1601d43adf4491c8323ce9a4fc0aebb2 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/AuthenticodeRules.html b5a776c66e2a8bfbc514164ff0f5f43e 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/BytecodeSignatures.html 5167f177beb6b51176a61b8e256baf34 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/ContainerMetadata.html 1fcf0d27a8b4eac05062123af5b543f0 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures/Whitelists.html 2b00fd043cedee6c7250d1ad1a6f745d 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/development.html 909efeb3580d60c53fde36a1fc14a988 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Usage.html 634ee36bf42eeecf6dbfdc125cdfcda1 1574347682
+dir /usr/share/doc/clamav-0.101.4/html/html/UserManual/Installation-Unix
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Installation-Unix/Steps-Redhat-CentOS.html 94c5dd16e36db4df1f6fc7b56be916c4 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Installation-Unix/Steps-Debian-Ubuntu.html 679651f6f82f4b3fd978c790c66eb46c 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Installation-Unix/Steps-macOS.html 69436f18cb3e71d07393f59f2cd77fb7 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Installation-Windows.html 484ff58409a92acf00610e60b1bd1762 1574347682
+dir /usr/share/doc/clamav-0.101.4/html/html/UserManual/Usage
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Usage/Configuration.html f12d205405f5beac677add7ee956f6ed 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Usage/SignatureManagement.html 3e4bab40955cf7980b35eeaefbf2bc95 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Usage/Scanning.html cd0ba954840f124e5e55ced115589c15 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Introduction.html 055fdd166a75d785ad781bdc8229519b 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Signatures.html 4af741d55aa7dbbe21a22eb854e6e5d3 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/Installation-Unix.html f8bf9617f5bea034996f82fe00ac3e64 1574347682
+dir /usr/share/doc/clamav-0.101.4/html/html/UserManual/images
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/images/demon.png c0df4edeb0195db381356f8dbfd38ade 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual/OnAccess.html b7152da13e631cc0a53af86dcdb6a4a0 1574347682
+obj /usr/share/doc/clamav-0.101.4/html/html/UserManual.html 1ed70f3335b21a7070e594073ff47253 1574347682
+obj /usr/share/doc/clamav-0.101.4/UserManual.md.bz2 c14ffcfc8424f74a3134b2f639d96c56 1574347682
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/clamav-milter.8.bz2 e8a097b14f915cd56b98d895db76c767 1574347681
+obj /usr/share/man/man8/clamd.8.bz2 8b95ad59aa05cd7df3205251f02fc4a4 1574347681
+dir /usr/share/man/man1
+obj /usr/share/man/man1/freshclam.1.bz2 757ebc64380e465f76680bc9ffc48b84 1574347681
+obj /usr/share/man/man1/clamconf.1.bz2 861fb64e74b60de905de59909e2cdfc6 1574347681
+obj /usr/share/man/man1/clamscan.1.bz2 e47a7ff30823946dd902bd1ce10b5f49 1574347681
+obj /usr/share/man/man1/clambc.1.bz2 08e64a67e15eaf3132dd3507c4583815 1574347681
+obj /usr/share/man/man1/sigtool.1.bz2 d29e8f974021529a44eef002b261d05e 1574347681
+obj /usr/share/man/man1/clamdscan.1.bz2 3088a30c3547d631b7968db0d1c010e4 1574347681
+obj /usr/share/man/man1/clamdtop.1.bz2 a928da36c9a3689ff8733c8a2d9e23ed 1574347681
+dir /usr/share/man/man5
+obj /usr/share/man/man5/clamd.conf.5.bz2 9eee486d754875238720b1f47cd0a2da 1574347681
+obj /usr/share/man/man5/freshclam.conf.5.bz2 ecbd23b3dc9e70a6fcc80aac084a4b77 1574347681
+obj /usr/share/man/man5/clamav-milter.conf.5.bz2 b35981e5a2fbf20db10c9312dabe71df 1574347681
+sym /usr/lib64/libclamunrar.so -> libclamunrar.so.9.0.4 1574347689
+sym /usr/lib64/libclamunrar_iface.so.9 -> libclamunrar_iface.so.9.0.4 1574347689
+sym /usr/lib64/libclamunrar.so.9 -> libclamunrar.so.9.0.4 1574347689

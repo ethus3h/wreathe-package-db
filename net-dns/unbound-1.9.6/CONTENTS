@@ -1,0 +1,112 @@
+dir /var
+dir /var/lib
+dir /var/lib/unbound
+obj /var/lib/unbound/.keep_net-dns_unbound-0 d41d8cd98f00b204e9800998ecf8427e 1577406753
+dir /lib
+dir /lib/systemd
+dir /lib/systemd/system
+obj /lib/systemd/system/unbound@.service 17ccb487373d7e794697c4beddb1081e 1577406752
+obj /lib/systemd/system/unbound-anchor.service 269eba0433e894f93391b25e547321b0 1577406752
+obj /lib/systemd/system/unbound.service 87a99d4b22341b02a5279da3035c0ed3 1577406752
+obj /lib/systemd/system/unbound.socket dce4928ee62842fdb1ad52cb98c52b63 1577406752
+dir /etc
+dir /etc/unbound
+dir /etc/unbound/var
+obj /etc/unbound/var/.keep_net-dns_unbound-0 d41d8cd98f00b204e9800998ecf8427e 1577406753
+obj /etc/unbound/unbound.conf 6fb355ebe9b4430473f748131ef16442 1577406753
+dir /etc/init.d
+obj /etc/init.d/unbound f42fc3b1bb12659e76b14bc5a3b1cf4a 1577406752
+dir /etc/conf.d
+obj /etc/conf.d/unbound 40dd9ca8fa35f324aaf1b9726b716c21 1577406752
+dir /usr
+dir /usr/lib64
+obj /usr/lib64/libunbound.so.8.1.6 08306a3aec1747e36fcbd8a94fbbe664 1577406755
+sym /usr/lib64/libunbound.so.8 -> libunbound.so.8.1.6 1577406761
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libunbound.pc 512a8b971bf00e1661c5ddbb0a36280f 1577406750
+sym /usr/lib64/libunbound.so -> libunbound.so.8.1.6 1577406761
+dir /usr/lib64/python3.6
+dir /usr/lib64/python3.6/site-packages
+obj /usr/lib64/python3.6/site-packages/unbound.py 17ed999424118fb75b8ec7f05cb7ae5e 1577406749
+dir /usr/lib64/python3.6/site-packages/__pycache__
+obj /usr/lib64/python3.6/site-packages/__pycache__/unboundmodule.cpython-36.pyc 6d945021180005eaf3f6e4fc71d32df1 1577406751
+obj /usr/lib64/python3.6/site-packages/__pycache__/unbound.cpython-36.pyc 57ef183319a39646adc077c7cac31107 1577406751
+obj /usr/lib64/python3.6/site-packages/__pycache__/unbound.cpython-36.opt-2.pyc fd8f3414b6d7d399c53af7a04aff90f6 1577406751
+obj /usr/lib64/python3.6/site-packages/__pycache__/unboundmodule.cpython-36.opt-2.pyc 19248ffd3e89014f2b3259b939228079 1577406751
+obj /usr/lib64/python3.6/site-packages/__pycache__/unbound.cpython-36.opt-1.pyc 57ef183319a39646adc077c7cac31107 1577406751
+obj /usr/lib64/python3.6/site-packages/__pycache__/unboundmodule.cpython-36.opt-1.pyc 6d945021180005eaf3f6e4fc71d32df1 1577406751
+obj /usr/lib64/python3.6/site-packages/unboundmodule.py ed9d6237373a11dd91dda69020e3bf13 1577406749
+obj /usr/lib64/python3.6/site-packages/_unbound.so c37b951955e09746be357bbe03ea82ac 1577406755
+dir /usr/include
+obj /usr/include/unbound.h b43bb77d5c86c8caba2ffe9415cdfb72 1577406750
+obj /usr/include/unbound-event.h be52939e217ea18c6917febaf59b8a00 1577406750
+dir /usr/lib32
+obj /usr/lib32/libunbound.so.8.1.6 258d3bbb4ec77ca3d3b9c30c465bc1d3 1577406755
+sym /usr/lib32/libunbound.so.8 -> libunbound.so.8.1.6 1577406761
+dir /usr/lib32/pkgconfig
+obj /usr/lib32/pkgconfig/libunbound.pc 797a57e0ebcb47ca344a09a583bae239 1577406749
+sym /usr/lib32/libunbound.so -> libunbound.so.8.1.6 1577406761
+dir /usr/sbin
+obj /usr/sbin/unbound-checkconf ebd25745e4f3b63e37f8580f6c0ee9d6 1577406755
+obj /usr/sbin/unbound-control eafdb38dbcc1b7f15819d384c3ebb1b2 1577406755
+obj /usr/sbin/unbound-host 62c731198f36894da2c8923329bd6c5e 1577406755
+obj /usr/sbin/unbound-anchor 059fde68289be077cf6ee85e4689c26e 1577406755
+obj /usr/sbin/unbound 636575d22555dc2c8d19d2ae9e51d5b7 1577406755
+obj /usr/sbin/unbound-control-setup b54651513aeb8d2dad0db341492fecc0 1577406751
+dir /usr/share
+dir /usr/share/unbound
+obj /usr/share/unbound/update-anchor.sh bb485ed2ee6fb91b04751b21853e0b78 1577406752
+dir /usr/share/doc
+dir /usr/share/doc/unbound-1.9.6
+dir /usr/share/doc/unbound-1.9.6/selinux
+obj /usr/share/doc/unbound-1.9.6/selinux/unbound.fc.bz2 f26594ce264ca7644f5cf3a8b6de9cc5 1577406752
+obj /usr/share/doc/unbound-1.9.6/selinux/unbound.te.bz2 0143778d84ef7b7b49ca574da2b6d8d1 1577406752
+obj /usr/share/doc/unbound-1.9.6/CREDITS.bz2 8d729924e1834fa731433cf41fa90164 1577406752
+obj /usr/share/doc/unbound-1.9.6/README.bz2 196e5b596df61ef3ef58fcc95aa82986 1577406752
+obj /usr/share/doc/unbound-1.9.6/unbound_munin_.bz2 30c2b2a315b979e1d567b82bf085b2f9 1577406752
+obj /usr/share/doc/unbound-1.9.6/FEATURES.bz2 3fd68ec56db5fff81e2ab69bcaefc42b 1577406752
+obj /usr/share/doc/unbound-1.9.6/TODO.bz2 61a04299323ce03e5d08c62864674e39 1577406752
+obj /usr/share/doc/unbound-1.9.6/Changelog.bz2 b09dd611ecc31b0e778b1c996bc7fea4 1577406752
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/ub_strerror.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_zone_remove.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_set_option.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_print_local_zones.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_data_remove.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_debugout.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_get_option.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_set_fwd.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_delete.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_zone_add.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_data_add.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_resolvconf.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_fd.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_async.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_wait.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_create.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_resolve_async.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_add_ta.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_result.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_trustedkeys.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_poll.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_resolve.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_cancel.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_resolve_free.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_process.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_debuglevel.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_config.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/ub_ctx_add_ta_file.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+obj /usr/share/man/man3/libunbound.3.bz2 8680b46e8ad6bc552325ec63e1c611ca 1577406750
+obj /usr/share/man/man3/ub_ctx_hosts.3 d4548bb2c2ad0494ae4daa3d19bc6846 1577406750
+dir /usr/share/man/man8
+obj /usr/share/man/man8/unbound-checkconf.8.bz2 a66faa7e67dbd24dc478de3fc1a16fef 1577406751
+obj /usr/share/man/man8/unbound.8.bz2 4551fb8a4ab4a732a17a28b690b21770 1577406751
+obj /usr/share/man/man8/unbound-control.8.bz2 74bbbe2f07f860a408c4757427fc96ba 1577406751
+obj /usr/share/man/man8/unbound-control-setup.8.bz2 74bbbe2f07f860a408c4757427fc96ba 1577406751
+obj /usr/share/man/man8/unbound-anchor.8.bz2 4460c508b12937f40b1be03129791d3a 1577406751
+dir /usr/share/man/man1
+obj /usr/share/man/man1/unbound-host.1.bz2 277c438d9dc50b74de5e74dc17e9e4e4 1577406751
+dir /usr/share/man/man5
+obj /usr/share/man/man5/unbound.conf.5.bz2 4f0be393120a9a951d3dfda047e12446 1577406751

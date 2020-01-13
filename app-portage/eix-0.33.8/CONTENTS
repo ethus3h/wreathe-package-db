@@ -1,0 +1,61 @@
+dir /etc
+dir /etc/eixrc
+obj /etc/eixrc/00-eixrc 532a99aecab330058260ac2dc4c98dd5 1574393657
+dir /usr
+dir /usr/lib
+dir /usr/lib/tmpfiles.d
+obj /usr/lib/tmpfiles.d/eix.conf 35ee643765443e2fc528dda713850ea3 1574393658
+dir /usr/bin
+sym /usr/bin/versionsort -> eix 1574393666
+sym /usr/bin/eix-drop-permissions -> eix 1574393666
+obj /usr/bin/eix-sync bd5c2ad7772dc9fd9f10a92cccfd7965 1574393657
+obj /usr/bin/eix-installed 715cfefe895085feade3e68b310736dd 1574393657
+obj /usr/bin/eix-remote ac71f084c9cd3937416c1010fdec575c 1574393657
+obj /usr/bin/eix-test-obsolete 5142db794b870ca7b63776c769b1dea4 1574393657
+obj /usr/bin/eix-postsync 444ebec1bb8f580244e1257c2b1780b3 1574393657
+obj /usr/bin/eix-installed-after c6a64c6104ad016b5ee932823742ab95 1574393657
+sym /usr/bin/masked-packages -> eix 1574393666
+obj /usr/bin/eix f2df192ecaf6095ff3128144cf734dcd 1574393660
+sym /usr/bin/eix-update -> eix 1574393666
+obj /usr/bin/eix-layman ed965b02937d84274b092ff0fe60c9b4 1574393657
+sym /usr/bin/eix-diff -> eix 1574393666
+sym /usr/bin/eix-header -> eix 1574393666
+obj /usr/bin/eix-etcat 33b76cb7621534221bb0f690b65902f0 1574393657
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/eix-0.33.8
+obj /usr/share/doc/eix-0.33.8/README.md.bz2 76c24b7ee69c5cf78a65019d8f197c16 1574393658
+obj /usr/share/doc/eix-0.33.8/AUTHORS.bz2 4b34d92f6d7c5f6d2f0bafe0712700ca 1574393658
+obj /usr/share/doc/eix-0.33.8/ChangeLog.bz2 88e19a1e09159dc36c18cd4394b3c3a3 1574393658
+obj /usr/share/doc/eix-0.33.8/TODO.bz2 1ca42d755a8e7f97eac4f7edca011be7 1574393658
+dir /usr/share/locale
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/eix.mo 6ad50ac966fc907e0c91377c1ead62e9 1574393657
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/eix.mo cef37897ddf418b72da655770527024c 1574393657
+dir /usr/share/zsh
+dir /usr/share/zsh/site-functions
+obj /usr/share/zsh/site-functions/_eix-installed 8c88ec4de2e16b2a06334e3789d1c215 1574393657
+obj /usr/share/zsh/site-functions/_eix-remote 2d2a04bb7d0ebdc253bb7db888e52c6b 1574393658
+obj /usr/share/zsh/site-functions/_eix-sync 9ad47ec1b97b2c047131ba0125f7d55c 1574393658
+obj /usr/share/zsh/site-functions/_eix-header 0374dc06305a030d41a7d97569f64243 1574393658
+obj /usr/share/zsh/site-functions/_eix-installed-after 0fbe07146d6d422ce9d57019590a937a 1574393657
+obj /usr/share/zsh/site-functions/_eix-layman beed29417840fca83210a9260fea800b 1574393658
+obj /usr/share/zsh/site-functions/_eix 2074bc2fa0c743d75e9def3afa2fb9c6 1574393657
+obj /usr/share/zsh/site-functions/_eix-test-obsolete 5b2eb82def491d3f9ad1c4e9ae04e1ae 1574393658
+dir /usr/share/eix
+obj /usr/share/eix/eix-functions 6ff20dae1c92a57f496711023608b105 1574393657
+dir /usr/share/man
+dir /usr/share/man/de
+dir /usr/share/man/de/man1
+obj /usr/share/man/de/man1/eix.1.bz2 bbb9ea0cd69b589b035704cc6f1cd8ab 1574393657
+dir /usr/share/man/ru
+dir /usr/share/man/ru/man1
+obj /usr/share/man/ru/man1/eix.1.bz2 a8b49ba89f92b8d4c1de3ae9ba6b9235 1574393657
+dir /usr/share/man/man1
+obj /usr/share/man/man1/eix.1.bz2 7a135060cebdbd93071ded84408a2b74 1574393657
+dir /usr/share/bash-completion
+dir /usr/share/bash-completion/completions
+obj /usr/share/bash-completion/completions/eix 8f683685e2044bf081df6ead21c855f6 1574393658

@@ -1,0 +1,21 @@
+dir /usr
+dir /usr/lib64
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libwoff2common.pc 7d6326fb3de85f3e54df03ae3e67f26a 1574537904
+obj /usr/lib64/pkgconfig/libwoff2dec.pc 24f5999b6afedf5df0506b8fb070a33a 1574537904
+obj /usr/lib64/pkgconfig/libwoff2enc.pc 8e1488bd21e810d89b8230d44edd96fc 1574537904
+obj /usr/lib64/libwoff2dec.so.1.0.2 eb2dbf977141d6ff76533b39ca2a76b7 1574537912
+obj /usr/lib64/libwoff2enc.so.1.0.2 7a30a28d223147c4f222938acb59520a 1574537912
+obj /usr/lib64/libwoff2common.so.1.0.2 49cdae3f33c0b64b8b1091fe7330a1a1 1574537912
+sym /usr/lib64/libwoff2dec.so -> libwoff2dec.so.1.0.2 1574537915
+sym /usr/lib64/libwoff2enc.so -> libwoff2enc.so.1.0.2 1574537915
+dir /usr/include
+dir /usr/include/woff2
+obj /usr/include/woff2/decode.h 1be27f951e98cc1f8b2cbae2a7613bd4 1510597888
+obj /usr/include/woff2/encode.h e879c164137956bba984d31240d07e21 1510597888
+obj /usr/include/woff2/output.h 2f3c5ca0e6fe1fc2d5c6c8609069b2f4 1510597888
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/woff2-1.0.2-r1
+obj /usr/share/doc/woff2-1.0.2-r1/README.md.bz2 d8d17a688b5ea15d63095f9d6e085409 1574537911
+sym /usr/lib64/libwoff2common.so -> libwoff2common.so.1.0.2 1574537915

@@ -1,0 +1,40 @@
+dir /lib64
+dir /lib64/security
+obj /lib64/security/pam_cifscreds.so ca5265754043bedeaad5d805a7a49233 1574394945
+dir /etc
+dir /etc/cifs-utils
+sym /etc/cifs-utils/idmap-plugin -> ../../usr/lib64/cifs-utils/idmapwb.so 1574394949
+dir /etc/request-key.d
+obj /etc/request-key.d/cifs.upcall.conf a52cb28abd2df5ec8ca34af30e386152 1574394944
+obj /etc/request-key.d/cifs.spnego.conf c97812d272ab918c7b5e0f8046f9c2f0 1574394944
+obj /etc/request-key.d/cifs.idmap.conf 2eecf70e7cc162ba0bfedd3a98554e76 1574394944
+dir /sbin
+obj /sbin/mount.cifs a4783ded8a936d0069d75d279ed32164 1574394945
+dir /usr
+dir /usr/lib64
+dir /usr/lib64/cifs-utils
+obj /usr/lib64/cifs-utils/idmapwb.so e82afb445c4ae194d4ce5707c24b96c1 1574394945
+dir /usr/include
+obj /usr/include/cifsidmap.h ee2f89b7f28af64e68f70d1ee8cbb4c2 1574394944
+dir /usr/bin
+obj /usr/bin/getcifsacl 61f32d6b330a51af9df1e59386dd684d 1574394945
+obj /usr/bin/setcifsacl d8182cc5961b9b4f37a01e1a00eacb7e 1574394945
+obj /usr/bin/smbinfo 8cf8a60ee8edeca32ff14831e07d5cfd 1574394945
+dir /usr/sbin
+obj /usr/sbin/cifs.upcall 4f773ef9e6e6ec8a2aab70256ca85139 1574394945
+obj /usr/sbin/cifs.idmap c1f8cd05200a97ab2dfccb4bee128904 1574394945
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/cifs-utils-6.9-r1
+obj /usr/share/doc/cifs-utils-6.9-r1/linux-cifs-client-guide.odt.bz2 322231393358a80df3311f1f5b438299 1574394944
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/pam_cifscreds.8.bz2 631087277813201e88d30bc05bc7da85 1574394944
+obj /usr/share/man/man8/idmapwb.8.bz2 f5a4f835ec34309d8f4c41ca78660620 1574394944
+obj /usr/share/man/man8/mount.cifs.8.bz2 37635e8050d6262c5097125480cc28b0 1574394944
+obj /usr/share/man/man8/cifs.upcall.8.bz2 c802cbe793b8d2e3b69082aa208eeb1d 1574394944
+obj /usr/share/man/man8/cifs.idmap.8.bz2 8831a5e2f67a7277b6804af46f89a5d3 1574394944
+dir /usr/share/man/man1
+obj /usr/share/man/man1/smbinfo.1.bz2 bea0843de591630e58d8da0a07f74ab9 1574394944
+obj /usr/share/man/man1/setcifsacl.1.bz2 d858b7a716b8ee38b625fb0ed3a14238 1574394944
+obj /usr/share/man/man1/getcifsacl.1.bz2 991376e9d8de9cae519601e4f0cb3c9f 1574394944

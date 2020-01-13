@@ -1,0 +1,104 @@
+dir /usr
+dir /usr/lib64
+sym /usr/lib64/libdrumstick-alsa.so -> libdrumstick-alsa.so.1 1578262554
+dir /usr/lib64/drumstick
+obj /usr/lib64/drumstick/libdrumstick-rt-alsa-out.so cd0981955b8b90520869fbd503139460 1578262550
+obj /usr/lib64/drumstick/libdrumstick-rt-eassynth.so e56322625606129dae629ca709adb92a 1578262550
+obj /usr/lib64/drumstick/libdrumstick-rt-net-in.so 6d81b245180c31cc0c282b59285ea9f7 1578262550
+obj /usr/lib64/drumstick/libdrumstick-rt-oss-out.so 61224352ee3c938631f90ad62087e728 1578262550
+obj /usr/lib64/drumstick/libdrumstick-rt-alsa-in.so 0606c694eefb9f732ceeb30d9f78273e 1578262550
+obj /usr/lib64/drumstick/libdrumstick-rt-oss-in.so b15609ce26a84cfbaf5fc2ce7b08b6d7 1578262550
+obj /usr/lib64/drumstick/libdrumstick-rt-net-out.so 831670714f756296eb73f5e30b534003 1578262550
+sym /usr/lib64/libdrumstick-rt.so -> libdrumstick-rt.so.1 1578262554
+obj /usr/lib64/libdrumstick-alsa.so.1.1.3 ca87051da366ab54f9c10f6aad2baed3 1578262550
+sym /usr/lib64/libdrumstick-file.so -> libdrumstick-file.so.1 1578262554
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/drumstick-alsa.pc f87811366bd770964bfc52305260785b 1578262461
+obj /usr/lib64/pkgconfig/drumstick-file.pc d30aa113801c1b2b0753aa175897c1c6 1578262461
+obj /usr/lib64/pkgconfig/drumstick-rt.pc 46c1cfd46147c17fd7efa13f98835db9 1578262461
+obj /usr/lib64/libdrumstick-rt.so.1.1.3 efae8825de974cd05f215cdc43ac395d 1578262550
+obj /usr/lib64/libdrumstick-file.so.1.1.3 a4bf149440d00a5e518a0d60b0cf5531 1578262550
+sym /usr/lib64/libdrumstick-rt.so.1 -> libdrumstick-rt.so.1.1.3 1578262554
+sym /usr/lib64/libdrumstick-file.so.1 -> libdrumstick-file.so.1.1.3 1578262554
+sym /usr/lib64/libdrumstick-alsa.so.1 -> libdrumstick-alsa.so.1.1.3 1578262554
+dir /usr/include
+obj /usr/include/drumstick.h 79af14b337741f16cec1af1a2a37a191 1567346382
+dir /usr/include/drumstick
+obj /usr/include/drumstick/drumstickcommon.h 79285d34468f4598e70cb981f61bf547 1567346382
+obj /usr/include/drumstick/alsaevent.h 9cf9d2564cc6ed216d6ba4c7846ef365 1567346382
+obj /usr/include/drumstick/alsaclient.h a452ef04d8371cccb64e43a3f054a781 1567346382
+obj /usr/include/drumstick/rtmidiinput.h e3f295cfa29745c764af72b45d514eff 1567346382
+obj /usr/include/drumstick/backendmanager.h 51b89f7a98141849c0e9f3a59b3625f5 1567346382
+obj /usr/include/drumstick/alsatimer.h 7842494a15082f07f1db8104e5bef6d5 1567346382
+obj /usr/include/drumstick/qsmf.h b7b733b494dfbac123553d0a82b78c38 1567346382
+obj /usr/include/drumstick/qwrk.h e002ac26159ed4adc90dbf0c16332bdd 1567346382
+obj /usr/include/drumstick/alsaqueue.h a23dd1c20ddd37a4a08e2746d7b08aba 1567346382
+obj /usr/include/drumstick/rtmidioutput.h 272370c98598a174cc277acd3a829078 1567346382
+obj /usr/include/drumstick/subscription.h facc2647a99e924935fd34eee993e045 1567346382
+obj /usr/include/drumstick/alsaport.h c78cd5692c20298b431bd5d60d6e8428 1567346382
+obj /usr/include/drumstick/playthread.h 462595997a315ce49d5be789571249c9 1567346382
+obj /usr/include/drumstick/qove.h 5a4b9686acb7f26bc206abb98dcdaa72 1567346382
+obj /usr/include/drumstick/macros.h 9a5ff8c78af47d98a55aca0e23eedaa7 1567346382
+dir /usr/bin
+obj /usr/bin/drumstick-dumpsmf 7e6ad2d8726d4f1c260ca2fc5dcbbde0 1578262550
+obj /usr/bin/drumstick-dumpmid 32fb529ed28d537ce5e011dac5d0ad6a 1578262550
+obj /usr/bin/drumstick-dumpove eeb0a6af7bdd9c3fa17b66154e4f95dd 1578262550
+obj /usr/bin/drumstick-vpiano 040f58d97c25897f56a383762472e88f 1578262550
+obj /usr/bin/drumstick-guiplayer 18600a4d474024bdac88e95d330aadf1 1578262550
+obj /usr/bin/drumstick-playsmf 6208b34a554db8d21887d0a01e477654 1578262550
+obj /usr/bin/drumstick-metronome 243270b79ec24e686b324fc04479b230 1578262550
+obj /usr/bin/drumstick-dumpwrk 69f43a16b73fcfa2ebd5a294bec2cbf2 1578262550
+obj /usr/bin/drumstick-drumgrid eafa6bfeff3fbdc8a162626c18a92435 1578262550
+obj /usr/bin/drumstick-sysinfo 616095b6119c9d372b8091414cf417eb 1578262550
+dir /usr/share
+dir /usr/share/drumstick
+dir /usr/share/drumstick/cmake
+obj /usr/share/drumstick/cmake/drumstick-alsa-config-gentoo.cmake 2b099b3ee938a3b6de57add392b6d616 1578262461
+obj /usr/share/drumstick/cmake/drumstick-rt-config.cmake 04fcdd0891bac6e461589b46e2022220 1578262461
+obj /usr/share/drumstick/cmake/drumstick-alsa-config.cmake d17771cdfe2be28ce84319d1a609e458 1578262461
+obj /usr/share/drumstick/cmake/drumstick-file-config.cmake 6914e425ce516880a6f14e58b4d87a72 1578262461
+obj /usr/share/drumstick/cmake/drumstick-rt-config-gentoo.cmake ba1c44a10642987653d43bf5d3cb8142 1578262461
+obj /usr/share/drumstick/cmake/drumstick-file-config-gentoo.cmake 4ee04d852cfbcb76efc7393352585293 1578262461
+dir /usr/share/doc
+dir /usr/share/doc/drumstick-1.1.3
+obj /usr/share/doc/drumstick-1.1.3/README a1499c125b1b4d30ae42b0b5a3428100 1578262548
+obj /usr/share/doc/drumstick-1.1.3/NEWS.bz2 f8e330c6b065d0e687e421585a645dde 1578262548
+obj /usr/share/doc/drumstick-1.1.3/AUTHORS 4db0473a13b6553cd21141ccaafa5d58 1578262548
+obj /usr/share/doc/drumstick-1.1.3/ChangeLog.bz2 27d5bba9bd758399427d0bbb2326f5e2 1578262548
+obj /usr/share/doc/drumstick-1.1.3/TODO.bz2 87632914889737dc2f60456575249fe2 1578262548
+dir /usr/share/mime
+dir /usr/share/mime/packages
+obj /usr/share/mime/packages/drumstick.xml 65576ce49a05e7524f1febf134725a4e 1567346382
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/drumstick-dumpove.1.bz2 32b16ca5e9524238ca66a41da897d80f 1578262546
+obj /usr/share/man/man1/drumstick-metronome.1.bz2 b1af05c14dcd0d843576fa34be28822f 1578262547
+obj /usr/share/man/man1/drumstick-vpiano.1.bz2 c95fc4b43bbc8ad80d135e4beae5a311 1578262547
+obj /usr/share/man/man1/drumstick-dumpsmf.1.bz2 f4df53b3a752c0bc2e660495e19a1eed 1578262546
+obj /usr/share/man/man1/drumstick-guiplayer.1.bz2 ca0ffd8aceaf642ddefddca09255003d 1578262547
+obj /usr/share/man/man1/drumstick-sysinfo.1.bz2 4cc769aae59950e84a7a9274a01f36ba 1578262547
+obj /usr/share/man/man1/drumstick-playsmf.1.bz2 43d5c58f45696555ec2c10811b0635f4 1578262547
+obj /usr/share/man/man1/drumstick-dumpwrk.1.bz2 0f09f0505280131482b9de07c6ab4eb8 1578262547
+obj /usr/share/man/man1/drumstick-drumgrid.1.bz2 8c87996db5fa16666005ac7440329f04 1578262546
+obj /usr/share/man/man1/drumstick-dumpmid.1.bz2 4a8732918d3585e4105ebf44f8692422 1578262546
+dir /usr/share/applications
+obj /usr/share/applications/drumstick-guiplayer.desktop ddabad45b23b5347b7723dee9f18b46a 1567346382
+obj /usr/share/applications/drumstick-vpiano.desktop 78c76cdb55df6adc6fabd5f3c62f67c4 1567346382
+obj /usr/share/applications/drumstick-drumgrid.desktop 2c582d42a656d0649fd2fdb006237507 1567346382
+dir /usr/share/icons
+dir /usr/share/icons/hicolor
+dir /usr/share/icons/hicolor/48x48
+dir /usr/share/icons/hicolor/48x48/apps
+obj /usr/share/icons/hicolor/48x48/apps/drumstick.png 13788ca05f34a953a96689010a3280a7 1567346382
+dir /usr/share/icons/hicolor/32x32
+dir /usr/share/icons/hicolor/32x32/apps
+obj /usr/share/icons/hicolor/32x32/apps/drumstick.png 35590268ba3c84711d43f6c95a5cb407 1567346382
+dir /usr/share/icons/hicolor/16x16
+dir /usr/share/icons/hicolor/16x16/apps
+obj /usr/share/icons/hicolor/16x16/apps/drumstick.png 9bb0ccf080c50978e447ce3cbddbe4a5 1567346382
+dir /usr/share/icons/hicolor/scalable
+dir /usr/share/icons/hicolor/scalable/apps
+obj /usr/share/icons/hicolor/scalable/apps/drumstick.svgz 14c1f5a6e5de5036f6f249b76313cded 1567346382
+dir /usr/share/icons/hicolor/64x64
+dir /usr/share/icons/hicolor/64x64/apps
+obj /usr/share/icons/hicolor/64x64/apps/drumstick.png 00de0b3502c337f586a57e51e9e538d6 1567346382

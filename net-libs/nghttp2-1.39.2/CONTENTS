@@ -1,0 +1,31 @@
+dir /usr
+dir /usr/lib64
+sym /usr/lib64/libnghttp2_asio.so.1 -> libnghttp2_asio.so.1.0.0 1574442272
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libnghttp2.pc 463e7740e2466c295941237765f54120 1574442264
+obj /usr/lib64/pkgconfig/libnghttp2_asio.pc f165661332d2b5a7e4b330546235b4ca 1574442264
+obj /usr/lib64/libnghttp2_asio.so.1.0.0 5c671b2878eea9d0230bad941a34060c 1574442266
+sym /usr/lib64/libnghttp2_asio.so -> libnghttp2_asio.so.1.0.0 1574442272
+obj /usr/lib64/libnghttp2.so.14.18.0 b7247eceb15210aaef38eece2b1e6b93 1574442266
+dir /usr/include
+dir /usr/include/nghttp2
+obj /usr/include/nghttp2/nghttp2ver.h 7be55836952705140637a9bb357fd5ed 1574442264
+obj /usr/include/nghttp2/asio_http2.h 44e4e76583c7442a8adafab20915fdd9 1574442264
+obj /usr/include/nghttp2/asio_http2_server.h 98005e3ea16a9b32b3b6e09487708568 1574442264
+obj /usr/include/nghttp2/asio_http2_client.h 13a23634613adbe9160c4ecc265ffb95 1574442264
+obj /usr/include/nghttp2/nghttp2.h 771a08f4306ff3cde3dbcc842a9d7d39 1574442264
+dir /usr/bin
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/nghttp2-1.39.2
+obj /usr/share/doc/nghttp2-1.39.2/README.rst.bz2 7f981b91882048ade5d5d497280a2501 1574442265
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/nghttpx.1.bz2 04d3cb6100066c083eaf4e845ba11eb4 1574442265
+obj /usr/share/man/man1/nghttpd.1.bz2 86e2149a6ea28a7fffd48fa45a6285df 1574442265
+obj /usr/share/man/man1/nghttp.1.bz2 9a0a3af53b9651bf2b0437307520efc5 1574442265
+obj /usr/share/man/man1/h2load.1.bz2 14e9ec725c47eabd89afedf94e047bcb 1574442265
+dir /usr/share/nghttp2
+obj /usr/share/nghttp2/fetch-ocsp-response 55205275e5a11f395b9067c65a9cd4e9 1574442265
+sym /usr/lib64/libnghttp2.so -> libnghttp2.so.14.18.0 1574442272
+sym /usr/lib64/libnghttp2.so.14 -> libnghttp2.so.14.18.0 1574442272

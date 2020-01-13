@@ -1,0 +1,133 @@
+dir /lib
+dir /lib/systemd
+dir /lib/systemd/system
+obj /lib/systemd/system/openvpn-server@.service 3b8cfcf541711e5739698b69a63bd1f2 1577406854
+obj /lib/systemd/system/openvpn-client@.service 141a91e24c0c1fd93336fa1298db6e0b 1577406854
+dir /etc
+dir /etc/openvpn
+obj /etc/openvpn/up.sh 2f3e08bf181639818cdb872c7dfd36f1 1577406856
+obj /etc/openvpn/down.sh dc3ff0bae442b9aedd947b8ffda1687a 1577406856
+obj /etc/openvpn/.keep_net-vpn_openvpn-0 d41d8cd98f00b204e9800998ecf8427e 1577406856
+dir /etc/init.d
+obj /etc/init.d/openvpn f655f6de68d89bd97556dcc7a257ba64 1577406856
+dir /etc/conf.d
+obj /etc/conf.d/openvpn 9eca88cac6294027ec1bb7be74185c3a 1577406856
+dir /usr
+dir /usr/lib
+dir /usr/lib/tmpfiles.d
+obj /usr/lib/tmpfiles.d/openvpn.conf af1d2934dd0025c441d93f6de4540443 1577406854
+dir /usr/lib64
+dir /usr/lib64/openvpn
+dir /usr/lib64/openvpn/plugins
+obj /usr/lib64/openvpn/plugins/openvpn-plugin-auth-pam.so 08fd4a3d0d8c7ac8ae9d3c7109287f32 1577406859
+dir /usr/include
+obj /usr/include/openvpn-msg.h 3f2288567468559cbf4455994c650447 1577406854
+obj /usr/include/openvpn-plugin.h b5b990d5bbee5beed33c1a489e0b6ba9 1577406854
+dir /usr/sbin
+obj /usr/sbin/openvpn a8fbddf98a2a09f895f4bd40511f415d 1577406859
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/openvpn-2.4.7-r1
+obj /usr/share/doc/openvpn-2.4.7-r1/PORTS.bz2 81805a5eb7d9cc8c0ee59b5273ee40de 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/Changes.rst.bz2 8362ddc796031dfde26c06374b48ee2c 1577406855
+obj /usr/share/doc/openvpn-2.4.7-r1/README.auth-pam.bz2 7d677c6b45b6f90deff74fbe94e764f0 1577406855
+obj /usr/share/doc/openvpn-2.4.7-r1/README.mbedtls.bz2 6e9bfbd1c7ecbf94274560a743686714 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/README.systemd.bz2 e948a8d8db2932d5f40863982a941a80 1577406854
+obj /usr/share/doc/openvpn-2.4.7-r1/COPYRIGHT.GPL.bz2 43b30f0c913bc8285b3f1ba7f5fcdd49 1577406855
+obj /usr/share/doc/openvpn-2.4.7-r1/README.bz2 efe97358a1388db94888fa29c42f7475 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/management-notes.txt.bz2 3fe490f217547962691dca3988710c61 1577406855
+obj /usr/share/doc/openvpn-2.4.7-r1/COPYING.bz2 d0e155060ae4338d8d828b5a09101e05 1577406855
+dir /usr/share/doc/openvpn-2.4.7-r1/examples
+dir /usr/share/doc/openvpn-2.4.7-r1/examples/contrib
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/contrib/README 860d8703464bebceb9cf5e77c0bbf40e 1577406856
+dir /usr/share/doc/openvpn-2.4.7-r1/examples/contrib/openvpn-fwmarkroute-1.00
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/contrib/openvpn-fwmarkroute-1.00/fwmarkroute.down.bz2 c335d9c28caad9bf48905146593b1aa7 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/contrib/openvpn-fwmarkroute-1.00/README.bz2 9f7a076cdf7ba4cf1b4f251b165c8fbb 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/contrib/openvpn-fwmarkroute-1.00/fwmarkroute.up.bz2 c54ccbc62f3ae13f232aa0d86334c412 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/contrib/multilevel-init.patch.bz2 9d57b13aab9d45e6105419ec8d536d11 1577406856
+dir /usr/share/doc/openvpn-2.4.7-r1/examples/contrib/pull-resolv-conf
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/contrib/pull-resolv-conf/client.up.bz2 0299b126cdf36b277052585fd442208e 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/contrib/pull-resolv-conf/client.down.bz2 12ab43069a09322318647ce5d74b8405 1577406856
+dir /usr/share/doc/openvpn-2.4.7-r1/examples/contrib/OCSP_check
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/contrib/OCSP_check/OCSP_check.sh.bz2 7a1477aaf551cd58e3f9c4f971df3b4f 1577406856
+dir /usr/share/doc/openvpn-2.4.7-r1/examples/sample
+dir /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-windows
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-windows/sample.ovpn.bz2 1e117ff20d9445a67c2489a2a36e769f 1577406856
+dir /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/loopback-client.bz2 170002d61393f41fe8afb2b87ab0a1ce 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/static-office.conf.bz2 68ab756b4fd79cec96374ee6863bad10 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/tls-home.conf.bz2 c8f9fa2704c6155d21c2bdb64255c740 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/xinetd-server-config.bz2 6e5a021443765821d5baf7a2601255b0 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/README.bz2 dd68de82aec7d659bfea80ffbc858b9a 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/openvpn-shutdown.sh 2ddccc9602d48921ba5747b2d96ec1f5 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/home.up 86506b7aae0d1a4b70a44eef20866feb 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/xinetd-client-config.bz2 8f074172af9e0967f6a5d97fee2e930b 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/firewall.sh.bz2 f7f94fba2e7a203a7db404563d5fb4c3 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/client.conf.bz2 53f7ef28568e4233283567d10a00647d 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/office.up edd7c2595b38fd4852cd31180e4c759a 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/openvpn-startup.sh.bz2 fdfe27d84001313bdc29041280d37f15 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/loopback-server.bz2 2481bf75646343c28fbb971da6ef833f 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/tls-office.conf.bz2 f92891f704548da04ef6dee7fcde76d2 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/server.conf.bz2 9f3601d961da89b22e01c63d1a5f4f77 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-config-files/static-home.conf.bz2 ec2538b5d800b7cf62553b8b416d45e3 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/Makefile.am.bz2 2a38ed89458db972bf0eb343eaf4dc53 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/Makefile.bz2 0203b1dd1c84398bbe66f574c260e317 1577406856
+dir /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins
+dir /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/defer
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/defer/simple.def.bz2 7fe8356c6331acbceb00e0d531855bb4 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/defer/winbuild.bz2 f3fb33bbb99f0627e25cd058218fd206 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/defer/README.bz2 6c4964ec0afe137a2257507443c8613f 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/defer/simple.c.bz2 e17c7e8789289ecbdb627e7d5f69193c 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/defer/build.bz2 052ab6f389dec632744ab46769e7fb1d 1577406856
+dir /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/simple
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/simple/simple.def.bz2 7fe8356c6331acbceb00e0d531855bb4 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/simple/base64.c.bz2 f0ed07bab5fa7005a3f59ee73c0844c8 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/simple/winbuild.bz2 a4ce241f5858cdd111089d82086f0078 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/simple/README.bz2 47cc47f3e69c9c32480cb5cdb5db70b1 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/simple/simple.c.bz2 6ec8d85e57e5e3deebb80d4cffaf2451 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/simple/build.bz2 a163b92877d5f59a0cc75fe59237dff7 1577406856
+dir /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/keying-material-exporter-demo
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/keying-material-exporter-demo/http-server.py.bz2 0ea2bcdfa97b4c9721cdfd63fc3fb07e 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/keying-material-exporter-demo/keyingmaterialexporter.c.bz2 f74d5379635ffd9ab51588b4d8544285 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/keying-material-exporter-demo/http-client.py.bz2 3b64a716f332c947a1bcc68fe9472821 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/keying-material-exporter-demo/README.bz2 5a9095996e9d3ef0c3b668fe6150e94f 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/keying-material-exporter-demo/server.ovpn.bz2 81f4c8ff7af6b0e1d0f0f2e11c5502d8 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/keying-material-exporter-demo/build.bz2 a163b92877d5f59a0cc75fe59237dff7 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/keying-material-exporter-demo/client.ovpn.bz2 34ad7761293e356cf64a055c6a988a55 1577406856
+dir /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/log
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/log/winbuild.bz2 a4ce241f5858cdd111089d82086f0078 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/log/log.c.bz2 efd1189783a53980a51452a6ef51d7bb 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/log/log_v3.c.bz2 0c13656f77043fe9af94ef520ade4e91 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-plugins/log/build.bz2 da2537400085dd220103514d85bca945 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/Makefile.in.bz2 6eaccd472417d688878bc162e9591d7f 1577406856
+dir /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/ta.key.bz2 4276025ac854929b556dc38a7eac651d 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/openssl.cnf.bz2 8608f410d7e299e2fca21138cd38e291 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/ca.key.bz2 b75b0cbdaacb5bcfd60d01fc98a854e6 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/gen-sample-keys.sh.bz2 030ed231d62059c21c07792d3cb68aa7 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/client.p12.bz2 d7d2e62455ad83bdfd39f9787d66919a 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/server.crt.bz2 8e630370068b2b502280bd86dc587bac 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/server-ec.crt.bz2 c0c7a63042b9c6056a613fb54baf8d7e 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/ca.crt.bz2 a251844ec5392fc23283a591503caa7b 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/README.bz2 af560d037176a63e553a5a9db72a9eda 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/client.key.bz2 7337241695267346c2622feb622877d4 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/client-pass.key.bz2 90336f385985993383cc0117dc2ed8b5 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/client-ec.key.bz2 e66d819057b4da00d9ccafc0f8f02dc1 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/client-ec.crt.bz2 b1f8952a0326d91d756ed4b0cd62356a 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/server.key.bz2 7231062dc43d1de70b9bd8c94a2a151d 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/server-ec.key.bz2 799dbda6060d8229b99a5a98244ac208 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/client.crt.bz2 f1380ef022c98edb3ca1e114ff2d388e 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-keys/dh2048.pem.bz2 acc019bd2bfd9acf22bfd4e7a51256f4 1577406856
+dir /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-scripts
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-scripts/ucn.pl.bz2 96a3baa6b23b7b42db0b86ce7ebebb3b 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-scripts/bridge-start.bz2 06d73867cc2cb7c41664aeb1278da44b 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-scripts/bridge-stop.bz2 26eb2c446cf0b85108abd2fea3fcd379 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-scripts/auth-pam.pl.bz2 8551132a922a4836f19e79da5cb75468 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/examples/sample/sample-scripts/verify-cn.bz2 01f2f028fc9b55e8c344c0ae1695252b 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/README.ec.bz2 0f884e2b971714680f21ba3ac134d94c 1577406855
+obj /usr/share/doc/openvpn-2.4.7-r1/AUTHORS 8f19e79d0b03fa509503974756a34d31 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/README.IPv6.bz2 7677908969158e448dcdcf152478ac6b 1577406856
+obj /usr/share/doc/openvpn-2.4.7-r1/ChangeLog.bz2 f274103cd097114dd77ead2b2deae17a 1577406856
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/openvpn.8.bz2 59cbb3ab581ce770dc2efeb9940ef3aa 1577406855

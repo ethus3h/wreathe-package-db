@@ -1,0 +1,188 @@
+dir /lib
+dir /lib/udev
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/80-docker.rules fa29dacfd5a30258752c5a98ef5d3c3f 1574743666
+dir /lib/systemd
+dir /lib/systemd/system
+obj /lib/systemd/system/docker.socket bfcdf23967fc9b4e9d8d4d22ee4daafe 1574743666
+obj /lib/systemd/system/docker.service abd24b0ba086e61600d7a5068797cfcf 1574743666
+dir /etc
+dir /etc/init.d
+obj /etc/init.d/docker 5fe48710b81fcf8bd2b7e6704061d94f 1574743665
+dir /etc/conf.d
+obj /etc/conf.d/docker 2267269beb3fa0233574fe566ad5e0f0 1574743666
+dir /usr
+dir /usr/bin
+sym /usr/bin/docker-runc -> runc 1574743690
+obj /usr/bin/docker 4160a6075fefa1b76018c12416a6180f 1574743666
+obj /usr/bin/dockerd ba5014fbb365866a55439892c8d13dc8 1574743665
+sym /usr/bin/docker-init -> tini 1574743692
+sym /usr/bin/docker-containerd -> containerd 1574743692
+sym /usr/bin/docker-containerd-shim -> containerd-shim 1574743692
+dir /usr/share
+dir /usr/share/docker
+dir /usr/share/docker/contrib
+obj /usr/share/docker/contrib/check-config.sh c49f43be0458098a956cd1c36eb628e4 1574743666
+dir /usr/share/docker/contrib/httpserver
+obj /usr/share/docker/contrib/httpserver/Dockerfile 6f9e07892194719c27321df3e1613fa9 1574743666
+obj /usr/share/docker/contrib/httpserver/server.go 803b3d1ae251377efce75df766bf2a8d 1574743666
+obj /usr/share/docker/contrib/mkimage-crux.sh 94b94d821dd399899125b0f2217bf228 1574743666
+obj /usr/share/docker/contrib/editorconfig 3f1d81e17ab1af79437a7eed232fa582 1574743666
+dir /usr/share/docker/contrib/udev
+obj /usr/share/docker/contrib/udev/80-docker.rules fa29dacfd5a30258752c5a98ef5d3c3f 1574743666
+dir /usr/share/docker/contrib/gitdm
+obj /usr/share/docker/contrib/gitdm/domain-map e146ad2d33ea821bf8d3b28fa9d08624 1574743666
+obj /usr/share/docker/contrib/gitdm/generate_aliases.sh 845fe3aa453bf87b6f833427400350ab 1574743666
+obj /usr/share/docker/contrib/gitdm/gitdm.config d45e00e8d1c7792469100b070257bb9b 1574743666
+obj /usr/share/docker/contrib/gitdm/aliases efe86602ac0f1563bf235bb927fe7ca2 1574743666
+obj /usr/share/docker/contrib/nuke-graph-directory.sh d425ff5baf70bd3b00272ed6cdaa245a 1574743666
+obj /usr/share/docker/contrib/report-issue.sh b1aa36c97f60a36ea47107f5f74ab7a9 1574743666
+dir /usr/share/docker/contrib/init
+dir /usr/share/docker/contrib/init/sysvinit-redhat
+obj /usr/share/docker/contrib/init/sysvinit-redhat/docker 4b81927c1c905eca91f370a99c5bb0d6 1574743666
+obj /usr/share/docker/contrib/init/sysvinit-redhat/docker.sysconfig 395153f146184c35461624de646d0812 1574743666
+dir /usr/share/docker/contrib/init/openrc
+obj /usr/share/docker/contrib/init/openrc/docker.initd 5fe48710b81fcf8bd2b7e6704061d94f 1574743666
+obj /usr/share/docker/contrib/init/openrc/docker.confd 2267269beb3fa0233574fe566ad5e0f0 1574743666
+dir /usr/share/docker/contrib/init/systemd
+obj /usr/share/docker/contrib/init/systemd/REVIEWERS 7a80414c7db3b2063331010228253018 1574743666
+obj /usr/share/docker/contrib/init/systemd/docker.service.rpm 208575751dca53f3ae9410a7b10c88da 1574743666
+obj /usr/share/docker/contrib/init/systemd/docker.socket bfcdf23967fc9b4e9d8d4d22ee4daafe 1574743666
+obj /usr/share/docker/contrib/init/systemd/docker.service abd24b0ba086e61600d7a5068797cfcf 1574743666
+dir /usr/share/docker/contrib/init/sysvinit-debian
+obj /usr/share/docker/contrib/init/sysvinit-debian/docker e593c2ca26facbf89018d4c708738c97 1574743666
+obj /usr/share/docker/contrib/init/sysvinit-debian/docker.default 82d6a44e99db1a3b74f7835e4f5e1b01 1574743666
+dir /usr/share/docker/contrib/init/upstart
+obj /usr/share/docker/contrib/init/upstart/REVIEWERS 12f13d0361b0db49097864c452eadd65 1574743666
+obj /usr/share/docker/contrib/init/upstart/docker.conf 123f7e2b4078fa11b4eecc4c4f9bdc25 1574743666
+dir /usr/share/docker/contrib/mkimage
+obj /usr/share/docker/contrib/mkimage/busybox-static b55470a2d22921e4a10fd5b9029c5f43 1574743666
+obj /usr/share/docker/contrib/mkimage/rinse a59d05f1951a4bae139544fdc8b100ec 1574743666
+obj /usr/share/docker/contrib/mkimage/debootstrap 723f1e37a05fc2c127f3c09596df0ef5 1574743666
+obj /usr/share/docker/contrib/mkimage/mageia-urpmi 54f0d82740a13e9e8d70927debf4e08c 1574743666
+obj /usr/share/docker/contrib/mkimage/.febootstrap-minimize 2ebc645d722d5ca4fa068f8b71e1e3a1 1574743666
+obj /usr/share/docker/contrib/dockerd-rootless.sh 780c7810c810ff8230ad5a3371c6c994 1574743666
+obj /usr/share/docker/contrib/README.md f44e53a9bdabf3612e1813d1962dd200 1574743666
+obj /usr/share/docker/contrib/mkimage-arch.sh 925c8323fc7a7db172fc1d5d92c06cfa 1574743666
+dir /usr/share/docker/contrib/vagrant-docker
+obj /usr/share/docker/contrib/vagrant-docker/README.md d73afb7b76926f311d1804f7d846ebaa 1574743666
+dir /usr/share/docker/contrib/desktop-integration
+dir /usr/share/docker/contrib/desktop-integration/gparted
+obj /usr/share/docker/contrib/desktop-integration/gparted/Dockerfile 9f0180565002f3214042f102c4a197d0 1574743666
+obj /usr/share/docker/contrib/desktop-integration/README.md fa4e54ebe0d1f61cda0ad168a396524a 1574743666
+dir /usr/share/docker/contrib/desktop-integration/chromium
+obj /usr/share/docker/contrib/desktop-integration/chromium/Dockerfile 60fef96141233dfa5f8be8b497213e79 1574743666
+obj /usr/share/docker/contrib/REVIEWERS 395eeb2581a1f19758bc33fdd1ec6e90 1574743666
+obj /usr/share/docker/contrib/download-frozen-image-v2.sh 832e46a772f4c88e3a9fb77d26f93766 1574743666
+dir /usr/share/docker/contrib/syscall-test
+obj /usr/share/docker/contrib/syscall-test/setgid.c 326638d7f4283a9910d46e2a9c60bd93 1574743666
+obj /usr/share/docker/contrib/syscall-test/socket.c f9e0eb07a5f01b06ccfeabef323dd7db 1574743666
+obj /usr/share/docker/contrib/syscall-test/userns.c b532968d230fba5da334738d55e16788 1574743666
+obj /usr/share/docker/contrib/syscall-test/exit32.s 9b741f50b80418db28b64ddc44283045 1574743666
+obj /usr/share/docker/contrib/syscall-test/raw.c de0f4795e7ae70e81ca83949ec462aff 1574743666
+obj /usr/share/docker/contrib/syscall-test/Dockerfile 470128a29cfa4ac35c349a0ef0af0c80 1574743666
+obj /usr/share/docker/contrib/syscall-test/setuid.c aa484b7168a83419d9e7e7de8cc81454 1574743666
+obj /usr/share/docker/contrib/syscall-test/ns.c 0e0c3bdb137bd1821068390bedb87154 1574743666
+obj /usr/share/docker/contrib/syscall-test/acct.c 8b258294582d770ba4f7ecaecaa15e8e 1574743666
+obj /usr/share/docker/contrib/mac-install-bundle.sh 4bcc774952bff2bb197b9ac5f66a1d42 1574743666
+dir /usr/share/docker/contrib/apparmor
+obj /usr/share/docker/contrib/apparmor/template.go 4f22016fe3b13080c526778a22037281 1574743666
+obj /usr/share/docker/contrib/apparmor/main.go fabb9050eac01fb605fbc4a1ef6eaa26 1574743666
+obj /usr/share/docker/contrib/mkimage.sh df166dac87f163cf014f694238ec5cb2 1574743666
+obj /usr/share/docker/contrib/mkimage-yum.sh f1c310d80c0bff661b2af48f04639f6b 1574743666
+obj /usr/share/docker/contrib/download-frozen-image-v1.sh b9cb3e8533b4d76c75074c7adad2d00c 1574743666
+dir /usr/share/docker/contrib/docker-device-tool
+obj /usr/share/docker/contrib/docker-device-tool/device_tool.go a1407952fa5253a344ae73511731f847 1574743666
+obj /usr/share/docker/contrib/docker-device-tool/README.md 4c4b58697e3ddb6a607cd432733099b1 1574743666
+obj /usr/share/docker/contrib/docker-device-tool/device_tool_windows.go 72c1a1eea1de350a50bd66eedded1d47 1574743666
+obj /usr/share/docker/contrib/dockerize-disk.sh 63dbb6b6c3d3d4ac69e8256993c93e18 1574743666
+obj /usr/share/docker/contrib/mkimage-pld.sh 0988a15bee79cdf3050a1c972880cc75 1574743666
+dir /usr/share/docker/contrib/nnp-test
+obj /usr/share/docker/contrib/nnp-test/nnp-test.c 44377019c3856c926f6ba5e1b97aec66 1574743666
+obj /usr/share/docker/contrib/nnp-test/Dockerfile 96f18b112780b6cdf8de5f1f88857831 1574743666
+obj /usr/share/docker/contrib/mkimage-arch-pacman.conf 3bd1aef2ea45958049301c0cef1fb7e3 1574743666
+obj /usr/share/docker/contrib/mkimage-alpine.sh 6390827f2177fe39ba03a8e0cda72c49 1574743666
+dir /usr/share/docker/contrib/syntax
+dir /usr/share/docker/contrib/syntax/textmate
+obj /usr/share/docker/contrib/syntax/textmate/README.md be66588d3f57ba80f9979667b42447f8 1574743666
+obj /usr/share/docker/contrib/syntax/textmate/REVIEWERS 004d8b0955e21edeff5fcd6309ff38a8 1574743666
+dir /usr/share/docker/contrib/syntax/textmate/Docker.tmbundle
+dir /usr/share/docker/contrib/syntax/textmate/Docker.tmbundle/Preferences
+obj /usr/share/docker/contrib/syntax/textmate/Docker.tmbundle/Preferences/Dockerfile.tmPreferences 9ba12c10bc16305f516d74ac17ddbc25 1574743666
+dir /usr/share/docker/contrib/syntax/textmate/Docker.tmbundle/Syntaxes
+obj /usr/share/docker/contrib/syntax/textmate/Docker.tmbundle/Syntaxes/Dockerfile.tmLanguage 4ef0ab1fee60b5709f57d5b31bc6aea9 1574743666
+obj /usr/share/docker/contrib/syntax/textmate/Docker.tmbundle/info.plist a394d30c2ab993e50c285db535c6d13b 1574743666
+dir /usr/share/docker/contrib/syntax/nano
+obj /usr/share/docker/contrib/syntax/nano/Dockerfile.nanorc 23e5f0e2ff4a7e5b620dc1ea46035b18 1574743666
+obj /usr/share/docker/contrib/syntax/nano/README.md 1b7632047871d27ceac432c1c209aea7 1574743666
+dir /usr/share/docker/contrib/syntax/vim
+obj /usr/share/docker/contrib/syntax/vim/README.md 8aa6ec8ce760d4a950e20cafad215ef2 1574743666
+obj /usr/share/docker/contrib/syntax/vim/LICENSE c50f713ed34842bde8ab3da43cb37cb0 1574743666
+dir /usr/share/docker/contrib/syntax/vim/doc
+obj /usr/share/docker/contrib/syntax/vim/doc/dockerfile.txt 07ee6a7a2bd043ece10945c9f3dbdf81 1574743666
+dir /usr/share/docker/contrib/syntax/vim/ftdetect
+obj /usr/share/docker/contrib/syntax/vim/ftdetect/dockerfile.vim d26417b376e2c7692656387ea7e6d8ec 1574743666
+dir /usr/share/docker/contrib/syntax/vim/syntax
+obj /usr/share/docker/contrib/syntax/vim/syntax/dockerfile.vim 98243e8d389940972b442c1e04c29d3e 1574743666
+obj /usr/share/docker/contrib/mkimage-archarm-pacman.conf 99467083ff815549a59131e188a598af 1574743666
+obj /usr/share/docker/contrib/docker-machine-install-bundle.sh 8fa7b1204e0ac476c81e4d4a7e650af9 1574743666
+dir /usr/share/fish
+dir /usr/share/fish/vendor_completions.d
+obj /usr/share/fish/vendor_completions.d/docker.fish 2ffd267c99164e95a1489d5b3b9f96f4 1574743667
+dir /usr/share/doc
+dir /usr/share/doc/docker-19.03.5
+obj /usr/share/doc/docker-19.03.5/README.md.bz2 05a7da339b6311b0f2ab87c953a25522 1574743666
+obj /usr/share/doc/docker-19.03.5/NOTICE.bz2 980311ebf9c70708756b6f9aa5202f80 1574743666
+obj /usr/share/doc/docker-19.03.5/CHANGELOG.md.bz2 fc75566c541f629d38136a213893fff6 1574743666
+obj /usr/share/doc/docker-19.03.5/AUTHORS.bz2 f68e313aae01696d6eae3ab8cc611358 1574743666
+obj /usr/share/doc/docker-19.03.5/CONTRIBUTING.md.bz2 d0b066e51fe3ccc5e1b213bfe54b2601 1574743666
+obj /usr/share/doc/docker-19.03.5/rootless.md.bz2 02dfbac75734d0735b77fa0203352615 1574743666
+dir /usr/share/doc/docker-19.03.5/static_files
+obj /usr/share/doc/docker-19.03.5/static_files/contributors.png bd84a4a1a6e2a98bd6f360ea736cadab 1574743666
+obj /usr/share/doc/docker-19.03.5/static_files/moby-project-logo.png 0d30e5dfb02ea77f8095f502e7056747 1574743666
+dir /usr/share/doc/docker-19.03.5/contributing
+obj /usr/share/doc/docker-19.03.5/contributing/README.md.bz2 c2f4cf7e30acf0a2a45fd0e3b82c11bb 1574743666
+obj /usr/share/doc/docker-19.03.5/contributing/set-up-git.md.bz2 6a02f4d42742aa9fd78cf9e3cbe6c83c 1574743666
+obj /usr/share/doc/docker-19.03.5/contributing/who-written-for.md.bz2 f006f5b4a1b5726050c519148a8f839f 1574743666
+obj /usr/share/doc/docker-19.03.5/contributing/set-up-dev-env.md.bz2 1f7a139ac5fb521edf0681e4fec35bd7 1574743666
+obj /usr/share/doc/docker-19.03.5/contributing/test.md.bz2 38ec762e4dc5d9ac13eb487f061268df 1574743666
+obj /usr/share/doc/docker-19.03.5/contributing/software-required.md.bz2 599036b809373f6d6e023b38824f5a84 1574743666
+obj /usr/share/doc/docker-19.03.5/contributing/software-req-win.md.bz2 24a00167134c6726c974e11cb6b6f354 1574743666
+dir /usr/share/doc/docker-19.03.5/contributing/images
+obj /usr/share/doc/docker-19.03.5/contributing/images/branch-sig.png e038cd863aca8c4518b22281bcb06cc4 1574743666
+obj /usr/share/doc/docker-19.03.5/contributing/images/copy_url.png 36b231eab3f4d5a0510aaf5ce488bbc0 1574743666
+obj /usr/share/doc/docker-19.03.5/contributing/images/contributor-edit.png 6832591f23f04bad63d67977420eed30 1574743666
+obj /usr/share/doc/docker-19.03.5/contributing/images/fork_docker.png 918f833dd3c21889c0bb49b03070d0e2 1574743666
+obj /usr/share/doc/docker-19.03.5/contributing/images/git_bash.png 24d37ab79f5efee4a2ef06ee513c2c64 1574743666
+obj /usr/share/doc/docker-19.03.5/contributing/images/list_example.png 9e7a520d933797cf03e9fb718027bd05 1574743666
+dir /usr/share/doc/docker-19.03.5/api
+obj /usr/share/doc/docker-19.03.5/api/v1.20.md.bz2 1bbd4995ca09a1ed8a8650cf39ba792e 1574743666
+obj /usr/share/doc/docker-19.03.5/api/v1.19.md.bz2 55d18de18b4c0e3c63002c0a4a53b509 1574743666
+obj /usr/share/doc/docker-19.03.5/api/version-history.md.bz2 3824a9975c61cb9e5c494b3e4b1b1f7c 1574743666
+obj /usr/share/doc/docker-19.03.5/api/v1.22.md.bz2 dd51874fb1c2168c207c4e1000457987 1574743666
+obj /usr/share/doc/docker-19.03.5/api/v1.21.md.bz2 2072592c270c1957e0e2b65d22321ed7 1574743666
+obj /usr/share/doc/docker-19.03.5/api/v1.23.md.bz2 6b66f8a667615e9a3a9e3b94a2f17fb4 1574743666
+obj /usr/share/doc/docker-19.03.5/api/v1.18.md.bz2 7193b9c5c9c49bda286767b8d0b6fba7 1574743666
+obj /usr/share/doc/docker-19.03.5/api/v1.24.md.bz2 345176cbe76156fcdbe0f67e41ea8d32 1574743666
+dir /usr/share/zsh
+dir /usr/share/zsh/site-functions
+obj /usr/share/zsh/site-functions/_docker 8588a091b439fddb18037b0d67f0ae97 1574743667
+dir /usr/share/vim
+dir /usr/share/vim/vimfiles
+dir /usr/share/vim/vimfiles/ftdetect
+obj /usr/share/vim/vimfiles/ftdetect/dockerfile.vim d26417b376e2c7692656387ea7e6d8ec 1574743666
+dir /usr/share/vim/vimfiles/syntax
+obj /usr/share/vim/vimfiles/syntax/dockerfile.vim 98243e8d389940972b442c1e04c29d3e 1574743666
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/dockerd.8.bz2 5531fdab4ea7a9ccfc7171e389191077 1574743666
+dir /usr/share/man/man1
+obj /usr/share/man/man1/docker-build.1.bz2 b61826a9fb0a3aebca1136688086258d 1574743666
+obj /usr/share/man/man1/docker-run.1.bz2 9df6cc9a1af25aa18c058e633389f148 1574743666
+obj /usr/share/man/man1/docker.1.bz2 c2417cce5ce1c4c5716c2a320eff25ed 1574743666
+dir /usr/share/man/man5
+obj /usr/share/man/man5/Dockerfile.5.bz2 46ebd6fad1cde0afd031cfe7f37ef71c 1574743666
+obj /usr/share/man/man5/docker-config-json.5.bz2 fe7ec422bfaa31422b4019430bec471d 1574743666
+dir /usr/share/bash-completion
+dir /usr/share/bash-completion/completions
+obj /usr/share/bash-completion/completions/docker 3c485c2649bc66cacb58c235ff20d6e7 1574743667

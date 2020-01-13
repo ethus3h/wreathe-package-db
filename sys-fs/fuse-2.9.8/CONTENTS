@@ -1,0 +1,57 @@
+dir /lib
+dir /sbin
+dir /usr
+dir /usr/lib64
+sym /usr/lib64/libulockmgr.so -> libulockmgr.so.1.0.1 1574450680
+obj /usr/lib64/libulockmgr.so.1.0.1 2ab63becd5acfc19e64daf268099f1fc 1574450676
+obj /usr/lib64/libfuse.so.2.9.8 d27f540f18098c994fc72667c1e06343 1574450676
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/fuse.pc 516e711aca5c130fc64ce6881ae2b4ed 1574450675
+sym /usr/lib64/libfuse.so.2 -> libfuse.so.2.9.8 1574450680
+sym /usr/lib64/libulockmgr.so.1 -> libulockmgr.so.1.0.1 1574450680
+sym /usr/lib64/libfuse.so -> libfuse.so.2.9.8 1574450680
+dir /usr/include
+obj /usr/include/ulockmgr.h 661dc95870be0e4b84c65f9ae0b827c8 1574450675
+obj /usr/include/fuse.h 1b253c64883a7e7cba57f093486fba32 1574450675
+dir /usr/include/fuse
+obj /usr/include/fuse/fuse_opt.h b8ac404bd7cd094f25ea5320ed0d3127 1574450675
+obj /usr/include/fuse/fuse_common.h 074372981193949015d14fadd2f4253a 1574450675
+obj /usr/include/fuse/fuse_lowlevel_compat.h 4e17cea9482d16484518f3d3ec45f503 1574450675
+obj /usr/include/fuse/fuse_lowlevel.h 6b5c66de833c2193bd31b1d83e047cbf 1574450675
+obj /usr/include/fuse/fuse.h aec9ec42157a36047e9b9d8684ac7a3a 1574450675
+obj /usr/include/fuse/cuse_lowlevel.h 95de7c6ff68b80c6e607899f52050250 1574450675
+obj /usr/include/fuse/fuse_compat.h 0b17e08c4bd638b886f5606a21a4d2f7 1574450675
+obj /usr/include/fuse/fuse_common_compat.h f65bc51636e2f2450069b958c48deb07 1574450675
+dir /usr/bin
+obj /usr/bin/fusermount fd9cfbdb332e975480c7fcd2123ff28c 1574450676
+obj /usr/bin/ulockmgr_server 2ac6d9ce6786c6b9008cc23018942e63 1574450676
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/fuse-2.9.8
+obj /usr/share/doc/fuse-2.9.8/README.md.bz2 03e00d1a043d5a8426dcdd06050afb69 1574450675
+obj /usr/share/doc/fuse-2.9.8/NEWS.bz2 e224786b0dab3364528580079a309e4c 1574450675
+obj /usr/share/doc/fuse-2.9.8/README.NFS.bz2 55432d21b7c728722d0cabd1adb6045a 1574450675
+obj /usr/share/doc/fuse-2.9.8/AUTHORS.bz2 83c60183a92dbdfb4fd989801e720ac7 1574450675
+obj /usr/share/doc/fuse-2.9.8/how-fuse-works.bz2 16dadc381bedad5dbbae9ace608eeb5a 1574450675
+obj /usr/share/doc/fuse-2.9.8/kernel.txt.bz2 f581a46e0abccc88203545b5cd21ed8a 1574450675
+dir /usr/share/doc/fuse-2.9.8/examples
+obj /usr/share/doc/fuse-2.9.8/examples/cusexmp.c.bz2 d6ce4061f30ca46def447a08aa16120c 1574450675
+obj /usr/share/doc/fuse-2.9.8/examples/fsel.c.bz2 ab0e229f004db95f0ccae0cdf6850b6f 1574450675
+obj /usr/share/doc/fuse-2.9.8/examples/Makefile.am.bz2 c550dacb419a7f765946df60f7cd9f05 1574450675
+obj /usr/share/doc/fuse-2.9.8/examples/hello.c.bz2 2c5122750d95a4186b4ca70ea9f055d2 1574450675
+obj /usr/share/doc/fuse-2.9.8/examples/fioc.c.bz2 4bc33015238564ba96fef724be1d4cbe 1574450675
+obj /usr/share/doc/fuse-2.9.8/examples/Makefile.bz2 14256fcdcbe94c3cbd790d1c64ad68c8 1574450675
+obj /usr/share/doc/fuse-2.9.8/examples/fselclient.c.bz2 d87fee8e90d3e0500dda705b8e078513 1574450675
+obj /usr/share/doc/fuse-2.9.8/examples/fusexmp.c.bz2 04b872919d1cacde283fcb886e4300fa 1574450675
+obj /usr/share/doc/fuse-2.9.8/examples/Makefile.in.bz2 bf841d9e969eca0a02aa99bea4ce734c 1574450675
+obj /usr/share/doc/fuse-2.9.8/examples/hello_ll.c.bz2 c562512a0e7b44f3852c66fbf3700235 1574450675
+obj /usr/share/doc/fuse-2.9.8/examples/fusexmp_fh.c.bz2 db723081868a95c67e94b3910020b76f 1574450675
+obj /usr/share/doc/fuse-2.9.8/examples/fioclient.c.bz2 8702f2b60f17aa6be6286c0f8676d670 1574450675
+obj /usr/share/doc/fuse-2.9.8/examples/null.c.bz2 a10ad9fa88e66d925747943ea6f805c7 1574450675
+obj /usr/share/doc/fuse-2.9.8/examples/fioc.h.bz2 a71eea8c78ce72686dd81a90eb96e030 1574450675
+obj /usr/share/doc/fuse-2.9.8/ChangeLog.bz2 09018c859740afa28c82e383371ea38e 1574450675
+dir /usr/share/man
+dir /usr/share/man/man8
+dir /usr/share/man/man1
+obj /usr/share/man/man1/fusermount.1.bz2 837ba6625f5120fb4d345cfa08533a1a 1574450675
+obj /usr/share/man/man1/ulockmgr_server.1.bz2 98dbba29788f600d8093dbec7b7f940e 1574450675

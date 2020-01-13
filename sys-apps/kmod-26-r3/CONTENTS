@@ -1,0 +1,81 @@
+dir /lib
+dir /lib/modprobe.d
+obj /lib/modprobe.d/usb-load-ehci-first.conf 76166c8e368b6a5d3d792322b4cb30d4 1574744250
+dir /lib64
+sym /lib64/libkmod.so.2 -> libkmod.so.2.3.4 1574744255
+obj /lib64/libkmod.so.2.3.4 d35c0845d6aa6b7ab12672ea6ae486bc 1574744251
+dir /etc
+dir /etc/init.d
+obj /etc/init.d/kmod-static-nodes e38c4acdc2b5b09cb81684e87bb7a769 1574744250
+dir /bin
+obj /bin/kmod cdb07788c33c012c106aac6789d3e473 1574744251
+sym /bin/modinfo -> kmod 1574744255
+sym /bin/lsmod -> kmod 1574744255
+dir /sbin
+sym /sbin/depmod -> ../bin/kmod 1574744255
+sym /sbin/insmod -> ../bin/kmod 1574744255
+sym /sbin/rmmod -> ../bin/kmod 1574744255
+sym /sbin/modprobe -> ../bin/kmod 1574744255
+dir /usr
+dir /usr/lib64
+sym /usr/lib64/libkmod.so -> ../../lib64/libkmod.so.2.3.4 1574744255
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libkmod.pc c4b6753e6853ad473e6ecda348c62c5a 1574744247
+dir /usr/lib64/python3.6
+dir /usr/lib64/python3.6/site-packages
+dir /usr/lib64/python3.6/site-packages/kmod
+dir /usr/lib64/python3.6/site-packages/kmod/__pycache__
+obj /usr/lib64/python3.6/site-packages/kmod/__pycache__/version.cpython-36.opt-1.pyc 59ecfe805c9127b69c85133ea346b187 1574744249
+obj /usr/lib64/python3.6/site-packages/kmod/__pycache__/__init__.cpython-36.pyc 2f77040adfd54f69a744d3ac61da7cf4 1574744249
+obj /usr/lib64/python3.6/site-packages/kmod/__pycache__/error.cpython-36.opt-1.pyc afca85a08f624c71a89e0f15dd4893a7 1574744249
+obj /usr/lib64/python3.6/site-packages/kmod/__pycache__/error.cpython-36.pyc afca85a08f624c71a89e0f15dd4893a7 1574744249
+obj /usr/lib64/python3.6/site-packages/kmod/__pycache__/version.cpython-36.pyc 59ecfe805c9127b69c85133ea346b187 1574744249
+obj /usr/lib64/python3.6/site-packages/kmod/__pycache__/__init__.cpython-36.opt-1.pyc 2f77040adfd54f69a744d3ac61da7cf4 1574744249
+obj /usr/lib64/python3.6/site-packages/kmod/version.py 9f7b610848d049e931f3bb46494dd68a 1574744249
+obj /usr/lib64/python3.6/site-packages/kmod/__init__.py bd219013a64bb78657f6671c2a6812ee 1574744249
+obj /usr/lib64/python3.6/site-packages/kmod/list.so 1b2ba854cb1398cc15b8fa5e9d40d9e6 1574744251
+obj /usr/lib64/python3.6/site-packages/kmod/module.so 8518aec4c79a03a6df302f7ecd470544 1574744251
+obj /usr/lib64/python3.6/site-packages/kmod/kmod.so 46ad89cd322f7577aea65d51aea56576 1574744251
+obj /usr/lib64/python3.6/site-packages/kmod/error.py 460a07fff4bfc166209c0ea96b8784c7 1574744249
+obj /usr/lib64/python3.6/site-packages/kmod/_util.so fc0ccc4c904f63952a1da38a770e872e 1574744251
+dir /usr/lib64/python2.7
+dir /usr/lib64/python2.7/site-packages
+dir /usr/lib64/python2.7/site-packages/kmod
+obj /usr/lib64/python2.7/site-packages/kmod/__init__.pyc 9c8754a3d59e141aace492c0d6068469 1574744248
+obj /usr/lib64/python2.7/site-packages/kmod/version.py 9f7b610848d049e931f3bb46494dd68a 1574744247
+obj /usr/lib64/python2.7/site-packages/kmod/__init__.py bd219013a64bb78657f6671c2a6812ee 1574744247
+obj /usr/lib64/python2.7/site-packages/kmod/version.pyc afdddebb0afdbb54f49ed0e9c449c8aa 1574744248
+obj /usr/lib64/python2.7/site-packages/kmod/list.so 5fa371ce719ce2a05b5f0356e60ba368 1574744251
+obj /usr/lib64/python2.7/site-packages/kmod/module.so 5d82a73523296d8338398487d36e29b2 1574744251
+obj /usr/lib64/python2.7/site-packages/kmod/kmod.so cb2f6974aa9f33fd3e7b3f85c7da66de 1574744251
+obj /usr/lib64/python2.7/site-packages/kmod/version.pyo afdddebb0afdbb54f49ed0e9c449c8aa 1574744248
+obj /usr/lib64/python2.7/site-packages/kmod/error.py 460a07fff4bfc166209c0ea96b8784c7 1574744247
+obj /usr/lib64/python2.7/site-packages/kmod/error.pyc d3727a8e229d063f7f40095aec5eb7cc 1574744248
+obj /usr/lib64/python2.7/site-packages/kmod/__init__.pyo 9c8754a3d59e141aace492c0d6068469 1574744248
+obj /usr/lib64/python2.7/site-packages/kmod/_util.so 4c549592894336c94952a6000b2f79be 1574744251
+obj /usr/lib64/python2.7/site-packages/kmod/error.pyo d3727a8e229d063f7f40095aec5eb7cc 1574744248
+dir /usr/include
+obj /usr/include/libkmod.h 3da394126117d2a4b4304fec1f79a8f4 1574744247
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/kmod-26-r3
+obj /usr/share/doc/kmod-26-r3/NEWS.bz2 4f7c00f1cfc7a10316a7873a2c14e502 1574744247
+obj /usr/share/doc/kmod-26-r3/README.bz2 a8529d6ff5d41de9eb61c6534aaeba0b 1574744247
+obj /usr/share/doc/kmod-26-r3/TODO.bz2 c67c121d72f8133bc5e337d71af6efb7 1574744247
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/modprobe.8.bz2 81ac6302ee61da50bd7b792039fe453d 1574744247
+obj /usr/share/man/man8/rmmod.8.bz2 2f1ee1130da637a3b78e8801d267f003 1574744247
+obj /usr/share/man/man8/lsmod.8.bz2 12636faa480f77cddfb462289fb93d91 1574744247
+obj /usr/share/man/man8/modinfo.8.bz2 073dcebde09793e1924aa50cb7462c25 1574744247
+obj /usr/share/man/man8/insmod.8.bz2 9c34f413ebcade12fd68b5f67d70a37f 1574744247
+obj /usr/share/man/man8/kmod.8.bz2 81cf493b8b6ecb71c67078125c3c2ca1 1574744247
+obj /usr/share/man/man8/depmod.8.bz2 afd4943e5e410fe0c2978274f609b903 1574744247
+dir /usr/share/man/man5
+obj /usr/share/man/man5/depmod.d.5.bz2 6b0dd35ae72c0805feec5b0561a06433 1574744247
+obj /usr/share/man/man5/modules.dep.bin.5 39e905d6e0af6faea08d24cdd93d7975 1574744247
+obj /usr/share/man/man5/modprobe.d.5.bz2 c6054df4af08f14fa850033ba1829132 1574744247
+obj /usr/share/man/man5/modules.dep.5.bz2 ba5dbbf7f889009fb12058d7a0e66275 1574744247
+dir /usr/share/bash-completion
+dir /usr/share/bash-completion/completions
+obj /usr/share/bash-completion/completions/kmod 3592da55a19f765ee35dffc6f8fa0215 1574744247

@@ -1,0 +1,260 @@
+dir /var
+dir /var/lib
+dir /var/lib/krb5kdc
+obj /var/lib/krb5kdc/.keep_app-crypt_mit-krb5-0 d41d8cd98f00b204e9800998ecf8427e 1574442028
+obj /var/lib/krb5kdc/kdc.conf.example 31d9294b735f6ac0c94efd549ff0516e 1574442029
+dir /lib
+dir /lib/systemd
+dir /lib/systemd/system
+obj /lib/systemd/system/mit-krb5kdc.service f0245d33083337f95654f4caf1d32f57 1574442028
+obj /lib/systemd/system/mit-krb5kadmind.service d2c898d376ebe5c62b873da7cab0f7e7 1574442028
+obj /lib/systemd/system/mit-krb5kpropd.service 3dddf2f79ef74c4e736711e41228ee91 1574442029
+obj /lib/systemd/system/mit-krb5kpropd.socket 5b9cee689e4f8085d39ef4e05f1ddd9a 1574442029
+obj /lib/systemd/system/mit-krb5kpropd@.service 5b5e223058dcea5169b0e2e6b6b821c7 1574442029
+dir /etc
+dir /etc/init.d
+obj /etc/init.d/mit-krb5kpropd 84100d3e2a0958f034453af77b4bfba4 1574442028
+obj /etc/init.d/mit-krb5kadmind e685c979f08c1d565b76cdac8ce82867 1574442028
+obj /etc/init.d/mit-krb5kdc f97cfeb6e46b5401089c156669b3dcb7 1574442028
+dir /etc/conf.d
+obj /etc/conf.d/mit-krb5kpropd 4bd24635aceee3eafd8a1ba1590b4512 1574442028
+obj /etc/conf.d/mit-krb5kadmind b6b95385e5fd734870338ee2be284a4e 1574442028
+obj /etc/conf.d/mit-krb5kdc 90be5190b6829b9cbc5860247ac7ab19 1574442028
+obj /etc/krb5.conf.example a6e5a3ebc124146e847bad407966ce76 1574442029
+dir /usr
+dir /usr/lib64
+sym /usr/lib64/libkrb5.so -> libkrb5.so.3.3 1574442039
+obj /usr/lib64/libkrb5support.so.0.1 dfbd5d6d5412f7c4ec0c6d8ffc3437ba 1574442031
+sym /usr/lib64/libgssapi_krb5.so.2 -> libgssapi_krb5.so.2.2 1574442039
+obj /usr/lib64/libgssapi_krb5.so.2.2 bdd8ecd95bad1393e537211024527a57 1574442031
+sym /usr/lib64/libkadm5srv_mit.so.11 -> libkadm5srv_mit.so.11.0 1574442039
+sym /usr/lib64/libkadm5srv.so -> libkadm5srv_mit.so 1574442039
+obj /usr/lib64/libkrad.so.0.0 89a9231dab11a4c8987ec82e4d4c5d0b 1574442031
+sym /usr/lib64/libkrad.so.0 -> libkrad.so.0.0 1574442039
+dir /usr/lib64/krb5
+dir /usr/lib64/krb5/plugins
+dir /usr/lib64/krb5/plugins/tls
+obj /usr/lib64/krb5/plugins/tls/k5tls.so ebfbda2feb777739f615911f7a1d0016 1574442031
+dir /usr/lib64/krb5/plugins/kdb
+obj /usr/lib64/krb5/plugins/kdb/db2.so ab342dadf8876808605c31c273dea826 1574442031
+dir /usr/lib64/krb5/plugins/libkrb5
+dir /usr/lib64/krb5/plugins/preauth
+obj /usr/lib64/krb5/plugins/preauth/spake.so d61ef8b2593e62c0b7c435ae46f5e26b 1574442031
+obj /usr/lib64/krb5/plugins/preauth/test.so a19d62630a10a22e0822f4e6fee9f5fd 1574442031
+obj /usr/lib64/krb5/plugins/preauth/otp.so 0881e7007fbd39917a3dc0be5f81341f 1574442031
+obj /usr/lib64/krb5/plugins/preauth/pkinit.so 7b2cb89c9a8096d68d7573de622d1f47 1574442031
+dir /usr/lib64/krb5/plugins/authdata
+sym /usr/lib64/libk5crypto.so -> libk5crypto.so.3.1 1574442039
+obj /usr/lib64/libkadm5srv_mit.so.11.0 80716657a239a05e476fb7d4c034f332 1574442031
+sym /usr/lib64/libkrb5.so.3 -> libkrb5.so.3.3 1574442039
+sym /usr/lib64/libgssrpc.so.4 -> libgssrpc.so.4.2 1574442039
+sym /usr/lib64/libkadm5srv_mit.so -> libkadm5srv_mit.so.11.0 1574442039
+sym /usr/lib64/libkrad.so -> libkrad.so.0.0 1574442039
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/krb5.pc 0bb4afc5fb886c0443906d34e8e51b89 1574442028
+obj /usr/lib64/pkgconfig/gssrpc.pc 0bf3304fb8f18833371cd91d4e6594be 1574442028
+obj /usr/lib64/pkgconfig/krb5-gssapi.pc e13d49885b983f754ef905276cab8b3f 1574442028
+obj /usr/lib64/pkgconfig/mit-krb5.pc b427311322d52c09b56454a66de879b8 1574442028
+obj /usr/lib64/pkgconfig/kadm-client.pc 3bd7dc3f8eadf6f3b1cae7ec84a702c0 1574442028
+obj /usr/lib64/pkgconfig/mit-krb5-gssapi.pc 4a418ae39082582499d764808796868e 1574442028
+obj /usr/lib64/pkgconfig/kadm-server.pc 0fb9d8148930782f779698e11c1e877b 1574442028
+obj /usr/lib64/pkgconfig/kdb.pc 5175f992d9beaa914d71a656dd33cabc 1574442028
+obj /usr/lib64/libkrb5.so.3.3 422cee7adb18b1bf6a39fe75675d38c3 1574442031
+sym /usr/lib64/libkadm5clnt.so -> libkadm5clnt_mit.so 1574442039
+sym /usr/lib64/libgssapi_krb5.so -> libgssapi_krb5.so.2.2 1574442039
+obj /usr/lib64/libk5crypto.so.3.1 9b2cfc05219f3d2324913b3e4bcde00e 1574442031
+sym /usr/lib64/libkadm5clnt_mit.so.11 -> libkadm5clnt_mit.so.11.0 1574442039
+obj /usr/lib64/libkadm5clnt_mit.so.11.0 2c4cc4999f479b3df3a75a243b4ba1fd 1574442031
+sym /usr/lib64/libkrb5support.so -> libkrb5support.so.0.1 1574442039
+sym /usr/lib64/libkadm5clnt_mit.so -> libkadm5clnt_mit.so.11.0 1574442039
+obj /usr/lib64/libkdb5.so.9.0 2c863005b9430ae96c6e025261b86a13 1574442031
+sym /usr/lib64/libkdb5.so.9 -> libkdb5.so.9.0 1574442039
+sym /usr/lib64/libgssrpc.so -> libgssrpc.so.4.2 1574442039
+sym /usr/lib64/libk5crypto.so.3 -> libk5crypto.so.3.1 1574442039
+sym /usr/lib64/libkdb5.so -> libkdb5.so.9.0 1574442039
+obj /usr/lib64/libgssrpc.so.4.2 e7c7b94b791b455b9253bc051bc86fa4 1574442031
+sym /usr/lib64/libkrb5support.so.0 -> libkrb5support.so.0.1 1574442039
+dir /usr/include
+obj /usr/include/krad.h 3c2687378a5b39eaba198ac3d9f830f8 1574442025
+obj /usr/include/krb5.h 0c4035c83c635826e134e10f9947aaba 1574442025
+dir /usr/include/krb5
+obj /usr/include/krb5/kdcpolicy_plugin.h fe38d6b4f773f21d670714c7cedf8932 1574442025
+obj /usr/include/krb5/krb5.h 45b257af238fcb01982a5758e9c87668 1574442025
+obj /usr/include/krb5/pwqual_plugin.h f434dcd359c3b0a82c17d28d2b66b57c 1574442025
+obj /usr/include/krb5/kadm5_hook_plugin.h 952c6d27beda063b02b8cc606064e1e6 1574442025
+obj /usr/include/krb5/hostrealm_plugin.h 48c32ebbaf8959df2572eb05b091a9a0 1574442025
+obj /usr/include/krb5/localauth_plugin.h 5c5b7d98fc3e95537c4d652b88a24eeb 1574442025
+obj /usr/include/krb5/kdcpreauth_plugin.h f208808cc400f8665b886831824ded67 1574442025
+obj /usr/include/krb5/plugin.h 2e41cf0b39d8a7097b4875eb489f5896 1574442025
+obj /usr/include/krb5/ccselect_plugin.h 8264b9b711146b245ed9f7558a09f276 1574442025
+obj /usr/include/krb5/clpreauth_plugin.h 652f4e81dcd09ddc0c4b611fdf78f9b1 1574442025
+obj /usr/include/krb5/locate_plugin.h 1ac2d386642678b915d43d4deb8283c2 1574442025
+obj /usr/include/krb5/preauth_plugin.h eff6a26deb2f90052cce22a3602ffc7f 1574442025
+obj /usr/include/krb5/kadm5_auth_plugin.h 8be7cc7f432bc60e5a1b6d137178e047 1574442025
+obj /usr/include/krb5/certauth_plugin.h d864ae061858845b7ad7cd3a8e728a0b 1574442025
+dir /usr/include/gssapi
+obj /usr/include/gssapi/gssapi_ext.h 331fa2d911db0a4629446d059f449c2d 1574442026
+obj /usr/include/gssapi/gssapi.h df2508daa893443afd5f406a2b21c3a7 1574442026
+obj /usr/include/gssapi/mechglue.h fa882743987abe77d26f46092e0914c2 1574442026
+obj /usr/include/gssapi/gssapi_generic.h 31c154ec2818d3aa385c46c53cf4a3ca 1574442026
+obj /usr/include/gssapi/gssapi_krb5.h fd34b7667c4d4e4001f6e820378c4214 1574442026
+obj /usr/include/gssapi.h 7bcfeeab9f134b4266120bb770e50117 1574442025
+obj /usr/include/kdb.h 907f21fdb69724f3ad17ff0ef6bdc989 1574442025
+dir /usr/include/kadm5
+obj /usr/include/kadm5/admin.h 2bae680ba4cc60fed0665778cdaaa9ab 1574442026
+obj /usr/include/kadm5/chpass_util_strings.h c44534bb7846bad66481a90cbb477dd1 1574442026
+obj /usr/include/kadm5/kadm_err.h d412ea2984bbdecbc9a540a4b41a3874 1574442026
+obj /usr/include/profile.h 3578aad9c6681cb6545b50d6d9fb1aba 1574442025
+dir /usr/include/gssrpc
+obj /usr/include/gssrpc/types.h 6158d1bb752820ae8b0ba30e720c0562 1574442026
+obj /usr/include/gssrpc/auth_gss.h 06dd29dd948d2086c6ff4674aab7e855 1574442026
+obj /usr/include/gssrpc/auth.h 8db198cd5eb0fcbfc0672ce2936d77bb 1574442026
+obj /usr/include/gssrpc/pmap_prot.h 4ebbaacb05f78e617303744e56d7eda7 1574442026
+obj /usr/include/gssrpc/auth_unix.h 3d89007e2b71a31028a91e7fa4487ed3 1574442026
+obj /usr/include/gssrpc/svc_auth.h 690ad0b424b120c78ac878268eb21d3b 1574442026
+obj /usr/include/gssrpc/rename.h 0ca01cbcc9ee97faca2b6d283299102f 1574442026
+obj /usr/include/gssrpc/rpc.h 5f3aae0ed76b12fe31edbda99e1b74aa 1574442026
+obj /usr/include/gssrpc/clnt.h a21b7cd29fa5042d341e9f023414e257 1574442026
+obj /usr/include/gssrpc/pmap_rmt.h 81114fd344281beb6673e8198147809d 1574442026
+obj /usr/include/gssrpc/netdb.h 2e70c566cac81e67f31bb1059d775349 1574442026
+obj /usr/include/gssrpc/rpc_msg.h d6c056624b18bdd4752cf56551e1af3f 1574442026
+obj /usr/include/gssrpc/svc.h dc9abb95fe36946ecf27ac6cf38161e8 1574442026
+obj /usr/include/gssrpc/auth_gssapi.h fa06ff74d6b2eb254c5139e871499807 1574442026
+obj /usr/include/gssrpc/pmap_clnt.h 3dab291337a32c3c15ee089137a770e5 1574442026
+obj /usr/include/gssrpc/xdr.h 53144dcb510d8614defa75984adc9349 1574442026
+dir /usr/lib32
+sym /usr/lib32/libkrb5.so -> libkrb5.so.3.3 1574442039
+obj /usr/lib32/libkrb5support.so.0.1 14f1415cce0329c9c2b88414d254d4a4 1574442031
+sym /usr/lib32/libgssapi_krb5.so.2 -> libgssapi_krb5.so.2.2 1574442039
+obj /usr/lib32/libgssapi_krb5.so.2.2 37f6b7197b6c7aa66e6492ceb945cdc5 1574442031
+sym /usr/lib32/libkadm5srv_mit.so.11 -> libkadm5srv_mit.so.11.0 1574442039
+sym /usr/lib32/libkadm5srv.so -> libkadm5srv_mit.so 1574442039
+obj /usr/lib32/libkrad.so.0.0 e85d82dd2c2830d9418f8592ff044bed 1574442031
+sym /usr/lib32/libkrad.so.0 -> libkrad.so.0.0 1574442039
+dir /usr/lib32/krb5
+dir /usr/lib32/krb5/plugins
+dir /usr/lib32/krb5/plugins/tls
+obj /usr/lib32/krb5/plugins/tls/k5tls.so 51fe19b4257a1abfa8d7f5b2db838bef 1574442031
+dir /usr/lib32/krb5/plugins/kdb
+obj /usr/lib32/krb5/plugins/kdb/db2.so 1a01ca03e016e8d6d42776c71c1e1e8c 1574442031
+dir /usr/lib32/krb5/plugins/libkrb5
+dir /usr/lib32/krb5/plugins/preauth
+obj /usr/lib32/krb5/plugins/preauth/spake.so 318ae7c9da04ee98d6395e44da3bdf7a 1574442031
+obj /usr/lib32/krb5/plugins/preauth/test.so 8eea1a876a4baa09518fdf26726ee389 1574442031
+obj /usr/lib32/krb5/plugins/preauth/otp.so 2ac5173cf34824cfd06ae92431645a2f 1574442031
+obj /usr/lib32/krb5/plugins/preauth/pkinit.so cc2347e5ec226bd6af001e94e6422c5b 1574442031
+dir /usr/lib32/krb5/plugins/authdata
+sym /usr/lib32/libk5crypto.so -> libk5crypto.so.3.1 1574442039
+obj /usr/lib32/libkadm5srv_mit.so.11.0 2ffc7df50d99b8d4e844bb41434e8f63 1574442031
+sym /usr/lib32/libkrb5.so.3 -> libkrb5.so.3.3 1574442039
+sym /usr/lib32/libgssrpc.so.4 -> libgssrpc.so.4.2 1574442039
+sym /usr/lib32/libkadm5srv_mit.so -> libkadm5srv_mit.so.11.0 1574442039
+sym /usr/lib32/libkrad.so -> libkrad.so.0.0 1574442039
+dir /usr/lib32/pkgconfig
+obj /usr/lib32/pkgconfig/krb5.pc c9e435b4f0873ce3b1c93cb9a592c3ff 1574442024
+obj /usr/lib32/pkgconfig/gssrpc.pc 4f7eddb9263e08324203c5a2409ebade 1574442025
+obj /usr/lib32/pkgconfig/krb5-gssapi.pc fdb18141f2351bd09460d702b19d7c97 1574442025
+obj /usr/lib32/pkgconfig/mit-krb5.pc fffb95cbb341f969a5a61b75e7914159 1574442024
+obj /usr/lib32/pkgconfig/kadm-client.pc 354ec0d6967b51054cf7b733b2f94b68 1574442024
+obj /usr/lib32/pkgconfig/mit-krb5-gssapi.pc 0e114f9545269dd633437e2900bbf2fa 1574442025
+obj /usr/lib32/pkgconfig/kadm-server.pc 5fb8e29b10fa2775becb9ac431abe8f3 1574442024
+obj /usr/lib32/pkgconfig/kdb.pc 8264e9cc773bf249c0d70ff1420b83e8 1574442024
+obj /usr/lib32/libkrb5.so.3.3 bcb589272a5475d47bc1a74632adc8ac 1574442031
+sym /usr/lib32/libkadm5clnt.so -> libkadm5clnt_mit.so 1574442039
+sym /usr/lib32/libgssapi_krb5.so -> libgssapi_krb5.so.2.2 1574442039
+obj /usr/lib32/libk5crypto.so.3.1 7a14072399d8da2dd3f77589271e12c2 1574442031
+sym /usr/lib32/libkadm5clnt_mit.so.11 -> libkadm5clnt_mit.so.11.0 1574442039
+obj /usr/lib32/libkadm5clnt_mit.so.11.0 2528d23cbe3faf4c553de4449a4f9c2d 1574442031
+sym /usr/lib32/libkrb5support.so -> libkrb5support.so.0.1 1574442039
+sym /usr/lib32/libkadm5clnt_mit.so -> libkadm5clnt_mit.so.11.0 1574442039
+obj /usr/lib32/libkdb5.so.9.0 66d26834b490709d2ff9f26ba4e49e20 1574442031
+sym /usr/lib32/libkdb5.so.9 -> libkdb5.so.9.0 1574442039
+sym /usr/lib32/libgssrpc.so -> libgssrpc.so.4.2 1574442039
+sym /usr/lib32/libk5crypto.so.3 -> libk5crypto.so.3.1 1574442039
+sym /usr/lib32/libkdb5.so -> libkdb5.so.9.0 1574442039
+obj /usr/lib32/libgssrpc.so.4.2 370f64b9f769c580dc1d09645057fe2f 1574442031
+sym /usr/lib32/libkrb5support.so.0 -> libkrb5support.so.0.1 1574442039
+dir /usr/bin
+obj /usr/bin/klist e875004b6bcf79f370c17e2ab3455104 1574442031
+obj /usr/bin/x86_64-pc-linux-gnu-krb5-config 334d575b36c9fb4d9a5ff3913c8b5963 1574442028
+obj /usr/bin/uuclient fc49359a89c098a26c427c55bee3251b 1574442031
+sym /usr/bin/krb5-config -> x86_64-pc-linux-gnu-krb5-config 1574442039
+obj /usr/bin/kinit 018a72b8559591d66a8898c1edfd07c5 1574442031
+obj /usr/bin/ksu d1ab4bd55997e5e80855a668fe807b74 1574442031
+obj /usr/bin/sclient 0a4f08493f5e41f6fe1e7908a5db6b18 1574442031
+obj /usr/bin/kadmin 150bf839570be43c9f75cd327b37ac23 1574442031
+obj /usr/bin/ktutil 0541533bc132af40aa99048a8c36985e 1574442031
+obj /usr/bin/gss-client a49e967d76d984df70fa3cce86bdc32c 1574442031
+obj /usr/bin/kvno 8f9c4eebc2e78b0273636c2b869b6289 1574442031
+obj /usr/bin/k5srvutil 1ecb4704332d03d6ef7b1fd40de12681 1574442027
+obj /usr/bin/kpasswd db595771086ce066c74f4772aba7310f 1574442031
+obj /usr/bin/kswitch bea309a2b85a81e19a1721113420b503 1574442031
+obj /usr/bin/sim_client 1f5c48496e88ac35a127ecf1f6ba352b 1574442031
+obj /usr/bin/i686-pc-linux-gnu-krb5-config ae39322509de4266d47a248f2de6c247 1574442024
+obj /usr/bin/kdestroy 1bff9f7290dd72d00c906fa590dad53e 1574442031
+dir /usr/sbin
+obj /usr/sbin/uuserver 975cc27ae983e4f7f480718208811a43 1574442031
+obj /usr/sbin/sim_server ea0e9c81162830847e6d3456c44daeb1 1574442031
+obj /usr/sbin/kprop 4a05f3d47650adce2063dc5accecf096 1574442031
+obj /usr/sbin/kpropd 5fff7e6f87fbbb3cf27db9d55319e370 1574442031
+obj /usr/sbin/kproplog ac3c8d6d94fdc699a041323a32962e38 1574442031
+obj /usr/sbin/krb5-send-pr c5176fb9fa17e1d25a69f6dd29059601 1574442025
+obj /usr/sbin/krb5kdc d6f56fc03726021c3a3e68adaa8c0bc9 1574442031
+obj /usr/sbin/kadmind 4033b64f5c91ad7770a01372082f51ca 1574442031
+obj /usr/sbin/sserver 6f51eb49190d3d1cf1ddbd2ce3eada27 1574442031
+obj /usr/sbin/kadmin.local 576ec9a7ea49bcb79459433a58c51d54 1574442031
+obj /usr/sbin/gss-server 6c1c32d487800ef7204a314efda68da6 1574442031
+obj /usr/sbin/kdb5_util f71c14a707d44cd9b6dcabf66192024a 1574442031
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/mit-krb5-1.17-r1
+obj /usr/share/doc/mit-krb5-1.17-r1/README.bz2 deffc51e7ca5112c14190399fbdc557a 1574442028
+dir /usr/share/doc/mit-krb5-1.17-r1/examples
+obj /usr/share/doc/mit-krb5-1.17-r1/examples/krb5.conf.bz2 d7972d723c856fe8cc8b2b01cfbbf523 1574442028
+obj /usr/share/doc/mit-krb5-1.17-r1/examples/services.append.bz2 391697f7135a3f859ba8d50350e5f634 1574442028
+obj /usr/share/doc/mit-krb5-1.17-r1/examples/kdc.conf.bz2 8aa5b7d850f83e692315c08926300823 1574442027
+dir /usr/share/locale
+dir /usr/share/locale/en_US
+dir /usr/share/locale/en_US/LC_MESSAGES
+obj /usr/share/locale/en_US/LC_MESSAGES/mit-krb5.mo ee87296f16026d48076244c35704c994 1574442028
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/mit-krb5.mo 6b1ed99882da1e1bbb0874772d70b5dc 1574442028
+dir /usr/share/man
+dir /usr/share/man/man7
+obj /usr/share/man/man7/kerberos.7.bz2 145e740865504e2685fc19d8cf780134 1574442028
+dir /usr/share/man/man8
+obj /usr/share/man/man8/kdb5_ldap_util.8.bz2 e0413c10eb6d0adf2a15ec9648be15ff 1574442028
+obj /usr/share/man/man8/kpropd.8.bz2 ee5008c4f7193a18dde3e2dc830af8f8 1574442028
+obj /usr/share/man/man8/kdb5_util.8.bz2 18a06263f357e67fce290c17340cdd5a 1574442028
+obj /usr/share/man/man8/sserver.8.bz2 b6473cc1a71157d11aaf4ff09fcccfdc 1574442028
+obj /usr/share/man/man8/kadmin.local.8 79ab91a2d939879713dc3bd99b87b438 1574442028
+obj /usr/share/man/man8/kprop.8.bz2 837877452b79c96fa4a2623310b1d1ef 1574442028
+obj /usr/share/man/man8/kproplog.8.bz2 5270817655d55351b2748bf9ccdfc5ce 1574442028
+obj /usr/share/man/man8/krb5kdc.8.bz2 68761038eef47f74083f96b875accc41 1574442028
+obj /usr/share/man/man8/kadmind.8.bz2 4052e8c139011b332e08c0b64898738d 1574442028
+dir /usr/share/man/cat7
+dir /usr/share/man/cat8
+dir /usr/share/man/man1
+obj /usr/share/man/man1/ksu.1.bz2 d461d38eac6f01145e5b978644ac28a2 1574442028
+obj /usr/share/man/man1/k5srvutil.1.bz2 869d25a85aedc287c67f2db2ff699804 1574442028
+obj /usr/share/man/man1/kdestroy.1.bz2 7e545995af56042f64f5224e8b768afc 1574442028
+obj /usr/share/man/man1/kvno.1.bz2 afee5faa8a16c38ecff7e7bb50cca4d5 1574442028
+obj /usr/share/man/man1/klist.1.bz2 7548122e4b30090d4640f6cf90c716a3 1574442028
+obj /usr/share/man/man1/sclient.1.bz2 09dac20259a38142ec7ca02c59ee4baf 1574442028
+obj /usr/share/man/man1/kinit.1.bz2 3b58ba6aaa1505ec929357d6ccc40684 1574442028
+obj /usr/share/man/man1/ktutil.1.bz2 23c339578160d72318cf2626a6e4a509 1574442028
+obj /usr/share/man/man1/kpasswd.1.bz2 33c3a8447f55dc875c099646fd703dbe 1574442028
+obj /usr/share/man/man1/kswitch.1.bz2 0b2814999abaccd65e331ec8fedb02ba 1574442028
+obj /usr/share/man/man1/kadmin.1.bz2 7bbb6f5e11960814477b6117c5d0efc6 1574442028
+obj /usr/share/man/man1/krb5-config.1.bz2 2224aac2929795d8bde34d71d3c26bca 1574442028
+dir /usr/share/man/man5
+obj /usr/share/man/man5/.k5login.5 cd184dff0a930ba86932f0d403717d75 1574442028
+obj /usr/share/man/man5/krb5.conf.5.bz2 781571c300379d25e9e67c5811bf0057 1574442028
+obj /usr/share/man/man5/k5login.5.bz2 fa1a9ad8608a866167eec254cf349576 1574442028
+obj /usr/share/man/man5/k5identity.5.bz2 8c62d80fb9c06723fe66b347d73dd2fd 1574442028
+obj /usr/share/man/man5/kdc.conf.5.bz2 a80e45f782d3a1e1cc0585a0712db10b 1574442028
+obj /usr/share/man/man5/kadm5.acl.5.bz2 422dbfce651a0b4750d8bd5991750c33 1574442028
+obj /usr/share/man/man5/.k5identity.5 64e4428bf68a3032e67f6e6c1939865a 1574442028
+dir /usr/share/man/cat1
+dir /usr/share/man/cat5

@@ -1,0 +1,428 @@
+dir /var
+dir /var/lib
+dir /var/lib/colord
+dir /var/lib/colord/icc
+obj /var/lib/colord/icc/.keep_x11-misc_colord-0 d41d8cd98f00b204e9800998ecf8427e 1578256391
+dir /var/lib/color
+dir /var/lib/color/icc
+obj /var/lib/color/icc/.keep_x11-misc_colord-0 d41d8cd98f00b204e9800998ecf8427e 1578256391
+dir /lib
+dir /lib/udev
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/69-cd-sensors.rules f1b145455571993ce07c55bf784d4e2a 1578256389
+obj /lib/udev/rules.d/95-cd-devices.rules d0212fd0911639161b4988296acb9fb7 1578256389
+dir /lib/systemd
+dir /lib/systemd/system
+obj /lib/systemd/system/colord.service f4c4fb9a750d31117b7b4aa5ce012433 1578256389
+dir /etc
+dir /etc/dbus-1
+dir /etc/dbus-1/system.d
+obj /etc/dbus-1/system.d/org.freedesktop.ColorManager.conf 68e9653b008987a5eef5ef1d97cd214d 1578256389
+dir /usr
+dir /usr/lib
+dir /usr/lib/systemd
+dir /usr/lib/systemd/user
+obj /usr/lib/systemd/user/colord-session.service 35009507773340bda1db7769ce7cd9b6 1578256389
+dir /usr/lib/tmpfiles.d
+obj /usr/lib/tmpfiles.d/colord.conf 68207882993b10f9d3c41527b0e03e61 1578256389
+dir /usr/lib64
+obj /usr/lib64/libcolordprivate.so.2.0.5 6cb7185227976ce6485f774c5c02b3fd 1578256393
+dir /usr/lib64/colord-sensors
+obj /usr/lib64/colord-sensors/libcolord_sensor_argyll.so 7b87397edba2db36e0f94edb7f825213 1578256393
+obj /usr/lib64/colord-sensors/libcolord_sensor_spark.so 16644e383b0eed013494c5bc4484fbe8 1578256393
+obj /usr/lib64/colord-sensors/libhuey-private.so f675375db5b3810046b92b857b39174d 1578256393
+obj /usr/lib64/colord-sensors/libdtp94-private.so 12c87676cce30ab20bc5b7d6ab924eda 1578256393
+obj /usr/lib64/colord-sensors/libmunki-private.so ede2ec2b3506ca345fe6148de214c47b 1578256393
+obj /usr/lib64/colord-sensors/libcolord_sensor_dtp94.so 2a3ffe63c87f6e417eb934f2bdec6ef1 1578256393
+obj /usr/lib64/colord-sensors/libcolord_sensor_dummy.so 65e9119f081bdc71a793d56982adc79e 1578256393
+obj /usr/lib64/colord-sensors/libcolord_sensor_colorhug.so e9c4baaae6a3751d43d5a81d27266c14 1578256393
+obj /usr/lib64/colord-sensors/libcolord_sensor_huey.so 0be6c22fc19ae0c5b6ceddf39282ee08 1578256393
+obj /usr/lib64/colord-sensors/libospark-private.so 9687d87dbfeb1d40f9bedeac225ceef2 1578256393
+sym /usr/lib64/libcolordprivate.so -> libcolordprivate.so.2.0.5 1578256398
+dir /usr/lib64/girepository-1.0
+obj /usr/lib64/girepository-1.0/Colord-1.0.typelib 0f42320e67b3d1bb7abc5a00dbd35f90 1578256378
+obj /usr/lib64/girepository-1.0/ColorHug-1.0.typelib aaecce89d0bb0107118534be99a100c9 1578256379
+obj /usr/lib64/libcolorhug.so.2.0.5 963245e0ffd09483b2aa8309cbac7acc 1578256393
+sym /usr/lib64/libcolorhug.so.2 -> libcolorhug.so.2.0.5 1578256398
+obj /usr/lib64/libcolordcompat.so 8ffe7451e8544c3432df449dccdc4a36 1578256393
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/colorhug.pc e8564b4870033af124aaba28ac99105c 1578256378
+obj /usr/lib64/pkgconfig/colord.pc f110d0a1452fa084e1273a942b04be75 1578256378
+dir /usr/lib64/colord-plugins
+obj /usr/lib64/colord-plugins/libcd_plugin_sane.so 0d0a5d74302f88308434e60f2884d625 1578256393
+obj /usr/lib64/colord-plugins/libcd_plugin_camera.so 3fcba5f470055e6301b2108dcdaf36f7 1578256393
+obj /usr/lib64/colord-plugins/libcd_plugin_scanner.so cc2cb971018a6825659eb42560ce382d 1578256393
+sym /usr/lib64/libcolord.so.2 -> libcolord.so.2.0.5 1578256398
+sym /usr/lib64/libcolord.so -> libcolord.so.2.0.5 1578256398
+sym /usr/lib64/libcolordprivate.so.2 -> libcolordprivate.so.2.0.5 1578256398
+sym /usr/lib64/libcolorhug.so -> libcolorhug.so.2.0.5 1578256398
+obj /usr/lib64/libcolord.so.2.0.5 576774af257f775465cb46c69834fbd0 1578256393
+dir /usr/libexec
+obj /usr/libexec/colord ba9b3580f31d86e6542e5fdb2662d063 1578256393
+obj /usr/libexec/colord-session 15f19f18f7325010c066079867aba43e 1578256393
+obj /usr/libexec/colord-sane a3b91826b6e7db072826527b64b3484a 1578256393
+dir /usr/include
+dir /usr/include/colord-1
+dir /usr/include/colord-1/colord
+obj /usr/include/colord-1/colord/cd-interp.h 1bd2179d789946979ae887e6393d83ca 1578256378
+obj /usr/include/colord-1/colord/cd-quirk.h 7b398c6401b216873a2db5de1c73e8e8 1578256378
+obj /usr/include/colord-1/colord/cd-icc.h 6f7fd3c3163aa687e765b09973740cd4 1578256378
+obj /usr/include/colord-1/colord/cd-version.h d88dd3a0c95ffbd86511df8d02a6cef2 1578256378
+obj /usr/include/colord-1/colord/cd-client.h 8ebd47fcf70ff951e3e6a2773198e3fe 1578256378
+obj /usr/include/colord-1/colord/cd-dom.h 8cba3b989d4edcb3d361f8d5dddcb057 1578256378
+obj /usr/include/colord-1/colord/cd-device.h 5de8be020f9d0e9bc2a7cc62bf44ed2c 1578256378
+obj /usr/include/colord-1/colord/cd-device-sync.h 04cbcd5534ff1d1daf6a1a031ea0a85d 1578256378
+obj /usr/include/colord-1/colord/cd-interp-akima.h 8bb4d1640ba477f1c46336183ece39e9 1578256378
+obj /usr/include/colord-1/colord/cd-sensor-sync.h 091be1c6bf6ba441a69f6a48cf1e2a74 1578256378
+obj /usr/include/colord-1/colord/cd-profile-sync.h 1d07b5ca6ba7f722248f0dba9fe8b85b 1578256378
+obj /usr/include/colord-1/colord/cd-sensor.h 3235f8cfe21895fbcf0471a0adb50273 1578256378
+obj /usr/include/colord-1/colord/cd-profile.h fa25162be790bd6c45162330daedd4c5 1578256378
+obj /usr/include/colord-1/colord/cd-interp-linear.h eda9a2d4c5fcb63c90f3c92c8c4f78a0 1578256378
+obj /usr/include/colord-1/colord/cd-color.h 87c8c9db5bda8486fd309348ac0b6627 1578256378
+obj /usr/include/colord-1/colord/cd-icc-store.h afc6fa077036076b77f6e0f1dd68fbc2 1578256378
+obj /usr/include/colord-1/colord/cd-enum.h 2e612194acbd8053aabb84681d82c9e8 1578256378
+obj /usr/include/colord-1/colord/cd-transform.h 4eb0651e19dedb96c1857c81e198294f 1578256378
+obj /usr/include/colord-1/colord/cd-it8.h fb445fcf89f7f844180332e565376a5b 1578256378
+obj /usr/include/colord-1/colord/cd-icc-utils.h 1fbe26c1519ddee82f95841eee62d954 1578256378
+obj /usr/include/colord-1/colord/cd-it8-utils.h a340cd1db3e02ddb604c84caaac02f54 1578256378
+obj /usr/include/colord-1/colord/cd-buffer.h 75211955a854575fbf775a301c79798a 1578256378
+obj /usr/include/colord-1/colord/cd-spectrum.h 301eb90b6dfcc1965d1325e222e04f4a 1578256378
+obj /usr/include/colord-1/colord/cd-compat-edid.h 009c62cfe6db428792a51311c9941c33 1578256378
+obj /usr/include/colord-1/colord/cd-edid.h 6c595790cd2c59100c4ba765d0aefb60 1578256378
+obj /usr/include/colord-1/colord/cd-client-sync.h baf7dd8a58782052e508d6e7278a66f0 1578256378
+obj /usr/include/colord-1/colord/cd-math.h 1784d6f0ab3fc5bcba6e6d2feebd773d 1578256378
+dir /usr/include/colord-1/colord-session
+obj /usr/include/colord-1/colord-session/cd-session.h b521adbac80060f3b62249078227e0fe 1578256388
+dir /usr/include/colord-1/colorhug
+obj /usr/include/colord-1/colorhug/ch-device-queue.h 4726c37f1057a5a9444d7c717b7bde1b 1578256378
+obj /usr/include/colord-1/colorhug/ch-device.h e600aff6ffdd0c25a0bcc4bd6c2c2821 1578256378
+obj /usr/include/colord-1/colorhug/ch-version.h 7664d5c6e00579b53d7408a55996173a 1578256378
+obj /usr/include/colord-1/colorhug/ch-common.h 206cfe79fd3c11ac3f9fafc554d87004 1578256378
+obj /usr/include/colord-1/colorhug/ch-math.h 2a6d0cdc8775a171ae7e8d79414d5049 1578256378
+obj /usr/include/colord-1/colorhug/ch-inhx32.h 7d00a1209a7b18e843a88bf52ad4752c 1578256378
+obj /usr/include/colord-1/colorhug/ch-hash.h 0a33f690d16e4d8cb83425601725fc10 1578256378
+obj /usr/include/colord-1/colorhug/colorhug.h 50e67dababaedf760b499ec26c1942bf 1578256378
+obj /usr/include/colord-1/colord.h 4cbc0f8315f59d85fbdbdbded67c1995 1578256378
+obj /usr/include/colord-1/colord-private.h cf0143ad2fd4ed8feef80dee4778b69b 1578256378
+dir /usr/lib32
+obj /usr/lib32/libcolordprivate.so.2.0.5 181590cb2a8619048225c1eba5d0860b 1578256393
+dir /usr/lib32/colord-sensors
+obj /usr/lib32/colord-sensors/libcolord_sensor_spark.so 34b22f821b2a96c6ff495aa0da8a5ea6 1578256393
+obj /usr/lib32/colord-sensors/libhuey-private.so 4bafbf05f59aa94da308e272f6502ae4 1578256393
+obj /usr/lib32/colord-sensors/libdtp94-private.so 29c045a4c88dfe9261587aec60608d92 1578256393
+obj /usr/lib32/colord-sensors/libmunki-private.so 8d0444dda21deecb53e460d91e851beb 1578256393
+obj /usr/lib32/colord-sensors/libcolord_sensor_dtp94.so fca46aaf690d63c84d862841bbb0b82c 1578256393
+obj /usr/lib32/colord-sensors/libcolord_sensor_dummy.so 54f32daf0117e3dcc45df07e0e04477f 1578256393
+obj /usr/lib32/colord-sensors/libcolord_sensor_colorhug.so 8bf7984d15605448d8987f772a1a2fa0 1578256393
+obj /usr/lib32/colord-sensors/libcolord_sensor_huey.so 0dbabff87673986048f024d57a8ad2fd 1578256393
+obj /usr/lib32/colord-sensors/libospark-private.so 3089a6efd27697a65389253f936773b6 1578256393
+sym /usr/lib32/libcolordprivate.so -> libcolordprivate.so.2.0.5 1578256398
+obj /usr/lib32/libcolorhug.so.2.0.5 7a27c7f4dd62aa6379c15c4329f1941a 1578256393
+sym /usr/lib32/libcolorhug.so.2 -> libcolorhug.so.2.0.5 1578256398
+obj /usr/lib32/libcolordcompat.so 4426f9bc32532c86b61ac70f82057bde 1578256393
+dir /usr/lib32/pkgconfig
+obj /usr/lib32/pkgconfig/colorhug.pc 64e0ad46eac1e7a777759c2876976556 1578256365
+obj /usr/lib32/pkgconfig/colord.pc 0fb5c64ba4d88d571ee2ac2b0b6b09c7 1578256365
+dir /usr/lib32/colord-plugins
+obj /usr/lib32/colord-plugins/libcd_plugin_camera.so bd43babdd80ebdd63d536ab3cca15c5f 1578256393
+obj /usr/lib32/colord-plugins/libcd_plugin_scanner.so 0cf3a141c1250ff4922732e8f20a16fa 1578256393
+sym /usr/lib32/libcolord.so.2 -> libcolord.so.2.0.5 1578256398
+sym /usr/lib32/libcolord.so -> libcolord.so.2.0.5 1578256398
+sym /usr/lib32/libcolordprivate.so.2 -> libcolordprivate.so.2.0.5 1578256398
+sym /usr/lib32/libcolorhug.so -> libcolorhug.so.2.0.5 1578256398
+obj /usr/lib32/libcolord.so.2.0.5 c804fc03076e6424af43c9ccc3b02694 1578256393
+dir /usr/bin
+obj /usr/bin/cd-iccdump e6f91bde854ebddba9f79adf938894de 1578256393
+obj /usr/bin/colormgr aaa5bffa404a8cfc6f677f09a60fbdde 1578256393
+obj /usr/bin/cd-fix-profile 8a80bfefeb5266b6a0001f4dc96791e4 1578256393
+obj /usr/bin/cd-create-profile 80c150e130b7f2ec8d07b9d5f8b6dfb1 1578256393
+obj /usr/bin/cd-it8 a407434f7c10a18bf853be5741971d63 1578256393
+dir /usr/share
+dir /usr/share/colord
+dir /usr/share/colord/illuminant
+obj /usr/share/colord/illuminant/CIE-F7.sp 64db9184c3a897af864796b58ca0b2d0 1578256389
+obj /usr/share/colord/illuminant/CIE-F2.sp bb362bbdf3c942c7a78667c62420acef 1578256389
+obj /usr/share/colord/illuminant/CIE-D93.sp 3773a361a57d009735718fb128ad8dc6 1578256389
+obj /usr/share/colord/illuminant/CIE-F1.sp 156bc72dc013e2e8e86ca7108b337662 1578256389
+obj /usr/share/colord/illuminant/CIE-B.sp 5c89e3dba7adb21999b90c2aab21b679 1578256389
+obj /usr/share/colord/illuminant/CIE-D65.sp 9506e9a672ffdd96b4962e4ab0165e05 1578256389
+obj /usr/share/colord/illuminant/CIE-F4.sp e5e97002c8618e898571d8fb5a16508d 1578256389
+obj /usr/share/colord/illuminant/CIE-F8.sp 57377a372ec3673b7781b4f19882d46e 1578256389
+obj /usr/share/colord/illuminant/CIE-D50.sp d84714ffbf8ab3911614c9da2a9cb173 1578256389
+obj /usr/share/colord/illuminant/CIE-F6.sp c508016444d4c17340dd8fdde34d5de8 1578256389
+obj /usr/share/colord/illuminant/CIE-C.sp db36a50e956081799d8f8fe3ba50e6b0 1578256389
+obj /usr/share/colord/illuminant/CIE-F11.sp 19ea8bb9985928ed70197c4a3fa2eb94 1578256389
+obj /usr/share/colord/illuminant/CIE-F3.sp 90df72a2cb9b0d25d9692dcae9f54523 1578256389
+obj /usr/share/colord/illuminant/CIE-F12.sp b5ce167dc57ac20540615e808859614b 1578256389
+obj /usr/share/colord/illuminant/CIE-D55.sp 678bd2d5429df8a48c5b87871bccf24a 1578256389
+obj /usr/share/colord/illuminant/CIE-E.sp 2979ab39950fa4b4647594e9031b1247 1578256389
+obj /usr/share/colord/illuminant/CIE-F9.sp f1e20467873ea0385a3f1bcc38f03420 1578256389
+obj /usr/share/colord/illuminant/CIE-A.sp 8d11364930cf0b63433e4f5bc53c363f 1578256389
+obj /usr/share/colord/illuminant/CIE-F5.sp d99d24cfe23c66b97aac9bc0dde433fe 1578256389
+obj /usr/share/colord/illuminant/CIE-F10.sp 785ba545f100ef756d0016060e9fae05 1578256389
+dir /usr/share/colord/ref
+obj /usr/share/colord/ref/CIE-TCS.sp 50e4524000235c5a81c7b527fb6bbab0 1578256389
+obj /usr/share/colord/ref/CIE-1986-daylight-SPD.cmf 8c6d2ee67288018b7d4e1c0362c5115f 1578256389
+dir /usr/share/colord/ti1
+obj /usr/share/colord/ti1/display-normal.ti1 72fdd39008d8dc75fca40a82dbde4ecd 1578256389
+obj /usr/share/colord/ti1/printer-normal.ti1 cafa20961ff871a2fcbd7fce4a80af70 1578256389
+obj /usr/share/colord/ti1/printer-long.ti1 154eedd2df11eac22f6315613b8fa9e9 1578256389
+obj /usr/share/colord/ti1/display-long.ti1 eb4bf7a3d5d2b8bc07c923b8b4264647 1578256389
+obj /usr/share/colord/ti1/display-short.ti1 fd41f79da91c283233975803df571ada 1578256389
+obj /usr/share/colord/ti1/printer-short.ti1 b2b8a646372aea550f9f726621b2969d 1578256389
+dir /usr/share/colord/cmf
+obj /usr/share/colord/cmf/CIE1931-2deg-XYZ.cmf ca3c98521810de26574b396e53442a02 1578256389
+obj /usr/share/colord/cmf/CIE1964-10deg-XYZ.cmf b7d3613a5d3e71b470dfbbfe49420d4e 1578256389
+dir /usr/share/colord/icons
+obj /usr/share/colord/icons/color-munki-photo-ambient.svg c76e38b56cfa1d61315690e1274b6c33 1578256389
+obj /usr/share/colord/icons/i1-monitor-attach.svg 118ebbf869970b7396eed19408f55dc0 1578256389
+obj /usr/share/colord/icons/huey-attach.svg 3021bc3168bbd25e414319189b6cc7b6 1578256389
+obj /usr/share/colord/icons/spyder3-attach.svg 8e81d83c356af99faa1a42aa98578e32 1578256389
+obj /usr/share/colord/icons/colorhug2-attach.svg 1cc3777482c071a22986dc5ab4f9bbc2 1578256389
+obj /usr/share/colord/icons/color-munki-photo-projector.svg 0696af6526279e137f003a0616f1749d 1578256389
+obj /usr/share/colord/icons/dtp94-attach.svg d9c0a05b419a3c9d9973ec5700f9cff0 1578256389
+obj /usr/share/colord/icons/color-munki-photo-calibrate.svg 786a9f7e9f4c0af448ccf6cd7d0123f6 1578256389
+obj /usr/share/colord/icons/color-munki-smile-attach.svg 3a52b319a111016cb53fb100425944b5 1578256389
+obj /usr/share/colord/icons/spyder2-attach.svg 7beff867edccfc663624bda0221c8732 1578256389
+obj /usr/share/colord/icons/colorhug-attach.svg 0d405c5e2fea5d2b7825caa55f2653f4 1578256389
+obj /usr/share/colord/icons/spyder4-attach.svg 505998f6fa04162c6308bf2af6ad6659 1578256389
+obj /usr/share/colord/icons/color-munki-photo-attach.svg 57b1c1ee65bbdb9ebfd133085a8dcef6 1578256389
+obj /usr/share/colord/icons/i1-display3-attach.svg 09adc7a5c81f6fb3448d90236288f92e 1578256389
+obj /usr/share/colord/icons/color-munki-photo-screen.svg 504e3ab76072b76775a7e694f47df9bd 1578256389
+obj /usr/share/colord/icons/hcfr-attach.svg 9b769be59b49f0616bbe276c5a447771 1578256389
+obj /usr/share/colord/icons/spyder5-attach.svg d2b15eb7f668914620fcd65c9496e5cb 1578256389
+obj /usr/share/colord/icons/i1-pro-attach.svg f3e623d1745517ecdbe55a53c0bc672b 1578256389
+dir /usr/share/color
+dir /usr/share/color/icc
+dir /usr/share/color/icc/colord
+obj /usr/share/color/icc/colord/BruceRGB.icc d9f576678e251dd063ed097a27e9786c 1578256389
+obj /usr/share/color/icc/colord/SMPTE-C-RGB.icc 52a727900aa9130f873a05966c9b535c 1578256389
+obj /usr/share/color/icc/colord/FOGRA30L_uncoated_yellowish.icc 05cd9649ed6372d64b43146431109e35 1578256389
+obj /usr/share/color/icc/colord/FOGRA28L_webcoated.icc b9963ee4a6132d719475b3014818d368 1578256389
+obj /usr/share/color/icc/colord/SwappedRedAndGreen.icc 5ab630422f4ff579625f6b3c22b8cb74 1578256389
+obj /usr/share/color/icc/colord/FOGRA27L_coated.icc 4b3e828ad1eb024350e24cbfc2531e51 1578256389
+obj /usr/share/color/icc/colord/EktaSpacePS5.icc ac5f2347930bf2114a066807033338a3 1578256389
+obj /usr/share/color/icc/colord/NTSC-RGB.icc 228eb13c7e60549e5b5fdc1bc6a16248 1578256389
+obj /usr/share/color/icc/colord/BestRGB.icc 864b992e69a3be8ac1628eb10b5117f9 1578256389
+obj /usr/share/color/icc/colord/FOGRA40L_SC_paper.icc 40f03f8b094b3ca77485c8899d33ba37 1578256389
+obj /usr/share/color/icc/colord/FOGRA29L_uncoated.icc bb8d51ee5946b8cbe9cd0aa51f09d7c9 1578256389
+obj /usr/share/color/icc/colord/ECI-RGBv2.icc 48bd33393a0820b21a820c3dbdd67f52 1578256389
+obj /usr/share/color/icc/colord/SWOP_TR003_coated_3.icc 7669b45355e5600719443214bafd10c4 1578256389
+obj /usr/share/color/icc/colord/BetaRGB.icc 8e4d2b4164f71d607a92408d85db8f88 1578256389
+obj /usr/share/color/icc/colord/sRGB.icc 9f6455b3ba6f49d1975ba524caba9672 1578256389
+obj /usr/share/color/icc/colord/AdobeRGB1998.icc 10995830fb2fcb64492755a41587b1d1 1578256389
+obj /usr/share/color/icc/colord/ECI-RGBv1.icc e6e5226c2124f1856675193d1989b8b2 1578256389
+obj /usr/share/color/icc/colord/ColorMatchRGB.icc b631a3beccd554b0e0223218a2720013 1578256389
+obj /usr/share/color/icc/colord/PAL-RGB.icc c8a70ed43cc6edc4c359a0aa00052e56 1578256389
+obj /usr/share/color/icc/colord/Gamma5500K.icc e7f4a7bb32e1bf3864d302d65c0b122a 1578256389
+obj /usr/share/color/icc/colord/Gamma6500K.icc 6e45c531703134a626d3d5ded9ad646c 1578256389
+obj /usr/share/color/icc/colord/AppleRGB.icc cb524d5375dba03cc373f4eb74dea8f9 1578256389
+obj /usr/share/color/icc/colord/SWOP_TR005_coated_5.icc 9aabc2e3e9812d9e1081a0bb0de0efbe 1578256389
+obj /usr/share/color/icc/colord/SNAP_TR002_newsprint.icc f2d8edf88a3f29e1577aab6b868eda07 1578256389
+obj /usr/share/color/icc/colord/Crayons.icc a112574bf8af43c3181114b067376e41 1578256389
+obj /usr/share/color/icc/colord/WideGamutRGB.icc 3666bd8c522a64354095e4dcc63c17f2 1578256389
+obj /usr/share/color/icc/colord/FOGRA39L_coated.icc ab125725050d62a91f9ad6374077b53a 1578256389
+obj /usr/share/color/icc/colord/Gamma5000K.icc 4245bf5cf902314b2e65f5b7cbf814d2 1578256389
+obj /usr/share/color/icc/colord/DonRGB4.icc 402e37e9a50975dbb29d53cd84195a56 1578256389
+obj /usr/share/color/icc/colord/GRACoL_TR006_coated.icc 5380666c541ef6340301170f593d4a91 1578256389
+obj /usr/share/color/icc/colord/Bluish.icc 1cee8f845a6849eb75d2c79ed1960dbf 1578256389
+obj /usr/share/color/icc/colord/IFRA26S_2004_newsprint.icc a731f2e41dc93f1581452fab93c8903a 1578256389
+obj /usr/share/color/icc/colord/FOGRA45L_lwc.icc dcfea42c31f368a17b5f8f8ee1642348 1578256389
+obj /usr/share/color/icc/colord/x11-colors.icc 0bdece07261a16820533658896dd7466 1578256389
+obj /usr/share/color/icc/colord/ProPhotoRGB.icc e77bdf35d8ae4c686896cdcf58f2e641 1578256389
+obj /usr/share/color/icc/colord/FOGRA47L_uncoated.icc 4a541f36e9b98242ebfbf7b0ed822053 1578256389
+obj /usr/share/color/icc/colord/CIE-RGB.icc be4a4406848e309cf1b49f5389742ed5 1578256389
+dir /usr/share/gir-1.0
+obj /usr/share/gir-1.0/Colord-1.0.gir d2867aabbf963b21385bae02efc5e2f5 1578256378
+obj /usr/share/gir-1.0/ColorHug-1.0.gir 4bb575072fa4bfc213b254cba0a3def0 1578256378
+dir /usr/share/glib-2.0
+dir /usr/share/glib-2.0/schemas
+obj /usr/share/glib-2.0/schemas/org.freedesktop.ColorHelper.gschema.xml f5b388da89841b0a4d240de70e2061fe 1578256389
+dir /usr/share/doc
+dir /usr/share/doc/colord-1.3.5
+obj /usr/share/doc/colord-1.3.5/README.md.bz2 68e37a6734befe2580caf38de20cbec2 1578256391
+obj /usr/share/doc/colord-1.3.5/NEWS.bz2 25b78080ab245a80acea1514be2ff502 1578256391
+obj /usr/share/doc/colord-1.3.5/TODO 68b329da9893e34099c7d8ad5cb9c940 1578256391
+dir /usr/share/doc/colord-1.3.5/examples
+obj /usr/share/doc/colord-1.3.5/examples/cd-dbus-use-qualifier.c.bz2 fe66bc3cc2e991bb236a7c16fe534c73 1578256391
+obj /usr/share/doc/colord-1.3.5/examples/cd-dbus-create-device.c.bz2 a9a52ad520cafced7900d9981a9cefcc 1578256391
+obj /usr/share/doc/colord-1.3.5/AUTHORS 62fad5946c839321ae93585963899b2e 1578256391
+obj /usr/share/doc/colord-1.3.5/ChangeLog.bz2 7cca42000886f95ee94454cbc8be1799 1578256391
+obj /usr/share/doc/colord-1.3.5/MAINTAINERS 62fad5946c839321ae93585963899b2e 1578256391
+dir /usr/share/locale
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/colord.mo 74fd3759e3878b0c1356c510d1f6cbdd 1578256388
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/colord.mo 606c65ffe118d606877ce35171b6ded4 1578256388
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/colord.mo 1ad78415d9c4102c7b4cebe54892775e 1578256388
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/colord.mo 7ee7f341f3b4d4a9b14fd226d8a258a2 1578256388
+dir /usr/share/locale/he
+dir /usr/share/locale/he/LC_MESSAGES
+obj /usr/share/locale/he/LC_MESSAGES/colord.mo 03eebd73e868d3919e6c6b77defc28ab 1578256388
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/colord.mo f61a09dfca238f25507cb4ab974633fa 1578256388
+dir /usr/share/locale/hi
+dir /usr/share/locale/hi/LC_MESSAGES
+obj /usr/share/locale/hi/LC_MESSAGES/colord.mo 531a25eb5c17cdcedffba694693456ea 1578256388
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/colord.mo 0bc20df09974f459b53b9a2734777c14 1578256388
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/colord.mo c1e90af0482fcebc1e3b327c2e4d1adb 1578256388
+dir /usr/share/locale/ta
+dir /usr/share/locale/ta/LC_MESSAGES
+obj /usr/share/locale/ta/LC_MESSAGES/colord.mo 3ad0e77a7dbd99f08f6453fe341ebd2f 1578256388
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/colord.mo e60f455c51789a243c95acacc88bf792 1578256388
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/colord.mo f258c1bbfd017e8815462dae8237ab3d 1578256388
+dir /usr/share/locale/bn_IN
+dir /usr/share/locale/bn_IN/LC_MESSAGES
+obj /usr/share/locale/bn_IN/LC_MESSAGES/colord.mo c2ea6b3ef755ab1f2bf4884b1ba0ec17 1578256388
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/colord.mo 1c89d77183bae288eaf772def6cef86d 1578256388
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/colord.mo 3bb32e3f1606b5ec7a43dfad6cec8bf8 1578256388
+dir /usr/share/locale/pa
+dir /usr/share/locale/pa/LC_MESSAGES
+obj /usr/share/locale/pa/LC_MESSAGES/colord.mo c96db5ccdd7cbbade531336b023b17c1 1578256388
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/colord.mo 4264917efb3bbbdeebbe5ad52413ca45 1578256388
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/colord.mo bd62cb79c72ce1475d4ce871e796df0b 1578256388
+dir /usr/share/locale/kk
+dir /usr/share/locale/kk/LC_MESSAGES
+obj /usr/share/locale/kk/LC_MESSAGES/colord.mo 8eec73801df2adc3dd896bcf3d997f21 1578256388
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/colord.mo 3833a62a744f64aa6b478ff610104532 1578256388
+dir /usr/share/locale/nb
+dir /usr/share/locale/nb/LC_MESSAGES
+obj /usr/share/locale/nb/LC_MESSAGES/colord.mo 5a5388dd5fdf7992f3212ab5e62bda2b 1578256388
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/colord.mo f0324eeb82528a23399ef37b3a2c825e 1578256388
+dir /usr/share/locale/lv
+dir /usr/share/locale/lv/LC_MESSAGES
+obj /usr/share/locale/lv/LC_MESSAGES/colord.mo 381fb6074f6df7c08766eb9837e3cb34 1578256388
+dir /usr/share/locale/kn
+dir /usr/share/locale/kn/LC_MESSAGES
+obj /usr/share/locale/kn/LC_MESSAGES/colord.mo 7e10d90a3440e11c6f44d4c368b8911c 1578256388
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/colord.mo 1d54a5fdb47b24c5dfe3ef033de02d1f 1578256388
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/colord.mo f2422edc818525901b7a4e4c22f43e95 1578256388
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/colord.mo 3acccccbd5d3a27add2fe701384e4545 1578256388
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/colord.mo 66a9b4b8a0c49f75631c2b0178b1c004 1578256388
+dir /usr/share/locale/eo
+dir /usr/share/locale/eo/LC_MESSAGES
+obj /usr/share/locale/eo/LC_MESSAGES/colord.mo 50be1a09275726eb15ac4ddcbd65e055 1578256388
+dir /usr/share/locale/ml
+dir /usr/share/locale/ml/LC_MESSAGES
+obj /usr/share/locale/ml/LC_MESSAGES/colord.mo 0a8644a613d1c5e099808350efdf1a37 1578256388
+dir /usr/share/locale/mr
+dir /usr/share/locale/mr/LC_MESSAGES
+obj /usr/share/locale/mr/LC_MESSAGES/colord.mo cbb5fdb7d77cbb2d7bffa8d083a52a41 1578256388
+dir /usr/share/locale/th
+dir /usr/share/locale/th/LC_MESSAGES
+obj /usr/share/locale/th/LC_MESSAGES/colord.mo b2dda1b6cb85c1ba6d74f05ba0072c99 1578256388
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/colord.mo f9728c8b75d7670fb5502bd085021f99 1578256388
+dir /usr/share/locale/is
+dir /usr/share/locale/is/LC_MESSAGES
+obj /usr/share/locale/is/LC_MESSAGES/colord.mo 6d90432a6aa2edfb428b3388525ae86f 1578256388
+dir /usr/share/locale/gu
+dir /usr/share/locale/gu/LC_MESSAGES
+obj /usr/share/locale/gu/LC_MESSAGES/colord.mo 06be794f11624039b4b112d84812d38b 1578256388
+dir /usr/share/locale/sr@latin
+dir /usr/share/locale/sr@latin/LC_MESSAGES
+obj /usr/share/locale/sr@latin/LC_MESSAGES/colord.mo 98a1c2f03ff3a1686dce395112423911 1578256388
+dir /usr/share/locale/as
+dir /usr/share/locale/as/LC_MESSAGES
+obj /usr/share/locale/as/LC_MESSAGES/colord.mo 7f99d53fbaee88846e13f7594a54e56e 1578256388
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/colord.mo 7ef8f3dab6dafac320ed2a2ab9312fc2 1578256388
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/colord.mo 77d0a0611dccf788f780dd3295224da2 1578256388
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/colord.mo 0a5a296967b16cfcf5288012321d7f6e 1578256388
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/colord.mo 695a5a7b53353afcce695554d1995a59 1578256388
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/colord.mo c8d25aa0901f13f4e6cbd68dca73258f 1578256388
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/colord.mo 49cce560bb9bd4479f106fc144eba0ec 1578256388
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/colord.mo 6605dd872ab763ed698e3522d114899b 1578256388
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/colord.mo 37974bda96512934328f0e5f1de1642a 1578256388
+dir /usr/share/locale/oc
+dir /usr/share/locale/oc/LC_MESSAGES
+obj /usr/share/locale/oc/LC_MESSAGES/colord.mo cfe5e6bcdbe34a8e5d7d6889fc76661e 1578256388
+dir /usr/share/locale/en_GB
+dir /usr/share/locale/en_GB/LC_MESSAGES
+obj /usr/share/locale/en_GB/LC_MESSAGES/colord.mo f9273c07934b7be883e88747add2cb36 1578256388
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/colord.mo 0cfbbff418ffdd8c901e69733b42610a 1578256388
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/colord.mo b64a0ab7a26f685fab813ef7e95a8f24 1578256388
+dir /usr/share/locale/or
+dir /usr/share/locale/or/LC_MESSAGES
+obj /usr/share/locale/or/LC_MESSAGES/colord.mo 4bc4b3883e7d108a4264aeeac4d407d2 1578256388
+dir /usr/share/vala
+dir /usr/share/vala/vapi
+obj /usr/share/vala/vapi/colord.vapi 2ea5cf46cc044f3a5c3ab60a762fe860 1578256378
+dir /usr/share/polkit-1
+dir /usr/share/polkit-1/actions
+obj /usr/share/polkit-1/actions/org.freedesktop.color.policy 39d543c78632e4bcb9f185b82c8135aa 1578256389
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/colormgr.1.bz2 d2ff6ac2817f425741058fb60cf34f4c 1578256389
+obj /usr/share/man/man1/cd-create-profile.1.bz2 68dcf3dcd45f4d880bc26ef36109e15f 1578256389
+obj /usr/share/man/man1/cd-fix-profile.1.bz2 d4498c076e2ffdceddbd5def337f3155 1578256389
+obj /usr/share/man/man1/cd-it8.1.bz2 e5b9e95144fcba6cc0eb6ac4b04642f8 1578256389
+dir /usr/share/dbus-1
+dir /usr/share/dbus-1/services
+obj /usr/share/dbus-1/services/org.freedesktop.ColorHelper.service 86ab4942710e2a35ffff7e094dd50eb3 1578256388
+dir /usr/share/dbus-1/system-services
+obj /usr/share/dbus-1/system-services/org.freedesktop.ColorManager.service 61ae2cc208beab423c54e358f2582971 1578256389
+dir /usr/share/dbus-1/interfaces
+obj /usr/share/dbus-1/interfaces/org.freedesktop.ColorManager.Device.xml 8730f43768c5222f0d21b5fa5c1571b8 1578256390
+obj /usr/share/dbus-1/interfaces/org.freedesktop.ColorHelper.xml 74cc3b79ecb556eec013cd22a224124e 1578256388
+obj /usr/share/dbus-1/interfaces/org.freedesktop.ColorManager.xml 997433e633df99dac3d7ca5d4142256a 1578256390
+obj /usr/share/dbus-1/interfaces/org.freedesktop.ColorManager.Sensor.xml 1b9ffff19e3a2541ab0846894aa1cbf3 1578256390
+obj /usr/share/dbus-1/interfaces/org.freedesktop.ColorManager.Profile.xml 3872bf6ddd1d17baaf41849bc4a825f0 1578256390
+dir /usr/share/bash-completion
+dir /usr/share/bash-completion/completions
+obj /usr/share/bash-completion/completions/colormgr b2fad753271db5793ba2ba7a191acf8f 1578256391

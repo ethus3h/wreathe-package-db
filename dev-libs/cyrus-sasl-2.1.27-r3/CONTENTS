@@ -1,0 +1,189 @@
+dir /lib
+dir /lib/systemd
+dir /lib/systemd/system
+obj /lib/systemd/system/pwcheck.service 7ef6078c2819376e4d8c7ea071fc550d 1577680064
+obj /lib/systemd/system/saslauthd.service ad64019ce5776f9723364aa3e926b3c8 1577680064
+dir /etc
+dir /etc/pam.d
+obj /etc/pam.d/saslauthd a1b5b72d1285487654685fc497aa81b5 1577680064
+dir /etc/sasl2
+obj /etc/sasl2/.keep_dev-libs_cyrus-sasl-2 d41d8cd98f00b204e9800998ecf8427e 1577680063
+dir /etc/init.d
+obj /etc/init.d/saslauthd 159feebb5212ad10f4a018e6360e0ddf 1577680064
+obj /etc/init.d/pwcheck b0764f83dd5653ba781944f493a36682 1577680064
+dir /etc/conf.d
+obj /etc/conf.d/saslauthd aa37c4b247bfdea355400c82ba898090 1577680064
+dir /usr
+dir /usr/lib
+dir /usr/lib/java
+dir /usr/lib/java/classes
+dir /usr/lib/java/classes/sasl
+dir /usr/lib/java/classes/sasl/javax
+dir /usr/lib/java/classes/sasl/javax/security
+dir /usr/lib/java/classes/sasl/javax/security/auth
+dir /usr/lib/java/classes/sasl/javax/security/auth/callback
+obj /usr/lib/java/classes/sasl/javax/security/auth/callback/RealmCallback.class f22f3c314d66ce77ca04bd02b6e297fa 1577680062
+dir /usr/lib/java/classes/sasl/CyrusSasl
+obj /usr/lib/java/classes/sasl/CyrusSasl/SaslClient.class a4183b76103d966eef2e5c0bb82ad245 1577680061
+obj /usr/lib/java/classes/sasl/CyrusSasl/SaslServer.class 5264e3eb45a5606c93b9fc7dd4aa7a80 1577680061
+obj /usr/lib/java/classes/sasl/CyrusSasl/ClientFactory.class eb03cda32ee88696d41edd172055961e 1577680061
+obj /usr/lib/java/classes/sasl/CyrusSasl/GenericServer.class 7fcc1d52095c4bae5dfaadab5452ba10 1577680061
+obj /usr/lib/java/classes/sasl/CyrusSasl/SaslClientFactory.class 182ea37b4a5c56a2c0b295e934257fb5 1577680061
+obj /usr/lib/java/classes/sasl/CyrusSasl/Sasl.class 3b0824835afe74d6e1788113ac825479 1577680061
+obj /usr/lib/java/classes/sasl/CyrusSasl/GenericClient.class 5bc615c10e165028ba1fc5ccd1f465e3 1577680061
+obj /usr/lib/java/classes/sasl/CyrusSasl/SaslUtils.class 0d628a301b7a6caaf9c4084eee69e75c 1577680061
+obj /usr/lib/java/classes/sasl/CyrusSasl/SaslException.class 1c69478636313359f56fd61cb3b68ee7 1577680061
+obj /usr/lib/java/classes/sasl/CyrusSasl/ServerFactory.class 7bd38ab3b6b449605107f02f674dac80 1577680061
+obj /usr/lib/java/classes/sasl/CyrusSasl/SaslOutputStream.class ba52caea8846abed5d1e39b2b9a9a2ec 1577680061
+obj /usr/lib/java/classes/sasl/CyrusSasl/SaslInputStream.class 47b50d52376373924d073a2ecdd708ee 1577680061
+obj /usr/lib/java/classes/sasl/CyrusSasl/GenericCommon.class 3087fa3184bb98b65c18897fd52eb56c 1577680061
+obj /usr/lib/java/classes/sasl/CyrusSasl/SaslServerFactory.class 7def48eccf6977978e31e1d9119a1506 1577680061
+dir /usr/lib/tmpfiles.d
+obj /usr/lib/tmpfiles.d/cyrus-sasl.conf 85927467e3abc0f2ed6b951688920e90 1577680064
+dir /usr/lib64
+obj /usr/lib64/libjavasasl.so.1.0.0 94c5b3416e87538a3f59d42dc16f37c0 1577680066
+sym /usr/lib64/libsasl2.so -> libsasl2.so.3.0.0 1577680071
+dir /usr/lib64/sasl2
+sym /usr/lib64/sasl2/libanonymous.so -> libanonymous.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/libgs2.so -> libgs2.so.3.0.0 1577680071
+obj /usr/lib64/sasl2/libdigestmd5.so.3.0.0 8b178917edcc43ea84f9ff6972c79e42 1577680066
+sym /usr/lib64/sasl2/libgssapiv2.so.3 -> libgssapiv2.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/libscram.so.3 -> libscram.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/libsasldb.so.3 -> libsasldb.so.3.0.0 1577680071
+obj /usr/lib64/sasl2/libanonymous.so.3.0.0 992a366f9849fb1f2c8c8ceed0b8f927 1577680066
+sym /usr/lib64/sasl2/libplain.so.3 -> libplain.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/libplain.so -> libplain.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/libgssapiv2.so -> libgssapiv2.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/libsql.so.3 -> libsql.so.3.0.0 1577680071
+obj /usr/lib64/sasl2/libcrammd5.so.3.0.0 aad6d647bda895222587ed7095d5a6a7 1577680066
+obj /usr/lib64/sasl2/libsasldb.so.3.0.0 79ec783b82d5303927f600e026c1111e 1577680066
+sym /usr/lib64/sasl2/libotp.so.3 -> libotp.so.3.0.0 1577680071
+obj /usr/lib64/sasl2/libntlm.so.3.0.0 1a20776bede3bd075c02bbb9bc324e8a 1577680066
+sym /usr/lib64/sasl2/libanonymous.so.3 -> libanonymous.so.3.0.0 1577680071
+obj /usr/lib64/sasl2/libgs2.so.3.0.0 29c8944f8c4d18c603e65067de05121a 1577680066
+obj /usr/lib64/sasl2/libotp.so.3.0.0 7f692e8192cca627f90ae6596013a60b 1577680066
+obj /usr/lib64/sasl2/libscram.so.3.0.0 e7720a1dd07fb9348ad7bc0e79595666 1577680066
+obj /usr/lib64/sasl2/libgssapiv2.so.3.0.0 dc5a856f0c516f2536c7f4aeb0d8108f 1577680066
+obj /usr/lib64/sasl2/libplain.so.3.0.0 81d87737e423f33cff39b24240bcf4e1 1577680066
+sym /usr/lib64/sasl2/libdigestmd5.so -> libdigestmd5.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/libotp.so -> libotp.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/libscram.so -> libscram.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/libgs2.so.3 -> libgs2.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/libcrammd5.so -> libcrammd5.so.3.0.0 1577680071
+obj /usr/lib64/sasl2/liblogin.so.3.0.0 a3ebf86a4185e53fa8158d0db2e069cf 1577680066
+sym /usr/lib64/sasl2/libntlm.so -> libntlm.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/libdigestmd5.so.3 -> libdigestmd5.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/libntlm.so.3 -> libntlm.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/libsql.so -> libsql.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/libcrammd5.so.3 -> libcrammd5.so.3.0.0 1577680071
+obj /usr/lib64/sasl2/libsql.so.3.0.0 eba40585eb78ed64549b88073f984820 1577680066
+sym /usr/lib64/sasl2/liblogin.so.3 -> liblogin.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/liblogin.so -> liblogin.so.3.0.0 1577680071
+sym /usr/lib64/sasl2/libsasldb.so -> libsasldb.so.3.0.0 1577680071
+obj /usr/lib64/libsasl2.so.3.0.0 48b13acefec113d6e251a6401b7fce0c 1577680066
+sym /usr/lib64/libsasl2.so.3 -> libsasl2.so.3.0.0 1577680071
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libsasl2.pc 08ac414a051474badcc1916d933cd5d9 1577680062
+sym /usr/lib64/libjavasasl.so.1 -> libjavasasl.so.1.0.0 1577680071
+sym /usr/lib64/libjavasasl.so -> libjavasasl.so.1.0.0 1577680071
+dir /usr/include
+dir /usr/include/x86_64-pc-linux-gnu
+dir /usr/include/x86_64-pc-linux-gnu/sasl
+obj /usr/include/x86_64-pc-linux-gnu/sasl/md5global.h e394ca99de2ae0131c0a87490ec474c6 1577680061
+dir /usr/include/sasl
+obj /usr/include/sasl/md5global.h 972b8eb68f070befcc2e23c5da156060 1577680063
+obj /usr/include/sasl/hmac-md5.h 364c10844e8500e69a20b25ed298fac5 1577680061
+obj /usr/include/sasl/prop.h 9e772c4df4341a4b7e19f42ca98c4ba0 1577680061
+obj /usr/include/sasl/saslplug.h a8df24cd81b695e8b58feec8c7d76729 1577680061
+obj /usr/include/sasl/md5.h f96f44f85b2c0d13bc6caf469080828e 1577680061
+obj /usr/include/sasl/sasl.h 1066f7daa24bea6b69d4e4049f06a40f 1577680061
+obj /usr/include/sasl/saslutil.h 74be2e2e421a99b77aa56ea2e610163e 1577680061
+dir /usr/sbin
+obj /usr/sbin/saslpasswd2 61cf1080a53b0e360d9c7926db0d1140 1577680066
+obj /usr/sbin/pluginviewer 93665cd4057308bcaf17f4a55e13939c 1577680066
+obj /usr/sbin/sasldblistusers2 50485bf60375ee18c6fe74545e2347c6 1577680066
+obj /usr/sbin/saslauthd 93b80a309191ccca360441f62988da0c 1577680066
+obj /usr/sbin/testsaslauthd cd8642af2caf52f0b462c04e8936af90 1577680066
+obj /usr/sbin/pwcheck 72497d4c13ec90e40dd2f74042d3efd6 1577680066
+dir /usr/share
+dir /usr/share/cyrus-sasl-2
+dir /usr/share/cyrus-sasl-2/lib
+obj /usr/share/cyrus-sasl-2/lib/cyrus-sasl.jar 33cc700ef7b8c303064f580c147b35f3 1577680062
+obj /usr/share/cyrus-sasl-2/package.env 810ed59a5b064e6dddf38ad71aa16bef 1577680062
+dir /usr/share/doc
+dir /usr/share/doc/cyrus-sasl-2.1.27-r3
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/README.pwcheck.bz2 7aa2113330838e9886f16a0dde0e80b7 1577680063
+dir /usr/share/doc/cyrus-sasl-2.1.27-r3/html
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/html/index.html 106d5913a218fbb2b452a527ebfb4586 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/html/packager.html 63f49aeff40232398df3b013b2dcd09a 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/html/genindex.html f82c6958f026bc5214a894dd54f8e19d 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/html/developer.html 32801049e9d6a489a28acff0862e35a5 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/html/setup.html 78dd2a3c4717cc96c0b314103f978966 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/html/search.html c1cf305cd46fc6b27a89ebc0540b1aec 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/html/download.html 93af6068e4a83cb7395c9547324b5b1e 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/html/operations.html 2680b69c726097046e954e5eb0f66bc0 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/html/getsasl.html 7ab1d07b374d15fb85eb2785c3443080 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/html/support.html 4fb76cd317afc47d11ad72a5362153f3 1577680063
+dir /usr/share/doc/cyrus-sasl-2.1.27-r3/java
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/java/java.README.gentoo.bz2 e6a7efba2fbc517c9337da86205e1236 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/java/draft-weltman-java-sasl-02.txt.bz2 4f8519cc9793b6840ed3f1afd4c7dd08 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/java/README.bz2 790e20bd457583d7d7a9540affaa5c54 1577680063
+dir /usr/share/doc/cyrus-sasl-2.1.27-r3/java/Test
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/java/Test/ServerHandler.java.bz2 711aca7eb2656352871e92b18641b37e 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/java/Test/Handler.java.bz2 5920e82c5c8fbcceef2a6283ee18fbf8 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/java/Test/jimtest.java.bz2 23c2c458181a6c9348996432b87f364d 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/java/Test/testserver.java.bz2 07e6cd51842efc6be890093344b64c6e 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/release-notes.bz2 43e487f50db446426c6993d55c96c773 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/AUTHORS.bz2 b20ae23312fb4e6ebe6128eda1a7362b 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/ChangeLog.bz2 8334f30ed17f66227c3e2fc1d30b1c32 1577680063
+obj /usr/share/doc/cyrus-sasl-2.1.27-r3/TODO.bz2 b50824c403f14abd2b55d62de0699fa4 1577680063
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/sasl_server_new.3.bz2 df116c4f393ce620f4869ea6fe601292 1577680063
+obj /usr/share/man/man3/sasl_auxprop.3.bz2 7d65e2bc74e6899253ceab7196b51505 1577680063
+obj /usr/share/man/man3/sasl_setpass.3.bz2 5aa6e8bcf3dc770720513f9ee9f60e73 1577680063
+obj /usr/share/man/man3/sasl_auxprop_getctx.3.bz2 30b593378051b8a98576efbeac093edb 1577680063
+obj /usr/share/man/man3/sasl_getsimple_t.3.bz2 73a5ad301d3a960755237400dda3212e 1577680063
+obj /usr/share/man/man3/sasl_callbacks.3.bz2 e583d4645477c3d8e8e50ef18638220f 1577680063
+obj /usr/share/man/man3/sasl_getprop.3.bz2 9d19ff11b5d21314ee021f84a5ba4bc1 1577680063
+obj /usr/share/man/man3/sasl_checkpass.3.bz2 3cb6f6de2e5258815dad42d6a961b78e 1577680063
+obj /usr/share/man/man3/sasl.3.bz2 09f7e8b8238b3fc29de19487f9feef05 1577680063
+obj /usr/share/man/man3/sasl_done.3.bz2 13b53c77290b1ca8bfcf485998c0da40 1577680063
+obj /usr/share/man/man3/sasl_server_start.3.bz2 839b5313e1edcd2019cd27a6550eb01a 1577680063
+obj /usr/share/man/man3/sasl_server_userdb_setpass_t.3.bz2 3a13cef773685a473f318c404cb2f9f0 1577680063
+obj /usr/share/man/man3/sasl_log_t.3.bz2 57c411245aef3886986df4757b9f7f47 1577680063
+obj /usr/share/man/man3/sasl_getconfpath_t.3.bz2 f7fac74498ff3e8f8802247062ad8509 1577680063
+obj /usr/share/man/man3/sasl_chalprompt_t.3.bz2 3e153cc3d3abf5a8a8dc448773eed213 1577680063
+obj /usr/share/man/man3/sasl_listmech.3.bz2 444c5ad12ecb41ad3b40f98b67a12ed1 1577680063
+obj /usr/share/man/man3/sasl_server_userdb_checkpass_t.3.bz2 a8afc61be499aeb78861719d4857dbfe 1577680063
+obj /usr/share/man/man3/sasl_idle.3.bz2 bb8467a86ba878306a392db0be482207 1577680063
+obj /usr/share/man/man3/sasl_errstring.3.bz2 aa7eb752dc695d46b518edd9491051e9 1577680063
+obj /usr/share/man/man3/sasl_user_exists.3.bz2 596585a614460b09172a4948917e8869 1577680063
+obj /usr/share/man/man3/sasl_server_step.3.bz2 673b66b40058278e4f4c1e5e591623f9 1577680063
+obj /usr/share/man/man3/sasl_getpath_t.3.bz2 6885389fb4fb0a822537de312bcfcf08 1577680063
+obj /usr/share/man/man3/sasl_client_start.3.bz2 96cb83f2e4e8ebf728ddbf3b20463bd3 1577680063
+obj /usr/share/man/man3/sasl_decode.3.bz2 07280871a38cd27dbd624613cd0125d4 1577680063
+obj /usr/share/man/man3/sasl_getopt_t.3.bz2 1baaeb8c0fcfd5df80557c0b3d4368d6 1577680063
+obj /usr/share/man/man3/sasl_server_init.3.bz2 2e21a8c34e31938aa0e65322baea2ee8 1577680063
+obj /usr/share/man/man3/sasl_client_step.3.bz2 db4ed0e9c3630b373b2e9e39e9d56fe7 1577680063
+obj /usr/share/man/man3/sasl_checkapop.3.bz2 9d96f1e12b1cfc4ad68d0a18c76880e3 1577680063
+obj /usr/share/man/man3/sasl_errdetail.3.bz2 f71b0e4811b6afda0cace5c935bfd1a1 1577680063
+obj /usr/share/man/man3/sasl_auxprop_request.3.bz2 b85bf1552d0cd414e44510657db780a6 1577680063
+obj /usr/share/man/man3/sasl_authorize_t.3.bz2 c01fa9757d251cf16a86ce621475b55e 1577680063
+obj /usr/share/man/man3/sasl_client_init.3.bz2 740dda6f10b51663225024019b09c01c 1577680063
+obj /usr/share/man/man3/sasl_dispose.3.bz2 543e4d1c108479c60567c17a815133ce 1577680063
+obj /usr/share/man/man3/sasl_encodev.3.bz2 fbe758439206b23a3fdcc0dc5decdc32 1577680063
+obj /usr/share/man/man3/sasl_getsecret_t.3.bz2 4d47a621751990b1973c9583814e689f 1577680063
+obj /usr/share/man/man3/sasl_global_listmech.3.bz2 91ea452b5577ca2b23a179eaff362c8c 1577680063
+obj /usr/share/man/man3/sasl_setprop.3.bz2 e41c04dd9d210316b45293eea236c8b1 1577680063
+obj /usr/share/man/man3/sasl_verifyfile_t.3.bz2 7f87a2226ba5788f3c5985772f7aa821 1577680063
+obj /usr/share/man/man3/sasl_getrealm_t.3.bz2 0f73196ed719d88c6c0efefef12217b1 1577680063
+obj /usr/share/man/man3/sasl_client_new.3.bz2 1783731bfe542639094edf50bf5d07ad 1577680063
+obj /usr/share/man/man3/sasl_encode.3.bz2 f62bfe4cd5ab9a00fc217258d3dedb59 1577680063
+obj /usr/share/man/man3/sasl_canon_user_t.3.bz2 db8287035195c73f60ad07496879896a 1577680063
+obj /usr/share/man/man3/sasl_errors.3.bz2 9337c3ef72c07773abfa03b461705c5a 1577680063
+dir /usr/share/man/man8
+obj /usr/share/man/man8/saslpasswd2.8.bz2 15b2422ea3750b61ae5a948f6b6fd6df 1577680061
+obj /usr/share/man/man8/pluginviewer.8.bz2 257ef21ff946aa1b9d630874b791a3c3 1577680061
+obj /usr/share/man/man8/sasldblistusers2.8.bz2 9da1dfeeaf662ec646d390369c4effb9 1577680061
+obj /usr/share/man/man8/saslauthd.8.bz2 96202803550072e5eda65df97f156ada 1577680062

@@ -1,0 +1,23 @@
+dir /usr
+dir /usr/share
+dir /usr/share/myspell
+dir /usr/share/mythes
+obj /usr/share/mythes/ru_th_aot.dat 0ac5b91f8a83f63e31bd5d18c134a16e 1574439650
+obj /usr/share/mythes/ru_th_aot.idx 4a4c7eddef7589f697b05ca21a412613 1574439650
+dir /usr/share/doc
+dir /usr/share/doc/myspell-ru-20150711-r2
+obj /usr/share/doc/myspell-ru-20150711-r2/info_ru.txt.bz2 2510f21618652bddd5799b61c68159d2 1574439651
+obj /usr/share/doc/myspell-ru-20150711-r2/README_hyph_ru_RU.txt.bz2 b3f8213ddd0ff1a189279ea3b5dabb5d 1574439651
+obj /usr/share/doc/myspell-ru-20150711-r2/copyright.txt.bz2 f867fef408b01efce5f150957edd70a1 1574439650
+obj /usr/share/doc/myspell-ru-20150711-r2/lgpl.txt.bz2 a978e1ee74b6d1b435b8d7536af5bade 1574439651
+obj /usr/share/doc/myspell-ru-20150711-r2/info_en.txt.bz2 319814bfbd46c2d8ce7c8dee8470f583 1574439651
+dir /usr/share/hyphen
+obj /usr/share/hyphen/hyph_ru_RU.dic dac36bf7553f4813031f497433c7e3b1 1574439650
+dir /usr/share/hunspell
+obj /usr/share/hunspell/ru_RU.aff 85cd6010f748c90efd86dbe78fbeced4 1574439650
+obj /usr/share/hunspell/ru_RU.dic 49bc135ba28e4bb4f896dbbea8efcd55 1574439650
+sym /usr/share/myspell/hyph_ru_RU.dic -> ../hyphen/hyph_ru_RU.dic 1574439656
+sym /usr/share/myspell/ru_RU.dic -> ../hunspell/ru_RU.dic 1574439656
+sym /usr/share/myspell/ru_RU.aff -> ../hunspell/ru_RU.aff 1574439656
+sym /usr/share/myspell/ru_th_aot.idx -> ../mythes/ru_th_aot.idx 1574439656
+sym /usr/share/myspell/ru_th_aot.dat -> ../mythes/ru_th_aot.dat 1574439656

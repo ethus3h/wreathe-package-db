@@ -1,0 +1,66 @@
+dir /lib
+dir /lib/systemd
+dir /lib/systemd/system
+obj /lib/systemd/system/geoclue.service 861fc5ff8df874919ce6b2b3fc898bbe 1574456227
+dir /etc
+dir /etc/xdg
+dir /etc/xdg/autostart
+obj /etc/xdg/autostart/geoclue-demo-agent.desktop 0103d06ba39d32da3e537748b40a97a8 1574456238
+dir /etc/geoclue
+obj /etc/geoclue/geoclue.conf ebf4afa1ca37607f96174e63d5e0d8ac 1574456227
+dir /etc/dbus-1
+dir /etc/dbus-1/system.d
+obj /etc/dbus-1/system.d/org.freedesktop.GeoClue2.conf 925cbdc7584b120247d00b3e9a0acb95 1574456227
+obj /etc/dbus-1/system.d/org.freedesktop.GeoClue2.Agent.conf 652bbc5447d45f60e5b4dfd236912226 1574456227
+dir /usr
+dir /usr/lib64
+sym /usr/lib64/libgeoclue-2.so.0 -> libgeoclue-2.so.0.0.0 1574456244
+dir /usr/lib64/girepository-1.0
+obj /usr/lib64/girepository-1.0/Geoclue-2.0.typelib 39773fb54545657537567e74e7c570e7 1574456236
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libgeoclue-2.0.pc f2d44e967218514a46b16ab4126e3107 1574456227
+obj /usr/lib64/pkgconfig/geoclue-2.0.pc 31487d569345d0be4efb3603e74aa899 1574456227
+sym /usr/lib64/libgeoclue-2.so -> libgeoclue-2.so.0 1574456244
+obj /usr/lib64/libgeoclue-2.so.0.0.0 1aae4fd5ffa634938ae248b2e1a31ba5 1574456240
+dir /usr/libexec
+dir /usr/libexec/geoclue-2.0
+dir /usr/libexec/geoclue-2.0/demos
+obj /usr/libexec/geoclue-2.0/demos/where-am-i 3a2bbfc0aa7af82f073ff734ff113fc4 1574456240
+obj /usr/libexec/geoclue-2.0/demos/agent 4a6ca5039c77563c41c09e44d0a48c08 1574456240
+obj /usr/libexec/geoclue f149736f929736868ca2bae933968836 1574456240
+dir /usr/include
+dir /usr/include/libgeoclue-2.0
+obj /usr/include/libgeoclue-2.0/gclue-manager.h 004913907227a64180937fbc4a31deba 1574456233
+obj /usr/include/libgeoclue-2.0/geoclue.h 77276317d8667c079d9ba25a5ac787f6 1558016503
+obj /usr/include/libgeoclue-2.0/gclue-client.h 9ed7506e6eba1745209e415efd40aa8e 1574456233
+obj /usr/include/libgeoclue-2.0/gclue-simple.h 516b90c3fc862bd6cae79421b3ef1b4b 1558016503
+obj /usr/include/libgeoclue-2.0/gclue-enums.h 4268c307c61888f2ad709de76fbd79f2 1558016503
+obj /usr/include/libgeoclue-2.0/gclue-helpers.h 50ea1706d2a79c06a0722d29cda69d6a 1558016503
+obj /usr/include/libgeoclue-2.0/gclue-location.h 858e39ae424f1fa5938c6b79bcd0d7d0 1574456233
+obj /usr/include/libgeoclue-2.0/gclue-enum-types.h ee391a935335f0932a9c08c13c00c204 1574456229
+dir /usr/share
+dir /usr/share/gir-1.0
+obj /usr/share/gir-1.0/Geoclue-2.0.gir 5e2beaf8fd2daf6c8548741e07f9ef97 1574456236
+dir /usr/share/doc
+dir /usr/share/doc/geoclue-2.5.3-r2
+obj /usr/share/doc/geoclue-2.5.3-r2/README.md.bz2 83b842a1d504574fe5daee0744324c7d 1574456239
+obj /usr/share/doc/geoclue-2.5.3-r2/NEWS.bz2 b5c73ac6e96bf30f69fba394adf5a1f4 1574456239
+dir /usr/share/vala
+dir /usr/share/vala/vapi
+obj /usr/share/vala/vapi/libgeoclue-2.0.deps e027694fe7df4888d1b808fd8b0eed87 1574456227
+obj /usr/share/vala/vapi/libgeoclue-2.0.vapi efd72322d7fbd81bdb16922af2aead27 1574456236
+dir /usr/share/man
+dir /usr/share/man/man5
+obj /usr/share/man/man5/geoclue.5.bz2 461d6757f251c5a41e245cd0aba6527d 1574456227
+dir /usr/share/applications
+obj /usr/share/applications/geoclue-where-am-i.desktop 75126bd33a89d55f7c285646cd6589cf 1574456233
+obj /usr/share/applications/geoclue-demo-agent.desktop 0103d06ba39d32da3e537748b40a97a8 1574456237
+dir /usr/share/dbus-1
+dir /usr/share/dbus-1/system-services
+obj /usr/share/dbus-1/system-services/org.freedesktop.GeoClue2.service 5ec0f7c06a766a07c4543814a2170d81 1574456227
+dir /usr/share/dbus-1/interfaces
+obj /usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Client.xml ebaa1926666ccbcbe7fb107b345622ac 1558016503
+obj /usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Agent.xml 36120c81436b3affb5f9dfcf0dc644f0 1558016503
+obj /usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.xml 21f56087ec21fc6eb15815263370e96e 1574456229
+obj /usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Manager.xml a587f170c55d54ba1662470dd973db89 1558016503
+obj /usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Location.xml df59c912ee90461eb9a5e3e825d7d28f 1558016503

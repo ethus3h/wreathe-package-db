@@ -1,0 +1,40 @@
+dir /etc
+dir /etc/env.d
+obj /etc/env.d/60lv2 ec39f45a48c5cfa69176ccc8941b393f 1575158868
+dir /usr
+dir /usr/lib64
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/lilv-0.pc 71c41ed69f5e8b69f17d758af8751dd7 1575158867
+obj /usr/lib64/liblilv-0.so.0.24.4 506c6b17fb8ef9f33c3e8f2deaacc8f6 1575158870
+dir /usr/include
+dir /usr/include/lilv
+obj /usr/include/lilv/lilv.h e6d2b8eb6b8d5e1d09eabb079ba0a9db 1532160618
+obj /usr/include/lilv/lilvmm.hpp ecfd686b45e1f4d13cf1c3d3e7397e0d 1531252539
+dir /usr/lib32
+dir /usr/lib32/pkgconfig
+obj /usr/lib32/pkgconfig/lilv-0.pc c17e0a9e280187d56c991c04dd096f8d 1575158865
+obj /usr/lib32/liblilv-0.so.0.24.4 930c5093c40895c72df81a8f83ebd06a 1575158870
+dir /usr/bin
+obj /usr/bin/lv2bench b5bdb34efd886e468cd12a9e1d6b9aeb 1575158870
+obj /usr/bin/lv2info 9c0619e9932505337f012734b7e170a6 1575158870
+obj /usr/bin/lv2ls 97bb05e81f8778c49eb6b62a813f1366 1575158870
+obj /usr/bin/lv2apply 539717ac3f69245c5a05966a1853115c 1575158870
+obj /usr/bin/lilv-bench e6ef74083ed3bd647fffceb6f00707d6 1575158870
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/lilv-0.24.4-r1
+obj /usr/share/doc/lilv-0.24.4-r1/NEWS.bz2 71c6f3d17d5310c3f3d20563b3c626c9 1575158868
+obj /usr/share/doc/lilv-0.24.4-r1/README.bz2 43fade366b5347df986db02cb241c068 1575158868
+obj /usr/share/doc/lilv-0.24.4-r1/AUTHORS.bz2 bd46208cd7f54a756f273ad1cc728bd4 1575158868
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/lv2apply.1.bz2 906facee3dbc686b9bfd9563a61fad4a 1483550992
+obj /usr/share/man/man1/lv2info.1.bz2 9d17d173dda9010bd04d478e605a506c 1483550992
+obj /usr/share/man/man1/lv2ls.1.bz2 5dfb6475e8fd9997b1e553ce0ed99e3b 1483550992
+dir /usr/share/bash-completion
+dir /usr/share/bash-completion/completions
+obj /usr/share/bash-completion/completions/lilv 8988bca752f4dda720cfb5ac20918fe0 1575158868
+sym /usr/lib32/liblilv-0.so.0 -> liblilv-0.so.0.24.4 1575158874
+sym /usr/lib32/liblilv-0.so -> liblilv-0.so.0.24.4 1575158874
+sym /usr/lib64/liblilv-0.so.0 -> liblilv-0.so.0.24.4 1575158874
+sym /usr/lib64/liblilv-0.so -> liblilv-0.so.0.24.4 1575158874

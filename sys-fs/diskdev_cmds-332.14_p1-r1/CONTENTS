@@ -1,0 +1,17 @@
+dir /sbin
+obj /sbin/newfs_hfs 3638b4c0da4c434492dc3f7222dd987f 1574317641
+sym /sbin/mkfs.hfs -> /sbin/newfs_hfs 1574317645
+sym /sbin/fsck.hfs -> /sbin/fsck_hfs 1574317645
+obj /sbin/fsck_hfs b5e877665efada5b925669eeb9df8de0 1574317641
+sym /sbin/fsck.hfsplus -> /sbin/fsck_hfs 1574317645
+sym /sbin/mkfs.hfsplus -> /sbin/newfs_hfs 1574317645
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/fsck.hfsplus.8.bz2 a0efaa9030b47485161237ba56e8c3f6 1574317640
+obj /usr/share/man/man8/fsck.hfs.8.bz2 a0efaa9030b47485161237ba56e8c3f6 1574317640
+obj /usr/share/man/man8/fsck_hfs.8.bz2 a0efaa9030b47485161237ba56e8c3f6 1574317640
+obj /usr/share/man/man8/mkfs.hfs.8.bz2 94a4c3a39235403a7fd3b7f61d28a5b9 1574317640
+obj /usr/share/man/man8/mkfs.hfsplus.8.bz2 94a4c3a39235403a7fd3b7f61d28a5b9 1574317640
+obj /usr/share/man/man8/newfs_hfs.8.bz2 94a4c3a39235403a7fd3b7f61d28a5b9 1574317640

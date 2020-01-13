@@ -1,0 +1,150 @@
+dir /var
+dir /var/lib
+dir /var/lib/polkit-1
+obj /var/lib/polkit-1/.keep_sys-auth_polkit-0 d41d8cd98f00b204e9800998ecf8427e 1574529228
+dir /lib
+dir /lib/systemd
+dir /lib/systemd/system
+obj /lib/systemd/system/polkit.service 317adab7a6392a0241198e9ca2dcd13e 1574529218
+dir /etc
+dir /etc/pam.d
+obj /etc/pam.d/polkit-1 038eb4e924b8027bfe852e63edb998de 1574529218
+dir /etc/polkit-1
+dir /etc/polkit-1/rules.d
+obj /etc/polkit-1/rules.d/50-default.rules e4e45c2ccf47a6b32b1e89a0868a25ce 1574529218
+dir /etc/dbus-1
+dir /etc/dbus-1/system.d
+obj /etc/dbus-1/system.d/org.freedesktop.PolicyKit1.conf 0dedb93eacf6345970d527e5d257cd20 1574529218
+dir /usr
+dir /usr/lib
+dir /usr/lib/polkit-1
+obj /usr/lib/polkit-1/polkitd b2c69e993f60edba62ddcc8c1acde2f1 1574529229
+obj /usr/lib/polkit-1/polkit-agent-helper-1 33012384c1b04dc705a2be8b56e6ec5a 1574529229
+dir /usr/lib64
+sym /usr/lib64/libpolkit-agent-1.so -> libpolkit-agent-1.so.0.0.0 1574529233
+dir /usr/lib64/girepository-1.0
+obj /usr/lib64/girepository-1.0/PolkitAgent-1.0.typelib 3880c05317c9f0c6c5ebcd8cc83d1f2a 1574529219
+obj /usr/lib64/girepository-1.0/Polkit-1.0.typelib 4a2fa0d7342bbfdde8e9df85a74038eb 1574529218
+sym /usr/lib64/libpolkit-agent-1.so.0 -> libpolkit-agent-1.so.0.0.0 1574529233
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/polkit-gobject-1.pc 71513e7430b49a260da402bea12e874a 1574529218
+obj /usr/lib64/pkgconfig/polkit-agent-1.pc f400007ac00c5c3d93f9325bdc02187e 1574529218
+sym /usr/lib64/libpolkit-gobject-1.so.0 -> libpolkit-gobject-1.so.0.0.0 1574529233
+sym /usr/lib64/libpolkit-gobject-1.so -> libpolkit-gobject-1.so.0.0.0 1574529233
+obj /usr/lib64/libpolkit-agent-1.so.0.0.0 30741028d15a16c72524b2ee2d1e06e0 1574529229
+obj /usr/lib64/libpolkit-gobject-1.so.0.0.0 aec6e48778563df45dccd201f76ef72e 1574529229
+dir /usr/include
+dir /usr/include/polkit-1
+dir /usr/include/polkit-1/polkitagent
+obj /usr/include/polkit-1/polkitagent/polkitagenttextlistener.h 4c07b1d850a7d18a10e20934c2152e15 1574529218
+obj /usr/include/polkit-1/polkitagent/polkitagentlistener.h eafdbf892e66a666f273904ac67bdd00 1574529218
+obj /usr/include/polkit-1/polkitagent/polkitagenttypes.h 56518aeab9b88e1b40c6bf34bdd3bae6 1574529218
+obj /usr/include/polkit-1/polkitagent/polkitagent.h 4abf643c7ac3fd2a82c48272ad4ce474 1574529218
+obj /usr/include/polkit-1/polkitagent/polkitagentenumtypes.h ae81e3f74a7c980d7c7e50a621a955ea 1574529218
+obj /usr/include/polkit-1/polkitagent/polkitagentsession.h bb0762a28cb766d4d1f1effadcc98671 1574529218
+dir /usr/include/polkit-1/polkit
+obj /usr/include/polkit-1/polkit/polkitsystembusname.h 776b3d11f001cea17c15dca962bd3020 1574529218
+obj /usr/include/polkit-1/polkit/polkitunixprocess.h 18a7847e068d81bca7df46b73ec147a2 1574529218
+obj /usr/include/polkit-1/polkit/polkittemporaryauthorization.h 125376f44ff82daf772bf574a60aa963 1574529218
+obj /usr/include/polkit-1/polkit/polkittypes.h d0dc16ee5015d6f9f27d32b6ccc9a7ec 1574529218
+obj /usr/include/polkit-1/polkit/polkitunixnetgroup.h 611bc11f85a77678ab4dc295a39094a5 1574529218
+obj /usr/include/polkit-1/polkit/polkit.h f500e66ca33a13a5525b9ff17083f2d5 1574529218
+obj /usr/include/polkit-1/polkit/polkitpermission.h 4965b97423ce797c72ba0cbc73f6208c 1574529218
+obj /usr/include/polkit-1/polkit/polkitauthorityfeatures.h de1eef39291bbbd11a7bb2bbd4b012da 1574529218
+obj /usr/include/polkit-1/polkit/polkitsubject.h 62128f24588f32a5cafbfa51de3fe639 1574529218
+obj /usr/include/polkit-1/polkit/polkitunixsession.h 68b3fffbf7b8bc934bfcd2cb26157813 1574529218
+obj /usr/include/polkit-1/polkit/polkitunixuser.h 94c576f09e2f69e4304d22dbf3006bf1 1574529218
+obj /usr/include/polkit-1/polkit/polkitprivate.h 80c77b29f82a7ea8970f5bd1507c9e3f 1574529218
+obj /usr/include/polkit-1/polkit/polkitcheckauthorizationflags.h 364b27328ad54e0601700f37e583101d 1574529218
+obj /usr/include/polkit-1/polkit/polkitidentity.h 37652950ee2d445a48779219684ab954 1574529218
+obj /usr/include/polkit-1/polkit/polkitauthorizationresult.h 32b1bece08a73d3b4e814a3d2d48b28d 1574529218
+obj /usr/include/polkit-1/polkit/polkitunixgroup.h 2cc369c0bf79d4bf98650dce16f1825b 1574529218
+obj /usr/include/polkit-1/polkit/polkitenumtypes.h 2eccb94d277b3e1005eb9e32703feb20 1574529218
+obj /usr/include/polkit-1/polkit/polkitactiondescription.h 23a6b7e5cfec5bfddf57c16ffffdc1b7 1574529218
+obj /usr/include/polkit-1/polkit/polkitdetails.h 201e1adb825aca5ca43959a838fd1fef 1574529218
+obj /usr/include/polkit-1/polkit/polkitimplicitauthorization.h 479f799afe311c0c2b29c65a53e30975 1574529218
+obj /usr/include/polkit-1/polkit/polkiterror.h 7a93c379526d0148ecb20d3c1177337a 1574529218
+obj /usr/include/polkit-1/polkit/polkitauthority.h 535af39f1a41a5513469378d81bc088a 1574529218
+dir /usr/bin
+obj /usr/bin/pkcheck 006eb58abe19687ea195aaf55183b493 1574529229
+obj /usr/bin/pkttyagent f644984621fa016334a5d7d467240324 1574529229
+obj /usr/bin/pkaction a6f38b5d9f5a6f8060bf5f09c993f670 1574529229
+obj /usr/bin/pkexec 651cd71a76381ce3a9cdb333628e6678 1574529229
+dir /usr/share
+dir /usr/share/gir-1.0
+obj /usr/share/gir-1.0/PolkitAgent-1.0.gir 8b0928f4da9a6289ce140e5e7fe04961 1574529218
+obj /usr/share/gir-1.0/Polkit-1.0.gir 65d084e4810a79e13fb494476f120a0c 1574529218
+dir /usr/share/gettext
+dir /usr/share/gettext/its
+obj /usr/share/gettext/its/polkit.loc 6ff061902d456b96faef11a56547c4cb 1574529218
+obj /usr/share/gettext/its/polkit.its 8ea5cbafc49d60ffd4a60d25b7422bd9 1574529218
+dir /usr/share/doc
+dir /usr/share/doc/polkit-0.115-r4
+obj /usr/share/doc/polkit-0.115-r4/NEWS.bz2 29a7e58e2220df2571efd4092936d3a2 1574529228
+obj /usr/share/doc/polkit-0.115-r4/README.bz2 00d35661f39ce1fcf9f784a660def979 1574529228
+dir /usr/share/doc/polkit-0.115-r4/examples
+obj /usr/share/doc/polkit-0.115-r4/examples/org.freedesktop.policykit.examples.pkexec.policy.in.bz2 09f9afa0827d37590ca9f81c4e2e7019 1574529228
+obj /usr/share/doc/polkit-0.115-r4/examples/cancel.c.bz2 0d5cf9cafe6aa4a934f694249a38e0ba 1574529228
+obj /usr/share/doc/polkit-0.115-r4/examples/org.freedesktop.policykit.examples.pkexec.policy.bz2 7f536d3a98cd6cb4db8bd8b35c5a9ece 1574529228
+obj /usr/share/doc/polkit-0.115-r4/examples/frobnicate.c.bz2 79e7fe17b8ea210fb2d5bfb9d4675149 1574529228
+obj /usr/share/doc/polkit-0.115-r4/HACKING.bz2 170f018b6d04ce8e11c796167a5fc68c 1574529228
+obj /usr/share/doc/polkit-0.115-r4/TODO.bz2 a72ba082cb12ee34880095854cbe782e 1574529228
+dir /usr/share/locale
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/polkit-1.mo ad87527213033a0efb19ba775d2e2938 1574529227
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/polkit-1.mo 78d49b755302eb9900a64695882586dd 1574529228
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/polkit-1.mo 07b5dbd8a10662157e7314be41ae7207 1574529228
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/polkit-1.mo 7aac15668f4deafbfbc7e3bae1695f67 1574529227
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/polkit-1.mo 15c165e866ced80eeaea8b968490d504 1574529228
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/polkit-1.mo 4e0c661ea0f74ad56fbdf7ab1fef3a60 1574529227
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/polkit-1.mo de22071d8c65e730ea16e563e805a544 1574529227
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/polkit-1.mo 7ccef376470c4070d0627195b38e4e41 1574529228
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/polkit-1.mo d0c74ffb885c9f33d44a75d4eef959d0 1574529228
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/polkit-1.mo 7d9fbcaaf44b1ca8245ba9dee1461216 1574529228
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/polkit-1.mo b087fee29b5728e822ad3c8cccc252ce 1574529227
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/polkit-1.mo 05c05d507b5529e54136037d33d9d020 1574529227
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/polkit-1.mo a29563003e4aa405d057fd39893d007e 1574529228
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/polkit-1.mo 5983f2c981728167d177cdb7254be925 1574529228
+dir /usr/share/polkit-1
+dir /usr/share/polkit-1/actions
+obj /usr/share/polkit-1/actions/org.freedesktop.policykit.policy 527324ecbafbb3b7aabcb5f7855f9a40 1574529218
+dir /usr/share/polkit-1/rules.d
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/polkit.8.bz2 e35c7e672e4862f01b106d75cc94be46 1574529220
+obj /usr/share/man/man8/polkitd.8.bz2 862068017c38b3f91abd7e47c5e302ba 1574529220
+dir /usr/share/man/man1
+obj /usr/share/man/man1/pkexec.1.bz2 6a19b00b2899641fca5fb9e8808eebdb 1574529220
+obj /usr/share/man/man1/pkcheck.1.bz2 cd9fd3b406b22b1f560ae664a98b6624 1574529220
+obj /usr/share/man/man1/pkttyagent.1.bz2 99e39a837f2605f858fb455ccdce82f6 1574529220
+obj /usr/share/man/man1/pkaction.1.bz2 098aaaabf2849133f07bc98d0debfc39 1574529220
+dir /usr/share/dbus-1
+dir /usr/share/dbus-1/system-services
+obj /usr/share/dbus-1/system-services/org.freedesktop.PolicyKit1.service 72f9983158d59bc4a8b12ec8c1cbdf4b 1574529218

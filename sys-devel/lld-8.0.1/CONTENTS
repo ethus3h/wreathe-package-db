@@ -1,0 +1,70 @@
+dir /usr
+dir /usr/lib64
+obj /usr/lib64/liblldYAML.so.8 c7ee620a339b839393bd159ab58b6422 1574744511
+obj /usr/lib64/liblldDriver.so.8 18ec6cbdc26f65093162784dcace7d0c 1574744511
+obj /usr/lib64/liblldMinGW.so.8 6bec3f653f82a7fef195b11473138499 1574744511
+sym /usr/lib64/liblldYAML.so -> liblldYAML.so.8 1574744515
+sym /usr/lib64/liblldDriver.so -> liblldDriver.so.8 1574744515
+obj /usr/lib64/liblldWasm.so.8 3b7120fadef96f2c6d0accecf203fe27 1574744511
+obj /usr/lib64/liblldCommon.so.8 c61e64fcaebac6cda0f6026b4659b630 1574744511
+obj /usr/lib64/liblldCore.so.8 44732a5753a9268017fc0ca5221cb401 1574744511
+sym /usr/lib64/liblldMinGW.so -> liblldMinGW.so.8 1574744515
+obj /usr/lib64/liblldCOFF.so.8 3098ec1dbf1c6f2e43c07e215cdf05ac 1574744511
+obj /usr/lib64/liblldReaderWriter.so.8 81b8c9262a12fb41af070d33acf664b8 1574744511
+obj /usr/lib64/liblldELF.so.8 a9eabfafa243d6aa09fe86e14bccef6b 1574744511
+obj /usr/lib64/liblldMachO.so.8 f3f78ea0f10a16fbdaa061f283eb5520 1574744511
+dir /usr/include
+dir /usr/include/lld
+dir /usr/include/lld/Core
+obj /usr/include/lld/Core/LinkingContext.h 8f9f73db753154f162accbfbf0a9c1ed 1528770844
+obj /usr/include/lld/Core/Error.h f90abdf473424c4779e3a80c25b0c670 1506978041
+obj /usr/include/lld/Core/Atom.h 89b474e8c4e3b156c804496ad37b61dd 1506978041
+obj /usr/include/lld/Core/ArchiveLibraryFile.h c493f30cabbad0f463ea0ea1b5598cde 1459198787
+obj /usr/include/lld/Core/SharedLibraryAtom.h 5c52ff568c6e9a16ec8a3bb098462650 1458666950
+obj /usr/include/lld/Core/PassManager.h 2f6e64fe9493baabe694763368d70aab 1526402454
+obj /usr/include/lld/Core/Node.h 1581369df4c901ad808085aa3c849283 1478281186
+obj /usr/include/lld/Core/SharedLibraryFile.h 96763fccf45aa474b3fdae8f3fb4bcf5 1459198787
+obj /usr/include/lld/Core/Writer.h 44206c1b9d7bb0000f8aa1c7b951bb8d 1526402454
+obj /usr/include/lld/Core/Pass.h 9fa4f3378c2dc36e43517448fb32963b 1478307656
+obj /usr/include/lld/Core/UndefinedAtom.h 0eedd780c1aedef98601ed1df3383478 1458666950
+obj /usr/include/lld/Core/SymbolTable.h a8b55c54e7cfdb01d3cd9d9f4ff63484 1526402454
+obj /usr/include/lld/Core/Reader.h f4df37e7468949d8e20fa09224eae38a 1526402454
+obj /usr/include/lld/Core/AbsoluteAtom.h 28eaed79e7937517d6ba928b777f1971 1425744073
+obj /usr/include/lld/Core/Instrumentation.h b527e5b4227cdb2a6c217337172b18a7 1526402454
+obj /usr/include/lld/Core/File.h 680e3c31e6d0bf1f1c00d4fe81d6f4ff 1526402454
+obj /usr/include/lld/Core/Resolver.h b5c0e945c76443fa7b1561f58e478c02 1526402454
+obj /usr/include/lld/Core/Reference.h 55a87ae38e86325f5e741db25987a895 1478307656
+obj /usr/include/lld/Core/DefinedAtom.h 5075d953ce65b149794efd5952449d0e 1526402454
+obj /usr/include/lld/Core/Simple.h 4b973c704cb0d72410dd097afa56db47 1526402454
+dir /usr/include/lld/ReaderWriter
+obj /usr/include/lld/ReaderWriter/MachOLinkingContext.h 020ca5d261ddf70c050469123d080c8d 1528770844
+obj /usr/include/lld/ReaderWriter/YamlContext.h 45d11e16752f48ab6211eece65d58809 1511226550
+dir /usr/include/lld/Common
+obj /usr/include/lld/Common/ErrorHandler.h a3e533a877f607def9afee22fb909bf6 1537467859
+obj /usr/include/lld/Common/Strings.h 9b177578cdff43beba0c0eb210ffdbbd 1540197339
+obj /usr/include/lld/Common/Reproduce.h 6da9ab4d9ede1582967469cd442fde71 1512492646
+obj /usr/include/lld/Common/TargetOptionsCommandFlags.h 3983a67c2579381cb99b4ad6c89e99a1 1541102569
+obj /usr/include/lld/Common/LLVM.h 1e6e157e4de0151cc37b4faa8675f794 1544249863
+obj /usr/include/lld/Common/Driver.h 0eedf97071a641bc1280dc0859d0e578 1528770844
+obj /usr/include/lld/Common/Args.h 8444507057da9f52c5f43452f3eb3715 1535350690
+obj /usr/include/lld/Common/Threads.h 0aa74ae7168a67335b1e04ceeac534e3 1543278410
+obj /usr/include/lld/Common/Memory.h e342ce558259aeb078f84cc0e205f2d5 1511901557
+obj /usr/include/lld/Common/Timer.h 8cef293fdc5c47d9efcb4e22d85d2bac 1516216586
+obj /usr/include/lld/Common/Version.h ade722bda9be0c600684210bb3970066 1526402454
+dir /usr/bin
+sym /usr/bin/lld-link -> lld 1574744515
+sym /usr/bin/ld64.lld -> lld 1574744515
+obj /usr/bin/lld b58ff7c48513c9e51fc7aa03ff0e7b6a 1574744511
+sym /usr/bin/wasm-ld -> lld 1574744515
+sym /usr/bin/ld.lld -> lld 1574744515
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/lld-8.0.1
+obj /usr/share/doc/lld-8.0.1/README.md.bz2 021c2e907cbd7838896cc55ddc72ad95 1574744510
+sym /usr/lib64/liblldCOFF.so -> liblldCOFF.so.8 1574744515
+sym /usr/lib64/liblldCore.so -> liblldCore.so.8 1574744515
+sym /usr/lib64/liblldMachO.so -> liblldMachO.so.8 1574744515
+sym /usr/lib64/liblldWasm.so -> liblldWasm.so.8 1574744515
+sym /usr/lib64/liblldCommon.so -> liblldCommon.so.8 1574744515
+sym /usr/lib64/liblldELF.so -> liblldELF.so.8 1574744515
+sym /usr/lib64/liblldReaderWriter.so -> liblldReaderWriter.so.8 1574744515

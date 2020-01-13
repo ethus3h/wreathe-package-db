@@ -1,0 +1,88 @@
+dir /etc
+dir /etc/alsa
+dir /etc/alsa/conf.d
+obj /etc/alsa/conf.d/99-pulseaudio-default.conf.example b7fd8068d12e5e23b65da5dd6b1c76a1 1575218551
+sym /etc/alsa/conf.d/50-pulseaudio.conf -> /usr/share/alsa/alsa.conf.d/50-pulseaudio.conf 1575218560
+dir /usr
+dir /usr/lib64
+dir /usr/lib64/alsa-lib
+obj /usr/lib64/alsa-lib/libasound_module_conf_pulse.so 99805ae8f9788eaf86d4da8ba2ac6dd9 1575218554
+obj /usr/lib64/alsa-lib/libasound_module_ctl_pulse.so 2e6aa4ef62ef1f53038f19d5b9a26a50 1575218554
+sym /usr/lib64/alsa-lib/libasound_module_rate_samplerate_best.so -> libasound_module_rate_samplerate.so 1575218560
+obj /usr/lib64/alsa-lib/libasound_module_pcm_vdownmix.so ef1b50bda468413220beef673d9edb1c 1575218554
+obj /usr/lib64/alsa-lib/libasound_module_pcm_usb_stream.so 0bf1386b0638bcbbc8dbc4d009adbecf 1575218555
+sym /usr/lib64/alsa-lib/libasound_module_rate_samplerate_order.so -> libasound_module_rate_samplerate.so 1575218560
+obj /usr/lib64/alsa-lib/libasound_module_rate_lavrate.so 4871ad0d4d2a4ab7904a783d2ca215d5 1575218554
+obj /usr/lib64/alsa-lib/libasound_module_rate_speexrate.so 527d3529a793b70d0f47d21358d6ba64 1575218555
+sym /usr/lib64/alsa-lib/libasound_module_rate_samplerate_medium.so -> libasound_module_rate_samplerate.so 1575218560
+sym /usr/lib64/alsa-lib/libasound_module_rate_speexrate_best.so -> libasound_module_rate_speexrate.so 1575218560
+obj /usr/lib64/alsa-lib/libasound_module_rate_samplerate.so 2fa0e65220e4a3bbf537c54d9a8cb2d2 1575218554
+obj /usr/lib64/alsa-lib/libasound_module_pcm_jack.so ac351e11af49bd894bc65d05a6dd07ae 1575218554
+obj /usr/lib64/alsa-lib/libasound_module_pcm_pulse.so f566559a4daed790e246243fddffd5d5 1575218554
+obj /usr/lib64/alsa-lib/libasound_module_pcm_a52.so 51a584e89db3096b411769c47c6eeed9 1575218554
+obj /usr/lib64/alsa-lib/libasound_module_pcm_upmix.so d6bbc534805ea052197e7d404de27cad 1575218554
+sym /usr/lib64/alsa-lib/libasound_module_rate_lavrate_faster.so -> libasound_module_rate_lavrate.so 1575218560
+obj /usr/lib64/alsa-lib/libasound_module_pcm_speex.so 0c2e97db45b3b69f000ac3fba18d7310 1575218555
+sym /usr/lib64/alsa-lib/libasound_module_rate_speexrate_medium.so -> libasound_module_rate_speexrate.so 1575218560
+sym /usr/lib64/alsa-lib/libasound_module_rate_samplerate_linear.so -> libasound_module_rate_samplerate.so 1575218560
+dir /usr/lib32
+dir /usr/lib32/alsa-lib
+obj /usr/lib32/alsa-lib/libasound_module_conf_pulse.so ff87e879925dbe453e622dd489ac9d39 1575218554
+obj /usr/lib32/alsa-lib/libasound_module_ctl_pulse.so cd5b7dfabef4fe4655be4eae0ab78c1e 1575218554
+sym /usr/lib32/alsa-lib/libasound_module_rate_samplerate_best.so -> libasound_module_rate_samplerate.so 1575218560
+obj /usr/lib32/alsa-lib/libasound_module_pcm_vdownmix.so f355785d5013c9ec369d42ce176dc9de 1575218554
+obj /usr/lib32/alsa-lib/libasound_module_pcm_usb_stream.so 80986ab0e5842fece7e0909d4daf4e86 1575218554
+sym /usr/lib32/alsa-lib/libasound_module_rate_samplerate_order.so -> libasound_module_rate_samplerate.so 1575218560
+obj /usr/lib32/alsa-lib/libasound_module_rate_lavrate.so a62fa73c9ad5f73792ea8ac28a6c9ce9 1575218554
+obj /usr/lib32/alsa-lib/libasound_module_rate_speexrate.so c87927c4c2fb615a2a52b62649cf9713 1575218554
+sym /usr/lib32/alsa-lib/libasound_module_rate_samplerate_medium.so -> libasound_module_rate_samplerate.so 1575218560
+sym /usr/lib32/alsa-lib/libasound_module_rate_speexrate_best.so -> libasound_module_rate_speexrate.so 1575218560
+obj /usr/lib32/alsa-lib/libasound_module_rate_samplerate.so 2c3e3b80c6e7678dd82e367a25e31ac7 1575218554
+obj /usr/lib32/alsa-lib/libasound_module_pcm_jack.so 59470925a3d1bbe18280b1209b98a95b 1575218554
+obj /usr/lib32/alsa-lib/libasound_module_pcm_pulse.so 4be939c4a027e2e63998f4dfff66c330 1575218554
+obj /usr/lib32/alsa-lib/libasound_module_pcm_a52.so 5f0ab0aea55a790d1444a0bd0b225734 1575218554
+obj /usr/lib32/alsa-lib/libasound_module_pcm_upmix.so 31f02e384b3bacd7af81db88ac2fea6e 1575218554
+sym /usr/lib32/alsa-lib/libasound_module_rate_lavrate_faster.so -> libasound_module_rate_lavrate.so 1575218560
+obj /usr/lib32/alsa-lib/libasound_module_pcm_speex.so 35e4168d6e2b1225055b58766a99f319 1575218554
+sym /usr/lib32/alsa-lib/libasound_module_rate_speexrate_medium.so -> libasound_module_rate_speexrate.so 1575218560
+sym /usr/lib32/alsa-lib/libasound_module_rate_samplerate_linear.so -> libasound_module_rate_samplerate.so 1575218560
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/alsa-plugins-1.1.8
+obj /usr/share/doc/alsa-plugins-1.1.8/upmix.txt.bz2 5e2be2cedd9f4c75646d7d2e93427b75 1575218552
+obj /usr/share/doc/alsa-plugins-1.1.8/README-jack.bz2 c296886e1427320c42f78fef00af4792 1575218552
+obj /usr/share/doc/alsa-plugins-1.1.8/lavrate.txt.bz2 769ac58c944379827aa59c7908b98d4e 1575218552
+obj /usr/share/doc/alsa-plugins-1.1.8/README-pcm-oss.bz2 0d9ae70e24b22e8a150281dbbfb7b8c0 1575218552
+obj /usr/share/doc/alsa-plugins-1.1.8/samplerate.txt.bz2 8bc6fb9a1e47dfa219c156677e42764b 1575218552
+obj /usr/share/doc/alsa-plugins-1.1.8/a52.txt.bz2 de929d40139a7a0c4a99e75316e2ce17 1575218552
+obj /usr/share/doc/alsa-plugins-1.1.8/vdownmix.txt.bz2 3ee7fb50e6f0afa9598942ffeddc5d60 1575218552
+obj /usr/share/doc/alsa-plugins-1.1.8/README-pulse.bz2 afca5dfe66038cb583dcf9a9d7b219fb 1575218552
+dir /usr/share/alsa
+obj /usr/share/alsa/pulse-default.conf 62917ab4d5763194b62bb03ccd6d3324 1575218552
+dir /usr/share/alsa/alsa.conf.d
+obj /usr/share/alsa/alsa.conf.d/50-pulseaudio.conf 660bcb40eef40e94a1181e7b79003f30 1575218551
+obj /usr/share/alsa/alsa.conf.d/10-rate-lav.conf ffccf499ee5770cd1dcd79467cae8166 1575218551
+obj /usr/share/alsa/alsa.conf.d/60-upmix.conf ee223bef52908b4f470f00c1bd9348e6 1575218550
+obj /usr/share/alsa/alsa.conf.d/98-usb-stream.conf 72abc0602c92c440c491daeaa5ea988b 1575218551
+obj /usr/share/alsa/alsa.conf.d/60-speex.conf 3c67abe2548a92dc34faaf8bf4f8750b 1575218552
+obj /usr/share/alsa/alsa.conf.d/10-samplerate.conf ab2b098a25ef275abd07d540163b83a3 1575218551
+obj /usr/share/alsa/alsa.conf.d/60-a52-encoder.conf d9c97f95518f5b8aa17f2675799bcf03 1575218551
+obj /usr/share/alsa/alsa.conf.d/10-speexrate.conf b25b4ba0ef528869fdf09f09946bd3ba 1575218551
+obj /usr/share/alsa/alsa.conf.d/51-pulseaudio-probe.conf b6c02615e67adf4cb212206f0c4ff26c 1575218553
+obj /usr/share/alsa/alsa.conf.d/60-vdownmix.conf 96e0917ad0ebb7d369fa7c822fa9530b 1575218550
+obj /usr/share/alsa/alsa.conf.d/50-jack.conf 11ffbc26ea184e17a4f10fc3e7b63571 1575218551
+sym /usr/lib32/alsa-lib/libasound_module_rate_lavrate_higher.so -> libasound_module_rate_lavrate.so 1575218560
+sym /usr/lib32/alsa-lib/libasound_module_rate_lavrate_high.so -> libasound_module_rate_lavrate.so 1575218560
+sym /usr/lib32/alsa-lib/libasound_module_rate_lavrate_fast.so -> libasound_module_rate_lavrate.so 1575218560
+sym /usr/lib64/alsa-lib/libasound_module_rate_lavrate_higher.so -> libasound_module_rate_lavrate.so 1575218560
+sym /usr/lib64/alsa-lib/libasound_module_rate_lavrate_high.so -> libasound_module_rate_lavrate.so 1575218560
+sym /usr/lib64/alsa-lib/libasound_module_rate_lavrate_fast.so -> libasound_module_rate_lavrate.so 1575218560
+sym /etc/alsa/conf.d/50-jack.conf -> /usr/share/alsa/alsa.conf.d/50-jack.conf 1575218560
+sym /etc/alsa/conf.d/60-vdownmix.conf -> /usr/share/alsa/alsa.conf.d/60-vdownmix.conf 1575218560
+sym /etc/alsa/conf.d/10-speexrate.conf -> /usr/share/alsa/alsa.conf.d/10-speexrate.conf 1575218560
+sym /etc/alsa/conf.d/60-a52-encoder.conf -> /usr/share/alsa/alsa.conf.d/60-a52-encoder.conf 1575218560
+sym /etc/alsa/conf.d/10-samplerate.conf -> /usr/share/alsa/alsa.conf.d/10-samplerate.conf 1575218560
+sym /etc/alsa/conf.d/60-speex.conf -> /usr/share/alsa/alsa.conf.d/60-speex.conf 1575218560
+sym /etc/alsa/conf.d/98-usb-stream.conf -> /usr/share/alsa/alsa.conf.d/98-usb-stream.conf 1575218560
+sym /etc/alsa/conf.d/60-upmix.conf -> /usr/share/alsa/alsa.conf.d/60-upmix.conf 1575218560
+sym /etc/alsa/conf.d/10-rate-lav.conf -> /usr/share/alsa/alsa.conf.d/10-rate-lav.conf 1575218560

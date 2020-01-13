@@ -1,0 +1,17 @@
+/sbin/zstreamdump libnvpair.so.1,libzpool.so.2,libc.so.6
+/sbin/zed libnvpair.so.1,libuutil.so.1,libzfs.so.2,librt.so.1,libudev.so.1,libuuid.so.1,libpthread.so.0,libc.so.6
+/sbin/zfs libnvpair.so.1,libuutil.so.1,libzpool.so.2,libzfs.so.2,libzfs_core.so.1,libpthread.so.0,libc.so.6
+/sbin/ztest libnvpair.so.1,libuutil.so.1,libzpool.so.2,libzfs.so.2,librt.so.1,libm.so.6,libpthread.so.0,libc.so.6
+/sbin/zhack libnvpair.so.1,libzpool.so.2,libzfs.so.2,libc.so.6
+/sbin/mount.zfs libnvpair.so.1,libuutil.so.1,libzfs.so.2,libpthread.so.0,libc.so.6
+/sbin/zinject libnvpair.so.1,libuutil.so.1,libzpool.so.2,libzfs.so.2,libpthread.so.0,libc.so.6
+/sbin/zpool libnvpair.so.1,libuutil.so.1,libzpool.so.2,libzfs.so.2,libm.so.6,libblkid.so.1,libuuid.so.1,libpthread.so.0,libc.so.6
+/sbin/zdb libnvpair.so.1,libuutil.so.1,libzpool.so.2,libzfs.so.2,librt.so.1,libpthread.so.0,libc.so.6
+/sbin/zpios libc.so.6
+/bin/raidz_test libzpool.so.2,librt.so.1,libpthread.so.0,libc.so.6
+/lib64/libuutil.so.1.0.1 librt.so.1,libuuid.so.1,libz.so.1,libpthread.so.0,libc.so.6,ld-linux-x86-64.so.2
+/lib64/libzfs.so.2.0.0 libzfs_core.so.1,libzpool.so.2,libnvpair.so.1,libuutil.so.1,librt.so.1,libm.so.6,libblkid.so.1,libudev.so.1,libz.so.1,libpthread.so.0,libc.so.6
+/lib64/libzfs_core.so.1.0.0 libnvpair.so.1,libuutil.so.1,libpthread.so.0,libc.so.6
+/lib64/libzpool.so.2.0.0 libnvpair.so.1,libuutil.so.1,librt.so.1,libdl.so.2,libz.so.1,libpthread.so.0,libc.so.6
+/lib64/libnvpair.so.1.0.1 libtirpc.so.3,libc.so.6
+/lib/udev/zvol_id libc.so.6

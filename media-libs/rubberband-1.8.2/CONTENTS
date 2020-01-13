@@ -1,0 +1,39 @@
+dir /usr
+dir /usr/lib64
+dir /usr/lib64/vamp
+obj /usr/lib64/vamp/vamp-rubberband.so b93e78a1eef0e4736fb6400ef70fdb69 1574393403
+obj /usr/lib64/vamp/vamp-rubberband.cat 197a9a1df5b6051b3071066594f7d8bf 1574393402
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/rubberband.pc 14252dfb26adccf3505acd8245d7517e 1574393402
+obj /usr/lib64/librubberband.so.2.1.1 e0bff8593f6bfdbe4213cf8c9a44fa7d 1574393403
+dir /usr/lib64/ladspa
+obj /usr/lib64/ladspa/ladspa-rubberband.so f3ad09cf4c6997ed51389b3563d7a69e 1574393403
+obj /usr/lib64/ladspa/ladspa-rubberband.cat 638e35d2947429696a39a1678bee5aba 1574393402
+dir /usr/include
+dir /usr/include/rubberband
+obj /usr/include/rubberband/rubberband-c.h 74369d687949e83ad129177afd46eb98 1574393402
+obj /usr/include/rubberband/RubberBandStretcher.h d54d360ab6e28e6cf901bb97f43097b0 1574393402
+dir /usr/lib32
+dir /usr/lib32/vamp
+obj /usr/lib32/vamp/vamp-rubberband.so fd97bfceb5a0dc61255aedff83fd1ab1 1574393403
+obj /usr/lib32/vamp/vamp-rubberband.cat 197a9a1df5b6051b3071066594f7d8bf 1574393402
+dir /usr/lib32/pkgconfig
+obj /usr/lib32/pkgconfig/rubberband.pc 14252dfb26adccf3505acd8245d7517e 1574393402
+obj /usr/lib32/librubberband.so.2.1.1 8ab5339ae6a92fd28acb4ceb60c9f87d 1574393403
+dir /usr/lib32/ladspa
+obj /usr/lib32/ladspa/ladspa-rubberband.so 88ddf7fae73201bd6971a792896422f8 1574393403
+obj /usr/lib32/ladspa/ladspa-rubberband.cat 638e35d2947429696a39a1678bee5aba 1574393402
+dir /usr/bin
+obj /usr/bin/rubberband 1da3008f0f1068deed5ca430654699a1 1574393403
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/rubberband-1.8.2
+obj /usr/share/doc/rubberband-1.8.2/CHANGELOG.bz2 c8c88c1b218850d7f569614fe735eabe 1574393402
+obj /usr/share/doc/rubberband-1.8.2/README.txt.bz2 a0357e55ac50737fd0058770c0ed42b7 1574393402
+dir /usr/share/ladspa
+dir /usr/share/ladspa/rdf
+obj /usr/share/ladspa/rdf/ladspa-rubberband.rdf 8e3128daf680e5a7824ba823dfe1788f 1574393402
+sym /usr/lib32/librubberband.so.2 -> librubberband.so.2.1.1 1574393410
+sym /usr/lib32/librubberband.so -> librubberband.so.2.1.1 1574393410
+sym /usr/lib64/librubberband.so.2 -> librubberband.so.2.1.1 1574393410
+sym /usr/lib64/librubberband.so -> librubberband.so.2.1.1 1574393410
