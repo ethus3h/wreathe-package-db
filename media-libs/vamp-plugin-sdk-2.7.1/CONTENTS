@@ -1,106 +1,69 @@
 dir /usr
 dir /usr/lib64
-obj /usr/lib64/libvamp-sdk.la 5d02927d4f90453c9a28a81f4e0bb879 1528854263
-obj /usr/lib64/libvamp-sdk.so.2.7.0 74ce19081985ff85b3309b782e4139ad 1528854264
+obj /usr/lib64/libvamp-sdk.la 5d02927d4f90453c9a28a81f4e0bb879 1574393341
+obj /usr/lib64/libvamp-sdk.so.2.7.0 63cc5b9065167ffb4e36916b004c5bf5 1574393342
 dir /usr/lib64/vamp
-obj /usr/lib64/vamp/vamp-example-plugins.n3 6d4e1da5bb1e9e2c7b3f33099989d2ed 1528854263
-obj /usr/lib64/vamp/vamp-example-plugins.cat 956f975c13f1e35c56cb1d028d51b91e 1528854263
-obj /usr/lib64/vamp/vamp-example-plugins.so a850262c1909e14cd8fe2a0b5bbc9416 1528854264
+obj /usr/lib64/vamp/vamp-example-plugins.n3 6d4e1da5bb1e9e2c7b3f33099989d2ed 1574393341
+obj /usr/lib64/vamp/vamp-example-plugins.cat 956f975c13f1e35c56cb1d028d51b91e 1574393341
+obj /usr/lib64/vamp/vamp-example-plugins.so cec2a17477ed317b6b60dca9196c58bc 1574393342
 dir /usr/lib64/pkgconfig
-obj /usr/lib64/pkgconfig/vamp-sdk.pc 6fb62af8696cf3355d60d92784a02202 1528854263
-obj /usr/lib64/pkgconfig/vamp-hostsdk.pc 7f0652ba3cb4e4b1726317d0d596c2c1 1528854263
-obj /usr/lib64/pkgconfig/vamp.pc 0cd73bfdd86da879d2ba7c1ca7253e0b 1528854263
-obj /usr/lib64/libvamp-hostsdk.la 752df83b2197f180e2b8b8e13793febd 1528854263
-obj /usr/lib64/libvamp-hostsdk.a ebdecbee5ef1b0beae7a17f24544fa84 1528854264
-obj /usr/lib64/libvamp-sdk.a d60dca936b39cc33a63e3f3999876fa2 1528854264
-sym /usr/lib64/libvamp-sdk.so.2 -> libvamp-sdk.so.2.7.0 1528854267
-sym /usr/lib64/libvamp-sdk.so -> libvamp-sdk.so.2.7.0 1528854267
-obj /usr/lib64/libvamp-hostsdk.so.3.7.0 82636733116a445adb9bd904d7650ff8 1528854264
+obj /usr/lib64/pkgconfig/vamp-sdk.pc 6fb62af8696cf3355d60d92784a02202 1574393341
+obj /usr/lib64/pkgconfig/vamp-hostsdk.pc 7f0652ba3cb4e4b1726317d0d596c2c1 1574393341
+obj /usr/lib64/pkgconfig/vamp.pc 0cd73bfdd86da879d2ba7c1ca7253e0b 1574393341
+obj /usr/lib64/libvamp-hostsdk.la 752df83b2197f180e2b8b8e13793febd 1574393341
+sym /usr/lib64/libvamp-hostsdk.so.3 -> libvamp-hostsdk.so.3.7.0 1574393348
+sym /usr/lib64/libvamp-hostsdk.so -> libvamp-hostsdk.so.3.7.0 1574393348
+sym /usr/lib64/libvamp-sdk.so.2 -> libvamp-sdk.so.2.7.0 1574393348
+sym /usr/lib64/libvamp-sdk.so -> libvamp-sdk.so.2.7.0 1574393348
+obj /usr/lib64/libvamp-hostsdk.so.3.7.0 d685986d3389712ae75a6c84f99fe335 1574393342
 dir /usr/include
 dir /usr/include/vamp-sdk
-obj /usr/include/vamp-sdk/plugguard.h a9e99e4b8d793947199a0b8549beeff3 1528854263
-obj /usr/include/vamp-sdk/vamp-sdk.h a5328529807bc40775979de7a431007f 1528854263
-obj /usr/include/vamp-sdk/FFT.h 3875859d4395b1f8909e15b04778713a 1528854263
-obj /usr/include/vamp-sdk/PluginBase.h c2714aad14611fd8c9749ecd52fa922c 1528854263
-obj /usr/include/vamp-sdk/Plugin.h c5623da2c87e511fd5cf4d8bb80392e8 1528854263
-obj /usr/include/vamp-sdk/PluginAdapter.h 9f21c25cecca26af4e740325df858c3b 1528854263
-obj /usr/include/vamp-sdk/RealTime.h a17db0fd908c706b2d63714edad8a624 1528854263
+obj /usr/include/vamp-sdk/plugguard.h a9e99e4b8d793947199a0b8549beeff3 1574393341
+obj /usr/include/vamp-sdk/vamp-sdk.h a5328529807bc40775979de7a431007f 1574393341
+obj /usr/include/vamp-sdk/FFT.h 3875859d4395b1f8909e15b04778713a 1574393341
+obj /usr/include/vamp-sdk/PluginBase.h c2714aad14611fd8c9749ecd52fa922c 1574393341
+obj /usr/include/vamp-sdk/Plugin.h c5623da2c87e511fd5cf4d8bb80392e8 1574393341
+obj /usr/include/vamp-sdk/PluginAdapter.h 9f21c25cecca26af4e740325df858c3b 1574393341
+obj /usr/include/vamp-sdk/RealTime.h a17db0fd908c706b2d63714edad8a624 1574393341
 dir /usr/include/vamp
-obj /usr/include/vamp/vamp.h 662f7a084140249bea68926fcd0b8632 1528854263
+obj /usr/include/vamp/vamp.h 662f7a084140249bea68926fcd0b8632 1574393341
 dir /usr/include/vamp-hostsdk
-obj /usr/include/vamp-hostsdk/hostguard.h bbb6b63bd62905878b8bb5ae933267bb 1528854263
-obj /usr/include/vamp-hostsdk/vamp-hostsdk.h 702a8547b0feb5e929f42d538fe13445 1528854263
-obj /usr/include/vamp-hostsdk/PluginLoader.h fb4942b1fc499d4eb262aba859f23380 1528854263
-obj /usr/include/vamp-hostsdk/host-c.h 8f0e50ba0a23a4c842b65a79442283e5 1528854263
-obj /usr/include/vamp-hostsdk/PluginInputDomainAdapter.h a8112fce40f3fcbdcc99ae08c1ed0daa 1528854263
-obj /usr/include/vamp-hostsdk/PluginBufferingAdapter.h ad07763ae14980dc5795802d20e5ba81 1528854263
-obj /usr/include/vamp-hostsdk/PluginChannelAdapter.h 19e38faf9f44da9e4b87470d998a3e0a 1528854263
-obj /usr/include/vamp-hostsdk/PluginHostAdapter.h 41faf9cc5e22b44c660eced65874012c 1528854263
-obj /usr/include/vamp-hostsdk/PluginSummarisingAdapter.h cd7a73248ae4b8ce98cca6a0385c01e9 1528854263
-obj /usr/include/vamp-hostsdk/PluginBase.h 966f82904d29bf966fcb911c6a2c2997 1528854263
-obj /usr/include/vamp-hostsdk/Plugin.h 346a4079ec6e7c078b7acd812520ce1c 1528854263
-obj /usr/include/vamp-hostsdk/RealTime.h 0bc9676b1727e02ec427686841cd88a8 1528854263
-obj /usr/include/vamp-hostsdk/PluginWrapper.h 7ef709c54e2bad9c56117b3a662728e6 1528854263
+obj /usr/include/vamp-hostsdk/hostguard.h bbb6b63bd62905878b8bb5ae933267bb 1574393341
+obj /usr/include/vamp-hostsdk/vamp-hostsdk.h 702a8547b0feb5e929f42d538fe13445 1574393341
+obj /usr/include/vamp-hostsdk/PluginLoader.h fb4942b1fc499d4eb262aba859f23380 1574393341
+obj /usr/include/vamp-hostsdk/host-c.h 8f0e50ba0a23a4c842b65a79442283e5 1574393341
+obj /usr/include/vamp-hostsdk/PluginInputDomainAdapter.h a8112fce40f3fcbdcc99ae08c1ed0daa 1574393341
+obj /usr/include/vamp-hostsdk/PluginBufferingAdapter.h ad07763ae14980dc5795802d20e5ba81 1574393341
+obj /usr/include/vamp-hostsdk/PluginChannelAdapter.h 19e38faf9f44da9e4b87470d998a3e0a 1574393341
+obj /usr/include/vamp-hostsdk/PluginHostAdapter.h 41faf9cc5e22b44c660eced65874012c 1574393341
+obj /usr/include/vamp-hostsdk/PluginSummarisingAdapter.h cd7a73248ae4b8ce98cca6a0385c01e9 1574393341
+obj /usr/include/vamp-hostsdk/PluginBase.h 966f82904d29bf966fcb911c6a2c2997 1574393341
+obj /usr/include/vamp-hostsdk/Plugin.h 346a4079ec6e7c078b7acd812520ce1c 1574393341
+obj /usr/include/vamp-hostsdk/RealTime.h 0bc9676b1727e02ec427686841cd88a8 1574393341
+obj /usr/include/vamp-hostsdk/PluginWrapper.h 7ef709c54e2bad9c56117b3a662728e6 1574393341
 dir /usr/lib32
-obj /usr/lib32/libvamp-sdk.la 04d44029fec2afe3d727a524dd5fa039 1528854262
-obj /usr/lib32/libvamp-sdk.so.2.7.0 a56409dfe1498f64926b8703aadcb755 1528854264
+obj /usr/lib32/libvamp-sdk.la 04d44029fec2afe3d727a524dd5fa039 1574393340
+obj /usr/lib32/libvamp-sdk.so.2.7.0 59f7d8878d5aa09f06edfc2474b7ec47 1574393342
 dir /usr/lib32/vamp
-obj /usr/lib32/vamp/vamp-example-plugins.n3 6d4e1da5bb1e9e2c7b3f33099989d2ed 1528854262
-obj /usr/lib32/vamp/vamp-example-plugins.cat 956f975c13f1e35c56cb1d028d51b91e 1528854262
-obj /usr/lib32/vamp/vamp-example-plugins.so 1d6ff079449c1b67bcf3f265e0a01259 1528854264
+obj /usr/lib32/vamp/vamp-example-plugins.n3 6d4e1da5bb1e9e2c7b3f33099989d2ed 1574393340
+obj /usr/lib32/vamp/vamp-example-plugins.cat 956f975c13f1e35c56cb1d028d51b91e 1574393340
+obj /usr/lib32/vamp/vamp-example-plugins.so 28d921372089dfd2f64d19db68a9226a 1574393342
 dir /usr/lib32/pkgconfig
-obj /usr/lib32/pkgconfig/vamp-sdk.pc 6fb62af8696cf3355d60d92784a02202 1528854262
-obj /usr/lib32/pkgconfig/vamp-hostsdk.pc 7f0652ba3cb4e4b1726317d0d596c2c1 1528854262
-obj /usr/lib32/pkgconfig/vamp.pc 0cd73bfdd86da879d2ba7c1ca7253e0b 1528854262
-obj /usr/lib32/libvamp-hostsdk.la 9144ed2314c9ce346196a47091fae221 1528854262
-obj /usr/lib32/libvamp-hostsdk.a 480acafd7cfdd48ac16487786f0065f2 1528854264
-obj /usr/lib32/libvamp-sdk.a 7f1236b9d0ce3c8666ca254089df6782 1528854264
-sym /usr/lib32/libvamp-sdk.so.2 -> libvamp-sdk.so.2.7.0 1528854267
-sym /usr/lib32/libvamp-sdk.so -> libvamp-sdk.so.2.7.0 1528854267
-obj /usr/lib32/libvamp-hostsdk.so.3.7.0 830c29b6825d64bff22ed75cab7cb176 1528854264
+obj /usr/lib32/pkgconfig/vamp-sdk.pc 6fb62af8696cf3355d60d92784a02202 1574393340
+obj /usr/lib32/pkgconfig/vamp-hostsdk.pc 7f0652ba3cb4e4b1726317d0d596c2c1 1574393340
+obj /usr/lib32/pkgconfig/vamp.pc 0cd73bfdd86da879d2ba7c1ca7253e0b 1574393340
+obj /usr/lib32/libvamp-hostsdk.la 9144ed2314c9ce346196a47091fae221 1574393340
+sym /usr/lib32/libvamp-hostsdk.so.3 -> libvamp-hostsdk.so.3.7.0 1574393348
+sym /usr/lib32/libvamp-hostsdk.so -> libvamp-hostsdk.so.3.7.0 1574393348
+sym /usr/lib32/libvamp-sdk.so.2 -> libvamp-sdk.so.2.7.0 1574393348
+sym /usr/lib32/libvamp-sdk.so -> libvamp-sdk.so.2.7.0 1574393348
+obj /usr/lib32/libvamp-hostsdk.so.3.7.0 89e183b27db725812b4098ad2d517b99 1574393342
 dir /usr/bin
-obj /usr/bin/vamp-rdf-template-generator c003108244c7f18578a28dabdf2f8be2 1528854264
-obj /usr/bin/vamp-simple-host 0e695e00695a27993e26b234f0b85c95 1528854264
+obj /usr/bin/vamp-rdf-template-generator e00351a323813adcea9ec20c61d04723 1574393342
+obj /usr/bin/vamp-simple-host 17ae39fa25e3feef0534929ad428570a 1574393342
 dir /usr/share
 dir /usr/share/doc
 dir /usr/share/doc/vamp-plugin-sdk-2.7.1
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/CHANGELOG.bz2 e23ca39bc88edc15ce094d551500cd88 1528854263
-dir /usr/share/doc/vamp-plugin-sdk-2.7.1/html
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/navtree.css 279db12b0ba365d58f9cdc99fd317489 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/sync_on.png b1cc394ed471b4ab97be14f1e1a7cefa 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/tabs.css 5e5f3c33293bfd03386e623b17ef5e7b 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/dynsections.js 716ba7eeed4a7f59381f23caa67590a4 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/resize.js 6740b0c3cbd304ee4d8ef80022a3f764 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/nav_h.png 935f050f10b7fe425509491f207f574f 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/folderclosed.png 0b7046d86103299b2a0306ddf33ec004 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/doxygen.png 4d8b8c8f1a68a4f320da8294a085f251 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/menudata.js d744c47365c36019fe72a3b5c36e0c8f 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/index.html 5d4641f79d987188609e31a4902ba152 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/menu.js b3cacc16864e59588290feef722b9bc3 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/bc_s.png ceaaae73746596a7519cfe782d8aa065 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/open.png 468c228548b4a85dd54d544810bd0edd 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/navtree.js 97c19d9718feacc9cf96f168a3a3f2a0 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/splitbar.png 8d590f70c25a81e71b99f6c8246b067e 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/tab_h.png 38c6c507f0ab91770a0ed9a668a03551 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/graph_legend.png ca2007972e324283843667840fae217a 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/doc.png 31ed05886f30a2be256e9df86a25586f 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/closed.png 3fa180a1c853204ee64235708fb8e162 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/doxygen.css ec4deb6eb4c826b427a90f3ab5ea839b 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/nav_g.png 6cf157aabeb91ae637a6d770b07c1011 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/navtreedata.js 51349319b8ec20ab44654672d487d57f 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/jquery.js 6e2b29334385c06816c0df7b9680e54f 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/graph_legend.html 169ad69ad3c98bd1b6b623524a068daa 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/tab_s.png d5a3e094c590d5113232b74cd902f58f 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/sync_off.png 12a5e283812e092b5a74b0d47e95e9a9 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/bdwn.png 6249334b2e7fc28090f26abeb328eb78 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/nav_f.png 4e4d8be23c6d6bbe0184fd891ff59e00 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/tab_b.png c7cd16cfabe8a14b9848f813df53fc2e 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/folderopen.png 9ff4412a8e93e25320b9e260951c6a04 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/tab_a.png 2a5327b5dfc494fd8688fd887991cdab 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/html/navtreeindex0.js bd9734b4c4d878ae8c8aef1422d1bd3d 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/README.bz2 82cf9a28a6b3fc293c820a11cf14f8bf 1528854263
-obj /usr/share/doc/vamp-plugin-sdk-2.7.1/README.compat.bz2 dca0a00d53240eaa471bb9b5b6bc9aea 1528854263
-sym /usr/lib32/libvamp-hostsdk.so -> libvamp-hostsdk.so.3.7.0 1528854267
-sym /usr/lib32/libvamp-hostsdk.so.3 -> libvamp-hostsdk.so.3.7.0 1528854267
-sym /usr/lib64/libvamp-hostsdk.so -> libvamp-hostsdk.so.3.7.0 1528854267
-sym /usr/lib64/libvamp-hostsdk.so.3 -> libvamp-hostsdk.so.3.7.0 1528854267
+obj /usr/share/doc/vamp-plugin-sdk-2.7.1/CHANGELOG.bz2 e23ca39bc88edc15ce094d551500cd88 1574393341
+obj /usr/share/doc/vamp-plugin-sdk-2.7.1/README.bz2 82cf9a28a6b3fc293c820a11cf14f8bf 1574393341
+obj /usr/share/doc/vamp-plugin-sdk-2.7.1/README.compat.bz2 dca0a00d53240eaa471bb9b5b6bc9aea 1574393341

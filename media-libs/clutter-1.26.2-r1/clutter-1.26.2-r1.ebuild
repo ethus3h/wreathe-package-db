@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -13,6 +13,7 @@ LICENSE="LGPL-2.1+ FDL-1.1+"
 SLOT="1.0"
 
 IUSE="aqua debug doc egl gtk +introspection test wayland X"
+RESTRICT="!test? ( test )"
 REQUIRED_USE="
 	|| ( aqua wayland X )
 	wayland? ( egl )
@@ -37,7 +38,7 @@ RDEPEND="
 	egl? (
 		>=dev-libs/libinput-0.19.0
 		media-libs/cogl[gles2,kms]
-		>=virtual/libgudev-136
+		>=dev-libs/libgudev-136
 		x11-libs/libxkbcommon
 	)
 	gtk? ( >=x11-libs/gtk+-3.22.6:3[aqua?] )
@@ -54,6 +55,7 @@ RDEPEND="
 		x11-libs/gdk-pixbuf:2 )
 "
 DEPEND="${RDEPEND}
+	dev-util/glib-utils
 	>=dev-util/gtk-doc-am-1.20
 	>=sys-devel/gettext-0.17
 	virtual/pkgconfig

@@ -1,13 +1,14 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 if [[ "${PV}" == "9999" ]]; then
-	inherit git-r3
+	inherit git-r3 xdg-utils
 	EGIT_REPO_URI="https://github.com/ethus3h/${PN}.git"
 	KEYWORDS=""
 else
+	inherit xdg-utils
 	onboardEmojiRevision="47314d5aff654d8e315552fb106cf82508915747"
 	SRC_URI="https://github.com/ethus3h/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz
 		https://github.com/qnub/onboard-emoji/archive/$onboardEmojiRevision.zip -> onboard-emoji-git-$onboardEmojiRevision.zip"
@@ -23,20 +24,32 @@ RDEPEND="app-misc/ember-shared"
 
 src_prepare() {
 	if [[ "${PV}" != "9999" ]]; then
-		rm -rv "${S}/build/onscreen-keyboard/onboard-emoji"
+		rm -rv "${S}/build/onscreen-keyboard/onboard-emoji" || die
 		mv "${WORKDIR}/onboard-emoji-$onboardEmojiRevision" "${S}/build/onscreen-keyboard/onboard-emoji"
 	fi
-	eapply_user
-	rm -rv var/lib/portage
+	default
+	rm -r ./*.md .git .gitmodules .egup.* || die
+	# Not needed to be installed
+	rm -r debian-package-generate || die
+	rm -rv Makefile var || die
+	# Provided by wreathe-base-special
+	rm -rv ./etc/sandbox.d ./etc/security ./etc/modules-load.d || die
 }
 
 src_install() {
-	rm -r .git .gitmodules build
-	GLOBIGNORE="README.md:.git:.gitattributes:.gitconfig:usr:man:Makefile:build:.egup.tags:Wreathe"
+	rm -r build || die
+	GLOBIGNORE="README.md:.git:.gitattributes:.gitconfig:usr:Makefile:build:.egup.tags:Wreathe"
 	insinto /
 	doins -r ./*
+	unset GLOBIGNORE
 
 	fperms +x /etc/bash/bashrc.d/wreathe.sh
+
+	dodoc usr/share/doc/wreathe-base/*
+	rm -rv usr/share/doc
+
+	doman usr/share/man/man1/*
+	rm -rv usr/man
 
 	GLOBIGNORE="usr/bin"
 	insinto /usr/
@@ -69,8 +82,6 @@ src_install() {
 
 	unset GLOBIGNORE
 
-	doman man/*
-
 	# Provide symlinks to provide compatibility with not-yet-updated apps looking for Mono 2
 	dosym /usr/bin/mcs /usr/bin/gmcs
 	dosym /usr/bin/mono /usr/bin/cli
@@ -81,4 +92,12 @@ src_install() {
 	dosym "$cgifile" /usr/bin/php-cgi
 
 	fperms +x /etc/bash/bashrc.d/wreathe.sh
+}
+
+pkg_postinst() {
+	xdg_desktop_database_update
+}
+
+pkg_postrm() {
+	xdg_desktop_database_update
 }
